@@ -8,7 +8,10 @@ Something I've been dancing with for a while (hence the "samba")
 
 
 # Header data
-File headers are 33 or 34 pointers
+DOA2 arcade file headers have 33 pointers; 
+
+DOA2 console ports added an extra section (0x84) for simplified reversal inputs for a total of 34 pointers - (this pointer is nulled out in DOA4). 
+
 
 Offset	|	Address	|	Length	|	Description	|
 -----	|	-----	|	-----	|	-----	|
@@ -81,7 +84,7 @@ Offset	|	Address	|	Length	|	Description	|
 
 
 # CREDITS AND THANKS
- Very little of the knowledge here is my own, I'm building on top of the works of others and I am very grateful for everything they've shared. 
+ Very little of the knowledge here is my own, I'm consolidating and building on top of the works of others and I am very grateful for everything they've shared. 
 
 Shoutouts to 
 ### DEE4DOA
