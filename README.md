@@ -43,7 +43,31 @@ Address	|	Length	|	Description	|
 0x84	|	0x04	|	“CONSOLE HOLDS”	|
 
 
-# Character IDs
+# Buttons
+
+|	BUTTON	|	DOA2 Arcade + DC	|	DOA 3 HEX	|	DOA2U HEX	|
+|	-----	|	-----	|	-----	|	-----	|
+|	LEFT	|	80	|	80	|	80	|
+|	RIGHT	|	40	|	40	|	40	|
+|	DOWN	|	10	|	10	|	10	|
+|	UP	|	20	|	20	|	20	|
+|	1	|	90	|	90	|	90	|
+|	7	|	A0	|	A0	|	A0	|
+|	3	|	50	|	50	|	50	|
+|	9	|	60	|	60	|	60	|
+|	PUNCH	|		|	8A 00	|	85 00	|
+|	3P	|		|	8B 00	|	86 00	|
+|	2P	|		|	8C 00	|	87 00	|
+|	KICK	|		|	8D 00	|	88 00	|
+|	3K	|		|	8E 00	|	89 00	|
+|	2K	|		|	8F 00	|	8A 00	|
+|	BACK-TURNED PUNCH	|		|	90 00	|	8B 00	|
+|	BT 2P	|		|	91 00	|	8C 00	|
+|	BT LONG 2P	|		|	92 00	|	8D 00	|
+|	BACK-TURNED KICK	|		|	93 00	|	8E 00	|
+|	BT 2K	|		|	94 00	|	8F 00	|
+|	BT LONG 2K	|		|	95 00	|	90 00	|
+
 
 
 
