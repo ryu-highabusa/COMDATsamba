@@ -1,7 +1,8 @@
 # COMDAT samba
 ## (COMBO DATA)
 Reverse engineering the "DEAD OR ALIVE" COMDAT File Format (character.bin)
-Something I've been dancing with for a while (hence the ~samba~)
+
+Something I've been dancing with for a while (hence the "samba")
 
 
 
@@ -13,7 +14,7 @@ Offset	|	Address	|	Length	|	Description	|
 -----	|	-----	|	-----	|	-----	|
 1	|	0x00	|	0x04	|	MOVE-DEFINITIONS	|
 2	|	0x04	|	0x04	|	INPUT-DEFINITONS OFFSET TABLE	|
-3	|	0x08	|	0x04	|	MOVE PROPERTIES (NORMAL,COUNTER,GUARD,CROUCHING,AIR, DAMAGE, FRAME DATA,OPEN/CLOSED STANCE)	|
+3	|	0x08	|	0x04	|	MOVE PROPERTIES (NORMAL, COUNTER, GUARD, CROUCHING, AIR, DAMAGE, FRAME DATA, OPEN-CLOSED STANCE)	|
 4	|	0x0c	|	0x04	|	HOLDS DEFINITIONS (WHICH MOVE-DEF SLOT TO USE FOR EACH HOLD)	|
 5	|	0x10	|	0x04	|	??	|
 6	|	0x14	|	0x04	|	THROWS??	|
@@ -45,6 +46,7 @@ Offset	|	Address	|	Length	|	Description	|
 32	|	0x7c	|	0x04	|	??	|
 33	|	0x80	|	0x04	|	??	|
 34	|	0x84	|	0x04	|	CONSOLE HOLDS??	|
+
 
 
 
