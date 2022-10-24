@@ -43,13 +43,20 @@ Address	|	Length	|	Description	|
 0x84	|	0x04	|	“CONSOLE HOLDS”	|
 
 
+# Character IDs
+
+
+
+
 # CREDITS AND THANKS
-## Very little of the knowledge here is my own, I'm building on top of the works of others and I am very grateful for everything they've shared. Shoutouts to 
+ Very little of the knowledge here is my own, I'm building on top of the works of others and I am very grateful for everything they've shared. 
+
+Shoutouts to 
 ### DEE4DOA
-### https://www.freestepdodge.com/threads/dead-or-alive-2-modding-tutorials-and-discussion.7039/#post-366830
-### https://www.freestepdodge.com/threads/dead-or-alive-3-custom-skins-costumes-thread.4698/post-366800
+https://www.freestepdodge.com/threads/dead-or-alive-2-modding-tutorials-and-discussion.7039/#post-366830
+https://www.freestepdodge.com/threads/dead-or-alive-3-custom-skins-costumes-thread.4698/post-366800
 ### USAGIZ
-### https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/#post-136173
+https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/#post-136173
 ### GULTIGARGAR
-### https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
-### https://www.freestepdodge.com/threads/gultigargar-hacked-tengu-to-be-more-playable.7045/
+https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
+https://www.freestepdodge.com/threads/gultigargar-hacked-tengu-to-be-more-playable.7045/
