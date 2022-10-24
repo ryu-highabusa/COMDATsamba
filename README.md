@@ -9,7 +9,7 @@ Address	|	Length	|	Description	|
 -----	|	-----	|	-----	|
 0x00	|	0x04	|	MOVE-DEFINITIONS	|
 0x04	|	0x04	|	INPUT-DEFINITONS OFFSET TABLE	|
-0x08	|	0x04	|	MOVE PROPERTIES (NORMAL,COUNTER,GUARD,CROUCHING,AIR,DAMAGE,FRAME_DATA,OPEN/CLOSED_STANCE)	|
+0x08	|	0x04	|	MOVE PROPERTIES (NORMAL, COUNTER, GUARD, CROUCHING, AIR, DAMAGE, FRAME DATA, OPEN or CLOSED STANCE)	|
 0x0c	|	0x04	|	HOLD DEFINITIONS (WHICH MOVE-DEF SLOT TO USE FOR EACH HOLD)	|
 0x10	|	0x04	|	???	|
 0x14	|	0x04	|	THROWS?	|
@@ -41,3 +41,15 @@ Address	|	Length	|	Description	|
 0x7c	|	0x04	|	???	|
 0x80	|	0x04	|	???	|
 0x84	|	0x04	|	“CONSOLE HOLDS”	|
+
+
+# CREDITS AND THANKS
+## Very little of the knowledge here is my own, I'm building on top of the works of others and I am very grateful for everything they've shared. Shoutouts to 
+### DEE4DOA
+### https://www.freestepdodge.com/threads/dead-or-alive-2-modding-tutorials-and-discussion.7039/#post-366830
+### https://www.freestepdodge.com/threads/dead-or-alive-3-custom-skins-costumes-thread.4698/post-366800
+### USAGIZ
+### https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/#post-136173
+### GULTIGARGAR
+### https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
+### https://www.freestepdodge.com/threads/gultigargar-hacked-tengu-to-be-more-playable.7045/
