@@ -13,9 +13,9 @@ Address	|	Length	|	Description	|
 0x0c	|	0x04	|	Holds Definitions (which move-def slot to use for each hold)	|
 0x10	|	0x04	|	???	|
 0x14	|	0x04	|	THROWS?	|
-0x18	|	0x04	|	Throw Positioning / damage pointers	|
-0x1c	|	0x04	|	Hold positioning / damage pointers	|
-0x20	|	0x04	|	Character-Specific Property Definitions	|
+0x18	|	0x04	|	THROW POSITIONING / DAMAGE POINTERS	|
+0x1c	|	0x04	|	HOLD POSITIONING / DAMAGE POINTERS	|
+0x20	|	0x04	|	CHARACTER-SPECIFIC PROPERTY DEFINITIONS	|
 0x24	|	0x04	|		|
 0x28	|	0x04	|		|
 0x2c	|	0x04	|		|
@@ -28,7 +28,7 @@ Address	|	Length	|	Description	|
 0x48	|	0x04	|	???	|
 0x4c	|	0x04	|	???	|
 0x50	|	0x04	|	???	|
-0x54	|	0x04	|	Anim-Def Pointer Table	|
+0x54	|	0x04	|	ANIM-DEF POINTER TABLE	|
 0x58	|	0x04	|	PADDING	|
 0x5c	|	0x04	|	???	|
 0x60	|	0x04	|	???	|
