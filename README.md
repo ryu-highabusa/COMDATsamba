@@ -1,46 +1,51 @@
 # COMDAT samba
 ## (COMBO DATA)
 Reverse engineering the "DEAD OR ALIVE" COMDAT File Format (character.bin)
+Something I've been dancing with for a while (hence the ~samba~)
+
+
 
 
 # Header data
+File headers are 33 or 34 pointers
 
-Address	|	Length	|	Description	|
------	|	-----	|	-----	|
-0x00	|	0x04	|	MOVE-DEFINITIONS	|
-0x04	|	0x04	|	INPUT-DEFINITONS OFFSET TABLE	|
-0x08	|	0x04	|	MOVE PROPERTIES (NORMAL, COUNTER, GUARD, CROUCHING, AIR, DAMAGE, FRAME DATA, OPEN or CLOSED STANCE)	|
-0x0c	|	0x04	|	HOLD DEFINITIONS (WHICH MOVE-DEF SLOT TO USE FOR EACH HOLD)	|
-0x10	|	0x04	|	???	|
-0x14	|	0x04	|	THROWS?	|
-0x18	|	0x04	|	THROW POSITIONING / DAMAGE POINTERS	|
-0x1c	|	0x04	|	HOLD POSITIONING / DAMAGE POINTERS	|
-0x20	|	0x04	|	CHARACTER-SPECIFIC PROPERTY DEFINITIONS	|
-0x24	|	0x04	|		|
-0x28	|	0x04	|		|
-0x2c	|	0x04	|		|
-0x30	|	0x04	|		|
-0x34	|	0x04	|	???	|
-0x38	|	0x04	|	???	|
-0x3c	|	0x04	|	???	|
-0x40	|	0x04	|	???	|
-0x44	|	0x04	|	???	|
-0x48	|	0x04	|	???	|
-0x4c	|	0x04	|	???	|
-0x50	|	0x04	|	???	|
-0x54	|	0x04	|	ANIM-DEF POINTER TABLE	|
-0x58	|	0x04	|	PADDING	|
-0x5c	|	0x04	|	???	|
-0x60	|	0x04	|	???	|
-0x64	|	0x04	|	???	|
-0x68	|	0x04	|	???	|
-0x6c	|	0x04	|	???	|
-0x70	|	0x04	|	???	|
-0x74	|	0x04	|	???	|
-0x78	|	0x04	|	???	|
-0x7c	|	0x04	|	???	|
-0x80	|	0x04	|	???	|
-0x84	|	0x04	|	“CONSOLE HOLDS”	|
+Address	|	Length	|	Offset	|	Description	|
+-----	|	-----	|	-----	|	-----	|
+0x00	|	0x04	|	1	|	MOVE-DEFINITIONS	|
+0x04	|	0x04	|	2	|	INPUT-DEFINITONS OFFSET TABLE	|
+0x08	|	0x04	|	3	|	MOVE PROPERTIES (NORMAL,COUNTER,GUARD,CROUCHING,AIR, DAMAGE, FRAME DATA,OPEN/CLOSED STANCE)	|
+0x0c	|	0x04	|	4	|	HOLDS DEFINITIONS (WHICH MOVE-DEF SLOT TO USE FOR EACH HOLD)	|
+0x10	|	0x04	|	5	|	??	|
+0x14	|	0x04	|	6	|	THROWS??	|
+0x18	|	0x04	|	7	|	THROW POSITIONING / DAMAGE POINTERS	|
+0x1c	|	0x04	|	8	|	HOLD POSITIONING / DAMAGE POINTERS	|
+0x20	|	0x04	|	9	|	CHARACTER-SPECIFIC PROPERTY DEFINITIONS	|
+0x24	|	0x04	|	10	|	??	|
+0x28	|	0x04	|	11	|	??	|
+0x2c	|	0x04	|	12	|	??	|
+0x30	|	0x04	|	13	|	??	|
+0x34	|	0x04	|	14	|	??	|
+0x38	|	0x04	|	15	|	??	|
+0x3c	|	0x04	|	16	|	??	|
+0x40	|	0x04	|	17	|	??	|
+0x44	|	0x04	|	18	|	??	|
+0x48	|	0x04	|	19	|	??	|
+0x4c	|	0x04	|	20	|	HITBOX DATA	|
+0x50	|	0x04	|	21	|	FRAME DATA??	|
+0x54	|	0x04	|	22	|	ANIM-DEF POINTER TABLE	|
+0x58	|	0x04	|	23	|	PADDING	|
+0x5c	|	0x04	|	24	|	??	|
+0x60	|	0x04	|	25	|	??	|
+0x64	|	0x04	|	26	|	??	|
+0x68	|	0x04	|	27	|	??	|
+0x6c	|	0x04	|	28	|	??	|
+0x70	|	0x04	|	29	|	??	|
+0x74	|	0x04	|	30	|	??	|
+0x78	|	0x04	|	31	|	??	|
+0x7c	|	0x04	|	32	|	??	|
+0x80	|	0x04	|	33	|	??	|
+0x84	|	0x04	|	34	|	CONSOLE HOLDS??	|
+
 
 
 # Buttons
@@ -78,9 +83,27 @@ Address	|	Length	|	Description	|
 Shoutouts to 
 ### DEE4DOA
 https://www.freestepdodge.com/threads/dead-or-alive-2-modding-tutorials-and-discussion.7039/#post-366830
+
 https://www.freestepdodge.com/threads/dead-or-alive-3-custom-skins-costumes-thread.4698/post-366800
 ### USAGIZ
 https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/#post-136173
+
+0X00 - "Offset 1 MOVE-DEF" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-255778
+
+0X04 - "Offset 2 INPUT-DEF" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/page-9#post-255873
+
+0X08 - "Offset 3 PROPERTY TABLE" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-255778
+
+0x4c - "Offset 20 HITBOX DATA" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-367447
+
+0X54 - "Animation-Definitions Offset Table" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/page-9#post-256764
+
+Further Explanation of the Input-Def data chunk https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/page-9#post-255873
+
+
 ### GULTIGARGAR
 https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
+
+https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
+
 https://www.freestepdodge.com/threads/gultigargar-hacked-tengu-to-be-more-playable.7045/
