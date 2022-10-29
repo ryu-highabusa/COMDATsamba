@@ -56,7 +56,7 @@ Offset	|	Address	|	Length	|	Description	|
 
 # Buttons
 
-|	BUTTON	|	DOA2 Arcade + DC	|	DOA 3 HEX	|	DOA2U HEX	|
+|	BUTTON	|	DOA2 Arcade + DC	|	DOA3 HEX	|	DOA2U HEX	|
 |	-----	|	-----	|	-----	|	-----	|
 |	LEFT	|	80	|	80	|	80	|
 |	RIGHT	|	40	|	40	|	40	|
