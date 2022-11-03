@@ -1,5 +1,5 @@
-|	Rom	|	Address		File Address	|	Length (dec)	|	Length (hex)	Length (hex)	|	Description	|
-|	-----	|	-----	|	-----	|	-----	|	-----	-----	|	-----	|
+|Rom|Address|File Address|Length (dec)|Length (hex)|Description	|
+|-----|	-----	|	-----	|	-----	|	-----	-----	|	-----	|
 |	epr-22207.ic22	|	0x0000000	|	001E0000	|	29696	|	00007400	7400	|	anime_cm.bin	|
 |		|		|	001E7400	|	59360	|	0000E7E0	E7E0	|	zack.bin	|
 |		|		|	001F5BE0	|	57984	|	0000E280	E280	|	tina.bin	|
