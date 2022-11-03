@@ -1,6 +1,6 @@
 #	DOA2M Filelist
 
-|	Rom	|	Address	|		Address	|	Length (dec)	|	Length (hex)	|	Description	|
+|	Rom	|	Address	|	File Address	|	Length (dec)	|	Length (hex)	|	Description	|
 |	-----	|	-----	|		-----	|	-----	|	-----	|	-----	|
 |	doa2verm.ic22	|	0x0000000	|	0x001E0000	|	30400	|	000076C0	|	anime_cm.bin	|
 |	.	|	.	|	0x001E76C0	|	59360	|	0000E7E0	|	zack.bin	|
@@ -64,7 +64,7 @@
 |	.	|	.	|	0x003F89C0	|	15870	|	00003DFE	|	logo_sprite.bin	|
 |	.	|	.	|	0x003FC7C0	|	14400	|	00003840	|	free space?	|
 |	.	|	.	|	0x00400000	|	8388608	|	00800000	|	blank	|
-|	mpr-22100.ic1	|	0x0800000	|	0x00800000	|	1359600	|	0014BEF0	|	common.mot	|
+|	mpr-22100.ic1	|	0x0800000	|	0x00800000	|	1359600	|	0014BEF0	|	comon.mot	|
 |	.	|	.	|	0x0094BF00	|	1353164	|	0014A5CC	|	zack.mot	|
 |	.	|	.	|	0x00A964E0	|	1807440	|	001B9450	|	tina.mot	|
 |	.	|	.	|	0x00C4F940	|	1270508	|	001362EC	|	janlee.mot	|
