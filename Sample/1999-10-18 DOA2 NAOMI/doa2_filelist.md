@@ -1,4 +1,4 @@
-Rom	|		|	Address	|	Length (dec)	|	Length (hex)	Length (hex)	|	Description	|
+Rom	| Rom Space		|	Address	|	Length (dec)	|	Length (hex)	Length (hex)	|	Description	|
 -----	|	-----	|	-----	|	-----	|	-----	-----	|	-----	|
 ROM_LOAD("epr-22207.ic22",	|	0x0000000	|	001E0000	|	29696	|	00007400	7400	|	anime_cm.bin	|
 "	|		|	001E7400	|	59360	|	0000E7E0	E7E0	|	zack.bin	|
