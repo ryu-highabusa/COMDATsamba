@@ -1,3 +1,5 @@
+#DOA2.zip filelist
+
 Rom	|		|	Address	|	Length (dec)	|	Length (hex)	Length (hex)	|	Description	|
 -----	|	-----	|	-----	|	-----	|	-----	-----	|	-----	|
 ROM_LOAD("epr-22207.ic22",	|	0x0000000	|	001E0000	|	29696	|	00007400	7400	|	anime_cm.bin	|
