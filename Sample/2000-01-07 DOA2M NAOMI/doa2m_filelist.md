@@ -1,6 +1,6 @@
 #	DOA2M Filelist
 
-|	Rom	|	Address	|		Address	|	Length (dec)	|	Length (hex)	|	Description	|
+|	Rom	|	Address	|	File Address	|	Length (dec)	|	Length (hex)	|	Description	|
 |	-----	|	-----	|		-----	|	-----	|	-----	|	-----	|
 |	doa2verm.ic22	|	0x00000000	|	0x00000000	|	1280	|	00000500	|	header	|
 |	.	|	.	|	0x00000500	|	1860608	|	001C6400	|	encrypted ROM?	|
