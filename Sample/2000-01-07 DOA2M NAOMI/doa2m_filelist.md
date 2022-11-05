@@ -3,8 +3,8 @@
 |	Rom	|	Address	|	File Address	|	Length (dec)	|	Length (hex)	|	Description	|
 |	-----	|	-----	|		-----	|	-----	|	-----	|	-----	|
 |	doa2verm.ic22	|	0x00000000	|	0x00000000	|	1280	|	00000500	|	header	|
-|	.	|	.	|	0x00000500	|	1860608	|	001C6400	|	encrypted ROM?	|
-|	.	|	.	|	0x001C6900	|	77314	|	00012E02	|	entry point?	|
+|	.	|	.	|	0x00000500	|	1860608	|	001C6400	|	Main ROM (encrypted)	|
+|	.	|	.	|	0x001C6900	|	77314	|	00012E02	|	Boot ROM	|
 |	.	|	.	|	0x001D9702	|	26878	|	68FE	|	padding	|
 |	.	|	.	|	0x001E0000	|	30400	|	000076C0	|	anime_cm.bin	|
 |	.	|	.	|	0x001E76C0	|	59360	|	0000E7E0	|	zack.bin	|
