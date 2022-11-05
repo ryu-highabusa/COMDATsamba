@@ -3,7 +3,7 @@
 |	Rom	|	Address	|		File Address	|	Length (dec)	|	Length (hex)	|	Description	|
 |	-----	|	-----	|		-----	|	-----	|	-----	|	-----	|
 |	epr-22207.ic22	|	0x00000000	|	0x00000000	|	1280	|	00000500	|	header	|
-|	.	|	.	|	0x00000500	|	1838624	|	001C0E20	|	encryped ROM?	|
+|	.	|	.	|	0x00000500	|	1838624	|	001C0E20	|	encrypted ROM?	|
 |	.	|	.	|	0x001C1320	|	77314	|	00012E02	|	entry point?	|
 |	.	|	.	|	0x001D4122	|	48862	|	0000BEDE	|	padding	|
 |	.	|	.	|	0x001E0000	|	29696	|	00007400	|	anime_cm.bin	|
