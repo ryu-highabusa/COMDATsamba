@@ -3,8 +3,8 @@
 |	Rom	|	Address	|		File Address	|	Length (dec)	|	Length (hex)	|	Description	|
 |	-----	|	-----	|		-----	|	-----	|	-----	|	-----	|
 |	epr-22121a.ic22	|	0x00000000	|	0x00000000	|	1280	|	00000500	|	header	|
-|	.	|	.	|	0x00000500	|	1843680	|	001C21E0	|	encrypted ROM?	|
-|	.	|	.	|	0x001C26E0	|	77314	|	00012E02	|	entry point?	|
+|	.	|	.	|	0x00000500	|	1843680	|	001C21E0	|	Main ROM (encrypted)	|
+|	.	|	.	|	0x001C26E0	|	77314	|	00012E02	|	Boot ROM	|
 |	.	|	.	|	0x001D4122	|	43806	|	0000AB1E	|	padding	|
 |	.	|	.	|	0x001E0000	|	29696	|	00007400	|	anime_cm.bin	|
 |	.	|	.	|	0x001E7400	|	59360	|	0000E7E0	|	zack.bin	|
