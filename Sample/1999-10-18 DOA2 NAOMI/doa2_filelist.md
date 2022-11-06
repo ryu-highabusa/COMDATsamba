@@ -59,11 +59,11 @@
 |	.	|	.	|	0x003AE460	|	38912	|	00009800	|	game_etc_sprite.bin	|
 |	.	|	.	|	0x003B7C60	|	400	|	00000190	|	epc_gy.adt	|
 |	.	|	.	|	0x003B7E00	|	9800	|	00002648	|	epc_gy.mot	|
-|	.	|	.	|	0x003BA460	|	98304	|	00018000	|	select_sprite.bin	|
-|	.	|	.	|	0x003D2460	|	73728	|	00012000	|	game_sprite.bin	|
+|	.	|	.	|	0x003BA460	|	98304	|	00018000	|	patch_select_sprite.bin	|
+|	.	|	.	|	0x003D2460	|	73728	|	00012000	|	patch_game_sprite.bin	|
 |	.	|	.	|	0x003E4460	|	23040	|	00005A00	|	ranking_sprite.bin	|
-|	.	|	.	|	0x003E9E60	|	16384	|	00004000	|	test_sprite.bin	|
-|	.	|	.	|	0x003EDE60	|	2048	|	00000800	|	winner_sprite.bin	|
+|	.	|	.	|	0x003E9E60	|	16384	|	00004000	|	patch_test_sprite.bin	|
+|	.	|	.	|	0x003EDE60	|	2048	|	00000800	|	patch_winner_sprite.bin	|
 |	.	|	.	|	0x003EE660	|	72096	|	000119A0	|	padding	|
 |	.	|	.	|	0x00400000	|	8388608	|	00800000	|	blank	|
 |	mpr-22100.ic1	|	0x00800000	|	0x00800000	|	1359600	|	0014BEF0	|	comon.mot	|
