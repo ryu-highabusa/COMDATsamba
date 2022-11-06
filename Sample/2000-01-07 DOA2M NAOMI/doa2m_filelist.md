@@ -1,28 +1,28 @@
 #	DOA2M Filelist
 
-|	Rom	|	Address	|	File Address	|	Length (dec)	|	Length (hex)	|	Description	|
+|	Rom	|	Address	|		Address	|	Length (dec)	|	Length (hex)	|	Description	|
 |	-----	|	-----	|		-----	|	-----	|	-----	|	-----	|
 |	doa2verm.ic22	|	0x00000000	|	0x00000000	|	1280	|	00000500	|	header	|
 |	.	|	.	|	0x00000500	|	1860608	|	001C6400	|	Main ROM (encrypted)	|
 |	.	|	.	|	0x001C6900	|	77314	|	00012E02	|	Boot ROM	|
 |	.	|	.	|	0x001D9702	|	26878	|	000068FE	|	padding	|
 |	.	|	.	|	0x001E0000	|	30400	|	000076C0	|	anime_cm.bin	|
-|	.	|	.	|	0x001E76C0	|	59360	|	0000E7E0	|	zack.bin	|
-|	.	|	.	|	0x001F5EA0	|	57984	|	0000E280	|	tina.bin	|
-|	.	|	.	|	0x00204120	|	52448	|	0000CCE0	|	janlee.bin	|
-|	.	|	.	|	0x00210E00	|	64192	|	0000FAC0	|	ryu.bin	|
-|	.	|	.	|	0x002208C0	|	62112	|	0000F2A0	|	kasumi.bin	|
-|	.	|	.	|	0x0022FB60	|	49120	|	0000BFE0	|	genfu.bin	|
-|	.	|	.	|	0x0023BB40	|	55936	|	0000DA80	|	bayman.bin	|
-|	.	|	.	|	0x002495C0	|	56160	|	0000DB60	|	leifang.bin	|
-|	.	|	.	|	0x00257120	|	63648	|	0000F8A0	|	ayane.bin	|
-|	.	|	.	|	0x002669C0	|	61792	|	0000F160	|	hika.bin	|
-|	.	|	.	|	0x00275B20	|	54560	|	0000D520	|	karate.bin	|
-|	.	|	.	|	0x00283040	|	46144	|	0000B440	|	tengu.bin	|
-|	.	|	.	|	0x0028E480	|	58912	|	0000E620	|	bass.bin	|
-|	.	|	.	|	0x0029CAA0	|	6304	|	000018A0	|	mama.bin	|
-|	.	|	.	|	0x0029E340	|	6304	|	000018A0	|	loran.bin	|
-|	.	|	.	|	0x0029FBE0	|	6272	|	00001880	|	wakabass.bin	|
+|	.	|	.	|	0x001E76C0	|	59338	|	0000E7CA	|	zack.bin	|
+|	.	|	.	|	0x001F5EA0	|	57962	|	0000E26A	|	tina.bin	|
+|	.	|	.	|	0x00204120	|	52442	|	0000CCDA	|	janlee.bin	|
+|	.	|	.	|	0x00210E00	|	64178	|	0000FAB2	|	ryu.bin	|
+|	.	|	.	|	0x002208C0	|	62102	|	0000F296	|	kasumi.bin	|
+|	.	|	.	|	0x0022FB60	|	49110	|	0000BFD6	|	genfu.bin	|
+|	.	|	.	|	0x0023BB40	|	55926	|	0000DA76	|	bayman.bin	|
+|	.	|	.	|	0x002495C0	|	56130	|	0000DB42	|	leifang.bin	|
+|	.	|	.	|	0x00257120	|	63642	|	0000F89A	|	ayane.bin	|
+|	.	|	.	|	0x002669C0	|	61766	|	0000F146	|	hika.bin	|
+|	.	|	.	|	0x00275B20	|	54550	|	0000D516	|	karate.bin	|
+|	.	|	.	|	0x00283040	|	46130	|	0000B432	|	tengu.bin	|
+|	.	|	.	|	0x0028E480	|	58898	|	0000E612	|	bass.bin	|
+|	.	|	.	|	0x0029CAA0	|	6278	|	00001886	|	mama.bin	|
+|	.	|	.	|	0x0029E340	|	6278	|	00001886	|	loran.bin	|
+|	.	|	.	|	0x0029FBE0	|	6268	|	0000187C	|	wakabass.bin	|
 |	.	|	.	|	0x002A1460	|	400	|	00000190	|	ep_cm.adt	|
 |	.	|	.	|	0x002A1600	|	400	|	00000190	|	ep_kl.adt	|
 |	.	|	.	|	0x002A17A0	|	400	|	00000190	|	ep_tn.adt	|
@@ -59,16 +59,16 @@
 |	.	|	.	|	0x003B67C0	|	38912	|	00009800	|	game_etc_sprite.bin	|
 |	.	|	.	|	0x003BFFC0	|	400	|	00000190	|	epc_gy.adt	|
 |	.	|	.	|	0x003C0160	|	9800	|	00002648	|	epc_gy.mot	|
-|	.	|	.	|	0x003C27C0	|	98304	|	00018000	|	select_sprite.bin	|
-|	.	|	.	|	0x003DA7C0	|	73728	|	00012000	|	game_sprite.bin	|
+|	.	|	.	|	0x003C27C0	|	98304	|	00018000	|	patch_select_sprite.bin	|
+|	.	|	.	|	0x003DA7C0	|	73728	|	00012000	|	patch_game_sprite.bin	|
 |	.	|	.	|	0x003EC7C0	|	23040	|	00005A00	|	ranking_sprite.bin	|
-|	.	|	.	|	0x003F21C0	|	16384	|	00004000	|	test_sprite.bin	|
-|	.	|	.	|	0x003F61C0	|	2048	|	00000800	|	winner_sprite.bin	|
+|	.	|	.	|	0x003F21C0	|	16384	|	00004000	|	patch_test_sprite.bin	|
+|	.	|	.	|	0x003F61C0	|	2048	|	00000800	|	patch_winner_sprite.bin	|
 |	.	|	.	|	0x003F69C0	|	8192	|	00002000	|	sel_etc_sprite.bin	|
 |	.	|	.	|	0x003F89C0	|	15870	|	00003DFE	|	logo_sprite.bin	|
 |	.	|	.	|	0x003FC7C0	|	14400	|	00003840	|	padding	|
 |	.	|	.	|	0x00400000	|	8388608	|	00800000	|	blank	|
-|	mpr-22100.ic1	|	0x00800000	|	0x00800000	|	1359600	|	0014BEF0	|	common.mot	|
+|	mpr-22100.ic1	|	0x00800000	|	0x00800000	|	1359600	|	0014BEF0	|	comon.mot	|
 |	.	|	.	|	0x0094BF00	|	1353164	|	0014A5CC	|	zack.mot	|
 |	.	|	.	|	0x00A964E0	|	1807440	|	001B9450	|	tina.mot	|
 |	.	|	.	|	0x00C4F940	|	1270508	|	001362EC	|	janlee.mot	|
