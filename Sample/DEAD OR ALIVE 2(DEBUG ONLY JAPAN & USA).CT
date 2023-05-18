@@ -946,7 +946,7 @@
     <CheatEntry>
       <ID>38</ID>
       <Description>"No description"</Description>
-      <LastState Value="1095342457" RealAddress="2C1FBD48"/>
+      <LastState Value="1095296348" RealAddress="2C1FBD48"/>
       <VariableType>4 Bytes</VariableType>
       <Address>2C1FBD48</Address>
     </CheatEntry>
@@ -1093,7 +1093,7 @@
     <CheatEntry>
       <ID>171</ID>
       <Description>"clock???"</Description>
-      <LastState Value="2848" RealAddress="2C1FDC44"/>
+      <LastState Value="2852" RealAddress="2C1FDC44"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>2C1FDC44</Address>
@@ -1195,7 +1195,7 @@
     <CheatEntry>
       <ID>70</ID>
       <Description>"CURRENT LEVEL"</Description>
-      <LastState Value="CF" RealAddress="2C2720F4"/>
+      <LastState Value="27" RealAddress="2C2720F4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>2C2720F4</Address>
@@ -1336,7 +1336,7 @@
     <CheatEntry>
       <ID>184</ID>
       <Description>"P1_DISTANCE"</Description>
-      <LastState Value="2.504664421" RealAddress="2C1FDBC4"/>
+      <LastState Value="2.494661093" RealAddress="2C1FDBC4"/>
       <VariableType>Float</VariableType>
       <Address>2C1FDBC4</Address>
     </CheatEntry>
@@ -1523,7 +1523,7 @@
     <CheatEntry>
       <ID>206</ID>
       <Description>"No description"</Description>
-      <LastState Value="00" Activated="1" RealAddress="2C1FAA26"/>
+      <LastState Value="01" Activated="1" RealAddress="2C1FAA26"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1564,7 +1564,7 @@
     <CheatEntry>
       <ID>212</ID>
       <Description>"No description"</Description>
-      <LastState Value="2.191053391" RealAddress="2C2D1868"/>
+      <LastState Value="-0.6107615232" RealAddress="2C2D1868"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>2c2d1868</Address>
@@ -1572,7 +1572,7 @@
     <CheatEntry>
       <ID>213</ID>
       <Description>"No description"</Description>
-      <LastState Value="-313.0866699" RealAddress="2C2C8320"/>
+      <LastState Value="204.4977264" RealAddress="2C2C8320"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>2c2c8320</Address>
