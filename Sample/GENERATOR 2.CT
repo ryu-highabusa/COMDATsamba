@@ -44,6 +44,67 @@
       <VariableType>Byte</VariableType>
       <Address>2C21DED2</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"CHAR SEL STORY"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>2c1c748f</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"P1 HEALTH"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C21C2EC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C21A890</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C21AA50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C21AB20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"P2 HEALTH"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C21C354</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"No description"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C221C9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"MANCOM P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c21c334</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"MANCOM_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2C21C2CC</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
