@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CheatTable CheatEngineTableVersion="45">
+  <Forms>
+    <CETrainer Class="TTrainerForm" Encoding="Ascii85">=N!Zk,cpq{$xr}vq_W58=xiPB;yxLiK,#mFscLdWx:AjbLgd:w2m(,@WF/NFHT+)7[1?_D9eU2GAR(;G66XneBCyN-[FL=S#R*,uPX_9e(T}mC4ssym,zq46=$HRYl_6ELF.q8GW(expTrBLXBj-)3s.T_k)UYK1*h(dAD:8TEgMM/A[pkCixx@t_s7ml(hxa(S6;!y{]DVWbb3)y^d}_wxioAhFJa6[G7wpZnQh+a4GO,}gH6I.Y%t$JhRh/QYvk,M!0eGkpLH4qOGAIf1@DxR5tWw)OW;FfAgFG2Gm09I{VHPrVSq=%)hozJQ@P.!.I7oxbXk;!W13^$_u/C}69%c1@ULS6O4Y?8GyOZ0ISc8PpSd+37vwrPdtdit)lE?OIb%c(Jt#GweV%{dVCHU?v8,z7.p7p%x*jwN$zkAtKtWycs*qCPLROdPeCW?L9@DZP@[eGt@[08Ax/L;SbdB%]cAHh2EO;W}oJ3B,Kj3L%{S*Ch7/BQ]M9UI=.SZ?LdA.:wz6*!7)@Vag)@+hV,O;H$3PRMI1+0m1E?j%i!EK@MY3c+Y3/b@;Ecr}YW]=Cc:Y5$3y*S({Wtd=Ua6!DuSl!o]yW+4z*q1Dq!%P(_/dec5aSzl:EISE!u*PZiRWG9%2m1:aTwTHcCYjoK52w{a/lvub%M8i3}0cZG2?H+OWko}vOkF^-3N5HfnXG)%9rWy!(xfZuzn%a9WjH4iL1o/l9#Z;67lu$#TZ=EBwW{hGYQZKMem)mpZvU6*LEr64)wQj%doa37Df(0aw]vCi-@BY4O={wu#i+^Ap-o+R8OJ#pT(tf4zZi:V!Jk[UZ_AC)U3R3M]t=#f(xbz*5).z*MtFbYiHS]Fb85)G#=o54PfP0hWrQooC1?HGq)/jvR+J];tq7z[#oa8?8==yp=I}%/1/vVVw?HVaep.b@X7HS3]^FF,K-iVN)4*N)ll!fDAnh%r99oX^Au-_vE)e/@}]vL6d)[-h]AJk4KuLreb2FAnvHTrn?ng2i[:6U%G=N6-x=Zo::_B3bWiPh=Tqx4SUUz%O!=QCb*(Kufl,uoU7:sy</CETrainer>
+  </Forms>
   <CheatEntries>
     <CheatEntry>
       <ID>5</ID>
@@ -104,6 +107,28 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2C21C2CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"resolution related?? screen position??"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>2C2EB988</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"widescreen code"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>2C2EB958</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"hud_resolution_width??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>2c1c9bbc</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
