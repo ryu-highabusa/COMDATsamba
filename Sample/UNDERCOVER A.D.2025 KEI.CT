@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"CONFIG_MESSAGE/CURRENT_POS/TRIGGER/L-R_CHANGE/VIBRATION"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2CD5DE41</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"CONFIG_BGM"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2CD5DE42</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"CONFIG_SE"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2CD5DE43</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"CONFIG_Camera_Speed"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2CD5DE54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Field of View"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>2CD70EAC</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
