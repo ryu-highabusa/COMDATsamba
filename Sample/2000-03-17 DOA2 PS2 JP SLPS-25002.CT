@@ -192,6 +192,13 @@
       <Address>2041DFAE</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>100</ID>
+      <Description>"Unknown - Defaults to 1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFAF</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>32</ID>
       <Description>"GameSetting_STORYmode_cpuLifeGauge"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -270,63 +277,63 @@
     </CheatEntry>
     <CheatEntry>
       <ID>53</ID>
-      <Description>"P1_CommandType_0threewayholds_1arcadeholds"</Description>
+      <Description>"GameSetting_HoldCommandType_Player1_0threewayholds_1arcadeholds"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFEA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>54</ID>
-      <Description>"P2_CommandType_0threewayholds_1arcadeholds"</Description>
+      <Description>"GameSetting_HoldCommandType_Player2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFEB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>57</ID>
-      <Description>"P3_CommandType_0threewayholds_1arcadeholds"</Description>
+      <Description>"GameSetting_HoldCommandType_Player3"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFEC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>58</ID>
-      <Description>"P4_CommandType_0threewayholds_1arcadeholds"</Description>
+      <Description>"GameSetting_HoldCommandType_Player4"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFED</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>55</ID>
-      <Description>"P1_Vibration_0off_1on"</Description>
+      <Description>"GameSetting_Vibration_Player1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFEE</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>56</ID>
-      <Description>"P2_Vibration_0off_1on"</Description>
+      <Description>"GameSetting_Vibration_Player2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFEF</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>59</ID>
-      <Description>"P3_Vibration_0off_1on"</Description>
+      <Description>"GameSetting_Vibration_Player3"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFF0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>60</ID>
-      <Description>"P4_Vibration_0off_1on"</Description>
+      <Description>"GameSetting_Vibration_Player4"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFF1</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>61</ID>
-      <Description>"MemoryCard_AutoSave_0on_1off"</Description>
+      <Description>"GameSetting_MemoryCard_AutoSave_0on_1off"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2041DFF2</Address>
@@ -354,11 +361,25 @@
       <Address>2047FE00</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>101</ID>
+      <Description>"P1_Costume"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2047FE01</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>2</ID>
       <Description>"p2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>2047FE04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"P2_Costume"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2047FE05</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>77</ID>
@@ -507,15 +528,6 @@
       <Description>"Timer_'"</Description>
       <VariableType>Byte</VariableType>
       <Address>2056F143</Address>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>69</ID>
-          <Description>"Timer_CurrentSetting?"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Byte</VariableType>
-          <Address>2056F145</Address>
-        </CheatEntry>
-      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>68</ID>
@@ -523,6 +535,13 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2056F144</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"Timer_CurrentSetting?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2056F145</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>86</ID>
