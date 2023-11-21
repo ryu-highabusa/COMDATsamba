@@ -136,11 +136,10 @@
       <Address>2056F1C1</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>69</ID>
-      <Description>"Timer_CurrentSetting?"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
+      <ID>67</ID>
+      <Description>"Timer_'"</Description>
       <VariableType>Byte</VariableType>
-      <Address>2056F145</Address>
+      <Address>2056F143</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>68</ID>
@@ -150,10 +149,11 @@
       <Address>2056F144</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>67</ID>
-      <Description>"Timer_'"</Description>
+      <ID>69</ID>
+      <Description>"Timer_CurrentSetting?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>2056F143</Address>
+      <Address>2056F145</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>63</ID>
@@ -526,10 +526,126 @@
     </CheatEntry>
     <CheatEntry>
       <ID>74</ID>
-      <Description>"?? Damage Scale ??"</Description>
+      <Description>"?? Damage Scale ?? (training mode)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>20570B70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>75</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>203B1910</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"P1 Health (lock)"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2041A980</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA260</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>78</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA330</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>79</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056EAD0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>203B1930</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>81</ID>
+      <Description>"P2 Health (lock)"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2041A9E8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>82</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA2C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>83</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA398</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056EAD2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"Continue Counter"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2056F1D3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"?? VS games played ??"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2056F1BF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2041E452</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2056F038</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>89</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2056F08B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"P1 Versus Result"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056F0D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>92</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2056F1C7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"P2 Versus Result"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056F0DA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"P1 Survival Score"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056F0BC</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
