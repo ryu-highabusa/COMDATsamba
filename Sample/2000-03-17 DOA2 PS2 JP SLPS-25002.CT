@@ -63,9 +63,16 @@
     </CheatEntry>
     <CheatEntry>
       <ID>76</ID>
-      <Description>"P1 Health (lock)"</Description>
+      <Description>"Health_P1_(lock)"</Description>
       <VariableType>2 Bytes</VariableType>
       <Address>2041A980</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"CHRDISP_P1_01"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041A9B3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>99</ID>
@@ -83,9 +90,16 @@
     </CheatEntry>
     <CheatEntry>
       <ID>81</ID>
-      <Description>"P2 Health (lock)"</Description>
+      <Description>"Health_P2_(lock)"</Description>
       <VariableType>2 Bytes</VariableType>
       <Address>2041A9E8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"CHRDISP_P2_01"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041AA1B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>31</ID>
@@ -505,7 +519,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>94</ID>
-      <Description>"P1 Survival Score"</Description>
+      <Description>"SCORE SURVIVAL PLAYER 1"</Description>
       <VariableType>2 Bytes</VariableType>
       <Address>2056F0BC</Address>
     </CheatEntry>
@@ -564,7 +578,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>85</ID>
-      <Description>"Continue Counter"</Description>
+      <Description>"CONTINUE_COUNTDOWN"</Description>
       <VariableType>Byte</VariableType>
       <Address>2056F1D3</Address>
     </CheatEntry>
