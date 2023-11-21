@@ -2,138 +2,498 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
-      <ID>72</ID>
+      <ID>96</ID>
+      <Description>"widescreen 1 of 3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>203B0400</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"widescreen 2 of 3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>203B0C20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"widescreen 3 of 3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>203B1440</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>75</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>203B1910</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>203B1930</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>203D3B70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>203D3B78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"MANCOM P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2041A960</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>2041A961</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>76</ID>
+      <Description>"P1 Health (lock)"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2041A980</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>2041A9C9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>81</ID>
+      <Description>"P2 Health (lock)"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2041A9E8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"GameSetting_STORYmode_cpuDIFFICULTY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"GameSetting_TimeAttackMode_cpuDIFFICULTY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"GameSetting_TagBattleMode_cpuDIFFICULTY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"GameSetting_SurvivalMode_cpuDIFFICULTY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"GameSetting_TeamBattleMode_cpuDIFFICULTY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"GameSetting_STORYmode_RoundTime"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"GameSetting_TagBattleMode_RoundTime"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"GameSetting_TimeAttackMode_RoundTime"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"GameSetting_SurvivalMode_RoundTime"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"GameSetting_TeamBattleMode_RoundTime"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFA9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"GameSetting_VersusMode_RoundTime"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFAA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"AudioSetting_SPEAKER_0STEREO_1MONO"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFAB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"AudioSetting_BGM_VOLUME"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"AudioSetting_SE_VOLUME"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFAD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"AudioSetting_VOICE_VOLUME"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFAE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"GameSetting_STORYmode_cpuLifeGauge"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFD7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"GameSetting_TimeAttackMode_cpuLifeGauge"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFD8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"GameSetting_TagBattleMode_LifeGauge"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFD9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"GameSetting_SurvivalMode_cpuLifeGauge"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFDA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"GameSetting_TeamBattleMode_LifeGauge"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFDB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"GameSetting_VersusMode_LifeGauge"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFDC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"GameSetting_TagBattleMode_MatchPoint"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFDE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"GameSetting_TimeAttackMode_cpuMatchPoint"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFDF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"GameSetting_VersusMode_MatchPoint"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFE2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"GameSetting_VersusMode_StageSelector"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFE4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"GameSetting_VersusMode_QuickSelector_0off_1on"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFE5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"P1_CommandType_0threewayholds_1arcadeholds"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFEA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"P2_CommandType_0threewayholds_1arcadeholds"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFEB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"P3_CommandType_0threewayholds_1arcadeholds"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"P4_CommandType_0threewayholds_1arcadeholds"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFED</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"P1_Vibration_0off_1on"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFEE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"P2_Vibration_0off_1on"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFEF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"P3_Vibration_0off_1on"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>60</ID>
+      <Description>"P4_Vibration_0off_1on"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFF1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"MemoryCard_AutoSave_0on_1off"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2041DFF2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"?? VS games played ????"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2041E452</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
       <Description>"char_sel??"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>12</ByteLength>
-      <Address>20586390</Address>
+      <Address>20428328</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>66</ID>
+      <ID>15</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>2047FE00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>2047FE04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>77</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA260</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>82</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA2C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>78</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA330</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>83</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>204FA398</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>73</ID>
+      <Description>"character_lockout"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>8</ByteLength>
+      <Address>2050FBA8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>71</ID>
+      <Description>"char_sel??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>2050FBB0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20510681</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>205106F7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>205106FD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20510773</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20510908</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>2051091C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
       <Description>"Stage?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>205853D4</Address>
+      <Address>20510930</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>12</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583C16</Address>
+      <ID>79</ID>
+      <Description>"P1 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056EAD0</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>11</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583C0A</Address>
+      <ID>84</ID>
+      <Description>"P2 Health"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056EAD2</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>25</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583BFE</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>24</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583BF2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>10</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583BD6</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>23</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583BCA</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>9</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583AF0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>22</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20583A84</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>21</ID>
-      <Description>"p1_charloading??"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>205826F0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>8</ID>
-      <Description>"p2char_loading??"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>205826F0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>65</ID>
+      <ID>63</ID>
       <Description>"Stage?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2057117C</Address>
+      <Address>2056F000</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>7</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <ID>88</ID>
+      <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
-      <Address>20571152</Address>
+      <Address>2056F038</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>20</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <ID>89</ID>
+      <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
-      <Address>20571150</Address>
+      <Address>2056F08B</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>6</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20571129</Address>
+      <ID>94</ID>
+      <Description>"P1 Survival Score"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056F0BC</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>19</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20571128</Address>
+      <ID>90</ID>
+      <Description>"P1 Versus Result"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056F0D8</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>30</ID>
-      <Description>"AudioSetting_SOUNDTEST"</Description>
-      <VariableType>Byte</VariableType>
-      <Address>20570258</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>64</ID>
-      <Description>"Stage?"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>2056F1C1</Address>
+      <ID>93</ID>
+      <Description>"P2 Versus Result"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2056F0DA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>67</ID>
@@ -156,373 +516,35 @@
       <Address>2056F145</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>63</ID>
+      <ID>86</ID>
+      <Description>"?? VS games played ??"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2056F1BF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
       <Description>"Stage?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2056F000</Address>
+      <Address>2056F1C1</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>62</ID>
-      <Description>"Stage?"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <ID>92</ID>
+      <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
-      <Address>20510930</Address>
+      <Address>2056F1C7</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>5</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <ID>85</ID>
+      <Description>"Continue Counter"</Description>
       <VariableType>Byte</VariableType>
-      <Address>2051091C</Address>
+      <Address>2056F1D3</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>18</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <ID>30</ID>
+      <Description>"AudioSetting_SOUNDTEST"</Description>
       <VariableType>Byte</VariableType>
-      <Address>20510908</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>4</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20510773</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>3</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>205106FD</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>17</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>205106F7</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>16</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>20510681</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>71</ID>
-      <Description>"char_sel??"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Array of byte</VariableType>
-      <ByteLength>12</ByteLength>
-      <Address>2050FBB0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>73</ID>
-      <Description>"character_lockout"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Array of byte</VariableType>
-      <ByteLength>8</ByteLength>
-      <Address>2050FBA8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>2</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>2047FE04</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>15</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>2047FE00</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>70</ID>
-      <Description>"char_sel??"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Array of byte</VariableType>
-      <ByteLength>12</ByteLength>
-      <Address>20428328</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>61</ID>
-      <Description>"MemoryCard_AutoSave_0on_1off"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFF2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>60</ID>
-      <Description>"P4_Vibration_0off_1on"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFF1</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>59</ID>
-      <Description>"P3_Vibration_0off_1on"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFF0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>56</ID>
-      <Description>"P2_Vibration_0off_1on"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFEF</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>55</ID>
-      <Description>"P1_Vibration_0off_1on"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFEE</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>58</ID>
-      <Description>"P4_CommandType_0threewayholds_1arcadeholds"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFED</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>57</ID>
-      <Description>"P3_CommandType_0threewayholds_1arcadeholds"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFEC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>54</ID>
-      <Description>"P2_CommandType_0threewayholds_1arcadeholds"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFEB</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>53</ID>
-      <Description>"P1_CommandType_0threewayholds_1arcadeholds"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFEA</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>52</ID>
-      <Description>"GameSetting_VersusMode_QuickSelector_0off_1on"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFE5</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>51</ID>
-      <Description>"GameSetting_VersusMode_StageSelector"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFE4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>48</ID>
-      <Description>"GameSetting_VersusMode_MatchPoint"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFE2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>35</ID>
-      <Description>"GameSetting_TimeAttackMode_cpuMatchPoint"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFDF</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>42</ID>
-      <Description>"GameSetting_TagBattleMode_MatchPoint"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFDE</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>49</ID>
-      <Description>"GameSetting_VersusMode_LifeGauge"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFDC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>46</ID>
-      <Description>"GameSetting_TeamBattleMode_LifeGauge"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFDB</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>39</ID>
-      <Description>"GameSetting_SurvivalMode_cpuLifeGauge"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFDA</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>43</ID>
-      <Description>"GameSetting_TagBattleMode_LifeGauge"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFD9</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"GameSetting_TimeAttackMode_cpuLifeGauge"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFD8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>32</ID>
-      <Description>"GameSetting_STORYmode_cpuLifeGauge"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFD7</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>28</ID>
-      <Description>"AudioSetting_VOICE_VOLUME"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFAE</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>27</ID>
-      <Description>"AudioSetting_SE_VOLUME"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFAD</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>26</ID>
-      <Description>"AudioSetting_BGM_VOLUME"</Description>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFAC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>29</ID>
-      <Description>"AudioSetting_SPEAKER_0STEREO_1MONO"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFAB</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>50</ID>
-      <Description>"GameSetting_VersusMode_RoundTime"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFAA</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>47</ID>
-      <Description>"GameSetting_TeamBattleMode_RoundTime"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA9</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>40</ID>
-      <Description>"GameSetting_SurvivalMode_RoundTime"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>37</ID>
-      <Description>"GameSetting_TimeAttackMode_RoundTime"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA7</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>44</ID>
-      <Description>"GameSetting_TagBattleMode_RoundTime"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA6</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>33</ID>
-      <Description>"GameSetting_STORYmode_RoundTime"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA5</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>45</ID>
-      <Description>"GameSetting_TeamBattleMode_cpuDIFFICULTY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>38</ID>
-      <Description>"GameSetting_SurvivalMode_cpuDIFFICULTY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA3</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>41</ID>
-      <Description>"GameSetting_TagBattleMode_cpuDIFFICULTY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>34</ID>
-      <Description>"GameSetting_TimeAttackMode_cpuDIFFICULTY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA1</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>31</ID>
-      <Description>"GameSetting_STORYmode_cpuDIFFICULTY"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>2041DFA0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>1</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>2041A9C9</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>14</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>2041A961</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>0</ID>
-      <Description>"p2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>203D3B78</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>13</ID>
-      <Description>"p1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
-      <Address>203D3B70</Address>
+      <Address>20570258</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>74</ID>
@@ -532,126 +554,125 @@
       <Address>20570B70</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>75</ID>
-      <Description>"P1 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>203B1910</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>76</ID>
-      <Description>"P1 Health (lock)"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2041A980</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>77</ID>
-      <Description>"P1 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>204FA260</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>78</ID>
-      <Description>"P1 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>204FA330</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>79</ID>
-      <Description>"P1 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2056EAD0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>80</ID>
-      <Description>"P2 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>203B1930</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>81</ID>
-      <Description>"P2 Health (lock)"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2041A9E8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>82</ID>
-      <Description>"P2 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>204FA2C8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>83</ID>
-      <Description>"P2 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>204FA398</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>84</ID>
-      <Description>"P2 Health"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2056EAD2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>85</ID>
-      <Description>"Continue Counter"</Description>
+      <ID>19</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2056F1D3</Address>
+      <Address>20571128</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>86</ID>
-      <Description>"?? VS games played ??"</Description>
+      <ID>6</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2056F1BF</Address>
+      <Address>20571129</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>87</ID>
-      <Description>"?? VS games played ????"</Description>
+      <ID>20</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2041E452</Address>
+      <Address>20571150</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>88</ID>
-      <Description>"No description"</Description>
+      <ID>7</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2056F038</Address>
+      <Address>20571152</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>89</ID>
-      <Description>"No description"</Description>
+      <ID>65</ID>
+      <Description>"Stage?"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>2056F08B</Address>
+      <Address>2057117C</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>90</ID>
-      <Description>"P1 Versus Result"</Description>
+      <ID>21</ID>
+      <Description>"p1_charloading??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>205826F0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"p2char_loading??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>205826F0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583A84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583AF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583BCA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583BD6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583BF2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"p1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583BFE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583C0A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"p2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>20583C16</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"Stage?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>205853D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>72</ID>
+      <Description>"char_sel??"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2056F0D8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>92</ID>
-      <Description>"No description"</Description>
-      <VariableType>Byte</VariableType>
-      <Address>2056F1C7</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>93</ID>
-      <Description>"P2 Versus Result"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2056F0DA</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>94</ID>
-      <Description>"P1 Survival Score"</Description>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2056F0BC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>95</ID>
-      <Description>"MANCOM P1"</Description>
-      <VariableType>Byte</VariableType>
-      <Address>2041A960</Address>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>20586390</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
