@@ -605,7 +605,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>87</ID>
-      <Description>"No description"</Description>
+      <Description>"?? VS games played ????"</Description>
       <VariableType>Byte</VariableType>
       <Address>2041E452</Address>
     </CheatEntry>
@@ -646,6 +646,12 @@
       <Description>"P1 Survival Score"</Description>
       <VariableType>2 Bytes</VariableType>
       <Address>2056F0BC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"MANCOM P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2041A960</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
