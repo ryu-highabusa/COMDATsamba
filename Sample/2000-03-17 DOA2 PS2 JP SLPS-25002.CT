@@ -716,6 +716,28 @@
       <ByteLength>12</ByteLength>
       <Address>20586390</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"distance"</Description>
+      <VariableType>Float</VariableType>
+      <Address>2056F14C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"Distance"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>2057D7D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"P1 Character Bin COMDAT"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>46490</ByteLength>
+      <Address>20E00000</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
