@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="38">
+<CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
       <ID>278</ID>
@@ -207,7 +207,6 @@
     <CheatEntry>
       <ID>326</ID>
       <Description>"Player 2"</Description>
-      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <Address>0</Address>
       <CheatEntries>
@@ -388,7 +387,6 @@
     <CheatEntry>
       <ID>360</ID>
       <Description>"PLAYER1"</Description>
-      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -1065,6 +1063,38 @@
       <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
       <Address>2C23777E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>432</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>5</ByteLength>
+      <Address>2c18531a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>433</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>8</ByteLength>
+      <Address>2c180610</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>434</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>2C295AA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>435</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>2C1FA794</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
