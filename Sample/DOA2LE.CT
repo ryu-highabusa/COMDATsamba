@@ -1096,6 +1096,14 @@
       <VariableType>4 Bytes</VariableType>
       <Address>2C1FA794</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>436</ID>
+      <Description>"tengu jump in scene"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c18077c</Address>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry>
