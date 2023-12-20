@@ -6,66 +6,137 @@
       <Description>"P1_CHARACTER"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>013C0710</Address>
+      <Address>0B7EB710</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
       <Description>"P1_CHARACTER"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>013CAB4B</Address>
+      <Address>0B7F5B4B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
       <Description>"P1_CHARACTER"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>013DCA11</Address>
+      <Address>0B807A11</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
       <Description>"P1_CHARACTER"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>013E3529</Address>
+      <Address>0B80E529</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
       <Description>"P1_CHARACTER"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>013E6C11</Address>
+      <Address>0B811C11</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"Timer_Seconds"</Description>
       <VariableType>Byte</VariableType>
-      <Address>013BF9AF</Address>
+      <Address>0B7EA9AF</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
       <Description>"P1_LIFE"</Description>
       <VariableType>Byte</VariableType>
-      <Address>013C0730</Address>
+      <Address>0B7EB730</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>8</ID>
       <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
-      <Address>013E1A24</Address>
+      <Address>0B80CA24</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>9</ID>
       <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
-      <Address>013E34B4</Address>
+      <Address>0B80E4B4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>10</ID>
       <Description>"P2_LIFE"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>013C0788</Address>
+      <Address>0B7EB788</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>0B7EB73B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80809D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80C3B4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80C3B5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80C43F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80C9FB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80CA19</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80CC75</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80CCEB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"ACTCODE"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>0B80E077</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
