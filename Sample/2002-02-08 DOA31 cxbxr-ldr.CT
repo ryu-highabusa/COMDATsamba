@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Music Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+2C3E9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Music Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D094</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"Music Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A3809</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"S.E. Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+2C3EA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"S.E. Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D095</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"S.E. Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A3800</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Voice Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D096</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Voice Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A395C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Sound Test"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+C49145</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
