@@ -59,49 +59,56 @@
       <ID>19</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA18C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>20</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA2E8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>21</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA354</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>22</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA35C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>23</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA368</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>24</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9D2</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>25</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+5750A8</Address>
     </CheatEntry>
     <CheatEntry>
@@ -116,42 +123,48 @@
       <ID>27</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+5BB64C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>28</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25B8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>29</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25EE</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>30</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25F0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>31</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2786</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>32</ID>
       <Description>"P1_ACTCODE"</Description>
       <ShowAsHex>1</ShowAsHex>
-      <VariableType>Byte</VariableType>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2788</Address>
     </CheatEntry>
     <CheatEntry>
@@ -159,7 +172,7 @@
       <Description>"P1_BUTTON_INPUT??"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
+      <VariableType>2 Bytes</VariableType>
       <Address>009B37CD</Address>
     </CheatEntry>
     <CheatEntry>
@@ -167,7 +180,7 @@
       <Description>"P1_DPAD_input??"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
+      <VariableType>2 Bytes</VariableType>
       <Address>009B37CC</Address>
     </CheatEntry>
     <CheatEntry>
@@ -561,6 +574,121 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>b8633</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>82</ID>
+      <Description>"storymode_cutscene_actordatastart_maybe?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002dddc4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>83</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002de1fc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002dc83c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"STAGE-ID_"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+4CB961</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"STAGE-ID_"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+4CC5E1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"STAGE-ID_"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+4CD261</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"STAGE-ID_"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+4CDEE1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>89</ID>
+      <Description>"STAGE-ID_"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+4CEB61</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"STAGE-ID_5***"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+592608</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>91</ID>
+      <Description>"STAGE-ID_6"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+598A80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>92</ID>
+      <Description>"STAGE-ID_7"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A2B74</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"STAGE-ID_8"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A78A6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"STAGE-ID_9"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A7BB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"STAGE-ID_A"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9AF679</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"STAGE-ID_B"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9AF68D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>009B2CF8</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
