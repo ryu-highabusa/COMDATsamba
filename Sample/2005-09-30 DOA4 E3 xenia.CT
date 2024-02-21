@@ -255,6 +255,15 @@
       <VariableType>Byte</VariableType>
       <Address>xenia.exe+A84910</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Stage_dat.bin header"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>32</ByteLength>
+      <Address>101EBD000</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
