@@ -236,6 +236,25 @@
       <VariableType>4 Bytes</VariableType>
       <Address>182d79910</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>xenia.exe+B31E95</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>xenia.exe+A8490C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>xenia.exe+A84910</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
