@@ -373,7 +373,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>52</ID>
-      <Description>"Player_2"</Description>
+      <Description>"Player_2*"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>183022EBA</Address>
@@ -636,6 +636,22 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>1932100E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830996fd</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>91</ID>
+      <Description>"Player_1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830996f8</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
