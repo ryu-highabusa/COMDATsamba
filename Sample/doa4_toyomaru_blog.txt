@@ -1,0 +1,157 @@
+http://toyomaru5656.blog.fc2.com/blog-entry-15.html
+デッドオアアライブ４　[544307D1] NTSC-J　タイトルアップデート無し
+2012/05/12 (Sat) 17:31
+
+Basefile Info
+  Load Address:       82000000
+  Entry Point:        8277E878
+  Image Size:          1600000
+  Page Size:             10000
+  Checksum:           0101DF04
+  Filetime:           43A96584 - Wed Dec 21 23:24:04 2005
+  Stack Size:            40000
+
+Regions
+  Japan
+  Rest of Asia
+
+Execution Id
+  Media Id:           2A21D923
+  Title Id:           544307D1  (TC-2001)
+  Savegame Id:        00000000
+  Version:            v0.0.0.7
+  Base Version:       v0.0.0.7
+  Platform:           0
+  Executable Type:    0
+  Disc Number:        0
+  Number of Discs:    0
+
+
+●アンロック　unlock
+
+初期状態　initial
+ADDRESS   +0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +A +B +C +D +E +F
+---------------------------------------------------------
+831A0AC0  00 00 02 02 02 02 02 02 02 02 02 02 02 02 02 02 
+831A0AD0  02 02 02 02 02 02 02 02 02 01 01 01 00 01 01 00 
+831A0AE0  00 00 01 01 01 00 01 01 01 01 01 01 01 01 00 00
+
+コンプリート状態　complete
+ADDRESS   +0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +A +B +C +D +E +F
+---------------------------------------------------------
+831A0AC0  01 00 04 05 04 04 04 07 04 05 04 04 07 06 02 03 
+831A0AD0  08 04 03 04 07 04 05 02 07 01 01 01 01 01 01 01 
+831A0AE0  01 01 01 01 01 01 01 01 01 01 01 01 01 01 00 01 
+
+コスチューム　All Costume
+1 831A0AC2 0405
+2 831A0AC4 04040407
+2 831A0AC8 04050404
+2 831A0ACC 07060203
+2 831A0AD0 08040304
+2 831A0AD4 07040502
+0 831A0AD8 07
+
+キャラクター　All Character
+0 831A0ADC 01
+0 831A0ADF 01
+1 831A0AE0 0101
+0 831A0AE5 01
+0 831A0AEF 01
+
+
+●キャラクター・コスチューム変更
+
+ADDRESS   +0 +1 +2 +3 +4 +5 +6 +7 +8 +9 +A +B +C +D +E +F
+---------------------------------------------------------
+830EF620  02 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+830EF630  05 0A FE FE FE FE FE FE FE FE FE FE FE FE FE 15 
+830EF640  0D FE FE FE FE FE FE FE FE FE FE FE FE FE 00 00 
+830EF650  00 00 00 00 00 00 00 05 00 00 00 18 00 00 00 03 
+830EF660  00 00 00 08 00 00 00 01 00 00 00 01 00 00 00 1D 
+830EF670  00 00 00 01 00 00 00 00 01 02 FF FF FF FF FF FF 
+830EF680  FF FF FF FF FF FF FF 02 03 FF FF FF FF FF FF FF 
+830EF690  FF FF FF FF FF FF 00 00 00 00 00 02 00 00 00 00
+
+Player1
+0 830EF630 xx#Player1 Character
+0 830EF678 xx#Player1 Costume
+0 830EF631 xx#TagPartner Character
+0 830EF679 xx#TagPartner Costume
+
+Player2
+バーサス、スパーリングのみ
+Only a Versus, a Sparring
+
+0 830EF63F xx#Player2 Character
+0 830EF687 xx#Player2 Costume
+0 830EF640 xx#TagPartner Character
+0 830EF688 xx#TagPartner Costume
+
+# Alpha-152
+0 830EF630 10#P1
+0 830EF678 00
+0 830EF631 10#P1 Partner
+0 830EF679 00
+0 830EF63F 10#P2 (Only Versus, Sparring)
+0 830EF687 00
+0 830EF640 10#P2 Partner (Only Versus, Sparring)
+0 830EF688 00
+
+
+00 : ZACK
+01 : TINA
+02 : JANN LEE
+03 : EIN
+04 : RYU HAYABUSA
+05 : KASUMI
+06 : GENFU
+07 : HELENA
+08 : LEON
+09 : BASS
+0A : KOKORO
+0B : HAYATE
+0C : LEIFANG
+0D : AYANE
+0E : ELIOT
+0F : LISA
+10 : ALPHA 152
+11 : TENGU
+12 : SPARTAN
+13 : BRAD
+14 : CHRISTIE
+15 : HITOMI
+16 : MURAMASA
+17 : ------
+18 : BAYMAN
+
+存在しないキャラクター番号使用時は、かすみ
+存在しないコスチューム番号使用時は、デフォルトコスチューム
+
+
+●小ネタ
+
+いくつかの問題点あり
+Some those with a problem 
+
+# Alpha-152
+0 830EF630 10
+0 830EF678 00
+0 830EF631 10
+0 830EF679 00
+#0 830EF63F 10 <<-- Disable
+#0 830EF687 00 <<-- Disable
+#0 830EF640 10 <<-- Disable
+#0 830EF688 00 <<-- Disable
+0 83022EBA 10 <<-- Add
+0 83022EBC 10 <<-- Add
+
+Kasumi Cos1  VS  Kasumi Cos2
+http://blog-imgs-56.fc2.com/t/o/y/toyomaru5656/doa4-001.png
+
+Kasumi Cos1  VS  Kasumi Cos3
+http://blog-imgs-56.fc2.com/t/o/y/toyomaru5656/doa4-002.png
+
+スポンサーサイト
+
+Author:toyomaru
