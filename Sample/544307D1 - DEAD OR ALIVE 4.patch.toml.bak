@@ -1,0 +1,22 @@
+title_name = "DEAD OR ALIVE 4"
+title_id = "544307D1" # TC-2001
+hash = "7F840B8DEFDB5C5E" # default.xex
+#media_id = "2AD7FA3A"
+
+[[patch]]
+    name = "Player_1 is ALPHA-152"
+    desc = "play as boss"
+    author = ""
+    is_enabled = true
+
+    [[patch.be8]]
+        address = 0x83020189
+        value = 0x10
+		
+#    [[patch.be8]]
+#        address = 0x830EF6A0
+#        value = 0x10		
+		
+#	[[patch.be8]]
+#        address = 0x830EF678
+#        value = 0x00
