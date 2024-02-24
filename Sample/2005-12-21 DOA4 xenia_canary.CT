@@ -274,6 +274,14 @@
       <Address>1831A0AC2</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>92</ID>
+      <Description>"Costumes Unlocked DEFAULT VALUES"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>24</ByteLength>
+      <Address>182e2d440</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>38</ID>
       <Description>"Unlock EIN"</Description>
       <ShowAsSigned>0</ShowAsSigned>
