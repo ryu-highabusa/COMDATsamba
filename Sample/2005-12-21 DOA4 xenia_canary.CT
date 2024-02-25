@@ -282,6 +282,13 @@
       <Address>182e2d440</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>93</ID>
+      <Description>"UNLOCK_EIN_DEFAULT_VALUE"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1822fdf77</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>38</ID>
       <Description>"Unlock EIN"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -660,6 +667,119 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830996f8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830ef5b8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830ef620</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830ef621</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830201ba</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830201E9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>99</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>183097CBF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>100</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EDDE9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE3D1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE51F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE526</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1832100C3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1930201E9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>193097CBF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1930EDDE9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>108</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1930EE3D1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>109</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1930EE51F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>110</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1930EE526</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>111</ID>
+      <Description>"Combo_Counter_P1"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1932100C3</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
