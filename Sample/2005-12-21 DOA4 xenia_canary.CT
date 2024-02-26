@@ -257,8 +257,17 @@
       <Address>1830996bc</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>151</ID>
+      <Description>"ACTCODE_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830201ba</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>36</ID>
-      <Description>"No description"</Description>
+      <Description>"ACTCODE_P1-TERMINATOR???_830201bc"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -1028,13 +1037,12 @@
       <Address>183192A25</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>151</ID>
+      <ID>152</ID>
       <Description>"No description"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
-      <Address>1830201ba</Address>
+      <VariableType>Byte</VariableType>
+      <Address>18318b23a</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
