@@ -1658,7 +1658,7 @@
       <Description>"Character_Select_SLOTS_onoff"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
-      <ByteLength>17</ByteLength>
+      <ByteLength>24</ByteLength>
       <Address>1821b52bc</Address>
     </CheatEntry>
   </CheatEntries>
