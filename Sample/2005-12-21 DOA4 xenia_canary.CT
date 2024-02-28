@@ -1668,6 +1668,15 @@
       <VariableType>Byte</VariableType>
       <Address>182fb8e86</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>229</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>1833f8923</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
