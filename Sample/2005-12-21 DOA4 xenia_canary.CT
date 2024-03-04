@@ -1787,6 +1787,47 @@
       <VariableType>Byte</VariableType>
       <Address>183020224</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>247</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>18319c750</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>248</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18309957f</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>249</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a2d84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>250</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a2d85</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>251</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>15</ByteLength>
+      <Address>1830a54ed</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
