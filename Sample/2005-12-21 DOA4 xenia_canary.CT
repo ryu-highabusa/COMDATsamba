@@ -1957,6 +1957,14 @@
       <VariableType>Byte</VariableType>
       <Address>182e62b4d</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>269</ID>
+      <Description>"FILE_CAT_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1007F8000</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
