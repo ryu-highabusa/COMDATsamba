@@ -4,6 +4,26 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 #media_id = "2AD7FA3A"
 
 [[patch]]
+    name = "Restore Alpha-152 Character Slot"
+    desc = "sets slot flag to 1 (from 0)"
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be8]]
+        address = 0x821b52d3 
+        value = 0x01
+		
+[[patch]]
+    name = "Remove 30-hit Combo Limit"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = true
+	
+	[[patch.be8]]
+		address = 0x82502197
+		value = 0xFF
+
+[[patch]]
     name = "Player_1 is ALPHA-152"
     desc = ""
     author = ""
@@ -22,15 +42,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 #        address = 0x830ef679 
 #        value = 0x00
 
-[[patch]]
-    name = "Restore Alpha-152 character slot"
-    desc = "sets slot flag to 1 (from 0)"
-    author = "ryu_highabusa"
-    is_enabled = true
 
-    [[patch.be8]]
-        address = 0x821b52d3 
-        value = 0x01
 [[patch]]
     name = "alpha152 unlock test"
     desc = "sets character flag to 1 (from 0)"
@@ -53,7 +65,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "change character select read value from 22 to 23? (from 0x16 to 0x17, from 0x17 to 0x18)"
     desc = ""
     author = ""
-    is_enabled = true
+    is_enabled = false
 
     [[patch.be8]]
         address = 0x822f66e3
@@ -65,7 +77,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "change value from 23 to 24? (from 0x17 to 0x18)"
     desc = ""
     author = ""
-    is_enabled = true
+    is_enabled = false
 	
 	[[patch.be8]]
 		address = 0x825123ab
@@ -80,8 +92,41 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "remove 0x14 flag"
     desc = ""
     author = ""
-    is_enabled = true
+    is_enabled = false
 	
 	[[patch.be8]]
 		address = 0x823f3593
-		value = 0xFF
+		value = 0xff
+[[patch]]
+    name = "test2"
+    desc = ""
+    author = ""
+    is_enabled = false
+	
+	[[patch.be8]]
+		address = 0x82e2d457
+		value = 0x02
+				
+[[patch]]
+    name = "remove alpha152 lockout"
+    desc = ""
+    author = ""
+    is_enabled = true
+	
+	[[patch.be8]]
+		address = 0x82c54f3c
+		value = 0xff
+		
+[[patch]]
+    name = "add alpha152 to unlockables??"
+    desc = ""
+    author = ""
+    is_enabled = true
+	
+	[[patch.be8]]
+		address = 0x82c54f3a
+		value = 0x10
+	[[patch.be8]]
+		address = 0x82c54f3b
+		value = 0xff			
+
