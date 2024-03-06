@@ -1965,6 +1965,29 @@
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>1007F8000</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>270</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18309A266</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>271</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18302304C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>272</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb92ff</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
