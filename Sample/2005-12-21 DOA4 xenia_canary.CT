@@ -2118,10 +2118,131 @@
     </CheatEntry>
     <CheatEntry>
       <ID>292</ID>
-      <Description>"No description"</Description>
+      <Description>"DISTANCE"</Description>
       <VariableType>Custom</VariableType>
       <CustomType>Float Big Endian</CustomType>
       <Address>18301FC44</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>307</ID>
+      <Description>"DISTANCE_MAX"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1822a9df8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>293</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>24</ByteLength>
+      <Address>1830ef7f4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>294</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EF828</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>295</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182E62B4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>296</ID>
+      <Description>"CharacterSelect_Slot#???"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EF82C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>297</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ef810</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>298</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>24</ByteLength>
+      <Address>1830ef7d4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>299</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>24</ByteLength>
+      <Address>1830ef678</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>300</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182E62B4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>301</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182c23ab2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>302</ID>
+      <Description>"CHRDISP_P1 (char sel only?)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EFB7C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>303</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182E62AC2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>304</ID>
+      <Description>"CHRDISP_P1 (char sel only?)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182E62AC0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>305</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ef730</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>306</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8d67</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
