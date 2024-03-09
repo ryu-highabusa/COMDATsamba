@@ -21,16 +21,17 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 	
 	[[patch.be8]]
 		address = 0x82502197
-		value = 0xFF
+		value = 0xff
+		
 [[patch]]
 	name = "Increase Max Character Distance"
-	desc = "Increases the maximum distance between characters from 6.0 to 30.0"
+	desc = "Increases the maximum distance between characters from 6.0 to 33.6475"
 	author = "ryu_highabusa"
 	is_enabled = true
 	
 	[[patch.be32]]
 		address = 0x822a9df8
-		value = 0x41f00000
+		value = 0x42069710
 
 
 [[patch]]
