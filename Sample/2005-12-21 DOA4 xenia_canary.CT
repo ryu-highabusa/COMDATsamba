@@ -2164,6 +2164,14 @@
       <Address>1830EF82C</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>345</ID>
+      <Description>"Character_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EF82D</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>297</ID>
       <Description>"character select flags? 1 = select char, 2 = select costume, 3 = next menu?"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -2486,6 +2494,106 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>182C24D38</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>337</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830ef678</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>338</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182e62b4c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>339</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>18341c3fc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>340</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>18341c768</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>341</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18302031a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>342</ID>
+      <Description>""</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>4</ByteLength>
+      <Address>182c24b88</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>343</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830ee540</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>344</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183192964</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>346</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EE6B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>347</ID>
+      <Description>"Kokoro Slot (Story Character Select)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182c243f0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>348</ID>
+      <Description>"Kasumi Slot (Character Select Regular)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182f4b5f0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>349</ID>
+      <Description>"Random Slot (Char Sel Regular)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182f4b960</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
