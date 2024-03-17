@@ -4,6 +4,7 @@
     <CheatEntry>
       <ID>1</ID>
       <Description>"No description"</Description>
+      <LastState RealAddress="18204ACD1"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>String</VariableType>
       <Length>20</Length>
@@ -15,6 +16,7 @@
     <CheatEntry>
       <ID>2</ID>
       <Description>"No description"</Description>
+      <LastState RealAddress="182CEFAA1"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>String</VariableType>
       <Length>20</Length>
@@ -26,6 +28,7 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"No description"</Description>
+      <LastState RealAddress="192CEFAA1"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>String</VariableType>
       <Length>20</Length>
@@ -37,6 +40,7 @@
     <CheatEntry>
       <ID>4</ID>
       <Description>"No description"</Description>
+      <LastState Value="1" RealAddress="182CEFA97"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182CEFA97</Address>
@@ -44,6 +48,7 @@
     <CheatEntry>
       <ID>5</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="182A777A4"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -53,6 +58,7 @@
     <CheatEntry>
       <ID>6</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000001" RealAddress="182CEFA94"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -62,6 +68,7 @@
     <CheatEntry>
       <ID>7</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000001" RealAddress="182A7779C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -71,6 +78,7 @@
     <CheatEntry>
       <ID>8</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000FFFF" RealAddress="182A777A0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -80,6 +88,7 @@
     <CheatEntry>
       <ID>9</ID>
       <Description>"No description"</Description>
+      <LastState Value="00 40 00 41 00 40 00 73 00 2B" RealAddress="182CEFDA0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -89,6 +98,7 @@
     <CheatEntry>
       <ID>10</ID>
       <Description>"No description"</Description>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00" RealAddress="182CEFCA0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -98,6 +108,7 @@
     <CheatEntry>
       <ID>11</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="182CEFA80"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -107,6 +118,7 @@
     <CheatEntry>
       <ID>12</ID>
       <Description>"No description"</Description>
+      <LastState Value="7FFFFFFF" RealAddress="182CEF158"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -116,6 +128,7 @@
     <CheatEntry>
       <ID>13</ID>
       <Description>"No description"</Description>
+      <LastState Value="3F800000" RealAddress="182CEFA8C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -125,6 +138,7 @@
     <CheatEntry>
       <ID>14</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="18209D8AC"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -134,6 +148,7 @@
     <CheatEntry>
       <ID>15</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000001" RealAddress="182A7779C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -143,6 +158,7 @@
     <CheatEntry>
       <ID>16</ID>
       <Description>"No description"</Description>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00" RealAddress="182D539E0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -152,6 +168,7 @@
     <CheatEntry>
       <ID>17</ID>
       <Description>"No description"</Description>
+      <LastState Value="00003DA0" RealAddress="182D53D7A"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -161,6 +178,7 @@
     <CheatEntry>
       <ID>18</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="18311D9D4"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -170,6 +188,7 @@
     <CheatEntry>
       <ID>19</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="18311D990"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -179,6 +198,7 @@
     <CheatEntry>
       <ID>20</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="182CE4E31"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -187,6 +207,7 @@
     <CheatEntry>
       <ID>21</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000" RealAddress="18311DCAE"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -195,6 +216,7 @@
     <CheatEntry>
       <ID>22</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="182D649F8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -203,6 +225,7 @@
     <CheatEntry>
       <ID>23</ID>
       <Description>"No description"</Description>
+      <LastState Value="3F800000" RealAddress="182D649E8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -212,6 +235,7 @@
     <CheatEntry>
       <ID>24</ID>
       <Description>"No description"</Description>
+      <LastState Value="08" RealAddress="182D648CB"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -220,6 +244,7 @@
     <CheatEntry>
       <ID>25</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000008" RealAddress="182D648C8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -229,6 +254,7 @@
     <CheatEntry>
       <ID>26</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="182D79918"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -238,6 +264,7 @@
     <CheatEntry>
       <ID>27</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="182D7992C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -247,6 +274,7 @@
     <CheatEntry>
       <ID>28</ID>
       <Description>"No description"</Description>
+      <LastState Value="F7BCA000" RealAddress="182D79910"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -275,6 +303,7 @@
     <CheatEntry>
       <ID>32</ID>
       <Description>"Stage_dat.bin header"</Description>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" RealAddress="101EBD000"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -284,6 +313,7 @@
     <CheatEntry>
       <ID>33</ID>
       <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="182DF5A49"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182df5a49</Address>
@@ -291,6 +321,7 @@
     <CheatEntry>
       <ID>34</ID>
       <Description>"No description"</Description>
+      <LastState Value="1" RealAddress="182DF5A4A"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182DF5A4A</Address>
@@ -298,6 +329,7 @@
     <CheatEntry>
       <ID>35</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000000" RealAddress="182DF5A4D"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -307,6 +339,7 @@
     <CheatEntry>
       <ID>36</ID>
       <Description>"No description"</Description>
+      <LastState Value="720" RealAddress="182DF5A50"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -315,6 +348,7 @@
     <CheatEntry>
       <ID>37</ID>
       <Description>"No description"</Description>
+      <LastState Value="1" RealAddress="182DF5A54"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -323,6 +357,7 @@
     <CheatEntry>
       <ID>38</ID>
       <Description>"No description"</Description>
+      <LastState Value="F8 00 00 50 F8 00 00 5C F8 00 00 98 F8 00 00 E0 F8 00 01 28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F8 00 00 68 F8 00 00 A4 F8 00 00 D4 F8 00 00 EC F8 00 01 34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F8 00 00 74 F8 00 00 B0 F8 00 00 F8 F8 00 01 1C F8 00 01 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F8 00 00 80 F8 00 00 BC F8 00 01 04 F8 00 01 4C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F8 00 00 8C F8 00 00 C8 F8 00 01 10 F8 00 01 58 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 05 00 00 00 05 00 00 00 05 00 00 00 04 00 00 00 04 00 00 00 05 00 00 00 05 00 00 00 05 00 00 00 04 00 00 00 04 F8 00 00 14 00 00 00 01 F8 00 00 18 F8 00 00 4C F8 00 00 58 F8 00 00 64 F8 00 00 70 F8 00 00 7C F8 00 00 88 F8 00 00 94 F8 00 00 A0 F8 00 00 AC F8 00 00 B8 F8 00 00 C4 F8 00 00 D0 F8 00 00 DC F8 00 00 E8 F8 00 00 F4 F8 00 01 00 F8 00 01 0C F8 00 01 18 F8 00 01 24 F8 00 01 30 F8 00 01 3C F8 00 01 48 F8 00 01 54 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F8 00 00 50 F8 00 00 5C F8 00 00 68 F8 00 00 74 F8 00 00 80 F8 00 00 8C F8 00 00 98 F8 00 00 A4 F8 00 00 B0 F8 00 00 BC F8 00 00 C8 F8 00 00 D4 F8 00 00 E0 F8 00 00 EC F8 00 00 F8 F8 00 01 04 F8 00 01 10 F8 00 01 1C F8 00 01 28 F8 00 01 34 F8 00 01 40 F8 00 01 4C F8 00 01 58 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 18 00 00 00 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00 02 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" RealAddress="182DF5A58"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -332,6 +367,7 @@
     <CheatEntry>
       <ID>39</ID>
       <Description>"No description"</Description>
+      <LastState Value="1" RealAddress="182DF6498"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -340,6 +376,7 @@
     <CheatEntry>
       <ID>40</ID>
       <Description>"costumes_default???"</Description>
+      <LastState Value="02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 00 00 00" RealAddress="182AAFB58"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -349,6 +386,7 @@
     <CheatEntry>
       <ID>41</ID>
       <Description>"costumes_default_alt???"</Description>
+      <LastState Value="02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 01 01 02 00 00 00" RealAddress="182AAFB74"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -358,6 +396,7 @@
     <CheatEntry>
       <ID>42</ID>
       <Description>"No description"</Description>
+      <LastState Value="00 00 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 00" RealAddress="192AAFB56"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -367,14 +406,24 @@
     <CheatEntry>
       <ID>43</ID>
       <Description>"Health_P1"</Description>
+      <LastState Value="0" RealAddress="182CE4E34"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
       <Address>182ce4e34</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>60</ID>
+      <Description>"DAT_charselmulti_kasumi *startshere*"</Description>
+      <LastState Value="5" RealAddress="182AAF6A0"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182aaf6a0</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>44</ID>
       <Description>"DAT_menu_storymode0 *starts here*"</Description>
+      <LastState Value="00000000" RealAddress="182AB0AA0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -384,6 +433,7 @@
     <CheatEntry>
       <ID>45</ID>
       <Description>"No description"</Description>
+      <LastState Value="82D53DA0" RealAddress="182D53D78"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -393,6 +443,7 @@
     <CheatEntry>
       <ID>46</ID>
       <Description>"No description"</Description>
+      <LastState Value="6" RealAddress="182DFD068"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182DFD068</Address>
@@ -400,6 +451,7 @@
     <CheatEntry>
       <ID>47</ID>
       <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="182AB0C0C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -408,6 +460,7 @@
     <CheatEntry>
       <ID>48</ID>
       <Description>"storymode_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0AB8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -416,6 +469,7 @@
     <CheatEntry>
       <ID>49</ID>
       <Description>"timeattack_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0AD4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -424,6 +478,7 @@
     <CheatEntry>
       <ID>50</ID>
       <Description>"survival_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0AF0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -432,6 +487,7 @@
     <CheatEntry>
       <ID>51</ID>
       <Description>"teambattle_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0B0C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -440,6 +496,7 @@
     <CheatEntry>
       <ID>52</ID>
       <Description>"versus_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0B28"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -448,6 +505,7 @@
     <CheatEntry>
       <ID>53</ID>
       <Description>"watchmode_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0B44"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -456,6 +514,7 @@
     <CheatEntry>
       <ID>54</ID>
       <Description>"sparring_onoff-flag"</Description>
+      <LastState Value="1" RealAddress="182AB0B60"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -464,6 +523,7 @@
     <CheatEntry>
       <ID>55</ID>
       <Description>"collection_onoff-flag"</Description>
+      <LastState Value="0" RealAddress="182AB0B7C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -472,6 +532,7 @@
     <CheatEntry>
       <ID>56</ID>
       <Description>"settings_onoff-flag"</Description>
+      <LastState Value="3" RealAddress="182AB0B98"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -480,6 +541,7 @@
     <CheatEntry>
       <ID>57</ID>
       <Description>"online_onoff-flag"</Description>
+      <LastState Value="3" RealAddress="182AB0BB4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -488,6 +550,7 @@
     <CheatEntry>
       <ID>58</ID>
       <Description>"ranking_onoff-flag"</Description>
+      <LastState Value="0" RealAddress="182AB0BD0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -495,11 +558,21 @@
     </CheatEntry>
     <CheatEntry>
       <ID>59</ID>
-      <Description>"ranking_onoff-flag"</Description>
+      <Description>"singlebattle_onoff-flag"</Description>
+      <LastState Value="3" RealAddress="182AB0BEC"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>182AB0BEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>61</ID>
+      <Description>"tagbattle_onoff-flag"</Description>
+      <LastState Value="3" RealAddress="182AB0C08"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182AB0C08</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
