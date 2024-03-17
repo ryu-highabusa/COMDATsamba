@@ -517,32 +517,25 @@
       <Address>182AB0C08</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>62</ID>
-      <Description>"alpha152 unlock"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182AAF9C2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>63</ID>
-      <Description>"spartan unlock"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182AAFA12</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>64</ID>
-      <Description>"tengu unlock"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182AAF9EA</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>65</ID>
       <Description>"genfu unlock"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182AAF972</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"helena unlock"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182AAF922</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"ein unlock"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182AAF94A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>66</ID>
@@ -552,11 +545,25 @@
       <Address>182AAF99A</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>67</ID>
-      <Description>"helena unlock"</Description>
+      <ID>62</ID>
+      <Description>"alpha152 unlock"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>182AAF922</Address>
+      <Address>182AAF9C2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"tengu unlock"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182AAF9EA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"spartan unlock"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182AAFA12</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
