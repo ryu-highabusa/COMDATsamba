@@ -1,7 +1,7 @@
 | Achievement # | 2005.09.30 Beta Achievements              | Final Achievements                        |
 |---------------|-------------------------------------------|-------------------------------------------|
-| 6             | Completed Story Mode - 5 points           | Completed Story Mode - 10 points          |
-| 7             | Completed All Characters' Story - 20 points | Completed All Story Modes - 30 points   |
+| 6             | **Completed Story Mode - 5 points**           | **Completed Story Mode - 10 points**          |
+| 7             | **Completed All Characters' Story - 20 points** | **Completed All Story Modes - 30 points**   |
 | 8             | Unlocked All Costumes - 50 points        | Unlocked All Costumes - 50 points         |
 | 9             | Bronze in Time Attack (Single) - 10 points | Bronze in Time Attack (Single) - 10 points |
 | 10            | Silver in Time Attack (Single) - 20 points | Silver in Time Attack (Single) - 20 points |
@@ -18,17 +18,17 @@
 | 21            | Gold in Survival (Tag) - 40 points      | Gold in Survival (Tag) - 40 points      |
 | 22            | 100 Wins in Survival (Tag) - 50 points  | 100 Wins in Survival (Tag) - 50 points  |
 | 23            | Collected All Items - 25 points         | Collected All Items - 25 points          |
-| 24            | Completed All Missions - 50 points      | N/A                                       |
-| 25            | Unlocked "Alpha152" - 10 points         | N/A                                       |
+| 24            | **Completed All Missions - 50 points**      | **N/A**                                       |
+| 25            | **Unlocked "Alpha152" - 10 points**         | **N/A**                                       |
 | 26            | Unlocked "Gen Fu" - 10 points           | Unlocked "Gen Fu" - 10 points            |
 | 27            | Unlocked "Leon" - 10 points             | Unlocked "Leon" - 10 points              |
 | 28            | Unlocked "Ein" - 10 points              | Unlocked "Ein" - 10 points               |
-| 29            | Unlocked "Tengu" - 10 points            | Unlocked "Tengu" - 20 points             |
+| 29            | **Unlocked "Tengu" - 10 points**            | **Unlocked "Tengu" - 20 points**             |
 | 30            | Unlocked "SPARTAN-458" - 20 points      | Unlocked "SPARTAN-458" - 20 points       |
-| 31            | Unlocked "Helena" - 10 points           | Unlocked "Helena" - 20 points            |
+| 31            | **Unlocked "Helena" - 10 points**           | **Unlocked "Helena" - 20 points**            |
 | 32            | Total Play Time 5 Hrs. - 10 points      | Total Play Time 5 Hrs. - 10 points       |
 | 33            | Total Play Time 10 Hrs. - 20 points     | Total Play Time 10 Hrs. - 20 points      |
-| 34            | Total Play Time 100 Hrs. - 30 points   | Total Play Time 100 Hrs. - 40 points    |
+| 34            | **Total Play Time 100 Hrs. - 30 points**   | **Total Play Time 100 Hrs. - 40 points**    |
 | 35            | 10 Wins in DOA Online - 10 points      | 10 Wins in DOA Online - 10 points       |
 | 36            | 50 Wins in DOA Online - 20 points      | 50 Wins in DOA Online - 20 points       |
 | 37            | 100 Wins in DOA Online - 30 points     | 100 Wins in DOA Online - 30 points      |
@@ -45,5 +45,5 @@
 | 48            | Achieved Grade "S" - 40 points         | Achieved Grade "S" - 40 points          |
 | 49            | Achieved Grade "SS" - 50 points        | Achieved Grade "SS" - 50 points         |
 | 50            | Won a Bronze Star - 10 points          | Won a Bronze Star - 10 points           |
-| 51            | Won a Silver Star - 15 points          | Won a Silver Star - 20 points           |
-| 52            | Won a Gold Star - 20 points            | Won a Gold Star - 30 points             |
+| 51            | **Won a Silver Star - 15 points**          | **Won a Silver Star - 20 points**           |
+| 52            | **Won a Gold Star - 20 points**            | **Won a Gold Star - 30 points**             |
