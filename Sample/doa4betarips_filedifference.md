@@ -1,13 +1,13 @@
-Compare “DOA4_360_e3_Dev_Build_Demo” with “DOA4 E3 Fri Sep 30 20.22.19 2005”						
+# Compare “DOA4_360_e3_Dev_Build_Demo” with “DOA4 E3 Fri Sep 30 20.22.19 2005”						
 						
 Filename	|	Folder	|	Comparison result	|	Extension
 -----	|	-----	|	-----	|	-----
-bin	|	Folders are different	|		|	
+**bin**	|		|	**Folders are different**	|	
 anime_cm.bin	|	bin	|	Binary files are identical	|	bin
 ayane.bin	|	bin	|	Binary files are identical	|	bin
-ayane.mot	|	bin	|	Binary files are different	|	mot
+**ayane.mot**	|	bin	|	**Binary files are different**	|	mot
 boy.bin	|	bin	|	Binary files are identical	|	bin
-boy.mot	|	bin	|	Binary files are different	|	mot
+**boy.mot**	|	bin	|	**Binary files are different**	|	mot
 c_ayane.mot	|	bin	|	Binary files are identical	|	mot
 c_boy.mot	|	bin	|	Binary files are identical	|	mot
 c_gokei.mot	|	bin	|	Binary files are identical	|	mot
@@ -19,17 +19,17 @@ c_leifan.mot	|	bin	|	Binary files are identical	|	mot
 c_lisa.mot	|	bin	|	Binary files are identical	|	mot
 c_ryu.mot	|	bin	|	Binary files are identical	|	mot
 c_zack.mot	|	bin	|	Binary files are identical	|	mot
-comon.mot	|	bin	|	Binary files are different	|	mot
+**comon.mot**	|	bin	|	**Binary files are different**	|	mot
 gokei.bin	|	bin	|	Binary files are identical	|	bin
 gokei.mot	|	bin	|	Binary files are identical	|	mot
 hakyo.bin	|	bin	|	Binary files are identical	|	bin
 hakyo.mot	|	bin	|	Binary files are identical	|	mot
 janlee.bin	|	bin	|	Binary files are identical	|	bin
-janlee.mot	|	bin	|	Binary files are different	|	mot
+**janlee.mot**	|	bin	|	**Binary files are different**	|	mot
 kasumi.bin	|	bin	|	Binary files are identical	|	bin
 kasumi.mot	|	bin	|	Binary files are identical	|	mot
 koryu.bin	|	bin	|	Binary files are identical	|	bin
-koryu.mot	|	bin	|	Binary files are different	|	mot
+**koryu.mot**	|	bin	|	**Binary files are different**	|	mot
 leifan.mot	|	bin	|	Binary files are identical	|	mot
 leifang.bin	|	bin	|	Binary files are identical	|	bin
 lisa.bin	|	bin	|	Binary files are identical	|	bin
@@ -37,10 +37,10 @@ lisa.mot	|	bin	|	Binary files are identical	|	mot
 ryu.bin	|	bin	|	Binary files are identical	|	bin
 ryu.mot	|	bin	|	Binary files are identical	|	mot
 zack.bin	|	bin	|	Binary files are identical	|	bin
-zack.mot	|	bin	|	Binary files are different	|	mot
-DAT	|	Folders are different	|		|	
-avatar	|	DAT	|	Folders are different	|	
-partstex	|	DAT\avatar	|	Folders are different	|	
+**zack.mot**	|	bin	|	**Binary files are different**	|	mot
+DAT	|		|	**Folders are different**	|	
+avatar	|	DAT	|	**Folders are different**	|	
+partstex	|	DAT\avatar	|	**Folders are different**	|	
 bon00_body.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 bon00_fac.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 bon01_body.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
@@ -214,7 +214,7 @@ man03_beaber_gre.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 man03_beachb_gre.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 man03_fac_gun.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 man03_skin_gun.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
-man04_beaago_gol.ctb	|	DAT\avatar\partstex	|	Binary files are different	|	ctb
+man04_beaago_gol.ctb	|	DAT\avatar\partstex	|	**Binary files are different**	|	ctb
 man04_beaber_gol.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 man04_beachb_gol.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 man04_fac_bla.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
@@ -338,29 +338,29 @@ wom07_skin_cow.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 woman_skin_black.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 woman_skin_orange.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
 woman_skin_white.ctb	|	DAT\avatar\partstex	|	Binary files are identical	|	ctb
-avtforfinal	|	DAT	|	Folders are different	|	
+avtforfinal	|	DAT	|	**Folders are different**	|	
 avt_bon.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
-avt_cat.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_cho.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_ckn.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_dog.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
+avt_cat.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_cho.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_ckn.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_dog.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
 avt_fai.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
-avt_fis.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_gst.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_hny.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
+avt_fis.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_gst.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_hny.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
 avt_hyk.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
 avt_kan.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
 avt_nim.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
 avt_pgs.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
 avt_pig.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
 avt_pnd.tdp	|	DAT\avtforfinal	|	Binary files are identical	|	tdp
-avt_png.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_rob.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_tak.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_ton.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_tre.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_uch.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
-avt_wan.tdp	|	DAT\avtforfinal	|	Binary files are different	|	tdp
+avt_png.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_rob.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_tak.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_ton.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_tre.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_uch.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
+avt_wan.tdp	|	DAT\avtforfinal	|	**Binary files are different**	|	tdp
 goodsdata.bin	|	DAT\avtforfinal	|	Binary files are identical	|	bin
 camera	|	DAT	|	Identical	|	
 law_BO900.bin	|	DAT\camera	|	Binary files are identical	|	bin
@@ -374,73 +374,73 @@ law_HA902.bin	|	DAT\camera	|	Binary files are identical	|	bin
 law_HA903.bin	|	DAT\camera	|	Binary files are identical	|	bin
 law_PR900.bin	|	DAT\camera	|	Binary files are identical	|	bin
 law_PR900_B.bin	|	DAT\camera	|	Binary files are identical	|	bin
-char	|	DAT	|	Folders are different	|	
-aya00	|	DAT\char	|	Folders are different	|	
+char	|	DAT	|	**Folders are different**	|	
+aya00	|	DAT\char	|	**Folders are different**	|	
 aya00.cat	|	DAT\char\aya00	|	Binary files are identical	|	cat
-aya00.tpr	|	DAT\char\aya00	|	Binary files are different	|	tpr
-aya03	|	DAT\char	|	Folders are different	|	
-aya03.cat	|	DAT\char\aya03	|	Binary files are different	|	cat
-aya03.tpr	|	DAT\char\aya03	|	Binary files are different	|	tpr
-boy00	|	DAT\char	|	Folders are different	|	
-boy00.cat	|	DAT\char\boy00	|	Binary files are different	|	cat
-boy00.tpr	|	DAT\char\boy00	|	Binary files are different	|	tpr
-boy03	|	DAT\char	|	Folders are different	|	
+aya00.tpr	|	DAT\char\aya00	|	**Binary files are different**	|	tpr
+aya03	|	DAT\char	|	**Folders are different**	|	
+aya03.cat	|	DAT\char\aya03	|	**Binary files are different**	|	cat
+aya03.tpr	|	DAT\char\aya03	|	**Binary files are different**	|	tpr
+boy00	|	DAT\char	|	**Folders are different**	|	
+boy00.cat	|	DAT\char\boy00	|	**Binary files are different**	|	cat
+boy00.tpr	|	DAT\char\boy00	|	**Binary files are different**	|	tpr
+boy03	|	DAT\char	|	**Folders are different**	|	
 boy03.cat	|	DAT\char\boy03	|	Binary files are identical	|	cat
-boy03.tpr	|	DAT\char\boy03	|	Binary files are different	|	tpr
-cri00	|	DAT\char	|	Folders are different	|	
+boy03.tpr	|	DAT\char\boy03	|	**Binary files are different**	|	tpr
+cri00	|	DAT\char	|	**Folders are different**	|	
 cri00.cat	|	DAT\char\cri00	|	Binary files are identical	|	cat
-cri00.tpr	|	DAT\char\cri00	|	Binary files are different	|	tpr
-cri01	|	DAT\char	|	Folders are different	|	
+cri00.tpr	|	DAT\char\cri00	|	**Binary files are different**	|	tpr
+cri01	|	DAT\char	|	**Folders are different**	|	
 cri01.cat	|	DAT\char\cri01	|	Binary files are identical	|	cat
-cri01.tpr	|	DAT\char\cri01	|	Binary files are different	|	tpr
-hak00	|	DAT\char	|	Folders are different	|	
+cri01.tpr	|	DAT\char\cri01	|	**Binary files are different**	|	tpr
+hak00	|	DAT\char	|	**Folders are different**	|	
 hak00.cat	|	DAT\char\hak00	|	Binary files are identical	|	cat
-hak00.tpr	|	DAT\char\hak00	|	Binary files are different	|	tpr
-hak06	|	DAT\char	|	Folders are different	|	
-hak06.cat	|	DAT\char\hak06	|	Binary files are different	|	cat
-hak06.tpr	|	DAT\char\hak06	|	Binary files are different	|	tpr
-jan00	|	DAT\char	|	Folders are different	|	
-jan00.cat	|	DAT\char\jan00	|	Binary files are different	|	cat
-jan00.tpr	|	DAT\char\jan00	|	Binary files are different	|	tpr
-jan01	|	DAT\char	|	Folders are different	|	
-jan01.cat	|	DAT\char\jan01	|	Binary files are different	|	cat
-jan01.tpr	|	DAT\char\jan01	|	Binary files are different	|	tpr
-kas00	|	DAT\char	|	Folders are different	|	
+hak00.tpr	|	DAT\char\hak00	|	**Binary files are different**	|	tpr
+hak06	|	DAT\char	|	**Folders are different**	|	
+hak06.cat	|	DAT\char\hak06	|	**Binary files are different**	|	cat
+hak06.tpr	|	DAT\char\hak06	|	**Binary files are different**	|	tpr
+jan00	|	DAT\char	|	**Folders are different**	|	
+jan00.cat	|	DAT\char\jan00	|	**Binary files are different**	|	cat
+jan00.tpr	|	DAT\char\jan00	|	**Binary files are different**	|	tpr
+jan01	|	DAT\char	|	**Folders are different**	|	
+jan01.cat	|	DAT\char\jan01	|	**Binary files are different**	|	cat
+jan01.tpr	|	DAT\char\jan01	|	**Binary files are different**	|	tpr
+kas00	|	DAT\char	|	**Folders are different**	|	
 kas00.cat	|	DAT\char\kas00	|	Binary files are identical	|	cat
-kas00.tpr	|	DAT\char\kas00	|	Binary files are different	|	tpr
-kas02	|	DAT\char	|	Folders are different	|	
+kas00.tpr	|	DAT\char\kas00	|	**Binary files are different**	|	tpr
+kas02	|	DAT\char	|	**Folders are different**	|	
 kas02.cat	|	DAT\char\kas02	|	Binary files are identical	|	cat
-kas02.tpr	|	DAT\char\kas02	|	Binary files are different	|	tpr
-kor00	|	DAT\char	|	Folders are different	|	
+kas02.tpr	|	DAT\char\kas02	|	**Binary files are different**	|	tpr
+kor00	|	DAT\char	|	**Folders are different**	|	
 kor00.cat	|	DAT\char\kor00	|	Binary files are identical	|	cat
-kor00.tpr	|	DAT\char\kor00	|	Binary files are different	|	tpr
-kor01	|	DAT\char	|	Folders are different	|	
-kor01.cat	|	DAT\char\kor01	|	Binary files are different	|	cat
-kor01.tpr	|	DAT\char\kor01	|	Binary files are different	|	tpr
-lei01	|	DAT\char	|	Folders are different	|	
-lei01.cat	|	DAT\char\lei01	|	Binary files are different	|	cat
-lei01.tpr	|	DAT\char\lei01	|	Binary files are different	|	tpr
-lei06	|	DAT\char	|	Folders are different	|	
-lei06.cat	|	DAT\char\lei06	|	Binary files are different	|	cat
-lei06.tpr	|	DAT\char\lei06	|	Binary files are different	|	tpr
-lis00	|	DAT\char	|	Folders are different	|	
+kor00.tpr	|	DAT\char\kor00	|	**Binary files are different**	|	tpr
+kor01	|	DAT\char	|	**Folders are different**	|	
+kor01.cat	|	DAT\char\kor01	|	**Binary files are different**	|	cat
+kor01.tpr	|	DAT\char\kor01	|	**Binary files are different**	|	tpr
+lei01	|	DAT\char	|	**Folders are different**	|	
+lei01.cat	|	DAT\char\lei01	|	**Binary files are different**	|	cat
+lei01.tpr	|	DAT\char\lei01	|	**Binary files are different**	|	tpr
+lei06	|	DAT\char	|	**Folders are different**	|	
+lei06.cat	|	DAT\char\lei06	|	**Binary files are different**	|	cat
+lei06.tpr	|	DAT\char\lei06	|	**Binary files are different**	|	tpr
+lis00	|	DAT\char	|	**Folders are different**	|	
 lis00.cat	|	DAT\char\lis00	|	Binary files are identical	|	cat
-lis00.tpr	|	DAT\char\lis00	|	Binary files are different	|	tpr
-lis02	|	DAT\char	|	Folders are different	|	
-lis02.cat	|	DAT\char\lis02	|	Binary files are different	|	cat
-lis02.tpr	|	DAT\char\lis02	|	Binary files are different	|	tpr
-ryu00	|	DAT\char	|	Folders are different	|	
+lis00.tpr	|	DAT\char\lis00	|	**Binary files are different**	|	tpr
+lis02	|	DAT\char	|	**Folders are different**	|	
+lis02.cat	|	DAT\char\lis02	|	**Binary files are different**	|	cat
+lis02.tpr	|	DAT\char\lis02	|	**Binary files are different**	|	tpr
+ryu00	|	DAT\char	|	**Folders are different**	|	
 ryu00.cat	|	DAT\char\ryu00	|	Binary files are identical	|	cat
-ryu00.tpr	|	DAT\char\ryu00	|	Binary files are different	|	tpr
-ryu02	|	DAT\char	|	Folders are different	|	
-ryu02.cat	|	DAT\char\ryu02	|	Binary files are different	|	cat
-ryu02.tpr	|	DAT\char\ryu02	|	Binary files are different	|	tpr
-zac00	|	DAT\char	|	Folders are different	|	
-zac00.cat	|	DAT\char\zac00	|	Binary files are different	|	cat
-zac00.tpr	|	DAT\char\zac00	|	Binary files are different	|	tpr
-zac02	|	DAT\char	|	Folders are different	|	
-zac02.cat	|	DAT\char\zac02	|	Binary files are different	|	cat
-zac02.tpr	|	DAT\char\zac02	|	Binary files are different	|	tpr
+ryu00.tpr	|	DAT\char\ryu00	|	**Binary files are different**	|	tpr
+ryu02	|	DAT\char	|	**Folders are different**	|	
+ryu02.cat	|	DAT\char\ryu02	|	**Binary files are different**	|	cat
+ryu02.tpr	|	DAT\char\ryu02	|	**Binary files are different**	|	tpr
+zac00	|	DAT\char	|	**Folders are different**	|	
+zac00.cat	|	DAT\char\zac00	|	**Binary files are different**	|	cat
+zac00.tpr	|	DAT\char\zac00	|	**Binary files are different**	|	tpr
+zac02	|	DAT\char	|	**Folders are different**	|	
+zac02.cat	|	DAT\char\zac02	|	**Binary files are different**	|	cat
+zac02.tpr	|	DAT\char\zac02	|	**Binary files are different**	|	tpr
 efc	|	DAT	|	Identical	|	
 efc0	|	DAT\efc	|	Identical	|	
 efc0.tpr	|	DAT\efc\efc0	|	Binary files are identical	|	tpr
@@ -485,183 +485,183 @@ FurTinaRFoot.dat	|	DAT\fur\TINA	|	Text files are identical	|	dat
 FurTinaRFoot2.dat	|	DAT\fur\TINA	|	Text files are identical	|	dat
 FurTinaRFoot3.dat	|	DAT\fur\TINA	|	Text files are identical	|	dat
 FurTinaTail.dat	|	DAT\fur\TINA	|	Text files are identical	|	dat
-house	|	DAT	|	Folders are different	|	
-hos_hol.tdp	|	DAT\house	|	Binary files are different	|	tdp
-hos_ice.tdp	|	DAT\house	|	Binary files are different	|	tdp
-hos_jun.tdp	|	DAT\house	|	Binary files are different	|	tdp
+house	|	DAT	|	**Folders are different**	|	
+hos_hol.tdp	|	DAT\house	|	**Binary files are different**	|	tdp
+hos_ice.tdp	|	DAT\house	|	**Binary files are different**	|	tdp
+hos_jun.tdp	|	DAT\house	|	**Binary files are different**	|	tdp
 hos_wat.tdp	|	DAT\house	|	Binary files are identical	|	tdp
 xtra.tpr	|	DAT\house	|	Binary files are identical	|	tpr
 light	|	DAT	|	Identical	|	
 rtmlight.bin	|	DAT\light	|	Binary files are identical	|	bin
-sprite	|	DAT	|	Folders are different	|	
+sprite	|	DAT	|	**Folders are different**	|	
 avatar	|	DAT\sprite	|	Identical	|	
 spAvatar.xpr	|	DAT\sprite\avatar	|	Binary files are identical	|	xpr
-base	|	DAT\sprite	|	Folders are different	|	
-spBase.tpr	|	DAT\sprite\base	|	Binary files are different	|	tpr
-spBase.xpr	|	DAT\sprite\base	|	Binary files are different	|	xpr
-chrsel	|	DAT\sprite	|	Folders are different	|	
-spChrE.tpr	|	DAT\sprite\chrsel	|	Binary files are different	|	tpr
-spChrE.xpr	|	DAT\sprite\chrsel	|	Binary files are different	|	xpr
-spChrF.tpr	|	DAT\sprite\chrsel	|	Binary files are different	|	tpr
-spChrF.xpr	|	DAT\sprite\chrsel	|	Binary files are different	|	xpr
+base	|	DAT\sprite	|	**Folders are different**	|	
+spBase.tpr	|	DAT\sprite\base	|	**Binary files are different**	|	tpr
+spBase.xpr	|	DAT\sprite\base	|	**Binary files are different**	|	xpr
+chrsel	|	DAT\sprite	|	**Folders are different**	|	
+spChrE.tpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	tpr
+spChrE.xpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	xpr
+spChrF.tpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	tpr
+spChrF.xpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	xpr
 spChrG.tpr	|	DAT\sprite\chrsel	|	Binary files are identical	|	tpr
 spChrG.xpr	|	DAT\sprite\chrsel	|	Binary files are identical	|	xpr
 spChrI.tpr	|	DAT\sprite\chrsel	|	Binary files are identical	|	tpr
-spChrI.xpr	|	DAT\sprite\chrsel	|	Binary files are different	|	xpr
-spChrsel.tpr	|	DAT\sprite\chrsel	|	Binary files are different	|	tpr
-spChrsel.xpr	|	DAT\sprite\chrsel	|	Binary files are different	|	xpr
+spChrI.xpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	xpr
+spChrsel.tpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	tpr
+spChrsel.xpr	|	DAT\sprite\chrsel	|	**Binary files are different**	|	xpr
 cmdlst	|	DAT\sprite	|	Identical	|	
 spCmdlst.xpr	|	DAT\sprite\cmdlst	|	Binary files are identical	|	xpr
-game	|	DAT\sprite	|	Folders are different	|	
-spGame.xpr	|	DAT\sprite\game	|	Binary files are different	|	xpr
-live	|	DAT\sprite	|	Folders are different	|	
-spLive.tpr	|	DAT\sprite\live	|	Binary files are different	|	tpr
+game	|	DAT\sprite	|	**Folders are different**	|	
+spGame.xpr	|	DAT\sprite\game	|	**Binary files are different**	|	xpr
+live	|	DAT\sprite	|	**Folders are different**	|	
+spLive.tpr	|	DAT\sprite\live	|	**Binary files are different**	|	tpr
 spLive.xpr	|	DAT\sprite\live	|	Binary files are identical	|	xpr
-livemode	|	DAT\sprite	|	Folders are different	|	
-spLvmode.xpr	|	DAT\sprite\livemode	|	Binary files are different	|	xpr
-logo	|	DAT\sprite	|	Folders are different	|	
+livemode	|	DAT\sprite	|	**Folders are different**	|	
+spLvmode.xpr	|	DAT\sprite\livemode	|	**Binary files are different**	|	xpr
+logo	|	DAT\sprite	|	**Folders are different**	|	
 spLogo.tpr	|	DAT\sprite\logo	|	Binary files are identical	|	tpr
-spLogo.xpr	|	DAT\sprite\logo	|	Binary files are different	|	xpr
-spLogoE.tpr	|	DAT\sprite\logo	|	Binary files are different	|	tpr
-spLogoE.xpr	|	DAT\sprite\logo	|	Binary files are different	|	xpr
-spLogoF.tpr	|	DAT\sprite\logo	|	Binary files are different	|	tpr
-spLogoF.xpr	|	DAT\sprite\logo	|	Binary files are different	|	xpr
-spLogoG.tpr	|	DAT\sprite\logo	|	Binary files are different	|	tpr
+spLogo.xpr	|	DAT\sprite\logo	|	**Binary files are different**	|	xpr
+spLogoE.tpr	|	DAT\sprite\logo	|	**Binary files are different**	|	tpr
+spLogoE.xpr	|	DAT\sprite\logo	|	**Binary files are different**	|	xpr
+spLogoF.tpr	|	DAT\sprite\logo	|	**Binary files are different**	|	tpr
+spLogoF.xpr	|	DAT\sprite\logo	|	**Binary files are different**	|	xpr
+spLogoG.tpr	|	DAT\sprite\logo	|	**Binary files are different**	|	tpr
 spLogoG.xpr	|	DAT\sprite\logo	|	Binary files are identical	|	xpr
 spLogoI.tpr	|	DAT\sprite\logo	|	Binary files are identical	|	tpr
-spLogoI.xpr	|	DAT\sprite\logo	|	Binary files are different	|	xpr
-modsel	|	DAT\sprite	|	Folders are different	|	
-spModeW.tpr	|	DAT\sprite\modsel	|	Binary files are different	|	tpr
-spModeW.xpr	|	DAT\sprite\modsel	|	Binary files are different	|	xpr
-spModsel.tpr	|	DAT\sprite\modsel	|	Binary files are different	|	tpr
-spModsel.xpr	|	DAT\sprite\modsel	|	Binary files are different	|	xpr
-movie	|	DAT\sprite	|	Folders are different	|	
-spmovie.xpr	|	DAT\sprite\movie	|	Binary files are different	|	xpr
-option	|	DAT\sprite	|	Folders are different	|	
-spOption.tpr	|	DAT\sprite\option	|	Binary files are different	|	tpr
+spLogoI.xpr	|	DAT\sprite\logo	|	**Binary files are different**	|	xpr
+modsel	|	DAT\sprite	|	**Folders are different**	|	
+spModeW.tpr	|	DAT\sprite\modsel	|	**Binary files are different**	|	tpr
+spModeW.xpr	|	DAT\sprite\modsel	|	**Binary files are different**	|	xpr
+spModsel.tpr	|	DAT\sprite\modsel	|	**Binary files are different**	|	tpr
+spModsel.xpr	|	DAT\sprite\modsel	|	**Binary files are different**	|	xpr
+movie	|	DAT\sprite	|	**Folders are different**	|	
+spmovie.xpr	|	DAT\sprite\movie	|	**Binary files are different**	|	xpr
+option	|	DAT\sprite	|	**Folders are different**	|	
+spOption.tpr	|	DAT\sprite\option	|	**Binary files are different**	|	tpr
 spOption.xpr	|	DAT\sprite\option	|	Binary files are identical	|	xpr
 optkey	|	DAT\sprite	|	Identical	|	
 spOptkey.xpr	|	DAT\sprite\optkey	|	Binary files are identical	|	xpr
-optrnk	|	DAT\sprite	|	Folders are different	|	
-spOptrnk.xpr	|	DAT\sprite\optrnk	|	Binary files are different	|	xpr
-pf_ext	|	DAT\sprite	|	Folders are different	|	
+optrnk	|	DAT\sprite	|	**Folders are different**	|	
+spOptrnk.xpr	|	DAT\sprite\optrnk	|	**Binary files are different**	|	xpr
+pf_ext	|	DAT\sprite	|	**Folders are different**	|	
 spPfExtE.tpr	|	DAT\sprite\pf_ext	|	Binary files are identical	|	tpr
-spPfExtE.xpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	xpr
-spPfExtF.tpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	tpr
-spPfExtF.xpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	xpr
-spPfExtG.tpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	tpr
-spPfExtG.xpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	xpr
-spPfExtI.tpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	tpr
-spPfExtI.xpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	xpr
-spPfExtJ.tpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	tpr
+spPfExtE.xpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	xpr
+spPfExtF.tpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	tpr
+spPfExtF.xpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	xpr
+spPfExtG.tpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	tpr
+spPfExtG.xpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	xpr
+spPfExtI.tpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	tpr
+spPfExtI.xpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	xpr
+spPfExtJ.tpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	tpr
 spPfExtJ.xpr	|	DAT\sprite\pf_ext	|	Binary files are identical	|	xpr
-spPfExtU.tpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	tpr
-spPfExtU.xpr	|	DAT\sprite\pf_ext	|	Binary files are different	|	xpr
-pfile	|	DAT\sprite	|	Folders are different	|	
-spPfileC.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-spPfileE.tpr	|	DAT\sprite\pfile	|	Binary files are different	|	tpr
+spPfExtU.tpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	tpr
+spPfExtU.xpr	|	DAT\sprite\pf_ext	|	**Binary files are different**	|	xpr
+pfile	|	DAT\sprite	|	**Folders are different**	|	
+spPfileC.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+spPfileE.tpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	tpr
 spPfileE.xpr	|	DAT\sprite\pfile	|	Binary files are identical	|	xpr
-spPfileF.tpr	|	DAT\sprite\pfile	|	Binary files are different	|	tpr
-spPfileF.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-spPfileG.tpr	|	DAT\sprite\pfile	|	Binary files are different	|	tpr
-spPfileG.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-spPfileI.tpr	|	DAT\sprite\pfile	|	Binary files are different	|	tpr
-spPfileI.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-spPfileJ.tpr	|	DAT\sprite\pfile	|	Binary files are different	|	tpr
-spPfileJ.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-spPfileK.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-spPfileU.tpr	|	DAT\sprite\pfile	|	Binary files are different	|	tpr
-spPfileU.xpr	|	DAT\sprite\pfile	|	Binary files are different	|	xpr
-selcmn	|	DAT\sprite	|	Folders are different	|	
-spSelcmn.tpr	|	DAT\sprite\selcmn	|	Binary files are different	|	tpr
-spSelcmn.xpr	|	DAT\sprite\selcmn	|	Binary files are different	|	xpr
-stgsel	|	DAT\sprite	|	Folders are different	|	
-spStgE.tpr	|	DAT\sprite\stgsel	|	Binary files are different	|	tpr
+spPfileF.tpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	tpr
+spPfileF.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+spPfileG.tpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	tpr
+spPfileG.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+spPfileI.tpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	tpr
+spPfileI.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+spPfileJ.tpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	tpr
+spPfileJ.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+spPfileK.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+spPfileU.tpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	tpr
+spPfileU.xpr	|	DAT\sprite\pfile	|	**Binary files are different**	|	xpr
+selcmn	|	DAT\sprite	|	**Folders are different**	|	
+spSelcmn.tpr	|	DAT\sprite\selcmn	|	**Binary files are different**	|	tpr
+spSelcmn.xpr	|	DAT\sprite\selcmn	|	**Binary files are different**	|	xpr
+stgsel	|	DAT\sprite	|	**Folders are different**	|	
+spStgE.tpr	|	DAT\sprite\stgsel	|	**Binary files are different**	|	tpr
 spStgE.xpr	|	DAT\sprite\stgsel	|	Binary files are identical	|	xpr
-spStgF.tpr	|	DAT\sprite\stgsel	|	Binary files are different	|	tpr
+spStgF.tpr	|	DAT\sprite\stgsel	|	**Binary files are different**	|	tpr
 spStgF.xpr	|	DAT\sprite\stgsel	|	Binary files are identical	|	xpr
 spStgG.tpr	|	DAT\sprite\stgsel	|	Binary files are identical	|	tpr
 spStgG.xpr	|	DAT\sprite\stgsel	|	Binary files are identical	|	xpr
 spStgI.tpr	|	DAT\sprite\stgsel	|	Binary files are identical	|	tpr
 spStgI.xpr	|	DAT\sprite\stgsel	|	Binary files are identical	|	xpr
-spStgsel.tpr	|	DAT\sprite\stgsel	|	Binary files are different	|	tpr
-spStgsel.xpr	|	DAT\sprite\stgsel	|	Binary files are different	|	xpr
-team	|	DAT\sprite	|	Folders are different	|	
+spStgsel.tpr	|	DAT\sprite\stgsel	|	**Binary files are different**	|	tpr
+spStgsel.xpr	|	DAT\sprite\stgsel	|	**Binary files are different**	|	xpr
+team	|	DAT\sprite	|	**Folders are different**	|	
 spTeam.tpr	|	DAT\sprite\team	|	Binary files are identical	|	tpr
-spTeam.xpr	|	DAT\sprite\team	|	Binary files are different	|	xpr
-test	|	DAT\sprite	|	Folders are different	|	
-spTest.tpr	|	DAT\sprite\test	|	Binary files are different	|	tpr
-spTest.xpr	|	DAT\sprite\test	|	Binary files are different	|	xpr
-Ups	|	DAT\sprite	|	Folders are different	|	
-spUps.tpr	|	DAT\sprite\Ups	|	Binary files are different	|	tpr
-spUps.xpr	|	DAT\sprite\Ups	|	Binary files are different	|	xpr
+spTeam.xpr	|	DAT\sprite\team	|	**Binary files are different**	|	xpr
+test	|	DAT\sprite	|	**Folders are different**	|	
+spTest.tpr	|	DAT\sprite\test	|	**Binary files are different**	|	tpr
+spTest.xpr	|	DAT\sprite\test	|	**Binary files are different**	|	xpr
+Ups	|	DAT\sprite	|	**Folders are different**	|	
+spUps.tpr	|	DAT\sprite\Ups	|	**Binary files are different**	|	tpr
+spUps.xpr	|	DAT\sprite\Ups	|	**Binary files are different**	|	xpr
 vs	|	DAT\sprite	|	Identical	|	
 spVs.xpr	|	DAT\sprite\vs	|	Binary files are identical	|	xpr
 warning	|	DAT\sprite	|	Identical	|	
 spWarn.xpr	|	DAT\sprite\warning	|	Binary files are identical	|	xpr
-stage	|	DAT	|	Folders are different	|	
-stage_CP	|	DAT\stage	|	Folders are different	|	
-sCP_dat.bin	|	DAT\stage\stage_CP	|	Binary files are different	|	bin
-stage_CP.tpr	|	DAT\stage\stage_CP	|	Binary files are different	|	tpr
-stage_DS	|	DAT\stage	|	Folders are different	|	
+stage	|	DAT	|	**Folders are different**	|	
+stage_CP	|	DAT\stage	|	**Folders are different**	|	
+sCP_dat.bin	|	DAT\stage\stage_CP	|	**Binary files are different**	|	bin
+stage_CP.tpr	|	DAT\stage\stage_CP	|	**Binary files are different**	|	tpr
+stage_DS	|	DAT\stage	|	**Folders are different**	|	
 data	|	DAT\stage\stage_DS	|	Identical	|	
 dino_mot.bin	|	DAT\stage\stage_DS\data	|	Text files are identical	|	bin
-sDS_dat.bin	|	DAT\stage\stage_DS	|	Binary files are different	|	bin
-stage_DS.tpr	|	DAT\stage\stage_DS	|	Binary files are different	|	tpr
-stage_HEL	|	DAT\stage	|	Folders are different	|	
-sHEL_dat.bin	|	DAT\stage\stage_HEL	|	Binary files are different	|	bin
-stage_HEL.tpr	|	DAT\stage\stage_HEL	|	Binary files are different	|	tpr
-stage_KYO	|	DAT\stage	|	Folders are different	|	
+sDS_dat.bin	|	DAT\stage\stage_DS	|	**Binary files are different**	|	bin
+stage_DS.tpr	|	DAT\stage\stage_DS	|	**Binary files are different**	|	tpr
+stage_HEL	|	DAT\stage	|	**Folders are different**	|	
+sHEL_dat.bin	|	DAT\stage\stage_HEL	|	**Binary files are different**	|	bin
+stage_HEL.tpr	|	DAT\stage\stage_HEL	|	**Binary files are different**	|	tpr
+stage_KYO	|	DAT\stage	|	**Folders are different**	|	
 sKYO_dat.bin	|	DAT\stage\stage_KYO	|	Binary files are identical	|	bin
-stage_KYO.tpr	|	DAT\stage\stage_KYO	|	Binary files are different	|	tpr
-water_mesh_data.bin	|	DAT\stage\stage_KYO	|	Binary files are different	|	bin
-stage_MK	|	DAT\stage	|	Folders are different	|	
-sMK_dat.bin	|	DAT\stage\stage_MK	|	Binary files are different	|	bin
-stage_MK.tpr	|	DAT\stage\stage_MK	|	Binary files are different	|	tpr
-stage_MK2	|	DAT\stage	|	Folders are different	|	
+stage_KYO.tpr	|	DAT\stage\stage_KYO	|	**Binary files are different**	|	tpr
+water_mesh_data.bin	|	DAT\stage\stage_KYO	|	**Binary files are different**	|	bin
+stage_MK	|	DAT\stage	|	**Folders are different**	|	
+sMK_dat.bin	|	DAT\stage\stage_MK	|	**Binary files are different**	|	bin
+stage_MK.tpr	|	DAT\stage\stage_MK	|	**Binary files are different**	|	tpr
+stage_MK2	|	DAT\stage	|	**Folders are different**	|	
 sMK2_dat.bin	|	DAT\stage\stage_MK2	|	Binary files are identical	|	bin
-stage_MK2.tpr	|	DAT\stage\stage_MK2	|	Binary files are different	|	tpr
-stage_NY	|	DAT\stage	|	Folders are different	|	
+stage_MK2.tpr	|	DAT\stage\stage_MK2	|	**Binary files are different**	|	tpr
+stage_NY	|	DAT\stage	|	**Folders are different**	|	
 sNY_dat.bin	|	DAT\stage\stage_NY	|	Binary files are identical	|	bin
-stage_NY.tpr	|	DAT\stage\stage_NY	|	Binary files are different	|	tpr
-stage_NY2	|	DAT\stage	|	Folders are different	|	
+stage_NY.tpr	|	DAT\stage\stage_NY	|	**Binary files are different**	|	tpr
+stage_NY2	|	DAT\stage	|	**Folders are different**	|	
 sNY2_dat.bin	|	DAT\stage\stage_NY2	|	Binary files are identical	|	bin
-stage_NY2.tpr	|	DAT\stage\stage_NY2	|	Binary files are different	|	tpr
-stage_PRO	|	DAT\stage	|	Folders are different	|	
+stage_NY2.tpr	|	DAT\stage\stage_NY2	|	**Binary files are different**	|	tpr
+stage_PRO	|	DAT\stage	|	**Folders are different**	|	
 sPRO_dat.bin	|	DAT\stage\stage_PRO	|	Binary files are identical	|	bin
-stage_PRO.tpr	|	DAT\stage\stage_PRO	|	Binary files are different	|	tpr
-stage_TC	|	DAT\stage	|	Folders are different	|	
-stage_TC.tpr	|	DAT\stage\stage_TC	|	Binary files are different	|	tpr
+stage_PRO.tpr	|	DAT\stage\stage_PRO	|	**Binary files are different**	|	tpr
+stage_TC	|	DAT\stage	|	**Folders are different**	|	
+stage_TC.tpr	|	DAT\stage\stage_TC	|	**Binary files are different**	|	tpr
 sTC_dat.bin	|	DAT\stage\stage_TC	|	Binary files are identical	|	bin
-stage_TS	|	DAT\stage	|	Folders are different	|	
-stage_TS.tpr	|	DAT\stage\stage_TS	|	Binary files are different	|	tpr
+stage_TS	|	DAT\stage	|	**Folders are different**	|	
+stage_TS.tpr	|	DAT\stage\stage_TS	|	**Binary files are different**	|	tpr
 sTS_dat.bin	|	DAT\stage\stage_TS	|	Binary files are identical	|	bin
-stage_TS2	|	DAT\stage	|	Folders are different	|	
-stage_TS2.tpr	|	DAT\stage\stage_TS2	|	Binary files are different	|	tpr
-sTS2_dat.bin	|	DAT\stage\stage_TS2	|	Binary files are different	|	bin
+stage_TS2	|	DAT\stage	|	**Folders are different**	|	
+stage_TS2.tpr	|	DAT\stage\stage_TS2	|	**Binary files are different**	|	tpr
+sTS2_dat.bin	|	DAT\stage\stage_TS2	|	**Binary files are different**	|	bin
 watch	|	DAT	|	Identical	|	
 rtmwatch.bin	|	DAT\watch	|	Binary files are identical	|	bin
-dic	|	Folders are different	|		|	
-ximejpmain.dic	|	dic	|	Binary files are different	|	dic
+dic	|		|	**Folders are different**	|	
+ximejpmain.dic	|	dic	|	**Binary files are different**	|	dic
 ximejpnameaddr.dic	|	dic	|	Binary files are identical	|	dic
 ximejpsub.dic	|	dic	|	Binary files are identical	|	dic
-movie	|	Folders are different	|		|	
+movie	|		|	**Folders are different**	|	
 ninja_vi_hd.sfd	|	movie	|	Files are different	|	sfd
-SOUND	|	Folders are different	|		|	
+SOUND	|		|	**Folders are different**	|	
 bgm_stream.xsb	|	SOUND	|	Binary files are identical	|	xsb
-bgm_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+bgm_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 doa4_avatar.xgs	|	SOUND	|	Binary files are identical	|	xgs
 doa4_sound.xgs	|	SOUND	|	Binary files are identical	|	xgs
 hos_000_zak.xsb	|	SOUND	|	Binary files are identical	|	xsb
-hos_000_zak.xwb	|	SOUND	|	Binary files are different	|	xwb
+hos_000_zak.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 hos_001_flo.xsb	|	SOUND	|	Binary files are identical	|	xsb
 hos_001_flo.xwb	|	SOUND	|	Binary files are identical	|	xwb
 hos_002_wat.xsb	|	SOUND	|	Binary files are identical	|	xsb
-hos_002_wat.xwb	|	SOUND	|	Binary files are different	|	xwb
+hos_002_wat.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 hos_003_oka.xsb	|	SOUND	|	Binary files are identical	|	xsb
-hos_003_oka.xwb	|	SOUND	|	Binary files are different	|	xwb
+hos_003_oka.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 hos_004_jun.xsb	|	SOUND	|	Binary files are identical	|	xsb
-hos_004_jun.xwb	|	SOUND	|	Binary files are different	|	xwb
+hos_004_jun.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 hos_005_bok.xsb	|	SOUND	|	Binary files are identical	|	xsb
 hos_005_bok.xwb	|	SOUND	|	Binary files are identical	|	xwb
 hos_006_gor.xsb	|	SOUND	|	Binary files are identical	|	xsb
@@ -675,59 +675,59 @@ hos_009_hol.xwb	|	SOUND	|	Binary files are identical	|	xwb
 hos_010_clo.xsb	|	SOUND	|	Binary files are identical	|	xsb
 hos_010_clo.xwb	|	SOUND	|	Binary files are identical	|	xwb
 stage_cp.xsb	|	SOUND	|	Binary files are identical	|	xsb
-stage_cp.xwb	|	SOUND	|	Binary files are different	|	xwb
+stage_cp.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 stage_ds.xsb	|	SOUND	|	Binary files are identical	|	xsb
-stage_ds.xwb	|	SOUND	|	Binary files are different	|	xwb
+stage_ds.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 stage_hel.xsb	|	SOUND	|	Binary files are identical	|	xsb
-stage_hel.xwb	|	SOUND	|	Binary files are different	|	xwb
+stage_hel.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 stage_kyo.xsb	|	SOUND	|	Binary files are identical	|	xsb
 stage_kyo.xwb	|	SOUND	|	Binary files are identical	|	xwb
 stage_mk.xsb	|	SOUND	|	Binary files are identical	|	xsb
-stage_mk.xwb	|	SOUND	|	Binary files are different	|	xwb
+stage_mk.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 stage_ny.xsb	|	SOUND	|	Binary files are identical	|	xsb
 stage_ny.xwb	|	SOUND	|	Binary files are identical	|	xwb
 stage_pro.xsb	|	SOUND	|	Binary files are identical	|	xsb
 stage_pro.xwb	|	SOUND	|	Binary files are identical	|	xwb
 stage_tc.xsb	|	SOUND	|	Binary files are identical	|	xsb
-stage_tc.xwb	|	SOUND	|	Binary files are different	|	xwb
+stage_tc.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 stage_ts.xsb	|	SOUND	|	Binary files are identical	|	xsb
-stage_ts.xwb	|	SOUND	|	Binary files are different	|	xwb
+stage_ts.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 system_se.xsb	|	SOUND	|	Binary files are identical	|	xsb
-system_se.xwb	|	SOUND	|	Binary files are different	|	xwb
+system_se.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_aya.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_aya.xwb	|	SOUND	|	Binary files are different	|	xwb
-voice_aya_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_aya.xwb	|	SOUND	|	**Binary files are different**	|	xwb
+voice_aya_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_boy.xsb	|	SOUND	|	Binary files are identical	|	xsb
 voice_boy.xwb	|	SOUND	|	Binary files are identical	|	xwb
 voice_boy_stream.xwb	|	SOUND	|	Binary files are identical	|	xwb
 voice_cri.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_cri.xwb	|	SOUND	|	Binary files are different	|	xwb
-voice_cri_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_cri.xwb	|	SOUND	|	**Binary files are different**	|	xwb
+voice_cri_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_hak.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_hak.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_hak.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_hak_stream.xwb	|	SOUND	|	Binary files are identical	|	xwb
 voice_jan.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_jan.xwb	|	SOUND	|	Binary files are different	|	xwb
-voice_jan_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_jan.xwb	|	SOUND	|	**Binary files are different**	|	xwb
+voice_jan_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_kas.xsb	|	SOUND	|	Binary files are identical	|	xsb
 voice_kas.xwb	|	SOUND	|	Binary files are identical	|	xwb
-voice_kas_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_kas_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_kor.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_kor.xwb	|	SOUND	|	Binary files are different	|	xwb
-voice_kor_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_kor.xwb	|	SOUND	|	**Binary files are different**	|	xwb
+voice_kor_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_lei.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_lei.xwb	|	SOUND	|	Binary files are different	|	xwb
-voice_lei_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_lei.xwb	|	SOUND	|	**Binary files are different**	|	xwb
+voice_lei_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_lis.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_lis.xwb	|	SOUND	|	Binary files are different	|	xwb
-voice_lis_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_lis.xwb	|	SOUND	|	**Binary files are different**	|	xwb
+voice_lis_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_ryu.xsb	|	SOUND	|	Binary files are identical	|	xsb
 voice_ryu.xwb	|	SOUND	|	Binary files are identical	|	xwb
 voice_ryu_stream.xwb	|	SOUND	|	Binary files are identical	|	xwb
 voice_stream_female.xsb	|	SOUND	|	Binary files are identical	|	xsb
 voice_stream_male.xsb	|	SOUND	|	Binary files are identical	|	xsb
 voice_sys.xsb	|	SOUND	|	Binary files are identical	|	xsb
-voice_sys_stream.xwb	|	SOUND	|	Binary files are different	|	xwb
+voice_sys_stream.xwb	|	SOUND	|	**Binary files are different**	|	xwb
 voice_zac.xsb	|	SOUND	|	Binary files are identical	|	xsb
 voice_zac.xwb	|	SOUND	|	Binary files are identical	|	xwb
 voice_zac_stream.xwb	|	SOUND	|	Binary files are identical	|	xwb
