@@ -1,4 +1,5 @@
-| Achievement # | 2005.09.30 Beta Achievements              | Final Achievements                        |
+# DEAD OR ALIVE 4 (544307D1) ACHIEVEMENTS
+| Achievement # | 2005.09.30 Beta Achievements              | 2005.12.21 Final Achievements                      |
 |---------------|-------------------------------------------|-------------------------------------------|
 | 6             | **Completed Story Mode - 5 points**           | **Completed Story Mode - 10 points**          |
 | 7             | **Completed All Characters' Story - 20 points** | **Completed All Story Modes - 30 points**   |
