@@ -1,0 +1,6 @@
+0 = hide
+1 = locked
+2 = display but can't enter
+3 = enter
+
+ugly cheat table, the values you want are at the bottoms: https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2005-09-30%20DOA4%20E3%20xenia.CT
