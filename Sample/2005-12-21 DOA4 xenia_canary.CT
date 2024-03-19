@@ -2597,15 +2597,23 @@
     </CheatEntry>
     <CheatEntry>
       <ID>350</ID>
-      <Description>"Menu Icon"</Description>
+      <Description>"Current Menu Icon"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>183035D60</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>355</ID>
+      <Description>"menu data start"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C233F8</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>351</ID>
-      <Description>"No description"</Description>
+      <Description>"Menu icon data (Battle Viewer)"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
