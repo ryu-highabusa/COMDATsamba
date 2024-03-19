@@ -1,0 +1,39 @@
+title_name = "DEAD OR ALIVE 4"
+title_id = "544307D1" # TC-2001
+hash = "ED5C2458F214AB36" # default.xex
+#media_id = "00000000"
+
+[[patch]]
+    name = "Unlock Menus"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]] #Enable Story Mode
+        address = 0x82ab0ab8
+        value = 0x00000003
+    [[patch.be32]] #Enable Time Attack Mode
+        address = 0x82ab0ad4
+        value = 0x00000003
+    [[patch.be32]] #Enable Survival Mode
+        address = 0x82ab0af0
+        value = 0x00000003
+    [[patch.be32]] #Enable Team Battle Mode
+        address = 0x82ab0b0c
+        value = 0x00000003
+    [[patch.be32]] #Enable Versus Mode
+        address = 0x82ab0b28
+        value = 0x00000003
+    [[patch.be32]] #Enable Watch Mode
+        address = 0x82ab0b44
+        value = 0x00000003
+
+[[patch]]
+    name = "Unlock Menus"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be8]]
+    address = 0x820a4481
+	value = 0x00
