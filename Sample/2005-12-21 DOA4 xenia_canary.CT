@@ -2648,6 +2648,158 @@
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
+    <CheatEntry>
+      <ID>356</ID>
+      <Description>"widescreen aspect ratio??"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1822aa194</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>357</ID>
+      <Description>"No description"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>182D1E678</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>358</ID>
+      <Description>"No description"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>18301D958</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>359</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1821e8128</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>360</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>18301D958</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>361</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8d60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>362</ID>
+      <Description>"CHRSELDISP_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182e62ae4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>363</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>18301831F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>365</ID>
+      <Description>"p2_freeze flag?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>1830200D5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>366</ID>
+      <Description>"CHRDISP_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>1830201A8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>367</ID>
+      <Description>"CHRDISP_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020244</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>368</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020162</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>369</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020163</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>370</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183027BDA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>371</ID>
+      <Description>"RULE_ON"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>1830EA969</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>372</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE4CD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>373</ID>
+      <Description>"Camera Lock?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>18320A9D5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>374</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>18320A8FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>375</ID>
+      <Description>"Camera Glitchy????"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182E62D14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>376</ID>
+      <Description>"Camera weird 2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182E62D18</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>377</ID>
+      <Description>"freezes game"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182E62D1C</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
