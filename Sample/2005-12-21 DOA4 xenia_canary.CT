@@ -1246,7 +1246,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>176</ID>
-      <Description>"ACTCODE_P2"</Description>
+      <Description>"ACTCODE_P2*"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
@@ -2799,6 +2799,220 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>182E62D1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>378</ID>
+      <Description>"Timer_SettingCurrentMode"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830200d2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>379</ID>
+      <Description>"STAGE_DISPLAY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830200dc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>380</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8fa6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>381</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1830200CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>382</ID>
+      <Description>"TitleScreen_StageAttractPlayFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183027b78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>383</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183033e00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>384</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183033e94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>385</ID>
+      <Description>"SurvivalScore_BonusAmount?"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183097CE6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>386</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183097D18</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>387</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183097D1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>388</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183097D20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>389</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183097D24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>390</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183097CE0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>391</ID>
+      <Description>"sprafs?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>1830a5074</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>392</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8fa6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>393</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182e6305c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>394</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830edfa4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>395</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183020190</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>396</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020194</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>397</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182c24730</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>398</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182C23443+1c+1c+1c+1c+1c+1c+1c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>399</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182C23443+1c+1c+1c+1c+1c+1c+1c+1c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>400</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830efd3c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>401</ID>
+      <Description>"P1_MOT-file  **start**"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>100494000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>402</ID>
+      <Description>"P2_MOT-file **start**"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>100BF8000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>403</ID>
+      <Description>"P1_CHAR.BIN "</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>100070000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>404</ID>
+      <Description>"P2_CHAR.BIN"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>1007D4000</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
