@@ -3665,7 +3665,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>490</ID>
-      <Description>"P2_ACTSTATE"</Description>
+      <Description>"P2_ACTSTATE*"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>18302025B</Address>
@@ -3728,7 +3728,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>499</ID>
-      <Description>"P1_ACTSTATE"</Description>
+      <Description>"P1_ACTSTATE*"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>1830201BF</Address>
