@@ -1016,6 +1016,20 @@
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2788</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>159</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002d33e9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>160</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>59CF00</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
