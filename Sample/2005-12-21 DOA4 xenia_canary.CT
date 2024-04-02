@@ -3761,6 +3761,152 @@
       <VariableType>Byte</VariableType>
       <Address>1832100C0</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>504</ID>
+      <Description>"_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>18302018c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>505</ID>
+      <Description>"_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183020228</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>506</ID>
+      <Description>"_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183020194</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>507</ID>
+      <Description>"_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183020230</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>508</ID>
+      <Description>"_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1832100ac</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>509</ID>
+      <Description>"_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1832100d0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>510</ID>
+      <Description>"_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201ca</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>511</ID>
+      <Description>"_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020266</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>512</ID>
+      <Description>"_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201e5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>513</ID>
+      <Description>"_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020281</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>514</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E5978D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>515</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E597A5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>516</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E597BD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>517</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E597D5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>518</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E597ED</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>519</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E59805</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>520</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E5981D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>521</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E59835</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>522</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E5984D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>523</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EA969</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>524</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>18318B90E</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
