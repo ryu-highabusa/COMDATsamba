@@ -7,7 +7,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>18480D44C40</Address>
+      <Address>269543D6C40</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>0</ID>
@@ -15,70 +15,70 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>18480D44C41</Address>
+      <Address>269543D6C41</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
       <Description>"P1 CHRCOLor"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>18480D44C42</Address>
+      <Address>269543D6C42</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
       <Description>"XPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>18480D44C44</Address>
+      <Address>269543D6C44</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
       <Description>"YPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>18480D44C48</Address>
+      <Address>269543D6C48</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
       <Description>"ZPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>18480D44C4C</Address>
+      <Address>269543D6C4C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"No description"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>18480D44C50</Address>
+      <Address>269543D6C50</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>10</ID>
       <Description>"DRCT"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>18480D44C54</Address>
+      <Address>269543D6C54</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>11</ID>
       <Description>"ATKDRCT"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>18480D44C58</Address>
+      <Address>269543D6C58</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>12</ID>
       <Description>"BODYDRCT"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>18480D44C5C</Address>
+      <Address>269543D6C5C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
       <Description>"P1 HEALTH"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>18480D44C60</Address>
+      <Address>269543D6C60</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
@@ -86,14 +86,37 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>18480D44C99</Address>
+      <Address>269543D6C99</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
       <Description>"P2 Costume"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>18480D44C9A</Address>
+      <Address>269543D6C9A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"button press"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>269543D6D11</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"ANIME"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>269543D6C68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"ACTCODEFLG"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>269543D6C6A</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
