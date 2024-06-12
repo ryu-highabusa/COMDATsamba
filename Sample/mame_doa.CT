@@ -2,8 +2,16 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
+      <ID>8</ID>
+      <Description>"P1 MANCOM"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18480D44C40</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>0</ID>
-      <Description>"Player1 (0x0054fc01)"</Description>
+      <Description>"Player1 (0x0054fc01) CHRNUM"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -11,28 +19,28 @@
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
-      <Description>"p1 costume"</Description>
+      <Description>"P1 CHRCOLor"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>18480D44C42</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
-      <Description>"No description"</Description>
+      <Description>"XPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>18480D44C44</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
-      <Description>"No description"</Description>
+      <Description>"YPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>18480D44C48</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
-      <Description>"No description"</Description>
+      <Description>"ZPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>18480D44C4C</Address>
@@ -43,6 +51,34 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>18480D44C50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"DRCT"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>18480D44C54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"ATKDRCT"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>18480D44C58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"BODYDRCT"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>18480D44C5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"P1 HEALTH"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>18480D44C60</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
