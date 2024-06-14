@@ -8,10 +8,12 @@
 
   <cheat desc="Infinite Time">
     <script state="on">
-      <action>maincpu.ppb@5555A0=63</action>
+      <action>maincpu.ppb@5555A0=04</action>
+	  <action>maincpu.ppb@5555A1=14</action>
     </script>
     <script state="run">
-      <action condition="(maincpu.ppb@5555A0 GT 1) AND (maincpu.ppb@5555A0 LT 63)">maincpu.ppb@5555A0=63</action>
+      <action condition="(maincpu.ppb@5555A0 GT 1) AND (maincpu.ppb@5555A0 LT 04)">maincpu.ppb@5555A0=04</action>
+	  <action condition="(maincpu.ppb@5555A1 GT 1) AND (maincpu.ppb@5555A1 LT 14)">maincpu.ppb@5555A1=14</action>
     </script>
   </cheat>
 
@@ -129,13 +131,28 @@
     </script>
   </cheat>
   
-  <cheat desc="0054fc10">
+
+  <cheat desc="Level Select?">
+      <parameter>
+      <item value="0x00">0x00 FREEWAY (TINA)</item>
+      <item value="0x01">0x01 BURAI ZHEN (GENFU)</item>
+      <item value="0x02">0x02 HANGAR (BAYMAN) </item>
+      <item value="0x03">0x03 L's CASTLE (LEI-FANG)</item>
+      <item value="0x04">0x04 DANGER ZONE (KASUMI)</item>
+      <item value="0x05">0x05 </item>
+      <item value="0x06">0x06 </item>
+      <item value="0x07">0x07 </item>
+      <item value="0x08">0x08 </item>
+      <item value="0x09">0x09 </item>
+      <item value="0x0A">0x0A </item>
+      <item value="0x0B">0x0B </item>
+      <item value="0x0C">0x0C </item>
+      <item value="0x0D">0x0D </item>
+    </parameter>
     <script state="run">
-      <action>maincpu.ppb@54FC13=bf</action>
+      <action>:maincpu.pb@0x5555de=param</action>
     </script>
   </cheat>
-  
-
 
 </mamecheat>
 <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
