@@ -7,7 +7,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C40</Address>
+      <Address>2488A3A5C40</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>0</ID>
@@ -15,70 +15,86 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C41</Address>
+      <Address>2488A3A5C41</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"P1 ANIME BANK"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2488A3A5C69</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"P1 ANIME"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2488A3A5C68</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
       <Description>"P1 CHRCOLor"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C42</Address>
+      <Address>2488A3A5C42</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
       <Description>"XPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>27148A90C44</Address>
+      <Address>2488A3A5C44</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
       <Description>"YPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>27148A90C48</Address>
+      <Address>2488A3A5C48</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
       <Description>"ZPOS"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>27148A90C4C</Address>
+      <Address>2488A3A5C4C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"No description"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>27148A90C50</Address>
+      <Address>2488A3A5C50</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>10</ID>
       <Description>"DRCT"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>27148A90C54</Address>
+      <Address>2488A3A5C54</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>11</ID>
       <Description>"ATKDRCT"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>27148A90C58</Address>
+      <Address>2488A3A5C58</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>12</ID>
       <Description>"BODYDRCT"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>27148A90C5C</Address>
+      <Address>2488A3A5C5C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
       <Description>"P1 HEALTH"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>27148A90C60</Address>
+      <Address>2488A3A5C60</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
@@ -86,14 +102,14 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C99</Address>
+      <Address>2488A3A5C99</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
       <Description>"P2 Costume"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C9A</Address>
+      <Address>2488A3A5C9A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>14</ID>
@@ -101,14 +117,14 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90D11</Address>
+      <Address>2488A3A5D11</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
       <Description>"ANIME"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C68</Address>
+      <Address>2488A3A5C68</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>16</ID>
@@ -116,56 +132,56 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C6A</Address>
+      <Address>2488A3A5C6A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>17</ID>
       <Description>"No description"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>27148A965E1</Address>
+      <Address>2488A3AB5E1</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>20</ID>
       <Description>"ccp1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148A90C93</Address>
+      <Address>2488A3A5C93</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>18</ID>
       <Description>"ccp1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148A98F18</Address>
+      <Address>2488A3ADF18</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>19</ID>
       <Description>"ccp1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148AA6760</Address>
+      <Address>2488A3BB760</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>21</ID>
       <Description>"cc p2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148A90CEB</Address>
+      <Address>2488A3A5CEB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>22</ID>
       <Description>"cc p2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148A98F1C</Address>
+      <Address>2488A3ADF1C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>23</ID>
       <Description>"cc p2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148AA6764</Address>
+      <Address>2488A3BB764</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>24</ID>
@@ -173,7 +189,7 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>8</ByteLength>
-      <Address>2713F044CD0</Address>
+      <Address>24880959CD0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>25</ID>
@@ -181,28 +197,62 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>17</ByteLength>
-      <Address>2713F044DC0</Address>
+      <Address>24880959DC0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>26</ID>
       <Description>"ButtonPress_P1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148A90D11</Address>
+      <Address>2488A3A5D11</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>27</ID>
       <Description>"ButtonPress_P1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27148A90D0D</Address>
+      <Address>2488A3A5D0D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>28</ID>
       <Description>"ButtonPress_P1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
-      <Address>27147C3099C</Address>
+      <Address>2488954599C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2488A3A5D55</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2488A3A5D56</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2488A3A5D57</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2489A769C80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2489A769C82</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
