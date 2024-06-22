@@ -1,0 +1,1098 @@
+                             SE_Tracklist_0209caa0                           XREF[2]:     FUN_00088bd0:00088c50(*), 
+                                                                                          FUN_00088bd0:00088df4(*)  
+        0209caa0 00 11 a0 00     ddw        A01100h
+        0209caa4 53 45 5f        ds         "SE_P_CNT"
+                 50 5f 43 
+                 4e 54 00 
+        0209cac0 01 11 a0 00     ddw        A01101h
+        0209cac4 53 45 5f        ds         "SE_K_CNT"
+                 4b 5f 43 
+                 4e 54 00 
+        0209cae0 02 11 a0 00     ddw        A01102h
+        0209cae4 53 45 5f        ds         "SE_GUARD1"
+                 47 55 41 
+                 52 44 31 
+        0209cb00 06 11 a0 00     ddw        A01106h
+        0209cb04 53 45 5f        ds         "SE_DOWN1"
+                 44 4f 57 
+                 4e 31 00 
+        0209cb20 07 11 a0 00     ddw        A01107h
+        0209cb24 53 45 5f        ds         "SE_DOWN2"
+                 44 4f 57 
+                 4e 32 00 
+        0209cb40 08 11 a0 00     ddw        A01108h
+        0209cb44 53 45 5f        ds         "SE_DOWN3"
+                 44 4f 57 
+                 4e 33 00 
+        0209cb60 09 11 a0 00     ddw        A01109h
+        0209cb64 53 45 5f        ds         "SE_KNEE_DOWN"
+                 4b 4e 45 
+                 45 5f 44 
+        0209cb80 19 11 a0 00     ddw        A01119h
+        0209cb84 53 45 5f        ds         "SE_P_KAZE1"
+                 50 5f 4b 
+                 41 5a 45 
+        0209cba0 1a 11 a0 00     ddw        A0111Ah
+        0209cba4 53 45 5f        ds         "SE_P_KAZE2"
+                 50 5f 4b 
+                 41 5a 45 
+        0209cbc0 1b 11 a0 00     ddw        A0111Bh
+        0209cbc4 53 45 5f        ds         "SE_P_KAZE3"
+                 50 5f 4b 
+                 41 5a 45 
+        0209cbe0 1c 11 a0 00     ddw        A0111Ch
+        0209cbe4 53 45 5f        ds         "SE_P_KAZE4"
+                 50 5f 4b 
+                 41 5a 45 
+        0209cc00 1d 11 a0 00     ddw        A0111Dh
+        0209cc04 53 45 5f        ds         "SE_K_KAZE1"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209cc20 1e 11 a0 00     ddw        A0111Eh
+        0209cc24 53 45 5f        ds         "SE_K_KAZE2"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209cc40 1f 11 a0 00     ddw        A0111Fh
+        0209cc44 53 45 5f        ds         "SE_K_KAZE3"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209cc60 20 11 a0 00     ddw        A01120h
+        0209cc64 53 45 5f        ds         "SE_K_KAZE4"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209cc80 21 11 a0 00     ddw        A01121h
+        0209cc84 53 45 5f        ds         "SE_K_KAZE5"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209cca0 22 11 a0 00     ddw        A01122h
+        0209cca4 53 45 5f        ds         "SE_BINTA1"
+                 42 49 4e 
+                 54 41 31 
+        0209ccc0 23 11 a0 00     ddw        A01123h
+        0209ccc4 53 45 5f        ds         "SE_BINTA2"
+                 42 49 4e 
+                 54 41 32 
+        0209cce0 24 11 a0 00     ddw        A01124h
+        0209cce4 53 45 5f        ds         "SE_PUNCH1"
+                 50 55 4e 
+                 43 48 31 
+        0209cd00 25 11 a0 00     ddw        A01125h
+        0209cd04 53 45 5f        ds         "SE_PUNCH2"
+                 50 55 4e 
+                 43 48 32 
+        0209cd20 26 11 a0 00     ddw        A01126h
+        0209cd24 53 45 5f        ds         "SE_KICK1"
+                 4b 49 43 
+                 4b 31 00 
+        0209cd40 27 11 a0 00     ddw        A01127h
+        0209cd44 53 45 5f        ds         "SE_KICK2"
+                 4b 49 43 
+                 4b 32 00 
+        0209cd60 28 11 a0 00     ddw        A01128h
+        0209cd64 53 45 5f        ds         "SE_TACKLE1"
+                 54 41 43 
+                 4b 4c 45 
+        0209cd80 29 11 a0 00     ddw        A01129h
+        0209cd84 53 45 5f        ds         "SE_TACKLE2"
+                 54 41 43 
+                 4b 4c 45 
+        0209cda0 2a 11 a0 00     ddw        A0112Ah
+        0209cda4 53 45 5f        ds         "SE_FALL_ATK"
+                 46 41 4c 
+                 4c 5f 41 
+        0209cdc0 2b 11 a0 00     ddw        A0112Bh
+        0209cdc4 53 45 5f        ds         "SE_SUMMER"
+                 53 55 4d 
+                 4d 45 52 
+        0209cde0 2c 11 a0 00     ddw        A0112Ch
+        0209cde4 53 45 5f        ds         "SE_SINKYAKU"
+                 53 49 4e 
+                 4b 59 41 
+        0209ce00 2d 11 a0 00     ddw        A0112Dh
+        0209ce04 53 45 5f        ds         "SE_THROW1"
+                 54 48 52 
+                 4f 57 31 
+        0209ce20 2e 11 a0 00     ddw        A0112Eh
+        0209ce24 53 45 5f        ds         "SE_THROW2"
+                 54 48 52 
+                 4f 57 32 
+        0209ce40 2f 11 a0 00     ddw        A0112Fh
+        0209ce44 53 45 5f        ds         "SE_SUBMIT1"
+                 53 55 42 
+                 4d 49 54 
+        0209ce60 30 11 a0 00     ddw        A01130h
+        0209ce64 53 45 5f        ds         "SE_SUBMIT2"
+                 53 55 42 
+                 4d 49 54 
+        0209ce80 33 11 a0 00     ddw        A01133h
+        0209ce84 53 45 5f        ds         "SE_STOMP"
+                 53 54 4f 
+                 4d 50 00 
+        0209cea0 35 11 a0 00     ddw        A01135h
+        0209cea4 53 45 5f        ds         "SE_DOWN_LT"
+                 44 4f 57 
+                 4e 5f 4c 
+        0209cec0 36 11 a0 00     ddw        A01136h
+        0209cec4 53 45 5f        ds         "SE_SONIC1"
+                 53 4f 4e 
+                 49 43 31 
+        0209cee0 37 11 a0 00     ddw        A01137h
+        0209cee4 53 45 5f        ds         "SE_SONIC2"
+                 53 4f 4e 
+                 49 43 32 
+        0209cf00 38 11 a0 00     ddw        A01138h
+        0209cf04 53 45 5f        ds         "SE_BANG"
+                 42 41 4e 
+                 47 00 00 
+        0209cf20 3a 11 a0 00     ddw        A0113Ah
+        0209cf24 53 45 5f        ds         "SE_JUMP1"
+                 4a 55 4d 
+                 50 31 00 
+        0209cf40 3b 11 a0 00     ddw        A0113Bh
+        0209cf44 53 45 5f        ds         "SE_JUMP2"
+                 4a 55 4d 
+                 50 32 00 
+        0209cf60 3c 11 a0 00     ddw        A0113Ch
+        0209cf64 53 45 5f        ds         "SE_CHAKUTI1"
+                 43 48 41 
+                 4b 55 54 
+        0209cf80 3d 11 a0 00     ddw        A0113Dh
+        0209cf84 53 45 5f        ds         "SE_CHAKUTI2"
+                 43 48 41 
+                 4b 55 54 
+        0209cfa0 3f 11 a0 00     ddw        A0113Fh
+        0209cfa4 53 45 5f        ds         "SE_COIN"
+                 43 4f 49 
+                 4e 00 00 
+        0209cfc0 40 11 a0 00     ddw        A01140h
+        0209cfc4 53 45 5f        ds         "SE_START"
+                 53 54 41 
+                 52 54 00 
+        0209cfe0 41 11 a0 00     ddw        A01141h
+        0209cfe4 53 45 5f        ds         "SE_CURSOL"
+                 43 55 52 
+                 53 4f 4c 
+        0209d000 42 11 a0 00     ddw        A01142h
+        0209d004 53 45 5f        ds         "SE_NAME_ENT"
+                 4e 41 4d 
+                 45 5f 45 
+        0209d020 43 11 a0 00     ddw        A01143h
+        0209d024 53 45 5f        ds         "SE_TIMER"
+                 54 49 4d 
+                 45 52 00 
+        0209d040 44 11 a0 00     ddw        A01144h
+        0209d044 53 45 5f        ds         "SE_KAMINARI"
+                 4b 41 4d 
+                 49 4e 41 
+        0209d060 45 11 a0 00     ddw        A01145h
+        0209d064 53 45 5f        ds         "SE_BKTEN"
+                 42 4b 54 
+                 45 4e 00 
+        0209d080 46 11 a0 00     ddw        A01146h
+        0209d084 53 45 5f        ds         "SE_KETTEI"
+                 4b 45 54 
+                 54 45 49 
+        0209d0a0 50 11 a0 00     ddw        A01150h
+        0209d0a4 53 45 5f        ds         "SE_P_CNT1"
+                 50 5f 43 
+                 4e 54 31 
+        0209d0c0 51 11 a0 00     ddw        A01151h
+        0209d0c4 53 45 5f        ds         "SE_K_CNT1"
+                 4b 5f 43 
+                 4e 54 31 
+        0209d0e0 52 11 a0 00     ddw        A01152h
+        0209d0e4 53 45 5f        ds         "SE_K_KAZE6"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209d100 53 11 a0 00     ddw        A01153h
+        0209d104 53 45 5f        ds         "SE_K_KAZE7"
+                 4b 5f 4b 
+                 41 5a 45 
+        0209d120 54 11 a0 00     ddw        A01154h
+        0209d124 53 45 5f        ds         "SE_TSUKAMI"
+                 54 53 55 
+                 4b 41 4d 
+        0209d140 55 11 a0 00     ddw        A01155h
+        0209d144 53 45 5f        ds         "SE_BINTA3"
+                 42 49 4e 
+                 54 41 33 
+        0209d160 0a 12 a0 00     ddw        A0120Ah
+        0209d164 53 45 5f        ds         "SE_READY"
+                 52 45 41 
+                 44 59 00 
+        0209d180 0b 12 a0 00     ddw        A0120Bh
+        0209d184 53 45 5f        ds         "SE_KO"
+                 4b 4f 00 
+                 00 00 00 
+        0209d1a0 0c 12 a0 00     ddw        A0120Ch
+        0209d1a4 53 45 5f        ds         "SE_TIMEUP"
+                 54 49 4d 
+                 45 55 50 
+        0209d1c0 0d 12 a0 00     ddw        A0120Dh
+        0209d1c4 53 45 5f        ds         "SE_RINGOUT"
+                 52 49 4e 
+                 47 4f 55 
+        0209d1e0 0e 12 a0 00     ddw        A0120Eh
+        0209d1e4 53 45 5f        ds         "SE_DRAW"
+                 44 52 41 
+                 57 00 00 
+        0209d200 0f 12 a0 00     ddw        A0120Fh
+        0209d204 53 45 5f        ds         "SE_GREAT"
+                 47 52 45 
+                 41 54 00 
+        0209d220 10 12 a0 00     ddw        A01210h
+        0209d224 53 45 5f        ds         "SE_WINNER"
+                 57 49 4e 
+                 4e 45 52 
+        0209d240 11 12 a0 00     ddw        A01211h
+        0209d244 53 45 5f        ds         "SE_YOU_LOSE"
+                 59 4f 55 
+                 5f 4c 4f 
+        0209d260 12 12 a0 00     ddw        A01212h
+        0209d264 53 45 5f        ds         "SE_GAMEOVER"
+                 47 41 4d 
+                 45 4f 56 
+        0209d280 13 12 a0 00     ddw        A01213h
+        0209d284 53 45 5f        ds         "SE_CONTINUE"
+                 43 4f 4e 
+                 54 49 4e 
+        0209d2a0 14 12 a0 00     ddw        A01214h
+        0209d2a4 53 45 5f        ds         "SE_CONGRA"
+                 43 4f 4e 
+                 47 52 41 
+        0209d2c0 15 12 a0 00     ddw        A01215h
+        0209d2c4 53 45 5f        ds         "SE_FIGHT"
+                 46 49 47 
+                 48 54 00 
+        0209d2e0 25 12 a0 00     ddw        A01225h
+        0209d2e4 53 45 5f        ds         "SE_CHALLENG"
+                 43 48 41 
+                 4c 4c 45 
+        0209d300 28 12 a0 00     ddw        A01228h
+        0209d304 53 45 5f        ds         "SE_W_KO"
+                 57 5f 4b 
+                 4f 00 00 
+        0209d320 29 12 a0 00     ddw        A01229h
+        0209d324 53 45 5f        ds         "SE_GREATEST"
+                 47 52 45 
+                 41 54 45 
+        0209d340 30 12 a0 00     ddw        A01230h
+        0209d344 53 45 5f        ds         "SE_TN_0"
+                 54 4e 5f 
+                 30 00 00 
+        0209d360 31 12 a0 00     ddw        A01231h
+        0209d364 53 45 5f        ds         "SE_TN_1"
+                 54 4e 5f 
+                 31 00 00 
+        0209d380 35 12 a0 00     ddw        A01235h
+        0209d384 53 45 5f        ds         "SE_TN_5"
+                 54 4e 5f 
+                 35 00 00 
+        0209d3a0 36 12 a0 00     ddw        A01236h
+        0209d3a4 53 45 5f        ds         "SE_TN_6"
+                 54 4e 5f 
+                 36 00 00 
+        0209d3c0 38 12 a0 00     ddw        A01238h
+        0209d3c4 53 45 5f        ds         "SE_TN_8"
+                 54 4e 5f 
+                 38 00 00 
+        0209d3e0 39 12 a0 00     ddw        A01239h
+        0209d3e4 53 45 5f        ds         "SE_TN_9"
+                 54 4e 5f 
+                 39 00 00 
+        0209d400 3a 12 a0 00     ddw        A0123Ah
+        0209d404 53 45 5f        ds         "SE_TN_A"
+                 54 4e 5f 
+                 41 00 00 
+        0209d420 3b 12 a0 00     ddw        A0123Bh
+        0209d424 53 45 5f        ds         "SE_TN_B"
+                 54 4e 5f 
+                 42 00 00 
+        0209d440 3c 12 a0 00     ddw        A0123Ch
+        0209d444 53 45 5f        ds         "SE_TN_C"
+                 54 4e 5f 
+                 43 00 00 
+        0209d460 3d 12 a0 00     ddw        A0123Dh
+        0209d464 53 45 5f        ds         "SE_TN_D"
+                 54 4e 5f 
+                 44 00 00 
+        0209d480 3e 12 a0 00     ddw        A0123Eh
+        0209d484 53 45 5f        ds         "SE_TN_E"
+                 54 4e 5f 
+                 45 00 00 
+        0209d4a0 40 12 a0 00     ddw        A01240h
+        0209d4a4 53 45 5f        ds         "SE_LU_11"
+                 4c 55 5f 
+                 31 31 00 
+        0209d4c0 41 12 a0 00     ddw        A01241h
+        0209d4c4 53 45 5f        ds         "SE_LU_1"
+                 4c 55 5f 
+                 31 00 00 
+        0209d4e0 44 12 a0 00     ddw        A01244h
+        0209d4e4 53 45 5f        ds         "SE_LU_4"
+                 4c 55 5f 
+                 34 00 00 
+        0209d500 45 12 a0 00     ddw        A01245h
+        0209d504 53 45 5f        ds         "SE_LU_5"
+                 4c 55 5f 
+                 35 00 00 
+        0209d520 47 12 a0 00     ddw        A01247h
+        0209d524 53 45 5f        ds         "SE_LU_7"
+                 4c 55 5f 
+                 37 00 00 
+        0209d540 48 12 a0 00     ddw        A01248h
+        0209d544 53 45 5f        ds         "SE_LU_8"
+                 4c 55 5f 
+                 38 00 00 
+        0209d560 49 12 a0 00     ddw        A01249h
+        0209d564 53 45 5f        ds         "SE_LU_9"
+                 4c 55 5f 
+                 39 00 00 
+        0209d580 4c 12 a0 00     ddw        A0124Ch
+        0209d584 53 45 5f        ds         "SE_LU_C"
+                 4c 55 5f 
+                 43 00 00 
+        0209d5a0 4d 12 a0 00     ddw        A0124Dh
+        0209d5a4 53 45 5f        ds         "SE_LU_D"
+                 4c 55 5f 
+                 44 00 00 
+        0209d5c0 4f 12 a0 00     ddw        A0124Fh
+        0209d5c4 53 45 5f        ds         "SE_LU_F"
+                 4c 55 5f 
+                 46 00 00 
+        0209d5e0 50 12 a0 00     ddw        A01250h
+        0209d5e4 53 45 5f        ds         "SE_KM_0"
+                 4b 4d 5f 
+                 30 00 00 
+        0209d600 51 12 a0 00     ddw        A01251h
+        0209d604 53 45 5f        ds         "SE_KM_1"
+                 4b 4d 5f 
+                 31 00 00 
+        0209d620 52 12 a0 00     ddw        A01252h
+        0209d624 53 45 5f        ds         "SE_KM_2"
+                 4b 4d 5f 
+                 32 00 00 
+        0209d640 53 12 a0 00     ddw        A01253h
+        0209d644 53 45 5f        ds         "SE_KM_3"
+                 4b 4d 5f 
+                 33 00 00 
+        0209d660 54 12 a0 00     ddw        A01254h
+        0209d664 53 45 5f        ds         "SE_KM_4"
+                 4b 4d 5f 
+                 34 00 00 
+        0209d680 55 12 a0 00     ddw        A01255h
+        0209d684 53 45 5f        ds         "SE_KM_5"
+                 4b 4d 5f 
+                 35 00 00 
+        0209d6a0 56 12 a0 00     ddw        A01256h
+        0209d6a4 53 45 5f        ds         "SE_KM_6"
+                 4b 4d 5f 
+                 36 00 00 
+        0209d6c0 57 12 a0 00     ddw        A01257h
+        0209d6c4 53 45 5f        ds         "SE_KM_7"
+                 4b 4d 5f 
+                 37 00 00 
+        0209d6e0 58 12 a0 00     ddw        A01258h
+        0209d6e4 53 45 5f        ds         "SE_KM_8"
+                 4b 4d 5f 
+                 38 00 00 
+        0209d700 59 12 a0 00     ddw        A01259h
+        0209d704 53 45 5f        ds         "SE_KM_9"
+                 4b 4d 5f 
+                 39 00 00 
+        0209d720 00 13 a0 00     ddw        A01300h
+        0209d724 53 45 5f        ds         "SE_KS_0"
+                 4b 53 5f 
+                 30 00 00 
+        0209d740 01 13 a0 00     ddw        A01301h
+        0209d744 53 45 5f        ds         "SE_KS_1"
+                 4b 53 5f 
+                 31 00 00 
+        0209d760 03 13 a0 00     ddw        A01303h
+        0209d764 53 45 5f        ds         "SE_KS_3"
+                 4b 53 5f 
+                 33 00 00 
+        0209d780 04 13 a0 00     ddw        A01304h
+        0209d784 53 45 5f        ds         "SE_KS_4"
+                 4b 53 5f 
+                 34 00 00 
+        0209d7a0 05 13 a0 00     ddw        A01305h
+        0209d7a4 53 45 5f        ds         "SE_KS_5"
+                 4b 53 5f 
+                 35 00 00 
+        0209d7c0 06 13 a0 00     ddw        A01306h
+        0209d7c4 53 45 5f        ds         "SE_KS_6"
+                 4b 53 5f 
+                 36 00 00 
+        0209d7e0 07 13 a0 00     ddw        A01307h
+        0209d7e4 53 45 5f        ds         "SE_KS_7"
+                 4b 53 5f 
+                 37 00 00 
+        0209d800 08 13 a0 00     ddw        A01308h
+        0209d804 53 45 5f        ds         "SE_KS_8"
+                 4b 53 5f 
+                 38 00 00 
+        0209d820 0c 13 a0 00     ddw        A0130Ch
+        0209d824 53 45 5f        ds         "SE_KS_C"
+                 4b 53 5f 
+                 43 00 00 
+        0209d840 0f 13 a0 00     ddw        A0130Fh
+        0209d844 53 45 5f        ds         "SE_KS_F"
+                 4b 53 5f 
+                 46 00 00 
+        0209d860 10 13 a0 00     ddw        A01310h
+        0209d864 53 45 5f        ds         "SE_GY_0"
+                 47 59 5f 
+                 30 00 00 
+        0209d880 11 13 a0 00     ddw        A01311h
+        0209d884 53 45 5f        ds         "SE_GY_1"
+                 47 59 5f 
+                 31 00 00 
+        0209d8a0 12 13 a0 00     ddw        A01312h
+        0209d8a4 53 45 5f        ds         "SE_GY_2"
+                 47 59 5f 
+                 32 00 00 
+        0209d8c0 13 13 a0 00     ddw        A01313h
+        0209d8c4 53 45 5f        ds         "SE_GY_3"
+                 47 59 5f 
+                 33 00 00 
+        0209d8e0 14 13 a0 00     ddw        A01314h
+        0209d8e4 53 45 5f        ds         "SE_GY_4"
+                 47 59 5f 
+                 34 00 00 
+        0209d900 15 13 a0 00     ddw        A01315h
+        0209d904 53 45 5f        ds         "SE_GY_5"
+                 47 59 5f 
+                 35 00 00 
+        0209d920 19 13 a0 00     ddw        A01319h
+        0209d924 53 45 5f        ds         "SE_GY_9"
+                 47 59 5f 
+                 39 00 00 
+        0209d940 1a 13 a0 00     ddw        A0131Ah
+        0209d944 53 45 5f        ds         "SE_GY_A"
+                 47 59 5f 
+                 41 00 00 
+        0209d960 1d 13 a0 00     ddw        A0131Dh
+        0209d964 53 45 5f        ds         "SE_GY_D"
+                 47 59 5f 
+                 44 00 00 
+        0209d980 1e 13 a0 00     ddw        A0131Eh
+        0209d984 53 45 5f        ds         "SE_GY_E"
+                 47 59 5f 
+                 45 00 00 
+        0209d9a0 20 13 a0 00     ddw        A01320h
+        0209d9a4 53 45 5f        ds         "SE_LE_0"
+                 4c 45 5f 
+                 30 00 00 
+        0209d9c0 21 13 a0 00     ddw        A01321h
+        0209d9c4 53 45 5f        ds         "SE_LE_1"
+                 4c 45 5f 
+                 31 00 00 
+        0209d9e0 22 13 a0 00     ddw        A01322h
+        0209d9e4 53 45 5f        ds         "SE_LE_2"
+                 4c 45 5f 
+                 32 00 00 
+        0209da00 23 13 a0 00     ddw        A01323h
+        0209da04 53 45 5f        ds         "SE_LE_3"
+                 4c 45 5f 
+                 33 00 00 
+        0209da20 24 13 a0 00     ddw        A01324h
+        0209da24 53 45 5f        ds         "SE_LE_4"
+                 4c 45 5f 
+                 34 00 00 
+        0209da40 25 13 a0 00     ddw        A01325h
+        0209da44 53 45 5f        ds         "SE_LE_5"
+                 4c 45 5f 
+                 35 00 00 
+        0209da60 26 13 a0 00     ddw        A01326h
+        0209da64 53 45 5f        ds         "SE_LE_6"
+                 4c 45 5f 
+                 36 00 00 
+        0209da80 27 13 a0 00     ddw        A01327h
+        0209da84 53 45 5f        ds         "SE_LE_7"
+                 4c 45 5f 
+                 37 00 00 
+        0209daa0 28 13 a0 00     ddw        A01328h
+        0209daa4 53 45 5f        ds         "SE_LE_8"
+                 4c 45 5f 
+                 38 00 00 
+        0209dac0 29 13 a0 00     ddw        A01329h
+        0209dac4 53 45 5f        ds         "SE_LE_9"
+                 4c 45 5f 
+                 39 00 00 
+        0209dae0 2a 13 a0 00     ddw        A0132Ah
+        0209dae4 53 45 5f        ds         "SE_LE_A"
+                 4c 45 5f 
+                 41 00 00 
+        0209db00 2d 13 a0 00     ddw        A0132Dh
+        0209db04 53 45 5f        ds         "SE_LE_D"
+                 4c 45 5f 
+                 44 00 00 
+        0209db20 30 13 a0 00     ddw        A01330h
+        0209db24 53 45 5f        ds         "SE_KL_0"
+                 4b 4c 5f 
+                 30 00 00 
+        0209db40 32 13 a0 00     ddw        A01332h
+        0209db44 53 45 5f        ds         "SE_KL_2"
+                 4b 4c 5f 
+                 32 00 00 
+        0209db60 33 13 a0 00     ddw        A01333h
+        0209db64 53 45 5f        ds         "SE_KL_3"
+                 4b 4c 5f 
+                 33 00 00 
+        0209db80 34 13 a0 00     ddw        A01334h
+        0209db84 53 45 5f        ds         "SE_KL_4"
+                 4b 4c 5f 
+                 34 00 00 
+        0209dba0 35 13 a0 00     ddw        A01335h
+        0209dba4 53 45 5f        ds         "SE_KL_5"
+                 4b 4c 5f 
+                 35 00 00 
+        0209dbc0 36 13 a0 00     ddw        A01336h
+        0209dbc4 53 45 5f        ds         "SE_KL_6"
+                 4b 4c 5f 
+                 36 00 00 
+        0209dbe0 37 13 a0 00     ddw        A01337h
+        0209dbe4 53 45 5f        ds         "SE_KL_7"
+                 4b 4c 5f 
+                 37 00 00 
+        0209dc00 38 13 a0 00     ddw        A01338h
+        0209dc04 53 45 5f        ds         "SE_KL_8"
+                 4b 4c 5f 
+                 38 00 00 
+        0209dc20 40 13 a0 00     ddw        A01340h
+        0209dc24 53 45 5f        ds         "SE_FA_0"
+                 46 41 5f 
+                 30 00 00 
+        0209dc40 42 13 a0 00     ddw        A01342h
+        0209dc44 53 45 5f        ds         "SE_FA_2"
+                 46 41 5f 
+                 32 00 00 
+        0209dc60 43 13 a0 00     ddw        A01343h
+        0209dc64 53 45 5f        ds         "SE_FA_3"
+                 46 41 5f 
+                 33 00 00 
+        0209dc80 44 13 a0 00     ddw        A01344h
+        0209dc84 53 45 5f        ds         "SE_FA_4"
+                 46 41 5f 
+                 34 00 00 
+        0209dca0 46 13 a0 00     ddw        A01346h
+        0209dca4 53 45 5f        ds         "SE_FA_6"
+                 46 41 5f 
+                 36 00 00 
+        0209dcc0 4a 13 a0 00     ddw        A0134Ah
+        0209dcc4 53 45 5f        ds         "SE_FA_A"
+                 46 41 5f 
+                 41 00 00 
+        0209dce0 4f 13 a0 00     ddw        A0134Fh
+        0209dce4 53 45 5f        ds         "SE_RD_8"
+                 52 44 5f 
+                 38 00 00 
+        0209dd00 50 13 a0 00     ddw        A01350h
+        0209dd04 53 45 5f        ds         "SE_LU_10"
+                 4c 55 5f 
+                 31 30 00 
+        0209dd20 51 13 a0 00     ddw        A01351h
+        0209dd24 53 45 5f        ds         "SE_RD_1"
+                 52 44 5f 
+                 31 00 00 
+        0209dd40 52 13 a0 00     ddw        A01352h
+        0209dd44 53 45 5f        ds         "SE_RD_2"
+                 52 44 5f 
+                 32 00 00 
+        0209dd60 53 13 a0 00     ddw        A01353h
+        0209dd64 53 45 5f        ds         "SE_LU_13"
+                 4c 55 5f 
+                 31 33 00 
+        0209dd80 54 13 a0 00     ddw        A01354h
+        0209dd84 53 45 5f        ds         "SE_RD_4"
+                 52 44 5f 
+                 34 00 00 
+        0209dda0 55 13 a0 00     ddw        A01355h
+        0209dda4 53 45 5f        ds         "SE_RD_5"
+                 52 44 5f 
+                 35 00 00 
+        0209ddc0 56 13 a0 00     ddw        A01356h
+        0209ddc4 53 45 5f        ds         "SE_LE_10"
+                 4c 45 5f 
+                 31 30 00 
+        0209dde0 57 13 a0 00     ddw        A01357h
+        0209dde4 53 45 5f        ds         "SE_RD_7"
+                 52 44 5f 
+                 37 00 00 
+        0209de00 58 13 a0 00     ddw        A01358h
+        0209de04 53 45 5f        ds         "SE_LE_12"
+                 4c 45 5f 
+                 31 32 00 
+        0209de20 59 13 a0 00     ddw        A01359h
+        0209de24 53 45 5f        ds         "SE_RD_9"
+                 52 44 5f 
+                 39 00 00 
+        0209de40 5a 13 a0 00     ddw        A0135Ah
+        0209de44 53 45 5f        ds         "SE_RD_A"
+                 52 44 5f 
+                 41 00 00 
+        0209de60 5b 13 a0 00     ddw        A0135Bh
+        0209de64 53 45 5f        ds         "SE_RD_B"
+                 52 44 5f 
+                 42 00 00 
+        0209de80 5c 13 a0 00     ddw        A0135Ch
+        0209de84 53 45 5f        ds         "SE_RD_C"
+                 52 44 5f 
+                 43 00 00 
+        0209dea0 5d 13 a0 00     ddw        A0135Dh
+        0209dea4 53 45 5f        ds         "SE_RD_D"
+                 52 44 5f 
+                 44 00 00 
+        0209dec0 5e 13 a0 00     ddw        A0135Eh
+        0209dec4 53 45 5f        ds         "SE_RD_E"
+                 52 44 5f 
+                 45 00 00 
+        0209dee0 5f 13 a0 00     ddw        A0135Fh
+        0209dee4 53 45 5f        ds         "SE_RD_F"
+                 52 44 5f 
+                 46 00 00 
+        0209df00 60 13 a0 00     ddw        A01360h
+        0209df04 53 45 5f        ds         "SE_RD_0"
+                 52 44 5f 
+                 30 00 00 
+        0209df20 61 13 a0 00     ddw        A01361h
+        0209df24 53 45 5f        ds         "SE_RD_3"
+                 52 44 5f 
+                 33 00 00 
+        0209df40 62 13 a0 00     ddw        A01362h
+        0209df44 53 45 5f        ds         "SE_RD_6"
+                 52 44 5f 
+                 36 00 00 
+        0209df60 02 14 a0 00     ddw        A01402h
+        0209df64 53 45 5f        ds         "SE_FA_WIN_3_C"
+                 46 41 5f 
+                 57 49 4e 
+        0209df80 03 14 a0 00     ddw        A01403h
+        0209df84 53 45 5f        ds         "SE_FA_WIN_4_A"
+                 46 41 5f 
+                 57 49 4e 
+        0209dfa0 04 14 a0 00     ddw        A01404h
+        0209dfa4 53 45 5f        ds         "SE_FA_WIN_4_B"
+                 46 41 5f 
+                 57 49 4e 
+        0209dfc0 05 14 a0 00     ddw        A01405h
+        0209dfc4 53 45 5f        ds         "SE_FA_WIN_9"
+                 46 41 5f 
+                 57 49 4e 
+        0209dfe0 06 14 a0 00     ddw        A01406h
+        0209dfe4 53 45 5f        ds         "SE_GY_WIN_11"
+                 47 59 5f 
+                 57 49 4e 
+        0209e000 08 14 a0 00     ddw        A01408h
+        0209e004 53 45 5f        ds         "SE_GY_WIN_3"
+                 47 59 5f 
+                 57 49 4e 
+        0209e020 09 14 a0 00     ddw        A01409h
+        0209e024 53 45 5f        ds         "SE_GY_WIN_8_A"
+                 47 59 5f 
+                 57 49 4e 
+        0209e040 0b 14 a0 00     ddw        A0140Bh
+        0209e044 53 45 5f        ds         "SE_KM_WIN_6"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e060 0c 14 a0 00     ddw        A0140Ch
+        0209e064 53 45 5f        ds         "SE_KS_WIN_5"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e080 0e 14 a0 00     ddw        A0140Eh
+        0209e084 53 45 5f        ds         "SE_LE_WIN_4"
+                 4c 45 5f 
+                 57 49 4e 
+        0209e0a0 0f 14 a0 00     ddw        A0140Fh
+        0209e0a4 53 45 5f        ds         "SE_LU_WIN_1"
+                 4c 55 5f 
+                 57 49 4e 
+        0209e0c0 11 14 a0 00     ddw        A01411h
+        0209e0c4 53 45 5f        ds         "SE_LU_WIN_8"
+                 4c 55 5f 
+                 57 49 4e 
+        0209e0e0 12 14 a0 00     ddw        A01412h
+        0209e0e4 53 45 5f        ds         "SE_TN_WIN_1"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e100 13 14 a0 00     ddw        A01413h
+        0209e104 53 45 5f        ds         "SE_TN_WIN_12"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e120 14 14 a0 00     ddw        A01414h
+        0209e124 53 45 5f        ds         "SE_TN_WIN_9_A"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e140 15 14 a0 00     ddw        A01415h
+        0209e144 53 45 5f        ds         "SE_TN_WIN_9_B"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e160 16 14 a0 00     ddw        A01416h
+        0209e164 53 45 5f        ds         "SE_LU_WIN_24"
+                 4c 55 5f 
+                 57 49 4e 
+        0209e180 17 14 a0 00     ddw        A01417h
+        0209e184 53 45 5f        ds         "SE_KS_WIN_11_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e1a0 18 14 a0 00     ddw        A01418h
+        0209e1a4 53 45 5f        ds         "SE_KS_WIN_11_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e1c0 19 14 a0 00     ddw        A01419h
+        0209e1c4 53 45 5f        ds         "SE_KS_WIN_11_C"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e1e0 1a 14 a0 00     ddw        A0141Ah
+        0209e1e4 53 45 5f        ds         "SE_KS_WIN_4_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e200 1b 14 a0 00     ddw        A0141Bh
+        0209e204 53 45 5f        ds         "SE_KS_WIN_4_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e220 1c 14 a0 00     ddw        A0141Ch
+        0209e224 53 45 5f        ds         "SE_LE_WIN_2_A"
+                 4c 45 5f 
+                 57 49 4e 
+        0209e240 1d 14 a0 00     ddw        A0141Dh
+        0209e244 53 45 5f        ds         "SE_LE_WIN_2_B"
+                 4c 45 5f 
+                 57 49 4e 
+        0209e260 1e 14 a0 00     ddw        A0141Eh
+        0209e264 53 45 5f        ds         "SE_KM_WIN_1"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e280 20 14 a0 00     ddw        A01420h
+        0209e284 53 45 5f        ds         "SE_LE_WIN_11_A"
+                 4c 45 5f 
+                 57 49 4e 
+        0209e2a0 21 14 a0 00     ddw        A01421h
+        0209e2a4 53 45 5f        ds         "SE_LE_WIN_11_B"
+                 4c 45 5f 
+                 57 49 4e 
+        0209e2c0 22 14 a0 00     ddw        A01422h
+        0209e2c4 53 45 5f        ds         "SE_FA_WIN_11_A"
+                 46 41 5f 
+                 57 49 4e 
+        0209e2e0 23 14 a0 00     ddw        A01423h
+        0209e2e4 53 45 5f        ds         "SE_FA_WIN_11_B"
+                 46 41 5f 
+                 57 49 4e 
+        0209e300 26 14 a0 00     ddw        A01426h
+        0209e304 53 45 5f        ds         "SE_GY_WIN_5"
+                 47 59 5f 
+                 57 49 4e 
+        0209e320 28 14 a0 00     ddw        A01428h
+        0209e324 53 45 5f        ds         "SE_LU_WIN_5"
+                 4c 55 5f 
+                 57 49 4e 
+        0209e340 2a 14 a0 00     ddw        A0142Ah
+        0209e344 53 45 5f        ds         "SE_KS_WIN_10"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e360 2b 14 a0 00     ddw        A0142Bh
+        0209e364 53 45 5f        ds         "SE_KS_WIN_2_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e380 2c 14 a0 00     ddw        A0142Ch
+        0209e384 53 45 5f        ds         "SE_KS_WIN_2_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e3a0 2d 14 a0 00     ddw        A0142Dh
+        0209e3a4 53 45 5f        ds         "SE_KS_WIN_7_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e3c0 2e 14 a0 00     ddw        A0142Eh
+        0209e3c4 53 45 5f        ds         "SE_KS_WIN_7_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e3e0 2f 14 a0 00     ddw        A0142Fh
+        0209e3e4 53 45 5f        ds         "SE_KS_WIN_9_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e400 30 14 a0 00     ddw        A01430h
+        0209e404 53 45 5f        ds         "SE_KS_WIN_9_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e420 31 14 a0 00     ddw        A01431h
+        0209e424 53 45 5f        ds         "SE_KL_WIN_2"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e440 32 14 a0 00     ddw        A01432h
+        0209e444 53 45 5f        ds         "SE_KL_WIN_9"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e460 33 14 a0 00     ddw        A01433h
+        0209e464 53 45 5f        ds         "SE_KL_WIN_10"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e480 34 14 a0 00     ddw        A01434h
+        0209e484 53 45 5f        ds         "SE_KL_WIN_11"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e4a0 35 14 a0 00     ddw        A01435h
+        0209e4a4 53 45 5f        ds         "SE_TN_WIN_3_A"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e4c0 36 14 a0 00     ddw        A01436h
+        0209e4c4 53 45 5f        ds         "SE_TN_WIN_3_B"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e4e0 37 14 a0 00     ddw        A01437h
+        0209e4e4 53 45 5f        ds         "SE_TN_WIN_10"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e500 38 14 a0 00     ddw        A01438h
+        0209e504 53 45 5f        ds         "SE_RD_WIN_2_A"
+                 52 44 5f 
+                 57 49 4e 
+        0209e520 39 14 a0 00     ddw        A01439h
+        0209e524 53 45 5f        ds         "SE_RD_WIN_2_B"
+                 52 44 5f 
+                 57 49 4e 
+        0209e540 3a 14 a0 00     ddw        A0143Ah
+        0209e544 53 45 5f        ds         "SE_RD_WIN_6_A"
+                 52 44 5f 
+                 57 49 4e 
+        0209e560 3b 14 a0 00     ddw        A0143Bh
+        0209e564 53 45 5f        ds         "SE_RD_WIN_6_B"
+                 52 44 5f 
+                 57 49 4e 
+        0209e580 3c 14 a0 00     ddw        A0143Ch
+        0209e584 53 45 5f        ds         "SE_RD_WIN_7"
+                 52 44 5f 
+                 57 49 4e 
+        0209e5a0 3d 14 a0 00     ddw        A0143Dh
+        0209e5a4 53 45 5f        ds         "SE_RD_WIN_9"
+                 52 44 5f 
+                 57 49 4e 
+        0209e5c0 3e 14 a0 00     ddw        A0143Eh
+        0209e5c4 53 45 5f        ds         "SE_RD_WIN_11_A"
+                 52 44 5f 
+                 57 49 4e 
+        0209e5e0 3f 14 a0 00     ddw        A0143Fh
+        0209e5e4 53 45 5f        ds         "SE_RD_WIN_11_B"
+                 52 44 5f 
+                 57 49 4e 
+        0209e600 40 14 a0 00     ddw        A01440h
+        0209e604 53 45 5f        ds         "SE_KM_WIN_14"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e620 41 14 a0 00     ddw        A01441h
+        0209e624 53 45 5f        ds         "SE_KM_WIN_13"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e640 42 14 a0 00     ddw        A01442h
+        0209e644 53 45 5f        ds         "SE_KM_WIN_12"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e660 43 14 a0 00     ddw        A01443h
+        0209e664 53 45 5f        ds         "SE_KM_WIN_10"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e680 44 14 a0 00     ddw        A01444h
+        0209e684 53 45 5f        ds         "SE_TN_WIN_2_A"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e6a0 45 14 a0 00     ddw        A01445h
+        0209e6a4 53 45 5f        ds         "SE_TN_WIN_2_B"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e6c0 46 14 a0 00     ddw        A01446h
+        0209e6c4 53 45 5f        ds         "SE_TN_WIN_11"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e6e0 47 14 a0 00     ddw        A01447h
+        0209e6e4 53 45 5f        ds         "SE_TN_WIN_13"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e700 48 14 a0 00     ddw        A01448h
+        0209e704 53 45 5f        ds         "SE_KS_WIN_1_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e720 49 14 a0 00     ddw        A01449h
+        0209e724 53 45 5f        ds         "SE_KS_WIN_1_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e740 4a 14 a0 00     ddw        A0144Ah
+        0209e744 53 45 5f        ds         "SE_KS_WIN_12"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e760 4b 14 a0 00     ddw        A0144Bh
+        0209e764 53 45 5f        ds         "SE_KL_WIN_5"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e780 4c 14 a0 00     ddw        A0144Ch
+        0209e784 53 45 5f        ds         "SE_TN_WIN_6"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e7a0 4d 14 a0 00     ddw        A0144Dh
+        0209e7a4 53 45 5f        ds         "SE_TN_WIN_7"
+                 54 4e 5f 
+                 57 49 4e 
+        0209e7c0 4e 14 a0 00     ddw        A0144Eh
+        0209e7c4 53 45 5f        ds         "SE_KL_WIN_1"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e7e0 4f 14 a0 00     ddw        A0144Fh
+        0209e7e4 53 45 5f        ds         "SE_KL_WIN_3_A"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e800 50 14 a0 00     ddw        A01450h
+        0209e804 53 45 5f        ds         "SE_KL_WIN_3_B"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e820 51 14 a0 00     ddw        A01451h
+        0209e824 53 45 5f        ds         "SE_KL_WIN_12_A"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e840 52 14 a0 00     ddw        A01452h
+        0209e844 53 45 5f        ds         "SE_KL_WIN_12_B"
+                 4b 4c 5f 
+                 57 49 4e 
+        0209e860 53 14 a0 00     ddw        A01453h
+        0209e864 53 45 5f        ds         "SE_KS_WIN_3_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e880 54 14 a0 00     ddw        A01454h
+        0209e884 53 45 5f        ds         "SE_KS_WIN_3_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e8a0 55 14 a0 00     ddw        A01455h
+        0209e8a4 53 45 5f        ds         "SE_KS_WIN_8_A"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e8c0 56 14 a0 00     ddw        A01456h
+        0209e8c4 53 45 5f        ds         "SE_KS_WIN_8_B"
+                 4b 53 5f 
+                 57 49 4e 
+        0209e8e0 57 14 a0 00     ddw        A01457h
+        0209e8e4 53 45 5f        ds         "SE_LU_WIN_10_A"
+                 4c 55 5f 
+                 57 49 4e 
+        0209e900 58 14 a0 00     ddw        A01458h
+        0209e904 53 45 5f        ds         "SE_LU_WIN_10_B"
+                 4c 55 5f 
+                 57 49 4e 
+        0209e920 59 14 a0 00     ddw        A01459h
+        0209e924 53 45 5f        ds         "SE_RD_WIN_3"
+                 52 44 5f 
+                 57 49 4e 
+        0209e940 5a 14 a0 00     ddw        A0145Ah
+        0209e944 53 45 5f        ds         "SE_RD_WIN_10"
+                 52 44 5f 
+                 57 49 4e 
+        0209e960 5b 14 a0 00     ddw        A0145Bh
+        0209e964 53 45 5f        ds         "SE_RD_WIN_12"
+                 52 44 5f 
+                 57 49 4e 
+        0209e980 5c 14 a0 00     ddw        A0145Ch
+        0209e984 53 45 5f        ds         "SE_KM_WIN_3_A"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e9a0 5d 14 a0 00     ddw        A0145Dh
+        0209e9a4 53 45 5f        ds         "SE_KM_WIN_3_B"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e9c0 5e 14 a0 00     ddw        A0145Eh
+        0209e9c4 53 45 5f        ds         "SE_KM_WIN_4_A"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209e9e0 5f 14 a0 00     ddw        A0145Fh
+        0209e9e4 53 45 5f        ds         "SE_KM_WIN_4_B"
+                 4b 4d 5f 
+                 57 49 4e 
+        0209ea00 60 14 a0 00     ddw        A01460h
+        0209ea04 53 45 5f        ds         "SE_FA_A_S"
+                 46 41 5f 
+                 41 5f 53 
+        0209ea20 61 14 a0 00     ddw        A01461h
+        0209ea24 53 45 5f        ds         "SE_GY_4_S"
+                 47 59 5f 
+                 34 5f 53 
+        0209ea40 62 14 a0 00     ddw        A01462h
+        0209ea44 53 45 5f        ds         "SE_LE_0_S"
+                 4c 45 5f 
+                 30 5f 53 
+        0209ea60 63 14 a0 00     ddw        A01463h
+        0209ea64 53 45 5f        ds         "SE_LE_2_S"
+                 4c 45 5f 
+                 32 5f 53 
+        0209ea80 64 14 a0 00     ddw        A01464h
+        0209ea84 53 45 5f        ds         "SE_TN_6_S"
+                 54 4e 5f 
+                 36 5f 53 
+        0209eaa0 65 14 a0 00     ddw        A01465h
+        0209eaa4 53 45 5f        ds         "SE_TN_9_S"
+                 54 4e 5f 
+                 39 5f 53 
+        0209eac0 66 14 a0 00     ddw        A01466h
+        0209eac4 53 45 5f        ds         "SE_LU_10_S"
+                 4c 55 5f 
+                 31 30 5f 
+        0209eae0 00 15 a0 00     ddw        A01500h
+        0209eae4 53 45 5f        ds         "SE_FA_LOSE"
+                 46 41 5f 
+                 4c 4f 53 
+        0209eb00 01 15 a0 00     ddw        A01501h
+        0209eb04 53 45 5f        ds         "SE_GY_LOSE"
+                 47 59 5f 
+                 4c 4f 53 
+        0209eb20 02 15 a0 00     ddw        A01502h
+        0209eb24 53 45 5f        ds         "SE_KL_LOSE"
+                 4b 4c 5f 
+                 4c 4f 53 
+        0209eb40 03 15 a0 00     ddw        A01503h
+        0209eb44 53 45 5f        ds         "SE_KM_LOSE"
+                 4b 4d 5f 
+                 4c 4f 53 
+        0209eb60 04 15 a0 00     ddw        A01504h
+        0209eb64 53 45 5f        ds         "SE_KS_LOSE"
+                 4b 53 5f 
+                 4c 4f 53 
+        0209eb80 05 15 a0 00     ddw        A01505h
+        0209eb84 53 45 5f        ds         "SE_LE_LOSE"
+                 4c 45 5f 
+                 4c 4f 53 
+        0209eba0 06 15 a0 00     ddw        A01506h
+        0209eba4 53 45 5f        ds         "SE_LU_LOSE"
+                 4c 55 5f 
+                 4c 4f 53 
+        0209ebc0 07 15 a0 00     ddw        A01507h
+        0209ebc4 53 45 5f        ds         "SE_RD_LOSE"
+                 52 44 5f 
+                 4c 4f 53 
+        0209ebe0 08 15 a0 00     ddw        A01508h
+        0209ebe4 53 45 5f        ds         "SE_TN_LOSE"
+                 54 4e 5f 
+                 4c 4f 53 
+        0209ec00 09 15 a0 00     ddw        A01509h
+        0209ec04 53 45 5f        ds         "SE_KM_LOSE_2"
+                 4b 4d 5f 
+                 4c 4f 53 
+        0209ec20 0a 15 a0 00     ddw        A0150Ah
+        0209ec24 53 45 5f        ds         "SE_LE_LOSE_2"
+                 4c 45 5f 
+                 4c 4f 53 
+        0209ec40 11 15 a0 00     ddw        A01511h
+        0209ec44 53 45 5f        ds         "SE_HI_MI_TSU"
+                 48 49 5f 
+                 4d 49 5f 
+        0209ec60 00 16 a0 00     ddw        A01600h
+        0209ec64 53 45 5f        ds         "SE_CANCEL_1P"
+                 43 41 4e 
+                 43 45 4c 
+        0209ec80 01 16 a0 00     ddw        A01601h
+        0209ec84 53 45 5f        ds         "SE_CANCEL_2P"
+                 43 41 4e 
+                 43 45 4c 
+        0209eca0 02 16 a0 00     ddw        A01602h
+        0209eca4 53 45 5f        ds         "SE_CANCEL_SERI"
+                 43 41 4e 
+                 43 45 4c 
+        0209ecc0 03 16 a0 00     ddw        A01603h
+        0209ecc4 53 45 5f        ds         "SE_CANCEL_SYS"
+                 43 41 4e 
+                 43 45 4c 
