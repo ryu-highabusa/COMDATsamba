@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="27">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"P1 health (default normal health VS CPU is 160hp; VS HUMAN 200hp)"</Description>
+      <LastState Value="200" RealAddress="0DD07C20"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"P2 health"</Description>
+      <LastState Value="200" RealAddress="0DD07C78"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"camera angle"</Description>
+      <LastState Value="2" RealAddress="0DD0D5AC"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD0D5AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"P1??"</Description>
+      <LastState Value="5" RealAddress="0DD1DD50"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD1DD50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"P1 SLOT"</Description>
+      <LastState Value="5" RealAddress="0DD07C01"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C01</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"P1 COSTUME"</Description>
+      <LastState Value="0" RealAddress="0DD07C02"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C02</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"P2??"</Description>
+      <LastState Value="2" RealAddress="0DD1DDBC"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD1DDBC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"P2 SLOT"</Description>
+      <LastState Value="2" RealAddress="0DD07C59"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C59</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"P2 COSTUME"</Description>
+      <LastState Value="0" RealAddress="0DD07C5A"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C5A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"P1 ROUND COUNTER"</Description>
+      <LastState Value="0" RealAddress="0DD07C03"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C03</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"P2 ROUND COUNTER"</Description>
+      <LastState Value="0" RealAddress="0DD07C5B"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD07C5B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"HEADER AND BUILD DATE"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFFE5D4770</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFF7DB40AC</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"p1charpointer"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFFE0B7840</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFFE59ECF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFFE5D4872</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"No description"</Description>
+      <LastState Value="128" RealAddress="0DD033A0"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD033A0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"No description"</Description>
+      <LastState Value="179" RealAddress="0DD033A1"/>
+      <VariableType>Byte</VariableType>
+      <Address>0DD033A1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"bookkeeping"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFFC509577</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"default scoreboard"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>FFFFFFFFFC50CA76</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
