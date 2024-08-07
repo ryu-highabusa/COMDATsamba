@@ -7,7 +7,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "255-hit Combo Limit"
     desc = "Increases the combo limit from 30 to 255"
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
     [[patch.be8]]
         address = 0x82502197
@@ -17,7 +17,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "Increased Max Character Distance"
     desc = "Increases the maximum distance between characters from 6.0f to 420.0f"
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
     [[patch.be32]]
         address = 0x822a9df8
@@ -26,7 +26,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 [[patch]]
     name = "Alpha-152 can now be selected!"
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
     [[patch.array]] #replace random-select with alpha-152 and appropriate icons and banners
         address = 0x82f4b960
@@ -42,7 +42,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "All Characters Unlocked"
     desc = "Multiplayer Modes Only. Story Mode Unaffected."
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
     [[patch.be8]] #unlock Helena
         address = 0x82f4b872
@@ -62,3 +62,42 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     [[patch.be8]] #unlock Spartan-458
         address = 0x82f4b93a
         value = 0x01
+
+[[patch]]
+    name = "21:9 Ultrawide Aspect Ratio"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x822aa800
+        value = 0x3ed80000
+
+[[patch]]
+    name = "Unused Helena 'Opera' Costume on Slot 1"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be8]]
+        address = 0x82c24720
+        value = 0x03
+
+[[patch]]
+    name = "Unused Kokoro 'Kimono' Costumes on Slots 1 & 2"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be8]] #Pink Kimono on Kokoro Costume Slot 1
+        address = 0x82c24730
+        value = 0x08
+    [[patch.be8]] #Blue Kimono on Kokoro Costume Slot 2
+        address = 0x82c24731
+        value = 0x03
+
+[[patch]]
+    name = "Unused Christie Costume on Slot 1"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be8]]
+        address = 0x82c247b8
+        value = 0x05
