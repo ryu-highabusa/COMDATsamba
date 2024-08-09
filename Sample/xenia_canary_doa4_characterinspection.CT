@@ -441,7 +441,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>26</ID>
-      <Description>"No description"</Description>
+      <Description>"ANIME_P1_830201b8"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -654,7 +654,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>55</ID>
-      <Description>"No description"</Description>
+      <Description>"ATK_HEIGHT_P1_830201d8"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
