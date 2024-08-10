@@ -613,6 +613,13 @@
       <VariableType>Byte</VariableType>
       <Address>182CE4DE1</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>75</ID>
+      <Description>"CHAR_DISP_P1_82ce4e30"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182ce4e30</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
