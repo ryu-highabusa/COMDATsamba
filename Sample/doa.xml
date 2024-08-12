@@ -156,43 +156,6 @@
     </script>
   </cheat>
   
-    <cheat desc="54FCFC">
-      <parameter>
-     <item value="0x00">0x00</item>
-      <item value="0x01">0x01</item>
-      <item value="0x02">0x02</item>
-      <item value="0x03">0x03</item>
-      <item value="0x04">0x04</item>
-      <item value="0x05">0x05</item>
-      <item value="0x06">0x06</item>
-      <item value="0x07">0x07</item>
-      <item value="0x08">0x08</item>
-      <item value="0x09">0x09</item>
-  <item value="0x0A">0x0A</item>
-      <item value="0x0B">0x0B</item>
-     <item value="0x0C">0x0C</item>
-     <item value="0x0D">0x0D</item>
-	<item value="0x0E">E</item>
-	<item value="0x0F">F</item>
-	<item value="0x10">10</item>
-	<item value="0x11">11</item>
-	<item value="0x12">12</item>
-	<item value="0xFF">FF</item>
-    </parameter>
-    <script state="run">
-    <action>:maincpu.pb@0x54FCFC=param</action>
-  </script>
- </cheat>
-  
-<cheat desc="legal characters??">
-    <script state="run">
-      <action>maincpu.ppb@90d83=01</action>
-	  <action>maincpu.ppb@90d87=01</action>
-	  <action>maincpu.ppb@90d89=01</action>
-	  <action>maincpu.ppb@90d8A=01</action>
-	  <action>maincpu.ppb@90d8B=01</action>
-    </script>
-  </cheat>
 
    <cheat desc="P1 Animation">
     <parameter min="0" max="255" step="1"/>
@@ -201,39 +164,19 @@
     </script>
   </cheat>
 
-  <cheat desc="real infinite time">
+  <cheat desc="Unlisted Infinite Time Setting">
     <script state="run">
       <action>maincpu.ppb@54fd78=ff</action>
     </script>
   </cheat>
   
-    <cheat desc="camera angle">
+    <cheat desc="Camera Angle">
     <parameter min="0" max="255" step="1"/>
     <script state="run">
       <action>maincpu.ppb@5555ac=param</action>
     </script>
   </cheat>
-  
-      <cheat desc="589de0">
-    <parameter min="0" max="10" step="1"/>
-    <script state="run">
-      <action>maincpu.ppb@589de0=param</action>
-    </script>
-  </cheat>
-  
-    <cheat desc="589de0">
-    <script state="run">
-      <action>maincpu.ppb@589de0=00</action>
-    </script>
-  </cheat>
-  
-  
-      <cheat desc="557a84 raidou char select?">
-    <script state="run">
-      <action>maincpu.ppb@557a84=01</action>
-    </script>
-  </cheat>
-  
+   
   
 <cheat desc="Unlock Raidou">
 <script state="run">
@@ -241,18 +184,7 @@
 </script>
 </cheat>
 
-      <cheat desc="P1 54fc47">
-    <parameter min="0" max="10" step="1"/>
-    <script state="run">
-      <action>maincpu.ppb@589de0=param</action>
-    </script>
-  </cheat>
-  
-  <cheat desc="54f3cc">
-<script state="run">
-<action>maincpu.ppb@54f3cc=01</action>
-</script>
-</cheat>
+
 </mamecheat>
 
 
