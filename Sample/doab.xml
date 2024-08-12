@@ -48,6 +48,12 @@
       <action>maincpu.ppb@54FC58=00</action>
     </script>
   </cheat>
+  
+  <cheat desc="Unlock Raidou">
+    <script state="run">
+	  <action>:maincpu.pb@0x54fd56=01</action>
+    </script>
+  </cheat>
 
 </mamecheat>
 <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
