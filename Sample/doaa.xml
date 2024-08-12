@@ -1,0 +1,59 @@
+<mamecheat version="1">
+
+  <cheat desc="Infinite Credits">
+    <script state="run">
+      <action>maincpu.ppb@54FCC4=09</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Infinite Time">
+    <script state="on">
+      <action>maincpu.ppb@555580=63</action>
+    </script>
+    <script state="run">
+      <action condition="(maincpu.ppb@555580 GT 1) AND (maincpu.ppb@555580 LT 63)">maincpu.ppb@555580=63</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Finish this Round Now!">
+    <script state="on">
+      <action>maincpu.ppb@555580=00</action>
+    </script>
+  </cheat>
+
+  <cheat desc=" "/>
+
+  <cheat desc="P1 Infinite Energy">
+    <script state="run">
+      <action>maincpu.ppb@54FC00=A0</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P1 Drain All Energy Now!">
+    <script state="on">
+      <action>maincpu.ppb@54FC00=00</action>
+    </script>
+  </cheat>
+
+  <cheat desc=" "/>
+
+  <cheat desc="P2 Infinite Energy">
+    <script state="run">
+      <action>maincpu.ppb@54FC58=A0</action>
+    </script>
+  </cheat>
+
+  <cheat desc="P2 Drain All Energy Now!">
+    <script state="on">
+      <action>maincpu.ppb@54FC58=00</action>
+    </script>
+  </cheat>
+
+<cheat desc="Unlock Raidou">
+<script state="run">
+<action>maincpu.ppb@54fd56=01</action>
+</script>
+</cheat>
+
+</mamecheat>
+<!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
