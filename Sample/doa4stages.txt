@@ -1,6 +1,6 @@
 FF	RANDOM
 0A	EXPERIMENTAL PLAYGROUND
-0B (CRASH)
+0B	(CRASH)
 0C	Biolab Core
 0D	DOATEC GREAT HALL
 0E	SEASIDE MARKET (TOP)
@@ -24,9 +24,9 @@ FF	RANDOM
 20	(UNUSED) Black Void???
 21	(UNUSED) Black Void???
 22	(UNUSED) Black Void???
-23	(UNUSED) TriTower Inside????
+23	(STORY) TriTower Climbing Cutscene????
 24	CRASH CLUB
 25	TRITOWER HELIPORT
-26	(UNUSED) TriTower Unfinished???
+26	(Story) TriTower Elevator Cutscene???
 27	(UNUSED) Black Void???
-28	
+28	(STORY) TriTower Top Cutscene????
