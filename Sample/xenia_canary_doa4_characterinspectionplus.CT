@@ -306,7 +306,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>9</ID>
-      <Description>"No description"</Description>
+      <Description>"XPOS_P1_8302018c"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>Float Big Endian</CustomType>
@@ -314,7 +314,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>10</ID>
-      <Description>"No description"</Description>
+      <Description>"YPOS_P1_83020190"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>Float Big Endian</CustomType>
@@ -322,7 +322,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>11</ID>
-      <Description>"No description"</Description>
+      <Description>"ZPOS_P1_83020194"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>Float Big Endian</CustomType>
@@ -330,7 +330,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>12</ID>
-      <Description>"No description"</Description>
+      <Description>"ANIME_SPD_P1_83020198"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>Float Big Endian</CustomType>
@@ -1147,6 +1147,22 @@
     </CheatEntry>
     <CheatEntry>
       <ID>154</ID>
+      <Description>"??????"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7C94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>172</ID>
+      <Description>"Stage"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7C98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>171</ID>
       <Description>"Stage"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
