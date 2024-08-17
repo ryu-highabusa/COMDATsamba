@@ -26,7 +26,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 [[patch]]
     name = "Alpha-152 can now be selected!"
     author = "ryu_highabusa"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.array]] #replace random-select with alpha-152 and appropriate icons and banners
         address = 0x82f4b960
@@ -42,7 +42,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
     name = "All Characters Unlocked"
     desc = "Multiplayer Modes Only. Story Mode Unaffected."
     author = "ryu_highabusa"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]] #unlock Helena
         address = 0x82f4b872
@@ -105,7 +105,7 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 [[patch]]
     name = "All Stages Available in Tag Mode"
     author = "ryu_highabusa"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]] #Tritower Heliport
         address = 0x82c22ac9
