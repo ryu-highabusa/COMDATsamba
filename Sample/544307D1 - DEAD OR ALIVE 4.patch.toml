@@ -2,12 +2,13 @@ title_name = "DEAD OR ALIVE 4"
 title_id = "544307D1" # TC-2001
 hash = "7F840B8DEFDB5C5E" # default.xex
 #media_id = "2AD7FA3A"
+#media_id = "2A21D923"
 
 [[patch]]
     name = "255-hit Combo Limit"
     desc = "Increases the combo limit from 30 to 255"
     author = "ryu_highabusa"
-    is_enabled = false
+    is_enabled = true
 
     [[patch.be8]]
         address = 0x82502197
@@ -15,13 +16,13 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 
 [[patch]]
     name = "Increased Max Character Distance"
-    desc = "Increases the maximum distance between characters from 6.0f to 420.0f. Please note this breaks some animations."
+    desc = "Increases the maximum distance between characters from 6.0f to 12.0f. Please note this breaks some animations."
     author = "ryu_highabusa"
     is_enabled = false
 
     [[patch.be32]]
         address = 0x822a9df8
-        value = 0x43d20000
+        value = 0x41400000
 
 [[patch]]
     name = "Alpha-152 can now be selected!"
