@@ -1827,6 +1827,15 @@
       <VariableType>Byte</VariableType>
       <Address>1830efb66</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>251</ID>
+      <Description>"write_exception_DAT_830b225c"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>75</ByteLength>
+      <Address>1830b225c</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
