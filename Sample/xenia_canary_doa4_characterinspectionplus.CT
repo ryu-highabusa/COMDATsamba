@@ -2226,6 +2226,42 @@
       <CustomType>2 Byte Big Endian</CustomType>
       <Address>1830201ac</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>311</ID>
+      <Description>"DAT_830f7cb4"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830f7cb4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>312</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7CB0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>313</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182c223a8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>314</ID>
+      <Description>"motafs?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>1075</ByteLength>
+      <Address>1830a47fc</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
