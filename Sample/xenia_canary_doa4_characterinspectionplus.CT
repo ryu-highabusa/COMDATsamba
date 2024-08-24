@@ -2262,6 +2262,18 @@
       <ByteLength>1075</ByteLength>
       <Address>1830a47fc</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>315</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>18318B217</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>316</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>18318B22C</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
