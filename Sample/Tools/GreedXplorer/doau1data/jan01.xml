@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Root>
+<Header Magic="GXDOA" Base="gen00.xpr" MirrorAxis="X" Author=""/> 
+<Body>
+<MeshGroup Name="Character">
+<Elem Name="Head" Mesh="OBJ_2" tx="0" ty="0.4988" tz="-0.025" />
+<Elem Name="Chest" Mesh="OBJ_1" tx="0" ty="0.2205" tz="0.00" /> 
+<Elem Name="pelvis" Mesh="OBJ_0" /> 
+
+<Elem Name="Shoulder" Mesh="OBJ_8" MirrorMesh="OBJ_18" tx="0.155" ty="0.475" tz="-0.02" rx="0" ry="90" rz="0"/> 
+<Elem Name="Forearm"  Mesh="OBJ_4" MirrorMesh="OBJ_14" tx="0.399" ty="0.475" tz="-0.02" rx="0" ry="-90" rz="0"/> 
+<Elem Name="Hand"     Mesh="OBJ_5" MirrorMesh="OBJ_15" tx="0.6885" ty="0.475" tz="-0.02" /> 
+
+<Elem Name="Thigh" Mesh="OBJ_6" MirrorMesh="OBJ_16" tx="0.0761" ty="0.03" tz="-0.0257" rx="90" ry="-90" rz="0"/> 
+<Elem Name="Calf" Mesh="OBJ_7" MirrorMesh="OBJ_17" tx="0.0761" ty="-0.4338" tz="-0.0257" rx="-90" ry="90" rz="0" /> 
+<Elem Name="Foot" Mesh="OBJ_3" MirrorMesh="OBJ_13" tx="0.0761" ty="-0.8437" tz="-0.0257" />
+</MeshGroup>
+<MeshGroup Name="Misc">
+ <Elem Name="OBJ_9" Mesh="OBJ_9" tx="0.00" />
+ <Elem Name="OBJ_10" Mesh="OBJ_10" tx="-0.10" />
+ <Elem Name="OBJ_11" Mesh="OBJ_11" tx="0.20" />
+ <Elem Name="OBJ_12" Mesh="OBJ_12" tx="-0.30" />
+ <Elem Name="OBJ_19" Mesh="OBJ_19" tx="0.40" />
+ <Elem Name="OBJ_20" Mesh="OBJ_20" tx="-0.50" />
+ <Elem Name="OBJ_21" Mesh="OBJ_21" tx="0.60" />
+ <Elem Name="OBJ_22" Mesh="OBJ_22" tx="-0.70" />
+</MeshGroup>
+</Body>
+</Root>

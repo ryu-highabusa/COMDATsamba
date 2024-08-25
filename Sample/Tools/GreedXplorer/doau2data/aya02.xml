@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Header Magic="GXDOA" Base="aya02.xpr" MirrorAxis="X" DefaultRotateOrder="XYZ" Author="" Date="20041119"/>
+	<Body>
+		<MeshGroup Name="Character">
+			<Elem Name="Head" Mesh="OBJ_30" tx="0" ty="0.4665" tz="-0.025"/>
+			<Elem Name="Neck" Mesh="OBJ_15" tx="0" ty="0.4665" tz="-0.025"/>
+			<Elem Name="Chest" Mesh="OBJ_0" tx="0" ty="0.1790" tz="0.005"/>
+			<Elem Name="Waist" Mesh="OBJ_28" tx="0" ty="0.179 " tz="0.005"/>
+			<Elem Name="pelvis" Mesh="OBJ_2"/>
+			<Elem Name="EyeBall" Mesh="OBJ_61" MirrorMesh="OBJ_62" tx="0.0308" ty="0.5785" tz="0.05"/>
+			<Elem Name="Shoulder" Mesh="OBJ_4" MirrorMesh="OBJ_17" tx="0.120" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Bicep" Mesh="OBJ_13" MirrorMesh="OBJ_26" tx="0.120" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Elbow" Mesh="OBJ_5" MirrorMesh="OBJ_18" tx="0.359" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Forearm" Mesh="OBJ_7" MirrorMesh="OBJ_20" tx="0.359" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Wrist" Mesh="OBJ_14" MirrorMesh="OBJ_27" tx="0.5985" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Hand" Mesh="OBJ_8" MirrorMesh="OBJ_21" tx="0.5985" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Thigh" Mesh="OBJ_9" MirrorMesh="OBJ_22" tx="0.0761" ty="-0.0205" tz="-0.0257"/>
+			<Elem Name="Knee" Mesh="OBJ_10" MirrorMesh="OBJ_23" tx="0.0761" ty="-0.4238" tz="-0.0257"/>
+			<Elem Name="Calf" Mesh="OBJ_12" MirrorMesh="OBJ_25" tx="0.0761" ty="-0.4238" tz="-0.0257"/>
+			<Elem Name="ankle" Mesh="OBJ_3" MirrorMesh="OBJ_16" tx="0.0761" ty="-0.8437" tz="-0.0257"/>
+			<Elem Name="Foot" Mesh="OBJ_6" MirrorMesh="OBJ_19" tx="0.0761" ty="-0.8437" tz="-0.0257"/>
+			<Elem Name="Hip" Mesh="OBJ_11" MirrorMesh="OBJ_24" tz="-0.0257" tx="0.0761" ty="-0.0205"/>
+		</MeshGroup>
+		<MeshGroup Name="LowPoly">
+			<Elem Name="Head" Mesh="OBJ_32" tx="0" ty="0.4665" tz="-0.025"/>
+			<Elem Name="Chest" Mesh="OBJ_31" tx="0" ty="0.1790" tz="0.005"/>
+			<Elem Name="pelvis" Mesh="OBJ_33"/>
+			<Elem Name="Shoulder" Mesh="OBJ_39" MirrorMesh="OBJ_45" tx="0.120" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Forearm" Mesh="OBJ_35" MirrorMesh="OBJ_41" tx="0.359" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Hand" Mesh="OBJ_36" MirrorMesh="OBJ_42" tx="0.5985" ty="0.4" tz="-0.01855"/>
+			<Elem Name="Thigh" Mesh="OBJ_37" MirrorMesh="OBJ_43" tx="0.0761" ty="-0.0205" tz="-0.0257"/>
+			<Elem Name="Calf" Mesh="OBJ_38" MirrorMesh="OBJ_44" tx="0.0761" ty="-0.4238" tz="-0.0257"/>
+			<Elem Name="Foot" Mesh="OBJ_34" MirrorMesh="OBJ_40" tx="0.0761" ty="-0.8437" tz="-0.0257"/>
+		</MeshGroup>
+		<MeshGroup Name="Misc">
+			<Elem Name="Hair" Mesh="OBJ_29" tx="0" ty="0.4665" tz="-0.025"/>
+			<Elem Name="OBJ_1" Mesh="OBJ_1" tx="0.00" />
+			<Elem Name="OBJ_46" Mesh="OBJ_46" tx="-0.10" />
+			<Elem Name="OBJ_47" Mesh="OBJ_47" tx="0.20" />
+			<Elem Name="OBJ_48" Mesh="OBJ_48" tx="-0.30" />
+			<Elem Name="OBJ_49" Mesh="OBJ_49" tx="0.40" />
+			<Elem Name="OBJ_50" Mesh="OBJ_50" tx="-0.50" />
+			<Elem Name="OBJ_51" Mesh="OBJ_51" tx="0.60" />
+			<Elem Name="OBJ_52" Mesh="OBJ_52" tx="-0.70" />
+			<Elem Name="OBJ_53" Mesh="OBJ_53" tx="0.80" />
+			<Elem Name="OBJ_54" Mesh="OBJ_54" tx="-0.90" />
+			<Elem Name="OBJ_55" Mesh="OBJ_55" tx="1.00" />
+			<Elem Name="OBJ_56" Mesh="OBJ_56" tx="-1.10" />
+			<Elem Name="OBJ_57" Mesh="OBJ_57" tx="1.20" />
+			<Elem Name="OBJ_58" Mesh="OBJ_58" tx="-1.30" />
+			<Elem Name="OBJ_59" Mesh="OBJ_59" tx="1.40" />
+			<Elem Name="OBJ_60" Mesh="OBJ_60" tx="-1.50" />
+		</MeshGroup>
+	</Body>
+</Root>

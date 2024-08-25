@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+<Header Magic="GXDOA" Base="yti00.xpr" MirrorAxis="X" DefaultRotateOrder="XYZ" Author="" Date="20041118"/>
+	<Body>
+		<MeshGroup Name="Character">
+			<Elem Name="Head" Mesh="OBJ_2" tx="0" ty="0.30191" tz="-0.01757"/>
+			<Elem Name="Neck" Mesh="OBJ_18" tx="0" ty="0.30191" tz="-0.01757"/>
+			<Elem Name="Chest" Mesh="OBJ_1" tx="0" ty="0.126" tz="0.00343"/>
+			<Elem Name="Waist" Mesh="OBJ_32" tx="0" ty="0.126" tz="0.00343" rx=""/>
+			<Elem Name="pelvis" Mesh="OBJ_4"/>
+			<Elem Name="EyeBall" Mesh="OBJ_8" MirrorMesh="OBJ_22" tx="0.0253" ty="0.415" tz="0.029"/>
+			<Elem Name="Shoulder" Mesh="OBJ_6" MirrorMesh="OBJ_20" tx="0.0780500" ty="0.294" tz="-0.01253"/>
+			<Elem Name="Bicep" Mesh="OBJ_16" MirrorMesh="OBJ_30" tx="0.0780500" ty="0.294" tz="-0.01253"/>
+			<Elem Name="Elbow" Mesh="OBJ_7" MirrorMesh="OBJ_21" tx="0.2394701" ty="0.294" tz="-0.01253"/>
+			<Elem Name="Forearm" Mesh="OBJ_10" MirrorMesh="OBJ_24" tx="0.2394701" ty="0.294" tz="-0.01253"/>
+			<Elem Name="Wrist" Mesh="OBJ_17" MirrorMesh="OBJ_31" tx="0.4008899" ty="0.294" tz="-0.01253"/>
+			<Elem Name="Hand" Mesh="OBJ_11" MirrorMesh="OBJ_25" tx="0.4008899" ty="0.294" tz="-0.01253"/>
+			<Elem Name="Hip" Mesh="OBJ_14" MirrorMesh="OBJ_28" tx="0.05124" ty="-0.01085" tz="-0.01729"/>
+			<Elem Name="Thigh" Mesh="OBJ_12" MirrorMesh="OBJ_26" tx="0.05124" ty="-0.01085" tz="-0.01729"/>
+			<Elem Name="Knee" Mesh="OBJ_13" MirrorMesh="OBJ_27" tx="0.05124" ty="-0.28385" tz="-0.0173"/>
+			<Elem Name="Calf" Mesh="OBJ_15" MirrorMesh="OBJ_29" tx="0.05124" ty="-0.28385" tz="-0.01729"/>
+			<Elem Name="ankle" Mesh="OBJ_5" MirrorMesh="OBJ_19" tx="0.05124" ty="-0.57435" tz="-0.01729"/>
+			<Elem Name="Foot" Mesh="OBJ_9" MirrorMesh="OBJ_23" tx="0.05124" ty="-0.57435" tz="-0.01729"/>
+			<Elem Name="" Mesh="" tx="-0.0005" ty="0.004" tz="0.02"/>
+		</MeshGroup>
+		<MeshGroup Name="Misc">
+			<Elem Name="Hair" Mesh="OBJ_0" tx="0" ty="0.30191" tz="-0.01757"/>
+			<Elem Name="OBJ_3" Mesh="OBJ_3" tx="0" ty="0.30191" tz="-0.01757"/>
+		</MeshGroup>
+	</Body>
+</Root>
