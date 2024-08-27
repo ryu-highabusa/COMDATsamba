@@ -2557,7 +2557,7 @@
       <Address>182f4b5f4</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>358</ID>
+      <ID>389</ID>
       <Description>"kas graphic 1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
@@ -2629,6 +2629,15 @@
       <Address>182F4B614</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>358</ID>
+      <Description>"slot 1 graphic (kasumi)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182F4B5F8</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>366</ID>
       <Description>"slot 2 graphic"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -2693,7 +2702,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>373</ID>
-      <Description>"slot 9 graphic"</Description>
+      <Description>"slot 9 graphic (hayabusa)"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -2765,7 +2774,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>381</ID>
-      <Description>"slot 17 graphic"</Description>
+      <Description>"slot 17 graphic (helena)"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -2783,7 +2792,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>383</ID>
-      <Description>"slot 19 graphic"</Description>
+      <Description>"slot 19 graphic (genfu)"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
@@ -2834,6 +2843,13 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>182F4B990</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>390</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182c2469a</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
