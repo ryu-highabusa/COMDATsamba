@@ -2846,10 +2846,138 @@
     </CheatEntry>
     <CheatEntry>
       <ID>390</ID>
-      <Description>"No description"</Description>
+      <Description>"CharacterSelectStorySlot??_FE_82c2469a_UnlockFlag???"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182c2469a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>391</ID>
+      <Description>"MenuSelect00_StoryMode3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182c23410</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>392</ID>
+      <Description>"MenuSelect01_TimeAttackMode3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182c2342c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>393</ID>
+      <Description>"MenuSelect02_SurvivalMode3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23448</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>394</ID>
+      <Description>"MenuSelect03_TeamBattleMode3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23464</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>395</ID>
+      <Description>"MenuSelect04_VersusMode3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23480</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>396</ID>
+      <Description>"MenuSelect05_SparringMode3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C2349C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>397</ID>
+      <Description>"MenuSelect06_Settings3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C234B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>398</ID>
+      <Description>"MenuSelect07_WatchMode3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C234D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>399</ID>
+      <Description>"MenuSelect08_Album3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C234F0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>400</ID>
+      <Description>"MenuSelect09_MoveTheater3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C2350C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>401</ID>
+      <Description>"MenuSelect10_Ranking3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23528</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>402</ID>
+      <Description>"MenuSelect11_UserProfile3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23544</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>403</ID>
+      <Description>"MenuSelect12_BattleViewer3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23560</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>404</ID>
+      <Description>"MenuSelect13_Online3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C2357C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>405</ID>
+      <Description>"MenuSelect00_SingleBattle3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C23598</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>406</ID>
+      <Description>"MenuSelect01_TagBattle3_UnlockFlag"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182C235B4</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
