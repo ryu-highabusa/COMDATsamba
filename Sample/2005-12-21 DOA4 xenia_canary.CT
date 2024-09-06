@@ -3924,6 +3924,321 @@
       <VariableType>Byte</VariableType>
       <Address>182c6c33c</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>527</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>1A9CA4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>528</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1AA2F4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>529</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1AA319000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>530</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1AAB19000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>531</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1AAD99000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>532</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1ACCC9000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>533</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1ADF99000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>534</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1B1972000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>535</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1B46F2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>536</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1B7472000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>537</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1B83A2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>538</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1B8872000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>539</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1B97A2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>540</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1C9CA4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>541</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1CA2F4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>542</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1CA319000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>543</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1CAB19000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>544</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1CAD99000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>545</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1CCCC9000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>546</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1CDF99000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>547</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1D1972000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>548</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1D46F2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>549</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1D7472000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>550</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1D83A2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>551</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1D8872000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>552</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1D97A2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>553</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1E9CA4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>554</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1EA2F4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>555</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1EA319000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>556</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1EAB19000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>557</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1EAD99000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>558</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1ECCC9000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>559</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1EDF99000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>560</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1F1972000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>561</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1F46F2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>562</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1F7472000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>563</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1F83A2000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>564</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1F8872000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>565</ID>
+      <Description>"XPR2 Header Start"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1F97A2000</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
