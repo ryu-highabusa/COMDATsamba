@@ -4001,10 +4001,13 @@
     </CheatEntry>
     <CheatEntry>
       <ID>536</ID>
-      <Description>"XPR2 Header Start"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Custom</VariableType>
-      <CustomType>4 Byte Big Endian</CustomType>
+      <Description>"XPR2 Header Start P1?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
       <Address>1B7472000</Address>
     </CheatEntry>
     <CheatEntry>
@@ -4017,7 +4020,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>538</ID>
-      <Description>"XPR2 Header Start"</Description>
+      <Description>"XPR2 Header Start P2?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -4105,10 +4108,13 @@
     </CheatEntry>
     <CheatEntry>
       <ID>549</ID>
-      <Description>"XPR2 Header Start"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Custom</VariableType>
-      <CustomType>4 Byte Big Endian</CustomType>
+      <Description>"XPR2 Header Start P1?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
       <Address>1D7472000</Address>
     </CheatEntry>
     <CheatEntry>
@@ -4121,7 +4127,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>551</ID>
-      <Description>"XPR2 Header Start"</Description>
+      <Description>"XPR2 Header Start P2?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -4209,10 +4215,13 @@
     </CheatEntry>
     <CheatEntry>
       <ID>562</ID>
-      <Description>"XPR2 Header Start"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>Custom</VariableType>
-      <CustomType>4 Byte Big Endian</CustomType>
+      <Description>"XPR2 Header Start P1?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
       <Address>1F7472000</Address>
     </CheatEntry>
     <CheatEntry>
@@ -4225,7 +4234,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>564</ID>
-      <Description>"XPR2 Header Start"</Description>
+      <Description>"XPR2 Header Start P2?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
