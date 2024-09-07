@@ -4248,6 +4248,28 @@
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>1F97A2000</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>566</ID>
+      <Description>"DAT_83027bb9"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183027bb9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>567</ID>
+      <Description>"title_screen_stage????"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182c6cbe0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>568</ID>
+      <Description>"DAT_82fb9026"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb9026</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
