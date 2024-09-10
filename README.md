@@ -89,38 +89,55 @@ Offset	|	Address	|	Length	|	Description	|
 Shoutouts to 
 ### DEE4DOA
 https://www.freestepdodge.com/threads/dead-or-alive-2-modding-tutorials-and-discussion.7039/#post-366830
+
 https://www.freestepdodge.com/threads/dead-or-alive-3-custom-skins-costumes-thread.4698/post-366800
 
 
 ### USAGIZ
 https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/#post-136173
+
 0x00 - "Offset 1 MOVE-DEF" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-255778
+
 0x04 - "Offset 2 INPUT-DEF" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/page-9#post-255873
+
 0x08 - "Offset 3 PROPERTY TABLE" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-255778
+
 0x20 - "Offset 9 PROPERTY-DEF" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-255778
+
 0x4c - "Offset 20 HITBOX DATA" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-367447
+
 0x54 - "Animation-Definitions Offset Table" https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/page-9#post-256764
+
 Further Explanation of the Input-Def data chunk https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/page-9#post-255873
 
 
 ### GULTIGARGAR
 https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
+
 https://www.freestepdodge.com/threads/doa2-moveset-editing-project.3700/post-174567
+
 https://www.freestepdodge.com/threads/gultigargar-hacked-tengu-to-be-more-playable.7045/
 
 
 ### GANJUL
 https://forum.xen-tax.com/viewtopic.php@p=64443.html#p64443 
-DOAX XPR File Format 
-DOAU XPR Cat Format 
+
+DOAX XPR File Format https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/Doax-Xpr-File-by-ganjul.pdf
+
+DOAU XPR Cat Format https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/DOAU-Xpr-Cat-Format-by-ganjul.xls
 
 
 ### MARIOKART64N
 DOAX XPR https://forum.xen-tax.com/viewtopic.php@p=64454.html#p64454
+
 DOAX XPR  https://forum.xen-tax.com/viewtopic.php@p=64469.html#p64469
+
 DOA2U XPR, MOT, WVA, CAT, DDS, AFS https://docs.google.com/spreadsheets/d/1ytNRzM8E-DMcTS_LXLPhQ0qLjpawKQHfT_lByftk_Yw/edit?gid=0#gid=0
+
 DOA2U XPR Maxscript https://forum.xen-tax.com/viewtopic.php@p=64541.html#p64541
+
 DOA4 TPR https://forum.xen-tax.com/viewtopic.php@f=18&t=2205.html
+
 APA Controls https://forum.xen-tax.com/viewtopic.php@p=65346.html#p65346
 
 
@@ -130,7 +147,9 @@ DOA5 LNK QuickBMS Script https://forum.xen-tax.com/viewtopic.php@p=69792.html#p6
 
 ### B0NY
 DOAO Blender Export Script https://forum.xen-tax.com/viewtopic.php@p=80112.html#p80112
+
 tecmo360texturesExtractor.py https://forum.xen-tax.com/viewtopic.php@p=84432.html#p84432
+
 tecmo360texturesExtractor VERSION 1.2 https://forum.xen-tax.com/viewtopic.php@p=84675.html#p84675
 
 
