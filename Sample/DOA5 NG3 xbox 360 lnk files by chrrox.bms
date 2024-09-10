@@ -1,0 +1,33 @@
+endian BIG
+open FDSE "trial.lnk" 0
+open FDSE "archive_order.bin" 1
+goto 0x8 1
+get files long 1
+goto 0x24 1
+savepos offset 1
+for i = 0 < files
+goto offset 1
+get noff long 1
+get arcnum long 1
+get id long 1
+savepos offset 1
+goto noff 1
+get name string 1
+putarray 0 id name
+next i
+goto 0xC
+get files long
+get unk01 longlong
+get unk02 longlong
+for i = 0 < files
+get offset longlong
+get zsize longlong
+get size longlong
+get arc longlong
+getarray name 0 i
+if zsize == size
+log name offset size
+else
+clog name offset zsize size
+endif
+next i

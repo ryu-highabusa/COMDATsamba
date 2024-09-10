@@ -1,0 +1,316 @@
+/*
+there are some values in the OBJ bloc which are not understood. they could be related to the models position
+theres also ALOT unknown about the material block. the bloc varies in size, and the last 3 LONGS are
+required for proper mesh import. right now all I can do is jump to the end of the material bloc and get 
+those 3 values. the size of the material bloc seems to increase after the value -1
+
+more research is needed to understand the material bloc
+*/
+mscale=39.3700787
+clearlistener()
+-- obj=$*;delete obj
+
+
+fsource = GetOpenFileName \
+caption:"Browse for XPR" \
+types: "All Files (*.xpr)|*.xpr|"
+if (fsource!=undefined) AND ((doesFileExist fsource)==true) then(
+fpath=getFilenamePath fsource
+fname=getFilenameFile fsource
+fsize=getFileSize fsource
+f = fopen fsource "rb"
+
+fn buildmsh fstream mname vtype vtype2 voffset foffset vcount fcount fcountarray foffsetarray vscale rotat=(
+counter=0
+vertArray=#();vertArray[vcount]=[0,0,0]
+uvwArray=#();uvwArray[vcount]=[0,0,0]
+normArray=#();normArray[vcount]=[0,0,0]
+faceArray=#()
+
+fseek fstream foffsetarray[1] #seek_set
+for y = 1 to fcountarray.count do(
+fseek fstream foffsetarray[y] #seek_set
+flip=1
+f1 = readshort fstream #unsigned + 1
+f2 = readshort fstream #unsigned + 1
+for i = 1 to fcountarray[y] do (flip=-flip
+f3 = readshort fstream #unsigned + 1
+if (f1!=f2)AND(f2!=f3)AND(f3!=f1) then (face=[f1,f2,f3]
+if flip==1 do face=[f1,f3,f2]
+append faceArray face
+)
+f1 = f2;f2 = f3)
+)
+fseek fstream voffset #seek_set
+for i = 1 to vcount do(
+vx=readfloat fstream--*vscale
+vy=readfloat fstream--*vscale
+vz=readfloat fstream--*vscale
+nx=readfloat fstream
+ny=readfloat fstream
+nz=readfloat fstream
+tu=readfloat fstream
+tv=readfloat fstream
+if vtype==1 do fseek fstream 4 #seek_cur
+if vtype==2 do fseek fstream 8 #seek_cur
+if vtype==3 do fseek fstream 12 #seek_cur
+vertArray[i]=[vx,vy,vz]
+normArray[i]=[nx,ny,nz]
+uvwArray[i]=[tu,tv,0])
+msh = mesh vertices:vertArray faces:faceArray
+msh.numTVerts = vertArray.count
+buildTVFaces msh
+msh.displayByLayer = false
+msh.backfacecull = on
+msh.name = mname
+for j = 1 to vertArray.count do setTVert msh j uvwArray[j]
+for j = 1 to faceArray.count do setTVFace msh j faceArray[j]
+msh.position = vscale
+setUserProp msh "Name" mname
+setUserProp msh "Type" vtype
+setUserProp msh "NumVertices" vcount
+setUserProp msh "NumFaces" fcount
+setUserProp msh "VertOffset" voffset
+setUserProp msh "FaceOffset" foffsetarray[1])
+
+fn writeDDSheader streamin texW texH texM texC = (
+texP=0
+writelong streamin 0x20534444 #unsigned -- File ID
+writelong streamin 0x7C #unsigned -- Header Size
+case of( -- dwFlags
+(texC=="DXT1"): (writelong streamin 0x00081007 #unsigned;texP=((texW*texH)/0x02))
+(texC=="DXT3"): (writelong streamin 0x00081007 #unsigned;texP=(texW*texH))
+(texC=="DXT5"): (writelong streamin 0x00081007 #unsigned;texP=(texW*texH))
+(texC=="ATI1"): (writelong streamin 0x000A1007 #unsigned;texP=(texW*texH)/2;texM=1)
+(texC=="ATI2"): (writelong streamin 0x000A1007 #unsigned;texP=(texW*texH);texM=1)
+(texC=="P8"): (writelong streamin 0x000A1007 #unsigned;texP=((texW*texH)/0x02))
+(texC=="ARGB16"): (writelong streamin 0x00081007 #unsigned;texP=(((texW*texH)/0x8)*0x10))
+(texC=="ARGB32"): (writelong streamin 0x00081007 #unsigned;texP=(((texW*texH)/0x4)*0x10)))
+writelong streamin texW #unsigned -- Texture Width
+writelong streamin texH #unsigned -- Texture Height
+writelong streamin texP #unsigned -- Pitch (#of bytes in a single row across the texture)
+writelong streamin 0x00 #unsigned -- Image Depth? Not Used, for Image Volume
+writelong streamin texM #unsigned -- Texture MIP Count
+for i = 1 to 11 do writelong streamin 0x00 #unsigned -- Reserved Space
+writelong streamin 0x20 #unsigned -- Size of PIXEL_FORMAT info, always 32bytes;
+case of(
+(texC=="DXT1"): (writelong streamin 0x04;writelong streamin 0x31545844 #unsigned
+writelong streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00001000 #unsigned)
+(texC=="DXT3"): (writelong streamin 0x04;writelong streamin 0x33545844 #unsigned
+writelong streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00001000 #unsigned)
+(texC=="DXT5"): (writelong streamin 0x04;writelong streamin 0x35545844 #unsigned
+writelong streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00001000 #unsigned)
+(texC=="ATI1"): (writelong streamin 0x04;writelong streamin 0x31495441 #unsigned
+writelong streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00401008 #unsigned)
+(texC=="ATI2"): (writelong streamin 0x04;writelong streamin 0x32495441 #unsigned
+writelong streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00401008 #unsigned)
+(texC=="P8"): (writelong streamin 0x20;writelong streamin 0x20203850 #unsigned
+writelong streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00401008 #unsigned)
+(texC=="ARGB16"): (writelong streamin 0x41;writelong streamin 0x00000000 #unsigned
+writelong streamin 0x10;writebyte streamin 0x00;writebyte streamin 0x0F;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0xF0;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x0F;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0xF0;writebyte streamin 0x00
+writebyte streamin 0x00;writelong streamin 0x00001000 #unsigned)
+(texC=="ARGB32"): (writelong streamin 0x41;writelong streamin 0x00000000 #unsigned
+writelong streamin 0x20;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0xFF
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0xFF;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0xFF;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00;writebyte streamin 0x00
+writebyte streamin 0xFF;writelong streamin 0x00001000 #unsigned))
+for i = 1 to 4 do writelong streamin 0x00 #unsigned) -- Reserved Space for CAPS
+
+if (readlong f #unsigned)==0x30525058 then( -- only applicable to DOAU2, DOAX uses a hash, DOAO is stripped
+dataLog=#()
+dataMDL=#()
+
+fileSize=readlong f #unsigned
+dataBuffer=readlong f #unsigned
+while ChunkID!=-1 AND (ftell f)!=fileSize do(
+chunkID=readshort f
+SubID=readshort f #unsigned
+case of (
+(chunkID==0x0000): (case of (
+	(subID==0x8000): ( -- Jump, and Log Data
+	jump=readlong f #unsigned
+	append dataLog[(ftell f),(ftell f-jump)]
+	fseek f jump #seek_cur
+	)
+);)
+(chunkID==0x0001): (case of (
+	(subID==0x0001): ( -- ??? bloc found in NG1
+	ukn01=readlong f #unsigned -- offset
+	ukn02=readlong f #unsigned -- usually 0x00
+	)
+	(subID==0x0002): ( -- ??? bloc found in NG1
+	ukn03=readlong f #unsigned -- usually 0x00
+	ukn04=readlong f #unsigned -- usually 0x00
+	ukn05=readlong f #unsigned -- usually 0x00
+	ukn06=readlong f #unsigned -- usually 0x00
+	ukn07=readlong f #unsigned -- usually 0x00
+	)
+	(subID==0x0004): ( -- Texture Definition Entry
+	tex_offset=readlong f #unsigned + dataBuffer
+	ukn08=readlong f #unsigned -- usually 0x00
+	tex_info=readlong f #unsigned
+	ukn09=readlong f #unsigned -- usually 0x00
+	)
+	(subID==0x0080): ( -- Vertex Buffer Entry
+	vbuf_offset=readlong f #unsigned + dataBuffer
+	ukn10=readlong f #unsigned -- usually 0x00
+	)
+	(subID==0x0083): ( -- Texture Buffer Entry
+	tex_size=readlong f #unsigned
+	ukn11=readlong f #unsigned -- usually 0x00
+	)
+);)
+) -- end switch
+chunk_ids = #(-1,0,1,0xFFFF)
+if (findItem chunk_ids chunkID)==0 do(messagebox ("New ID Found (0x"+((bit.intAsHex(chunkID))as string)+"): @ "+((bit.intAsHex(ftell f-4))as string));EXIT)
+) -- end while loop
+if dataLog.count>=1 do (for z = 1 to dataLog.count do(
+fseek f dataLog[z][1] #seek_set
+dataSize=dataLog[z][2]
+chunkID=readlong f #unsigned
+case of (
+(chunkID==0x004C444D): ( -- MDL
+obj_count=readlong f #unsigned
+tex_count=readlong f #unsigned
+ukn12=readlong f #unsigned -- count unknown
+obj_count2=readlong f #unsigned -- duplcated count?
+dataMDL[obj_count]=0
+for i = 1 to obj_count do(dataMDL[i]=readlong f #unsigned)
+)
+);)) -- end if/ for empty log array
+if dataMDL.count>=0 do(for z = 1 to dataMDL.count do(
+fseek f dataMDL[z] #seek_set
+Print ("OBJ "+((z-1) as string)+" @ 0x"+((bit.intAsHex(ftell f))as string))
+chunkID=readlong f #unsigned -- OBJ
+vertType=readlong f #unsigned -- always 0? number of vertex weights
+	
+if vertType!=0 do Print ("Vertex Type 0x"+((bit.intAsHex(vertType))as string))
+ukn09=readlong f #unsigned -- always 4? sometimes 0
+count=readlong f #unsigned -- number of faces in face buffer
+posx=readfloat f
+posy=readfloat f
+posz=readfloat f
+posw=readfloat f
+vert_count=readlong f #unsigned
+vert_offset=readlong f #unsigned
+face_count=readlong f #unsigned -- number of faces?
+face_count_array=#()
+face_offset_array=#()
+face_offset=readlong f #unsigned
+
+ukn11=readlong f #unsigned
+ukn12=readlong f #unsigned
+ukn13=readlong f #unsigned
+ukn14=readlong f #unsigned
+ukn15=readlong f #unsigned
+ukn16=readlong f #unsigned
+ukn17=readlong f #unsigned
+ukn18=readlong f #unsigned
+ukn19=readlong f #unsigned
+ukn20=readlong f #unsigned
+ukn21=readlong f #unsigned
+ukn22=readlong f #unsigned
+ukn23=readlong f #unsigned
+ukn24=readlong f #unsigned
+ukn25=readlong f #unsigned
+ukn26=readlong f #unsigned
+ukn27=readlong f #unsigned
+ukn28=readlong f #unsigned
+ukn29=readlong f #unsigned
+ukn30=readlong f #unsigned
+ukn31=readlong f #unsigned
+ukn32=readlong f #unsigned
+ukn33=readlong f #unsigned
+ukn34=readlong f #unsigned
+ukn35=readlong f #unsigned
+ukn36=readlong f #unsigned
+ukn37=readlong f #unsigned
+ukn38=readlong f #unsigned
+
+loop=true
+mat_count=0
+while (loop==true) do (
+mat00=readbyte f #unsigned -- 0x00 | 0x01 | 0x02 | 0x03 | 0x05  >> transparency flag?
+mat01=readbyte f #unsigned
+mat02=readbyte f #unsigned
+mat03=readbyte f #unsigned -- 0x80 data present?
+if mat03!=0 then( -- 140bytes
+mat_count+=1
+mat_size=readlong f #unsigned + (ftell f - 8)
+mat06=readlong f #unsigned -- always 0
+mat07=readlong f #unsigned -- ?? always 8
+mat08=readlong f #unsigned -- number? scale or vector?
+posX=readfloat f -- float
+posY=readfloat f -- float
+posZ=readfloat f -- float
+mat12=readlong f #unsigned
+mat13=readlong f #unsigned
+mat14=readlong f #unsigned
+mat15=readlong f #unsigned
+mat16=readlong f #unsigned
+mat17=readlong f #unsigned
+mat18=readlong f #unsigned
+mat19=readlong f #unsigned
+mat20=readlong f #unsigned
+mat21=readlong f #unsigned
+mat22=readlong f #unsigned
+mat23=readlong f #unsigned
+mat24=readlong f #unsigned
+mat25=readlong f #unsigned
+mat26=readlong f #unsigned
+mat27=readlong f #unsigned
+mat28=readlong f #unsigned
+mat29=readlong f #unsigned
+mat30=readlong f #unsigned
+mat31=readlong f #unsigned
+mat32=readlong f #unsigned
+mat33=readlong f #unsigned
+mat34=readlong f #unsigned
+mat35=readlong f #unsigned
+mat36=readlong f #unsigned
+
+fseek f (mat_size-12) #seek_set -- too lazy to figure it out, skips mat info
+mat_face_offset=readlong f #unsigned*2
+mat_face_count=readlong f #unsigned -- num of faces used by material
+mat39=readlong f #unsigned -- always 2?
+
+append face_count_array mat_face_count
+append face_offset_array (mat_face_offset+face_offset)
+fseek f mat_size #seek_set
+)else(loop=false))
+uknA1=readlong f #unsigned -- always 0x12345678
+
+try(num="";if (z-1)<=99 do num+="0";if (z-1)<=9 do num+="0"
+buildmsh f ("OBJ_"+num+((z-1) as string)) vertType posw4 vert_offset face_offset vert_count face_count face_count_array face_offset_array [posx,posy,posz] posw
+)catch(messagebox "dingdong!\n import failed :'(";ExIT)))
+)else(messagebox "not a yobj file")
+)else(Print "Aborted.")
+
