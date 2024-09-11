@@ -5347,10 +5347,18 @@
     </CheatEntry>
     <CheatEntry>
       <ID>745</ID>
-      <Description>"PAUSE MENU Cursor Location"</Description>
+      <Description>"Pause_Menu_Cursor_XPOS_830a54cb"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>1830A54CB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>759</ID>
+      <Description>""</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A54CC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>746</ID>
@@ -5374,6 +5382,166 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>1835795E3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>749</ID>
+      <Description>"Pause_Menu_DISP"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A54C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>750</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A54D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>751</ID>
+      <Description>"Pause_Menu_Pointer_830a54d8"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830A54D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>752</ID>
+      <Description>"pause time?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830A54DC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>753</ID>
+      <Description>"pause time?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830A54E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>754</ID>
+      <Description>"Settings_Language_Menus"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182FB8E6F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>757</ID>
+      <Description>"DAT_82fb8e86"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8e86</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>755</ID>
+      <Description>"Settings_Language_Subtitles"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182FB8E87</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>756</ID>
+      <Description>"Settings_Language_Menus"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182FB8FFF</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>758</ID>
+      <Description>"Settings_Menu_Cursos_XPOS"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830EE540</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>766</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE541</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>760</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830999df</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>761</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183300748</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>762</ID>
+      <Description>"DAT_8320a700"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18320a700</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>763</ID>
+      <Description>"DAT_8320a701"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18320A701</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>764</ID>
+      <Description>"DAT_82e33c10"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>43</ByteLength>
+      <Address>182e33c10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>765</ID>
+      <Description>"DAT_82e339e8"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182e339e8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>767</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>183098D76</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>768</ID>
+      <Description>"Char Sel CURSOR POS"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830EF82C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>769</ID>
+      <Description>"ButtonInput_P1_82fb8d08"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182FB8D08</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>770</ID>
+      <Description>"ButtonInput_P1_82fb8d14"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182FB8D14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>771</ID>
+      <Description>"DAT_82fb8ffc"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8ffc</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
