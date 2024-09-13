@@ -3736,6 +3736,22 @@
       <Address>18302025b</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>784</ID>
+      <Description>"P2_STATE?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EDCFB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>786</ID>
+      <Description>"DAT_830edc71"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830edc71</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>489</ID>
       <Description>"P2_ACTSTATE"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -5456,6 +5472,14 @@
       <Address>1830EE540</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>781</ID>
+      <Description>"Settings_Menu_Cursos_XPOS"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830EE542</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>766</ID>
       <Description>"No description"</Description>
       <VariableType>Byte</VariableType>
@@ -5614,6 +5638,36 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>182fb8fd4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>780</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>18319caec</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>782</ID>
+      <Description>"controller A button setting"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE64F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>783</ID>
+      <Description>"P2_ACTSTATE"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EDCFB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>785</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EDCFB</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>

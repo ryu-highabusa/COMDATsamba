@@ -277,6 +277,15 @@
       <Address>183020187</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>414</ID>
+      <Description>"PlayerDataStartP1_82fb8fd4"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182FB8FD4</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>5</ID>
       <Description>"MAN_COM_P1_83020188"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -471,8 +480,7 @@
       <Description>"ACT_REQ_P1_830201be"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
+      <VariableType>Byte</VariableType>
       <Address>1830201be</Address>
     </CheatEntry>
     <CheatEntry>
@@ -480,8 +488,7 @@
       <Description>"ACT_STATE_P1_830201bf*"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
+      <VariableType>Byte</VariableType>
       <Address>1830201bf</Address>
     </CheatEntry>
     <CheatEntry>
@@ -3037,6 +3044,13 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>1830efd40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>415</ID>
+      <Description>"DAT_82fb8d67"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8d67</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
