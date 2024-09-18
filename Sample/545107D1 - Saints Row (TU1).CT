@@ -75,6 +75,15 @@
       <Address>0x1835F427D</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>17</ID>
+      <Description>"Unlimited Ammo"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>0x1835F427D</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>9</ID>
       <Description>"Jump Height"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -111,10 +120,28 @@
       <Address>0x183A77498</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>18</ID>
+      <Description>"Player 1's Health"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>0x183A77498</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>14</ID>
       <Description>"Player 2's Health"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
+      <Address>0x183A71E28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Player 2's Health"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
       <Address>0x183A71E28</Address>
     </CheatEntry>
     <CheatEntry>
@@ -125,10 +152,28 @@
       <Address>0x183A6C758</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>20</ID>
+      <Description>"Player 3's Health"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>0x183A6C758</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>16</ID>
       <Description>"Player 4's Health"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
+      <Address>0x183A670E8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Player 4's Health"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
       <Address>0x183A670E8</Address>
     </CheatEntry>
   </CheatEntries>
