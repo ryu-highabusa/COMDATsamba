@@ -1,0 +1,14 @@
+title_name = "DEAD OR ALIVE 5 (E3 Demo)"
+title_id = "4B5607DA"
+hash = "7B21F0D96B224F4C" # default.xex
+#media_id = "00000000"
+
+[[patch]]
+    name = "title screen stage swap"
+    desc = "changes the first stage ID"
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be8]]
+        address = 0x820f2870
+        value = 0x18
