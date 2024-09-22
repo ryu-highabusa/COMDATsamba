@@ -1,0 +1,2053 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined Function_827E9BD8()
+             undefined         r3:1           <RETURN>
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[2]:     827e9bdc(W), 
+                                                                                                   827ebbac(R)  
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     827e9be0(W), 
+                                                                                                   827ebbb4(R)  
+             undefined4        Stack[-0x60]:4 local_60                                XREF[1]:     827e9be4(W)  
+                             Function_827E9BD8                               XREF[2]:     82282610(*), 828d0ce4(*)  
+        827e9bd8 7d 88 02 a6     mfspr      r12,LR
+        827e9bdc 91 81 ff f8     stw        r12,local_8(r1)
+        827e9be0 fb e1 ff f0     std        r31,local_10(r1)
+        827e9be4 94 21 ff a0     stwu       r1,local_60(r1)
+        827e9be8 3d 60 82 0d     lis        r11,-0x7df3
+        827e9bec 38 80 00 00     li         r4,0x0
+        827e9bf0 38 ab ca 50     subi       r5=>s_bl_arm01_820cca50,r11,0x35b0               = "bl_arm01"
+        827e9bf4 3d 60 82 e6     lis        r11,-0x7d1a
+        827e9bf8 3b eb 6a 64     addi       r31,r11,0x6a64
+        827e9bfc 7f e3 fb 78     or         r3=>DAT_82e66a64,r31,r31
+        827e9c00 4b c3 80 e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c04 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c08 38 80 00 01     li         r4,0x1
+        827e9c0c 38 ab ca 48     subi       r5=>s_bl_bg01_820cca48,r11,0x35b8                = "bl_bg01"
+        827e9c10 38 7f 00 28     addi       r3=>DAT_82e66a8c,r31,0x28
+        827e9c14 4b c3 80 cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c18 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c1c 38 80 00 02     li         r4,0x2
+        827e9c20 38 ab ca 40     subi       r5=>s_bl_bg04_820cca40,r11,0x35c0                = "bl_bg04"
+        827e9c24 38 7f 00 50     addi       r3=>DAT_82e66ab4,r31,0x50
+        827e9c28 4b c3 80 b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c2c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c30 38 80 00 03     li         r4,0x3
+        827e9c34 38 ab ca 38     subi       r5=>s_bl_bg05_820cca38,r11,0x35c8                = "bl_bg05"
+        827e9c38 38 7f 00 78     addi       r3=>DAT_82e66adc,r31,0x78
+        827e9c3c 4b c3 80 a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c40 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c44 38 80 00 04     li         r4,0x4
+        827e9c48 38 ab ca 30     subi       r5=>s_bl_bg06_820cca30,r11,0x35d0                = "bl_bg06"
+        827e9c4c 38 7f 00 a0     addi       r3=>DAT_82e66b04,r31,0xa0
+        827e9c50 4b c3 80 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c54 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c58 38 80 00 05     li         r4,0x5
+        827e9c5c 38 ab ca 28     subi       r5=>s_bl_bg2_820cca28,r11,0x35d8                 = "bl_bg2"
+        827e9c60 38 7f 00 c8     addi       r3=>DAT_82e66b2c,r31,0xc8
+        827e9c64 4b c3 80 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c68 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c6c 38 80 00 06     li         r4,0x6
+        827e9c70 38 ab ca 20     subi       r5=>s_bl_bg3_820cca20,r11,0x35e0                 = "bl_bg3"
+        827e9c74 38 7f 00 f0     addi       r3=>DAT_82e66b54,r31,0xf0
+        827e9c78 4b c3 80 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c7c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c80 38 80 00 07     li         r4,0x7
+        827e9c84 38 ab ca 14     subi       r5=>s_bl_bgpole01_820cca14,r11,0x35ec            = "bl_bgpole01"
+        827e9c88 38 7f 01 18     addi       r3=>DAT_82e66b7c,r31,0x118
+        827e9c8c 4b c3 80 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9c90 3d 60 82 0d     lis        r11,-0x7df3
+        827e9c94 38 80 00 08     li         r4,0x8
+        827e9c98 38 ab ca 08     subi       r5=>s_bl_bgpole02_820cca08,r11,0x35f8            = "bl_bgpole02"
+        827e9c9c 38 7f 01 40     addi       r3=>DAT_82e66ba4,r31,0x140
+        827e9ca0 4b c3 80 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9ca4 3d 60 82 0d     lis        r11,-0x7df3
+        827e9ca8 38 80 00 09     li         r4,0x9
+        827e9cac 38 ab c9 fc     subi       r5=>s_bl_bgpole03_820cc9fc,r11,0x3604            = "bl_bgpole03"
+        827e9cb0 38 7f 01 68     addi       r3=>DAT_82e66bcc,r31,0x168
+        827e9cb4 4b c3 80 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9cb8 3d 60 82 0d     lis        r11,-0x7df3
+        827e9cbc 38 80 00 0a     li         r4,0xa
+        827e9cc0 38 ab c9 f0     subi       r5=>s_bl_bgpole04_820cc9f0,r11,0x3610            = "bl_bgpole04"
+        827e9cc4 38 7f 01 90     addi       r3=>DAT_82e66bf4,r31,0x190
+        827e9cc8 4b c3 80 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9ccc 3d 60 82 0d     lis        r11,-0x7df3
+        827e9cd0 38 80 00 0b     li         r4,0xb
+        827e9cd4 38 ab c9 e4     subi       r5=>s_bl_bgpole05_820cc9e4,r11,0x361c            = "bl_bgpole05"
+        827e9cd8 38 7f 01 b8     addi       r3=>DAT_82e66c1c,r31,0x1b8
+        827e9cdc 4b c3 80 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9ce0 3d 60 82 0d     lis        r11,-0x7df3
+        827e9ce4 38 80 00 0c     li         r4,0xc
+        827e9ce8 38 ab c9 d8     subi       r5=>s_bl_bgpole06_820cc9d8,r11,0x3628            = "bl_bgpole06"
+        827e9cec 38 7f 01 e0     addi       r3=>DAT_82e66c44,r31,0x1e0
+        827e9cf0 4b c3 7f f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9cf4 3d 60 82 0d     lis        r11,-0x7df3
+        827e9cf8 38 80 00 0d     li         r4,0xd
+        827e9cfc 38 ab c9 c8     subi       r5=>s_bl_blueyuka01_820cc9c8,r11,0x3638          = "bl_blueyuka01"
+        827e9d00 38 7f 02 08     addi       r3=>DAT_82e66c6c,r31,0x208
+        827e9d04 4b c3 7f dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d08 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d0c 38 80 00 0e     li         r4,0xe
+        827e9d10 38 ab c9 b4     subi       r5=>s_bl_blueyuka01_cr_820cc9b4,r11,0x364c       = "bl_blueyuka01_cr"
+        827e9d14 38 7f 02 30     addi       r3=>DAT_82e66c94,r31,0x230
+        827e9d18 4b c3 7f c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d1c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d20 38 80 00 0f     li         r4,0xf
+        827e9d24 38 ab c9 a4     subi       r5=>s_bl_blueyuka02_820cc9a4,r11,0x365c          = "bl_blueyuka02"
+        827e9d28 38 7f 02 58     addi       r3=>DAT_82e66cbc,r31,0x258
+        827e9d2c 4b c3 7f b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d30 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d34 38 80 00 10     li         r4,0x10
+        827e9d38 38 ab c9 90     subi       r5=>s_bl_blueyuka02_cr_820cc990,r11,0x3670       = "bl_blueyuka02_cr"
+        827e9d3c 38 7f 02 80     addi       r3=>DAT_82e66ce4,r31,0x280
+        827e9d40 4b c3 7f a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d44 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d48 38 80 00 11     li         r4,0x11
+        827e9d4c 38 ab c9 80     subi       r5=>s_bl_blueyuka03_820cc980,r11,0x3680          = "bl_blueyuka03"
+        827e9d50 38 7f 02 a8     addi       r3=>DAT_82e66d0c,r31,0x2a8
+        827e9d54 4b c3 7f 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d58 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d5c 38 80 00 12     li         r4,0x12
+        827e9d60 38 ab c9 6c     subi       r5=>s_bl_blueyuka03_cr_820cc96c,r11,0x3694       = "bl_blueyuka03_cr"
+        827e9d64 38 7f 02 d0     addi       r3=>DAT_82e66d34,r31,0x2d0
+        827e9d68 4b c3 7f 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d6c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d70 38 80 00 13     li         r4,0x13
+        827e9d74 38 ab c9 5c     subi       r5=>s_bl_blueyuka04_820cc95c,r11,0x36a4          = "bl_blueyuka04"
+        827e9d78 38 7f 02 f8     addi       r3=>DAT_82e66d5c,r31,0x2f8
+        827e9d7c 4b c3 7f 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d80 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d84 38 80 00 14     li         r4,0x14
+        827e9d88 38 ab c9 48     subi       r5=>s_bl_blueyuka04_cr_820cc948,r11,0x36b8       = "bl_blueyuka04_cr"
+        827e9d8c 38 7f 03 20     addi       r3=>DAT_82e66d84,r31,0x320
+        827e9d90 4b c3 7f 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9d94 3d 60 82 0d     lis        r11,-0x7df3
+        827e9d98 38 80 00 15     li         r4,0x15
+        827e9d9c 38 ab c9 3c     subi       r5=>s_bl_cup01_820cc93c,r11,0x36c4               = "bl_cup01"
+        827e9da0 38 7f 03 48     addi       r3=>DAT_82e66dac,r31,0x348
+        827e9da4 4b c3 7f 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9da8 3d 60 82 0d     lis        r11,-0x7df3
+        827e9dac 38 80 00 16     li         r4,0x16
+        827e9db0 38 ab c9 30     subi       r5=>s_bl_cup02_820cc930,r11,0x36d0               = "bl_cup02"
+        827e9db4 38 7f 03 70     addi       r3=>DAT_82e66dd4,r31,0x370
+        827e9db8 4b c3 7f 29     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9dbc 3d 60 82 0d     lis        r11,-0x7df3
+        827e9dc0 38 80 00 17     li         r4,0x17
+        827e9dc4 38 ab c9 24     subi       r5=>s_bl_cup03_820cc924,r11,0x36dc               = "bl_cup03"
+        827e9dc8 38 7f 03 98     addi       r3=>DAT_82e66dfc,r31,0x398
+        827e9dcc 4b c3 7f 15     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9dd0 3d 60 82 0d     lis        r11,-0x7df3
+        827e9dd4 38 80 00 18     li         r4,0x18
+        827e9dd8 38 ab c9 18     subi       r5=>s_bl_cup04_820cc918,r11,0x36e8               = "bl_cup04"
+        827e9ddc 38 7f 03 c0     addi       r3=>DAT_82e66e24,r31,0x3c0
+        827e9de0 4b c3 7f 01     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9de4 3d 60 82 0d     lis        r11,-0x7df3
+        827e9de8 38 80 00 19     li         r4,0x19
+        827e9dec 38 ab c9 0c     subi       r5=>s_bl_cup05_820cc90c,r11,0x36f4               = "bl_cup05"
+        827e9df0 38 7f 03 e8     addi       r3=>DAT_82e66e4c,r31,0x3e8
+        827e9df4 4b c3 7e ed     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9df8 3d 60 82 0d     lis        r11,-0x7df3
+        827e9dfc 38 80 00 1a     li         r4,0x1a
+        827e9e00 38 ab c9 00     subi       r5=>s_bl_cup06_820cc900,r11,0x3700               = "bl_cup06"
+        827e9e04 38 7f 04 10     addi       r3=>DAT_82e66e74,r31,0x410
+        827e9e08 4b c3 7e d9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e0c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e10 38 80 00 1b     li         r4,0x1b
+        827e9e14 38 ab c8 f4     subi       r5=>s_bl_door_low_820cc8f4,r11,0x370c            = "bl_door_low"
+        827e9e18 38 7f 04 38     addi       r3=>DAT_82e66e9c,r31,0x438
+        827e9e1c 4b c3 7e c5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e20 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e24 38 80 00 1c     li         r4,0x1c
+        827e9e28 38 ab c8 e4     subi       r5=>s_bl_door_lowpo_820cc8e4,r11,0x371c          = "bl_door_lowpo"
+        827e9e2c 38 7f 04 60     addi       r3=>DAT_82e66ec4,r31,0x460
+        827e9e30 4b c3 7e b1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e34 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e38 38 80 00 1d     li         r4,0x1d
+        827e9e3c 38 ab c8 d8     subi       r5=>s_bl_door_up_820cc8d8,r11,0x3728             = "bl_door_up"
+        827e9e40 38 7f 04 88     addi       r3=>DAT_82e66eec,r31,0x488
+        827e9e44 4b c3 7e 9d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e48 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e4c 38 80 00 1e     li         r4,0x1e
+        827e9e50 38 ab c8 cc     subi       r5=>s_bl_foothold_820cc8cc,r11,0x3734            = "bl_foothold"
+        827e9e54 38 7f 04 b0     addi       r3=>DAT_82e66f14,r31,0x4b0
+        827e9e58 4b c3 7e 89     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e5c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e60 38 80 00 1f     li         r4,0x1f
+        827e9e64 38 ab c8 bc     subi       r5=>s_bl_glass_crsh_820cc8bc,r11,0x3744          = "bl_glass_crsh"
+        827e9e68 38 7f 04 d8     addi       r3=>DAT_82e66f3c,r31,0x4d8
+        827e9e6c 4b c3 7e 75     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e70 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e74 38 80 00 20     li         r4,0x20
+        827e9e78 38 ab c8 ac     subi       r5=>s_bl_glass_upp01_820cc8ac,r11,0x3754         = "bl_glass_upp01"
+        827e9e7c 38 7f 05 00     addi       r3=>DAT_82e66f64,r31,0x500
+        827e9e80 4b c3 7e 61     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e84 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e88 38 80 00 21     li         r4,0x21
+        827e9e8c 38 ab c8 9c     subi       r5=>s_bl_glass_upp02_820cc89c,r11,0x3764         = "bl_glass_upp02"
+        827e9e90 38 7f 05 28     addi       r3=>DAT_82e66f8c,r31,0x528
+        827e9e94 4b c3 7e 4d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9e98 3d 60 82 0d     lis        r11,-0x7df3
+        827e9e9c 38 80 00 22     li         r4,0x22
+        827e9ea0 38 ab c8 8c     subi       r5=>s_bl_glass_upp03_820cc88c,r11,0x3774         = "bl_glass_upp03"
+        827e9ea4 38 7f 05 50     addi       r3=>DAT_82e66fb4,r31,0x550
+        827e9ea8 4b c3 7e 39     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9eac 3d 60 82 0d     lis        r11,-0x7df3
+        827e9eb0 38 80 00 23     li         r4,0x23
+        827e9eb4 38 ab c8 7c     subi       r5=>s_bl_glass_upp04_820cc87c,r11,0x3784         = "bl_glass_upp04"
+        827e9eb8 38 7f 05 78     addi       r3=>DAT_82e66fdc,r31,0x578
+        827e9ebc 4b c3 7e 25     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9ec0 3d 60 82 0d     lis        r11,-0x7df3
+        827e9ec4 38 80 00 24     li         r4,0x24
+        827e9ec8 38 ab c8 6c     subi       r5=>s_bl_glass_upp05_820cc86c,r11,0x3794         = "bl_glass_upp05"
+        827e9ecc 38 7f 05 a0     addi       r3=>DAT_82e67004,r31,0x5a0
+        827e9ed0 4b c3 7e 11     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9ed4 3d 60 82 0d     lis        r11,-0x7df3
+        827e9ed8 38 80 00 25     li         r4,0x25
+        827e9edc 38 ab c8 5c     subi       r5=>s_bl_glass_upp06_820cc85c,r11,0x37a4         = "bl_glass_upp06"
+        827e9ee0 38 7f 05 c8     addi       r3=>DAT_82e6702c,r31,0x5c8
+        827e9ee4 4b c3 7d fd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9ee8 3d 60 82 0d     lis        r11,-0x7df3
+        827e9eec 38 80 00 26     li         r4,0x26
+        827e9ef0 38 ab c8 50     subi       r5=>s_bl_glcrsh1_820cc850,r11,0x37b0             = "bl_glcrsh1"
+        827e9ef4 38 7f 05 f0     addi       r3=>DAT_82e67054,r31,0x5f0
+        827e9ef8 4b c3 7d e9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9efc 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f00 38 80 00 27     li         r4,0x27
+        827e9f04 38 ab c8 44     subi       r5=>s_bl_glcrsh10_820cc844,r11,0x37bc            = "bl_glcrsh10"
+        827e9f08 38 7f 06 18     addi       r3=>DAT_82e6707c,r31,0x618
+        827e9f0c 4b c3 7d d5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f10 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f14 38 80 00 28     li         r4,0x28
+        827e9f18 38 ab c8 34     subi       r5=>s_bl_glcrsh100_820cc834,r11,0x37cc           = "bl_glcrsh100"
+        827e9f1c 38 7f 06 40     addi       r3=>DAT_82e670a4,r31,0x640
+        827e9f20 4b c3 7d c1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f24 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f28 38 80 00 29     li         r4,0x29
+        827e9f2c 38 ab c8 24     subi       r5=>s_bl_glcrsh101_820cc824,r11,0x37dc           = "bl_glcrsh101"
+        827e9f30 38 7f 06 68     addi       r3=>DAT_82e670cc,r31,0x668
+        827e9f34 4b c3 7d ad     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f38 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f3c 38 80 00 2a     li         r4,0x2a
+        827e9f40 38 ab c8 14     subi       r5=>s_bl_glcrsh102_820cc814,r11,0x37ec           = "bl_glcrsh102"
+        827e9f44 38 7f 06 90     addi       r3=>DAT_82e670f4,r31,0x690
+        827e9f48 4b c3 7d 99     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f4c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f50 38 80 00 2b     li         r4,0x2b
+        827e9f54 38 ab c8 04     subi       r5=>s_bl_glcrsh103_820cc804,r11,0x37fc           = "bl_glcrsh103"
+        827e9f58 38 7f 06 b8     addi       r3=>DAT_82e6711c,r31,0x6b8
+        827e9f5c 4b c3 7d 85     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f60 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f64 38 80 00 2c     li         r4,0x2c
+        827e9f68 38 ab c7 f4     subi       r5=>s_bl_glcrsh104_820cc7f4,r11,0x380c           = "bl_glcrsh104"
+        827e9f6c 38 7f 06 e0     addi       r3=>DAT_82e67144,r31,0x6e0
+        827e9f70 4b c3 7d 71     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f74 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f78 38 80 00 2d     li         r4,0x2d
+        827e9f7c 38 ab c7 e4     subi       r5=>s_bl_glcrsh105_820cc7e4,r11,0x381c           = "bl_glcrsh105"
+        827e9f80 38 7f 07 08     addi       r3=>DAT_82e6716c,r31,0x708
+        827e9f84 4b c3 7d 5d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f88 3d 60 82 0d     lis        r11,-0x7df3
+        827e9f8c 38 80 00 2e     li         r4,0x2e
+        827e9f90 38 ab c7 d4     subi       r5=>s_bl_glcrsh106_820cc7d4,r11,0x382c           = "bl_glcrsh106"
+        827e9f94 38 7f 07 30     addi       r3=>DAT_82e67194,r31,0x730
+        827e9f98 4b c3 7d 49     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9f9c 3d 60 82 0d     lis        r11,-0x7df3
+        827e9fa0 38 80 00 2f     li         r4,0x2f
+        827e9fa4 38 ab c7 c4     subi       r5=>s_bl_glcrsh107_820cc7c4,r11,0x383c           = "bl_glcrsh107"
+        827e9fa8 38 7f 07 58     addi       r3=>DAT_82e671bc,r31,0x758
+        827e9fac 4b c3 7d 35     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9fb0 3d 60 82 0d     lis        r11,-0x7df3
+        827e9fb4 38 ab c7 b4     subi       r5=>s_bl_glcrsh108_820cc7b4,r11,0x384c           = "bl_glcrsh108"
+        827e9fb8 38 80 00 30     li         r4,0x30
+        827e9fbc 38 7f 07 80     addi       r3=>DAT_82e671e4,r31,0x780
+        827e9fc0 4b c3 7d 21     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9fc4 3d 60 82 0d     lis        r11,-0x7df3
+        827e9fc8 38 80 00 31     li         r4,0x31
+        827e9fcc 38 ab c7 a4     subi       r5=>s_bl_glcrsh109_820cc7a4,r11,0x385c           = "bl_glcrsh109"
+        827e9fd0 38 7f 07 a8     addi       r3=>DAT_82e6720c,r31,0x7a8
+        827e9fd4 4b c3 7d 0d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9fd8 3d 60 82 0d     lis        r11,-0x7df3
+        827e9fdc 38 80 00 32     li         r4,0x32
+        827e9fe0 38 ab c7 98     subi       r5=>s_bl_glcrsh11_820cc798,r11,0x3868            = "bl_glcrsh11"
+        827e9fe4 38 7f 07 d0     addi       r3=>DAT_82e67234,r31,0x7d0
+        827e9fe8 4b c3 7c f9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827e9fec 3d 60 82 0d     lis        r11,-0x7df3
+        827e9ff0 38 80 00 33     li         r4,0x33
+        827e9ff4 38 ab c7 88     subi       r5=>s_bl_glcrsh110_820cc788,r11,0x3878           = "bl_glcrsh110"
+        827e9ff8 38 7f 07 f8     addi       r3=>DAT_82e6725c,r31,0x7f8
+        827e9ffc 4b c3 7c e5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea000 3d 60 82 0d     lis        r11,-0x7df3
+        827ea004 38 80 00 34     li         r4,0x34
+        827ea008 38 ab c7 78     subi       r5=>s_bl_glcrsh111_820cc778,r11,0x3888           = "bl_glcrsh111"
+        827ea00c 38 7f 08 20     addi       r3=>DAT_82e67284,r31,0x820
+        827ea010 4b c3 7c d1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea014 3d 60 82 0d     lis        r11,-0x7df3
+        827ea018 38 80 00 35     li         r4,0x35
+        827ea01c 38 ab c7 68     subi       r5=>s_bl_glcrsh112_820cc768,r11,0x3898           = "bl_glcrsh112"
+        827ea020 38 7f 08 48     addi       r3=>DAT_82e672ac,r31,0x848
+        827ea024 4b c3 7c bd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea028 3d 60 82 0d     lis        r11,-0x7df3
+        827ea02c 38 80 00 36     li         r4,0x36
+        827ea030 38 ab c7 58     subi       r5=>s_bl_glcrsh113_820cc758,r11,0x38a8           = "bl_glcrsh113"
+        827ea034 38 7f 08 70     addi       r3=>DAT_82e672d4,r31,0x870
+        827ea038 4b c3 7c a9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea03c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea040 38 80 00 37     li         r4,0x37
+        827ea044 38 ab c7 48     subi       r5=>s_bl_glcrsh114_820cc748,r11,0x38b8           = "bl_glcrsh114"
+        827ea048 38 7f 08 98     addi       r3=>DAT_82e672fc,r31,0x898
+        827ea04c 4b c3 7c 95     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea050 3d 60 82 0d     lis        r11,-0x7df3
+        827ea054 38 80 00 38     li         r4,0x38
+        827ea058 38 ab c7 38     subi       r5=>s_bl_glcrsh115_820cc738,r11,0x38c8           = "bl_glcrsh115"
+        827ea05c 38 7f 08 c0     addi       r3=>DAT_82e67324,r31,0x8c0
+        827ea060 4b c3 7c 81     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea064 3d 60 82 0d     lis        r11,-0x7df3
+        827ea068 38 80 00 39     li         r4,0x39
+        827ea06c 38 ab c7 28     subi       r5=>s_bl_glcrsh116_820cc728,r11,0x38d8           = "bl_glcrsh116"
+        827ea070 38 7f 08 e8     addi       r3=>DAT_82e6734c,r31,0x8e8
+        827ea074 4b c3 7c 6d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea078 3d 60 82 0d     lis        r11,-0x7df3
+        827ea07c 38 80 00 3a     li         r4,0x3a
+        827ea080 38 ab c7 18     subi       r5=>s_bl_glcrsh117_820cc718,r11,0x38e8           = "bl_glcrsh117"
+        827ea084 38 7f 09 10     addi       r3=>DAT_82e67374,r31,0x910
+        827ea088 4b c3 7c 59     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea08c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea090 38 80 00 3b     li         r4,0x3b
+        827ea094 38 ab c7 08     subi       r5=>s_bl_glcrsh118_820cc708,r11,0x38f8           = "bl_glcrsh118"
+        827ea098 38 7f 09 38     addi       r3=>DAT_82e6739c,r31,0x938
+        827ea09c 4b c3 7c 45     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea0a0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea0a4 38 80 00 3c     li         r4,0x3c
+        827ea0a8 38 ab c6 f8     subi       r5=>s_bl_glcrsh119_820cc6f8,r11,0x3908           = "bl_glcrsh119"
+        827ea0ac 38 7f 09 60     addi       r3=>DAT_82e673c4,r31,0x960
+        827ea0b0 4b c3 7c 31     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea0b4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea0b8 38 80 00 3d     li         r4,0x3d
+        827ea0bc 38 ab c6 ec     subi       r5=>s_bl_glcrsh12_820cc6ec,r11,0x3914            = "bl_glcrsh12"
+        827ea0c0 38 7f 09 88     addi       r3=>DAT_82e673ec,r31,0x988
+        827ea0c4 4b c3 7c 1d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea0c8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea0cc 38 80 00 3e     li         r4,0x3e
+        827ea0d0 38 ab c6 dc     subi       r5=>s_bl_glcrsh120_820cc6dc,r11,0x3924           = "bl_glcrsh120"
+        827ea0d4 38 7f 09 b0     addi       r3=>DAT_82e67414,r31,0x9b0
+        827ea0d8 4b c3 7c 09     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea0dc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea0e0 38 80 00 3f     li         r4,0x3f
+        827ea0e4 38 ab c6 cc     subi       r5=>s_bl_glcrsh121_820cc6cc,r11,0x3934           = "bl_glcrsh121"
+        827ea0e8 38 7f 09 d8     addi       r3=>DAT_82e6743c,r31,0x9d8
+        827ea0ec 4b c3 7b f5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea0f0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea0f4 38 ab c6 bc     subi       r5=>s_bl_glcrsh122_820cc6bc,r11,0x3944           = "bl_glcrsh122"
+        827ea0f8 38 80 00 40     li         r4,0x40
+        827ea0fc 38 7f 0a 00     addi       r3=>DAT_82e67464,r31,0xa00
+        827ea100 4b c3 7b e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea104 3d 60 82 0d     lis        r11,-0x7df3
+        827ea108 38 80 00 41     li         r4,0x41
+        827ea10c 38 ab c6 ac     subi       r5=>s_bl_glcrsh123_820cc6ac,r11,0x3954           = "bl_glcrsh123"
+        827ea110 38 7f 0a 28     addi       r3=>DAT_82e6748c,r31,0xa28
+        827ea114 4b c3 7b cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea118 3d 60 82 0d     lis        r11,-0x7df3
+        827ea11c 38 80 00 42     li         r4,0x42
+        827ea120 38 ab c6 9c     subi       r5=>s_bl_glcrsh124_820cc69c,r11,0x3964           = "bl_glcrsh124"
+        827ea124 38 7f 0a 50     addi       r3=>DAT_82e674b4,r31,0xa50
+        827ea128 4b c3 7b b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea12c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea130 38 80 00 43     li         r4,0x43
+        827ea134 38 ab c6 8c     subi       r5=>s_bl_glcrsh125_820cc68c,r11,0x3974           = "bl_glcrsh125"
+        827ea138 38 7f 0a 78     addi       r3=>DAT_82e674dc,r31,0xa78
+        827ea13c 4b c3 7b a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea140 3d 60 82 0d     lis        r11,-0x7df3
+        827ea144 38 80 00 44     li         r4,0x44
+        827ea148 38 ab c6 7c     subi       r5=>s_bl_glcrsh126_820cc67c,r11,0x3984           = "bl_glcrsh126"
+        827ea14c 38 7f 0a a0     addi       r3=>DAT_82e67504,r31,0xaa0
+        827ea150 4b c3 7b 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea154 3d 60 82 0d     lis        r11,-0x7df3
+        827ea158 38 80 00 45     li         r4,0x45
+        827ea15c 38 ab c6 6c     subi       r5=>s_bl_glcrsh127_820cc66c,r11,0x3994           = "bl_glcrsh127"
+        827ea160 38 7f 0a c8     addi       r3=>DAT_82e6752c,r31,0xac8
+        827ea164 4b c3 7b 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea168 3d 60 82 0d     lis        r11,-0x7df3
+        827ea16c 38 80 00 46     li         r4,0x46
+        827ea170 38 ab c6 5c     subi       r5=>s_bl_glcrsh128_820cc65c,r11,0x39a4           = "bl_glcrsh128"
+        827ea174 38 7f 0a f0     addi       r3=>DAT_82e67554,r31,0xaf0
+        827ea178 4b c3 7b 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea17c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea180 38 80 00 47     li         r4,0x47
+        827ea184 38 ab c6 4c     subi       r5=>s_bl_glcrsh129_820cc64c,r11,0x39b4           = "bl_glcrsh129"
+        827ea188 38 7f 0b 18     addi       r3=>DAT_82e6757c,r31,0xb18
+        827ea18c 4b c3 7b 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea190 3d 60 82 0d     lis        r11,-0x7df3
+        827ea194 38 80 00 48     li         r4,0x48
+        827ea198 38 ab c6 40     subi       r5=>s_bl_glcrsh13_820cc640,r11,0x39c0            = "bl_glcrsh13"
+        827ea19c 38 7f 0b 40     addi       r3=>DAT_82e675a4,r31,0xb40
+        827ea1a0 4b c3 7b 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea1a4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea1a8 38 80 00 49     li         r4,0x49
+        827ea1ac 38 ab c6 30     subi       r5=>s_bl_glcrsh130_820cc630,r11,0x39d0           = "bl_glcrsh130"
+        827ea1b0 38 7f 0b 68     addi       r3=>DAT_82e675cc,r31,0xb68
+        827ea1b4 4b c3 7b 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea1b8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea1bc 38 80 00 4a     li         r4,0x4a
+        827ea1c0 38 ab c6 20     subi       r5=>s_bl_glcrsh131_820cc620,r11,0x39e0           = "bl_glcrsh131"
+        827ea1c4 38 7f 0b 90     addi       r3=>DAT_82e675f4,r31,0xb90
+        827ea1c8 4b c3 7b 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea1cc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea1d0 38 80 00 4b     li         r4,0x4b
+        827ea1d4 38 ab c6 10     subi       r5=>s_bl_glcrsh132_820cc610,r11,0x39f0           = "bl_glcrsh132"
+        827ea1d8 38 7f 0b b8     addi       r3=>DAT_82e6761c,r31,0xbb8
+        827ea1dc 4b c3 7b 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea1e0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea1e4 38 80 00 4c     li         r4,0x4c
+        827ea1e8 38 ab c6 00     subi       r5=>s_bl_glcrsh133_820cc600,r11,0x3a00           = "bl_glcrsh133"
+        827ea1ec 38 7f 0b e0     addi       r3=>DAT_82e67644,r31,0xbe0
+        827ea1f0 4b c3 7a f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea1f4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea1f8 38 80 00 4d     li         r4,0x4d
+        827ea1fc 38 ab c5 f0     subi       r5=>s_bl_glcrsh134_820cc5f0,r11,0x3a10           = "bl_glcrsh134"
+        827ea200 38 7f 0c 08     addi       r3=>DAT_82e6766c,r31,0xc08
+        827ea204 4b c3 7a dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea208 3d 60 82 0d     lis        r11,-0x7df3
+        827ea20c 38 80 00 4e     li         r4,0x4e
+        827ea210 38 ab c5 e0     subi       r5=>s_bl_glcrsh135_820cc5e0,r11,0x3a20           = "bl_glcrsh135"
+        827ea214 38 7f 0c 30     addi       r3=>DAT_82e67694,r31,0xc30
+        827ea218 4b c3 7a c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea21c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea220 38 80 00 4f     li         r4,0x4f
+        827ea224 38 ab c5 d0     subi       r5=>s_bl_glcrsh136_820cc5d0,r11,0x3a30           = "bl_glcrsh136"
+        827ea228 38 7f 0c 58     addi       r3=>DAT_82e676bc,r31,0xc58
+        827ea22c 4b c3 7a b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea230 3d 60 82 0d     lis        r11,-0x7df3
+        827ea234 38 80 00 50     li         r4,0x50
+        827ea238 38 ab c5 c0     subi       r5=>s_bl_glcrsh137_820cc5c0,r11,0x3a40           = "bl_glcrsh137"
+        827ea23c 38 7f 0c 80     addi       r3=>DAT_82e676e4,r31,0xc80
+        827ea240 4b c3 7a a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea244 3d 60 82 0d     lis        r11,-0x7df3
+        827ea248 38 80 00 51     li         r4,0x51
+        827ea24c 38 ab c5 b0     subi       r5=>s_bl_glcrsh138_820cc5b0,r11,0x3a50           = "bl_glcrsh138"
+        827ea250 38 7f 0c a8     addi       r3=>DAT_82e6770c,r31,0xca8
+        827ea254 4b c3 7a 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea258 3d 60 82 0d     lis        r11,-0x7df3
+        827ea25c 38 80 00 52     li         r4,0x52
+        827ea260 38 ab c5 a0     subi       r5=>s_bl_glcrsh139_820cc5a0,r11,0x3a60           = "bl_glcrsh139"
+        827ea264 38 7f 0c d0     addi       r3=>DAT_82e67734,r31,0xcd0
+        827ea268 4b c3 7a 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea26c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea270 38 80 00 53     li         r4,0x53
+        827ea274 38 ab c5 94     subi       r5=>s_bl_glcrsh14_820cc594,r11,0x3a6c            = "bl_glcrsh14"
+        827ea278 38 7f 0c f8     addi       r3=>DAT_82e6775c,r31,0xcf8
+        827ea27c 4b c3 7a 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea280 3d 60 82 0d     lis        r11,-0x7df3
+        827ea284 38 80 00 54     li         r4,0x54
+        827ea288 38 ab c5 84     subi       r5=>s_bl_glcrsh140_820cc584,r11,0x3a7c           = "bl_glcrsh140"
+        827ea28c 38 7f 0d 20     addi       r3=>DAT_82e67784,r31,0xd20
+        827ea290 4b c3 7a 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea294 3d 60 82 0d     lis        r11,-0x7df3
+        827ea298 38 80 00 55     li         r4,0x55
+        827ea29c 38 ab c5 74     subi       r5=>s_bl_glcrsh141_820cc574,r11,0x3a8c           = "bl_glcrsh141"
+        827ea2a0 38 7f 0d 48     addi       r3=>DAT_82e677ac,r31,0xd48
+        827ea2a4 4b c3 7a 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea2a8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea2ac 38 80 00 56     li         r4,0x56
+        827ea2b0 38 ab c5 64     subi       r5=>s_bl_glcrsh142_820cc564,r11,0x3a9c           = "bl_glcrsh142"
+        827ea2b4 38 7f 0d 70     addi       r3=>DAT_82e677d4,r31,0xd70
+        827ea2b8 4b c3 7a 29     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea2bc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea2c0 38 80 00 57     li         r4,0x57
+        827ea2c4 38 ab c5 54     subi       r5=>s_bl_glcrsh143_820cc554,r11,0x3aac           = "bl_glcrsh143"
+        827ea2c8 38 7f 0d 98     addi       r3=>DAT_82e677fc,r31,0xd98
+        827ea2cc 4b c3 7a 15     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea2d0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea2d4 38 80 00 58     li         r4,0x58
+        827ea2d8 38 ab c5 44     subi       r5=>s_bl_glcrsh144_820cc544,r11,0x3abc           = "bl_glcrsh144"
+        827ea2dc 38 7f 0d c0     addi       r3=>DAT_82e67824,r31,0xdc0
+        827ea2e0 4b c3 7a 01     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea2e4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea2e8 38 80 00 59     li         r4,0x59
+        827ea2ec 38 ab c5 34     subi       r5=>s_bl_glcrsh145_820cc534,r11,0x3acc           = "bl_glcrsh145"
+        827ea2f0 38 7f 0d e8     addi       r3=>DAT_82e6784c,r31,0xde8
+        827ea2f4 4b c3 79 ed     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea2f8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea2fc 38 80 00 5a     li         r4,0x5a
+        827ea300 38 ab c5 24     subi       r5=>s_bl_glcrsh146_820cc524,r11,0x3adc           = "bl_glcrsh146"
+        827ea304 38 7f 0e 10     addi       r3=>DAT_82e67874,r31,0xe10
+        827ea308 4b c3 79 d9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea30c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea310 38 80 00 5b     li         r4,0x5b
+        827ea314 38 ab c5 14     subi       r5=>s_bl_glcrsh147_820cc514,r11,0x3aec           = "bl_glcrsh147"
+        827ea318 38 7f 0e 38     addi       r3=>DAT_82e6789c,r31,0xe38
+        827ea31c 4b c3 79 c5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea320 3d 60 82 0d     lis        r11,-0x7df3
+        827ea324 38 80 00 5c     li         r4,0x5c
+        827ea328 38 ab c5 04     subi       r5=>s_bl_glcrsh148_820cc504,r11,0x3afc           = "bl_glcrsh148"
+        827ea32c 38 7f 0e 60     addi       r3=>DAT_82e678c4,r31,0xe60
+        827ea330 4b c3 79 b1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea334 3d 60 82 0d     lis        r11,-0x7df3
+        827ea338 38 80 00 5d     li         r4,0x5d
+        827ea33c 38 ab c4 f4     subi       r5=>s_bl_glcrsh149_820cc4f4,r11,0x3b0c           = "bl_glcrsh149"
+        827ea340 38 7f 0e 88     addi       r3=>DAT_82e678ec,r31,0xe88
+        827ea344 4b c3 79 9d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea348 3d 60 82 0d     lis        r11,-0x7df3
+        827ea34c 38 80 00 5e     li         r4,0x5e
+        827ea350 38 ab c4 e8     subi       r5=>s_bl_glcrsh15_820cc4e8,r11,0x3b18            = "bl_glcrsh15"
+        827ea354 38 7f 0e b0     addi       r3=>DAT_82e67914,r31,0xeb0
+        827ea358 4b c3 79 89     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea35c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea360 38 80 00 5f     li         r4,0x5f
+        827ea364 38 ab c4 d8     subi       r5=>s_bl_glcrsh150_820cc4d8,r11,0x3b28           = "bl_glcrsh150"
+        827ea368 38 7f 0e d8     addi       r3=>DAT_82e6793c,r31,0xed8
+        827ea36c 4b c3 79 75     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea370 3d 60 82 0d     lis        r11,-0x7df3
+        827ea374 38 80 00 60     li         r4,0x60
+        827ea378 38 ab c4 c8     subi       r5=>s_bl_glcrsh151_820cc4c8,r11,0x3b38           = "bl_glcrsh151"
+        827ea37c 38 7f 0f 00     addi       r3=>DAT_82e67964,r31,0xf00
+        827ea380 4b c3 79 61     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea384 3d 60 82 0d     lis        r11,-0x7df3
+        827ea388 38 80 00 61     li         r4,0x61
+        827ea38c 38 ab c4 b8     subi       r5=>s_bl_glcrsh152_820cc4b8,r11,0x3b48           = "bl_glcrsh152"
+        827ea390 38 7f 0f 28     addi       r3=>DAT_82e6798c,r31,0xf28
+        827ea394 4b c3 79 4d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea398 3d 60 82 0d     lis        r11,-0x7df3
+        827ea39c 38 80 00 62     li         r4,0x62
+        827ea3a0 38 ab c4 a8     subi       r5=>s_bl_glcrsh153_820cc4a8,r11,0x3b58           = "bl_glcrsh153"
+        827ea3a4 38 7f 0f 50     addi       r3=>DAT_82e679b4,r31,0xf50
+        827ea3a8 4b c3 79 39     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea3ac 3d 60 82 0d     lis        r11,-0x7df3
+        827ea3b0 38 80 00 63     li         r4,0x63
+        827ea3b4 38 ab c4 98     subi       r5=>s_bl_glcrsh154_820cc498,r11,0x3b68           = "bl_glcrsh154"
+        827ea3b8 38 7f 0f 78     addi       r3=>DAT_82e679dc,r31,0xf78
+        827ea3bc 4b c3 79 25     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea3c0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea3c4 38 80 00 64     li         r4,0x64
+        827ea3c8 38 ab c4 88     subi       r5=>s_bl_glcrsh155_820cc488,r11,0x3b78           = "bl_glcrsh155"
+        827ea3cc 38 7f 0f a0     addi       r3=>DAT_82e67a04,r31,0xfa0
+        827ea3d0 4b c3 79 11     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea3d4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea3d8 38 80 00 65     li         r4,0x65
+        827ea3dc 38 ab c4 78     subi       r5=>s_bl_glcrsh156_820cc478,r11,0x3b88           = "bl_glcrsh156"
+        827ea3e0 38 7f 0f c8     addi       r3=>DAT_82e67a2c,r31,0xfc8
+        827ea3e4 4b c3 78 fd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea3e8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea3ec 38 80 00 66     li         r4,0x66
+        827ea3f0 38 ab c4 68     subi       r5=>s_bl_glcrsh157_820cc468,r11,0x3b98           = "bl_glcrsh157"
+        827ea3f4 38 7f 0f f0     addi       r3=>DAT_82e67a54,r31,0xff0
+        827ea3f8 4b c3 78 e9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea3fc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea400 38 80 00 67     li         r4,0x67
+        827ea404 38 ab c4 58     subi       r5=>s_bl_glcrsh158_820cc458,r11,0x3ba8           = "bl_glcrsh158"
+        827ea408 38 7f 10 18     addi       r3=>DAT_82e67a7c,r31,0x1018
+        827ea40c 4b c3 78 d5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea410 3d 60 82 0d     lis        r11,-0x7df3
+        827ea414 38 80 00 68     li         r4,0x68
+        827ea418 38 ab c4 48     subi       r5=>s_bl_glcrsh159_820cc448,r11,0x3bb8           = "bl_glcrsh159"
+        827ea41c 38 7f 10 40     addi       r3=>DAT_82e67aa4,r31,0x1040
+        827ea420 4b c3 78 c1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea424 3d 60 82 0d     lis        r11,-0x7df3
+        827ea428 38 80 00 69     li         r4,0x69
+        827ea42c 38 ab c4 3c     subi       r5=>s_bl_glcrsh16_820cc43c,r11,0x3bc4            = "bl_glcrsh16"
+        827ea430 38 7f 10 68     addi       r3=>DAT_82e67acc,r31,0x1068
+        827ea434 4b c3 78 ad     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea438 3d 60 82 0d     lis        r11,-0x7df3
+        827ea43c 38 80 00 6a     li         r4,0x6a
+        827ea440 38 ab c4 2c     subi       r5=>s_bl_glcrsh160_820cc42c,r11,0x3bd4           = "bl_glcrsh160"
+        827ea444 38 7f 10 90     addi       r3=>DAT_82e67af4,r31,0x1090
+        827ea448 4b c3 78 99     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea44c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea450 38 80 00 6b     li         r4,0x6b
+        827ea454 38 ab c4 1c     subi       r5=>s_bl_glcrsh161_820cc41c,r11,0x3be4           = "bl_glcrsh161"
+        827ea458 38 7f 10 b8     addi       r3=>DAT_82e67b1c,r31,0x10b8
+        827ea45c 4b c3 78 85     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea460 3d 60 82 0d     lis        r11,-0x7df3
+        827ea464 38 80 00 6c     li         r4,0x6c
+        827ea468 38 ab c4 0c     subi       r5=>s_bl_glcrsh162_820cc40c,r11,0x3bf4           = "bl_glcrsh162"
+        827ea46c 38 7f 10 e0     addi       r3=>DAT_82e67b44,r31,0x10e0
+        827ea470 4b c3 78 71     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea474 3d 60 82 0d     lis        r11,-0x7df3
+        827ea478 38 80 00 6d     li         r4,0x6d
+        827ea47c 38 ab c3 fc     subi       r5=>s_bl_glcrsh163_820cc3fc,r11,0x3c04           = "bl_glcrsh163"
+        827ea480 38 7f 11 08     addi       r3=>DAT_82e67b6c,r31,0x1108
+        827ea484 4b c3 78 5d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea488 3d 60 82 0d     lis        r11,-0x7df3
+        827ea48c 38 80 00 6e     li         r4,0x6e
+        827ea490 38 ab c3 ec     subi       r5=>s_bl_glcrsh164_820cc3ec,r11,0x3c14           = "bl_glcrsh164"
+        827ea494 38 7f 11 30     addi       r3=>DAT_82e67b94,r31,0x1130
+        827ea498 4b c3 78 49     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea49c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea4a0 38 80 00 6f     li         r4,0x6f
+        827ea4a4 38 ab c3 dc     subi       r5=>s_bl_glcrsh165_820cc3dc,r11,0x3c24           = "bl_glcrsh165"
+        827ea4a8 38 7f 11 58     addi       r3=>DAT_82e67bbc,r31,0x1158
+        827ea4ac 4b c3 78 35     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea4b0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea4b4 38 80 00 70     li         r4,0x70
+        827ea4b8 38 ab c3 cc     subi       r5=>s_bl_glcrsh166_820cc3cc,r11,0x3c34           = "bl_glcrsh166"
+        827ea4bc 38 7f 11 80     addi       r3=>DAT_82e67be4,r31,0x1180
+        827ea4c0 4b c3 78 21     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea4c4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea4c8 38 80 00 71     li         r4,0x71
+        827ea4cc 38 ab c3 bc     subi       r5=>s_bl_glcrsh167_820cc3bc,r11,0x3c44           = "bl_glcrsh167"
+        827ea4d0 38 7f 11 a8     addi       r3=>DAT_82e67c0c,r31,0x11a8
+        827ea4d4 4b c3 78 0d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea4d8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea4dc 38 80 00 72     li         r4,0x72
+        827ea4e0 38 ab c3 ac     subi       r5=>s_bl_glcrsh168_820cc3ac,r11,0x3c54           = "bl_glcrsh168"
+        827ea4e4 38 7f 11 d0     addi       r3=>DAT_82e67c34,r31,0x11d0
+        827ea4e8 4b c3 77 f9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea4ec 3d 60 82 0d     lis        r11,-0x7df3
+        827ea4f0 38 80 00 73     li         r4,0x73
+        827ea4f4 38 ab c3 9c     subi       r5=>s_bl_glcrsh169_820cc39c,r11,0x3c64           = "bl_glcrsh169"
+        827ea4f8 38 7f 11 f8     addi       r3=>DAT_82e67c5c,r31,0x11f8
+        827ea4fc 4b c3 77 e5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea500 3d 60 82 0d     lis        r11,-0x7df3
+        827ea504 38 80 00 74     li         r4,0x74
+        827ea508 38 ab c3 90     subi       r5=>s_bl_glcrsh17_820cc390,r11,0x3c70            = "bl_glcrsh17"
+        827ea50c 38 7f 12 20     addi       r3=>DAT_82e67c84,r31,0x1220
+        827ea510 4b c3 77 d1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea514 3d 60 82 0d     lis        r11,-0x7df3
+        827ea518 38 80 00 75     li         r4,0x75
+        827ea51c 38 ab c3 80     subi       r5=>s_bl_glcrsh170_820cc380,r11,0x3c80           = "bl_glcrsh170"
+        827ea520 38 7f 12 48     addi       r3=>DAT_82e67cac,r31,0x1248
+        827ea524 4b c3 77 bd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea528 3d 60 82 0d     lis        r11,-0x7df3
+        827ea52c 38 80 00 76     li         r4,0x76
+        827ea530 38 ab c3 70     subi       r5=>s_bl_glcrsh171_820cc370,r11,0x3c90           = "bl_glcrsh171"
+        827ea534 38 7f 12 70     addi       r3=>DAT_82e67cd4,r31,0x1270
+        827ea538 4b c3 77 a9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea53c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea540 38 80 00 77     li         r4,0x77
+        827ea544 38 ab c3 60     subi       r5=>s_bl_glcrsh172_820cc360,r11,0x3ca0           = "bl_glcrsh172"
+        827ea548 38 7f 12 98     addi       r3=>DAT_82e67cfc,r31,0x1298
+        827ea54c 4b c3 77 95     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea550 3d 60 82 0d     lis        r11,-0x7df3
+        827ea554 38 80 00 78     li         r4,0x78
+        827ea558 38 ab c3 50     subi       r5=>s_bl_glcrsh173_820cc350,r11,0x3cb0           = "bl_glcrsh173"
+        827ea55c 38 7f 12 c0     addi       r3=>DAT_82e67d24,r31,0x12c0
+        827ea560 4b c3 77 81     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea564 3d 60 82 0d     lis        r11,-0x7df3
+        827ea568 38 80 00 79     li         r4,0x79
+        827ea56c 38 ab c3 40     subi       r5=>s_bl_glcrsh174_820cc340,r11,0x3cc0           = "bl_glcrsh174"
+        827ea570 38 7f 12 e8     addi       r3=>DAT_82e67d4c,r31,0x12e8
+        827ea574 4b c3 77 6d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea578 3d 60 82 0d     lis        r11,-0x7df3
+        827ea57c 38 80 00 7a     li         r4,0x7a
+        827ea580 38 ab c3 34     subi       r5=>s_bl_glcrsh18_820cc334,r11,0x3ccc            = "bl_glcrsh18"
+        827ea584 38 7f 13 10     addi       r3=>DAT_82e67d74,r31,0x1310
+        827ea588 4b c3 77 59     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea58c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea590 38 80 00 7b     li         r4,0x7b
+        827ea594 38 ab c3 28     subi       r5=>s_bl_glcrsh19_820cc328,r11,0x3cd8            = "bl_glcrsh19"
+        827ea598 38 7f 13 38     addi       r3=>DAT_82e67d9c,r31,0x1338
+        827ea59c 4b c3 77 45     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea5a0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea5a4 38 80 00 7c     li         r4,0x7c
+        827ea5a8 38 ab c3 1c     subi       r5=>s_bl_glcrsh2_820cc31c,r11,0x3ce4             = "bl_glcrsh2"
+        827ea5ac 38 7f 13 60     addi       r3=>DAT_82e67dc4,r31,0x1360
+        827ea5b0 4b c3 77 31     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea5b4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea5b8 38 80 00 7d     li         r4,0x7d
+        827ea5bc 38 ab c3 10     subi       r5=>s_bl_glcrsh20_820cc310,r11,0x3cf0            = "bl_glcrsh20"
+        827ea5c0 38 7f 13 88     addi       r3=>DAT_82e67dec,r31,0x1388
+        827ea5c4 4b c3 77 1d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea5c8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea5cc 38 80 00 7e     li         r4,0x7e
+        827ea5d0 38 ab c3 04     subi       r5=>s_bl_glcrsh21_820cc304,r11,0x3cfc            = "bl_glcrsh21"
+        827ea5d4 38 7f 13 b0     addi       r3=>DAT_82e67e14,r31,0x13b0
+        827ea5d8 4b c3 77 09     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea5dc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea5e0 38 80 00 7f     li         r4,0x7f
+        827ea5e4 38 ab c2 f8     subi       r5=>s_bl_glcrsh22_820cc2f8,r11,0x3d08            = "bl_glcrsh22"
+        827ea5e8 38 7f 13 d8     addi       r3=>DAT_82e67e3c,r31,0x13d8
+        827ea5ec 4b c3 76 f5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea5f0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea5f4 38 80 00 80     li         r4,0x80
+        827ea5f8 38 ab c2 ec     subi       r5=>s_bl_glcrsh23_820cc2ec,r11,0x3d14            = "bl_glcrsh23"
+        827ea5fc 38 7f 14 00     addi       r3=>DAT_82e67e64,r31,0x1400
+        827ea600 4b c3 76 e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea604 3d 60 82 0d     lis        r11,-0x7df3
+        827ea608 38 ab c2 e0     subi       r5=>s_bl_glcrsh24_820cc2e0,r11,0x3d20            = "bl_glcrsh24"
+        827ea60c 38 80 00 81     li         r4,0x81
+        827ea610 38 7f 14 28     addi       r3=>DAT_82e67e8c,r31,0x1428
+        827ea614 4b c3 76 cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea618 3d 60 82 0d     lis        r11,-0x7df3
+        827ea61c 38 80 00 82     li         r4,0x82
+        827ea620 38 ab c2 d4     subi       r5=>s_bl_glcrsh25_820cc2d4,r11,0x3d2c            = "bl_glcrsh25"
+        827ea624 38 7f 14 50     addi       r3=>DAT_82e67eb4,r31,0x1450
+        827ea628 4b c3 76 b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea62c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea630 38 80 00 83     li         r4,0x83
+        827ea634 38 ab c2 c8     subi       r5=>s_bl_glcrsh26_820cc2c8,r11,0x3d38            = "bl_glcrsh26"
+        827ea638 38 7f 14 78     addi       r3=>DAT_82e67edc,r31,0x1478
+        827ea63c 4b c3 76 a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea640 3d 60 82 0d     lis        r11,-0x7df3
+        827ea644 38 80 00 84     li         r4,0x84
+        827ea648 38 ab c2 bc     subi       r5=>s_bl_glcrsh27_820cc2bc,r11,0x3d44            = "bl_glcrsh27"
+        827ea64c 38 7f 14 a0     addi       r3=>DAT_82e67f04,r31,0x14a0
+        827ea650 4b c3 76 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea654 3d 60 82 0d     lis        r11,-0x7df3
+        827ea658 38 80 00 85     li         r4,0x85
+        827ea65c 38 ab c2 b0     subi       r5=>s_bl_glcrsh28_820cc2b0,r11,0x3d50            = "bl_glcrsh28"
+        827ea660 38 7f 14 c8     addi       r3=>DAT_82e67f2c,r31,0x14c8
+        827ea664 4b c3 76 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea668 3d 60 82 0d     lis        r11,-0x7df3
+        827ea66c 38 80 00 86     li         r4,0x86
+        827ea670 38 ab c2 a4     subi       r5=>s_bl_glcrsh29_820cc2a4,r11,0x3d5c            = "bl_glcrsh29"
+        827ea674 38 7f 14 f0     addi       r3=>DAT_82e67f54,r31,0x14f0
+        827ea678 4b c3 76 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea67c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea680 38 80 00 87     li         r4,0x87
+        827ea684 38 ab c2 98     subi       r5=>s_bl_glcrsh3_820cc298,r11,0x3d68             = "bl_glcrsh3"
+        827ea688 38 7f 15 18     addi       r3=>DAT_82e67f7c,r31,0x1518
+        827ea68c 4b c3 76 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea690 3d 60 82 0d     lis        r11,-0x7df3
+        827ea694 38 80 00 88     li         r4,0x88
+        827ea698 38 ab c2 8c     subi       r5=>s_bl_glcrsh30_820cc28c,r11,0x3d74            = "bl_glcrsh30"
+        827ea69c 38 7f 15 40     addi       r3=>DAT_82e67fa4,r31,0x1540
+        827ea6a0 4b c3 76 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea6a4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea6a8 38 80 00 89     li         r4,0x89
+        827ea6ac 38 ab c2 80     subi       r5=>s_bl_glcrsh31_820cc280,r11,0x3d80            = "bl_glcrsh31"
+        827ea6b0 38 7f 15 68     addi       r3=>DAT_82e67fcc,r31,0x1568
+        827ea6b4 4b c3 76 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea6b8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea6bc 38 80 00 8a     li         r4,0x8a
+        827ea6c0 38 ab c2 74     subi       r5=>s_bl_glcrsh32_820cc274,r11,0x3d8c            = "bl_glcrsh32"
+        827ea6c4 38 7f 15 90     addi       r3=>DAT_82e67ff4,r31,0x1590
+        827ea6c8 4b c3 76 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea6cc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea6d0 38 80 00 8b     li         r4,0x8b
+        827ea6d4 38 ab c2 68     subi       r5=>s_bl_glcrsh33_820cc268,r11,0x3d98            = "bl_glcrsh33"
+        827ea6d8 38 7f 15 b8     addi       r3=>DAT_82e6801c,r31,0x15b8
+        827ea6dc 4b c3 76 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea6e0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea6e4 38 80 00 8c     li         r4,0x8c
+        827ea6e8 38 ab c2 5c     subi       r5=>s_bl_glcrsh34_820cc25c,r11,0x3da4            = "bl_glcrsh34"
+        827ea6ec 38 7f 15 e0     addi       r3=>DAT_82e68044,r31,0x15e0
+        827ea6f0 4b c3 75 f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea6f4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea6f8 38 80 00 8d     li         r4,0x8d
+        827ea6fc 38 ab c2 50     subi       r5=>s_bl_glcrsh35_820cc250,r11,0x3db0            = "bl_glcrsh35"
+        827ea700 38 7f 16 08     addi       r3=>DAT_82e6806c,r31,0x1608
+        827ea704 4b c3 75 dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea708 3d 60 82 0d     lis        r11,-0x7df3
+        827ea70c 38 80 00 8e     li         r4,0x8e
+        827ea710 38 ab c2 44     subi       r5=>s_bl_glcrsh36_820cc244,r11,0x3dbc            = "bl_glcrsh36"
+        827ea714 38 7f 16 30     addi       r3=>DAT_82e68094,r31,0x1630
+        827ea718 4b c3 75 c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea71c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea720 38 80 00 8f     li         r4,0x8f
+        827ea724 38 ab c2 38     subi       r5=>s_bl_glcrsh37_820cc238,r11,0x3dc8            = "bl_glcrsh37"
+        827ea728 38 7f 16 58     addi       r3=>DAT_82e680bc,r31,0x1658
+        827ea72c 4b c3 75 b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea730 3d 60 82 0d     lis        r11,-0x7df3
+        827ea734 38 80 00 90     li         r4,0x90
+        827ea738 38 ab c2 2c     subi       r5=>s_bl_glcrsh38_820cc22c,r11,0x3dd4            = "bl_glcrsh38"
+        827ea73c 38 7f 16 80     addi       r3=>DAT_82e680e4,r31,0x1680
+        827ea740 4b c3 75 a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea744 3d 60 82 0d     lis        r11,-0x7df3
+        827ea748 38 ab c2 20     subi       r5=>s_bl_glcrsh39_820cc220,r11,0x3de0            = "bl_glcrsh39"
+        827ea74c 38 80 00 91     li         r4,0x91
+        827ea750 38 7f 16 a8     addi       r3=>DAT_82e6810c,r31,0x16a8
+        827ea754 4b c3 75 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea758 3d 60 82 0d     lis        r11,-0x7df3
+        827ea75c 38 80 00 92     li         r4,0x92
+        827ea760 38 ab c2 14     subi       r5=>s_bl_glcrsh4_820cc214,r11,0x3dec             = "bl_glcrsh4"
+        827ea764 38 7f 16 d0     addi       r3=>DAT_82e68134,r31,0x16d0
+        827ea768 4b c3 75 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea76c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea770 38 80 00 93     li         r4,0x93
+        827ea774 38 ab c2 08     subi       r5=>s_bl_glcrsh40_820cc208,r11,0x3df8            = "bl_glcrsh40"
+        827ea778 38 7f 16 f8     addi       r3=>DAT_82e6815c,r31,0x16f8
+        827ea77c 4b c3 75 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea780 3d 60 82 0d     lis        r11,-0x7df3
+        827ea784 38 80 00 94     li         r4,0x94
+        827ea788 38 ab c1 fc     subi       r5=>s_bl_glcrsh41_820cc1fc,r11,0x3e04            = "bl_glcrsh41"
+        827ea78c 38 7f 17 20     addi       r3=>DAT_82e68184,r31,0x1720
+        827ea790 4b c3 75 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea794 3d 60 82 0d     lis        r11,-0x7df3
+        827ea798 38 80 00 95     li         r4,0x95
+        827ea79c 38 ab c1 f0     subi       r5=>s_bl_glcrsh42_820cc1f0,r11,0x3e10            = "bl_glcrsh42"
+        827ea7a0 38 7f 17 48     addi       r3=>DAT_82e681ac,r31,0x1748
+        827ea7a4 4b c3 75 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea7a8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea7ac 38 80 00 96     li         r4,0x96
+        827ea7b0 38 ab c1 e4     subi       r5=>s_bl_glcrsh43_820cc1e4,r11,0x3e1c            = "bl_glcrsh43"
+        827ea7b4 38 7f 17 70     addi       r3=>DAT_82e681d4,r31,0x1770
+        827ea7b8 4b c3 75 29     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea7bc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea7c0 38 80 00 97     li         r4,0x97
+        827ea7c4 38 ab c1 d8     subi       r5=>s_bl_glcrsh44_820cc1d8,r11,0x3e28            = "bl_glcrsh44"
+        827ea7c8 38 7f 17 98     addi       r3=>DAT_82e681fc,r31,0x1798
+        827ea7cc 4b c3 75 15     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea7d0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea7d4 38 80 00 98     li         r4,0x98
+        827ea7d8 38 ab c1 cc     subi       r5=>s_bl_glcrsh45_820cc1cc,r11,0x3e34            = "bl_glcrsh45"
+        827ea7dc 38 7f 17 c0     addi       r3=>DAT_82e68224,r31,0x17c0
+        827ea7e0 4b c3 75 01     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea7e4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea7e8 38 80 00 99     li         r4,0x99
+        827ea7ec 38 ab c1 c0     subi       r5=>s_bl_glcrsh46_820cc1c0,r11,0x3e40            = "bl_glcrsh46"
+        827ea7f0 38 7f 17 e8     addi       r3=>DAT_82e6824c,r31,0x17e8
+        827ea7f4 4b c3 74 ed     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea7f8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea7fc 38 80 00 9a     li         r4,0x9a
+        827ea800 38 ab c1 b4     subi       r5=>s_bl_glcrsh47_820cc1b4,r11,0x3e4c            = "bl_glcrsh47"
+        827ea804 38 7f 18 10     addi       r3=>DAT_82e68274,r31,0x1810
+        827ea808 4b c3 74 d9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea80c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea810 38 80 00 9b     li         r4,0x9b
+        827ea814 38 ab c1 a8     subi       r5=>s_bl_glcrsh48_820cc1a8,r11,0x3e58            = "bl_glcrsh48"
+        827ea818 38 7f 18 38     addi       r3=>DAT_82e6829c,r31,0x1838
+        827ea81c 4b c3 74 c5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea820 3d 60 82 0d     lis        r11,-0x7df3
+        827ea824 38 80 00 9c     li         r4,0x9c
+        827ea828 38 ab c1 9c     subi       r5=>s_bl_glcrsh49_820cc19c,r11,0x3e64            = "bl_glcrsh49"
+        827ea82c 38 7f 18 60     addi       r3=>DAT_82e682c4,r31,0x1860
+        827ea830 4b c3 74 b1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea834 3d 60 82 0d     lis        r11,-0x7df3
+        827ea838 38 80 00 9d     li         r4,0x9d
+        827ea83c 38 ab c1 90     subi       r5=>s_bl_glcrsh5_820cc190,r11,0x3e70             = "bl_glcrsh5"
+        827ea840 38 7f 18 88     addi       r3=>DAT_82e682ec,r31,0x1888
+        827ea844 4b c3 74 9d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea848 3d 60 82 0d     lis        r11,-0x7df3
+        827ea84c 38 80 00 9e     li         r4,0x9e
+        827ea850 38 ab c1 84     subi       r5=>s_bl_glcrsh50_820cc184,r11,0x3e7c            = "bl_glcrsh50"
+        827ea854 38 7f 18 b0     addi       r3=>DAT_82e68314,r31,0x18b0
+        827ea858 4b c3 74 89     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea85c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea860 38 80 00 9f     li         r4,0x9f
+        827ea864 38 ab c1 78     subi       r5=>s_bl_glcrsh51_820cc178,r11,0x3e88            = "bl_glcrsh51"
+        827ea868 38 7f 18 d8     addi       r3=>DAT_82e6833c,r31,0x18d8
+        827ea86c 4b c3 74 75     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea870 3d 60 82 0d     lis        r11,-0x7df3
+        827ea874 38 80 00 a0     li         r4,0xa0
+        827ea878 38 ab c1 6c     subi       r5=>s_bl_glcrsh52_820cc16c,r11,0x3e94            = "bl_glcrsh52"
+        827ea87c 38 7f 19 00     addi       r3=>DAT_82e68364,r31,0x1900
+        827ea880 4b c3 74 61     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea884 3d 60 82 0d     lis        r11,-0x7df3
+        827ea888 38 80 00 a1     li         r4,0xa1
+        827ea88c 38 ab c1 60     subi       r5=>s_bl_glcrsh53_820cc160,r11,0x3ea0            = "bl_glcrsh53"
+        827ea890 38 7f 19 28     addi       r3=>DAT_82e6838c,r31,0x1928
+        827ea894 4b c3 74 4d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea898 3d 60 82 0d     lis        r11,-0x7df3
+        827ea89c 38 80 00 a2     li         r4,0xa2
+        827ea8a0 38 ab c1 54     subi       r5=>s_bl_glcrsh54_820cc154,r11,0x3eac            = "bl_glcrsh54"
+        827ea8a4 38 7f 19 50     addi       r3=>DAT_82e683b4,r31,0x1950
+        827ea8a8 4b c3 74 39     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea8ac 3d 60 82 0d     lis        r11,-0x7df3
+        827ea8b0 38 80 00 a3     li         r4,0xa3
+        827ea8b4 38 ab c1 48     subi       r5=>s_bl_glcrsh55_820cc148,r11,0x3eb8            = "bl_glcrsh55"
+        827ea8b8 38 7f 19 78     addi       r3=>DAT_82e683dc,r31,0x1978
+        827ea8bc 4b c3 74 25     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea8c0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea8c4 38 80 00 a4     li         r4,0xa4
+        827ea8c8 38 ab c1 3c     subi       r5=>s_bl_glcrsh56_820cc13c,r11,0x3ec4            = "bl_glcrsh56"
+        827ea8cc 38 7f 19 a0     addi       r3=>DAT_82e68404,r31,0x19a0
+        827ea8d0 4b c3 74 11     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea8d4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea8d8 38 80 00 a5     li         r4,0xa5
+        827ea8dc 38 ab c1 30     subi       r5=>s_bl_glcrsh57_820cc130,r11,0x3ed0            = "bl_glcrsh57"
+        827ea8e0 38 7f 19 c8     addi       r3=>DAT_82e6842c,r31,0x19c8
+        827ea8e4 4b c3 73 fd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea8e8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea8ec 38 80 00 a6     li         r4,0xa6
+        827ea8f0 38 ab c1 24     subi       r5=>s_bl_glcrsh58_820cc124,r11,0x3edc            = "bl_glcrsh58"
+        827ea8f4 38 7f 19 f0     addi       r3=>DAT_82e68454,r31,0x19f0
+        827ea8f8 4b c3 73 e9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea8fc 3d 60 82 0d     lis        r11,-0x7df3
+        827ea900 38 80 00 a7     li         r4,0xa7
+        827ea904 38 ab c1 18     subi       r5=>s_bl_glcrsh59_820cc118,r11,0x3ee8            = "bl_glcrsh59"
+        827ea908 38 7f 1a 18     addi       r3=>DAT_82e6847c,r31,0x1a18
+        827ea90c 4b c3 73 d5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea910 3d 60 82 0d     lis        r11,-0x7df3
+        827ea914 38 80 00 a8     li         r4,0xa8
+        827ea918 38 ab c1 0c     subi       r5=>s_bl_glcrsh6_820cc10c,r11,0x3ef4             = "bl_glcrsh6"
+        827ea91c 38 7f 1a 40     addi       r3=>DAT_82e684a4,r31,0x1a40
+        827ea920 4b c3 73 c1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea924 3d 60 82 0d     lis        r11,-0x7df3
+        827ea928 38 80 00 a9     li         r4,0xa9
+        827ea92c 38 ab c1 00     subi       r5=>s_bl_glcrsh60_820cc100,r11,0x3f00            = "bl_glcrsh60"
+        827ea930 38 7f 1a 68     addi       r3=>DAT_82e684cc,r31,0x1a68
+        827ea934 4b c3 73 ad     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea938 3d 60 82 0d     lis        r11,-0x7df3
+        827ea93c 38 80 00 aa     li         r4,0xaa
+        827ea940 38 ab c0 f4     subi       r5=>s_bl_glcrsh61_820cc0f4,r11,0x3f0c            = "bl_glcrsh61"
+        827ea944 38 7f 1a 90     addi       r3=>DAT_82e684f4,r31,0x1a90
+        827ea948 4b c3 73 99     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea94c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea950 38 80 00 ab     li         r4,0xab
+        827ea954 38 ab c0 e8     subi       r5=>s_bl_glcrsh62_820cc0e8,r11,0x3f18            = "bl_glcrsh62"
+        827ea958 38 7f 1a b8     addi       r3=>DAT_82e6851c,r31,0x1ab8
+        827ea95c 4b c3 73 85     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea960 3d 60 82 0d     lis        r11,-0x7df3
+        827ea964 38 80 00 ac     li         r4,0xac
+        827ea968 38 ab c0 dc     subi       r5=>s_bl_glcrsh63_820cc0dc,r11,0x3f24            = "bl_glcrsh63"
+        827ea96c 38 7f 1a e0     addi       r3=>DAT_82e68544,r31,0x1ae0
+        827ea970 4b c3 73 71     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea974 3d 60 82 0d     lis        r11,-0x7df3
+        827ea978 38 80 00 ad     li         r4,0xad
+        827ea97c 38 ab c0 d0     subi       r5=>s_bl_glcrsh64_820cc0d0,r11,0x3f30            = "bl_glcrsh64"
+        827ea980 38 7f 1b 08     addi       r3=>DAT_82e6856c,r31,0x1b08
+        827ea984 4b c3 73 5d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea988 3d 60 82 0d     lis        r11,-0x7df3
+        827ea98c 38 80 00 ae     li         r4,0xae
+        827ea990 38 ab c0 c4     subi       r5=>s_bl_glcrsh65_820cc0c4,r11,0x3f3c            = "bl_glcrsh65"
+        827ea994 38 7f 1b 30     addi       r3=>DAT_82e68594,r31,0x1b30
+        827ea998 4b c3 73 49     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea99c 3d 60 82 0d     lis        r11,-0x7df3
+        827ea9a0 38 80 00 af     li         r4,0xaf
+        827ea9a4 38 ab c0 b8     subi       r5=>s_bl_glcrsh66_820cc0b8,r11,0x3f48            = "bl_glcrsh66"
+        827ea9a8 38 7f 1b 58     addi       r3=>DAT_82e685bc,r31,0x1b58
+        827ea9ac 4b c3 73 35     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea9b0 3d 60 82 0d     lis        r11,-0x7df3
+        827ea9b4 38 80 00 b0     li         r4,0xb0
+        827ea9b8 38 ab c0 ac     subi       r5=>s_bl_glcrsh67_820cc0ac,r11,0x3f54            = "bl_glcrsh67"
+        827ea9bc 38 7f 1b 80     addi       r3=>DAT_82e685e4,r31,0x1b80
+        827ea9c0 4b c3 73 21     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea9c4 3d 60 82 0d     lis        r11,-0x7df3
+        827ea9c8 38 80 00 b1     li         r4,0xb1
+        827ea9cc 38 ab c0 a0     subi       r5=>s_bl_glcrsh68_820cc0a0,r11,0x3f60            = "bl_glcrsh68"
+        827ea9d0 38 7f 1b a8     addi       r3=>DAT_82e6860c,r31,0x1ba8
+        827ea9d4 4b c3 73 0d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea9d8 3d 60 82 0d     lis        r11,-0x7df3
+        827ea9dc 38 80 00 b2     li         r4,0xb2
+        827ea9e0 38 ab c0 94     subi       r5=>s_bl_glcrsh69_820cc094,r11,0x3f6c            = "bl_glcrsh69"
+        827ea9e4 38 7f 1b d0     addi       r3=>DAT_82e68634,r31,0x1bd0
+        827ea9e8 4b c3 72 f9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ea9ec 3d 60 82 0d     lis        r11,-0x7df3
+        827ea9f0 38 80 00 b3     li         r4,0xb3
+        827ea9f4 38 ab c0 88     subi       r5=>s_bl_glcrsh7_820cc088,r11,0x3f78             = "bl_glcrsh7"
+        827ea9f8 38 7f 1b f8     addi       r3=>DAT_82e6865c,r31,0x1bf8
+        827ea9fc 4b c3 72 e5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa00 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa04 38 80 00 b4     li         r4,0xb4
+        827eaa08 38 ab c0 7c     subi       r5=>s_bl_glcrsh70_820cc07c,r11,0x3f84            = "bl_glcrsh70"
+        827eaa0c 38 7f 1c 20     addi       r3=>DAT_82e68684,r31,0x1c20
+        827eaa10 4b c3 72 d1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa14 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa18 38 80 00 b5     li         r4,0xb5
+        827eaa1c 38 ab c0 70     subi       r5=>s_bl_glcrsh71_820cc070,r11,0x3f90            = "bl_glcrsh71"
+        827eaa20 38 7f 1c 48     addi       r3=>DAT_82e686ac,r31,0x1c48
+        827eaa24 4b c3 72 bd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa28 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa2c 38 80 00 b6     li         r4,0xb6
+        827eaa30 38 ab c0 64     subi       r5=>s_bl_glcrsh72_820cc064,r11,0x3f9c            = "bl_glcrsh72"
+        827eaa34 38 7f 1c 70     addi       r3=>DAT_82e686d4,r31,0x1c70
+        827eaa38 4b c3 72 a9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa3c 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa40 38 80 00 b7     li         r4,0xb7
+        827eaa44 38 ab c0 58     subi       r5=>s_bl_glcrsh73_820cc058,r11,0x3fa8            = "bl_glcrsh73"
+        827eaa48 38 7f 1c 98     addi       r3=>DAT_82e686fc,r31,0x1c98
+        827eaa4c 4b c3 72 95     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa50 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa54 38 80 00 b8     li         r4,0xb8
+        827eaa58 38 ab c0 4c     subi       r5=>s_bl_glcrsh74_820cc04c,r11,0x3fb4            = "bl_glcrsh74"
+        827eaa5c 38 7f 1c c0     addi       r3=>DAT_82e68724,r31,0x1cc0
+        827eaa60 4b c3 72 81     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa64 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa68 38 80 00 b9     li         r4,0xb9
+        827eaa6c 38 ab c0 40     subi       r5=>s_bl_glcrsh75_820cc040,r11,0x3fc0            = "bl_glcrsh75"
+        827eaa70 38 7f 1c e8     addi       r3=>DAT_82e6874c,r31,0x1ce8
+        827eaa74 4b c3 72 6d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa78 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa7c 38 80 00 ba     li         r4,0xba
+        827eaa80 38 ab c0 34     subi       r5=>s_bl_glcrsh76_820cc034,r11,0x3fcc            = "bl_glcrsh76"
+        827eaa84 38 7f 1d 10     addi       r3=>DAT_82e68774,r31,0x1d10
+        827eaa88 4b c3 72 59     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaa8c 3d 60 82 0d     lis        r11,-0x7df3
+        827eaa90 38 80 00 bb     li         r4,0xbb
+        827eaa94 38 ab c0 28     subi       r5=>s_bl_glcrsh77_820cc028,r11,0x3fd8            = "bl_glcrsh77"
+        827eaa98 38 7f 1d 38     addi       r3=>DAT_82e6879c,r31,0x1d38
+        827eaa9c 4b c3 72 45     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaaa0 3d 60 82 0d     lis        r11,-0x7df3
+        827eaaa4 38 80 00 bc     li         r4,0xbc
+        827eaaa8 38 ab c0 1c     subi       r5=>s_bl_glcrsh78_820cc01c,r11,0x3fe4            = "bl_glcrsh78"
+        827eaaac 38 7f 1d 60     addi       r3=>DAT_82e687c4,r31,0x1d60
+        827eaab0 4b c3 72 31     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaab4 3d 60 82 0d     lis        r11,-0x7df3
+        827eaab8 38 80 00 bd     li         r4,0xbd
+        827eaabc 38 ab c0 10     subi       r5=>s_bl_glcrsh79_820cc010,r11,0x3ff0            = "bl_glcrsh79"
+        827eaac0 38 7f 1d 88     addi       r3=>DAT_82e687ec,r31,0x1d88
+        827eaac4 4b c3 72 1d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaac8 3d 60 82 0d     lis        r11,-0x7df3
+        827eaacc 38 80 00 be     li         r4,0xbe
+        827eaad0 38 ab c0 04     subi       r5=>s_bl_glcrsh8_820cc004,r11,0x3ffc             = "bl_glcrsh8"
+        827eaad4 38 7f 1d b0     addi       r3=>DAT_82e68814,r31,0x1db0
+        827eaad8 4b c3 72 09     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaadc 3d 60 82 0d     lis        r11,-0x7df3
+        827eaae0 38 80 00 bf     li         r4,0xbf
+        827eaae4 38 ab bf f8     subi       r5=>s_bl_glcrsh80_820cbff8,r11,0x4008            = "bl_glcrsh80"
+        827eaae8 38 7f 1d d8     addi       r3=>DAT_82e6883c,r31,0x1dd8
+        827eaaec 4b c3 71 f5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaaf0 3d 60 82 0d     lis        r11,-0x7df3
+        827eaaf4 38 80 00 c0     li         r4,0xc0
+        827eaaf8 38 ab bf ec     subi       r5=>s_bl_glcrsh81_820cbfec,r11,0x4014            = "bl_glcrsh81"
+        827eaafc 38 7f 1e 00     addi       r3=>DAT_82e68864,r31,0x1e00
+        827eab00 4b c3 71 e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab04 3d 60 82 0d     lis        r11,-0x7df3
+        827eab08 38 80 00 c1     li         r4,0xc1
+        827eab0c 38 ab bf e0     subi       r5=>s_bl_glcrsh82_820cbfe0,r11,0x4020            = "bl_glcrsh82"
+        827eab10 38 7f 1e 28     addi       r3=>DAT_82e6888c,r31,0x1e28
+        827eab14 4b c3 71 cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab18 3d 60 82 0d     lis        r11,-0x7df3
+        827eab1c 38 80 00 c2     li         r4,0xc2
+        827eab20 38 ab bf d4     subi       r5=>s_bl_glcrsh83_820cbfd4,r11,0x402c            = "bl_glcrsh83"
+        827eab24 38 7f 1e 50     addi       r3=>DAT_82e688b4,r31,0x1e50
+        827eab28 4b c3 71 b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab2c 3d 60 82 0d     lis        r11,-0x7df3
+        827eab30 38 80 00 c3     li         r4,0xc3
+        827eab34 38 ab bf c8     subi       r5=>s_bl_glcrsh84_820cbfc8,r11,0x4038            = "bl_glcrsh84"
+        827eab38 38 7f 1e 78     addi       r3=>DAT_82e688dc,r31,0x1e78
+        827eab3c 4b c3 71 a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab40 3d 60 82 0d     lis        r11,-0x7df3
+        827eab44 38 80 00 c4     li         r4,0xc4
+        827eab48 38 ab bf bc     subi       r5=>s_bl_glcrsh85_820cbfbc,r11,0x4044            = "bl_glcrsh85"
+        827eab4c 38 7f 1e a0     addi       r3=>DAT_82e68904,r31,0x1ea0
+        827eab50 4b c3 71 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab54 3d 60 82 0d     lis        r11,-0x7df3
+        827eab58 38 80 00 c5     li         r4,0xc5
+        827eab5c 38 ab bf b0     subi       r5=>s_bl_glcrsh86_820cbfb0,r11,0x4050            = "bl_glcrsh86"
+        827eab60 38 7f 1e c8     addi       r3=>DAT_82e6892c,r31,0x1ec8
+        827eab64 4b c3 71 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab68 3d 60 82 0d     lis        r11,-0x7df3
+        827eab6c 38 80 00 c6     li         r4,0xc6
+        827eab70 38 ab bf a4     subi       r5=>s_bl_glcrsh87_820cbfa4,r11,0x405c            = "bl_glcrsh87"
+        827eab74 38 7f 1e f0     addi       r3=>DAT_82e68954,r31,0x1ef0
+        827eab78 4b c3 71 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab7c 3d 60 82 0d     lis        r11,-0x7df3
+        827eab80 38 80 00 c7     li         r4,0xc7
+        827eab84 38 ab bf 98     subi       r5=>s_bl_glcrsh88_820cbf98,r11,0x4068            = "bl_glcrsh88"
+        827eab88 38 7f 1f 18     addi       r3=>DAT_82e6897c,r31,0x1f18
+        827eab8c 4b c3 71 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eab90 3d 60 82 0d     lis        r11,-0x7df3
+        827eab94 38 80 00 c8     li         r4,0xc8
+        827eab98 38 ab bf 8c     subi       r5=>s_bl_glcrsh89_820cbf8c,r11,0x4074            = "bl_glcrsh89"
+        827eab9c 38 7f 1f 40     addi       r3=>DAT_82e689a4,r31,0x1f40
+        827eaba0 4b c3 71 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaba4 3d 60 82 0d     lis        r11,-0x7df3
+        827eaba8 38 80 00 c9     li         r4,0xc9
+        827eabac 38 ab bf 80     subi       r5=>s_bl_glcrsh9_820cbf80,r11,0x4080             = "bl_glcrsh9"
+        827eabb0 38 7f 1f 68     addi       r3=>DAT_82e689cc,r31,0x1f68
+        827eabb4 4b c3 71 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eabb8 3d 60 82 0d     lis        r11,-0x7df3
+        827eabbc 38 80 00 ca     li         r4,0xca
+        827eabc0 38 ab bf 74     subi       r5=>s_bl_glcrsh90_820cbf74,r11,0x408c            = "bl_glcrsh90"
+        827eabc4 38 7f 1f 90     addi       r3=>DAT_82e689f4,r31,0x1f90
+        827eabc8 4b c3 71 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eabcc 3d 60 82 0d     lis        r11,-0x7df3
+        827eabd0 38 80 00 cb     li         r4,0xcb
+        827eabd4 38 ab bf 68     subi       r5=>s_bl_glcrsh91_820cbf68,r11,0x4098            = "bl_glcrsh91"
+        827eabd8 38 7f 1f b8     addi       r3=>DAT_82e68a1c,r31,0x1fb8
+        827eabdc 4b c3 71 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eabe0 3d 60 82 0d     lis        r11,-0x7df3
+        827eabe4 38 80 00 cc     li         r4,0xcc
+        827eabe8 38 ab bf 5c     subi       r5=>s_bl_glcrsh92_820cbf5c,r11,0x40a4            = "bl_glcrsh92"
+        827eabec 38 7f 1f e0     addi       r3=>DAT_82e68a44,r31,0x1fe0
+        827eabf0 4b c3 70 f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eabf4 3d 60 82 0d     lis        r11,-0x7df3
+        827eabf8 38 80 00 cd     li         r4,0xcd
+        827eabfc 38 ab bf 50     subi       r5=>s_bl_glcrsh93_820cbf50,r11,0x40b0            = "bl_glcrsh93"
+        827eac00 38 7f 20 08     addi       r3=>DAT_82e68a6c,r31,0x2008
+        827eac04 4b c3 70 dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac08 3d 60 82 0d     lis        r11,-0x7df3
+        827eac0c 38 80 00 ce     li         r4,0xce
+        827eac10 38 ab bf 44     subi       r5=>s_bl_glcrsh94_820cbf44,r11,0x40bc            = "bl_glcrsh94"
+        827eac14 38 7f 20 30     addi       r3=>DAT_82e68a94,r31,0x2030
+        827eac18 4b c3 70 c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac1c 3d 60 82 0d     lis        r11,-0x7df3
+        827eac20 38 80 00 cf     li         r4,0xcf
+        827eac24 38 ab bf 38     subi       r5=>s_bl_glcrsh95_820cbf38,r11,0x40c8            = "bl_glcrsh95"
+        827eac28 38 7f 20 58     addi       r3=>DAT_82e68abc,r31,0x2058
+        827eac2c 4b c3 70 b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac30 3d 60 82 0d     lis        r11,-0x7df3
+        827eac34 38 80 00 d0     li         r4,0xd0
+        827eac38 38 ab bf 2c     subi       r5=>s_bl_glcrsh96_820cbf2c,r11,0x40d4            = "bl_glcrsh96"
+        827eac3c 38 7f 20 80     addi       r3=>DAT_82e68ae4,r31,0x2080
+        827eac40 4b c3 70 a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac44 3d 60 82 0d     lis        r11,-0x7df3
+        827eac48 38 80 00 d1     li         r4,0xd1
+        827eac4c 38 ab bf 20     subi       r5=>s_bl_glcrsh97_820cbf20,r11,0x40e0            = "bl_glcrsh97"
+        827eac50 38 7f 20 a8     addi       r3=>DAT_82e68b0c,r31,0x20a8
+        827eac54 4b c3 70 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac58 3d 60 82 0d     lis        r11,-0x7df3
+        827eac5c 38 ab bf 14     subi       r5=>s_bl_glcrsh98_820cbf14,r11,0x40ec            = "bl_glcrsh98"
+        827eac60 38 80 00 d2     li         r4,0xd2
+        827eac64 38 7f 20 d0     addi       r3=>DAT_82e68b34,r31,0x20d0
+        827eac68 4b c3 70 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac6c 3d 60 82 0d     lis        r11,-0x7df3
+        827eac70 38 80 00 d3     li         r4,0xd3
+        827eac74 38 ab bf 08     subi       r5=>s_bl_glcrsh99_820cbf08,r11,0x40f8            = "bl_glcrsh99"
+        827eac78 38 7f 20 f8     addi       r3=>DAT_82e68b5c,r31,0x20f8
+        827eac7c 4b c3 70 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac80 3d 60 82 0d     lis        r11,-0x7df3
+        827eac84 38 80 00 d4     li         r4,0xd4
+        827eac88 38 ab be fc     subi       r5=>s_bl_haisen11_820cbefc,r11,0x4104            = "bl_haisen11"
+        827eac8c 38 7f 21 20     addi       r3=>DAT_82e68b84,r31,0x2120
+        827eac90 4b c3 70 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eac94 3d 60 82 0d     lis        r11,-0x7df3
+        827eac98 38 80 00 d5     li         r4,0xd5
+        827eac9c 38 ab be f0     subi       r5=>s_bl_haisen12_820cbef0,r11,0x4110            = "bl_haisen12"
+        827eaca0 38 7f 21 48     addi       r3=>DAT_82e68bac,r31,0x2148
+        827eaca4 4b c3 70 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaca8 3d 60 82 0d     lis        r11,-0x7df3
+        827eacac 38 80 00 d6     li         r4,0xd6
+        827eacb0 38 ab be e4     subi       r5=>s_bl_haisen21_820cbee4,r11,0x411c            = "bl_haisen21"
+        827eacb4 38 7f 21 70     addi       r3=>DAT_82e68bd4,r31,0x2170
+        827eacb8 4b c3 70 29     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eacbc 3d 60 82 0d     lis        r11,-0x7df3
+        827eacc0 38 80 00 d7     li         r4,0xd7
+        827eacc4 38 ab be d8     subi       r5=>s_bl_haisen22_820cbed8,r11,0x4128            = "bl_haisen22"
+        827eacc8 38 7f 21 98     addi       r3=>DAT_82e68bfc,r31,0x2198
+        827eaccc 4b c3 70 15     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eacd0 3d 60 82 0d     lis        r11,-0x7df3
+        827eacd4 38 80 00 d8     li         r4,0xd8
+        827eacd8 38 ab be cc     subi       r5=>s_bl_hanger_820cbecc,r11,0x4134              = "bl_hanger"
+        827eacdc 38 7f 21 c0     addi       r3=>DAT_82e68c24,r31,0x21c0
+        827eace0 4b c3 70 01     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eace4 3d 60 82 0d     lis        r11,-0x7df3
+        827eace8 38 80 00 d9     li         r4,0xd9
+        827eacec 38 ab be c0     subi       r5=>s_bl_lock01a_820cbec0,r11,0x4140             = "bl_lock01a"
+        827eacf0 38 7f 21 e8     addi       r3=>DAT_82e68c4c,r31,0x21e8
+        827eacf4 4b c3 6f ed     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eacf8 3d 60 82 0d     lis        r11,-0x7df3
+        827eacfc 38 80 00 da     li         r4,0xda
+        827ead00 38 ab be b4     subi       r5=>s_bl_lock01b_820cbeb4,r11,0x414c             = "bl_lock01b"
+        827ead04 38 7f 22 10     addi       r3=>DAT_82e68c74,r31,0x2210
+        827ead08 4b c3 6f d9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead0c 3d 60 82 0d     lis        r11,-0x7df3
+        827ead10 38 80 00 db     li         r4,0xdb
+        827ead14 38 ab be a8     subi       r5=>s_bl_lock01c_820cbea8,r11,0x4158             = "bl_lock01c"
+        827ead18 38 7f 22 38     addi       r3=>DAT_82e68c9c,r31,0x2238
+        827ead1c 4b c3 6f c5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead20 3d 60 82 0d     lis        r11,-0x7df3
+        827ead24 38 80 00 dc     li         r4,0xdc
+        827ead28 38 ab be 9c     subi       r5=>s_bl_lock01d_820cbe9c,r11,0x4164             = "bl_lock01d"
+        827ead2c 38 7f 22 60     addi       r3=>DAT_82e68cc4,r31,0x2260
+        827ead30 4b c3 6f b1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead34 3d 60 82 0d     lis        r11,-0x7df3
+        827ead38 38 80 00 dd     li         r4,0xdd
+        827ead3c 38 ab be 90     subi       r5=>s_bl_lock02a_820cbe90,r11,0x4170             = "bl_lock02a"
+        827ead40 38 7f 22 88     addi       r3=>DAT_82e68cec,r31,0x2288
+        827ead44 4b c3 6f 9d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead48 3d 60 82 0d     lis        r11,-0x7df3
+        827ead4c 38 80 00 de     li         r4,0xde
+        827ead50 38 ab be 84     subi       r5=>s_bl_lock02b_820cbe84,r11,0x417c             = "bl_lock02b"
+        827ead54 38 7f 22 b0     addi       r3=>DAT_82e68d14,r31,0x22b0
+        827ead58 4b c3 6f 89     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead5c 3d 60 82 0d     lis        r11,-0x7df3
+        827ead60 38 80 00 df     li         r4,0xdf
+        827ead64 38 ab be 78     subi       r5=>s_bl_lock02c_820cbe78,r11,0x4188             = "bl_lock02c"
+        827ead68 38 7f 22 d8     addi       r3=>DAT_82e68d3c,r31,0x22d8
+        827ead6c 4b c3 6f 75     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead70 3d 60 82 0d     lis        r11,-0x7df3
+        827ead74 38 80 00 e0     li         r4,0xe0
+        827ead78 38 ab be 6c     subi       r5=>s_bl_lock02d_820cbe6c,r11,0x4194             = "bl_lock02d"
+        827ead7c 38 7f 23 00     addi       r3=>DAT_82e68d64,r31,0x2300
+        827ead80 4b c3 6f 61     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead84 3d 60 82 0d     lis        r11,-0x7df3
+        827ead88 38 80 00 e1     li         r4,0xe1
+        827ead8c 38 ab be 64     subi       r5=>s_bl_main_820cbe64,r11,0x419c                = "bl_main"
+        827ead90 38 7f 23 28     addi       r3=>DAT_82e68d8c,r31,0x2328
+        827ead94 4b c3 6f 4d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ead98 3d 60 82 0d     lis        r11,-0x7df3
+        827ead9c 38 ab be 54     subi       r5=>s_bl_mainfoor01_820cbe54,r11,0x41ac          = "bl_mainfoor01"
+        827eada0 38 80 00 e2     li         r4,0xe2
+        827eada4 38 7f 23 50     addi       r3=>DAT_82e68db4,r31,0x2350
+        827eada8 4b c3 6f 39     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eadac 3d 60 82 0d     lis        r11,-0x7df3
+        827eadb0 38 80 00 e3     li         r4,0xe3
+        827eadb4 38 ab be 48     subi       r5=>s_bl_moni01_820cbe48,r11,0x41b8              = "bl_moni01"
+        827eadb8 38 7f 23 78     addi       r3=>DAT_82e68ddc,r31,0x2378
+        827eadbc 4b c3 6f 25     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eadc0 3d 60 82 0d     lis        r11,-0x7df3
+        827eadc4 38 80 00 e4     li         r4,0xe4
+        827eadc8 38 ab be 3c     subi       r5=>s_bl_moni01cr_820cbe3c,r11,0x41c4            = "bl_moni01cr"
+        827eadcc 38 7f 23 a0     addi       r3=>DAT_82e68e04,r31,0x23a0
+        827eadd0 4b c3 6f 11     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eadd4 3d 60 82 0d     lis        r11,-0x7df3
+        827eadd8 38 80 00 e5     li         r4,0xe5
+        827eaddc 38 ab be 30     subi       r5=>s_bl_moni02_820cbe30,r11,0x41d0              = "bl_moni02"
+        827eade0 38 7f 23 c8     addi       r3=>DAT_82e68e2c,r31,0x23c8
+        827eade4 4b c3 6e fd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eade8 3d 60 82 0d     lis        r11,-0x7df3
+        827eadec 38 80 00 e6     li         r4,0xe6
+        827eadf0 38 ab be 24     subi       r5=>s_bl_moni02cr_820cbe24,r11,0x41dc            = "bl_moni02cr"
+        827eadf4 38 7f 23 f0     addi       r3=>DAT_82e68e54,r31,0x23f0
+        827eadf8 4b c3 6e e9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eadfc 3d 60 82 0d     lis        r11,-0x7df3
+        827eae00 38 80 00 e7     li         r4,0xe7
+        827eae04 38 ab be 18     subi       r5=>s_bl_moni03_820cbe18,r11,0x41e8              = "bl_moni03"
+        827eae08 38 7f 24 18     addi       r3=>DAT_82e68e7c,r31,0x2418
+        827eae0c 4b c3 6e d5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae10 3d 60 82 0d     lis        r11,-0x7df3
+        827eae14 38 80 00 e8     li         r4,0xe8
+        827eae18 38 ab be 0c     subi       r5=>s_bl_moni03cr_820cbe0c,r11,0x41f4            = "bl_moni03cr"
+        827eae1c 38 7f 24 40     addi       r3=>DAT_82e68ea4,r31,0x2440
+        827eae20 4b c3 6e c1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae24 3d 60 82 0d     lis        r11,-0x7df3
+        827eae28 38 80 00 e9     li         r4,0xe9
+        827eae2c 38 ab be 00     subi       r5=>s_bl_moni04_820cbe00,r11,0x4200              = "bl_moni04"
+        827eae30 38 7f 24 68     addi       r3=>DAT_82e68ecc,r31,0x2468
+        827eae34 4b c3 6e ad     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae38 3d 60 82 0d     lis        r11,-0x7df3
+        827eae3c 38 80 00 ea     li         r4,0xea
+        827eae40 38 ab bd f4     subi       r5=>s_bl_moni04cr_820cbdf4,r11,0x420c            = "bl_moni04cr"
+        827eae44 38 7f 24 90     addi       r3=>DAT_82e68ef4,r31,0x2490
+        827eae48 4b c3 6e 99     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae4c 3d 60 82 0d     lis        r11,-0x7df3
+        827eae50 38 80 00 eb     li         r4,0xeb
+        827eae54 38 ab bd e8     subi       r5=>s_bl_moni05_820cbde8,r11,0x4218              = "bl_moni05"
+        827eae58 38 7f 24 b8     addi       r3=>DAT_82e68f1c,r31,0x24b8
+        827eae5c 4b c3 6e 85     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae60 3d 60 82 0d     lis        r11,-0x7df3
+        827eae64 38 80 00 ec     li         r4,0xec
+        827eae68 38 ab bd dc     subi       r5=>s_bl_moni05cr_820cbddc,r11,0x4224            = "bl_moni05cr"
+        827eae6c 38 7f 24 e0     addi       r3=>DAT_82e68f44,r31,0x24e0
+        827eae70 4b c3 6e 71     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae74 3d 60 82 0d     lis        r11,-0x7df3
+        827eae78 38 80 00 ed     li         r4,0xed
+        827eae7c 38 ab bd d0     subi       r5=>s_bl_moni06_820cbdd0,r11,0x4230              = "bl_moni06"
+        827eae80 38 7f 25 08     addi       r3=>DAT_82e68f6c,r31,0x2508
+        827eae84 4b c3 6e 5d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae88 3d 60 82 0d     lis        r11,-0x7df3
+        827eae8c 38 80 00 ee     li         r4,0xee
+        827eae90 38 ab bd c4     subi       r5=>s_bl_moni06cr_820cbdc4,r11,0x423c            = "bl_moni06cr"
+        827eae94 38 7f 25 30     addi       r3=>DAT_82e68f94,r31,0x2530
+        827eae98 4b c3 6e 49     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eae9c 3d 60 82 0d     lis        r11,-0x7df3
+        827eaea0 38 80 00 ef     li         r4,0xef
+        827eaea4 38 ab bd b8     subi       r5=>s_bl_newyuka_820cbdb8,r11,0x4248             = "bl_newyuka"
+        827eaea8 38 7f 25 58     addi       r3=>DAT_82e68fbc,r31,0x2558
+        827eaeac 4b c3 6e 35     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaeb0 3d 60 82 0d     lis        r11,-0x7df3
+        827eaeb4 38 80 00 f0     li         r4,0xf0
+        827eaeb8 38 ab bd ac     subi       r5=>s_bl_pole00_820cbdac,r11,0x4254              = "bl_pole00"
+        827eaebc 38 7f 25 80     addi       r3=>DAT_82e68fe4,r31,0x2580
+        827eaec0 4b c3 6e 21     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaec4 3d 60 82 0d     lis        r11,-0x7df3
+        827eaec8 38 80 00 f1     li         r4,0xf1
+        827eaecc 38 ab bd a0     subi       r5=>s_bl_pole11_820cbda0,r11,0x4260              = "bl_pole11"
+        827eaed0 38 7f 25 a8     addi       r3=>DAT_82e6900c,r31,0x25a8
+        827eaed4 4b c3 6e 0d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaed8 3d 60 82 0d     lis        r11,-0x7df3
+        827eaedc 38 80 00 f2     li         r4,0xf2
+        827eaee0 38 ab bd 94     subi       r5=>s_bl_pole12_820cbd94,r11,0x426c              = "bl_pole12"
+        827eaee4 38 7f 25 d0     addi       r3=>DAT_82e69034,r31,0x25d0
+        827eaee8 4b c3 6d f9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaeec 3d 60 82 0d     lis        r11,-0x7df3
+        827eaef0 38 80 00 f3     li         r4,0xf3
+        827eaef4 38 ab bd 88     subi       r5=>s_bl_pole13_820cbd88,r11,0x4278              = "bl_pole13"
+        827eaef8 38 7f 25 f8     addi       r3=>DAT_82e6905c,r31,0x25f8
+        827eaefc 4b c3 6d e5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf00 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf04 38 80 00 f4     li         r4,0xf4
+        827eaf08 38 ab bd 7c     subi       r5=>s_bl_pole14_820cbd7c,r11,0x4284              = "bl_pole14"
+        827eaf0c 38 7f 26 20     addi       r3=>DAT_82e69084,r31,0x2620
+        827eaf10 4b c3 6d d1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf14 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf18 38 80 00 f5     li         r4,0xf5
+        827eaf1c 38 ab bd 70     subi       r5=>s_bl_pole15_820cbd70,r11,0x4290              = "bl_pole15"
+        827eaf20 38 7f 26 48     addi       r3=>DAT_82e690ac,r31,0x2648
+        827eaf24 4b c3 6d bd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf28 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf2c 38 80 00 f6     li         r4,0xf6
+        827eaf30 38 ab bd 64     subi       r5=>s_bl_pole16_820cbd64,r11,0x429c              = "bl_pole16"
+        827eaf34 38 7f 26 70     addi       r3=>DAT_82e690d4,r31,0x2670
+        827eaf38 4b c3 6d a9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf3c 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf40 38 80 00 f7     li         r4,0xf7
+        827eaf44 38 ab bd 58     subi       r5=>s_bl_pole17_820cbd58,r11,0x42a8              = "bl_pole17"
+        827eaf48 38 7f 26 98     addi       r3=>DAT_82e690fc,r31,0x2698
+        827eaf4c 4b c3 6d 95     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf50 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf54 38 80 00 f8     li         r4,0xf8
+        827eaf58 38 ab bd 4c     subi       r5=>s_bl_pole18_820cbd4c,r11,0x42b4              = "bl_pole18"
+        827eaf5c 38 7f 26 c0     addi       r3=>DAT_82e69124,r31,0x26c0
+        827eaf60 4b c3 6d 81     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf64 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf68 38 80 00 f9     li         r4,0xf9
+        827eaf6c 38 ab bd 40     subi       r5=>s_bl_pole19_820cbd40,r11,0x42c0              = "bl_pole19"
+        827eaf70 38 7f 26 e8     addi       r3=>DAT_82e6914c,r31,0x26e8
+        827eaf74 4b c3 6d 6d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf78 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf7c 38 80 00 fa     li         r4,0xfa
+        827eaf80 38 ab bd 34     subi       r5=>s_bl_pole22_820cbd34,r11,0x42cc              = "bl_pole22"
+        827eaf84 38 7f 27 10     addi       r3=>DAT_82e69174,r31,0x2710
+        827eaf88 4b c3 6d 59     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaf8c 3d 60 82 0d     lis        r11,-0x7df3
+        827eaf90 38 80 00 fb     li         r4,0xfb
+        827eaf94 38 ab bd 28     subi       r5=>s_bl_pole23_820cbd28,r11,0x42d8              = "bl_pole23"
+        827eaf98 38 7f 27 38     addi       r3=>DAT_82e6919c,r31,0x2738
+        827eaf9c 4b c3 6d 45     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eafa0 3d 60 82 0d     lis        r11,-0x7df3
+        827eafa4 38 80 00 fc     li         r4,0xfc
+        827eafa8 38 ab bd 1c     subi       r5=>s_bl_pole24_820cbd1c,r11,0x42e4              = "bl_pole24"
+        827eafac 38 7f 27 60     addi       r3=>DAT_82e691c4,r31,0x2760
+        827eafb0 4b c3 6d 31     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eafb4 3d 60 82 0d     lis        r11,-0x7df3
+        827eafb8 38 80 00 fd     li         r4,0xfd
+        827eafbc 38 ab bd 10     subi       r5=>s_bl_rdoor01_820cbd10,r11,0x42f0             = "bl_rdoor01"
+        827eafc0 38 7f 27 88     addi       r3=>DAT_82e691ec,r31,0x2788
+        827eafc4 4b c3 6d 1d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eafc8 3d 60 82 0d     lis        r11,-0x7df3
+        827eafcc 38 80 00 fe     li         r4,0xfe
+        827eafd0 38 ab bd 00     subi       r5=>s_bl_redyuka01_820cbd00,r11,0x4300           = "bl_redyuka01"
+        827eafd4 38 7f 27 b0     addi       r3=>DAT_82e69214,r31,0x27b0
+        827eafd8 4b c3 6d 09     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eafdc 3d 60 82 0d     lis        r11,-0x7df3
+        827eafe0 38 80 00 ff     li         r4,0xff
+        827eafe4 38 ab bc f0     subi       r5=>s_bl_redyuka01_cr_820cbcf0,r11,0x4310        = "bl_redyuka01_cr"
+        827eafe8 38 7f 27 d8     addi       r3=>DAT_82e6923c,r31,0x27d8
+        827eafec 4b c3 6c f5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eaff0 3d 60 82 0d     lis        r11,-0x7df3
+        827eaff4 38 80 01 00     li         r4,0x100
+        827eaff8 38 ab bc e0     subi       r5=>s_bl_redyuka02_820cbce0,r11,0x4320           = "bl_redyuka02"
+        827eaffc 38 7f 28 00     addi       r3=>DAT_82e69264,r31,0x2800
+        827eb000 4b c3 6c e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb004 3d 60 82 0d     lis        r11,-0x7df3
+        827eb008 38 80 01 01     li         r4,0x101
+        827eb00c 38 ab bc d0     subi       r5=>s_bl_redyuka02_cr_820cbcd0,r11,0x4330        = "bl_redyuka02_cr"
+        827eb010 38 7f 28 28     addi       r3=>DAT_82e6928c,r31,0x2828
+        827eb014 4b c3 6c cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb018 3d 60 82 0d     lis        r11,-0x7df3
+        827eb01c 38 80 01 02     li         r4,0x102
+        827eb020 38 ab bc c0     subi       r5=>s_bl_redyuka03_820cbcc0,r11,0x4340           = "bl_redyuka03"
+        827eb024 38 7f 28 50     addi       r3=>DAT_82e692b4,r31,0x2850
+        827eb028 4b c3 6c b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb02c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb030 38 80 01 03     li         r4,0x103
+        827eb034 38 ab bc b0     subi       r5=>s_bl_redyuka03_cr_820cbcb0,r11,0x4350        = "bl_redyuka03_cr"
+        827eb038 38 7f 28 78     addi       r3=>DAT_82e692dc,r31,0x2878
+        827eb03c 4b c3 6c a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb040 3d 60 82 0d     lis        r11,-0x7df3
+        827eb044 38 80 01 04     li         r4,0x104
+        827eb048 38 ab bc a0     subi       r5=>s_bl_redyuka04_820cbca0,r11,0x4360           = "bl_redyuka04"
+        827eb04c 38 7f 28 a0     addi       r3=>DAT_82e69304,r31,0x28a0
+        827eb050 4b c3 6c 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb054 3d 60 82 0d     lis        r11,-0x7df3
+        827eb058 38 80 01 05     li         r4,0x105
+        827eb05c 38 ab bc 90     subi       r5=>s_bl_redyuka04_cr_820cbc90,r11,0x4370        = "bl_redyuka04_cr"
+        827eb060 38 7f 28 c8     addi       r3=>DAT_82e6932c,r31,0x28c8
+        827eb064 4b c3 6c 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb068 3d 60 82 0d     lis        r11,-0x7df3
+        827eb06c 38 80 01 06     li         r4,0x106
+        827eb070 38 ab bc 80     subi       r5=>s_bl_regulater00_820cbc80,r11,0x4380         = "bl_regulater00"
+        827eb074 38 7f 28 f0     addi       r3=>DAT_82e69354,r31,0x28f0
+        827eb078 4b c3 6c 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb07c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb080 38 80 01 07     li         r4,0x107
+        827eb084 38 ab bc 74     subi       r5=>s_bl_ring01_820cbc74,r11,0x438c              = "bl_ring01"
+        827eb088 38 7f 29 18     addi       r3=>DAT_82e6937c,r31,0x2918
+        827eb08c 4b c3 6c 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb090 3d 60 82 0d     lis        r11,-0x7df3
+        827eb094 38 80 01 08     li         r4,0x108
+        827eb098 38 ab bc 68     subi       r5=>s_bl_ring02_820cbc68,r11,0x4398              = "bl_ring02"
+        827eb09c 38 7f 29 40     addi       r3=>DAT_82e693a4,r31,0x2940
+        827eb0a0 4b c3 6c 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb0a4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb0a8 38 80 01 09     li         r4,0x109
+        827eb0ac 38 ab bc 5c     subi       r5=>s_bl_sencer01_820cbc5c,r11,0x43a4            = "bl_sencer01"
+        827eb0b0 38 7f 29 68     addi       r3=>DAT_82e693cc,r31,0x2968
+        827eb0b4 4b c3 6c 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb0b8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb0bc 38 80 01 0a     li         r4,0x10a
+        827eb0c0 38 ab bc 50     subi       r5=>s_bl_sencer02_820cbc50,r11,0x43b0            = "bl_sencer02"
+        827eb0c4 38 7f 29 90     addi       r3=>DAT_82e693f4,r31,0x2990
+        827eb0c8 4b c3 6c 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb0cc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb0d0 38 80 01 0b     li         r4,0x10b
+        827eb0d4 38 ab bc 44     subi       r5=>s_bl_sencer03_820cbc44,r11,0x43bc            = "bl_sencer03"
+        827eb0d8 38 7f 29 b8     addi       r3=>DAT_82e6941c,r31,0x29b8
+        827eb0dc 4b c3 6c 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb0e0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb0e4 38 80 01 0c     li         r4,0x10c
+        827eb0e8 38 ab bc 38     subi       r5=>s_bl_sencer04_820cbc38,r11,0x43c8            = "bl_sencer04"
+        827eb0ec 38 7f 29 e0     addi       r3=>DAT_82e69444,r31,0x29e0
+        827eb0f0 4b c3 6b f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb0f4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb0f8 38 80 01 0d     li         r4,0x10d
+        827eb0fc 38 ab bc 2c     subi       r5=>s_bl_shine_820cbc2c,r11,0x43d4               = "bl_shine"
+        827eb100 38 7f 2a 08     addi       r3=>DAT_82e6946c,r31,0x2a08
+        827eb104 4b c3 6b dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb108 3d 60 82 0d     lis        r11,-0x7df3
+        827eb10c 38 80 01 0e     li         r4,0x10e
+        827eb110 38 ab bc 20     subi       r5=>s_bl_shutt01a_820cbc20,r11,0x43e0            = "bl_shutt01a"
+        827eb114 38 7f 2a 30     addi       r3=>DAT_82e69494,r31,0x2a30
+        827eb118 4b c3 6b c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb11c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb120 38 80 01 0f     li         r4,0x10f
+        827eb124 38 ab bc 14     subi       r5=>s_bl_shutt01b_820cbc14,r11,0x43ec            = "bl_shutt01b"
+        827eb128 38 7f 2a 58     addi       r3=>DAT_82e694bc,r31,0x2a58
+        827eb12c 4b c3 6b b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb130 3d 60 82 0d     lis        r11,-0x7df3
+        827eb134 38 80 01 10     li         r4,0x110
+        827eb138 38 ab bc 08     subi       r5=>s_bl_shutt01c_820cbc08,r11,0x43f8            = "bl_shutt01c"
+        827eb13c 38 7f 2a 80     addi       r3=>DAT_82e694e4,r31,0x2a80
+        827eb140 4b c3 6b a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb144 3d 60 82 0d     lis        r11,-0x7df3
+        827eb148 38 80 01 11     li         r4,0x111
+        827eb14c 38 ab bb fc     subi       r5=>s_bl_shutt01d_820cbbfc,r11,0x4404            = "bl_shutt01d"
+        827eb150 38 7f 2a a8     addi       r3=>DAT_82e6950c,r31,0x2aa8
+        827eb154 4b c3 6b 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb158 3d 60 82 0d     lis        r11,-0x7df3
+        827eb15c 38 80 01 12     li         r4,0x112
+        827eb160 38 ab bb f0     subi       r5=>s_bl_shutt02a_820cbbf0,r11,0x4410            = "bl_shutt02a"
+        827eb164 38 7f 2a d0     addi       r3=>DAT_82e69534,r31,0x2ad0
+        827eb168 4b c3 6b 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb16c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb170 38 80 01 13     li         r4,0x113
+        827eb174 38 ab bb e4     subi       r5=>s_bl_shutt02b_820cbbe4,r11,0x441c            = "bl_shutt02b"
+        827eb178 38 7f 2a f8     addi       r3=>DAT_82e6955c,r31,0x2af8
+        827eb17c 4b c3 6b 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb180 3d 60 82 0d     lis        r11,-0x7df3
+        827eb184 38 80 01 14     li         r4,0x114
+        827eb188 38 ab bb d8     subi       r5=>s_bl_shutt02c_820cbbd8,r11,0x4428            = "bl_shutt02c"
+        827eb18c 38 7f 2b 20     addi       r3=>DAT_82e69584,r31,0x2b20
+        827eb190 4b c3 6b 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb194 3d 60 82 0d     lis        r11,-0x7df3
+        827eb198 38 80 01 15     li         r4,0x115
+        827eb19c 38 ab bb cc     subi       r5=>s_bl_shutt02d_820cbbcc,r11,0x4434            = "bl_shutt02d"
+        827eb1a0 38 7f 2b 48     addi       r3=>DAT_82e695ac,r31,0x2b48
+        827eb1a4 4b c3 6b 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb1a8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb1ac 38 80 01 16     li         r4,0x116
+        827eb1b0 38 ab bb c0     subi       r5=>s_bl_ten01_820cbbc0,r11,0x4440               = "bl_ten01"
+        827eb1b4 38 7f 2b 70     addi       r3=>DAT_82e695d4,r31,0x2b70
+        827eb1b8 4b c3 6b 29     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb1bc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb1c0 38 80 01 17     li         r4,0x117
+        827eb1c4 38 ab bb b0     subi       r5=>s_bl_tesuri_upp01_820cbbb0,r11,0x4450        = "bl_tesuri_upp01"
+        827eb1c8 38 7f 2b 98     addi       r3=>DAT_82e695fc,r31,0x2b98
+        827eb1cc 4b c3 6b 15     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb1d0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb1d4 38 80 01 18     li         r4,0x118
+        827eb1d8 38 ab bb a0     subi       r5=>s_bl_tesuri_upp02_820cbba0,r11,0x4460        = "bl_tesuri_upp02"
+        827eb1dc 38 7f 2b c0     addi       r3=>DAT_82e69624,r31,0x2bc0
+        827eb1e0 4b c3 6b 01     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb1e4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb1e8 38 80 01 19     li         r4,0x119
+        827eb1ec 38 ab bb 90     subi       r5=>s_bl_tesuri_upp03_820cbb90,r11,0x4470        = "bl_tesuri_upp03"
+        827eb1f0 38 7f 2b e8     addi       r3=>DAT_82e6964c,r31,0x2be8
+        827eb1f4 4b c3 6a ed     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb1f8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb1fc 38 80 01 1a     li         r4,0x11a
+        827eb200 38 ab bb 80     subi       r5=>s_bl_tesuri_upp04_820cbb80,r11,0x4480        = "bl_tesuri_upp04"
+        827eb204 38 7f 2c 10     addi       r3=>DAT_82e69674,r31,0x2c10
+        827eb208 4b c3 6a d9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb20c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb210 38 80 01 1b     li         r4,0x11b
+        827eb214 38 ab bb 74     subi       r5=>s_bl_turo01_820cbb74,r11,0x448c              = "bl_turo01"
+        827eb218 38 7f 2c 38     addi       r3=>DAT_82e6969c,r31,0x2c38
+        827eb21c 4b c3 6a c5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb220 3d 60 82 0d     lis        r11,-0x7df3
+        827eb224 38 80 01 1c     li         r4,0x11c
+        827eb228 38 ab bb 68     subi       r5=>s_bl_wirebase_820cbb68,r11,0x4498            = "bl_wirebase"
+        827eb22c 38 7f 2c 60     addi       r3=>DAT_82e696c4,r31,0x2c60
+        827eb230 4b c3 6a b1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb234 3d 60 82 0d     lis        r11,-0x7df3
+        827eb238 38 80 01 1d     li         r4,0x11d
+        827eb23c 38 ab bb 5c     subi       r5=>s_ef_beams_820cbb5c,r11,0x44a4               = "ef_beams"
+        827eb240 38 7f 2c 88     addi       r3=>DAT_82e696ec,r31,0x2c88
+        827eb244 4b c3 6a 9d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb248 3d 60 82 0d     lis        r11,-0x7df3
+        827eb24c 38 80 01 1e     li         r4,0x11e
+        827eb250 38 ab bb 4c     subi       r5=>s_ef_bo_dengertex_820cbb4c,r11,0x44b4        = "ef_bo_dengertex"
+        827eb254 38 7f 2c b0     addi       r3=>DAT_82e69714,r31,0x2cb0
+        827eb258 4b c3 6a 89     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb25c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb260 38 80 01 1f     li         r4,0x11f
+        827eb264 38 ab bb 44     subi       r5=>s_ef_col_820cbb44,r11,0x44bc                 = "ef_col"
+        827eb268 38 7f 2c d8     addi       r3=>DAT_82e6973c,r31,0x2cd8
+        827eb26c 4b c3 6a 75     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb270 3d 60 82 0d     lis        r11,-0x7df3
+        827eb274 38 80 01 20     li         r4,0x120
+        827eb278 38 ab bb 3c     subi       r5=>s_ef_exp_820cbb3c,r11,0x44c4                 = "ef_exp"
+        827eb27c 38 7f 2d 00     addi       r3=>DAT_82e69764,r31,0x2d00
+        827eb280 4b c3 6a 61     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb284 3d 60 82 0d     lis        r11,-0x7df3
+        827eb288 38 80 01 21     li         r4,0x121
+        827eb28c 38 ab bb 2c     subi       r5=>s_ef_fl_smoke_a_820cbb2c,r11,0x44d4          = "ef_fl_smoke_a"
+        827eb290 38 7f 2d 28     addi       r3=>DAT_82e6978c,r31,0x2d28
+        827eb294 4b c3 6a 4d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb298 3d 60 82 0d     lis        r11,-0x7df3
+        827eb29c 38 80 01 22     li         r4,0x122
+        827eb2a0 38 ab bb 1c     subi       r5=>s_ef_fl_smoke_b_820cbb1c,r11,0x44e4          = "ef_fl_smoke_b"
+        827eb2a4 38 7f 2d 50     addi       r3=>DAT_82e697b4,r31,0x2d50
+        827eb2a8 4b c3 6a 39     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb2ac 3d 60 82 0d     lis        r11,-0x7df3
+        827eb2b0 38 ab bb 0c     subi       r5=>s_ef_fl_smoke_c_820cbb0c,r11,0x44f4          = "ef_fl_smoke_c"
+        827eb2b4 38 80 01 23     li         r4,0x123
+        827eb2b8 38 7f 2d 78     addi       r3=>DAT_82e697dc,r31,0x2d78
+        827eb2bc 4b c3 6a 25     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb2c0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb2c4 38 80 01 24     li         r4,0x124
+        827eb2c8 38 ab bb 00     subi       r5=>s_ef_focus_820cbb00,r11,0x4500               = "ef_focus"
+        827eb2cc 38 7f 2d a0     addi       r3=>DAT_82e69804,r31,0x2da0
+        827eb2d0 4b c3 6a 11     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb2d4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb2d8 38 80 01 25     li         r4,0x125
+        827eb2dc 38 ab ba f0     subi       r5=>s_ef_font_circle_820cbaf0,r11,0x4510         = "ef_font_circle"
+        827eb2e0 38 7f 2d c8     addi       r3=>DAT_82e6982c,r31,0x2dc8
+        827eb2e4 4b c3 69 fd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb2e8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb2ec 38 80 01 26     li         r4,0x126
+        827eb2f0 38 ab ba e0     subi       r5=>s_ef_glassback_820cbae0,r11,0x4520           = "ef_glassback"
+        827eb2f4 38 7f 2d f0     addi       r3=>DAT_82e69854,r31,0x2df0
+        827eb2f8 4b c3 69 e9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb2fc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb300 38 80 01 27     li         r4,0x127
+        827eb304 38 ab ba d4     subi       r5=>s_ef_lchip01_820cbad4,r11,0x452c             = "ef_lchip01"
+        827eb308 38 7f 2e 18     addi       r3=>DAT_82e6987c,r31,0x2e18
+        827eb30c 4b c3 69 d5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb310 3d 60 82 0d     lis        r11,-0x7df3
+        827eb314 38 80 01 28     li         r4,0x128
+        827eb318 38 ab ba c8     subi       r5=>s_ef_lchip02_820cbac8,r11,0x4538             = "ef_lchip02"
+        827eb31c 38 7f 2e 40     addi       r3=>DAT_82e698a4,r31,0x2e40
+        827eb320 4b c3 69 c1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb324 3d 60 82 0d     lis        r11,-0x7df3
+        827eb328 38 80 01 29     li         r4,0x129
+        827eb32c 38 ab ba bc     subi       r5=>s_ef_lchip03_820cbabc,r11,0x4544             = "ef_lchip03"
+        827eb330 38 7f 2e 68     addi       r3=>DAT_82e698cc,r31,0x2e68
+        827eb334 4b c3 69 ad     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb338 3d 60 82 0d     lis        r11,-0x7df3
+        827eb33c 38 80 01 2a     li         r4,0x12a
+        827eb340 38 ab ba b0     subi       r5=>s_ef_lchip04_820cbab0,r11,0x4550             = "ef_lchip04"
+        827eb344 38 7f 2e 90     addi       r3=>DAT_82e698f4,r31,0x2e90
+        827eb348 4b c3 69 99     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb34c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb350 38 80 01 2b     li         r4,0x12b
+        827eb354 38 ab ba a4     subi       r5=>s_ef_lchip05_820cbaa4,r11,0x455c             = "ef_lchip05"
+        827eb358 38 7f 2e b8     addi       r3=>DAT_82e6991c,r31,0x2eb8
+        827eb35c 4b c3 69 85     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb360 3d 60 82 0d     lis        r11,-0x7df3
+        827eb364 38 80 01 2c     li         r4,0x12c
+        827eb368 38 ab ba 98     subi       r5=>s_ef_lchip06_820cba98,r11,0x4568             = "ef_lchip06"
+        827eb36c 38 7f 2e e0     addi       r3=>DAT_82e69944,r31,0x2ee0
+        827eb370 4b c3 69 71     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb374 3d 60 82 0d     lis        r11,-0x7df3
+        827eb378 38 80 01 2d     li         r4,0x12d
+        827eb37c 38 ab ba 8c     subi       r5=>s_ef_lchip07_820cba8c,r11,0x4574             = "ef_lchip07"
+        827eb380 38 7f 2f 08     addi       r3=>DAT_82e6996c,r31,0x2f08
+        827eb384 4b c3 69 5d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb388 3d 60 82 0d     lis        r11,-0x7df3
+        827eb38c 38 80 01 2e     li         r4,0x12e
+        827eb390 38 ab ba 80     subi       r5=>s_ef_lchip08_820cba80,r11,0x4580             = "ef_lchip08"
+        827eb394 38 7f 2f 30     addi       r3=>DAT_82e69994,r31,0x2f30
+        827eb398 4b c3 69 49     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb39c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb3a0 38 80 01 2f     li         r4,0x12f
+        827eb3a4 38 ab ba 74     subi       r5=>s_ef_lchip09_820cba74,r11,0x458c             = "ef_lchip09"
+        827eb3a8 38 7f 2f 58     addi       r3=>DAT_82e699bc,r31,0x2f58
+        827eb3ac 4b c3 69 35     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb3b0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb3b4 38 80 01 30     li         r4,0x130
+        827eb3b8 38 ab ba 68     subi       r5=>s_ef_lchip10_820cba68,r11,0x4598             = "ef_lchip10"
+        827eb3bc 38 7f 2f 80     addi       r3=>DAT_82e699e4,r31,0x2f80
+        827eb3c0 4b c3 69 21     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb3c4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb3c8 38 80 01 31     li         r4,0x131
+        827eb3cc 38 ab ba 5c     subi       r5=>s_ef_lchip11_820cba5c,r11,0x45a4             = "ef_lchip11"
+        827eb3d0 38 7f 2f a8     addi       r3=>DAT_82e69a0c,r31,0x2fa8
+        827eb3d4 4b c3 69 0d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb3d8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb3dc 38 80 01 32     li         r4,0x132
+        827eb3e0 38 ab ba 50     subi       r5=>s_ef_lchip12_820cba50,r11,0x45b0             = "ef_lchip12"
+        827eb3e4 38 7f 2f d0     addi       r3=>DAT_82e69a34,r31,0x2fd0
+        827eb3e8 4b c3 68 f9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb3ec 3d 60 82 0d     lis        r11,-0x7df3
+        827eb3f0 38 ab ba 44     subi       r5=>s_ef_lchip13_820cba44,r11,0x45bc             = "ef_lchip13"
+        827eb3f4 38 80 01 33     li         r4,0x133
+        827eb3f8 38 7f 2f f8     addi       r3=>DAT_82e69a5c,r31,0x2ff8
+        827eb3fc 4b c3 68 e5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb400 3d 60 82 0d     lis        r11,-0x7df3
+        827eb404 38 80 01 34     li         r4,0x134
+        827eb408 38 ab ba 38     subi       r5=>s_ef_lchip14_820cba38,r11,0x45c8             = "ef_lchip14"
+        827eb40c 38 7f 30 20     addi       r3=>DAT_82e69a84,r31,0x3020
+        827eb410 4b c3 68 d1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb414 3d 60 82 0d     lis        r11,-0x7df3
+        827eb418 38 80 01 35     li         r4,0x135
+        827eb41c 38 ab ba 2c     subi       r5=>s_ef_lchip15_820cba2c,r11,0x45d4             = "ef_lchip15"
+        827eb420 38 7f 30 48     addi       r3=>DAT_82e69aac,r31,0x3048
+        827eb424 4b c3 68 bd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb428 3d 60 82 0d     lis        r11,-0x7df3
+        827eb42c 38 80 01 36     li         r4,0x136
+        827eb430 38 ab ba 20     subi       r5=>s_ef_lchip16_820cba20,r11,0x45e0             = "ef_lchip16"
+        827eb434 38 7f 30 70     addi       r3=>DAT_82e69ad4,r31,0x3070
+        827eb438 4b c3 68 a9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb43c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb440 38 80 01 37     li         r4,0x137
+        827eb444 38 ab ba 14     subi       r5=>s_ef_lchip17_820cba14,r11,0x45ec             = "ef_lchip17"
+        827eb448 38 7f 30 98     addi       r3=>DAT_82e69afc,r31,0x3098
+        827eb44c 4b c3 68 95     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb450 3d 60 82 0d     lis        r11,-0x7df3
+        827eb454 38 80 01 38     li         r4,0x138
+        827eb458 38 ab ba 08     subi       r5=>s_ef_lchip18_820cba08,r11,0x45f8             = "ef_lchip18"
+        827eb45c 38 7f 30 c0     addi       r3=>DAT_82e69b24,r31,0x30c0
+        827eb460 4b c3 68 81     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb464 3d 60 82 0d     lis        r11,-0x7df3
+        827eb468 38 80 01 39     li         r4,0x139
+        827eb46c 38 ab b9 fc     subi       r5=>s_ef_lchip19_820cb9fc,r11,0x4604             = "ef_lchip19"
+        827eb470 38 7f 30 e8     addi       r3=>DAT_82e69b4c,r31,0x30e8
+        827eb474 4b c3 68 6d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb478 3d 60 82 0d     lis        r11,-0x7df3
+        827eb47c 38 80 01 3a     li         r4,0x13a
+        827eb480 38 ab b9 f0     subi       r5=>s_ef_lchip20_820cb9f0,r11,0x4610             = "ef_lchip20"
+        827eb484 38 7f 31 10     addi       r3=>DAT_82e69b74,r31,0x3110
+        827eb488 4b c3 68 59     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb48c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb490 38 80 01 3b     li         r4,0x13b
+        827eb494 38 ab b9 e4     subi       r5=>s_ef_lchip21_820cb9e4,r11,0x461c             = "ef_lchip21"
+        827eb498 38 7f 31 38     addi       r3=>DAT_82e69b9c,r31,0x3138
+        827eb49c 4b c3 68 45     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb4a0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb4a4 38 80 01 3c     li         r4,0x13c
+        827eb4a8 38 ab b9 d8     subi       r5=>s_ef_lchip22_820cb9d8,r11,0x4628             = "ef_lchip22"
+        827eb4ac 38 7f 31 60     addi       r3=>DAT_82e69bc4,r31,0x3160
+        827eb4b0 4b c3 68 31     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb4b4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb4b8 38 80 01 3d     li         r4,0x13d
+        827eb4bc 38 ab b9 cc     subi       r5=>s_ef_lchip23_820cb9cc,r11,0x4634             = "ef_lchip23"
+        827eb4c0 38 7f 31 88     addi       r3=>DAT_82e69bec,r31,0x3188
+        827eb4c4 4b c3 68 1d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb4c8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb4cc 38 80 01 3e     li         r4,0x13e
+        827eb4d0 38 ab b9 c0     subi       r5=>s_ef_lchip24_820cb9c0,r11,0x4640             = "ef_lchip24"
+        827eb4d4 38 7f 31 b0     addi       r3=>DAT_82e69c14,r31,0x31b0
+        827eb4d8 4b c3 68 09     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb4dc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb4e0 38 80 01 3f     li         r4,0x13f
+        827eb4e4 38 ab b9 b4     subi       r5=>s_ef_lchip25_820cb9b4,r11,0x464c             = "ef_lchip25"
+        827eb4e8 38 7f 31 d8     addi       r3=>DAT_82e69c3c,r31,0x31d8
+        827eb4ec 4b c3 67 f5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb4f0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb4f4 38 80 01 40     li         r4,0x140
+        827eb4f8 38 ab b9 a8     subi       r5=>s_ef_lchip26_820cb9a8,r11,0x4658             = "ef_lchip26"
+        827eb4fc 38 7f 32 00     addi       r3=>DAT_82e69c64,r31,0x3200
+        827eb500 4b c3 67 e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb504 3d 60 82 0d     lis        r11,-0x7df3
+        827eb508 38 80 01 41     li         r4,0x141
+        827eb50c 38 ab b9 9c     subi       r5=>s_ef_lchip27_820cb99c,r11,0x4664             = "ef_lchip27"
+        827eb510 38 7f 32 28     addi       r3=>DAT_82e69c8c,r31,0x3228
+        827eb514 4b c3 67 cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb518 3d 60 82 0d     lis        r11,-0x7df3
+        827eb51c 38 80 01 42     li         r4,0x142
+        827eb520 38 ab b9 90     subi       r5=>s_ef_lchip28_820cb990,r11,0x4670             = "ef_lchip28"
+        827eb524 38 7f 32 50     addi       r3=>DAT_82e69cb4,r31,0x3250
+        827eb528 4b c3 67 b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb52c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb530 38 80 01 43     li         r4,0x143
+        827eb534 38 ab b9 84     subi       r5=>s_ef_lchip29_820cb984,r11,0x467c             = "ef_lchip29"
+        827eb538 38 7f 32 78     addi       r3=>DAT_82e69cdc,r31,0x3278
+        827eb53c 4b c3 67 a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb540 3d 60 82 0d     lis        r11,-0x7df3
+        827eb544 38 80 01 44     li         r4,0x144
+        827eb548 38 ab b9 78     subi       r5=>s_ef_lchip30_820cb978,r11,0x4688             = "ef_lchip30"
+        827eb54c 38 7f 32 a0     addi       r3=>DAT_82e69d04,r31,0x32a0
+        827eb550 4b c3 67 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb554 3d 60 82 0d     lis        r11,-0x7df3
+        827eb558 38 80 01 45     li         r4,0x145
+        827eb55c 38 ab b9 6c     subi       r5=>s_ef_lchip31_820cb96c,r11,0x4694             = "ef_lchip31"
+        827eb560 38 7f 32 c8     addi       r3=>DAT_82e69d2c,r31,0x32c8
+        827eb564 4b c3 67 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb568 3d 60 82 0d     lis        r11,-0x7df3
+        827eb56c 38 80 01 46     li         r4,0x146
+        827eb570 38 ab b9 60     subi       r5=>s_ef_lchip32_820cb960,r11,0x46a0             = "ef_lchip32"
+        827eb574 38 7f 32 f0     addi       r3=>DAT_82e69d54,r31,0x32f0
+        827eb578 4b c3 67 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb57c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb580 38 80 01 47     li         r4,0x147
+        827eb584 38 ab b9 54     subi       r5=>s_ef_lchip33_820cb954,r11,0x46ac             = "ef_lchip33"
+        827eb588 38 7f 33 18     addi       r3=>DAT_82e69d7c,r31,0x3318
+        827eb58c 4b c3 67 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb590 3d 60 82 0d     lis        r11,-0x7df3
+        827eb594 38 80 01 48     li         r4,0x148
+        827eb598 38 ab b9 48     subi       r5=>s_ef_lchip34_820cb948,r11,0x46b8             = "ef_lchip34"
+        827eb59c 38 7f 33 40     addi       r3=>DAT_82e69da4,r31,0x3340
+        827eb5a0 4b c3 67 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb5a4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb5a8 38 80 01 49     li         r4,0x149
+        827eb5ac 38 ab b9 3c     subi       r5=>s_ef_lchip35_820cb93c,r11,0x46c4             = "ef_lchip35"
+        827eb5b0 38 7f 33 68     addi       r3=>DAT_82e69dcc,r31,0x3368
+        827eb5b4 4b c3 67 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb5b8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb5bc 38 80 01 4a     li         r4,0x14a
+        827eb5c0 38 ab b9 30     subi       r5=>s_ef_lchip36_820cb930,r11,0x46d0             = "ef_lchip36"
+        827eb5c4 38 7f 33 90     addi       r3=>DAT_82e69df4,r31,0x3390
+        827eb5c8 4b c3 67 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb5cc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb5d0 38 80 01 4b     li         r4,0x14b
+        827eb5d4 38 ab b9 24     subi       r5=>s_ef_lchip37_820cb924,r11,0x46dc             = "ef_lchip37"
+        827eb5d8 38 7f 33 b8     addi       r3=>DAT_82e69e1c,r31,0x33b8
+        827eb5dc 4b c3 67 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb5e0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb5e4 38 80 01 4c     li         r4,0x14c
+        827eb5e8 38 ab b9 18     subi       r5=>s_ef_lchip38_820cb918,r11,0x46e8             = "ef_lchip38"
+        827eb5ec 38 7f 33 e0     addi       r3=>DAT_82e69e44,r31,0x33e0
+        827eb5f0 4b c3 66 f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb5f4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb5f8 38 80 01 4d     li         r4,0x14d
+        827eb5fc 38 ab b9 0c     subi       r5=>s_ef_lchip39_820cb90c,r11,0x46f4             = "ef_lchip39"
+        827eb600 38 7f 34 08     addi       r3=>DAT_82e69e6c,r31,0x3408
+        827eb604 4b c3 66 dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb608 3d 60 82 0d     lis        r11,-0x7df3
+        827eb60c 38 80 01 4e     li         r4,0x14e
+        827eb610 38 ab b9 00     subi       r5=>s_ef_lchip40_820cb900,r11,0x4700             = "ef_lchip40"
+        827eb614 38 7f 34 30     addi       r3=>DAT_82e69e94,r31,0x3430
+        827eb618 4b c3 66 c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb61c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb620 38 80 01 4f     li         r4,0x14f
+        827eb624 38 ab b8 f4     subi       r5=>s_ef_lchip41_820cb8f4,r11,0x470c             = "ef_lchip41"
+        827eb628 38 7f 34 58     addi       r3=>DAT_82e69ebc,r31,0x3458
+        827eb62c 4b c3 66 b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb630 3d 60 82 0d     lis        r11,-0x7df3
+        827eb634 38 80 01 50     li         r4,0x150
+        827eb638 38 ab b8 e8     subi       r5=>s_ef_lchip42_820cb8e8,r11,0x4718             = "ef_lchip42"
+        827eb63c 38 7f 34 80     addi       r3=>DAT_82e69ee4,r31,0x3480
+        827eb640 4b c3 66 a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb644 3d 60 82 0d     lis        r11,-0x7df3
+        827eb648 38 80 01 51     li         r4,0x151
+        827eb64c 38 ab b8 dc     subi       r5=>s_ef_lchip43_820cb8dc,r11,0x4724             = "ef_lchip43"
+        827eb650 38 7f 34 a8     addi       r3=>DAT_82e69f0c,r31,0x34a8
+        827eb654 4b c3 66 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb658 3d 60 82 0d     lis        r11,-0x7df3
+        827eb65c 38 80 01 52     li         r4,0x152
+        827eb660 38 ab b8 d0     subi       r5=>s_ef_lchip44_820cb8d0,r11,0x4730             = "ef_lchip44"
+        827eb664 38 7f 34 d0     addi       r3=>DAT_82e69f34,r31,0x34d0
+        827eb668 4b c3 66 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb66c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb670 38 80 01 53     li         r4,0x153
+        827eb674 38 ab b8 c4     subi       r5=>s_ef_lchip45_820cb8c4,r11,0x473c             = "ef_lchip45"
+        827eb678 38 7f 34 f8     addi       r3=>DAT_82e69f5c,r31,0x34f8
+        827eb67c 4b c3 66 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb680 3d 60 82 0d     lis        r11,-0x7df3
+        827eb684 38 80 01 54     li         r4,0x154
+        827eb688 38 ab b8 b8     subi       r5=>s_ef_lchip46_820cb8b8,r11,0x4748             = "ef_lchip46"
+        827eb68c 38 7f 35 20     addi       r3=>DAT_82e69f84,r31,0x3520
+        827eb690 4b c3 66 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb694 3d 60 82 0d     lis        r11,-0x7df3
+        827eb698 38 80 01 55     li         r4,0x155
+        827eb69c 38 ab b8 ac     subi       r5=>s_ef_oct_a_820cb8ac,r11,0x4754               = "ef_oct_a"
+        827eb6a0 38 7f 35 48     addi       r3=>DAT_82e69fac,r31,0x3548
+        827eb6a4 4b c3 66 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb6a8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb6ac 38 80 01 56     li         r4,0x156
+        827eb6b0 38 ab b8 a0     subi       r5=>s_ef_oct_b_820cb8a0,r11,0x4760               = "ef_oct_b"
+        827eb6b4 38 7f 35 70     addi       r3=>DAT_82e69fd4,r31,0x3570
+        827eb6b8 4b c3 66 29     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb6bc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb6c0 38 80 01 57     li         r4,0x157
+        827eb6c4 38 ab b8 90     subi       r5=>s_ef_par_biggrow_820cb890,r11,0x4770         = "ef_par_biggrow"
+        827eb6c8 38 7f 35 98     addi       r3=>DAT_82e69ffc,r31,0x3598
+        827eb6cc 4b c3 66 15     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb6d0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb6d4 38 80 01 58     li         r4,0x158
+        827eb6d8 38 ab b8 80     subi       r5=>s_ef_par_grow_a_820cb880,r11,0x4780          = "ef_par_grow_a"
+        827eb6dc 38 7f 35 c0     addi       r3=>DAT_82e6a024,r31,0x35c0
+        827eb6e0 4b c3 66 01     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb6e4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb6e8 38 80 01 59     li         r4,0x159
+        827eb6ec 38 ab b8 70     subi       r5=>s_ef_par_grow_b_820cb870,r11,0x4790          = "ef_par_grow_b"
+        827eb6f0 38 7f 35 e8     addi       r3=>DAT_82e6a04c,r31,0x35e8
+        827eb6f4 4b c3 65 ed     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb6f8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb6fc 38 80 01 5a     li         r4,0x15a
+        827eb700 38 ab b8 60     subi       r5=>s_ef_par_trail_820cb860,r11,0x47a0           = "ef_par_trail"
+        827eb704 38 7f 36 10     addi       r3=>DAT_82e6a074,r31,0x3610
+        827eb708 4b c3 65 d9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb70c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb710 38 80 01 5b     li         r4,0x15b
+        827eb714 38 ab b8 50     subi       r5=>s_ef_pipe_grow_820cb850,r11,0x47b0           = "ef_pipe_grow"
+        827eb718 38 7f 36 38     addi       r3=>DAT_82e6a09c,r31,0x3638
+        827eb71c 4b c3 65 c5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb720 3d 60 82 0d     lis        r11,-0x7df3
+        827eb724 38 80 01 5c     li         r4,0x15c
+        827eb728 38 ab b8 44     subi       r5=>s_ef_pnoises_820cb844,r11,0x47bc             = "ef_pnoises"
+        827eb72c 38 7f 36 60     addi       r3=>DAT_82e6a0c4,r31,0x3660
+        827eb730 4b c3 65 b1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb734 3d 60 82 0d     lis        r11,-0x7df3
+        827eb738 38 80 01 5d     li         r4,0x15d
+        827eb73c 38 ab b8 38     subi       r5=>s_ef_rendimg_820cb838,r11,0x47c8             = "ef_rendimg"
+        827eb740 38 7f 36 88     addi       r3=>DAT_82e6a0ec,r31,0x3688
+        827eb744 4b c3 65 9d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb748 3d 60 82 0d     lis        r11,-0x7df3
+        827eb74c 38 80 01 5e     li         r4,0x15e
+        827eb750 38 ab b8 2c     subi       r5=>s_ef_rendimg2_820cb82c,r11,0x47d4            = "ef_rendimg2"
+        827eb754 38 7f 36 b0     addi       r3=>DAT_82e6a114,r31,0x36b0
+        827eb758 4b c3 65 89     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb75c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb760 38 80 01 5f     li         r4,0x15f
+        827eb764 38 ab b8 1c     subi       r5=>s_ef_rendimghq_820cb81c,r11,0x47e4           = "ef_rendimghq"
+        827eb768 38 7f 36 d8     addi       r3=>DAT_82e6a13c,r31,0x36d8
+        827eb76c 4b c3 65 75     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb770 3d 60 82 0d     lis        r11,-0x7df3
+        827eb774 38 80 01 60     li         r4,0x160
+        827eb778 38 ab b8 0c     subi       r5=>s_ef_rendimghq2_820cb80c,r11,0x47f4          = "ef_rendimghq2"
+        827eb77c 38 7f 37 00     addi       r3=>DAT_82e6a164,r31,0x3700
+        827eb780 4b c3 65 61     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb784 3d 60 82 0d     lis        r11,-0x7df3
+        827eb788 38 80 01 61     li         r4,0x161
+        827eb78c 38 ab b7 fc     subi       r5=>s_ef_ring01_cr1_820cb7fc,r11,0x4804          = "ef_ring01_cr1"
+        827eb790 38 7f 37 28     addi       r3=>DAT_82e6a18c,r31,0x3728
+        827eb794 4b c3 65 4d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb798 3d 60 82 0d     lis        r11,-0x7df3
+        827eb79c 38 80 01 62     li         r4,0x162
+        827eb7a0 38 ab b7 ec     subi       r5=>s_ef_ring01_cr2_820cb7ec,r11,0x4814          = "ef_ring01_cr2"
+        827eb7a4 38 7f 37 50     addi       r3=>DAT_82e6a1b4,r31,0x3750
+        827eb7a8 4b c3 65 39     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb7ac 3d 60 82 0d     lis        r11,-0x7df3
+        827eb7b0 38 80 01 63     li         r4,0x163
+        827eb7b4 38 ab b7 dc     subi       r5=>s_ef_ring01_cr3_820cb7dc,r11,0x4824          = "ef_ring01_cr3"
+        827eb7b8 38 7f 37 78     addi       r3=>DAT_82e6a1dc,r31,0x3778
+        827eb7bc 4b c3 65 25     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb7c0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb7c4 38 80 01 64     li         r4,0x164
+        827eb7c8 38 ab b7 cc     subi       r5=>s_ef_ring02_cr1_820cb7cc,r11,0x4834          = "ef_ring02_cr1"
+        827eb7cc 38 7f 37 a0     addi       r3=>DAT_82e6a204,r31,0x37a0
+        827eb7d0 4b c3 65 11     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb7d4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb7d8 38 80 01 65     li         r4,0x165
+        827eb7dc 38 ab b7 bc     subi       r5=>s_ef_ring02_cr2_820cb7bc,r11,0x4844          = "ef_ring02_cr2"
+        827eb7e0 38 7f 37 c8     addi       r3=>DAT_82e6a22c,r31,0x37c8
+        827eb7e4 4b c3 64 fd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb7e8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb7ec 38 80 01 66     li         r4,0x166
+        827eb7f0 38 ab b7 ac     subi       r5=>s_ef_ring02_cr3_820cb7ac,r11,0x4854          = "ef_ring02_cr3"
+        827eb7f4 38 7f 37 f0     addi       r3=>DAT_82e6a254,r31,0x37f0
+        827eb7f8 4b c3 64 e9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb7fc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb800 38 80 01 67     li         r4,0x167
+        827eb804 38 ab b7 a0     subi       r5=>s_ef_sc_par_820cb7a0,r11,0x4860              = "ef_sc_par"
+        827eb808 38 7f 38 18     addi       r3=>DAT_82e6a27c,r31,0x3818
+        827eb80c 4b c3 64 d5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb810 3d 60 82 0d     lis        r11,-0x7df3
+        827eb814 38 80 01 68     li         r4,0x168
+        827eb818 38 ab b7 94     subi       r5=>s_ef_schip01_820cb794,r11,0x486c             = "ef_schip01"
+        827eb81c 38 7f 38 40     addi       r3=>DAT_82e6a2a4,r31,0x3840
+        827eb820 4b c3 64 c1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb824 3d 60 82 0d     lis        r11,-0x7df3
+        827eb828 38 80 01 69     li         r4,0x169
+        827eb82c 38 ab b7 88     subi       r5=>s_ef_schip02_820cb788,r11,0x4878             = "ef_schip02"
+        827eb830 38 7f 38 68     addi       r3=>DAT_82e6a2cc,r31,0x3868
+        827eb834 4b c3 64 ad     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb838 3d 60 82 0d     lis        r11,-0x7df3
+        827eb83c 38 80 01 6a     li         r4,0x16a
+        827eb840 38 ab b7 7c     subi       r5=>s_ef_schip03_820cb77c,r11,0x4884             = "ef_schip03"
+        827eb844 38 7f 38 90     addi       r3=>DAT_82e6a2f4,r31,0x3890
+        827eb848 4b c3 64 99     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb84c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb850 38 80 01 6b     li         r4,0x16b
+        827eb854 38 ab b7 70     subi       r5=>s_ef_schip04_820cb770,r11,0x4890             = "ef_schip04"
+        827eb858 38 7f 38 b8     addi       r3=>DAT_82e6a31c,r31,0x38b8
+        827eb85c 4b c3 64 85     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb860 3d 60 82 0d     lis        r11,-0x7df3
+        827eb864 38 80 01 6c     li         r4,0x16c
+        827eb868 38 ab b7 64     subi       r5=>s_ef_schip05_820cb764,r11,0x489c             = "ef_schip05"
+        827eb86c 38 7f 38 e0     addi       r3=>DAT_82e6a344,r31,0x38e0
+        827eb870 4b c3 64 71     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb874 3d 60 82 0d     lis        r11,-0x7df3
+        827eb878 38 80 01 6d     li         r4,0x16d
+        827eb87c 38 ab b7 58     subi       r5=>s_ef_schip06_820cb758,r11,0x48a8             = "ef_schip06"
+        827eb880 38 7f 39 08     addi       r3=>DAT_82e6a36c,r31,0x3908
+        827eb884 4b c3 64 5d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb888 3d 60 82 0d     lis        r11,-0x7df3
+        827eb88c 38 80 01 6e     li         r4,0x16e
+        827eb890 38 ab b7 4c     subi       r5=>s_ef_schip07_820cb74c,r11,0x48b4             = "ef_schip07"
+        827eb894 38 7f 39 30     addi       r3=>DAT_82e6a394,r31,0x3930
+        827eb898 4b c3 64 49     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb89c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb8a0 38 80 01 6f     li         r4,0x16f
+        827eb8a4 38 ab b7 40     subi       r5=>s_ef_schip08_820cb740,r11,0x48c0             = "ef_schip08"
+        827eb8a8 38 7f 39 58     addi       r3=>DAT_82e6a3bc,r31,0x3958
+        827eb8ac 4b c3 64 35     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb8b0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb8b4 38 80 01 70     li         r4,0x170
+        827eb8b8 38 ab b7 34     subi       r5=>s_ef_schip09_820cb734,r11,0x48cc             = "ef_schip09"
+        827eb8bc 38 7f 39 80     addi       r3=>DAT_82e6a3e4,r31,0x3980
+        827eb8c0 4b c3 64 21     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb8c4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb8c8 38 80 01 71     li         r4,0x171
+        827eb8cc 38 ab b7 28     subi       r5=>s_ef_schip10_820cb728,r11,0x48d8             = "ef_schip10"
+        827eb8d0 38 7f 39 a8     addi       r3=>DAT_82e6a40c,r31,0x39a8
+        827eb8d4 4b c3 64 0d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb8d8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb8dc 38 80 01 72     li         r4,0x172
+        827eb8e0 38 ab b7 1c     subi       r5=>s_ef_schip11_820cb71c,r11,0x48e4             = "ef_schip11"
+        827eb8e4 38 7f 39 d0     addi       r3=>DAT_82e6a434,r31,0x39d0
+        827eb8e8 4b c3 63 f9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb8ec 3d 60 82 0d     lis        r11,-0x7df3
+        827eb8f0 38 80 01 73     li         r4,0x173
+        827eb8f4 38 ab b7 10     subi       r5=>s_ef_schip12_820cb710,r11,0x48f0             = "ef_schip12"
+        827eb8f8 38 7f 39 f8     addi       r3=>DAT_82e6a45c,r31,0x39f8
+        827eb8fc 4b c3 63 e5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb900 3d 60 82 0d     lis        r11,-0x7df3
+        827eb904 38 ab b7 04     subi       r5=>s_ef_schip13_820cb704,r11,0x48fc             = "ef_schip13"
+        827eb908 38 80 01 74     li         r4,0x174
+        827eb90c 38 7f 3a 20     addi       r3=>DAT_82e6a484,r31,0x3a20
+        827eb910 4b c3 63 d1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb914 3d 60 82 0d     lis        r11,-0x7df3
+        827eb918 38 80 01 75     li         r4,0x175
+        827eb91c 38 ab b6 f8     subi       r5=>s_ef_schip14_820cb6f8,r11,0x4908             = "ef_schip14"
+        827eb920 38 7f 3a 48     addi       r3=>DAT_82e6a4ac,r31,0x3a48
+        827eb924 4b c3 63 bd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb928 3d 60 82 0d     lis        r11,-0x7df3
+        827eb92c 38 80 01 76     li         r4,0x176
+        827eb930 38 ab b6 ec     subi       r5=>s_ef_schip15_820cb6ec,r11,0x4914             = "ef_schip15"
+        827eb934 38 7f 3a 70     addi       r3=>DAT_82e6a4d4,r31,0x3a70
+        827eb938 4b c3 63 a9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb93c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb940 38 80 01 77     li         r4,0x177
+        827eb944 38 ab b6 e0     subi       r5=>s_ef_schip16_820cb6e0,r11,0x4920             = "ef_schip16"
+        827eb948 38 7f 3a 98     addi       r3=>DAT_82e6a4fc,r31,0x3a98
+        827eb94c 4b c3 63 95     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb950 3d 60 82 0d     lis        r11,-0x7df3
+        827eb954 38 80 01 78     li         r4,0x178
+        827eb958 38 ab b6 d4     subi       r5=>s_ef_screen_820cb6d4,r11,0x492c              = "ef_screen"
+        827eb95c 38 7f 3a c0     addi       r3=>DAT_82e6a524,r31,0x3ac0
+        827eb960 4b c3 63 81     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb964 3d 60 82 0d     lis        r11,-0x7df3
+        827eb968 38 80 01 79     li         r4,0x179
+        827eb96c 38 ab b6 c4     subi       r5=>s_ef_spark_grow_820cb6c4,r11,0x493c          = "ef_spark_grow"
+        827eb970 38 7f 3a e8     addi       r3=>DAT_82e6a54c,r31,0x3ae8
+        827eb974 4b c3 63 6d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb978 3d 60 82 0d     lis        r11,-0x7df3
+        827eb97c 38 80 01 7a     li         r4,0x17a
+        827eb980 38 ab b6 b4     subi       r5=>s_ef_spark_par_820cb6b4,r11,0x494c           = "ef_spark_par"
+        827eb984 38 7f 3b 10     addi       r3=>DAT_82e6a574,r31,0x3b10
+        827eb988 4b c3 63 59     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb98c 3d 60 82 0d     lis        r11,-0x7df3
+        827eb990 38 80 01 7b     li         r4,0x17b
+        827eb994 38 ab b6 a4     subi       r5=>s_ef_spark_strak_820cb6a4,r11,0x495c         = "ef_spark_strak"
+        827eb998 38 7f 3b 38     addi       r3=>DAT_82e6a59c,r31,0x3b38
+        827eb99c 4b c3 63 45     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb9a0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb9a4 38 80 01 7c     li         r4,0x17c
+        827eb9a8 38 ab b6 98     subi       r5=>s_ef_typhoon_820cb698,r11,0x4968             = "ef_typhoon"
+        827eb9ac 38 7f 3b 60     addi       r3=>DAT_82e6a5c4,r31,0x3b60
+        827eb9b0 4b c3 63 31     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb9b4 3d 60 82 0d     lis        r11,-0x7df3
+        827eb9b8 38 80 01 7d     li         r4,0x17d
+        827eb9bc 38 ab b6 84     subi       r5=>s_ef_walldenger_tex_820cb684,r11,0x497c      = "ef_walldenger_tex"
+        827eb9c0 38 7f 3b 88     addi       r3=>DAT_82e6a5ec,r31,0x3b88
+        827eb9c4 4b c3 63 1d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb9c8 3d 60 82 0d     lis        r11,-0x7df3
+        827eb9cc 38 80 01 7e     li         r4,0x17e
+        827eb9d0 38 ab b6 74     subi       r5=>s_eff_capsule_uv_820cb674,r11,0x498c         = "eff_capsule_uv"
+        827eb9d4 38 7f 3b b0     addi       r3=>DAT_82e6a614,r31,0x3bb0
+        827eb9d8 4b c3 63 09     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb9dc 3d 60 82 0d     lis        r11,-0x7df3
+        827eb9e0 38 80 01 7f     li         r4,0x17f
+        827eb9e4 38 ab b6 64     subi       r5=>s_eff_particle_l_820cb664,r11,0x499c         = "eff_particle_l"
+        827eb9e8 38 7f 3b d8     addi       r3=>DAT_82e6a63c,r31,0x3bd8
+        827eb9ec 4b c3 62 f5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eb9f0 3d 60 82 0d     lis        r11,-0x7df3
+        827eb9f4 38 80 01 80     li         r4,0x180
+        827eb9f8 38 ab b6 54     subi       r5=>s_eff_particle_r_820cb654,r11,0x49ac         = "eff_particle_r"
+        827eb9fc 38 7f 3c 00     addi       r3=>DAT_82e6a664,r31,0x3c00
+        827eba00 4b c3 62 e1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba04 3d 60 82 0d     lis        r11,-0x7df3
+        827eba08 38 80 01 81     li         r4,0x181
+        827eba0c 38 ab b6 48     subi       r5=>s_eff_ringtex_820cb648,r11,0x49b8            = "eff_ringtex"
+        827eba10 38 7f 3c 28     addi       r3=>DAT_82e6a68c,r31,0x3c28
+        827eba14 4b c3 62 cd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba18 3d 60 82 0d     lis        r11,-0x7df3
+        827eba1c 38 80 01 82     li         r4,0x182
+        827eba20 38 ab b6 34     subi       r5=>s_eff_shutt_glow01_820cb634,r11,0x49cc       = "eff_shutt_glow01"
+        827eba24 38 7f 3c 50     addi       r3=>DAT_82e6a6b4,r31,0x3c50
+        827eba28 4b c3 62 b9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba2c 3d 60 82 0d     lis        r11,-0x7df3
+        827eba30 38 80 01 83     li         r4,0x183
+        827eba34 38 ab b6 20     subi       r5=>s_eff_shutt_glow02_820cb620,r11,0x49e0       = "eff_shutt_glow02"
+        827eba38 38 7f 3c 78     addi       r3=>DAT_82e6a6dc,r31,0x3c78
+        827eba3c 4b c3 62 a5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba40 3d 60 82 0d     lis        r11,-0x7df3
+        827eba44 38 ab b6 0c     subi       r5=>s_eff_shutt_glow03_820cb60c,r11,0x49f4       = "eff_shutt_glow03"
+        827eba48 38 80 01 84     li         r4,0x184
+        827eba4c 38 7f 3c a0     addi       r3=>DAT_82e6a704,r31,0x3ca0
+        827eba50 4b c3 62 91     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba54 3d 60 82 0d     lis        r11,-0x7df3
+        827eba58 38 80 01 85     li         r4,0x185
+        827eba5c 38 ab b5 f8     subi       r5=>s_eff_shutt_glow04_820cb5f8,r11,0x4a08       = "eff_shutt_glow04"
+        827eba60 38 7f 3c c8     addi       r3=>DAT_82e6a72c,r31,0x3cc8
+        827eba64 4b c3 62 7d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba68 3d 60 82 0d     lis        r11,-0x7df3
+        827eba6c 38 80 01 86     li         r4,0x186
+        827eba70 38 ab b5 e4     subi       r5=>s_eff_shutt_glow05_820cb5e4,r11,0x4a1c       = "eff_shutt_glow05"
+        827eba74 38 7f 3c f0     addi       r3=>DAT_82e6a754,r31,0x3cf0
+        827eba78 4b c3 62 69     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba7c 3d 60 82 0d     lis        r11,-0x7df3
+        827eba80 38 80 01 87     li         r4,0x187
+        827eba84 38 ab b5 d0     subi       r5=>s_eff_shutt_glow06_820cb5d0,r11,0x4a30       = "eff_shutt_glow06"
+        827eba88 38 7f 3d 18     addi       r3=>DAT_82e6a77c,r31,0x3d18
+        827eba8c 4b c3 62 55     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827eba90 3d 60 82 0d     lis        r11,-0x7df3
+        827eba94 38 80 01 88     li         r4,0x188
+        827eba98 38 ab b5 bc     subi       r5=>s_eff_shutt_glow07_820cb5bc,r11,0x4a44       = "eff_shutt_glow07"
+        827eba9c 38 7f 3d 40     addi       r3=>DAT_82e6a7a4,r31,0x3d40
+        827ebaa0 4b c3 62 41     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebaa4 3d 60 82 0d     lis        r11,-0x7df3
+        827ebaa8 38 80 01 89     li         r4,0x189
+        827ebaac 38 ab b5 a8     subi       r5=>s_eff_shutt_glow08_820cb5a8,r11,0x4a58       = "eff_shutt_glow08"
+        827ebab0 38 7f 3d 68     addi       r3=>DAT_82e6a7cc,r31,0x3d68
+        827ebab4 4b c3 62 2d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebab8 3d 60 82 0d     lis        r11,-0x7df3
+        827ebabc 38 80 01 8a     li         r4,0x18a
+        827ebac0 38 ab b5 94     subi       r5=>s_eff_water_surface_820cb594,r11,0x4a6c      = "eff_water_surface"
+        827ebac4 38 7f 3d 90     addi       r3=>DAT_82e6a7f4,r31,0x3d90
+        827ebac8 4b c3 62 19     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebacc 3d 60 82 0d     lis        r11,-0x7df3
+        827ebad0 38 80 01 8b     li         r4,0x18b
+        827ebad4 38 ab b5 8c     subi       r5=>s_fiare01_820cb58c,r11,0x4a74                = "fiare01"
+        827ebad8 38 7f 3d b8     addi       r3=>DAT_82e6a81c,r31,0x3db8
+        827ebadc 4b c3 62 05     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebae0 3d 60 82 0d     lis        r11,-0x7df3
+        827ebae4 38 80 01 8c     li         r4,0x18c
+        827ebae8 38 ab b5 84     subi       r5=>s_grid_820cb584,r11,0x4a7c                   = "grid"
+        827ebaec 38 7f 3d e0     addi       r3=>DAT_82e6a844,r31,0x3de0
+        827ebaf0 4b c3 61 f1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebaf4 3d 60 82 0d     lis        r11,-0x7df3
+        827ebaf8 38 80 01 8d     li         r4,0x18d
+        827ebafc 38 ab b5 78     subi       r5=>s_kaidan01_820cb578,r11,0x4a88               = "kaidan01"
+        827ebb00 38 7f 3e 08     addi       r3=>DAT_82e6a86c,r31,0x3e08
+        827ebb04 4b c3 61 dd     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb08 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb0c 38 80 01 8e     li         r4,0x18e
+        827ebb10 38 ab b5 6c     subi       r5=>s_y_glass1_820cb56c,r11,0x4a94               = "y_glass1"
+        827ebb14 38 7f 3e 30     addi       r3=>DAT_82e6a894,r31,0x3e30
+        827ebb18 4b c3 61 c9     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb1c 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb20 38 80 01 8f     li         r4,0x18f
+        827ebb24 38 ab b5 60     subi       r5=>s_z_fence01_820cb560,r11,0x4aa0              = "z_fence01"
+        827ebb28 38 7f 3e 58     addi       r3=>DAT_82e6a8bc,r31,0x3e58
+        827ebb2c 4b c3 61 b5     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb30 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb34 38 80 01 90     li         r4,0x190
+        827ebb38 38 ab b5 4c     subi       r5=>s_z_fence_foothold_820cb54c,r11,0x4ab4       = "z_fence_foothold"
+        827ebb3c 38 7f 3e 80     addi       r3=>DAT_82e6a8e4,r31,0x3e80
+        827ebb40 4b c3 61 a1     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb44 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb48 38 80 01 91     li         r4,0x191
+        827ebb4c 38 ab b5 40     subi       r5=>s_z_fence_low_820cb540,r11,0x4ac0            = "z_fence_low"
+        827ebb50 38 7f 3e a8     addi       r3=>DAT_82e6a90c,r31,0x3ea8
+        827ebb54 4b c3 61 8d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb58 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb5c 38 80 01 92     li         r4,0x192
+        827ebb60 38 ab b5 30     subi       r5=>s_z_fence_turo_820cb530,r11,0x4ad0           = "z_fence_turo"
+        827ebb64 38 7f 3e d0     addi       r3=>DAT_82e6a934,r31,0x3ed0
+        827ebb68 4b c3 61 79     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb6c 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb70 38 80 01 93     li         r4,0x193
+        827ebb74 38 ab b5 24     subi       r5=>s_z_glass1_820cb524,r11,0x4adc               = "z_glass1"
+        827ebb78 38 7f 3e f8     addi       r3=>DAT_82e6a95c,r31,0x3ef8
+        827ebb7c 4b c3 61 65     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb80 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb84 38 80 01 94     li         r4,0x194
+        827ebb88 38 ab b5 18     subi       r5=>s_z_glass2_820cb518,r11,0x4ae8               = "z_glass2"
+        827ebb8c 38 7f 3f 20     addi       r3=>DAT_82e6a984,r31,0x3f20
+        827ebb90 4b c3 61 51     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebb94 3d 60 82 0d     lis        r11,-0x7df3
+        827ebb98 38 80 01 95     li         r4,0x195
+        827ebb9c 38 ab b5 10     subi       r5=>s_z_ray01_820cb510,r11,0x4af0                = "z_ray01"
+        827ebba0 38 7f 3f 48     addi       r3=>DAT_82e6a9ac,r31,0x3f48
+        827ebba4 4b c3 61 3d     bl         FUN_82421ce0                                     undefined FUN_82421ce0()
+        827ebba8 38 21 00 60     addi       r1,r1,0x60
+        827ebbac 81 81 ff f8     lwz        r12,local_8(r1)
+        827ebbb0 7d 88 03 a6     mtspr      LR,r12
+        827ebbb4 eb e1 ff f0     ld         r31,local_10(r1)
+        827ebbb8 4e 80 00 20     blr
+        827ebbbc 00 00 00 00     ddw        0h
