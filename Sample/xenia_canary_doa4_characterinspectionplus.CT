@@ -507,7 +507,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>33</ID>
-      <Description>"No description"</Description>
+      <Description>"UpsideDownHead_P1_830201c2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830201c2</Address>
@@ -3538,6 +3538,23 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>18309886C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>472</ID>
+      <Description>"DAT_8341da10"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>18341da10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>473</ID>
+      <Description>"DAT_8341d550"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>18341d550</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
