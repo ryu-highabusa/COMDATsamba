@@ -1,0 +1,10 @@
+  <cheat desc="Show debug (BUGGY)">
+    <comment>Enable this only in a 3D fighting stage</comment>
+    <script state="on">
+      <action>temp0=maincpu.md@2768</action>
+      <action>maincpu.md@2768=090029a8</action>
+    </script>
+    <script state="off">
+      <action>maincpu.md@2768=temp0</action>
+    </script>
+  </cheat>
