@@ -3556,6 +3556,125 @@
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>18341d550</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>474</ID>
+      <Description>"DAT_82e5a158"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182e5a158</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>475</ID>
+      <Description>"DAT_83579874"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183579874</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>476</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182e62b80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>477</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>478</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B88</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>479</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>480</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>481</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>482</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>483</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62B9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>484</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62BA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>485</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62BA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>486</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62BA8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>487</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182E62BAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>488</ID>
+      <Description>"DAT_82e62b80"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182E62BB0</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
