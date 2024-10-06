@@ -1,0 +1,607 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall caseD_1(void)
+             undefined         g0:1           <RETURN>
+                             switchD_00002f28::caseD_1                       XREF[2]:     00002f28(j), 00002f30(*)  
+        00002f48 00 30 a0        ld         DAT_0054f3b4,g4
+                 90 b4 f3 
+                 54 00
+        00002f50 0c 20 05 3a     cmpibe     0x0,g4,LAB_00002f5c
+        00002f54 2c 06 00 09     call       FUN_00003580                                     undefined FUN_00003580(void)
+        00002f58 24 00 00 08     b          switchD_00002f28::caseD_5
+                             LAB_00002f5c                                    XREF[1]:     00002f50(j)  
+        00002f5c f4 07 00 09     call       FUN_00003750                                     undefined FUN_00003750(void)
+        00002f60 1c 00 00 08     b          switchD_00002f28::caseD_5
+                             switchD_00002f28::caseD_2                       XREF[2]:     00002f28(j), 00002f34(*)  
+        00002f64 8c 0a 00 09     call       FUN_000039f0                                     undefined FUN_000039f0(void)
+        00002f68 b8 1a 00 09     call       FUN_00004a20                                     undefined FUN_00004a20(void)
+        00002f6c 10 00 00 08     b          switchD_00002f28::caseD_5
+                             switchD_00002f28::caseD_3                       XREF[2]:     00002f28(j), 00002f38(*)  
+        00002f70 80 0e 00 09     call       FUN_00003df0                                     undefined FUN_00003df0(void)
+        00002f74 08 00 00 08     b          switchD_00002f28::caseD_5
+                             switchD_00002f28::caseD_4                       XREF[2]:     00002f28(j), 00002f3c(*)  
+        00002f78 98 0f 00 09     call       FUN_00003f10                                     undefined FUN_00003f10(void)
+                             switchD_00002f28::caseD_5                       XREF[7]:     00002f1c(j), 00002f28(j), 
+                                                                                          caseD_0:00002f44(j), 00002f58(j), 
+                                                                                          00002f60(j), 00002f6c(j), 
+                                                                                          00002f74(j)  
+        00002f7c 14 16 00 09     call       FUN_00004590                                     undefined FUN_00004590(void)
+        00002f80 00 30 a0        ld         DAT_0054f3d0,g4
+                 90 d0 f3 
+                 54 00
+        00002f88 7c 3f 05 3a     cmpibe     0x0,g4,LAB_00002f04
+        00002f8c 01 09 a5 59     subo       0x1,g4,g4
+        00002f90 00 30 a0        st         g4,DAT_0054f3d0
+                 92 d0 f3 
+                 54 00
+        00002f98 6c 3f 05 3d     cmpibne    0x0,g4,LAB_00002f04
+        00002f9c 00 30 a0        ld         DAT_0054fadc,g4
+                 90 dc fa 
+                 54 00
+        00002fa4 10 20 05 3a     cmpibe     0x0,g4,LAB_00002fb4
+        00002fa8 00 30 a0        ld         DAT_0054fad0,g4
+                 90 d0 fa 
+                 54 00
+        00002fb0 54 3f 05 3d     cmpibne    0x0,g4,LAB_00002f04
+                             LAB_00002fb4                                    XREF[1]:     00002fa4(j)  
+        00002fb4 01 1e 80 5c     mov        0x1,g0
+        00002fb8 d8 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fbc 02 1e 80 5c     mov        0x2,g0
+        00002fc0 d0 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fc4 03 1e 80 5c     mov        0x3,g0
+        00002fc8 c8 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fcc 08 1e 80 5c     mov        0x8,g0
+        00002fd0 c0 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fd4 09 1e 80 5c     mov        0x9,g0
+        00002fd8 b8 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fdc 0a 1e 80 5c     mov        0xa,g0
+        00002fe0 b0 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fe4 0c 1e 80 5c     mov        0xc,g0
+        00002fe8 a8 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+        00002fec 0d 1e 80 5c     mov        0xd,g0
+        00002ff0 a0 52 00 09     call       FUN_00008290                                     undefined FUN_00008290(int param
+                             LAB_00002ff4                                    XREF[1]:     00003000(j)  
+        00002ff4 01 1e 80 5c     mov        0x1,g0
+        00002ff8 58 52 00 09     call       FUN_00008250                                     undefined FUN_00008250(uint para
+        00002ffc 14 00 00 09     call       FUN_00003010                                     undefined FUN_00003010(void)
+        00003000 f4 ff ff 08     b          LAB_00002ff4
+        00003004 00 00 00 00     ddw        0h
+        00003008 00 00 00 00     ddw        0h
+        0000300c 00 00 00 00     ddw        0h
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall FUN_00003010(void)
+             undefined         g0:1           <RETURN>
+                             FUN_00003010                                    XREF[2]:     caseD_1:00002f10(c), 
+                                                                                          caseD_1:00002ffc(c)  
+        00003010 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fcd4,g4
+                 80 d4 fc 
+                 54 00
+        00003018 a4 21 25 30     bbc        0x4,g4,LAB_000031bc
+        0000301c 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00003024 54 20 0d 3d     cmpibne    0x1,g4,LAB_00003078
+        00003028 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        00003030 48 20 15 3d     cmpibne    0x2,g4,LAB_00003078
+        00003034 00 30 a0        ldob       DAT_0054fce0,g4
+                 80 e0 fc 
+                 54 00
+        0000303c 3c 20 0d 3d     cmpibne    0x1,g4,LAB_00003078
+        00003040 00 30 a0        ldob       MAN_COM_P1_0054fc00*,g4
+                 80 00 fc 
+                 54 00
+        00003048 74 21 0d 3d     cmpibne    0x1,g4,LAB_000031bc
+        0000304c 00 30 a8        ldob       SettingsCoinMode_ContinueCredits_0054fce1,g5
+                 80 e1 fc 
+                 54 00
+        00003054 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        0000305c 10 40 a5 3b     cmpibge    g4,g5,LAB_0000306c
+        00003060 00 30 a0        ldob       SettingsCoinMode_Chute1_0054fce8,g4
+                 80 e8 fc 
+                 54 00
+        00003068 54 21 7d 3d     cmpibne    0xf,g4,LAB_000031bc
+                             LAB_0000306c                                    XREF[1]:     0000305c(j)  
+        0000306c 00 30 80        ldob       SettingsCoinMode_ContinueCredits_0054fce1,g0
+                 80 e1 fc 
+                 54 00
+        00003074 34 01 00 08     b          LAB_000031a8
+                             LAB_00003078                                    XREF[3]:     00003024(j), 00003030(j), 
+                                                                                          0000303c(j)  
+        00003078 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00003080 54 20 0d 3d     cmpibne    0x1,g4,LAB_000030d4
+        00003084 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        0000308c 48 20 05 3d     cmpibne    0x0,g4,LAB_000030d4
+        00003090 00 30 a0        ldob       DAT_0054fce0,g4
+                 80 e0 fc 
+                 54 00
+        00003098 3c 20 0d 3d     cmpibne    0x1,g4,LAB_000030d4
+        0000309c 00 30 a0        ldob       MAN_COM_P1_0054fc00*,g4
+                 80 00 fc 
+                 54 00
+        000030a4 18 21 05 3d     cmpibne    0x0,g4,LAB_000031bc
+        000030a8 00 30 a8        ldob       SettingsCoinMode_VsContinueCredits_0054fce9,g5
+                 80 e9 fc 
+                 54 00
+        000030b0 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        000030b8 10 40 a5 3b     cmpibge    g4,g5,LAB_000030c8
+        000030bc 00 30 a0        ldob       SettingsCoinMode_Chute1_0054fce8,g4
+                 80 e8 fc 
+                 54 00
+        000030c4 f8 20 7d 3d     cmpibne    0xf,g4,LAB_000031bc
+                             LAB_000030c8                                    XREF[1]:     000030b8(j)  
+        000030c8 00 30 80        ldob       SettingsCoinMode_VsContinueCredits_0054fce9,g0
+                 80 e9 fc 
+                 54 00
+        000030d0 d8 00 00 08     b          LAB_000031a8
+                             LAB_000030d4                                    XREF[3]:     00003080(j), 0000308c(j), 
+                                                                                          00003098(j)  
+        000030d4 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        000030dc 74 20 0d 34     cmpobl     0x1,g4,LAB_00003150
+        000030e0 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        000030e8 d4 20 05 3d     cmpibne    0x0,g4,LAB_000031bc
+        000030ec 00 30 a0        ldob       MAN_COM_P1_0054fc00*,g4
+                 80 00 fc 
+                 54 00
+        000030f4 c8 20 05 3d     cmpibne    0x0,g4,LAB_000031bc
+        000030f8 00 30 a8        ldob       DAT_0054fcea,g5
+                 80 ea fc 
+                 54 00
+        00003100 00 30 a0        ldob       WIN_POINT_P1_0054fc03,g4
+                 80 03 fc 
+                 54 00
+        00003108 b4 00 ad 36     cmpoble    g5,g4,LAB_000031bc
+        0000310c 00 30 a0        ldob       DAT_0054fceb,g4
+                 80 eb fc 
+                 54 00
+        00003114 10 20 45 3d     cmpibne    0x8,g4,LAB_00003124
+        00003118 00 30 a0        ldob       WIN_POINT_P2_0054fc5b,g4
+                 80 5b fc 
+                 54 00
+        00003120 9c 00 ad 36     cmpoble    g5,g4,LAB_000031bc
+                             LAB_00003124                                    XREF[1]:     00003114(j)  
+        00003124 00 30 a8        ldob       SettingsCoinMode_VsStartCredits_0054fcec,g5
+                 80 ec fc 
+                 54 00
+        0000312c 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        00003134 10 40 a5 3b     cmpibge    g4,g5,LAB_00003144
+        00003138 00 30 a0        ldob       SettingsCoinMode_Chute1_0054fce8,g4
+                 80 e8 fc 
+                 54 00
+        00003140 7c 20 7d 3d     cmpibne    0xf,g4,LAB_000031bc
+                             LAB_00003144                                    XREF[1]:     00003134(j)  
+        00003144 00 30 80        ldob       SettingsCoinMode_VsStartCredits_0054fcec,g0
+                 80 ec fc 
+                 54 00
+        0000314c 5c 00 00 08     b          LAB_000031a8
+                             LAB_00003150                                    XREF[1]:     000030dc(j)  
+        00003150 00 30 a8        ldob       SettingsCoinMode_StartCredits_0054fced,g5
+                 80 ed fc 
+                 54 00
+        00003158 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        00003160 10 40 a5 3b     cmpibge    g4,g5,LAB_00003170
+        00003164 00 30 a0        ldob       SettingsCoinMode_Chute1_0054fce8,g4
+                 80 e8 fc 
+                 54 00
+        0000316c 50 20 7d 3d     cmpibne    0xf,g4,LAB_000031bc
+                             LAB_00003170                                    XREF[1]:     00003160(j)  
+        00003170 00 30 a0        ldob       MAN_COM_P1_0054fc00*,g4
+                 80 00 fc 
+                 54 00
+        00003178 44 20 05 3d     cmpibne    0x0,g4,LAB_000031bc
+        0000317c 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        00003184 38 20 1d 3a     cmpibe     0x3,g4,LAB_000031bc
+        00003188 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00003190 fd 20 a5 8c     lda        0xfd (g4),g4
+        00003194 ff 00 90 8c     lda        0xff,g2
+        00003198 94 80 a4 58     and        g4,g2,g4
+        0000319c 20 20 0d 33     cmpobge    0x1,g4,LAB_000031bc
+        000031a0 00 30 80        ldob       SettingsCoinMode_StartCredits_0054fced,g0
+                 80 ed fc 
+                 54 00
+                             LAB_000031a8                                    XREF[3]:     00003074(j), 000030d0(j), 
+                                                                                          0000314c(j)  
+        000031a8 00 1e 88 5c     mov        0x0,g1
+        000031ac 94 3a 00 09     call       FUN_00006c40                                     undefined FUN_00006c40(int param
+        000031b0 01 1e 90 5c     mov        0x1,g2
+        000031b4 00 30 90        stob       g2,DAT_0054fcee
+                 82 ee fc 
+                 54 00
+                             LAB_000031bc                                    XREF[14]:    00003018(j), 00003048(j), 
+                                                                                          00003068(j), 000030a4(j), 
+                                                                                          000030c4(j), 000030e8(j), 
+                                                                                          000030f4(j), 00003108(j), 
+                                                                                          00003120(j), 00003140(j), 
+                                                                                          0000316c(j), 00003178(j), 
+                                                                                          00003184(j), 0000319c(j)  
+        000031bc 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fcd4,g4
+                 80 d4 fc 
+                 54 00
+        000031c4 60 23 2d 30     bbc        0x5,g4,LAB_00003524
+        000031c8 00 30 a0        ldob       SettingsCoinMode_CoinChuteType_0054fcef,g4
+                 80 ef fc 
+                 54 00
+        000031d0 b4 21 05 3d     cmpibne    0x0,g4,LAB_00003384
+        000031d4 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        000031dc 5c 20 0d 3d     cmpibne    0x1,g4,LAB_00003238
+        000031e0 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        000031e8 50 20 15 3d     cmpibne    0x2,g4,LAB_00003238
+        000031ec 00 30 a0        ldob       DAT_0054fce0,g4
+                 80 e0 fc 
+                 54 00
+        000031f4 44 20 0d 3d     cmpibne    0x1,g4,LAB_00003238
+        000031f8 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        00003200 24 23 0d 3d     cmpibne    0x1,g4,LAB_00003524
+        00003204 00 30 a8        ldob       SettingsCoinMode_ContinueCredits_0054fce1,g5
+                 80 e1 fc 
+                 54 00
+        0000320c 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        00003214 10 40 a5 3b     cmpibge    g4,g5,LAB_00003224
+        00003218 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        00003220 04 23 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_00003224                                    XREF[1]:     00003214(j)  
+        00003224 00 30 80        ldob       SettingsCoinMode_ContinueCredits_0054fce1,g0
+                 80 e1 fc 
+                 54 00
+        0000322c 00 1e 88 5c     mov        0x0,g1
+        00003230 10 3a 00 09     call       FUN_00006c40                                     undefined FUN_00006c40(int param
+        00003234 e4 02 00 08     b          LAB_00003518
+                             LAB_00003238                                    XREF[3]:     000031dc(j), 000031e8(j), 
+                                                                                          000031f4(j)  
+        00003238 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00003240 5c 20 0d 3d     cmpibne    0x1,g4,LAB_0000329c
+        00003244 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        0000324c 50 20 05 3d     cmpibne    0x0,g4,LAB_0000329c
+        00003250 00 30 a0        ldob       DAT_0054fce0,g4
+                 80 e0 fc 
+                 54 00
+        00003258 44 20 0d 3d     cmpibne    0x1,g4,LAB_0000329c
+        0000325c 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        00003264 c0 22 05 3d     cmpibne    0x0,g4,LAB_00003524
+        00003268 00 30 a8        ldob       SettingsCoinMode_VsContinueCredits_0054fce9,g5
+                 80 e9 fc 
+                 54 00
+        00003270 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        00003278 10 40 a5 3b     cmpibge    g4,g5,LAB_00003288
+        0000327c 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        00003284 a0 22 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_00003288                                    XREF[1]:     00003278(j)  
+        00003288 00 30 80        ldob       SettingsCoinMode_VsContinueCredits_0054fce9,g0
+                 80 e9 fc 
+                 54 00
+        00003290 00 1e 88 5c     mov        0x0,g1
+        00003294 ac 39 00 09     call       FUN_00006c40                                     undefined FUN_00006c40(int param
+        00003298 80 02 00 08     b          LAB_00003518
+                             LAB_0000329c                                    XREF[3]:     00003240(j), 0000324c(j), 
+                                                                                          00003258(j)  
+        0000329c 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        000032a4 7c 20 0d 34     cmpobl     0x1,g4,LAB_00003320
+        000032a8 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        000032b0 74 22 05 3d     cmpibne    0x0,g4,LAB_00003524
+        000032b4 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        000032bc 68 22 05 3d     cmpibne    0x0,g4,LAB_00003524
+        000032c0 00 30 a8        ldob       DAT_0054fcea,g5
+                 80 ea fc 
+                 54 00
+        000032c8 00 30 a0        ldob       WIN_POINT_P2_0054fc5b,g4
+                 80 5b fc 
+                 54 00
+        000032d0 54 02 ad 36     cmpoble    g5,g4,LAB_00003524
+        000032d4 00 30 a0        ldob       DAT_0054fceb,g4
+                 80 eb fc 
+                 54 00
+        000032dc 10 20 45 3d     cmpibne    0x8,g4,LAB_000032ec
+        000032e0 00 30 a0        ldob       WIN_POINT_P1_0054fc03,g4
+                 80 03 fc 
+                 54 00
+        000032e8 3c 02 ad 36     cmpoble    g5,g4,LAB_00003524
+                             LAB_000032ec                                    XREF[1]:     000032dc(j)  
+        000032ec 00 30 a8        ldob       SettingsCoinMode_VsStartCredits_0054fcec,g5
+                 80 ec fc 
+                 54 00
+        000032f4 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        000032fc 10 40 a5 3b     cmpibge    g4,g5,LAB_0000330c
+        00003300 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        00003308 1c 22 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_0000330c                                    XREF[1]:     000032fc(j)  
+        0000330c 00 30 80        ldob       SettingsCoinMode_VsStartCredits_0054fcec,g0
+                 80 ec fc 
+                 54 00
+        00003314 00 1e 88 5c     mov        0x0,g1
+        00003318 28 39 00 09     call       FUN_00006c40                                     undefined FUN_00006c40(int param
+        0000331c fc 01 00 08     b          LAB_00003518
+                             LAB_00003320                                    XREF[1]:     000032a4(j)  
+        00003320 00 30 a8        ldob       SettingsCoinMode_StartCredits_0054fced,g5
+                 80 ed fc 
+                 54 00
+        00003328 00 30 a0        ld         CoinCounter_0054fce4,g4
+                 90 e4 fc 
+                 54 00
+        00003330 10 40 a5 3b     cmpibge    g4,g5,LAB_00003340
+        00003334 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        0000333c e8 21 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_00003340                                    XREF[1]:     00003330(j)  
+        00003340 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        00003348 dc 21 05 3d     cmpibne    0x0,g4,LAB_00003524
+        0000334c 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        00003354 d0 21 1d 3a     cmpibe     0x3,g4,LAB_00003524
+        00003358 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00003360 fd 20 a5 8c     lda        0xfd (g4),g4
+        00003364 ff 00 90 8c     lda        0xff,g2
+        00003368 94 80 a4 58     and        g4,g2,g4
+        0000336c b8 21 0d 33     cmpobge    0x1,g4,LAB_00003524
+        00003370 00 30 80        ldob       SettingsCoinMode_StartCredits_0054fced,g0
+                 80 ed fc 
+                 54 00
+        00003378 00 1e 88 5c     mov        0x0,g1
+        0000337c c4 38 00 09     call       FUN_00006c40                                     undefined FUN_00006c40(int param
+        00003380 98 01 00 08     b          LAB_00003518
+                             LAB_00003384                                    XREF[1]:     000031d0(j)  
+        00003384 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        0000338c 54 20 0d 3d     cmpibne    0x1,g4,LAB_000033e0
+        00003390 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        00003398 48 20 15 3d     cmpibne    0x2,g4,LAB_000033e0
+        0000339c 00 30 a0        ldob       DAT_0054fce0,g4
+                 80 e0 fc 
+                 54 00
+        000033a4 3c 20 0d 3d     cmpibne    0x1,g4,LAB_000033e0
+        000033a8 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        000033b0 74 21 0d 3d     cmpibne    0x1,g4,LAB_00003524
+        000033b4 00 30 a8        ldob       SettingsCoinMode_ContinueCredits_0054fce1,g5
+                 80 e1 fc 
+                 54 00
+        000033bc 00 30 a0        ld         DAT_0054fcf4,g4
+                 90 f4 fc 
+                 54 00
+        000033c4 10 40 a5 3b     cmpibge    g4,g5,LAB_000033d4
+        000033c8 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        000033d0 54 21 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_000033d4                                    XREF[1]:     000033c4(j)  
+        000033d4 00 30 80        ldob       SettingsCoinMode_ContinueCredits_0054fce1,g0
+                 80 e1 fc 
+                 54 00
+        000033dc 34 01 00 08     b          LAB_00003510
+                             LAB_000033e0                                    XREF[3]:     0000338c(j), 00003398(j), 
+                                                                                          000033a4(j)  
+        000033e0 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        000033e8 54 20 0d 3d     cmpibne    0x1,g4,LAB_0000343c
+        000033ec 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        000033f4 48 20 05 3d     cmpibne    0x0,g4,LAB_0000343c
+        000033f8 00 30 a0        ldob       DAT_0054fce0,g4
+                 80 e0 fc 
+                 54 00
+        00003400 3c 20 0d 3d     cmpibne    0x1,g4,LAB_0000343c
+        00003404 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        0000340c 18 21 05 3d     cmpibne    0x0,g4,LAB_00003524
+        00003410 00 30 a8        ldob       SettingsCoinMode_VsContinueCredits_0054fce9,g5
+                 80 e9 fc 
+                 54 00
+        00003418 00 30 a0        ld         DAT_0054fcf4,g4
+                 90 f4 fc 
+                 54 00
+        00003420 10 40 a5 3b     cmpibge    g4,g5,LAB_00003430
+        00003424 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        0000342c f8 20 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_00003430                                    XREF[1]:     00003420(j)  
+        00003430 00 30 80        ldob       SettingsCoinMode_VsContinueCredits_0054fce9,g0
+                 80 e9 fc 
+                 54 00
+        00003438 d8 00 00 08     b          LAB_00003510
+                             LAB_0000343c                                    XREF[3]:     000033e8(j), 000033f4(j), 
+                                                                                          00003400(j)  
+        0000343c 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00003444 74 20 0d 34     cmpobl     0x1,g4,LAB_000034b8
+        00003448 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        00003450 d4 20 05 3d     cmpibne    0x0,g4,LAB_00003524
+        00003454 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        0000345c c8 20 05 3d     cmpibne    0x0,g4,LAB_00003524
+        00003460 00 30 a8        ldob       DAT_0054fcea,g5
+                 80 ea fc 
+                 54 00
+        00003468 00 30 a0        ldob       WIN_POINT_P2_0054fc5b,g4
+                 80 5b fc 
+                 54 00
+        00003470 b4 00 ad 36     cmpoble    g5,g4,LAB_00003524
+        00003474 00 30 a0        ldob       DAT_0054fceb,g4
+                 80 eb fc 
+                 54 00
+        0000347c 10 20 45 3d     cmpibne    0x8,g4,LAB_0000348c
+        00003480 00 30 a0        ldob       WIN_POINT_P1_0054fc03,g4
+                 80 03 fc 
+                 54 00
+        00003488 9c 00 ad 36     cmpoble    g5,g4,LAB_00003524
+                             LAB_0000348c                                    XREF[1]:     0000347c(j)  
+        0000348c 00 30 a8        ldob       SettingsCoinMode_VsStartCredits_0054fcec,g5
+                 80 ec fc 
+                 54 00
+        00003494 00 30 a0        ld         DAT_0054fcf4,g4
+                 90 f4 fc 
+                 54 00
+        0000349c 10 40 a5 3b     cmpibge    g4,g5,LAB_000034ac
+        000034a0 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        000034a8 7c 20 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_000034ac                                    XREF[1]:     0000349c(j)  
+        000034ac 00 30 80        ldob       SettingsCoinMode_VsStartCredits_0054fcec,g0
+                 80 ec fc 
+                 54 00
+        000034b4 5c 00 00 08     b          LAB_00003510
+                             LAB_000034b8                                    XREF[1]:     00003444(j)  
+        000034b8 00 30 a8        ldob       SettingsCoinMode_StartCredits_0054fced,g5
+                 80 ed fc 
+                 54 00
+        000034c0 00 30 a0        ld         DAT_0054fcf4,g4
+                 90 f4 fc 
+                 54 00
+        000034c8 10 40 a5 3b     cmpibge    g4,g5,LAB_000034d8
+        000034cc 00 30 a0        ldob       SettingsCoinMode_Chute2_0054fcf0,g4
+                 80 f0 fc 
+                 54 00
+        000034d4 50 20 7d 3d     cmpibne    0xf,g4,LAB_00003524
+                             LAB_000034d8                                    XREF[1]:     000034c8(j)  
+        000034d8 00 30 a0        ldob       MAN_COM_P2_0054fc58*,g4
+                 80 58 fc 
+                 54 00
+        000034e0 44 20 05 3d     cmpibne    0x0,g4,LAB_00003524
+        000034e4 00 30 a0        ldob       GameOverFlag???_0054fcb4,g4
+                 80 b4 fc 
+                 54 00
+        000034ec 38 20 1d 3a     cmpibe     0x3,g4,LAB_00003524
+        000034f0 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        000034f8 fd 20 a5 8c     lda        0xfd (g4),g4
+        000034fc ff 00 90 8c     lda        0xff,g2
+        00003500 94 80 a4 58     and        g4,g2,g4
+        00003504 20 20 0d 33     cmpobge    0x1,g4,LAB_00003524
+        00003508 00 30 80        ldob       SettingsCoinMode_StartCredits_0054fced,g0
+                 80 ed fc 
+                 54 00
+                             LAB_00003510                                    XREF[3]:     000033dc(j), 00003438(j), 
+                                                                                          000034b4(j)  
+        00003510 01 1e 88 5c     mov        0x1,g1
+        00003514 2c 37 00 09     call       FUN_00006c40                                     undefined FUN_00006c40(int param
+                             LAB_00003518                                    XREF[4]:     00003234(j), 00003298(j), 
+                                                                                          0000331c(j), 00003380(j)  
+        00003518 01 1e 90 5c     mov        0x1,g2
+        0000351c 00 30 90        stob       g2,DAT_0054fcf8
+                 82 f8 fc 
+                 54 00
+                             LAB_00003524                                    XREF[27]:    FUN_00003010:000031c4(j), 
+                                                                                          FUN_00003010:00003200(j), 
+                                                                                          FUN_00003010:00003220(j), 
+                                                                                          FUN_00003010:00003264(j), 
+                                                                                          FUN_00003010:00003284(j), 
+                                                                                          FUN_00003010:000032b0(j), 
+                                                                                          FUN_00003010:000032bc(j), 
+                                                                                          FUN_00003010:000032d0(j), 
+                                                                                          FUN_00003010:000032e8(j), 
+                                                                                          FUN_00003010:00003308(j), 
+                                                                                          FUN_00003010:0000333c(j), 
+                                                                                          FUN_00003010:00003348(j), 
+                                                                                          FUN_00003010:00003354(j), 
+                                                                                          FUN_00003010:0000336c(j), 
+                                                                                          FUN_00003010:000033b0(j), 
+                                                                                          FUN_00003010:000033d0(j), 
+                                                                                          FUN_00003010:0000340c(j), 
+                                                                                          FUN_00003010:0000342c(j), 
+                                                                                          FUN_00003010:00003450(j), 
+                                                                                          FUN_00003010:0000345c(j), [more]
+        00003524 00 30 a0        ldob       DAT_0054fcee,g4
+                 80 ee fc 
+                 54 00
+        0000352c 10 20 0d 3a     cmpibe     0x1,g4,LAB_0000353c
+        00003530 00 30 a0        ldob       DAT_0054fcf8,g4
+                 80 f8 fc 
+                 54 00
+        00003538 44 20 0d 3d     cmpibne    0x1,g4,LAB_0000357c
+                             LAB_0000353c                                    XREF[1]:     0000352c(j)  
+        0000353c 00 30 a0        ld         DAT_0054fad0,g4
+                 90 d0 fa 
+                 54 00
+        00003544 10 20 05 3a     cmpibe     0x0,g4,LAB_00003554
+        00003548 00 30 a0        ld         DAT_0054fadc,g4
+                 90 dc fa 
+                 54 00
+        00003550 20 20 05 3d     cmpibne    0x0,g4,LAB_00003570
+                             LAB_00003554                                    XREF[1]:     00003544(j)  
+        00003554 9c b1 08 09     call       FUN_0008e6f0                                     uint FUN_0008e6f0(void)
+        00003558 84 23 84 8c     lda        0x384 (g0),g0
+        0000355c 84 03 90 8c     lda        0x384,g2
+        00003560 12 04 84 74     remi       g2,g0,g0
+        00003564 2c 21 84 8c     lda        0x12c (g0),g0
+        00003568 00 30 80        st         g0,DAT_0054f3d0
+                 92 d0 f3 
+                 54 00
+                             LAB_00003570                                    XREF[1]:     00003550(j)  
+        00003570 00 30 80        lda        0xa01140,g0                                      0xa01140 SE_START
+                 8c 40 11 
+                 a0 00
+        00003578 78 5f 00 09     call       FUN_000094f0                                     undefined FUN_000094f0(undefined
+                             LAB_0000357c                                    XREF[1]:     00003538(j)  
+        0000357c 00 00 00 0a     ret
