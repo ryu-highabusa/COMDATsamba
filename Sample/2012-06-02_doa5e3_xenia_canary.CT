@@ -1874,6 +1874,447 @@
       <VariableType>Byte</VariableType>
       <Address>183ed679f</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>271</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182ABD004</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>272</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182ACEECD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>273</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B14EE1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>274</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18367</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>275</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18368</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>276</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18369</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>277</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1836A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>278</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1836B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>279</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1836C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>280</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1836D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>281</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1836E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>282</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1836F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>283</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18370</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>284</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18371</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>285</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18372</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>286</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18373</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>287</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18374</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>288</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18375</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>289</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18387</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>290</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18388</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>291</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18389</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>292</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1838A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>293</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1838B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>294</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1838C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>295</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1838D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>296</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1838E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>297</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1838F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>298</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18390</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>299</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18391</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>300</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18392</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>301</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18393</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>302</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18394</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>303</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18395</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>304</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B1898C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>305</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>182B18A04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>306</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183B6D72B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>307</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183B6D72C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>308</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183B6D9D2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>309</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71428</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>310</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71471</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>311</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7164B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>312</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71650</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>313</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71655</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>314</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7165A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>315</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7165F</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>316</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71664</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>317</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71669</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>318</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7166E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>319</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71673</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>320</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71678</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>321</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7167D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>322</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71682</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>323</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71687</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>324</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7168C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>325</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E71691</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>326</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E726F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>327</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E727EC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>328</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E73374</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>329</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E7346C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>330</ID>
+      <Description>"Char Sel P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E739BB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>331</ID>
+      <Description>"Char Sel P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183F09F1D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>332</ID>
+      <Description>"Char Sel P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183F0A05D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>333</ID>
+      <Description>"Char Num P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183F0A37F</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
