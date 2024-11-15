@@ -79,6 +79,27 @@
       <Address>183F0A00D</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>254</ID>
+      <Description>"CHAR_SEL_P2_83e739bb"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183E739BB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>255</ID>
+      <Description>"Char Sel P2?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183F09F1D</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>256</ID>
+      <Description>"Char Sel P2?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>183F0A05D</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>26</ID>
       <Description>"CHAR_NUM_P1_82abcfd4"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -1442,6 +1463,7 @@
     <CheatEntry>
       <ID>217</ID>
       <Description>"DAT_83e73270"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -1542,11 +1564,18 @@
     </CheatEntry>
     <CheatEntry>
       <ID>229</ID>
-      <Description>"DAT_83e732ce"</Description>
+      <Description>"Startup Frame P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
       <Address>183e732ce</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>257</ID>
+      <Description>"Frame Advantage P1"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183E6B743</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>230</ID>
@@ -1576,7 +1605,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>233</ID>
-      <Description>"DAT_83e732d6"</Description>
+      <Description>"ACT_STATE_P1_83e732d6"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1619,7 +1648,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>238</ID>
-      <Description>"DAT_83e732f0"</Description>
+      <Description>"POSE_STA_P1_83e732f0"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
