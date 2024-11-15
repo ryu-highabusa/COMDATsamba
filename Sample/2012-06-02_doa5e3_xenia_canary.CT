@@ -2315,6 +2315,22 @@
       <VariableType>Byte</VariableType>
       <Address>183F0A37F</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>334</ID>
+      <Description>"DAT_83e72eb9"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183e72eb9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>335</ID>
+      <Description>"DAT_83e7346d"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183e7346d</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
