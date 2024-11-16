@@ -1,0 +1,176 @@
+
+目的別に、どんなツールでやればいいのかを少しご紹介します。
+矢印が複数あるものは対応しているツール（方法）が複数あるということです。
+詳しい使用法は各ツールの説明書などで確認をして下さい。
+「今から始めるMOD制作 ファイル編.txt」や「今から始めるMOD制作 ツールリンク編.txt」なども参照して下さい。
+
+
+
+■ TMCファイルなどを取り出す
+
+→ Archive Tool
+取り出しならこれがおすすめです。
+
+→ LR Photo Studio
+DLCデータのコスチュームデータ／髪データのみ取り出せます。
+
+→ DLC Tool hogehoge2015
+DLCデータのコスチュームデータのみ取り出せます。
+
+→DLC Tool JPN Custom
+DLCデータのコスチュームデータ／髪データのみ取り出せます。
+
+→ LNK ReShuffle
+
+※ game.exeが更新されるとfile5lr.datも更新しなければならない場合があります
+   簡易的な更新はDLC Tool JPN Customでできます
+※ LNK ReShuffleはfile5lr.datを使用しません
+※ doa5LRarchivarius.pyというものがありましたが必要なファイルが更新されていないため現在は使用されていません
+
+
+□データが含まれているファイル例
+binファイルをArchive Toolで開くと色々と含まれているのが確認できます。
+（実際にデータが含まれているのはbinファイルに対応するlnkファイルになります）
+
+chara_common.bin
+  キャラクターのデータが含まれています。
+
+chara_initial.bin
+  chara_common.binに含まれていないキャラクターのデータが含まれています。
+
+common.bin
+  様々なデータが含まれています。
+  勝利演出などのデータも含まれています。
+
+patch_○○_catalog.bin
+  更新・追加されたデータが含まれています。
+  勝利演出などが更新されている場合もあります。
+  井伊直虎はpatch_19_catalog.binに、不知火舞はpatch_25_catalog.binに含まれています。
+
+stage_common.bin
+  ステージのデータが含まれています。
+
+stage_rtm.bin
+  ストーリーモードで使用されるステージのデータが含まれています。
+
+DLCフォルダ → 数字フォルダ → dataフォルダ → 数字.bin
+  DLCのデータが含まれています。
+
+
+
+■ TMCファイルなどを3Dなどで表示する
+
+→ LR Photo Studio
+TMC/TMCL、--H/--HLを表示できます。
+--H/--HLはツール内で切り替えて確認できます。
+
+→ Noesis と プラグイン
+TMC/TMCL、--H/--HL、--Pファイルを表示できます。
+LR Photo Studioの登場で使用頻度が激減。
+
+
+
+■ TMCファイルなどをゲームで使えるようにする
+
+→ LNK ReShuffle
+
+→ AutoLink
+
+→ Archive Tool
+
+→ DLC Tool （もしくはその派生版）
+DLCを購入している必要があります。
+
+
+
+■ テクスチャを確認・抽出・入替する
+
+→ Texture Tool
+派生版のTexture Tool JPN Customをお勧めします。（宣伝）
+Texture Tool JPN Customでないと--Hに含まれているテクスチャは確認・差し替えができません。（--HLに含まれているテクスチャは可能です）
+また、Texture Tool JPN CustomではSPRファイルに含まれているテクスチャのカラーパレットを使用した表示に対応しています。
+
+→ uMod
+ゲーム実行中に動作します。
+ファイルは変更せずメモリ上で変更を行います。
+現在はDOAのMODでは使っている人はほとんどいないようです。
+
+
+
+■ テクスチャを編集する
+どちらも抽出したDDSファイルを編集することになります。
+
+→ GIMP と DDSプラグイン
+
+→ Photoshop と DDSプラグイン
+
+
+
+■ コスチュームの一部を削除する
+
+→ TMC Polygon Tool
+Blenderで頂点インデックスを取得すると複雑な削除が楽になります。
+
+→ TMC Object Tool
+細かくは削除できませんが、オブジェクト内のメッシュを全て削除したり、オブジェクト自体の削除、さらにはオブジェクトグループの削除ができます。
+
+
+
+■ 他のコスチュームの一部を取り込む
+インポート機能でメッシュデータやボーンなどの必要なデータを取り込めます。
+
+→ TMC Object Tool
+
+
+
+■ メッシュデータを挿入・入替する
+
+→ TMC Polygon Insert Tool
+
+→ LR Photo Studio
+入替のみ行えます。
+
+
+
+■ Blenderで頂点インデックスを取得する
+
+→ Blender と vertex_id_to_clipboardアドオン または ExportVertexIDアドオン
+
+
+
+■ メッシュデータを編集・作成する
+
+→ Blender と 各種アドオン
+
+
+
+■ 半透明にする
+テクスチャのアルファチャンネルを透明として使用するようにします。
+（別途テクスチャの編集も必要になります）
+
+→ TMCsuke
+
+→ TMC Object Tool
+
+
+
+■ 髪型の選択によって表示・非表示が切り替わるコスチュームを作る
+
+→ TMC Object Tool と ---C File Editor
+
+
+
+■ モーションを編集する
+Archive Toolなどで抽出したモーションファイル（MPM、CAM、tdpack）を編集します。
+
+→ Blender と 各種アドオン と Movie Data Tool
+一応Movie Data Toolで書き出したCSVを編集することでも可能ですが、Blenderのほうが直感的にかつ楽に編集できます。
+
+
+
+
+
+
+
+
+皆様の道徳心とマナーをもったMODライフの一助となることを願って。
