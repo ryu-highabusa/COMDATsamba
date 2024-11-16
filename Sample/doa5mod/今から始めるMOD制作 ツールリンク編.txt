@@ -1,0 +1,93 @@
+
+ツールなどをダウンロードできるページへのリンクをご紹介します。
+掲示板で配布しているツールは最新の書き込みから遡って探す必要があるものもあります。
+リンク先が消えている・変わっているなどがあれば教えて頂けると助かります。
+並び順はこんな感じかなぁと（勝手に）思ったものにしています。
+今は使わなくなったと（勝手に）判断したツールは書いておりません。
+
+なお、リンク先でのトラブルは補償できませんので自己責任でどうぞ。
+
+
+
+
+
+Archive Tool
+
+https://www.mediafire.com/folder/ec6hz31s15fof/5LRTools
+
+
+
+file5lr.dat
+
+DLC Tool JPN Customに添付されています
+簡易的な更新もできます
+
+
+
+LR Photo Studio
+DLC Tool hogehoge2015
+DMC Mixer
+Breasts Copy Machine
+
+https://www.mediafire.com/folder/f2d5z16fv0xm2/DOA5LR
+
+
+
+LNK ReShuffle
+
+http://w11.zetaboards.com/SFxT_Mods/topic/11420722/
+もしくは
+http://www.freestepdodge.com/threads/modding-utilities-apps-thread.6328/
+
+
+
+AutoLink
+
+https://www.loverslab.com/topic/77539-autolink-330/
+※ページを表示・ダウンロードするには無料のユーザー登録をする必要があります
+
+
+
+vertex_id_to_clipboard（Blenderアドオン）
+ExportVertexID（Blenderアドオン）
+TMCsuke
+
+https://mega.nz/#F!tBVTUJIT!poGBPriSgb864ti8JLh5QQ
+
+
+
+TMC Polygon Tool
+TMC Polygon Insert Tool
+TMC Object Tool
+TMC UV Tool
+TMC Bone Tool
+Texture Tool JPN Custom
+---C File Editor
+Movie Data Tool
+for Blender TMC(PC) Importer（Blenderアドオン）
+for Blender tmcmesh Importer-Exporter（Blenderアドオン）
+for Blender tmcbone Importer-Exporter（Blenderアドオン）
+for Blender DOA5PC Motion Importer（Blenderアドオン）
+for Blender Bone Motion Exporter（Blenderアドオン）
+for Blender Camera Motion Exporter（Blenderアドオン）
+for Blender Keep Vertex Normals（Blenderアドオン）
+for Blender Transfer Vertex Data（Blenderアドオン）
+DLC Tool JPN Custom
+他
+
+https://www.mediafire.com/folder/9zi2gt8dyllaj/doa5mod
+
+
+
+Blender
+
+https://www.blender.org/
+
+
+
+
+
+
+
+
+皆様の道徳心とマナーをもったMODライフの一助となることを願って。
