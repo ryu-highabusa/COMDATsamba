@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="28">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"Health"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Activated="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : DOA6.exe
+  Version: 
+  Date   : 2019-03-01
+  Author : Jessie Kazama
+}
+
+[ENABLE]
+
+aobscanmodule(health,DOA6.exe,66 89 8E 50 05 00 00)
+alloc(newmem,$1000,health)
+
+label(code)
+label(return)
+label(ohkchk)
+label(infhpf)
+label(ohkf)
+
+registersymbol(health)
+registersymbol(infhpf)
+registersymbol(ohkf)
+
+newmem:
+  cmp [rsi+10],1
+  jne ohkchk
+  //cmp [rsi+70],0
+  //jne ohkchk
+  //cmp [rsi+78],0
+  //jne ohkchk
+  //cmp [rsi+7C],0
+  //jne ohkchk
+  //cmp byte ptr [rsi+120],1
+  //jne ohkchk
+  //cmp byte ptr [rsi+13E],1
+  //jne ohkchk
+  //cmp [rsi+144],0
+  //jne ohkchk
+  //cmp [rsi+388],1
+  //jne ohkchk
+  //cmp [rsi+3C0],1
+  //jne ohkchk
+  cmp [infhpf],1
+  jne code
+  push word ptr [rsi+00000552]
+  pop word ptr [rsi+00000550]
+  jmp return
+
+ohkchk:
+  cmp [ohkf],1
+  jne code
+  xor cx,cx
+
+code:
+  mov [rsi+00000550],cx
+  jmp return
+
+infhpf:
+  dq 0
+
+ohkf:
+  dq 0
+
+health:
+  jmp newmem
+  nop
+  nop
+return:
+
+[DISABLE]
+
+health:
+  db 66 89 8E 50 05 00 00
+
+unregistersymbol(health)
+unregistersymbol(infhpf)
+unregistersymbol(ohkf)
+dealloc(newmem)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"Inf Health"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+infhpf:
+  dq 1
+ 
+ 
+[DISABLE]
+infhpf:
+  dq 0
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"One Hit Kill"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+ohkf:
+  dq 1
+ 
+ 
+[DISABLE]
+ohkf:
+  dq 0
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Inf Special Gauge (No Visual Effect)"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : DOA6.exe
+  Version: 
+  Date   : 2019-03-01
+  Author : Jessie Kazama
+}
+
+[ENABLE]
+
+aobscanmodule(infspg,DOA6.exe,FF 48 8B D9 48 8B 51 08 48 8D 44 24 28)
+alloc(newmem,$1000,infspg)
+
+label(code)
+label(return)
+
+registersymbol(infspg)
+
+newmem:
+  mov rdx,[rcx+08]
+  lea rax,[rsp+28]
+  cmp [rdx+10],1
+  jne code
+  {cmp [rdx+70],0
+  jne code
+  cmp [rdx+7C],0
+  jne code
+  cmp [rdx+A0],0
+  jne code
+  cmp [rdx+A4],1
+  jne code}
+  push [rcx+1C]
+  pop [rcx+20]
+  jmp return
+
+code:
+  mov rdx,[rcx+08]
+  lea rax,[rsp+28]
+  jmp return
+
+infspg+04:
+  jmp newmem
+  nop
+  nop
+  nop
+  nop
+return:
+
+[DISABLE]
+
+infspg+04:
+  db 48 8B 51 08 48 8D 44 24 28
+
+unregistersymbol(infspg)
+dealloc(newmem)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"Easily Clear Quests"</Description>
+      <LastState Activated="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : DOA6.exe
+  Version: 
+  Date   : 2019-03-02
+  Author : Jessie Kazama
+}
+
+[ENABLE]
+
+aobscanmodule(ecq,DOA6.exe,39 86 24 01 00 00 0F)
+alloc(newmem,$1000,ecq)
+
+label(code)
+label(return)
+
+registersymbol(ecq)
+
+newmem:
+  mov [rsi+00000124],eax
+
+code:
+  cmp [rsi+00000124],eax
+  jmp return
+
+ecq:
+  jmp newmem
+  nop
+return:
+
+[DISABLE]
+
+ecq:
+  db 39 86 24 01 00 00
+
+unregistersymbol(ecq)
+dealloc(newmem)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"All Costumes Unlockable (Read Table Extras)"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : DOA6.exe
+  Version: 
+  Date   : 2019-03-02
+  Author : Jessie Kazama
+}
+
+[ENABLE]
+
+aobscanmodule(unlockcostumes,DOA6.exe,0F B7 14 01 48 8B 4C 24 30)
+alloc(newmem,$1000,unlockcostumes)
+
+label(code)
+label(return)
+
+registersymbol(unlockcostumes)
+
+newmem:
+
+code:
+  movzx edx,word ptr [rcx+rax]
+  mov word ptr [rcx+rax],1388
+  mov rcx,[rsp+30]
+  jmp return
+
+unlockcostumes:
+  jmp newmem
+  nop
+  nop
+  nop
+  nop
+return:
+
+[DISABLE]
+
+unlockcostumes:
+  db 0F B7 14 01 48 8B 4C 24 30
+
+unregistersymbol(unlockcostumes)
+dealloc(newmem)
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"Gold Pointer (View Menu w/Gold)"</Description>
+      <Options moHideChildren="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : DOA6.exe
+  Version: 
+  Date   : 2019-03-02
+  Author : Jessie Kazama
+}
+//48 8B 4B 08 8B 10 E8 ** ** ** ** 33 C9 84 C0 (2)
+[ENABLE]
+
+aobscanmodule(gold,DOA6.exe,48 8B 4B 08 8B 10 E8 B8)
+alloc(newmem,$1000,gold)
+
+label(code)
+label(return)
+label(goldp)
+
+registersymbol(gold)
+registersymbol(goldp)
+
+newmem:
+  mov [goldp],rax
+
+code:
+  mov rcx,[rbx+08]
+  mov edx,[rax]
+  jmp return
+
+goldp:
+  dq 0
+
+gold:
+  jmp newmem
+  nop
+return:
+
+[DISABLE]
+
+gold:
+  db 48 8B 4B 08 8B 10
+
+unregistersymbol(gold)
+unregistersymbol(goldp)
+dealloc(newmem)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"Gold"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>goldp</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of jne DOA6.exe+B6A986</Description>
+      <AddressString>DOA6.exe+B6A960</AddressString>
+      <Before>
+        <Byte>18</Byte>
+        <Byte>48</Byte>
+        <Byte>3B</Byte>
+        <Byte>58</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>75</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8D</Byte>
+        <Byte>14</Byte>
+        <Byte>5D</Byte>
+        <Byte>02</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+  <Comments>All Costumes Unlockable - With this enabled, view each characters costumes in the Wardrobe. As you do, you will see them all start to max out. Once you are satisfied, complete a quest/fight/whatever, that will get you parts. Once that is done, all the maxed costumes will be unlockable!</Comments>
+</CheatTable>
