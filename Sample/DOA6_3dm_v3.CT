@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="28">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Unlock All Outfit"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+
+aobscanmodule(_1670170,DOA6.exe,F6 00 0A 0F 95 C0 48 83 C4 20 5B C3 48 05 20) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+1670170)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov byte ptr [rax],0A
+  mov al,1
+  jmp return
+
+_1670170:
+  jmp newmem
+  nop
+return:
+registersymbol(_1670170)
+
+[DISABLE]
+
+_1670170:
+  db F6 00 0A 0F 95 C0
+
+unregistersymbol(_1670170)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+1670170
+
+"DOA6.exe"+1670145: 44 8B C3                          -  mov r8d,ebx
+"DOA6.exe"+1670148: 48 83 C1 68                       -  add rcx,68
+"DOA6.exe"+167014C: BA 95 AC 9F CB                    -  mov edx,CB9FAC95
+"DOA6.exe"+1670151: E8 6A 46 9C FF                    -  call DOA6.exe+10347C0
+"DOA6.exe"+1670156: 48 63 D8                          -  movsxd  rbx,eax
+"DOA6.exe"+1670159: E8 D2 D8 F4 FF                    -  call DOA6.exe+15BDA30
+"DOA6.exe"+167015E: 48 05 ED 16 00 00                 -  add rax,000016ED
+"DOA6.exe"+1670164: 48 81 FB 20 4E 00 00              -  cmp rbx,00004E20
+"DOA6.exe"+167016B: 73 0F                             -  jae DOA6.exe+167017C
+"DOA6.exe"+167016D: 48 03 C3                          -  add rax,rbx
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+1670170: F6 00 0A                          -  test byte ptr [rax],0A
+"DOA6.exe"+1670173: 0F 95 C0                          -  setne al
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+1670176: 48 83 C4 20                       -  add rsp,20
+"DOA6.exe"+167017A: 5B                                -  pop rbx
+"DOA6.exe"+167017B: C3                                -  ret 
+"DOA6.exe"+167017C: 48 05 20 4E 00 00                 -  add rax,00004E20
+"DOA6.exe"+1670182: F6 00 0A                          -  test byte ptr [rax],0A
+"DOA6.exe"+1670185: 0F 95 C0                          -  setne al
+"DOA6.exe"+1670188: 48 83 C4 20                       -  add rsp,20
+"DOA6.exe"+167018C: 5B                                -  pop rbx
+"DOA6.exe"+167018D: C3                                -  ret 
+"DOA6.exe"+167018E: CC                                -  int 3 
+}
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Unlock All Hairstyle"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(_FEF6D3,DOA6.exe,03 00 00 F6 00 0A 48 8B 4C 24 30) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+FEF6D3)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov byte ptr [rax],0A
+  mov rcx,[rsp+30]
+  test rax,rax
+  jmp return
+
+_FEF6D3+03:
+  jmp newmem
+  nop
+  nop
+  nop
+return:
+registersymbol(_FEF6D3)
+
+[DISABLE]
+
+_FEF6D3+03:
+  db F6 00 0A 48 8B 4C 24 30
+
+unregistersymbol(_FEF6D3)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+FEF6D3
+
+"DOA6.exe"+FEF6A8: 48 83 C1 68              -  add rcx,68
+"DOA6.exe"+FEF6AC: E8 0F 51 04 00           -  call DOA6.exe+10347C0
+"DOA6.exe"+FEF6B1: 48 63 F8                 -  movsxd  rdi,eax
+"DOA6.exe"+FEF6B4: E8 77 E3 5C 00           -  call DOA6.exe+15BDA30
+"DOA6.exe"+FEF6B9: 48 05 0E 65 00 00        -  add rax,0000650E
+"DOA6.exe"+FEF6BF: 48 81 FF E8 03 00 00     -  cmp rdi,000003E8
+"DOA6.exe"+FEF6C6: 73 05                    -  jae DOA6.exe+FEF6CD
+"DOA6.exe"+FEF6C8: 48 03 C7                 -  add rax,rdi
+"DOA6.exe"+FEF6CB: EB 06                    -  jmp DOA6.exe+FEF6D3
+"DOA6.exe"+FEF6CD: 48 05 E8 03 00 00        -  add rax,000003E8
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+FEF6D3: F6 00 0A                 -  test byte ptr [rax],0A
+"DOA6.exe"+FEF6D6: 48 8B 4C 24 30           -  mov rcx,[rsp+30]
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+FEF6DB: 0F 95 C2                 -  setne dl
+"DOA6.exe"+FEF6DE: 48 8B 49 08              -  mov rcx,[rcx+08]
+"DOA6.exe"+FEF6E2: E8 59 B3 B7 FF           -  call DOA6.exe+B6AA40
+"DOA6.exe"+FEF6E7: 48 8B 7C 24 60           -  mov rdi,[rsp+60]
+"DOA6.exe"+FEF6EC: 84 C0                    -  test al,al
+"DOA6.exe"+FEF6EE: 0F 95 C3                 -  setne bl
+"DOA6.exe"+FEF6F1: 0F B7 C3                 -  movzx eax,bx
+"DOA6.exe"+FEF6F4: 48 8B 4C 24 48           -  mov rcx,[rsp+48]
+"DOA6.exe"+FEF6F9: 48 33 CC                 -  xor rcx,rsp
+"DOA6.exe"+FEF6FC: E8 EF CB 49 00           -  call DOA6.exe+148C2F0
+}
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"Unlock All Glasses"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(_166E8FD,DOA6.exe,F6 00 0A 75 17) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+166E8FD)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov byte ptr [rax],0A
+  mov sil,1
+  jmp return
+
+_166E8FD:
+  jmp newmem
+return:
+registersymbol(_166E8FD)
+
+[DISABLE]
+
+_166E8FD:
+  db F6 00 0A 75 17
+
+unregistersymbol(_166E8FD)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+166E8FD
+
+"DOA6.exe"+166E8D3: 0F B6 F0                 -  movzx esi,al
+"DOA6.exe"+166E8D6: E8 E5 5E 9C FF           -  call DOA6.exe+10347C0
+"DOA6.exe"+166E8DB: 48 63 D8                 -  movsxd  rbx,eax
+"DOA6.exe"+166E8DE: E8 4D F1 F4 FF           -  call DOA6.exe+15BDA30
+"DOA6.exe"+166E8E3: 48 05 F7 68 00 00        -  add rax,000068F7
+"DOA6.exe"+166E8E9: 48 81 FB 40 1F 00 00     -  cmp rbx,00001F40
+"DOA6.exe"+166E8F0: 73 05                    -  jae DOA6.exe+166E8F7
+"DOA6.exe"+166E8F2: 48 03 C3                 -  add rax,rbx
+"DOA6.exe"+166E8F5: EB 06                    -  jmp DOA6.exe+166E8FD
+"DOA6.exe"+166E8F7: 48 05 40 1F 00 00        -  add rax,00001F40
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+166E8FD: F6 00 0A                 -  test byte ptr [rax],0A
+"DOA6.exe"+166E900: 75 17                    -  jne DOA6.exe+166E919
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+166E902: 40 84 F6                 -  test sil,sil
+"DOA6.exe"+166E905: 75 12                    -  jne DOA6.exe+166E919
+"DOA6.exe"+166E907: 32 C0                    -  xor al,al
+"DOA6.exe"+166E909: 48 8B 5C 24 30           -  mov rbx,[rsp+30]
+"DOA6.exe"+166E90E: 48 8B 74 24 38           -  mov rsi,[rsp+38]
+"DOA6.exe"+166E913: 48 83 C4 20              -  add rsp,20
+"DOA6.exe"+166E917: 5F                       -  pop rdi
+"DOA6.exe"+166E918: C3                       -  ret 
+"DOA6.exe"+166E919: 48 8B 5C 24 30           -  mov rbx,[rsp+30]
+"DOA6.exe"+166E91E: B0 01                    -  mov al,01
+}
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Unlock all music"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(_FED5F5,DOA6.exe,0F B6 94 08 66 13 00 00 48 8B 4C) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+FED5F5)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov edx,3
+  mov byte ptr [rax+rcx+00001366],dl
+  jmp return
+
+_FED5F5:
+  jmp newmem
+  nop
+  nop
+  nop
+return:
+registersymbol(_FED5F5)
+
+[DISABLE]
+
+_FED5F5:
+  db 0F B6 94 08 66 13 00 00
+
+unregistersymbol(_FED5F5)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+FED5F5
+
+"DOA6.exe"+FED5C8: BA DA 54 2C 97           -  mov edx,972C54DA
+"DOA6.exe"+FED5CD: 48 89 5C 24 60           -  mov [rsp+60],rbx
+"DOA6.exe"+FED5D2: 44 0F 44 44 24 40        -  cmove r8d,[rsp+40]
+"DOA6.exe"+FED5D8: 48 83 C1 68              -  add rcx,68
+"DOA6.exe"+FED5DC: E8 DF 71 04 00           -  call DOA6.exe+10347C0
+"DOA6.exe"+FED5E1: 48 63 D8                 -  movsxd  rbx,eax
+"DOA6.exe"+FED5E4: E8 47 04 5D 00           -  call DOA6.exe+15BDA30
+"DOA6.exe"+FED5E9: B9 2C 01 00 00           -  mov ecx,0000012C
+"DOA6.exe"+FED5EE: 48 3B D9                 -  cmp rbx,rcx
+"DOA6.exe"+FED5F1: 48 0F 42 CB              -  cmovb rcx,rbx
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+FED5F5: 0F B6 94 08 66 13 00 00  -  movzx edx,byte ptr [rax+rcx+00001366]
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+FED5FD: 48 8B 4C 24 30           -  mov rcx,[rsp+30]
+"DOA6.exe"+FED602: 80 E2 01                 -  and dl,01
+"DOA6.exe"+FED605: 48 8B 49 08              -  mov rcx,[rcx+08]
+"DOA6.exe"+FED609: E8 32 D4 B7 FF           -  call DOA6.exe+B6AA40
+"DOA6.exe"+FED60E: 48 8B 5C 24 60           -  mov rbx,[rsp+60]
+"DOA6.exe"+FED613: 84 C0                    -  test al,al
+"DOA6.exe"+FED615: 40 0F 95 C7              -  setne dil
+"DOA6.exe"+FED619: 0F B7 C7                 -  movzx eax,di
+"DOA6.exe"+FED61C: 48 8B 4C 24 48           -  mov rcx,[rsp+48]
+"DOA6.exe"+FED621: 48 33 CC                 -  xor rcx,rsp
+}
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Unlock all DOA wiki"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(_FFE4E5,DOA6.exe,0F B6 94 08 C0 15 00 00 48 8B 4C 24 30 80) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+FFE4E5)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov edx,3
+  mov byte ptr [rax+rcx+000015C0],dl
+  jmp return
+
+_FFE4E5:
+  jmp newmem
+  nop
+  nop
+  nop
+return:
+registersymbol(_FFE4E5)
+
+[DISABLE]
+
+_FFE4E5:
+  db 0F B6 94 08 C0 15 00 00
+
+unregistersymbol(_FFE4E5)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+FFE4E5
+
+"DOA6.exe"+FFE4B8: BA 55 5E 90 1E           -  mov edx,1E905E55
+"DOA6.exe"+FFE4BD: 48 89 5C 24 60           -  mov [rsp+60],rbx
+"DOA6.exe"+FFE4C2: 44 0F 44 44 24 40        -  cmove r8d,[rsp+40]
+"DOA6.exe"+FFE4C8: 48 83 C1 68              -  add rcx,68
+"DOA6.exe"+FFE4CC: E8 EF 62 03 00           -  call DOA6.exe+10347C0
+"DOA6.exe"+FFE4D1: 48 63 D8                 -  movsxd  rbx,eax
+"DOA6.exe"+FFE4D4: E8 57 F5 5B 00           -  call DOA6.exe+15BDA30
+"DOA6.exe"+FFE4D9: B9 2C 01 00 00           -  mov ecx,0000012C
+"DOA6.exe"+FFE4DE: 48 3B D9                 -  cmp rbx,rcx
+"DOA6.exe"+FFE4E1: 48 0F 42 CB              -  cmovb rcx,rbx
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+FFE4E5: 0F B6 94 08 C0 15 00 00  -  movzx edx,byte ptr [rax+rcx+000015C0]
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+FFE4ED: 48 8B 4C 24 30           -  mov rcx,[rsp+30]
+"DOA6.exe"+FFE4F2: 80 E2 01                 -  and dl,01
+"DOA6.exe"+FFE4F5: 48 8B 49 08              -  mov rcx,[rcx+08]
+"DOA6.exe"+FFE4F9: E8 42 C5 B6 FF           -  call DOA6.exe+B6AA40
+"DOA6.exe"+FFE4FE: 48 8B 5C 24 60           -  mov rbx,[rsp+60]
+"DOA6.exe"+FFE503: 84 C0                    -  test al,al
+"DOA6.exe"+FFE505: 40 0F 95 C7              -  setne dil
+"DOA6.exe"+FFE509: 0F B7 C7                 -  movzx eax,di
+"DOA6.exe"+FFE50C: 48 8B 4C 24 48           -  mov rcx,[rsp+48]
+"DOA6.exe"+FFE511: 48 33 CC                 -  xor rcx,rsp
+}
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"unlock all hints"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(_FFDD35,DOA6.exe,0F B6 94 08 93 14 00 00 48 8B 4C 24 30 80) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+FFDD35)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov edx,3
+  mov byte ptr [rax+rcx+00001493],dl
+  jmp return
+
+_FFDD35:
+  jmp newmem
+  nop
+  nop
+  nop
+return:
+registersymbol(_FFDD35)
+
+[DISABLE]
+
+_FFDD35:
+  db 0F B6 94 08 93 14 00 00
+
+unregistersymbol(_FFDD35)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+FFDD35
+
+"DOA6.exe"+FFDD08: BA 12 01 61 87           -  mov edx,87610112
+"DOA6.exe"+FFDD0D: 48 89 5C 24 60           -  mov [rsp+60],rbx
+"DOA6.exe"+FFDD12: 44 0F 44 44 24 40        -  cmove r8d,[rsp+40]
+"DOA6.exe"+FFDD18: 48 83 C1 68              -  add rcx,68
+"DOA6.exe"+FFDD1C: E8 9F 6A 03 00           -  call DOA6.exe+10347C0
+"DOA6.exe"+FFDD21: 48 63 D8                 -  movsxd  rbx,eax
+"DOA6.exe"+FFDD24: E8 07 FD 5B 00           -  call DOA6.exe+15BDA30
+"DOA6.exe"+FFDD29: B9 2C 01 00 00           -  mov ecx,0000012C
+"DOA6.exe"+FFDD2E: 48 3B D9                 -  cmp rbx,rcx
+"DOA6.exe"+FFDD31: 48 0F 42 CB              -  cmovb rcx,rbx
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+FFDD35: 0F B6 94 08 93 14 00 00  -  movzx edx,byte ptr [rax+rcx+00001493]
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+FFDD3D: 48 8B 4C 24 30           -  mov rcx,[rsp+30]
+"DOA6.exe"+FFDD42: 80 E2 01                 -  and dl,01
+"DOA6.exe"+FFDD45: 48 8B 49 08              -  mov rcx,[rcx+08]
+"DOA6.exe"+FFDD49: E8 F2 CC B6 FF           -  call DOA6.exe+B6AA40
+"DOA6.exe"+FFDD4E: 48 8B 5C 24 60           -  mov rbx,[rsp+60]
+"DOA6.exe"+FFDD53: 84 C0                    -  test al,al
+"DOA6.exe"+FFDD55: 40 0F 95 C7              -  setne dil
+"DOA6.exe"+FFDD59: 0F B7 C7                 -  movzx eax,di
+"DOA6.exe"+FFDD5C: 48 8B 4C 24 48           -  mov rcx,[rsp+48]
+"DOA6.exe"+FFDD61: 48 33 CC                 -  xor rcx,rsp
+}
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Challege One Hit complete"</Description>
+      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : DOA6.exe
+  Version: 
+  Date   : 2019-03-04
+  Author : June
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscanmodule(_16F2EDD,DOA6.exe,41 83 CE FF 84 C0) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+16F2EDD)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  or r14d, 0xFFFFFFFF
+  cmp [rdi+24],0
+  je org
+  mov al,1
+  org:
+  test al, al
+  jmp return
+
+_16F2EDD:
+  jmp newmem
+  nop
+return:
+registersymbol(_16F2EDD)
+
+[DISABLE]
+
+_16F2EDD:
+  db 41 83 CE FF 84 C0
+
+unregistersymbol(_16F2EDD)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+16F2EDD
+
+"DOA6.exe"+16F2EB4: EB 1F                             -  jmp DOA6.exe+16F2ED5
+"DOA6.exe"+16F2EB6: 83 BF B0 0A 00 00 FF              -  cmp dword ptr [rdi+00000AB0],-01
+"DOA6.exe"+16F2EBD: 75 09                             -  jne DOA6.exe+16F2EC8
+"DOA6.exe"+16F2EBF: 48 39 B7 B8 0A 00 00              -  cmp [rdi+00000AB8],rsi
+"DOA6.exe"+16F2EC6: 74 0D                             -  je DOA6.exe+16F2ED5
+"DOA6.exe"+16F2EC8: 48 8B CF                          -  mov rcx,rdi
+"DOA6.exe"+16F2ECB: E8 90 FC FF FF                    -  call DOA6.exe+16F2B60
+"DOA6.exe"+16F2ED0: E9 24 03 00 00                    -  jmp DOA6.exe+16F31F9
+"DOA6.exe"+16F2ED5: 48 8B CF                          -  mov rcx,rdi
+"DOA6.exe"+16F2ED8: E8 43 F0 FF FF                    -  call DOA6.exe+16F1F20
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+16F2EDD: 41 83 CE FF                       -  or r14d,-01
+"DOA6.exe"+16F2EE1: 84 C0                             -  test al,al
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+16F2EE3: 0F 84 2F 01 00 00                 -  je DOA6.exe+16F3018
+"DOA6.exe"+16F2EE9: 48 63 47 24                       -  movsxd  rax,dword ptr [rdi+24]
+"DOA6.exe"+16F2EED: 41 8B CE                          -  mov ecx,r14d
+"DOA6.exe"+16F2EF0: 85 C0                             -  test eax,eax
+"DOA6.exe"+16F2EF2: 78 74                             -  js DOA6.exe+16F2F68
+"DOA6.exe"+16F2EF4: 48 8B D0                          -  mov rdx,rax
+"DOA6.exe"+16F2EF7: 48 8B 87 88 00 00 00              -  mov rax,[rdi+00000088]
+"DOA6.exe"+16F2EFE: 48 83 C0 38                       -  add rax,38
+"DOA6.exe"+16F2F02: 83 78 F8 00                       -  cmp dword ptr [rax-08],00
+"DOA6.exe"+16F2F06: 75 0C                             -  jne DOA6.exe+16F2F14
+}
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"Combo wont reset at lose"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+
+
+aobscanmodule(_16F1D32,DOA6.exe,C7 41 24 00 00 00 00 E8) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+16F1D32)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  //mov [rcx+24],00000000
+  jmp return
+
+_16F1D32:
+  jmp newmem
+  nop
+  nop
+return:
+registersymbol(_16F1D32)
+
+[DISABLE]
+
+_16F1D32:
+  db C7 41 24 00 00 00 00
+
+unregistersymbol(_16F1D32)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+16F1D32
+
+"DOA6.exe"+16F1D12: 53                                -  push rbx
+"DOA6.exe"+16F1D13: 56                                -  push rsi
+"DOA6.exe"+16F1D14: 57                                -  push rdi
+"DOA6.exe"+16F1D15: 41 54                             -  push r12
+"DOA6.exe"+16F1D17: 41 56                             -  push r14
+"DOA6.exe"+16F1D19: 41 57                             -  push r15
+"DOA6.exe"+16F1D1B: 48 8D 6C 24 D9                    -  lea rbp,[rsp-27]
+"DOA6.exe"+16F1D20: 48 81 EC B0 00 00 00              -  sub rsp,000000B0
+"DOA6.exe"+16F1D27: 48 C7 45 A7 FE FF FF FF           -  mov qword ptr [rbp-59],FFFFFFFE
+"DOA6.exe"+16F1D2F: 4C 8B F1                          -  mov r14,rcx
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+16F1D32: C7 41 24 00 00 00 00              -  mov [rcx+24],00000000
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+16F1D39: E8 02 FF FF FF                    -  call DOA6.exe+16F1C40
+"DOA6.exe"+16F1D3E: 41 C7 86 A0 0A 00 00 FF FF 00 00  -  mov [r14+00000AA0],0000FFFF
+"DOA6.exe"+16F1D49: 41 C7 86 A4 0A 00 00 FF FF 00 00  -  mov [r14+00000AA4],0000FFFF
+"DOA6.exe"+16F1D54: 48 8D 55 AF                       -  lea rdx,[rbp-51]
+"DOA6.exe"+16F1D58: 49 8B CE                          -  mov rcx,r14
+"DOA6.exe"+16F1D5B: E8 B0 19 00 00                    -  call DOA6.exe+16F3710
+"DOA6.exe"+16F1D60: 90                                -  nop 
+"DOA6.exe"+16F1D61: 41 0F B6 4E 20                    -  movzx ecx,byte ptr [r14+20]
+"DOA6.exe"+16F1D66: E8 E5 AE 07 00                    -  call DOA6.exe+176CC50
+"DOA6.exe"+16F1D6B: 48 8B F8                          -  mov rdi,rax
+}
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"unlock all title"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(_10E8563,DOA6.exe,F6 84 02 AD 07 00 00 02) // should be unique
+alloc(newmem,$1000,"DOA6.exe"+10E8563)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov byte ptr [rdx+rax+000007AD],02
+  test byte ptr [rdx+rax+000007AD],02
+  jmp return
+
+_10E8563:
+  jmp newmem
+  nop
+  nop
+  nop
+return:
+registersymbol(_10E8563)
+
+[DISABLE]
+
+_10E8563:
+  db F6 84 02 AD 07 00 00 02
+
+unregistersymbol(_10E8563)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: "DOA6.exe"+10E8563
+
+"DOA6.exe"+10E8534: 48 8D 0D 15 3D 88 00        -  lea rcx,[DOA6.exe+196C250]
+"DOA6.exe"+10E853B: E8 E8 42 3A 00              -  call DOA6.exe+148C828
+"DOA6.exe"+10E8540: 90                          -  nop
+"DOA6.exe"+10E8541: 48 8D 0D 90 8B 76 01        -  lea rcx,[DOA6.exe+28510D8]
+"DOA6.exe"+10E8548: E8 1F 45 3A 00              -  call DOA6.exe+148CA6C
+"DOA6.exe"+10E854D: 48 63 CF                    -  movsxd  rcx,edi
+"DOA6.exe"+10E8550: 48 8B 15 89 8B 76 01        -  mov rdx,[DOA6.exe+28510E0]
+"DOA6.exe"+10E8557: B8 B8 0B 00 00              -  mov eax,00000BB8
+"DOA6.exe"+10E855C: 48 3B C8                    -  cmp rcx,rax
+"DOA6.exe"+10E855F: 48 0F 42 C1                 -  cmovb rax,rcx
+// ---------- INJECTING HERE ----------
+"DOA6.exe"+10E8563: F6 84 02 AD 07 00 00 02     -  test byte ptr [rdx+rax+000007AD],02
+// ---------- DONE INJECTING  ----------
+"DOA6.exe"+10E856B: 74 03                       -  je DOA6.exe+10E8570
+"DOA6.exe"+10E856D: 41 FF 06                    -  inc [r14]
+"DOA6.exe"+10E8570: FF C6                       -  inc esi
+"DOA6.exe"+10E8572: 41 3B F7                    -  cmp esi,r15d
+"DOA6.exe"+10E8575: 0F 8C 85 FE FF FF           -  jl DOA6.exe+10E8400
+"DOA6.exe"+10E857B: 4C 8D 5C 24 40              -  lea r11,[rsp+40]
+"DOA6.exe"+10E8580: 49 8B 5B 40                 -  mov rbx,[r11+40]
+"DOA6.exe"+10E8584: 49 8B 6B 48                 -  mov rbp,[r11+48]
+"DOA6.exe"+10E8588: 49 8B E3                    -  mov rsp,r11
+"DOA6.exe"+10E858B: 41 5F                       -  pop r15
+}
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
