@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Player 1"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>0080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Vida P1"</Description>
+          <LastState Value="3.159166011E-38" RealAddress="0194056C"/>
+          <VariableType>Float</VariableType>
+          <Address>game.exe+FD056C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"Vida P1 Power (Assemble)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov [eax+game.exe+FD056C],(float)3.159182546E-38
+
+originalcode:
+cmp word ptr [eax+game.exe+FD056C],14
+
+exit:
+jmp returnhere
+
+"game.exe"+29EBC0:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+29EBC0:
+cmp word ptr [eax+game.exe+FD056C],14
+//Alt: db CC 83 B8 6C 05 94 01 14
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"Vida P1 (Assemble)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov [eax+game.exe+FD056C],(float)3.159225146E-38
+
+originalcode:
+cmp word ptr [eax+game.exe+FD056C],14
+
+exit:
+jmp returnhere
+
+"game.exe"+29EBC0:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+29EBC0:
+cmp word ptr [eax+game.exe+FD056C],14
+//Alt: db CC 83 B8 6C 05 94 01 14
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Player 2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FF8080</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"Vida P2"</Description>
+          <LastState Value="3.159154801E-38" RealAddress="01940C34"/>
+          <VariableType>Float</VariableType>
+          <Address>game.exe+FD0C34</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"Vida P2 Power (Assemble)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov [game.exe+FD0C34],(float)3.159182546E-38
+
+originalcode:
+cmp cx,[game.exe+FD0C34]
+
+exit:
+jmp returnhere
+
+"game.exe"+31D705:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+31D705:
+cmp cx,[game.exe+FD0C34]
+//Alt: db CC 3B 0D 34 0C 94 01
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"Vida P2 (Assemble)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov [game.exe+FD0C34],(float)3.159225146E-38
+
+originalcode:
+cmp cx,[game.exe+FD0C34]
+
+exit:
+jmp returnhere
+
+"game.exe"+31D705:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+31D705:
+cmp cx,[game.exe+FD0C34]
+//Alt: db CC 3B 0D 34 0C 94 01
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Outros Modos"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>800040</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"Pontos (Arcade &amp; Survival)"</Description>
+          <LastState Value="0" RealAddress="0193DE5C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>game.exe+FCDE5C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Pontos (Arcade &amp; Survival) (Assemble)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+add [game.exe+FCDE5C],#50000
+
+originalcode:
+mov eax,[game.exe+FCDE5C]
+
+exit:
+jmp returnhere
+
+"game.exe"+31A1D6:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+31A1D6:
+mov eax,[game.exe+FCDE5C]
+//Alt: db A1 5C DE 93 01
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Esperimental (Atacar para ativar)"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>0000FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"Player 2 Life 0"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov [ecx+2C],(float)3.159225146E-38
+
+originalcode:
+cmp dx,[ecx+2C]
+jb game.exe+291089
+
+exit:
+jmp returnhere
+
+"game.exe"+291078:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+291078:
+cmp dx,[ecx+2C]
+jb game.exe+291089
+//Alt: db 66 3B 51 2C 72 0B
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"Player 2 Life 100"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+mov [ecx+2C],(float)3.159225146E-38
+
+originalcode:
+cmp dx,[ecx+2C]
+jb game.exe+291089
+
+exit:
+jmp returnhere
+
+"game.exe"+291078:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"game.exe"+291078:
+cmp dx,[ecx+2C]
+jb game.exe+291089
+//Alt: db 66 3B 51 2C 72 0B
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Código:sub [esi-02],dx</Description>
+      <AddressString>game.exe+31B8E0</AddressString>
+      <Before>
+        <Byte>06</Byte>
+        <Byte>66</Byte>
+        <Byte>8B</Byte>
+        <Byte>56</Byte>
+        <Byte>2C</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>29</Byte>
+        <Byte>56</Byte>
+        <Byte>FE</Byte>
+      </Actual>
+      <After>
+        <Byte>66</Byte>
+        <Byte>3B</Byte>
+        <Byte>46</Byte>
+        <Byte>FE</Byte>
+        <Byte>73</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
