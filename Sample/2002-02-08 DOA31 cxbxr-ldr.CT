@@ -1110,6 +1110,13 @@
       <Address>005b2110</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>188</ID>
+      <Description>"DAT_00c7e5c0 (hdd_read flag?)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00c7e5c0</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>170</ID>
       <Description>"0029cb0b random select on/off flag"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -1219,6 +1226,95 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>0059cf5b</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>186</ID>
+      <Description>"ULONG_007fe2d4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007fe2d4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>187</ID>
+      <Description>"ULONG_007fe2d8"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cxbxr-ldr.exe+7EE2D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>189</ID>
+      <Description>"DAT_002d4c46"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>002d4c46</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>190</ID>
+      <Description>"Options_Music_Volume_002d3e9c"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+2C3E9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>191</ID>
+      <Description>"Options_Music_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D094</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>192</ID>
+      <Description>"Options_Music_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A3809</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>193</ID>
+      <Description>"Options_SE_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+2C3EA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"Options_SE_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D095</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>195</ID>
+      <Description>"Options_SE_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A3800</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>196</ID>
+      <Description>"Options_Voice_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D096</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>197</ID>
+      <Description>"Options_Voice_Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A395C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>198</ID>
+      <Description>"Options_SoundTest"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+C49145</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>199</ID>
+      <Description>"Settings_Game_MatchPoint_0059d0c6"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D0C6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>200</ID>
+      <Description>"Settings_Game_MatchPoint_0059d0ca"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58D0CA</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
