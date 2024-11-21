@@ -1316,6 +1316,122 @@
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D0CA</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>201</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58FFAE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>202</ID>
+      <Description>"Settings_Controller_AnalogButton_005a0b41"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+590B41</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>203</ID>
+      <Description>"Settings_Controller_AnalogButton"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+C570E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>204</ID>
+      <Description>"DAT_002ff9a8"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002ff9a8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>205</ID>
+      <Description>"DAT_002ff898"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002ff898</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>206</ID>
+      <Description>"DAT_002ff899"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>002ff899</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>207</ID>
+      <Description>"Pause Menu Cursor POS"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+5B93BA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>208</ID>
+      <Description>"Sparring_Menu_Cursor_XPOS"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+C48DF8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>209</ID>
+      <Description>"Sparring_Menu_Cursor_XPOS_00c58e1c"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+C48E1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>210</ID>
+      <Description>"DAT_00304641"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00304641</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>211</ID>
+      <Description>"DAT_0040a2d0"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>10</ByteLength>
+      <Address>0040a2d0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>212</ID>
+      <Description>"DAT_009b7c0c"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>009b7c0c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>213</ID>
+      <Description>"Mode Select "</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+2F46C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>214</ID>
+      <Description>"Mode Select "</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A7B98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>215</ID>
+      <Description>"Mode Select *"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A7B9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>216</ID>
+      <Description>"Mode Select "</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+9A7C82</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>217</ID>
+      <Description>"Mode Select "</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+C5B980</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
