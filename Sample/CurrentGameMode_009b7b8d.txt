@@ -1,0 +1,11 @@
+0 Mode Select
+1 Player Entry
+2 Single/Tag Select
+3 Character Select
+4 Stage Select
+5 
+6 Watch Mode Single/Tag Select
+7 
+8 Options
+9 Theater Mode
+10 Gameplay
