@@ -743,66 +743,66 @@
       <CheatEntries>
         <CheatEntry>
           <ID>148</ID>
-          <Description>"No description"</Description>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>2C1FA2EC</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>151</ID>
-          <Description>"No description"</Description>
+          <ID>303</ID>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA6C2</Address>
+          <Address>2C1FA550</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>153</ID>
-          <Description>"ACT CODE"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FBFE2</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>150</ID>
-          <Description>"No description"</Description>
+          <ID>304</ID>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>2C1FA68C</Address>
         </CheatEntry>
         <CheatEntry>
+          <ID>151</ID>
+          <Description>"ACT_CODE_P1"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA6C2</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>152</ID>
-          <Description>"No description"</Description>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>2C1FA792</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>155</ID>
-          <Description>"No description"</Description>
+          <ID>153</ID>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
-          <Address>2C2020C6</Address>
+          <Address>2C1FBFE2</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>154</ID>
-          <Description>"No description"</Description>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>2C1FFF52</Address>
         </CheatEntry>
         <CheatEntry>
+          <ID>155</ID>
+          <Description>"ACT_CODE_P1"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C2020C6</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>156</ID>
-          <Description>"No description"</Description>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>2C284FDC</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>149</ID>
-          <Description>"No description"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA550</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -825,7 +825,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>82</ID>
-      <Description>"debug???"</Description>
+      <Description>"No description"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -847,7 +847,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>75</ID>
-      <Description>"ryou test"</Description>
+      <Description>"debug???"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>0x2c1f9210</Address>
@@ -1084,7 +1084,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>132</ID>
-      <Description>"MANCOM_P2???"</Description>
+      <Description>"CHRDISP_P2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2c1fc06f</Address>
@@ -1996,6 +1996,13 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2c04e4dc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>302</ID>
+      <Description>"standing p1? "</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c1fbfe8</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
