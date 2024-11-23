@@ -1,0 +1,976 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall HandleCharacterSelectionState_FUN_8c
+             undefined         r0:1           <RETURN>
+             int               r4:4           param_1
+             undefined4        Stack[-0x4]:4  local_4                                 XREF[1]:     8c025de4(*)  
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[2]:     8c025de6(*), 
+                                                                                                   8c026446(*)  
+             undefined4        Stack[-0xc]:4  local_c                                 XREF[2]:     8c025de8(*), 
+                                                                                                   8c026444(*)  
+             undefined4        Stack[-0x10]:4 local_10                                XREF[2]:     8c025dea(*), 
+                                                                                                   8c026442(*)  
+             undefined4        Stack[-0x14]:4 local_14                                XREF[2]:     8c025dec(*), 
+                                                                                                   8c026440(*)  
+             undefined4        Stack[-0x18]:4 local_18                                XREF[2]:     8c025dee(*), 
+                                                                                                   8c02643e(*)  
+             undefined4        Stack[-0x1c]:4 local_1c                                XREF[2]:     8c025df0(*), 
+                                                                                                   8c02643c(*)  
+             undefined4        Stack[-0x20]:4 local_20                                XREF[2]:     8c025df2(*), 
+                                                                                                   8c02643a(*)  
+             undefined4        Stack[-0x24]:4 local_24                                XREF[2]:     8c025e48(*), 
+                                                                                                   8c02639a(*)  
+             undefined4        Stack[-0x28]:4 local_28                                XREF[2]:     8c025efc(*), 
+                                                                                                   8c026356(*)  
+             undefined4        Stack[-0x2c]:4 local_2c                                XREF[2]:     8c025efe(*), 
+                                                                                                   8c026366(*)  
+             undefined4        Stack[-0x30]:4 local_30                                XREF[9]:     8c025f02(*), 
+                                                                                                   8c025f44(*), 
+                                                                                                   8c025f6c(*), 
+                                                                                                   8c025fca(*), 
+                                                                                                   8c026014(*), 
+                                                                                                   8c02608e(*), 
+                                                                                                   8c0260e2(*), 
+                                                                                                   8c0260ee(*), 
+                                                                                                   8c02612a(*)  
+             undefined4        Stack[-0x34]:4 local_34                                XREF[4]:     8c025f08(*), 
+                                                                                                   8c025f7c(*), 
+                                                                                                   8c026024(*), 
+                                                                                                   8c0262fa(*)  
+             undefined4        Stack[-0x38]:4 local_38                                XREF[14]:    8c025f04(*), 
+                                                                                                   8c025f48(*), 
+                                                                                                   8c025f88(*), 
+                                                                                                   8c025fce(*), 
+                                                                                                   8c026030(*), 
+                                                                                                   8c026090(*), 
+                                                                                                   8c0260e4(*), 
+                                                                                                   8c0260f4(*), 
+                                                                                                   8c026130(*), 
+                                                                                                   8c026262(*), 
+                                                                                                   8c02626c(*), 
+                                                                                                   8c0262ea(*), 
+                                                                                                   8c026302(*), 
+                                                                                                   8c026320(*)  
+             undefined4        Stack[-0x3c]:4 local_3c                                XREF[5]:     8c025f06(*), 
+                                                                                                   8c025f8a(*), 
+                                                                                                   8c026032(*), 
+                                                                                                   8c026092(*), 
+                                                                                                   8c0261ac(*)  
+             undefined4        Stack[-0x40]:4 local_40                                XREF[2]:     8c0262e6(*), 
+                                                                                                   8c0262ec(*)  
+                             HandleCharacterSelectionState_FUN_8c025de4      XREF[1]:     8c025a36(c)  
+        8c025de4 e6 2f           mov.l      r14,@-r15=>local_4
+        8c025de6 d6 2f           mov.l      r13,@-r15=>local_8
+        8c025de8 c6 2f           mov.l      r12,@-r15=>local_c
+        8c025dea b6 2f           mov.l      r11,@-r15=>local_10
+        8c025dec a6 2f           mov.l      r10,@-r15=>local_14
+        8c025dee 96 2f           mov.l      r9,@-r15=>local_18
+        8c025df0 86 2f           mov.l      r8,@-r15=>local_1c
+        8c025df2 22 4f           sts.l      PR,@-r15=>local_20
+        8c025df4 e4 7f           add        #-0x1c,r15
+        8c025df6 42 90           mov.w      WORD_8c025e7e,r0                                 = 1EAh
+        8c025df8 43 6d           mov        param_1,r13
+        8c025dfa dd 03           mov.w      @(r0,r13),r3
+        8c025dfc 38 23           tst        r3,r3
+        8c025dfe 01 89           bt         LAB_8c025e04
+        8c025e00 1a a3           bra        LAB_8c026438
+        8c025e02 09 00           _nop
+                             LAB_8c025e04                                    XREF[1]:     8c025dfe(j)  
+        8c025e04 3c 90           mov.w      WORD_8c025e80,r0                                 = 1ECh
+        8c025e06 dd 00           mov.w      @(r0,r13),r0
+        8c025e08 01 88           cmp/eq     #0x1,r0
+        8c025e0a 01 89           bt         LAB_8c025e10
+        8c025e0c 14 a3           bra        LAB_8c026438
+        8c025e0e 09 00           _nop
+                             LAB_8c025e10                                    XREF[1]:     8c025e0a(j)  
+        8c025e10 37 90           mov.w      WORD_8c025e82,r0                                 = 207h
+        8c025e12 00 e3           mov        #0x0,r3
+        8c025e14 33 6c           mov        r3,r12
+        8c025e16 dc 0a           mov.b      @(r0,r13),r10
+        8c025e18 ac 6a           extu.b     r10,r10
+        8c025e1a 01 7a           add        #0x1,r10
+        8c025e1c a7 33           cmp/gt     r10,r3
+        8c025e1e 3e 3a           addc       r3,r10
+        8c025e20 21 4a           shar       r10
+        8c025e22 04 a3           bra        LAB_8c02642e
+        8c025e24 33 6b           _mov       r3,r11
+                             LAB_8c025e26                                    XREF[1]:     8c026434(j)  
+        8c025e26 b3 60           mov        r11,r0
+        8c025e28 09 00           nop
+        8c025e2a 11 40           cmp/pz     r0
+        8c025e2c 01 8b           bf         LAB_8c025e32
+        8c025e2e 05 a0           bra        LAB_8c025e3c
+        8c025e30 01 c9           _and       #0x1,r0
+                             LAB_8c025e32                                    XREF[1]:     8c025e2c(j)  
+        8c025e32 07 60           not        r0,r0
+        8c025e34 01 70           add        #0x1,r0
+        8c025e36 01 c9           and        #0x1,r0
+        8c025e38 07 60           not        r0,r0
+        8c025e3a 01 70           add        #0x1,r0
+                             LAB_8c025e3c                                    XREF[1]:     8c025e2e(j)  
+        8c025e3c 74 ee           mov        #0x74,r14
+        8c025e3e d3 63           mov        r13,r3
+        8c025e40 e7 0b           mul.l      r14,r11
+        8c025e42 11 d2           mov.l      PTR_DAT_8c025e88,r2                              = 8c1fdc88
+        8c025e44 03 68           mov        r0,r8
+        8c025e46 1a 0e           sts        MACL,r14
+        8c025e48 e6 1f           mov.l      r14,@(0x18,r15)=>local_24
+        8c025e4a 3c 3e           add        r3,r14
+        8c025e4c 20 64           mov.b      @r2=>DAT_8c1fdc88,param_1
+        8c025e4e 02 e3           mov        #0x2,r3
+        8c025e50 33 3b           cmp/ge     r3,r11
+        8c025e52 1d 8d           bt/s       LAB_8c025e90
+        8c025e54 4c 64           _extu.b    param_1,param_1
+        8c025e56 43 60           mov        param_1,r0
+        8c025e58 09 00           nop
+        8c025e5a 09 88           cmp/eq     #0x9,r0
+        8c025e5c 2e 8b           bf         LAB_8c025ebc
+        8c025e5e 0b d0           mov.l      PTR_DAT_8c025e8c,r0                              = 8c1fafa9
+        8c025e60 8c 03           mov.b      @(r0,r8),r3=>DAT_8c1fafa9
+        8c025e62 3c 60           extu.b     r3,r0
+        8c025e64 01 88           cmp/eq     #0x1,r0
+        8c025e66 29 8b           bf         LAB_8c025ebc
+        8c025e68 21 e3           mov        #0x21,r3
+        8c025e6a ec 33           add        r14,r3
+        8c025e6c 30 63           mov.b      @r3,r3
+        8c025e6e 01 e1           mov        #0x1,r1
+        8c025e70 3c 63           extu.b     r3,r3
+        8c025e72 13 33           cmp/ge     r1,r3
+        8c025e74 01 8b           bf         LAB_8c025e7a
+        8c025e76 d9 a2           bra        LAB_8c02642c
+        8c025e78 09 00           _nop
+                             LAB_8c025e7a                                    XREF[1]:     8c025e74(j)  
+        8c025e7a 1f a0           bra        LAB_8c025ebc
+        8c025e7c 09 00           _nop
+                             WORD_8c025e7e                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025e7e ea 01           dw         1EAh
+                             WORD_8c025e80                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025e80 ec 01           dw         1ECh
+                             WORD_8c025e82                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025e82 07 02           dw         207h
+                             PTR_FUN_8c025e84                                XREF[1]:     FUN_8c025d32:8c025dd2(R)  
+        8c025e84 30 a5 02 8c     addr       FUN_8c02a530
+                             PTR_DAT_8c025e88                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c025e88 88 dc 1f 8c     addr       DAT_8c1fdc88
+                             PTR_DAT_8c025e8c                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c025e8c a9 af 1f 8c     addr       DAT_8c1fafa9
+                             LAB_8c025e90                                    XREF[1]:     8c025e52(j)  
+        8c025e90 43 60           mov        param_1,r0
+        8c025e92 09 00           nop
+        8c025e94 09 88           cmp/eq     #0x9,r0
+        8c025e96 01 89           bt         LAB_8c025e9c
+        8c025e98 c8 a2           bra        LAB_8c02642c
+        8c025e9a 09 00           _nop
+                             LAB_8c025e9c                                    XREF[1]:     8c025e96(j)  
+        8c025e9c 4e d0           mov.l      PTR_DAT_8c025fd8,r0                              = 8c1fafa9
+        8c025e9e 8c 03           mov.b      @(r0,r8),r3=>DAT_8c1fafa9
+        8c025ea0 3c 60           extu.b     r3,r0
+        8c025ea2 01 88           cmp/eq     #0x1,r0
+        8c025ea4 01 89           bt         LAB_8c025eaa
+        8c025ea6 c1 a2           bra        LAB_8c02642c
+        8c025ea8 09 00           _nop
+                             LAB_8c025eaa                                    XREF[1]:     8c025ea4(j)  
+        8c025eaa 21 e3           mov        #0x21,r3
+        8c025eac ec 33           add        r14,r3
+        8c025eae 30 63           mov.b      @r3,r3
+        8c025eb0 01 e2           mov        #0x1,r2
+        8c025eb2 3c 63           extu.b     r3,r3
+        8c025eb4 23 33           cmp/ge     r2,r3
+        8c025eb6 01 8b           bf         LAB_8c025ebc
+        8c025eb8 b8 a2           bra        LAB_8c02642c
+        8c025eba 09 00           _nop
+                             LAB_8c025ebc                                    XREF[4]:     8c025e5c(j), 8c025e66(j), 
+                                                                                          8c025e7a(j), 8c025eb6(j)  
+        8c025ebc e0 62           mov.b      @r14,r2
+        8c025ebe 28 22           tst        r2,r2
+        8c025ec0 01 8b           bf         LAB_8c025ec6
+        8c025ec2 b3 a2           bra        LAB_8c02642c
+        8c025ec4 09 00           _nop
+                             LAB_8c025ec6                                    XREF[1]:     8c025ec0(j)  
+        8c025ec6 83 90           mov.w      WORD_8c025fd0,r0                                 = 20Ch
+        8c025ec8 dc 03           mov.b      @(r0,r13),r3
+        8c025eca 21 e0           mov        #0x21,r0
+        8c025ecc ec 02           mov.b      @(r0,r14),r2
+        8c025ece 26 33           cmp/hi     r2,r3
+        8c025ed0 01 89           bt         LAB_8c025ed6
+        8c025ed2 ab a2           bra        LAB_8c02642c
+        8c025ed4 09 00           _nop
+                             LAB_8c025ed6                                    XREF[1]:     8c025ed0(j)  
+        8c025ed6 e8 84           mov.b      @(0x8,r14),r0
+        8c025ed8 e3 62           mov        r14,r2
+        8c025eda 0a 72           add        #0xa,r2
+        8c025edc 79 96           mov.w      WORD_8c025fd2,r6                                 = 1000h
+        8c025ede 03 64           mov        r0,param_1
+        8c025ee0 4e 63           exts.b     param_1,r3
+        8c025ee2 2c 33           add        r2,r3
+        8c025ee4 a3 62           mov        r10,r2
+        8c025ee6 00 e0           mov        #0x0,r0
+        8c025ee8 30 61           mov.b      @r3,r1
+        8c025eea b3 63           mov        r11,r3
+        8c025eec 08 43           shll2      r3
+        8c025eee 00 43           shll       r3
+        8c025ef0 27 30           cmp/gt     r2,r0
+        8c025ef2 0e 32           addc       r0,r2
+        8c025ef4 3a d0           mov.l      PTR_DAT_8c025fe0,r0                              = 8c1f9f24
+        8c025ef6 4e 64           exts.b     param_1,param_1
+        8c025ef8 38 d9           mov.l      ->CHAR_SEL_MULTI,r9                              = 8c1f9f44
+        8c025efa 21 42           shar       r2
+        8c025efc 15 1f           mov.l      r1,@(0x14,r15)=>local_28
+        8c025efe 44 1f           mov.l      param_1,@(0x10,r15)=>local_2c
+        8c025f00 01 e4           mov        #0x1,param_1
+        8c025f02 43 1f           mov.l      param_1,@(0xc,r15)=>local_30
+        8c025f04 41 1f           mov.l      param_1,@(0x4,r15)=>local_38
+        8c025f06 32 2f           mov.l      r3,@r15=>local_3c
+        8c025f08 22 1f           mov.l      r2,@(0x8,r15)=>local_34
+        8c025f0a 3d 03           mov.w      @(r0,r3),r3=>DAT_8c1f9f24
+        8c025f0c 3d 63           extu.w     r3,r3
+        8c025f0e 68 23           tst        r6,r3
+        8c025f10 3b 8d           bt/s       LAB_8c025f8a
+        8c025f12 10 e5           _mov       #0x10,r5
+        8c025f14 e8 84           mov.b      @(0x8,r14),r0
+        8c025f16 07 3a           cmp/gt     r0,r10
+        8c025f18 17 8b           bf         LAB_8c025f4a
+        8c025f1a e8 84           mov.b      @(0x8,r14),r0
+        8c025f1c e3 63           mov        r14,r3
+        8c025f1e 0a 73           add        #0xa,r3
+        8c025f20 03 66           mov        r0,r6
+        8c025f22 e1 50           mov.l      @(0x4,r14),r0
+        8c025f24 6c 07           mov.b      @(r0,r6),r7
+        8c025f26 3c 36           add        r3,r6
+        8c025f28 60 62           mov.b      @r6,r2
+        8c025f2a e3 63           mov        r14,r3
+        8c025f2c 0a 73           add        #0xa,r3
+        8c025f2e 01 72           add        #0x1,r2
+        8c025f30 7c 67           extu.b     r7,r7
+        8c025f32 20 26           mov.b      r2,@r6
+        8c025f34 e8 84           mov.b      @(0x8,r14),r0
+        8c025f36 0c 33           add        r0,r3
+        8c025f38 73 60           mov        r7,r0
+        8c025f3a 09 00           nop
+        8c025f3c 29 d2           mov.l      ->__modls,r2                                     = 8c0f4ebc
+        8c025f3e 0b 42           jsr        @r2=>__modls                                     longlong __modls(void)
+        8c025f40 30 61           _mov.b     @r3,r1
+        8c025f42 00 23           mov.b      r0,@r3
+        8c025f44 43 1f           mov.l      param_1,@(0xc,r15)=>local_30
+        8c025f46 20 a0           bra        LAB_8c025f8a
+        8c025f48 41 1f           _mov.l     param_1,@(0x4,r15)=>local_38
+                             LAB_8c025f4a                                    XREF[1]:     8c025f18(j)  
+        8c025f4a 53 60           mov        r5,r0
+        8c025f4c 09 00           nop
+        8c025f4e e9 80           mov.b      r0,@(0x9,r14)
+        8c025f50 e8 84           mov.b      @(0x8,r14),r0
+        8c025f52 a8 30           sub        r10,r0
+        8c025f54 e8 80           mov.b      r0,@(0x8,r14)
+        8c025f56 e8 84           mov.b      @(0x8,r14),r0
+        8c025f58 11 40           cmp/pz     r0
+        8c025f5a 04 89           bt         LAB_8c025f66
+        8c025f5c 3a 90           mov.w      WORD_8c025fd4,r0                                 = 207h
+        8c025f5e dc 03           mov.b      @(r0,r13),r3
+        8c025f60 e8 84           mov.b      @(0x8,r14),r0
+        8c025f62 3c 30           add        r3,r0
+        8c025f64 e8 80           mov.b      r0,@(0x8,r14)
+                             LAB_8c025f66                                    XREF[1]:     8c025f5a(j)  
+        8c025f66 e8 84           mov.b      @(0x8,r14),r0
+        8c025f68 9c 00           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r0
+        8c025f6a e1 80           mov.b      r0,@(0x1,r14)
+        8c025f6c c3 1f           mov.l      r12,@(0xc,r15)=>local_30
+        8c025f6e e8 84           mov.b      @(0x8,r14),r0
+        8c025f70 03 61           mov        r0,r1
+        8c025f72 a3 60           mov        r10,r0
+        8c025f74 09 00           nop
+        8c025f76 1b d3           mov.l      ->__modls,r3                                     = 8c0f4ebc
+        8c025f78 0b 43           jsr        @r3=>__modls                                     longlong __modls(void)
+        8c025f7a 09 00           _nop
+        8c025f7c f2 52           mov.l      @(0x8,r15)=>local_34,r2
+        8c025f7e 07 32           cmp/gt     r0,r2
+        8c025f80 01 8b           bf         LAB_8c025f86
+        8c025f82 01 a0           bra        LAB_8c025f88
+        8c025f84 01 e3           _mov       #0x1,r3
+                             LAB_8c025f86                                    XREF[1]:     8c025f80(j)  
+        8c025f86 c3 63           mov        r12,r3
+                             LAB_8c025f88                                    XREF[1]:     8c025f82(j)  
+        8c025f88 31 1f           mov.l      r3,@(0x4,r15)=>local_38
+                             LAB_8c025f8a                                    XREF[2]:     8c025f10(j), 8c025f46(j)  
+        8c025f8a f2 62           mov.l      @r15=>local_3c,r2
+        8c025f8c 16 d3           mov.l      PTR_DAT_8c025fe8,r3                              = 8c1f9f20
+        8c025f8e 22 96           mov.w      WORD_8c025fd6,r6                                 = 4000h
+        8c025f90 3c 32           add        r3,r2
+        8c025f92 22 85           mov.w      @(0x4,r2),r0=>DAT_8c1f9f24
+        8c025f94 0d 60           extu.w     r0,r0
+        8c025f96 68 20           tst        r6,r0
+        8c025f98 4b 89           bt         LAB_8c026032
+        8c025f9a e8 84           mov.b      @(0x8,r14),r0
+        8c025f9c 07 3a           cmp/gt     r0,r10
+        8c025f9e 25 89           bt         LAB_8c025fec
+        8c025fa0 e8 84           mov.b      @(0x8,r14),r0
+        8c025fa2 e3 62           mov        r14,r2
+        8c025fa4 0a 72           add        #0xa,r2
+        8c025fa6 03 67           mov        r0,r7
+        8c025fa8 e1 50           mov.l      @(0x4,r14),r0
+        8c025faa 7c 06           mov.b      @(r0,r7),r6
+        8c025fac 2c 37           add        r2,r7
+        8c025fae 70 61           mov.b      @r7,r1
+        8c025fb0 e3 62           mov        r14,r2
+        8c025fb2 0a 72           add        #0xa,r2
+        8c025fb4 01 71           add        #0x1,r1
+        8c025fb6 6c 66           extu.b     r6,r6
+        8c025fb8 10 27           mov.b      r1,@r7
+        8c025fba e8 84           mov.b      @(0x8,r14),r0
+        8c025fbc 0c 32           add        r0,r2
+        8c025fbe 63 60           mov        r6,r0
+        8c025fc0 09 00           nop
+        8c025fc2 08 d3           mov.l      ->__modls,r3                                     = 8c0f4ebc
+        8c025fc4 0b 43           jsr        @r3=>__modls                                     longlong __modls(void)
+        8c025fc6 20 61           _mov.b     @r2,r1
+        8c025fc8 00 22           mov.b      r0,@r2
+        8c025fca 43 1f           mov.l      param_1,@(0xc,r15)=>local_30
+        8c025fcc 31 a0           bra        LAB_8c026032
+        8c025fce 41 1f           _mov.l     param_1,@(0x4,r15)=>local_38
+                             WORD_8c025fd0                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fd0 0c 02           dw         20Ch
+                             WORD_8c025fd2                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fd2 00 10           dw         1000h
+                             WORD_8c025fd4                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fd4 07 02           dw         207h
+                             WORD_8c025fd6                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fd6 00 40           dw         4000h
+                             PTR_DAT_8c025fd8                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fd8 a9 af 1f 8c     addr       DAT_8c1fafa9
+                             PTR_CHAR_SEL_MULTI_8c025fdc                     XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fdc 44 9f 1f 8c     addr       CHAR_SEL_MULTI
+                             PTR_DAT_8c025fe0                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fe0 24 9f 1f 8c     addr       DAT_8c1f9f24
+                             PTR___modls_8c025fe4                            XREF[3]:     HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+        8c025fe4 bc 4e 0f 8c     addr       __modls
+                             PTR_DAT_8c025fe8                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c025fe8 20 9f 1f 8c     addr       DAT_8c1f9f20
+                             LAB_8c025fec                                    XREF[1]:     8c025f9e(j)  
+        8c025fec 53 60           mov        r5,r0
+        8c025fee 09 00           nop
+        8c025ff0 e9 80           mov.b      r0,@(0x9,r14)
+        8c025ff2 e8 84           mov.b      @(0x8,r14),r0
+        8c025ff4 ac 30           add        r10,r0
+        8c025ff6 e8 80           mov.b      r0,@(0x8,r14)
+        8c025ff8 81 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c025ffa dc 02           mov.b      @(r0,r13),r2
+        8c025ffc e8 84           mov.b      @(0x8,r14),r0
+        8c025ffe 2c 62           extu.b     r2,r2
+        8c026000 07 32           cmp/gt     r0,r2
+        8c026002 04 89           bt         LAB_8c02600e
+        8c026004 7b 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c026006 dc 02           mov.b      @(r0,r13),r2
+        8c026008 e8 84           mov.b      @(0x8,r14),r0
+        8c02600a 28 30           sub        r2,r0
+        8c02600c e8 80           mov.b      r0,@(0x8,r14)
+                             LAB_8c02600e                                    XREF[1]:     8c026002(j)  
+        8c02600e e8 84           mov.b      @(0x8,r14),r0
+        8c026010 9c 00           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r0
+        8c026012 e1 80           mov.b      r0,@(0x1,r14)
+        8c026014 c3 1f           mov.l      r12,@(0xc,r15)=>local_30
+        8c026016 e8 84           mov.b      @(0x8,r14),r0
+        8c026018 03 61           mov        r0,r1
+        8c02601a a3 60           mov        r10,r0
+        8c02601c 09 00           nop
+        8c02601e 39 d3           mov.l      ->__modls,r3                                     = 8c0f4ebc
+        8c026020 0b 43           jsr        @r3=>__modls                                     longlong __modls(void)
+        8c026022 09 00           _nop
+        8c026024 f2 52           mov.l      @(0x8,r15)=>local_34,r2
+        8c026026 07 32           cmp/gt     r0,r2
+        8c026028 01 8b           bf         LAB_8c02602e
+        8c02602a 01 a0           bra        LAB_8c026030
+        8c02602c 01 e3           _mov       #0x1,r3
+                             LAB_8c02602e                                    XREF[1]:     8c026028(j)  
+        8c02602e c3 63           mov        r12,r3
+                             LAB_8c026030                                    XREF[1]:     8c02602a(j)  
+        8c026030 31 1f           mov.l      r3,@(0x4,r15)=>local_38
+                             LAB_8c026032                                    XREF[2]:     8c025f98(j), 8c025fcc(j)  
+        8c026032 f2 62           mov.l      @r15=>local_3c,r2
+        8c026034 35 d3           mov.l      PTR_DAT_8c02610c,r3                              = 8c1f9f20
+        8c026036 34 d6           mov.l      DAT_8c026108,r6                                  = 00008000h
+        8c026038 3c 32           add        r3,r2
+        8c02603a 22 85           mov.w      @(0x4,r2),r0=>DAT_8c1f9f24
+        8c02603c 0d 60           extu.w     r0,r0
+        8c02603e 68 20           tst        r6,r0
+        8c026040 27 89           bt         LAB_8c026092
+        8c026042 53 60           mov        r5,r0
+        8c026044 09 00           nop
+        8c026046 e9 80           mov.b      r0,@(0x9,r14)
+        8c026048 e8 84           mov.b      @(0x8,r14),r0
+        8c02604a 03 61           mov        r0,r1
+        8c02604c a3 60           mov        r10,r0
+        8c02604e 09 00           nop
+        8c026050 2c d2           mov.l      ->__modls,r2                                     = 8c0f4ebc
+        8c026052 0b 42           jsr        @r2=>__modls                                     longlong __modls(void)
+        8c026054 09 00           _nop
+        8c026056 08 20           tst        r0,r0
+        8c026058 0b 8b           bf         LAB_8c026072
+        8c02605a e8 84           mov.b      @(0x8,r14),r0
+        8c02605c ac 30           add        r10,r0
+        8c02605e e8 80           mov.b      r0,@(0x8,r14)
+        8c026060 4d 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c026062 dc 02           mov.b      @(r0,r13),r2
+        8c026064 e8 84           mov.b      @(0x8,r14),r0
+        8c026066 2c 62           extu.b     r2,r2
+        8c026068 07 32           cmp/gt     r0,r2
+        8c02606a 02 89           bt         LAB_8c026072
+        8c02606c 47 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c02606e dc 00           mov.b      @(r0,r13),r0
+        8c026070 e8 80           mov.b      r0,@(0x8,r14)
+                             LAB_8c026072                                    XREF[2]:     8c026058(j), 8c02606a(j)  
+        8c026072 e8 84           mov.b      @(0x8,r14),r0
+        8c026074 ff 70           add        #-0x1,r0
+        8c026076 e8 80           mov.b      r0,@(0x8,r14)
+        8c026078 e8 84           mov.b      @(0x8,r14),r0
+        8c02607a 11 40           cmp/pz     r0
+        8c02607c 04 89           bt         LAB_8c026088
+        8c02607e 3e 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c026080 dc 03           mov.b      @(r0,r13),r3
+        8c026082 e8 84           mov.b      @(0x8,r14),r0
+        8c026084 3c 30           add        r3,r0
+        8c026086 e8 80           mov.b      r0,@(0x8,r14)
+                             LAB_8c026088                                    XREF[1]:     8c02607c(j)  
+        8c026088 e8 84           mov.b      @(0x8,r14),r0
+        8c02608a 9c 00           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r0
+        8c02608c e1 80           mov.b      r0,@(0x1,r14)
+        8c02608e c3 1f           mov.l      r12,@(0xc,r15)=>local_30
+        8c026090 c1 1f           mov.l      r12,@(0x4,r15)=>local_38
+                             LAB_8c026092                                    XREF[1]:     8c026040(j)  
+        8c026092 f2 62           mov.l      @r15=>local_3c,r2
+        8c026094 1d d3           mov.l      PTR_DAT_8c02610c,r3                              = 8c1f9f20
+        8c026096 33 96           mov.w      WORD_8c026100,r6                                 = 2000h
+        8c026098 3c 32           add        r3,r2
+        8c02609a 22 85           mov.w      @(0x4,r2),r0=>DAT_8c1f9f24
+        8c02609c 0d 60           extu.w     r0,r0
+        8c02609e 68 20           tst        r6,r0
+        8c0260a0 21 89           bt         LAB_8c0260e6
+        8c0260a2 53 60           mov        r5,r0
+        8c0260a4 09 00           nop
+        8c0260a6 e9 80           mov.b      r0,@(0x9,r14)
+        8c0260a8 e8 84           mov.b      @(0x8,r14),r0
+        8c0260aa 01 70           add        #0x1,r0
+        8c0260ac e8 80           mov.b      r0,@(0x8,r14)
+        8c0260ae e8 84           mov.b      @(0x8,r14),r0
+        8c0260b0 03 61           mov        r0,r1
+        8c0260b2 a3 60           mov        r10,r0
+        8c0260b4 09 00           nop
+        8c0260b6 13 d2           mov.l      ->__modls,r2                                     = 8c0f4ebc
+        8c0260b8 0b 42           jsr        @r2=>__modls                                     longlong __modls(void)
+        8c0260ba 09 00           _nop
+        8c0260bc 08 20           tst        r0,r0
+        8c0260be 02 8b           bf         LAB_8c0260c6
+        8c0260c0 e8 84           mov.b      @(0x8,r14),r0
+        8c0260c2 a8 30           sub        r10,r0
+        8c0260c4 e8 80           mov.b      r0,@(0x8,r14)
+                             LAB_8c0260c6                                    XREF[1]:     8c0260be(j)  
+        8c0260c6 1a 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c0260c8 dc 03           mov.b      @(r0,r13),r3
+        8c0260ca e8 84           mov.b      @(0x8,r14),r0
+        8c0260cc 3c 63           extu.b     r3,r3
+        8c0260ce 07 33           cmp/gt     r0,r3
+        8c0260d0 04 89           bt         LAB_8c0260dc
+        8c0260d2 14 90           mov.w      WORD_8c0260fe,r0                                 = 207h
+        8c0260d4 dc 03           mov.b      @(r0,r13),r3
+        8c0260d6 e8 84           mov.b      @(0x8,r14),r0
+        8c0260d8 38 30           sub        r3,r0
+        8c0260da e8 80           mov.b      r0,@(0x8,r14)
+                             LAB_8c0260dc                                    XREF[1]:     8c0260d0(j)  
+        8c0260dc e8 84           mov.b      @(0x8,r14),r0
+        8c0260de 9c 00           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r0
+        8c0260e0 e1 80           mov.b      r0,@(0x1,r14)
+        8c0260e2 c3 1f           mov.l      r12,@(0xc,r15)=>local_30
+        8c0260e4 41 1f           mov.l      param_1,@(0x4,r15)=>local_38
+                             LAB_8c0260e6                                    XREF[1]:     8c0260a0(j)  
+        8c0260e6 0c 90           mov.w      WORD_8c026102,r0                                 = 20Dh
+        8c0260e8 dc 03           mov.b      @(r0,r13),r3
+        8c0260ea 38 23           tst        r3,r3
+        8c0260ec 2e 89           bt         LAB_8c02614c
+        8c0260ee f3 50           mov.l      @(0xc,r15)=>local_30,r0
+        8c0260f0 01 88           cmp/eq     #0x1,r0
+        8c0260f2 0d 8b           bf         LAB_8c026110
+        8c0260f4 f1 53           mov.l      @(0x4,r15)=>local_38,r3
+        8c0260f6 38 23           tst        r3,r3
+        8c0260f8 0a 8b           bf         LAB_8c026110
+        8c0260fa 0a a0           bra        LAB_8c026112
+        8c0260fc 01 e4           _mov       #0x1,param_1
+                             WORD_8c0260fe                                   XREF[7]:     HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+        8c0260fe 07 02           dw         207h
+                             WORD_8c026100                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c026100 00 20           dw         2000h
+                             WORD_8c026102                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c026102 0d 02           dw         20Dh
+                             PTR___modls_8c026104                            XREF[3]:     HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+        8c026104 bc 4e 0f 8c     addr       __modls
+                             DAT_8c026108                                    XREF[1]:     HandleCharacterSelectionState_FU
+        8c026108 00 80 00 00     undefined4 00008000h
+                             PTR_DAT_8c02610c                                XREF[2]:     HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+        8c02610c 20 9f 1f 8c     addr       DAT_8c1f9f20
+                             LAB_8c026110                                    XREF[2]:     8c0260f2(j), 8c0260f8(j)  
+        8c026110 00 e4           mov        #0x0,param_1
+                             LAB_8c026112                                    XREF[1]:     8c0260fa(j)  
+        8c026112 09 d2           mov.l      ->FUN_8c02a474,r2                                = 8c02a474
+        8c026114 48 24           tst        param_1,param_1
+        8c026116 b3 66           mov        r11,r6
+        8c026118 29 05           movt       r5
+        8c02611a 0b 42           jsr        @r2=>FUN_8c02a474                                undefined FUN_8c02a474(uint para
+        8c02611c d3 64           _mov       r13,param_1
+        8c02611e 07 d3           mov.l      ->FUN_8c02ab64,r3                                = 8c02ab64
+        8c026120 b3 65           mov        r11,r5
+        8c026122 0b 43           jsr        @r3=>FUN_8c02ab64                                undefined4 FUN_8c02ab64(uint par
+        8c026124 d3 64           _mov       r13,param_1
+        8c026126 08 20           tst        r0,r0
+        8c026128 10 8b           bf         LAB_8c02614c
+        8c02612a f3 53           mov.l      @(0xc,r15)=>local_30,r3
+        8c02612c 38 23           tst        r3,r3
+        8c02612e 07 8b           bf         LAB_8c026140
+        8c026130 f1 50           mov.l      @(0x4,r15)=>local_38,r0
+        8c026132 06 a0           bra        LAB_8c026142
+        8c026134 01 88           _cmp/eq    #0x1,r0
+        8c026136 00              ??         00h
+        8c026137 00              ??         00h
+                             PTR_FUN_8c026138                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c026138 74 a4 02 8c     addr       FUN_8c02a474
+                             PTR_FUN_8c02613c                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c02613c 64 ab 02 8c     addr       FUN_8c02ab64
+                             LAB_8c026140                                    XREF[1]:     8c02612e(j)  
+        8c026140 b8 2b           tst        r11,r11
+                             LAB_8c026142                                    XREF[1]:     8c026132(j)  
+        8c026142 4e d2           mov.l      ->FUN_8c02a530,r2                                = 8c02a530
+        8c026144 b3 66           mov        r11,r6
+        8c026146 29 05           movt       r5
+        8c026148 0b 42           jsr        @r2=>FUN_8c02a530                                undefined FUN_8c02a530(uint para
+        8c02614a d3 64           _mov       r13,param_1
+                             LAB_8c02614c                                    XREF[2]:     8c0260ec(j), 8c026128(j)  
+        8c02614c e3 63           mov        r14,r3
+        8c02614e e8 84           mov.b      @(0x8,r14),r0
+        8c026150 0a 73           add        #0xa,r3
+        8c026152 3c 30           add        r3,r0
+        8c026154 00 62           mov.b      @r0,r2
+        8c026156 11 42           cmp/pz     r2
+        8c026158 08 89           bt         LAB_8c02616c
+        8c02615a e8 84           mov.b      @(0x8,r14),r0
+        8c02615c e3 63           mov        r14,r3
+        8c02615e 0a 73           add        #0xa,r3
+        8c026160 03 64           mov        r0,param_1
+        8c026162 e1 50           mov.l      @(0x4,r14),r0
+        8c026164 4c 33           add        param_1,r3
+        8c026166 4c 02           mov.b      @(r0,param_1),r2
+        8c026168 ff 72           add        #-0x1,r2
+        8c02616a 20 23           mov.b      r2,@r3
+                             LAB_8c02616c                                    XREF[1]:     8c026158(j)  
+        8c02616c e8 84           mov.b      @(0x8,r14),r0
+        8c02616e e3 62           mov        r14,r2
+        8c026170 0a 72           add        #0xa,r2
+        8c026172 03 64           mov        r0,param_1
+        8c026174 e1 50           mov.l      @(0x4,r14),r0
+        8c026176 4c 32           add        param_1,r2
+        8c026178 4c 03           mov.b      @(r0,param_1),r3
+        8c02617a 20 61           mov.b      @r2,r1
+        8c02617c 3c 63           extu.b     r3,r3
+        8c02617e 17 33           cmp/gt     r1,r3
+        8c026180 04 89           bt         LAB_8c02618c
+        8c026182 e3 63           mov        r14,r3
+        8c026184 e8 84           mov.b      @(0x8,r14),r0
+        8c026186 0a 73           add        #0xa,r3
+        8c026188 3c 30           add        r3,r0
+        8c02618a c0 20           mov.b      r12,@r0
+                             LAB_8c02618c                                    XREF[1]:     8c026180(j)  
+        8c02618c e8 84           mov.b      @(0x8,r14),r0
+        8c02618e e3 63           mov        r14,r3
+        8c026190 0a 73           add        #0xa,r3
+        8c026192 3b d1           mov.l      PTR_DAT_8c026280,r1                              = 8c1f9fa0
+        8c026194 9c 00           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r0
+        8c026196 e1 80           mov.b      r0,@(0x1,r14)
+        8c026198 e8 84           mov.b      @(0x8,r14),r0
+        8c02619a 03 64           mov        r0,param_1
+        8c02619c 4c 33           add        param_1,r3
+        8c02619e 08 40           shll2      r0
+        8c0261a0 30 62           mov.b      @r3,r2
+        8c0261a2 1e 00           mov.l      @(r0,r1)=>DAT_8c1f9fa0,r0
+        8c0261a4 37 d3           mov.l      PTR_DAT_8c026284,r3                              = 8c1f9f20
+        8c0261a6 2c 00           mov.b      @(r0,r2),r0
+        8c0261a8 66 94           mov.w      WORD_8c026278,param_1                            = E0h
+        8c0261aa e2 80           mov.b      r0,@(0x2,r14)
+        8c0261ac f2 62           mov.l      @r15=>local_3c,r2
+        8c0261ae 3c 32           add        r3,r2
+        8c0261b0 21 85           mov.w      @(0x2,r2),r0=>DAT_8c1f9f22
+        8c0261b2 0d 60           extu.w     r0,r0
+        8c0261b4 48 20           tst        param_1,r0
+        8c0261b6 01 8b           bf         LAB_8c0261bc
+        8c0261b8 b9 a0           bra        LAB_8c02632e
+        8c0261ba 09 00           _nop
+                             LAB_8c0261bc                                    XREF[1]:     8c0261b6(j)  
+        8c0261bc ef 52           mov.l      @(0x3c,r14),r2
+        8c0261be 28 22           tst        r2,r2
+        8c0261c0 01 89           bt         LAB_8c0261c6
+        8c0261c2 b4 a0           bra        LAB_8c02632e
+        8c0261c4 09 00           _nop
+                             LAB_8c0261c6                                    XREF[1]:     8c0261c0(j)  
+        8c0261c6 30 d2           mov.l      ->Illegal_Character_Check_FUN_8c02a844,r2        = 8c02a844
+        8c0261c8 e1 84           mov.b      @(0x1,r14),r0
+        8c0261ca 0b 42           jsr        @r2=>Illegal_Character_Check_FUN_8c02a844        bool Illegal_Character_Check_FUN
+        8c0261cc 0c 64           _extu.b    r0,param_1
+        8c0261ce 08 20           tst        r0,r0
+        8c0261d0 01 8b           bf         LAB_8c0261d6
+        8c0261d2 ac a0           bra        LAB_8c02632e
+        8c0261d4 09 00           _nop
+                             LAB_8c0261d6                                    XREF[1]:     8c0261d0(j)  
+        8c0261d6 2d d2           mov.l      ->ControlAudioPlaybackState_FUN_8c0133c2,r2      = 8c0133c2
+        8c0261d8 0b 42           jsr        @r2=>ControlAudioPlaybackState_FUN_8c0133c2      undefined4 ControlAudioPlaybackS
+        8c0261da 24 e4           _mov       #0x24,param_1
+        8c0261dc 2c d3           mov.l      ->FUN_8c02a86c,r3                                = 8c02a86c
+        8c0261de b3 65           mov        r11,r5
+        8c0261e0 0b 43           jsr        @r3=>FUN_8c02a86c                                undefined FUN_8c02a86c(int param
+        8c0261e2 d3 64           _mov       r13,param_1
+        8c0261e4 21 e0           mov        #0x21,r0
+        8c0261e6 e3 63           mov        r14,r3
+        8c0261e8 48 73           add        #0x48,r3
+        8c0261ea 18 e4           mov        #0x18,param_1
+        8c0261ec 4f 1e           mov.l      param_1,@(0x3c,r14)
+        8c0261ee ec 02           mov.b      @(r0,r14),r2
+        8c0261f0 2c 62           extu.b     r2,r2
+        8c0261f2 ff 72           add        #-0x1,r2
+        8c0261f4 08 42           shll2      r2
+        8c0261f6 3c 32           add        r3,r2
+        8c0261f8 3f 93           mov.w      WORD_8c02627a,r3                                 = 20Ch
+        8c0261fa c2 22           mov.l      r12,@r2
+        8c0261fc 03 62           mov        r0,r2
+        8c0261fe ec 32           add        r14,r2
+        8c026200 dc 33           add        r13,r3
+        8c026202 20 62           mov.b      @r2,r2
+        8c026204 30 63           mov.b      @r3,r3
+        8c026206 26 33           cmp/hi     r2,r3
+        8c026208 01 89           bt         LAB_8c02620e
+        8c02620a 90 a0           bra        LAB_8c02632e
+        8c02620c 09 00           _nop
+                             LAB_8c02620e                                    XREF[1]:     8c026208(j)  
+        8c02620e 21 d2           mov.l      PTR_DAT_8c026294,r2                              = 8c1fdc88
+        8c026210 20 63           mov.b      @r2=>DAT_8c1fdc88,r3
+        8c026212 3c 60           extu.b     r3,r0
+        8c026214 09 88           cmp/eq     #0x9,r0
+        8c026216 06 8b           bf         LAB_8c026226
+        8c026218 1f d0           mov.l      PTR_DAT_8c026298,r0                              = 8c1fafa9
+        8c02621a 8c 03           mov.b      @(r0,r8),r3=>DAT_8c1fafa9
+        8c02621c 3c 60           extu.b     r3,r0
+        8c02621e 01 88           cmp/eq     #0x1,r0
+        8c026220 01 8b           bf         LAB_8c026226
+        8c026222 84 a0           bra        LAB_8c02632e
+        8c026224 09 00           _nop
+                             LAB_8c026226                                    XREF[2]:     8c026216(j), 8c026220(j)  
+        8c026226 21 e0           mov        #0x21,r0
+        8c026228 ec 04           mov.b      @(r0,r14),param_1
+        8c02622a 70 e0           mov        #0x70,r0
+        8c02622c ec 00           mov.b      @(r0,r14),r0
+        8c02622e 4c 64           extu.b     param_1,param_1
+        8c026230 09 88           cmp/eq     #0x9,r0
+        8c026232 17 8f           bf/s       LAB_8c026264
+        8c026234 ff 74           _add       #-0x1,param_1
+        8c026236 19 d3           mov.l      PTR_DAT_8c02629c,r3                              = 8c1faf99
+        8c026238 30 62           mov.b      @r3=>DAT_8c1faf99,r2
+        8c02623a 28 22           tst        r2,r2
+        8c02623c 12 89           bt         LAB_8c026264
+        8c02623e b3 65           mov        r11,r5
+        8c026240 08 45           shll2      r5
+        8c026242 b3 63           mov        r11,r3
+        8c026244 3c 35           add        r3,r5
+        8c026246 00 45           shll       r5
+        8c026248 15 d7           mov.l      ->CHAR_P1_var12,r7                               = 8c1ff5dc
+        8c02624a 43 66           mov        param_1,r6
+        8c02624c 53 62           mov        r5,r2
+        8c02624e 00 46           shll       r6
+        8c026250 7c 32           add        r7,r2
+        8c026252 14 d7           mov.l      PTR_DAT_8c0262a4,r7=>DAT_8c1ff5f0                = 8c1ff5f0
+        8c026254 6c 32           add        r6,r2
+        8c026256 21 85           mov.w      @(0x2,r2),r0=>DAT_8c1ff5de
+        8c026258 7c 35           add        r7,r5
+        8c02625a 6c 35           add        r6,r5
+        8c02625c 03 64           mov        r0,param_1
+        8c02625e 51 85           mov.w      @(0x2,r5),r0=>DAT_8c1ff5f2
+        8c026260 06 a0           bra        LAB_8c026270
+        8c026262 01 1f           _mov.l     r0,@(0x4,r15)=>local_38
+                             LAB_8c026264                                    XREF[2]:     8c026232(j), 8c02623c(j)  
+        8c026264 e1 84           mov.b      @(0x1,r14),r0
+        8c026266 10 d4           mov.l      ->char_IDs??????,param_1                         = 8c14dbd4
+        8c026268 0c 60           extu.b     r0,r0
+        8c02626a 4c 03           mov.b      @(r0,param_1)=>char_IDs??????,r3                 = 8h
+        8c02626c c1 1f           mov.l      r12,@(0x4,r15)=>local_38
+        8c02626e 3c 64           extu.b     r3,param_1
+                             LAB_8c026270                                    XREF[1]:     8c026260(j)  
+        8c026270 43 66           mov        param_1,r6
+        8c026272 d3 65           mov        r13,r5
+        8c026274 22 a0           bra        LAB_8c0262bc
+        8c026276 c3 64           _mov       r12,param_1
+                             WORD_8c026278                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c026278 e0 00           dw         E0h
+                             WORD_8c02627a                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c02627a 0c 02           dw         20Ch
+                             PTR_FUN_8c02627c                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c02627c 30 a5 02 8c     addr       FUN_8c02a530
+                             PTR_DAT_8c026280                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c026280 a0 9f 1f 8c     addr       DAT_8c1f9fa0
+                             PTR_DAT_8c026284                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c026284 20 9f 1f 8c     addr       DAT_8c1f9f20
+                             PTR_Illegal_Character_Check_FUN_8c026288        XREF[1]:     HandleCharacterSelectionState_FU
+        8c026288 44 a8 02 8c     addr       Illegal_Character_Check_FUN_8c02a844
+                             PTR_ControlAudioPlaybackState_FUN_8c02628c      XREF[1]:     HandleCharacterSelectionState_FU
+        8c02628c c2 33 01 8c     addr       ControlAudioPlaybackState_FUN_8c0133c2
+                             PTR_FUN_8c026290                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c026290 6c a8 02 8c     addr       FUN_8c02a86c
+                             PTR_DAT_8c026294                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c026294 88 dc 1f 8c     addr       DAT_8c1fdc88
+                             PTR_DAT_8c026298                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c026298 a9 af 1f 8c     addr       DAT_8c1fafa9
+                             PTR_DAT_8c02629c                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c02629c 99 af 1f 8c     addr       DAT_8c1faf99
+                             PTR_CHAR_P1_var12_8c0262a0                      XREF[1]:     HandleCharacterSelectionState_FU
+        8c0262a0 dc f5 1f 8c     addr       CHAR_P1_var12
+                             PTR_DAT_8c0262a4                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0262a4 f0 f5 1f 8c     addr       DAT_8c1ff5f0
+                             PTR_char_IDs??????_8c0262a8                     XREF[1]:     HandleCharacterSelectionState_FU
+        8c0262a8 d4 db 14 8c     addr       char_IDs??????                                   = 8h
+                             LAB_8c0262ac                                    XREF[1]:     8c0262c4(j)  
+        8c0262ac 6f 63           exts.w     r6,r3
+        8c0262ae 43 60           mov        param_1,r0
+        8c0262b0 09 00           nop
+        8c0262b2 9c 02           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r2
+        8c0262b4 2c 62           extu.b     r2,r2
+        8c0262b6 20 33           cmp/eq     r2,r3
+        8c0262b8 05 89           bt         LAB_8c0262c6
+        8c0262ba 01 74           add        #0x1,param_1
+                             LAB_8c0262bc                                    XREF[1]:     8c026274(j)  
+        8c0262bc 7b 90           mov.w      WORD_8c0263b6,r0                                 = 207h
+        8c0262be 5c 02           mov.b      @(r0,r5),r2
+        8c0262c0 2c 62           extu.b     r2,r2
+        8c0262c2 23 34           cmp/ge     r2,param_1
+        8c0262c4 f2 8b           bf         LAB_8c0262ac
+                             LAB_8c0262c6                                    XREF[1]:     8c0262b8(j)  
+        8c0262c6 76 90           mov.w      WORD_8c0263b6,r0                                 = 207h
+        8c0262c8 5c 02           mov.b      @(r0,r5),r2
+        8c0262ca 2c 62           extu.b     r2,r2
+        8c0262cc 23 34           cmp/ge     r2,param_1
+        8c0262ce 00 8b           bf         LAB_8c0262d2
+        8c0262d0 ff e4           mov        #-0x1,param_1
+                             LAB_8c0262d2                                    XREF[1]:     8c0262ce(j)  
+        8c0262d2 43 60           mov        param_1,r0
+        8c0262d4 09 00           nop
+        8c0262d6 e8 80           mov.b      r0,@(0x8,r14)
+        8c0262d8 e3 63           mov        r14,r3
+        8c0262da e8 84           mov.b      @(0x8,r14),r0
+        8c0262dc 0a 73           add        #0xa,r3
+        8c0262de b3 65           mov        r11,r5
+        8c0262e0 d3 66           mov        r13,r6
+        8c0262e2 3c 30           add        r3,r0
+        8c0262e4 35 d3           mov.l      ->FUN_8c02ae8a,r3                                = 8c02ae8a
+        8c0262e6 06 2f           mov.l      r0,@-r15=>local_40
+        8c0262e8 0b 43           jsr        @r3=>FUN_8c02ae8a                                int FUN_8c02ae8a(ushort param_1,
+        8c0262ea f2 54           _mov.l     @(0x8,r15)=>local_38,param_1
+        8c0262ec f6 62           mov.l      @r15+=>local_40,r2
+        8c0262ee 34 d3           mov.l      ->__modls,r3                                     = 8c0f4ebc
+        8c0262f0 00 22           mov.b      r0,@r2
+        8c0262f2 e8 84           mov.b      @(0x8,r14),r0
+        8c0262f4 03 61           mov        r0,r1
+        8c0262f6 0b 43           jsr        @r3=>__modls                                     longlong __modls(void)
+        8c0262f8 a3 60           _mov       r10,r0
+        8c0262fa f2 52           mov.l      @(0x8,r15)=>local_34,r2
+        8c0262fc 07 32           cmp/gt     r0,r2
+        8c0262fe 5b 90           mov.w      WORD_8c0263b8,r0                                 = 20Dh
+        8c026300 29 03           movt       r3
+        8c026302 31 1f           mov.l      r3,@(0x4,r15)=>local_38
+        8c026304 dc 02           mov.b      @(r0,r13),r2
+        8c026306 28 22           tst        r2,r2
+        8c026308 11 89           bt         LAB_8c02632e
+        8c02630a 2e d3           mov.l      ->FUN_8c02a474,r3                                = 8c02a474
+        8c02630c 01 e5           mov        #0x1,r5
+        8c02630e b3 66           mov        r11,r6
+        8c026310 0b 43           jsr        @r3=>FUN_8c02a474                                undefined FUN_8c02a474(uint para
+        8c026312 d3 64           _mov       r13,param_1
+        8c026314 2c d2           mov.l      ->FUN_8c02ab64,r2                                = 8c02ab64
+        8c026316 b3 65           mov        r11,r5
+        8c026318 0b 42           jsr        @r2=>FUN_8c02ab64                                undefined4 FUN_8c02ab64(uint par
+        8c02631a d3 64           _mov       r13,param_1
+        8c02631c 08 20           tst        r0,r0
+        8c02631e 06 8b           bf         LAB_8c02632e
+        8c026320 f1 50           mov.l      @(0x4,r15)=>local_38,r0
+        8c026322 b3 66           mov        r11,r6
+        8c026324 29 d3           mov.l      ->FUN_8c02a530,r3                                = 8c02a530
+        8c026326 01 88           cmp/eq     #0x1,r0
+        8c026328 29 05           movt       r5
+        8c02632a 0b 43           jsr        @r3=>FUN_8c02a530                                undefined FUN_8c02a530(uint para
+        8c02632c d3 64           _mov       r13,param_1
+                             LAB_8c02632e                                    XREF[7]:     8c0261b8(j), 8c0261c2(j), 
+                                                                                          8c0261d2(j), 8c02620a(j), 
+                                                                                          8c026222(j), 8c026308(j), 
+                                                                                          8c02631e(j)  
+        8c02632e e8 84           mov.b      @(0x8,r14),r0
+        8c026330 e3 63           mov        r14,r3
+        8c026332 0a 73           add        #0xa,r3
+        8c026334 26 d1           mov.l      PTR_DAT_8c0263d0,r1                              = 8c1f9fa0
+        8c026336 9c 00           mov.b      @(r0,r9)=>CHAR_SEL_MULTI,r0
+        8c026338 e1 80           mov.b      r0,@(0x1,r14)
+        8c02633a e8 84           mov.b      @(0x8,r14),r0
+        8c02633c 03 64           mov        r0,param_1
+        8c02633e 4c 33           add        param_1,r3
+        8c026340 08 40           shll2      r0
+        8c026342 30 62           mov.b      @r3,r2
+        8c026344 1e 00           mov.l      @(r0,r1)=>DAT_8c1f9fa0,r0
+        8c026346 e3 63           mov        r14,r3
+        8c026348 0a 73           add        #0xa,r3
+        8c02634a 2c 00           mov.b      @(r0,r2),r0
+        8c02634c e2 80           mov.b      r0,@(0x2,r14)
+        8c02634e e8 84           mov.b      @(0x8,r14),r0
+        8c026350 03 64           mov        r0,param_1
+        8c026352 4e 65           exts.b     param_1,r5
+        8c026354 3c 35           add        r3,r5
+        8c026356 f5 53           mov.l      @(0x14,r15)=>local_28,r3
+        8c026358 50 65           mov.b      @r5,r5
+        8c02635a 50 33           cmp/eq     r5,r3
+        8c02635c 29 05           movt       r5
+        8c02635e ff 75           add        #-0x1,r5
+        8c026360 5b 65           neg        r5,r5
+        8c026362 58 25           tst        r5,r5
+        8c026364 05 8b           bf         LAB_8c026372
+        8c026366 f4 53           mov.l      @(0x10,r15)=>local_2c,r3
+        8c026368 4e 64           exts.b     param_1,param_1
+        8c02636a 40 33           cmp/eq     param_1,r3
+        8c02636c 01 8b           bf         LAB_8c026372
+        8c02636e 01 a0           bra        LAB_8c026374
+        8c026370 00 e4           _mov       #0x0,param_1
+                             LAB_8c026372                                    XREF[2]:     8c026364(j), 8c02636c(j)  
+        8c026372 01 e4           mov        #0x1,param_1
+                             LAB_8c026374                                    XREF[1]:     8c02636e(j)  
+        8c026374 17 d2           mov.l      PTR_DAT_8c0263d4,r2                              = 8c1fdc88
+        8c026376 20 63           mov.b      @r2=>DAT_8c1fdc88,r3
+        8c026378 3c 60           extu.b     r3,r0
+        8c02637a 09 88           cmp/eq     #0x9,r0
+        8c02637c 2e 8b           bf         LAB_8c0263dc
+        8c02637e 16 d0           mov.l      PTR_DAT_8c0263d8,r0                              = 8c1fafa9
+        8c026380 8c 03           mov.b      @(r0,r8),r3=>DAT_8c1fafa9
+        8c026382 3c 60           extu.b     r3,r0
+        8c026384 01 88           cmp/eq     #0x1,r0
+        8c026386 29 8b           bf         LAB_8c0263dc
+        8c026388 02 e3           mov        #0x2,r3
+        8c02638a 33 3b           cmp/ge     r3,r11
+        8c02638c 26 89           bt         LAB_8c0263dc
+        8c02638e 21 e1           mov        #0x21,r1
+        8c026390 ec 31           add        r14,r1
+        8c026392 10 61           mov.b      @r1,r1
+        8c026394 1c 60           extu.b     r1,r0
+        8c026396 01 88           cmp/eq     #0x1,r0
+        8c026398 20 8b           bf         LAB_8c0263dc
+        8c02639a f6 51           mov.l      @(0x18,r15)=>local_24,r1
+        8c02639c d3 60           mov        r13,r0
+        8c02639e 09 00           nop
+        8c0263a0 0b 93           mov.w      WORD_8c0263ba,r3                                 = 109h
+        8c0263a2 1c 30           add        r1,r0
+        8c0263a4 3c 03           mov.b      @(r0,r3),r3
+        8c0263a6 38 23           tst        r3,r3
+        8c0263a8 18 8b           bf         LAB_8c0263dc
+        8c0263aa b3 64           mov        r11,param_1
+        8c0263ac d3 65           mov        r13,r5
+        8c0263ae 5b bc           bsr        FUN_8c025c68                                     undefined FUN_8c025c68(uint para
+        8c0263b0 02 74           _add       #0x2,param_1
+        8c0263b2 3b a0           bra        LAB_8c02642c
+        8c0263b4 09 00           _nop
+                             WORD_8c0263b6                                   XREF[2]:     HandleCharacterSelectionState_FU
+                                                                                          HandleCharacterSelectionState_FU
+        8c0263b6 07 02           dw         207h
+                             WORD_8c0263b8                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263b8 0d 02           dw         20Dh
+                             WORD_8c0263ba                                   XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263ba 09 01           dw         109h
+                             PTR_FUN_8c0263bc                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263bc 8a ae 02 8c     addr       FUN_8c02ae8a
+                             PTR___modls_8c0263c0                            XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263c0 bc 4e 0f 8c     addr       __modls
+                             PTR_FUN_8c0263c4                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263c4 74 a4 02 8c     addr       FUN_8c02a474
+                             PTR_FUN_8c0263c8                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263c8 64 ab 02 8c     addr       FUN_8c02ab64
+                             PTR_FUN_8c0263cc                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263cc 30 a5 02 8c     addr       FUN_8c02a530
+                             PTR_DAT_8c0263d0                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263d0 a0 9f 1f 8c     addr       DAT_8c1f9fa0
+                             PTR_DAT_8c0263d4                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263d4 88 dc 1f 8c     addr       DAT_8c1fdc88
+                             PTR_DAT_8c0263d8                                XREF[1]:     HandleCharacterSelectionState_FU
+        8c0263d8 a9 af 1f 8c     addr       DAT_8c1fafa9
+                             LAB_8c0263dc                                    XREF[5]:     8c02637c(j), 8c026386(j), 
+                                                                                          8c02638c(j), 8c026398(j), 
+                                                                                          8c0263a8(j)  
+        8c0263dc 48 24           tst        param_1,param_1
+        8c0263de 25 89           bt         LAB_8c02642c
+        8c0263e0 74 e9           mov        #0x74,r9
+        8c0263e2 d3 63           mov        r13,r3
+        8c0263e4 97 08           mul.l      r9,r8
+        8c0263e6 40 e0           mov        #0x40,r0
+        8c0263e8 c6 0e           mov.l      r12,@(r0,r14)
+        8c0263ea cf 1e           mov.l      r12,@(0x3c,r14)
+        8c0263ec 1a 09           sts        MACL,r9
+        8c0263ee 3c 39           add        r3,r9
+        8c0263f0 3f d3           mov.l      ->ControlAudioPlaybackState_FUN_8c0133c2,r3      = 8c0133c2
+        8c0263f2 0b 43           jsr        @r3=>ControlAudioPlaybackState_FUN_8c0133c2      undefined4 ControlAudioPlaybackS
+        8c0263f4 23 e4           _mov       #0x23,param_1
+        8c0263f6 02 e4           mov        #0x2,param_1
+        8c0263f8 43 3b           cmp/ge     param_1,r11
+        8c0263fa 14 8b           bf         LAB_8c026426
+        8c0263fc 3d d2           mov.l      PTR_DAT_8c0264f4,r2                              = 8c1fdc88
+        8c0263fe 20 63           mov.b      @r2=>DAT_8c1fdc88,r3
+        8c026400 3c 60           extu.b     r3,r0
+        8c026402 09 88           cmp/eq     #0x9,r0
+        8c026404 12 8b           bf         LAB_8c02642c
+        8c026406 3c d0           mov.l      PTR_DAT_8c0264f8,r0                              = 8c1fafa9
+        8c026408 8c 03           mov.b      @(r0,r8),r3=>DAT_8c1fafa9
+        8c02640a 3c 60           extu.b     r3,r0
+        8c02640c 01 88           cmp/eq     #0x1,r0
+        8c02640e 0d 8b           bf         LAB_8c02642c
+        8c026410 21 e3           mov        #0x21,r3
+        8c026412 ec 33           add        r14,r3
+        8c026414 30 63           mov.b      @r3,r3
+        8c026416 38 23           tst        r3,r3
+        8c026418 08 8b           bf         LAB_8c02642c
+        8c02641a 21 e3           mov        #0x21,r3
+        8c02641c 9c 33           add        r9,r3
+        8c02641e 30 63           mov.b      @r3,r3
+        8c026420 3c 60           extu.b     r3,r0
+        8c026422 01 88           cmp/eq     #0x1,r0
+        8c026424 02 8b           bf         LAB_8c02642c
+                             LAB_8c026426                                    XREF[1]:     8c0263fa(j)  
+        8c026426 d3 65           mov        r13,r5
+        8c026428 1e bc           bsr        FUN_8c025c68                                     undefined FUN_8c025c68(uint para
+        8c02642a b3 64           _mov       r11,param_1
+                             LAB_8c02642c                                    XREF[12]:    8c025e76(j), 8c025e98(j), 
+                                                                                          8c025ea6(j), 8c025eb8(j), 
+                                                                                          8c025ec2(j), 8c025ed2(j), 
+                                                                                          8c0263b2(j), 8c0263de(j), 
+                                                                                          8c026404(j), 8c02640e(j), 
+                                                                                          8c026418(j), 8c026424(j)  
+        8c02642c 01 7b           add        #0x1,r11
+                             LAB_8c02642e                                    XREF[1]:     8c025e22(j)  
+        8c02642e 04 e4           mov        #0x4,param_1
+        8c026430 43 3b           cmp/ge     param_1,r11
+        8c026432 01 89           bt         LAB_8c026438
+        8c026434 f7 ac           bra        LAB_8c025e26
+        8c026436 09 00           _nop
+                             LAB_8c026438                                    XREF[3]:     8c025e00(j), 8c025e0c(j), 
+                                                                                          8c026432(j)  
+        8c026438 1c 7f           add        #0x1c,r15
+        8c02643a 26 4f           lds.l      @r15+,PR=>local_20
+        8c02643c f6 68           mov.l      @r15+=>local_1c,r8
+        8c02643e f6 69           mov.l      @r15+=>local_18,r9
+        8c026440 f6 6a           mov.l      @r15+=>local_14,r10
+        8c026442 f6 6b           mov.l      @r15+=>local_10,r11
+        8c026444 f6 6c           mov.l      @r15+=>local_c,r12
+        8c026446 f6 6d           mov.l      @r15+=>local_8,r13
+        8c026448 0b 00           rts
+        8c02644a f6 6e           _mov.l     @r15+,r14
