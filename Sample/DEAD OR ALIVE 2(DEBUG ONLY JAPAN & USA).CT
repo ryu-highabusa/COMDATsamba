@@ -737,76 +737,6 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>157</ID>
-      <Description>"p1 move id"</Description>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>148</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA2EC</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>303</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA550</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>304</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA68C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>151</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA6C2</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>152</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FA792</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>153</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FBFE2</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>154</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C1FFF52</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>155</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C2020C6</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>156</ID>
-          <Description>"ACT_CODE_P1"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>2 Bytes</VariableType>
-          <Address>2C284FDC</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
       <ID>167</ID>
       <Description>"No description"</Description>
       <VariableType>String</VariableType>
@@ -1331,11 +1261,19 @@
     </CheatEntry>
     <CheatEntry>
       <ID>181</ID>
-      <Description>"BLOW LEV"</Description>
+      <Description>"BLOW_LEV_P1_8c1f9283"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2C1F9283</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>320</ID>
+      <Description>"BLOW LEV"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c1f92b3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>182</ID>
@@ -1364,111 +1302,6 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>2c1f9278</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>186</ID>
-      <Description>"ACTCODE1"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA2EC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>187</ID>
-      <Description>"ACTCODE2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA2F0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>188</ID>
-      <Description>"ACTCODE3"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA550</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>189</ID>
-      <Description>"ACTCODE4*"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA68C</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>190</ID>
-      <Description>"ACTCODE5"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA6C2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>191</ID>
-      <Description>"ACTCODE6"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA6E4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>192</ID>
-      <Description>"ACTCODE7"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA792</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>193</ID>
-      <Description>"ACTCODE8"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA7B4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>194</ID>
-      <Description>"ACTCODE9"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FA834</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>195</ID>
-      <Description>"P1_ACTCODE_2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FBFE2</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>196</ID>
-      <Description>"ACTCODEb"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FC004</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>197</ID>
-      <Description>"ACTCODEc"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FDC72</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>198</ID>
-      <Description>"ACTCODEd*"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C1FFF52</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>199</ID>
-      <Description>"ACTCODEe*"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C2020C6</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>200</ID>
-      <Description>"ACTCODEf*"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>2 Bytes</VariableType>
-      <Address>2C284FDC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>201</ID>
@@ -2003,6 +1836,553 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2c1fbfe8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>307</ID>
+      <Description>"Act_Code_P1"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>186</ID>
+          <Description>"ACT_CODE_P1_8c1fa2ec"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA2EC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>187</ID>
+          <Description>"ACT_CODE_P1_8c1fa2f0"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA2F0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>188</ID>
+          <Description>"ACT_CODE_P1_8c1fa550"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA550</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>189</ID>
+          <Description>"ACT_CODE_P1_8c1fa68c*"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA68C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>190</ID>
+          <Description>"ACT_CODE_P1_8c1fa6c2"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA6C2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>191</ID>
+          <Description>"ACT_CODE_P1_8c1fa6e4"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA6E4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>192</ID>
+          <Description>"ACT_CODE_P1_8c1fa792"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA792</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>193</ID>
+          <Description>"ACT_CODE_P1_8c1fa7b4"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA7B4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>194</ID>
+          <Description>"ACT_CODE_P1_8c1fa834"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA834</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>195</ID>
+          <Description>"ACT_CODE_P1_8c1fbfe2"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FBFE2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>196</ID>
+          <Description>"ACT_CODE_P1_8c1fc004"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FC004</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>197</ID>
+          <Description>"ACT_CODE_P1_8c1fdc72"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FDC72</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>198</ID>
+          <Description>"ACT_CODE_P1_8c1fff52"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FFF52</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>199</ID>
+          <Description>"ACT_CODE_P1_8c2020c6"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C2020C6</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>200</ID>
+          <Description>"ACT_CODE_P1_8c284fdc"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C284FDC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>317</ID>
+      <Description>"Act_Code_P2"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>308</ID>
+          <Description>"ACT_CODE_P2_8c1fa2ee"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA2EE</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>309</ID>
+          <Description>"ACT_CODE_P2_8c1fa552"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA552</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>310</ID>
+          <Description>"ACT_CODE_P2_8c1fa68e"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA68E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>319</ID>
+          <Description>"8c1fa690"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2c1fa690</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>311</ID>
+          <Description>"ACT_CODE_P2_8c1fa72a"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA72A</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>312</ID>
+          <Description>"ACT_CODE_P2_8c1fa7fa"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FA7FA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>313</ID>
+          <Description>"ACT_CODE_P2_8c1fc04a"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FC04A</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>318</ID>
+          <Description>"8c1fc0d4"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2c1fc0d4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>314</ID>
+          <Description>"ACT_CODE_P2_8c1fff54"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C1FFF54</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>315</ID>
+          <Description>"ACT_CODE_P2_8c2020de"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C2020DE</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>316</ID>
+          <Description>"ACT_CODE_P2_8c28504c"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>2 Bytes</VariableType>
+          <Address>2C28504C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>332</ID>
+      <Description>"FUN_8c03151c"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>321</ID>
+          <Description>"BYTE_8c1fdc2c"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdc2c</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>322</ID>
+          <Description>"BYTE_8c1fad2c"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fad2c</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>323</ID>
+          <Description>"BYTE_8c1fac41"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fac41</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>324</ID>
+          <Description>"BYTE_8c1fdc18"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdc18</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>325</ID>
+          <Description>"BYTE_8c1fa18d"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fa18d</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>326</ID>
+          <Description>"BYTE_8c1faf7c"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1faf7c</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>327</ID>
+          <Description>"BYTE_8c1faf82"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1faf82</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>328</ID>
+          <Description>"STORY_GAMEPLAY_START_RAM_FLAG_8c1fdc22"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdc22</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>329</ID>
+          <Description>"BYTE_8c1faf7d"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1faf7d</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>330</ID>
+          <Description>"BYTE_8c1fdc1b"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdc1b</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>331</ID>
+          <Description>"StageOrder_Versus"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>24</ByteLength>
+          <Address>2c14ea2d</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>358</ID>
+      <Description>"Settings"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>333</ID>
+          <Description>"NATION"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe945</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>334</ID>
+          <Description>"DAT_8c1fdecf"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdecf</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>335</ID>
+          <Description>"DAT_8c1fded0"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fded0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>336</ID>
+          <Description>"DAT_8c1fe944"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe944</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>337</ID>
+          <Description>"DAT_8c1ff56f"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1ff56f</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>338</ID>
+          <Description>"DAT_8c1fdec2"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdec2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>339</ID>
+          <Description>"DAT_8c1fe941"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe941</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>340</ID>
+          <Description>"DAT_8c1fe940"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe940</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>341</ID>
+          <Description>"DAT_8c1fe93f"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe93f</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>342</ID>
+          <Description>"DAT_8c1fe93e"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe93e</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>343</ID>
+          <Description>"DAT_8c1fe93d"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe93d</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>344</ID>
+          <Description>"DAT_8c1fe93c"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe93c</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>345</ID>
+          <Description>"DAT_8c1fdeb4"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdeb4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>346</ID>
+          <Description>"DAT_8c1fdec6"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdec6</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>347</ID>
+          <Description>"DAT_8c1fdec5"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdec5</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>348</ID>
+          <Description>"DAT_8c1fdec4"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdec4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>349</ID>
+          <Description>"DAT_8c1fe935"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe935</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>350</ID>
+          <Description>"DAT_8c1fe93a"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe93a</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>351</ID>
+          <Description>"DAT_8c1fe938"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe938</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>352</ID>
+          <Description>"DAT_8c1fe936"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe936</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>353</ID>
+          <Description>"DAT_8c1fe934"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fe934</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>354</ID>
+          <Description>"DAT_8c1fdebd"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdebd</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>355</ID>
+          <Description>"DAT_8c1fdebc"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdebc</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>356</ID>
+          <Description>"DAT_8c1fdebb"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdebb</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>357</ID>
+          <Description>"DAT_8c1fdeba"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>2c1fdeba</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>359</ID>
+      <Description>"BYTE_8c13543c"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c13543c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>360</ID>
+      <Description>"BYTE_8c13543d"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c13543d</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>361</ID>
+      <Description>"BYTE_8c13543f"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c13543f</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>362</ID>
+      <Description>"BYTE_8c135440"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135440</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>363</ID>
+      <Description>"BYTE_8c135442"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135442</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>364</ID>
+      <Description>"BYTE_8c135443"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135443</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>365</ID>
+      <Description>"BYTE_8c135445"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135445</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>366</ID>
+      <Description>"DAT_8c135446"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135446</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>367</ID>
+      <Description>"BYTE_8c135448"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135448</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>368</ID>
+      <Description>"BYTE_8c135449"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c135449</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
