@@ -1,0 +1,24 @@
+                             NUMBER_OF_COSTUMES_MAXIMUM_ALT                  XREF[1]:     8c022aac(*)  
+        8c14db38 03              db         3h                                               0x0 ZACK
+        8c14db39 02              db         2h                                               0x1 TINA
+        8c14db3a 03              db         3h                                               0x2 JANNLEE
+        8c14db3b 02              db         2h                                               0x3 EIN
+        8c14db3c 03              db         3h                                               0x4 HAYABUSA
+        8c14db3d 03              db         3h                                               0x5 KASUMI
+        8c14db3e 02              db         2h                                               0x6 GENFU
+        8c14db3f 02              db         2h                                               0x7 HELENA
+        8c14db40 02              db         2h                                               0x8 LEON
+        8c14db41 02              db         2h                                               0x9 BASS
+        8c14db42 01              db         1h                                               0xA HELENA's MOM
+        8c14db43 01              db         1h                                               0xB RAIDOU
+        8c14db44 04              db         4h                                               0xC LEIFANG
+        8c14db45 02              db         2h                                               0xD AYANE
+        8c14db46 01              db         1h                                               0xE WAKA BASS
+        8c14db47 01              db         1h                                               0xF INDIAN BELLY DANCER
+        8c14db48 01              db         1h                                               0x10 LORAN
+        8c14db49 01              db         1h                                               0x11 TENGU
+        8c14db4a 01              db         1h                                               0x12 CoTINA
+        8c14db4b 01              db         1h                                               0x13 BERSERK
+        8c14db4c 01              db         1h                                               0x14 RIVAL
+        8c14db4d 01              db         1h                                               0x15 GENRA
+        8c14db4e 01              db         1h                                               0x16 BOSS
