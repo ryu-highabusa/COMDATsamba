@@ -1,0 +1,1264 @@
+                            file_list:                    ;XREF[5,0]:   0c022250,0c02268a,0c022734,0c022770
+                                                          ;             0c022858
+ram:0c138760    209b120c        addr        s_c:/doa2/bin/anime_cm.bin_0c129b20     ;file_name
+                            PTR_DAT_0c138764:             ;XREF[1,0]:   0c0221c2
+ram:0c138764    00001e00        addr        DAT_001e0000                            ;file_address
+                            DWORD_0c138768:               ;XREF[2,0]:   0c02219c,0c0221f0
+ram:0c138768    ec730000        ddw         73ECh                                   ;file_size
+                            PTR_s_c:/doa2/bin/zack.bin_...;XREF[2,0]:   0c02268a,0c022770
+ram:0c13876c    3c9b120c        addr        s_c:/doa2/bin/zack.bin_0c129b3c         ;= "c:/doa2/bin/zack.bin"
+                            PTR_DAT_0c138770:             ;XREF[2,0]:   0c022708,0c0227ee
+ram:0c138770    00741e00        addr        DAT_001e7400                            
+                            DWORD_0c138774:               ;XREF[6,0]:   0c0226dc,0c022702,0c02270a,0c0227c2
+                                                          ;             0c0227e8,0c0227f0
+ram:0c138774    cae70000        ddw         E7CAh                                   
+ram:0c138778    549b120c        addr        s_c:/doa2/bin/tina.bin_0c129b54         ;= "c:/doa2/bin/tina.bin"
+                            tina.bin_ROM_address:         
+ram:0c13877c    e05b1f00        addr        DAT_001f5be0                            
+                            tina.bin_length:              
+ram:0c138780    6ae20000        ddw         E26Ah                                   
+ram:0c138784    6c9b120c        addr        s_c:/doa2/bin/janlee.bin_0c129b6c       ;= "c:/doa2/bin/janlee.bin"
+ram:0c138788    603e2000        addr        DAT_00203e60                            
+ram:0c13878c    e2cc0000        ddw         52450                                   
+ram:0c138790    849b120c        addr        s_c:/doa2/bin/ryu.bin_0c129b84          ;= "c:/doa2/bin/ryu.bin"
+ram:0c138794    600b2100        addr        DAT_00210b60                            
+ram:0c138798    bafa0000        ddw         FABAh                                   
+ram:0c13879c    989b120c        addr        s_c:/doa2/bin/kasumi.bin_0c129b98       ;= "c:/doa2/bin/kasumi.bin"
+ram:0c1387a0    20062200        addr        DAT_00220620                            
+ram:0c1387a4    96f20000        ddw         F296h                                   
+ram:0c1387a8    b09b120c        addr        s_c:/doa2/bin/genfu.bin_0c129bb0        ;= "c:/doa2/bin/genfu.bin"
+ram:0c1387ac    c0f82200        addr        DAT_0022f8c0                            
+ram:0c1387b0    d6bf0000        ddw         BFD6h                                   
+ram:0c1387b4    c89b120c        addr        s_c:/doa2/bin/bayman.bin_0c129bc8       ;= "c:/doa2/bin/bayman.bin"
+ram:0c1387b8    a0b82300        addr        DAT_0023b8a0                            
+ram:0c1387bc    66da0000        ddw         DA66h                                   
+ram:0c1387c0    e09b120c        addr        s_c:/doa2/bin/leifang.bin_0c129be0      ;= "c:/doa2/bin/leifang.bin"
+ram:0c1387c4    20932400        addr        DAT_00249320                            
+ram:0c1387c8    4adb0000        ddw         DB4Ah                                   
+ram:0c1387cc    f89b120c        addr        s_c:/doa2/bin/ayane.bin_0c129bf8        ;= "c:/doa2/bin/ayane.bin"
+ram:0c1387d0    806e2500        addr        DAT_00256e80                            
+ram:0c1387d4    82f80000        ddw         F882h                                   
+ram:0c1387d8    109c120c        addr        s_c:/doa2/bin/hika.bin_0c129c10         ;= "c:/doa2/bin/hika.bin"
+ram:0c1387dc    20672600        addr        DAT_00266720                            
+ram:0c1387e0    26f00000        ddw         F026h                                   
+ram:0c1387e4    289c120c        addr        s_c:/doa2/bin/karate.bin_0c129c28       ;= "c:/doa2/bin/karate.bin"
+ram:0c1387e8    60572700        addr        DAT_00275760                            
+ram:0c1387ec    aed40000        ddw         D4AEh                                   
+ram:0c1387f0    409c120c        addr        s_c:/doa2/bin/tengu.bin_0c129c40        ;= "c:/doa2/bin/tengu.bin"
+ram:0c1387f4    202c2800        addr        DAT_00282c20                            
+ram:0c1387f8    32b40000        ddw         B432h                                   
+ram:0c1387fc    589c120c        addr        s_c:/doa2/bin/bass.bin_0c129c58         ;= "c:/doa2/bin/bass.bin"
+ram:0c138800    60e02800        addr        DAT_0028e060                            
+ram:0c138804    12e60000        ddw         E612h                                   
+ram:0c138808    709c120c        addr        s_c:/doa2/bin/mama.bin_0c129c70         ;= "c:/doa2/bin/mama.bin"
+ram:0c13880c    80c62900        addr        DAT_0029c680                            
+ram:0c138810    86180000        ddw         1886h                                   
+ram:0c138814    889c120c        addr        s_c:/doa2/bin/loran.bin_0c129c88        ;= "c:/doa2/bin/loran.bin"
+ram:0c138818    20df2900        addr        DAT_0029df20                            
+ram:0c13881c    86180000        ddw         1886h                                   
+ram:0c138820    a09c120c        addr        s_c:/doa2/bin/wakabs.bin_0c129ca0       ;= "c:/doa2/bin/wakabs.bin"
+ram:0c138824    c0f72900        addr        DAT_0029f7c0                            
+ram:0c138828    7c180000        ddw         187Ch                                   
+ram:0c13882c    b89c120c        addr        s_c:/doa2/bin/ep_cm.adt_0c129cb8        ;= "c:/doa2/bin/ep_cm.adt"
+ram:0c138830    40102a00        addr        DAT_002a1040                            
+ram:0c138834    90010000        ddw         190h                                    
+ram:0c138838    d09c120c        addr        s_c:/doa2/bin/ep_kl.adt_0c129cd0        ;= "c:/doa2/bin/ep_kl.adt"
+ram:0c13883c    e0112a00        addr        DAT_002a11e0                            
+ram:0c138840    90010000        ddw         190h                                    
+ram:0c138844    e89c120c        addr        s_c:/doa2/bin/ep_tn.adt_0c129ce8        ;= "c:/doa2/bin/ep_tn.adt"
+ram:0c138848    80132a00        addr        DAT_002a1380                            
+ram:0c13884c    90010000        ddw         190h                                    
+ram:0c138850    009d120c        addr        s_c:/doa2/bin/ep_lu.adt_0c129d00        ;= "c:/doa2/bin/ep_lu.adt"
+ram:0c138854    20152a00        addr        DAT_002a1520                            
+ram:0c138858    90010000        ddw         190h                                    
+ram:0c13885c    189d120c        addr        s_c:/doa2/bin/ep_kt.adt_0c129d18        ;= "c:/doa2/bin/ep_kt.adt"
+ram:0c138860    c0162a00        addr        DAT_002a16c0                            
+ram:0c138864    90010000        ddw         190h                                    
+ram:0c138868    309d120c        addr        s_c:/doa2/bin/ep_km.adt_0c129d30        ;= "c:/doa2/bin/ep_km.adt"
+ram:0c13886c    60182a00        addr        DAT_002a1860                            
+ram:0c138870    90010000        ddw         190h                                    
+ram:0c138874    489d120c        addr        s_c:/doa2/bin/ep_ks.adt_0c129d48        ;= "c:/doa2/bin/ep_ks.adt"
+ram:0c138878    001a2a00        addr        DAT_002a1a00                            
+ram:0c13887c    90010000        ddw         190h                                    
+ram:0c138880    609d120c        addr        s_c:/doa2/bin/ep_fa.adt_0c129d60        ;= "c:/doa2/bin/ep_fa.adt"
+ram:0c138884    a01b2a00        addr        DAT_002a1ba0                            
+ram:0c138888    90010000        ddw         190h                                    
+ram:0c13888c    789d120c        addr        s_c:/doa2/bin/ep_hi.adt_0c129d78        ;= "c:/doa2/bin/ep_hi.adt"
+ram:0c138890    401d2a00        addr        DAT_002a1d40                            
+ram:0c138894    90010000        ddw         190h                                    
+ram:0c138898    909d120c        addr        s_c:/doa2/bin/ep_gy.adt_0c129d90        ;= "c:/doa2/bin/ep_gy.adt"
+ram:0c13889c    e01e2a00        addr        DAT_002a1ee0                            
+ram:0c1388a0    90010000        ddw         190h                                    
+ram:0c1388a4    a89d120c        addr        s_c:/doa2/bin/ep_ba.adt_0c129da8        ;= "c:/doa2/bin/ep_ba.adt"
+ram:0c1388a8    80202a00        addr        DAT_002a2080                            
+ram:0c1388ac    90010000        ddw         190h                                    
+ram:0c1388b0    c09d120c        addr        s_c:/doa2/bin/ep_le.adt_0c129dc0        ;= "c:/doa2/bin/ep_le.adt"
+ram:0c1388b4    20222a00        addr        DAT_002a2220                            
+ram:0c1388b8    90010000        ddw         190h                                    
+ram:0c1388bc    d89d120c        addr        s_c:/doa2/bin/ep_ay.adt_0c129dd8        ;= "c:/doa2/bin/ep_ay.adt"
+ram:0c1388c0    c0232a00        addr        DAT_002a23c0                            
+ram:0c1388c4    90010000        ddw         190h                                    
+ram:0c1388c8    f09d120c        addr        s_c:/doa2/bin/ep_tg.adt_0c129df0        ;= "c:/doa2/bin/ep_tg.adt"
+ram:0c1388cc    60252a00        addr        DAT_002a2560                            
+ram:0c1388d0    90010000        ddw         190h                                    
+ram:0c1388d4    089e120c        addr        s_c:/doa2/bin/ep_cm.mot_0c129e08        ;= "c:/doa2/bin/ep_cm.mot"
+ram:0c1388d8    00272a00        addr        DAT_002a2700                            
+ram:0c1388dc    80530000        ddw         5380h                                   
+ram:0c1388e0    209e120c        addr        s_c:/doa2/bin/ep_kl.mot_0c129e20        ;= "c:/doa2/bin/ep_kl.mot"
+ram:0c1388e4    807a2a00        addr        DAT_002a7a80                            
+ram:0c1388e8    e0180000        ddw         18E0h                                   
+ram:0c1388ec    389e120c        addr        s_c:/doa2/bin/ep_tn.mot_0c129e38        ;= "c:/doa2/bin/ep_tn.mot"
+ram:0c1388f0    60932a00        addr        DAT_002a9360                            
+ram:0c1388f4    546d0300        ddw         36D54h                                  
+ram:0c1388f8    509e120c        addr        s_c:/doa2/bin/ep_lu.mot_0c129e50        ;= "c:/doa2/bin/ep_lu.mot"
+ram:0c1388fc    c0002e00        addr        DAT_002e00c0                            
+ram:0c138900    b0a40000        ddw         A4B0h                                   
+ram:0c138904    689e120c        addr        s_c:/doa2/bin/ep_kt.mot_0c129e68        ;= "c:/doa2/bin/ep_kt.mot"
+ram:0c138908    80a52e00        addr        DAT_002ea580                            
+ram:0c13890c    cc950100        ddw         195CCh                                  
+ram:0c138910    809e120c        addr        s_c:/doa2/bin/ep_km.mot_0c129e80        ;= "c:/doa2/bin/ep_km.mot"
+ram:0c138914    603b3000        addr        DAT_00303b60                            
+ram:0c138918    90750000        ddw         7590h                                   
+ram:0c13891c    989e120c        addr        s_c:/doa2/bin/ep_ks.mot_0c129e98        ;= "c:/doa2/bin/ep_ks.mot"
+ram:0c138920    00b13000        addr        DAT_0030b100                            
+ram:0c138924    64a00000        ddw         A064h                                   
+ram:0c138928    b09e120c        addr        s_c:/doa2/bin/ep_fa.mot_0c129eb0        ;= "c:/doa2/bin/ep_fa.mot"
+ram:0c13892c    80513100        addr        DAT_00315180                            
+ram:0c138930    94c80000        ddw         C894h                                   
+ram:0c138934    c89e120c        addr        s_c:/doa2/bin/ep_hi.mot_0c129ec8        ;= "c:/doa2/bin/ep_hi.mot"
+ram:0c138938    201a3200        addr        DAT_00321a20                            
+ram:0c13893c    f4100100        ddw         110F4h                                  
+ram:0c138940    e09e120c        addr        s_c:/doa2/bin/ep_gy.mot_0c129ee0        ;= "c:/doa2/bin/ep_gy.mot"
+ram:0c138944    202b3300        addr        DAT_00332b20                            
+ram:0c138948    40440200        ddw         24440h                                  
+ram:0c13894c    f89e120c        addr        s_c:/doa2/bin/ep_ba.mot_0c129ef8        ;= "c:/doa2/bin/ep_ba.mot"
+ram:0c138950    606f3500        addr        DAT_00356f60                            
+ram:0c138954    0c450200        ddw         2450Ch                                  
+ram:0c138958    109f120c        addr        s_c:/doa2/bin/ep_le.mot_0c129f10        ;= "c:/doa2/bin/ep_le.mot"
+ram:0c13895c    80b43700        addr        DAT_0037b480                            
+ram:0c138960    10900000        ddw         9010h                                   
+ram:0c138964    289f120c        addr        s_c:/doa2/bin/ep_ay.mot_0c129f28        ;= "c:/doa2/bin/ep_ay.mot"
+ram:0c138968    a0443800        addr        DAT_003844a0                            
+ram:0c13896c    3c760000        ddw         763Ch                                   
+ram:0c138970    409f120c        addr        s_c:/doa2/bin/ep_tg.mot_0c129f40        ;= "c:/doa2/bin/ep_tg.mot"
+ram:0c138974    e0ba3800        addr        DAT_0038bae0                            
+ram:0c138978    102b0000        ddw         2B10h                                   
+ram:0c13897c    589f120c        addr        s_c:/doa2/bin/epm_ks.adt_0c129f58       ;= "c:/doa2/bin/epm_ks.adt"
+ram:0c138980    00e63800        addr        DAT_0038e600                            
+ram:0c138984    90010000        ddw         190h                                    
+ram:0c138988    709f120c        addr        s_c:/doa2/bin/epm_ks.mot_0c129f70       ;= "c:/doa2/bin/epm_ks.mot"
+ram:0c13898c    a0e73800        addr        DAT_0038e7a0                            
+ram:0c138990    84240000        ddw         2484h                                   
+ram:0c138994    889f120c        addr        s_c:/doa2/dat/stage/stage18/iwa.bi_0c...;= "c:/doa2/dat/stage/stage18/iwa.bin"
+ram:0c138998    400c3900        addr        DAT_00390c40                            
+ram:0c13899c    565d0000        ddw         5D56h                                   
+ram:0c1389a0    ac9f120c        addr        s_c:/doa2/dat/stage/stage09/plug.b_0c...;= "c:/doa2/dat/stage/stage09/plug.bin"
+ram:0c1389a4    a0693900        addr        DAT_003969a0                            
+ram:0c1389a8    c0ba0000        ddw         BAC0h                                   
+ram:0c1389ac    d09f120c        addr        s_c:/doa2/dat/sprite/end_etc/sprit_0c...;= "c:/doa2/dat/sprite/end_etc/sprite...
+ram:0c1389b0    60243a00        addr        DAT_003a2460                            
+ram:0c1389b4    00c00000        ddw         C000h                                   
+ram:0c1389b8    f89f120c        addr        s_c:/doa2/dat/sprite/game_etc/spri_0c...;= "c:/doa2/dat/sprite/game_etc/sprit...
+ram:0c1389bc    60e43a00        addr        DAT_003ae460                            
+ram:0c1389c0    00980000        ddw         9800h                                   
+ram:0c1389c4    20a0120c        addr        s_c:/doa2/bin/epc_gy.adt_0c12a020       ;= "c:/doa2/bin/epc_gy.adt"
+ram:0c1389c8    607c3b00        addr        DAT_003b7c60                            
+ram:0c1389cc    90010000        ddw         190h                                    
+ram:0c1389d0    38a0120c        addr        s_c:/doa2/bin/epc_gy.mot_0c12a038       ;= "c:/doa2/bin/epc_gy.mot"
+ram:0c1389d4    007e3b00        addr        DAT_003b7e00                            
+ram:0c1389d8    48260000        ddw         2648h                                   
+ram:0c1389dc    50a0120c        addr        s_c:/doa2/dat/sprite/patch/select/_0c...;= "c:/doa2/dat/sprite/patch/select/s...
+ram:0c1389e0    60a43b00        addr        DAT_003ba460                            
+ram:0c1389e4    00800100        ddw         18000h                                  
+ram:0c1389e8    7ca0120c        addr        s_c:/doa2/dat/sprite/patch/game/sp_0c...;= "c:/doa2/dat/sprite/patch/game/spr...
+ram:0c1389ec    60243d00        addr        DAT_003d2460                            
+ram:0c1389f0    00200100        ddw         12000h                                  
+ram:0c1389f4    a8a0120c        addr        s_c:/doa2/dat/sprite/ranking/sprit_0c...;= "c:/doa2/dat/sprite/ranking/sprite...
+ram:0c1389f8    60443e00        addr        DAT_003e4460                            
+ram:0c1389fc    005a0000        ddw         5A00h                                   
+ram:0c138a00    d0a0120c        addr        s_c:/doa2/dat/sprite/patch/test/sp_0c...;= "c:/doa2/dat/sprite/patch/test/spr...
+ram:0c138a04    609e3e00        addr        DAT_003e9e60                            
+ram:0c138a08    00400000        ddw         4000h                                   
+ram:0c138a0c    fca0120c        addr        s_c:/doa2/dat/sprite/patch/winner/_0c...;= "c:/doa2/dat/sprite/patch/winner/s...
+ram:0c138a10    60de3e00        addr        DAT_003ede60                            
+ram:0c138a14    00080000        ddw         800h                                    
+ram:0c138a18    28a1120c        addr        s_c:/doa2/bin/comon.mot_0c12a128        ;= "c:/doa2/bin/comon.mot"
+ram:0c138a1c    00008000        addr        DAT_00800000                            
+ram:0c138a20    f0be1400        ddw         14BEF0h                                 
+ram:0c138a24    40a1120c        addr        s_c:/doa2/bin/zack.mot_0c12a140         ;= "c:/doa2/bin/zack.mot"
+ram:0c138a28    00bf9400        addr        DAT_0094bf00                            
+ram:0c138a2c    cca51400        ddw         14A5CCh                                 
+ram:0c138a30    58a1120c        addr        s_c:/doa2/bin/tina.mot_0c12a158         ;= "c:/doa2/bin/tina.mot"
+ram:0c138a34    e064a900        addr        DAT_00a964e0                            
+ram:0c138a38    50941b00        ddw         1B9450h                                 
+ram:0c138a3c    70a1120c        addr        s_c:/doa2/bin/janlee.mot_0c12a170       ;= "c:/doa2/bin/janlee.mot"
+ram:0c138a40    40f9c400        addr        DAT_00c4f940                            
+ram:0c138a44    ec621300        ddw         1362ECh                                 
+ram:0c138a48    88a1120c        addr        s_c:/doa2/bin/ryu.mot_0c12a188          ;= "c:/doa2/bin/ryu.mot"
+ram:0c138a4c    405cd800        addr        DAT_00d85c40                            
+ram:0c138a50    cc0e1800        ddw         180ECCh                                 
+ram:0c138a54    9ca1120c        addr        s_c:/doa2/bin/kasumi.mot_0c12a19c       ;= "c:/doa2/bin/kasumi.mot"
+ram:0c138a58    206bf000        addr        DAT_00f06b20                            
+ram:0c138a5c    004c1a00        ddw         1A4C00h                                 
+ram:0c138a60    b4a1120c        addr        s_c:/doa2/bin/genfu.mot_0c12a1b4        ;= "c:/doa2/bin/genfu.mot"
+ram:0c138a64    20b70a01        addr        DAT_010ab720                            
+ram:0c138a68    64c11300        ddw         13C164h                                 
+ram:0c138a6c    cca1120c        addr        s_c:/doa2/bin/bayman.mot_0c12a1cc       ;= "c:/doa2/bin/bayman.mot"
+ram:0c138a70    a0781e01        addr        DAT_011e78a0                            
+ram:0c138a74    84831b00        ddw         1B8384h                                 
+ram:0c138a78    e4a1120c        addr        s_c:/doa2/bin/leifan.mot_0c12a1e4       ;= "c:/doa2/bin/leifan.mot"
+ram:0c138a7c    40fc3901        addr        DAT_0139fc40                            
+ram:0c138a80    dc2c1b00        ddw         1B2CDCh                                 
+ram:0c138a84    fca1120c        addr        s_c:/doa2/bin/ayane.mot_0c12a1fc        ;= "c:/doa2/bin/ayane.mot"
+ram:0c138a88    20295501        addr        DAT_01552920                            
+ram:0c138a8c    94901500        ddw         159094h                                 
+ram:0c138a90    14a2120c        addr        s_c:/doa2/bin/hika.mot_0c12a214         ;= "c:/doa2/bin/hika.mot"
+ram:0c138a94    c0b96a01        addr        DAT_016ab9c0                            
+ram:0c138a98    2c4b1700        ddw         174B2Ch                                 
+ram:0c138a9c    2ca2120c        addr        s_c:/doa2/bin/karate.mot_0c12a22c       ;= "c:/doa2/bin/karate.mot"
+ram:0c138aa0    00058201        addr        DAT_01820500                            
+ram:0c138aa4    f0cf1100        ddw         11CFF0h                                 
+ram:0c138aa8    44a2120c        addr        s_c:/doa2/bin/tengu.mot_0c12a244        ;= "c:/doa2/bin/tengu.mot"
+ram:0c138aac    00d59301        addr        DAT_0193d500                            
+ram:0c138ab0    e8591000        ddw         1059E8h                                 
+ram:0c138ab4    5ca2120c        addr        s_c:/doa2/bin/bass.mot_0c12a25c         ;= "c:/doa2/bin/bass.mot"
+ram:0c138ab8    002fa401        addr        DAT_01a42f00                            
+ram:0c138abc    9c881c00        ddw         1C889Ch                                 
+ram:0c138ac0    74a2120c        addr        s_c:/doa2/bin/m_ayane.mot_0c12a274      ;= "c:/doa2/bin/m_ayane.mot"
+ram:0c138ac4    a0b7c001        addr        DAT_01c0b7a0                            
+ram:0c138ac8    40410300        ddw         34140h                                  
+ram:0c138acc    8ca2120c        addr        s_c:/doa2/bin/m_bass.mot_0c12a28c       ;= "c:/doa2/bin/m_bass.mot"
+ram:0c138ad0    e0f8c301        addr        DAT_01c3f8e0                            
+ram:0c138ad4    642d0200        ddw         22D64h                                  
+ram:0c138ad8    a4a2120c        addr        s_c:/doa2/bin/m_bayman.mot_0c12a2a4     ;= "c:/doa2/bin/m_bayman.mot"
+ram:0c138adc    6026c601        addr        DAT_01c62660                            
+ram:0c138ae0    cc870200        ddw         287CCh                                  
+ram:0c138ae4    c0a2120c        addr        s_c:/doa2/bin/m_genfu.mot_0c12a2c0      ;= "c:/doa2/bin/m_genfu.mot"
+ram:0c138ae8    40aec801        addr        DAT_01c8ae40                            
+ram:0c138aec    90880100        ddw         18890h                                  
+ram:0c138af0    d8a2120c        addr        s_c:/doa2/bin/m_hika.mot_0c12a2d8       ;= "c:/doa2/bin/m_hika.mot"
+ram:0c138af4    e036ca01        addr        DAT_01ca36e0                            
+ram:0c138af8    60d60400        ddw         4D660h                                  
+ram:0c138afc    f0a2120c        addr        s_c:/doa2/bin/m_janlee.mot_0c12a2f0     ;= "c:/doa2/bin/m_janlee.mot"
+ram:0c138b00    400dcf01        addr        DAT_01cf0d40                            
+ram:0c138b04    10440100        ddw         14410h                                  
+ram:0c138b08    0ca3120c        addr        s_c:/doa2/bin/m_karate.mot_0c12a30c     ;= "c:/doa2/bin/m_karate.mot"
+ram:0c138b0c    6051d001        addr        DAT_01d05160                            
+ram:0c138b10    ecac0300        ddw         3ACECh                                  
+ram:0c138b14    28a3120c        addr        s_c:/doa2/bin/m_kasumi.mot_0c12a328     ;= "c:/doa2/bin/m_kasumi.mot"
+ram:0c138b18    60fed301        addr        DAT_01d3fe60                            
+ram:0c138b1c    24520700        ddw         75224h                                  
+ram:0c138b20    44a3120c        addr        s_c:/doa2/bin/m_leifan.mot_0c12a344     ;= "c:/doa2/bin/m_leifan.mot"
+ram:0c138b24    a050db01        addr        DAT_01db50a0                            
+ram:0c138b28    e0db0200        ddw         2DBE0h                                  
+ram:0c138b2c    60a3120c        addr        s_c:/doa2/bin/m_mama.mot_0c12a360       ;= "c:/doa2/bin/m_mama.mot"
+ram:0c138b30    802cde01        addr        DAT_01de2c80                            
+ram:0c138b34    3cfd0000        ddw         FD3Ch                                   
+ram:0c138b38    78a3120c        addr        s_c:/doa2/bin/m_loran.mot_0c12a378      ;= "c:/doa2/bin/m_loran.mot"
+ram:0c138b3c    c029df01        addr        DAT_01df29c0                            
+ram:0c138b40    c41c0100        ddw         11CC4h                                  
+ram:0c138b44    90a3120c        addr        s_c:/doa2/bin/m_wakabs.mot_0c12a390     ;= "c:/doa2/bin/m_wakabs.mot"
+ram:0c138b48    a046e001        addr        DAT_01e046a0                            
+ram:0c138b4c    e0f20000        ddw         F2E0h                                   
+ram:0c138b50    aca3120c        addr        s_c:/doa2/bin/m_ryu.mot_0c12a3ac        ;= "c:/doa2/bin/m_ryu.mot"
+ram:0c138b54    8039e101        addr        DAT_01e13980                            
+ram:0c138b58    d4d00200        ddw         2D0D4h                                  
+ram:0c138b5c    c4a3120c        addr        s_c:/doa2/bin/m_tengu.mot_0c12a3c4      ;= "c:/doa2/bin/m_tengu.mot"
+ram:0c138b60    600ae401        addr        DAT_01e40a60                            
+ram:0c138b64    a8c80200        ddw         2C8A8h                                  
+ram:0c138b68    dca3120c        addr        s_c:/doa2/bin/m_tina.mot_0c12a3dc       ;= "c:/doa2/bin/m_tina.mot"
+ram:0c138b6c    20d3e601        addr        DAT_01e6d320                            
+ram:0c138b70    0cc60100        ddw         1C60Ch                                  
+ram:0c138b74    f4a3120c        addr        s_c:/doa2/bin/m_zack.mot_0c12a3f4       ;= "c:/doa2/bin/m_zack.mot"
+ram:0c138b78    4099e801        addr        DAT_01e89940                            
+ram:0c138b7c    50300200        ddw         23050h                                  
+ram:0c138b80    0ca4120c        addr        s_c:/doa2/bin/c_zack.mot_0c12a40c       ;= "c:/doa2/bin/c_zack.mot"
+ram:0c138b84    a0c9ea01        addr        DAT_01eac9a0                            
+ram:0c138b88    54730000        ddw         7354h                                   
+ram:0c138b8c    24a4120c        addr        s_c:/doa2/bin/c_tina.mot_0c12a424       ;= "c:/doa2/bin/c_tina.mot"
+ram:0c138b90    003deb01        addr        DAT_01eb3d00                            
+ram:0c138b94    04490000        ddw         4904h                                   
+ram:0c138b98    3ca4120c        addr        s_c:/doa2/bin/c_janlee.mot_0c12a43c     ;= "c:/doa2/bin/c_janlee.mot"
+ram:0c138b9c    2086eb01        addr        DAT_01eb8620                            
+ram:0c138ba0    585e0000        ddw         5E58h                                   
+ram:0c138ba4    58a4120c        addr        s_c:/doa2/bin/c_ryu.mot_0c12a458        ;= "c:/doa2/bin/c_ryu.mot"
+ram:0c138ba8    80e4eb01        addr        DAT_01ebe480                            
+ram:0c138bac    d42f0000        ddw         2FD4h                                   
+ram:0c138bb0    70a4120c        addr        s_c:/doa2/bin/c_kasumi.mot_0c12a470     ;= "c:/doa2/bin/c_kasumi.mot"
+ram:0c138bb4    6014ec01        addr        DAT_01ec1460                            
+ram:0c138bb8    0c4a0000        ddw         4A0Ch                                   
+ram:0c138bbc    8ca4120c        addr        s_c:/doa2/bin/c_genfu.mot_0c12a48c      ;= "c:/doa2/bin/c_genfu.mot"
+ram:0c138bc0    805eec01        addr        DAT_01ec5e80                            
+ram:0c138bc4    f4520000        ddw         52F4h                                   
+ram:0c138bc8    a4a4120c        addr        s_c:/doa2/bin/c_bayman.mot_0c12a4a4     ;= "c:/doa2/bin/c_bayman.mot"
+ram:0c138bcc    80b1ec01        addr        DAT_01ecb180                            
+ram:0c138bd0    38590000        ddw         5938h                                   
+ram:0c138bd4    c0a4120c        addr        s_c:/doa2/bin/c_bass.mot_0c12a4c0       ;= "c:/doa2/bin/c_bass.mot"
+ram:0c138bd8    c00aed01        addr        DAT_01ed0ac0                            
+ram:0c138bdc    204b0000        ddw         4B20h                                   
+ram:0c138be0    d8a4120c        addr        s_c:/doa2/bin/c_leifan.mot_0c12a4d8     ;= "c:/doa2/bin/c_leifan.mot"
+ram:0c138be4    e055ed01        addr        DAT_01ed55e0                            
+ram:0c138be8    34cb0000        ddw         CB34h                                   
+ram:0c138bec    f4a4120c        addr        s_c:/doa2/bin/c_ayane.mot_0c12a4f4      ;= "c:/doa2/bin/c_ayane.mot"
+ram:0c138bf0    2021ee01        addr        DAT_01ee2120                            
+ram:0c138bf4    68420000        ddw         4268h                                   
+ram:0c138bf8    0ca5120c        addr        s_c:/doa2/bin/c_hika.mot_0c12a50c       ;= "c:/doa2/bin/c_hika.mot"
+ram:0c138bfc    a063ee01        addr        DAT_01ee63a0                            
+ram:0c138c00    ac750000        ddw         75ACh                                   
+ram:0c138c04    24a5120c        addr        s_c:/doa2/bin/c_karate.mot_0c12a524     ;= "c:/doa2/bin/c_karate.mot"
+ram:0c138c08    60d9ee01        addr        DAT_01eed960                            
+ram:0c138c0c    e8480000        ddw         48E8h                                   
+ram:0c138c10    40a5120c        addr        s_c:/doa2/bin/c_ind.mot_0c12a540        ;= "c:/doa2/bin/c_ind.mot"
+ram:0c138c14    6022ef01        addr        DAT_01ef2260                            
+ram:0c138c18    c8a90000        ddw         A9C8h                                   
+ram:0c138c1c    58a5120c        addr        s_c:/doa2/bin/c_tengu.mot_0c12a558      ;= "c:/doa2/bin/c_tengu.mot"
+ram:0c138c20    40ccef01        addr        DAT_01efcc40                            
+ram:0c138c24    545f0000        ddw         5F54h                                   
+ram:0c138c28    70a5120c        addr        s_c:/doa2/bin/c_mama.mot_0c12a570       ;= "c:/doa2/bin/c_mama.mot"
+ram:0c138c2c    a02bf001        addr        DAT_01f02ba0                            
+ram:0c138c30    ac1a0000        ddw         1AACh                                   
+ram:0c138c34    88a5120c        addr        s_c:/doa2/bin/c_loran.mot_0c12a588      ;= "c:/doa2/bin/c_loran.mot"
+ram:0c138c38    6046f001        addr        DAT_01f04660                            
+ram:0c138c3c    ac1a0000        ddw         1AACh                                   
+ram:0c138c40    a0a5120c        addr        s_c:/doa2/bin/c_wakabs.mot_0c12a5a0     ;= "c:/doa2/bin/c_wakabs.mot"
+ram:0c138c44    2061f001        addr        DAT_01f06120                            
+ram:0c138c48    081f0000        ddw         1F08h                                   
+ram:0c138c4c    bca5120c        addr        s_c:/doa2/dat/char/zac00/zac00.bin_0c...;= "c:/doa2/dat/char/zac00/zac00.bin"
+ram:0c138c50    4080f001        addr        DAT_01f08040                            
+ram:0c138c54    000e0f00        ddw         F0E00h                                  
+ram:0c138c58    e0a5120c        addr        s_c:/doa2/dat/char/zac01/zac01.bin_0c...;= "c:/doa2/dat/char/zac01/zac01.bin"
+ram:0c138c5c    408eff01        addr        DAT_01ff8e40                            
+ram:0c138c60    005a0c00        ddw         C5A00h                                  
+ram:0c138c64    04a6120c        addr        s_c:/doa2/dat/char/zac02/zac02.bin_0c...;= "c:/doa2/dat/char/zac02/zac02.bin"
+ram:0c138c68    40e80b02        addr        DAT_020be840                            
+ram:0c138c6c    002c0700        ddw         72C00h                                  
+ram:0c138c70    28a6120c        addr        s_c:/doa2/dat/char/tin00/tin00.bin_0c...;= "c:/doa2/dat/char/tin00/tin00.bin"
+ram:0c138c74    40141302        addr        DAT_02131440                            
+ram:0c138c78    00540c00        ddw         C5400h                                  
+ram:0c138c7c    4ca6120c        addr        s_c:/doa2/dat/char/tin01/tin01.bin_0c...;= "c:/doa2/dat/char/tin01/tin01.bin"
+ram:0c138c80    40681f02        addr        DAT_021f6840                            
+ram:0c138c84    00301200        ddw         123000h                                 
+ram:0c138c88    70a6120c        addr        s_c:/doa2/dat/char/tin02/tin02.bin_0c...;= "c:/doa2/dat/char/tin02/tin02.bin"
+ram:0c138c8c    40983102        addr        DAT_02319840                            
+ram:0c138c90    00761000        ddw         107600h                                 
+ram:0c138c94    94a6120c        addr        s_c:/doa2/dat/char/jan00/jan00.bin_0c...;= "c:/doa2/dat/char/jan00/jan00.bin"
+ram:0c138c98    400e4202        addr        DAT_02420e40                            
+ram:0c138c9c    c0c01000        ddw         10C0C0h                                 
+ram:0c138ca0    b8a6120c        addr        s_c:/doa2/dat/char/jan01/jan01.bin_0c...;= "c:/doa2/dat/char/jan01/jan01.bin"
+ram:0c138ca4    00cf5202        addr        DAT_0252cf00                            
+ram:0c138ca8    003e1100        ddw         113E00h                                 
+ram:0c138cac    dca6120c        addr        s_c:/doa2/dat/char/ryu00/ryu00.bin_0c...;= "c:/doa2/dat/char/ryu00/ryu00.bin"
+ram:0c138cb0    000d6402        addr        DAT_02640d00                            
+ram:0c138cb4    00f80d00        ddw         DF800h                                  
+ram:0c138cb8    00a7120c        addr        s_c:/doa2/dat/char/ryu01/ryu01.bin_0c...;= "c:/doa2/dat/char/ryu01/ryu01.bin"
+ram:0c138cbc    00057202        addr        DAT_02720500                            
+ram:0c138cc0    001c0d00        ddw         D1C00h                                  
+ram:0c138cc4    24a7120c        addr        s_c:/doa2/dat/char/ryu02/ryu02.bin_0c...;= "c:/doa2/dat/char/ryu02/ryu02.bin"
+ram:0c138cc8    00217f02        addr        DAT_027f2100                            
+ram:0c138ccc    00141100        ddw         111400h                                 
+ram:0c138cd0    48a7120c        addr        s_c:/doa2/dat/char/kas00/kas00.bin_0c...;= "c:/doa2/dat/char/kas00/kas00.bin"
+ram:0c138cd4    00359002        addr        DAT_02903500                            
+ram:0c138cd8    00dc1000        ddw         10DC00h                                 
+ram:0c138cdc    6ca7120c        addr        s_c:/doa2/dat/char/kas01/kas01.bin_0c...;= "c:/doa2/dat/char/kas01/kas01.bin"
+ram:0c138ce0    0011a102        addr        DAT_02a11100                            
+ram:0c138ce4    006c0e00        ddw         E6C00h                                  
+ram:0c138ce8    90a7120c        addr        s_c:/doa2/dat/char/kas02/kas02.bin_0c...;= "c:/doa2/dat/char/kas02/kas02.bin"
+ram:0c138cec    007daf02        addr        DAT_02af7d00                            
+ram:0c138cf0    007a1100        ddw         117A00h                                 
+ram:0c138cf4    b4a7120c        addr        s_c:/doa2/dat/char/kas03/kas03.bin_0c...;= "c:/doa2/dat/char/kas03/kas03.bin"
+ram:0c138cf8    00f7c002        addr        DAT_02c0f700                            
+ram:0c138cfc    00a01000        ddw         10A000h                                 
+ram:0c138d00    d8a7120c        addr        s_c:/doa2/dat/char/kas04/kas04.bin_0c...;= "c:/doa2/dat/char/kas04/kas04.bin"
+ram:0c138d04    0097d102        addr        DAT_02d19700                            
+ram:0c138d08    00b80c00        ddw         CB800h                                  
+ram:0c138d0c    fca7120c        addr        s_c:/doa2/dat/char/gen00/gen00.bin_0c...;= "c:/doa2/dat/char/gen00/gen00.bin"
+ram:0c138d10    004fde02        addr        DAT_02de4f00                            
+ram:0c138d14    00640e00        ddw         E6400h                                  
+ram:0c138d18    20a8120c        addr        s_c:/doa2/dat/char/gen01/gen01.bin_0c...;= "c:/doa2/dat/char/gen01/gen01.bin"
+ram:0c138d1c    00b3ec02        addr        DAT_02ecb300                            
+ram:0c138d20    00620a00        ddw         A6200h                                  
+ram:0c138d24    44a8120c        addr        s_c:/doa2/dat/char/bay00/bay00.bin_0c...;= "c:/doa2/dat/char/bay00/bay00.bin"
+ram:0c138d28    0015f702        addr        DAT_02f71500                            
+ram:0c138d2c    00240f00        ddw         F2400h                                  
+ram:0c138d30    68a8120c        addr        s_c:/doa2/dat/char/bay01/bay01.bin_0c...;= "c:/doa2/dat/char/bay01/bay01.bin"
+ram:0c138d34    00390603        addr        DAT_03063900                            
+ram:0c138d38    00741200        ddw         127400h                                 
+ram:0c138d3c    8ca8120c        addr        s_c:/doa2/dat/char/bas00/bas00.bin_0c...;= "c:/doa2/dat/char/bas00/bas00.bin"
+ram:0c138d40    00ad1803        addr        DAT_0318ad00                            
+ram:0c138d44    007e0b00        ddw         B7E00h                                  
+ram:0c138d48    b0a8120c        addr        s_c:/doa2/dat/char/bas01/bas01.bin_0c...;= "c:/doa2/dat/char/bas01/bas01.bin"
+ram:0c138d4c    002b2403        addr        DAT_03242b00                            
+ram:0c138d50    00e61100        ddw         11E600h                                 
+ram:0c138d54    d4a8120c        addr        s_c:/doa2/dat/char/lei00/lei00.bin_0c...;= "c:/doa2/dat/char/lei00/lei00.bin"
+ram:0c138d58    00113603        addr        DAT_03361100                            
+ram:0c138d5c    002a0f00        ddw         F2A00h                                  
+ram:0c138d60    f8a8120c        addr        s_c:/doa2/dat/char/lei01/lei01.bin_0c...;= "c:/doa2/dat/char/lei01/lei01.bin"
+ram:0c138d64    003b4503        addr        DAT_03453b00                            
+ram:0c138d68    00761000        ddw         107600h                                 
+ram:0c138d6c    1ca9120c        addr        s_c:/doa2/dat/char/lei02/lei02.bin_0c...;= "c:/doa2/dat/char/lei02/lei02.bin"
+ram:0c138d70    00b15503        addr        DAT_0355b100                            
+ram:0c138d74    00b50d00        ddw         DB500h                                  
+ram:0c138d78    40a9120c        addr        s_c:/doa2/dat/char/aya00/aya00.bin_0c...;= "c:/doa2/dat/char/aya00/aya00.bin"
+ram:0c138d7c    00666303        addr        DAT_03636600                            
+ram:0c138d80    00fe1100        ddw         11FE00h                                 
+ram:0c138d84    64a9120c        addr        s_c:/doa2/dat/char/aya01/aya01.bin_0c...;= "c:/doa2/dat/char/aya01/aya01.bin"
+ram:0c138d88    00647503        addr        DAT_03756400                            
+ram:0c138d8c    00561100        ddw         115600h                                 
+ram:0c138d90    88a9120c        addr        s_c:/doa2/dat/char/aya02/aya02.bin_0c...;= "c:/doa2/dat/char/aya02/aya02.bin"
+ram:0c138d94    00ba8603        addr        DAT_0386ba00                            
+ram:0c138d98    00021200        ddw         120200h                                 
+ram:0c138d9c    aca9120c        addr        s_c:/doa2/dat/char/hik00/hik00.bin_0c...;= "c:/doa2/dat/char/hik00/hik00.bin"
+ram:0c138da0    00bc9803        addr        DAT_0398bc00                            
+ram:0c138da4    005c1000        ddw         105C00h                                 
+ram:0c138da8    d0a9120c        addr        s_c:/doa2/dat/char/hik01/hik01.bin_0c...;= "c:/doa2/dat/char/hik01/hik01.bin"
+ram:0c138dac    0018a903        addr        DAT_03a91800                            
+ram:0c138db0    00ee0f00        ddw         FEE00h                                  
+ram:0c138db4    f4a9120c        addr        s_c:/doa2/dat/char/hik02/hik02.bin_0c...;= "c:/doa2/dat/char/hik02/hik02.bin"
+ram:0c138db8    0006b903        addr        DAT_03b90600                            
+ram:0c138dbc    80b40e00        ddw         EB480h                                  
+ram:0c138dc0    18aa120c        addr        s_c:/doa2/dat/char/kte00/kte00.bin_0c...;= "c:/doa2/dat/char/kte00/kte00.bin"
+ram:0c138dc4    80bac703        addr        DAT_03c7ba80                            
+ram:0c138dc8    00621200        ddw         126200h                                 
+ram:0c138dcc    3caa120c        addr        s_c:/doa2/dat/char/kte01/kte01.bin_0c...;= "c:/doa2/dat/char/kte01/kte01.bin"
+ram:0c138dd0    801cda03        addr        DAT_03da1c80                            
+ram:0c138dd4    00881200        ddw         128800h                                 
+ram:0c138dd8    60aa120c        addr        s_c:/doa2/dat/char/tng00/tng00.bin_0c...;= "c:/doa2/dat/char/tng00/tng00.bin"
+ram:0c138ddc    80a4ec03        addr        DAT_03eca480                            
+ram:0c138de0    80d01200        ddw         12D080h                                 
+ram:0c138de4    84aa120c        addr        s_c:/doa2/dat/char/mam00/mam00.bin_0c...;= "c:/doa2/dat/char/mam00/mam00.bin"
+ram:0c138de8    0075ff03        addr        DAT_03ff7500                            
+ram:0c138dec    80501100        ddw         115080h                                 
+ram:0c138df0    a8aa120c        addr        s_c:/doa2/dat/char/lor00/lor00.bin_0c...;= "c:/doa2/dat/char/lor00/lor00.bin"
+ram:0c138df4    80c51004        addr        DAT_0410c580                            
+ram:0c138df8    00bc0900        ddw         9BC00h                                  
+ram:0c138dfc    ccaa120c        addr        s_c:/doa2/dat/char/wba00/wba00.bin_0c...;= "c:/doa2/dat/char/wba00/wba00.bin"
+ram:0c138e00    80811a04        addr        DAT_041a8180                            
+ram:0c138e04    804c1100        ddw         114C80h                                 
+ram:0c138e08    a8aa120c        addr        s_c:/doa2/dat/char/lor00/lor00.bin_0c...;= "c:/doa2/dat/char/lor00/lor00.bin"
+ram:0c138e0c    00ce2b04        addr        DAT_042bce00                            
+ram:0c138e10    00bc0900        ddw         9BC00h                                  
+ram:0c138e14    f0aa120c        addr        s_c:/doa2/dat/char/zac00/zac00.apv_0c...;= "c:/doa2/dat/char/zac00/zac00.apv"
+ram:0c138e18    008a3504        addr        DAT_04358a00                            
+ram:0c138e1c    a0310600        ddw         631A0h                                  
+ram:0c138e20    14ab120c        addr        s_c:/doa2/dat/char/zac01/zac01.apv_0c...;= "c:/doa2/dat/char/zac01/zac01.apv"
+ram:0c138e24    a0bb3b04        addr        DAT_043bbba0                            
+ram:0c138e28    746f0600        ddw         66F74h                                  
+ram:0c138e2c    38ab120c        addr        s_c:/doa2/dat/char/zac02/zac02.apv_0c...;= "c:/doa2/dat/char/zac02/zac02.apv"
+ram:0c138e30    202b4204        addr        DAT_04422b20                            
+ram:0c138e34    3c380500        ddw         5383Ch                                  
+ram:0c138e38    5cab120c        addr        s_c:/doa2/dat/char/tin00/tin00.apv_0c...;= "c:/doa2/dat/char/tin00/tin00.apv"
+ram:0c138e3c    60634704        addr        DAT_04476360                            
+ram:0c138e40    e86f0600        ddw         66FE8h                                  
+ram:0c138e44    80ab120c        addr        s_c:/doa2/dat/char/tin01/tin01.apv_0c...;= "c:/doa2/dat/char/tin01/tin01.apv"
+ram:0c138e48    60d34d04        addr        DAT_044dd360                            
+ram:0c138e4c    d88e0600        ddw         68ED8h                                  
+ram:0c138e50    a4ab120c        addr        s_c:/doa2/dat/char/tin02/tin02.apv_0c...;= "c:/doa2/dat/char/tin02/tin02.apv"
+ram:0c138e54    40625404        addr        DAT_04546240                            
+ram:0c138e58    d0770600        ddw         677D0h                                  
+ram:0c138e5c    c8ab120c        addr        s_c:/doa2/dat/char/jan00/jan00.apv_0c...;= "c:/doa2/dat/char/jan00/jan00.apv"
+ram:0c138e60    20da5a04        addr        DAT_045ada20                            
+ram:0c138e64    b88f0400        ddw         48FB8h                                  
+ram:0c138e68    ecab120c        addr        s_c:/doa2/dat/char/jan01/jan01.apv_0c...;= "c:/doa2/dat/char/jan01/jan01.apv"
+ram:0c138e6c    e0695f04        addr        DAT_045f69e0                            
+ram:0c138e70    40f30500        ddw         5F340h                                  
+ram:0c138e74    10ac120c        addr        s_c:/doa2/dat/char/ryu00/ryu00.apv_0c...;= "c:/doa2/dat/char/ryu00/ryu00.apv"
+ram:0c138e78    205d6504        addr        DAT_04655d20                            
+ram:0c138e7c    f4680600        ddw         668F4h                                  
+ram:0c138e80    34ac120c        addr        s_c:/doa2/dat/char/ryu01/ryu01.apv_0c...;= "c:/doa2/dat/char/ryu01/ryu01.apv"
+ram:0c138e84    20c66b04        addr        DAT_046bc620                            
+ram:0c138e88    f4680600        ddw         668F4h                                  
+ram:0c138e8c    58ac120c        addr        s_c:/doa2/dat/char/ryu02/ryu02.apv_0c...;= "c:/doa2/dat/char/ryu02/ryu02.apv"
+ram:0c138e90    202f7204        addr        DAT_04722f20                            
+ram:0c138e94    e4d30500        ddw         5D3E4h                                  
+ram:0c138e98    7cac120c        addr        s_c:/doa2/dat/char/kas00/kas00.apv_0c...;= "c:/doa2/dat/char/kas00/kas00.apv"
+ram:0c138e9c    20037804        addr        DAT_04780320                            
+ram:0c138ea0    007e0700        ddw         77E00h                                  
+ram:0c138ea4    a0ac120c        addr        s_c:/doa2/dat/char/kas01/kas01.apv_0c...;= "c:/doa2/dat/char/kas01/kas01.apv"
+ram:0c138ea8    20817f04        addr        DAT_047f8120                            
+ram:0c138eac    50540700        ddw         75450h                                  
+ram:0c138eb0    c4ac120c        addr        s_c:/doa2/dat/char/kas02/kas02.apv_0c...;= "c:/doa2/dat/char/kas02/kas02.apv"
+ram:0c138eb4    80d58604        addr        DAT_0486d580                            
+ram:0c138eb8    70d10700        ddw         7D170h                                  
+ram:0c138ebc    e8ac120c        addr        s_c:/doa2/dat/char/kas03/kas03.apv_0c...;= "c:/doa2/dat/char/kas03/kas03.apv"
+ram:0c138ec0    00a78e04        addr        DAT_048ea700                            
+ram:0c138ec4    f8930700        ddw         793F8h                                  
+ram:0c138ec8    0cad120c        addr        s_c:/doa2/dat/char/kas04/kas04.apv_0c...;= "c:/doa2/dat/char/kas04/kas04.apv"
+ram:0c138ecc    003b9604        addr        DAT_04963b00                            
+ram:0c138ed0    d0d30100        ddw         1D3D0h                                  
+ram:0c138ed4    30ad120c        addr        s_c:/doa2/dat/char/gen00/gen00.apv_0c...;= "c:/doa2/dat/char/gen00/gen00.apv"
+ram:0c138ed8    e00e9804        addr        DAT_04980ee0                            
+ram:0c138edc    8c760400        ddw         4768Ch                                  
+ram:0c138ee0    54ad120c        addr        s_c:/doa2/dat/char/gen01/gen01.apv_0c...;= "c:/doa2/dat/char/gen01/gen01.apv"
+ram:0c138ee4    80859c04        addr        DAT_049c8580                            
+ram:0c138ee8    8c760400        ddw         4768Ch                                  
+ram:0c138eec    78ad120c        addr        s_c:/doa2/dat/char/bay00/bay00.apv_0c...;= "c:/doa2/dat/char/bay00/bay00.apv"
+ram:0c138ef0    20fca004        addr        DAT_04a0fc20                            
+ram:0c138ef4    e4ad0500        ddw         5ADE4h                                  
+ram:0c138ef8    9cad120c        addr        s_c:/doa2/dat/char/bay01/bay01.apv_0c...;= "c:/doa2/dat/char/bay01/bay01.apv"
+ram:0c138efc    20aaa604        addr        DAT_04a6aa20                            
+ram:0c138f00    e4ad0500        ddw         5ADE4h                                  
+ram:0c138f04    c0ad120c        addr        s_c:/doa2/dat/char/bas00/bas00.apv_0c...;= "c:/doa2/dat/char/bas00/bas00.apv"
+ram:0c138f08    2058ac04        addr        DAT_04ac5820                            
+ram:0c138f0c    044f0700        ddw         74F04h                                  
+ram:0c138f10    e4ad120c        addr        s_c:/doa2/dat/char/bas01/bas01.apv_0c...;= "c:/doa2/dat/char/bas01/bas01.apv"
+ram:0c138f14    40a7b304        addr        DAT_04b3a740                            
+ram:0c138f18    94ff0600        ddw         6FF94h                                  
+ram:0c138f1c    08ae120c        addr        s_c:/doa2/dat/char/lei00/lei00.apv_0c...;= "c:/doa2/dat/char/lei00/lei00.apv"
+ram:0c138f20    e0a6ba04        addr        DAT_04baa6e0                            
+ram:0c138f24    08d60500        ddw         5D608h                                  
+ram:0c138f28    2cae120c        addr        s_c:/doa2/dat/char/lei01/lei01.apv_0c...;= "c:/doa2/dat/char/lei01/lei01.apv"
+ram:0c138f2c    007dc004        addr        DAT_04c07d00                            
+ram:0c138f30    80c20500        ddw         5C280h                                  
+ram:0c138f34    50ae120c        addr        s_c:/doa2/dat/char/lei02/lei02.apv_0c...;= "c:/doa2/dat/char/lei02/lei02.apv"
+ram:0c138f38    803fc604        addr        DAT_04c63f80                            
+ram:0c138f3c    70b90500        ddw         5B970h                                  
+ram:0c138f40    74ae120c        addr        s_c:/doa2/dat/char/aya00/aya00.apv_0c...;= "c:/doa2/dat/char/aya00/aya00.apv"
+ram:0c138f44    00f9cb04        addr        DAT_04cbf900                            
+ram:0c138f48    409b0600        ddw         69B40h                                  
+ram:0c138f4c    98ae120c        addr        s_c:/doa2/dat/char/aya01/aya01.apv_0c...;= "c:/doa2/dat/char/aya01/aya01.apv"
+ram:0c138f50    4094d204        addr        DAT_04d29440                            
+ram:0c138f54    58f10600        ddw         6F158h                                  
+ram:0c138f58    bcae120c        addr        s_c:/doa2/dat/char/aya02/aya02.apv_0c...;= "c:/doa2/dat/char/aya02/aya02.apv"
+ram:0c138f5c    a085d904        addr        DAT_04d985a0                            
+ram:0c138f60    f8970600        ddw         697F8h                                  
+ram:0c138f64    e0ae120c        addr        s_c:/doa2/dat/char/hik00/hik00.apv_0c...;= "c:/doa2/dat/char/hik00/hik00.apv"
+ram:0c138f68    a01de004        addr        DAT_04e01da0                            
+ram:0c138f6c    20a90700        ddw         7A920h                                  
+ram:0c138f70    04af120c        addr        s_c:/doa2/dat/char/hik01/hik01.apv_0c...;= "c:/doa2/dat/char/hik01/hik01.apv"
+ram:0c138f74    c0c6e704        addr        DAT_04e7c6c0                            
+ram:0c138f78    80ad0700        ddw         7AD80h                                  
+ram:0c138f7c    28af120c        addr        s_c:/doa2/dat/char/hik02/hik02.apv_0c...;= "c:/doa2/dat/char/hik02/hik02.apv"
+ram:0c138f80    4074ef04        addr        DAT_04ef7440                            
+ram:0c138f84    887f0700        ddw         77F88h                                  
+ram:0c138f88    4caf120c        addr        s_c:/doa2/dat/char/kte00/kte00.apv_0c...;= "c:/doa2/dat/char/kte00/kte00.apv"
+ram:0c138f8c    e0f3f604        addr        DAT_04f6f3e0                            
+ram:0c138f90    806d0600        ddw         66D80h                                  
+ram:0c138f94    70af120c        addr        s_c:/doa2/dat/char/kte01/kte01.apv_0c...;= "c:/doa2/dat/char/kte01/kte01.apv"
+ram:0c138f98    6061fd04        addr        DAT_04fd6160                            
+ram:0c138f9c    806d0600        ddw         66D80h                                  
+ram:0c138fa0    94af120c        addr        s_c:/doa2/dat/char/tng00/tng00.apv_0c...;= "c:/doa2/dat/char/tng00/tng00.apv"
+ram:0c138fa4    e0ce0305        addr        DAT_0503cee0                            
+ram:0c138fa8    88da0600        ddw         6DA88h                                  
+ram:0c138fac    b8af120c        addr        s_c:/doa2/dat/char/mam00/mam00.apv_0c...;= "c:/doa2/dat/char/mam00/mam00.apv"
+ram:0c138fb0    80a90a05        addr        DAT_050aa980                            
+ram:0c138fb4    20000000        ddw         20h                                     
+ram:0c138fb8    dcaf120c        addr        s_c:/doa2/dat/char/lor00/lor00.apv_0c...;= "c:/doa2/dat/char/lor00/lor00.apv"
+ram:0c138fbc    a0a90a05        addr        DAT_050aa9a0                            
+ram:0c138fc0    905a0000        ddw         5A90h                                   
+ram:0c138fc4    00b0120c        addr        s_c:/doa2/dat/char/wba00/wba00.apv_0c...;= "c:/doa2/dat/char/wba00/wba00.apv"
+ram:0c138fc8    40040b05        addr        DAT_050b0440                            
+ram:0c138fcc    20000000        ddw         20h                                     
+ram:0c138fd0    24b0120c        addr        s_c:/doa2/dat/char/zac00/zac00.chr_0c...;= "c:/doa2/dat/char/zac00/zac00.chr"
+ram:0c138fd4    60040b05        addr        DAT_050b0460                            
+ram:0c138fd8    70700400        ddw         47070h                                  
+ram:0c138fdc    48b0120c        addr        s_c:/doa2/dat/char/zac01/zac01.chr_0c...;= "c:/doa2/dat/char/zac01/zac01.chr"
+ram:0c138fe0    e0740f05        addr        DAT_050f74e0                            
+ram:0c138fe4    a8b10300        ddw         3B1A8h                                  
+ram:0c138fe8    6cb0120c        addr        s_c:/doa2/dat/char/zac02/zac02.chr_0c...;= "c:/doa2/dat/char/zac02/zac02.chr"
+ram:0c138fec    a0261305        addr        DAT_051326a0                            
+ram:0c138ff0    284d0300        ddw         34D28h                                  
+ram:0c138ff4    90b0120c        addr        s_c:/doa2/dat/char/tin00/tin00.chr_0c...;= "c:/doa2/dat/char/tin00/tin00.chr"
+ram:0c138ff8    e0731605        addr        DAT_051673e0                            
+ram:0c138ffc    181d0400        ddw         41D18h                                  
+ram:0c139000    b4b0120c        addr        s_c:/doa2/dat/char/tin01/tin01.chr_0c...;= "c:/doa2/dat/char/tin01/tin01.chr"
+ram:0c139004    00911a05        addr        DAT_051a9100                            
+ram:0c139008    a8220400        ddw         422A8h                                  
+ram:0c13900c    d8b0120c        addr        s_c:/doa2/dat/char/tin02/tin02.chr_0c...;= "c:/doa2/dat/char/tin02/tin02.chr"
+ram:0c139010    c0b31e05        addr        DAT_051eb3c0                            
+ram:0c139014    10bd0300        ddw         3BD10h                                  
+ram:0c139018    fcb0120c        addr        s_c:/doa2/dat/char/jan00/jan00.chr_0c...;= "c:/doa2/dat/char/jan00/jan00.chr"
+ram:0c13901c    e0702205        addr        DAT_052270e0                            
+ram:0c139020    ac720400        ddw         472ACh                                  
+ram:0c139024    20b1120c        addr        s_c:/doa2/dat/char/jan01/jan01.chr_0c...;= "c:/doa2/dat/char/jan01/jan01.chr"
+ram:0c139028    a0e32605        addr        DAT_0526e3a0                            
+ram:0c13902c    c8f90300        ddw         3F9C8h                                  
+ram:0c139030    44b1120c        addr        s_c:/doa2/dat/char/ryu00/ryu00.chr_0c...;= "c:/doa2/dat/char/ryu00/ryu00.chr"
+ram:0c139034    80dd2a05        addr        DAT_052add80                            
+ram:0c139038    6c0d0500        ddw         50D6Ch                                  
+ram:0c13903c    68b1120c        addr        s_c:/doa2/dat/char/ryu01/ryu01.chr_0c...;= "c:/doa2/dat/char/ryu01/ryu01.chr"
+ram:0c139040    00eb2f05        addr        DAT_052feb00                            
+ram:0c139044    74fd0400        ddw         4FD74h                                  
+ram:0c139048    8cb1120c        addr        s_c:/doa2/dat/char/ryu02/ryu02.chr_0c...;= "c:/doa2/dat/char/ryu02/ryu02.chr"
+ram:0c13904c    80e83405        addr        DAT_0534e880                            
+ram:0c139050    00770300        ddw         37700h                                  
+ram:0c139054    b0b1120c        addr        s_c:/doa2/dat/char/kas00/kas00.chr_0c...;= "c:/doa2/dat/char/kas00/kas00.chr"
+ram:0c139058    805f3805        addr        DAT_05385f80                            
+ram:0c13905c    d87b0400        ddw         47BD8h                                  
+ram:0c139060    d4b1120c        addr        s_c:/doa2/dat/char/kas01/kas01.chr_0c...;= "c:/doa2/dat/char/kas01/kas01.chr"
+ram:0c139064    60db3c05        addr        DAT_053cdb60                            
+ram:0c139068    c4c20400        ddw         4C2C4h                                  
+ram:0c13906c    f8b1120c        addr        s_c:/doa2/dat/char/kas02/kas02.chr_0c...;= "c:/doa2/dat/char/kas02/kas02.chr"
+ram:0c139070    409e4105        addr        DAT_05419e40                            
+ram:0c139074    60c40400        ddw         4C460h                                  
+ram:0c139078    1cb2120c        addr        s_c:/doa2/dat/char/kas03/kas03.chr_0c...;= "c:/doa2/dat/char/kas03/kas03.chr"
+ram:0c13907c    a0624605        addr        DAT_054662a0                            
+ram:0c139080    bcf70400        ddw         4F7BCh                                  
+ram:0c139084    40b2120c        addr        s_c:/doa2/dat/char/kas04/kas04.chr_0c...;= "c:/doa2/dat/char/kas04/kas04.chr"
+ram:0c139088    605a4b05        addr        DAT_054b5a60                            
+ram:0c13908c    48620400        ddw         46248h                                  
+ram:0c139090    64b2120c        addr        s_c:/doa2/dat/char/gen00/gen00.chr_0c...;= "c:/doa2/dat/char/gen00/gen00.chr"
+ram:0c139094    c0bc4f05        addr        DAT_054fbcc0                            
+ram:0c139098    807e0300        ddw         37E80h                                  
+ram:0c13909c    88b2120c        addr        s_c:/doa2/dat/char/gen01/gen01.chr_0c...;= "c:/doa2/dat/char/gen01/gen01.chr"
+ram:0c1390a0    403b5305        addr        DAT_05533b40                            
+ram:0c1390a4    e8110300        ddw         311E8h                                  
+ram:0c1390a8    acb2120c        addr        s_c:/doa2/dat/char/bay00/bay00.chr_0c...;= "c:/doa2/dat/char/bay00/bay00.chr"
+ram:0c1390ac    404d5605        addr        DAT_05564d40                            
+ram:0c1390b0    f4790300        ddw         379F4h                                  
+ram:0c1390b4    d0b2120c        addr        s_c:/doa2/dat/char/bay01/bay01.chr_0c...;= "c:/doa2/dat/char/bay01/bay01.chr"
+ram:0c1390b8    40c75905        addr        DAT_0559c740                            
+ram:0c1390bc    50890300        ddw         38950h                                  
+ram:0c1390c0    f4b2120c        addr        s_c:/doa2/dat/char/bas00/bas00.chr_0c...;= "c:/doa2/dat/char/bas00/bas00.chr"
+ram:0c1390c4    a0505d05        addr        DAT_055d50a0                            
+ram:0c1390c8    20ff0300        ddw         3FF20h                                  
+ram:0c1390cc    18b3120c        addr        s_c:/doa2/dat/char/bas01/bas01.chr_0c...;= "c:/doa2/dat/char/bas01/bas01.chr"
+ram:0c1390d0    c04f6105        addr        DAT_05614fc0                            
+ram:0c1390d4    ecab0400        ddw         4ABECh                                  
+ram:0c1390d8    3cb3120c        addr        s_c:/doa2/dat/char/lei00/lei00.chr_0c...;= "c:/doa2/dat/char/lei00/lei00.chr"
+ram:0c1390dc    c0fb6505        addr        DAT_0565fbc0                            
+ram:0c1390e0    88370400        ddw         43788h                                  
+ram:0c1390e4    60b3120c        addr        s_c:/doa2/dat/char/lei01/lei01.chr_0c...;= "c:/doa2/dat/char/lei01/lei01.chr"
+ram:0c1390e8    60336a05        addr        DAT_056a3360                            
+ram:0c1390ec    f47a0400        ddw         47AF4h                                  
+ram:0c1390f0    84b3120c        addr        s_c:/doa2/dat/char/lei02/lei02.chr_0c...;= "c:/doa2/dat/char/lei02/lei02.chr"
+ram:0c1390f4    60ae6e05        addr        DAT_056eae60                            
+ram:0c1390f8    24550400        ddw         45524h                                  
+ram:0c1390fc    a8b3120c        addr        s_c:/doa2/dat/char/aya00/aya00.chr_0c...;= "c:/doa2/dat/char/aya00/aya00.chr"
+ram:0c139100    a0037305        addr        DAT_057303a0                            
+ram:0c139104    704f0400        ddw         44F70h                                  
+ram:0c139108    ccb3120c        addr        s_c:/doa2/dat/char/aya01/aya01.chr_0c...;= "c:/doa2/dat/char/aya01/aya01.chr"
+ram:0c13910c    20537705        addr        DAT_05775320                            
+ram:0c139110    f8980400        ddw         498F8h                                  
+ram:0c139114    f0b3120c        addr        s_c:/doa2/dat/char/aya02/aya02.chr_0c...;= "c:/doa2/dat/char/aya02/aya02.chr"
+ram:0c139118    20ec7b05        addr        DAT_057bec20                            
+ram:0c13911c    78900400        ddw         49078h                                  
+ram:0c139120    14b4120c        addr        s_c:/doa2/dat/char/hik00/hik00.chr_0c...;= "c:/doa2/dat/char/hik00/hik00.chr"
+ram:0c139124    a07c8005        addr        DAT_05807ca0                            
+ram:0c139128    08120500        ddw         51208h                                  
+ram:0c13912c    38b4120c        addr        s_c:/doa2/dat/char/hik01/hik01.chr_0c...;= "c:/doa2/dat/char/hik01/hik01.chr"
+ram:0c139130    c08e8505        addr        DAT_05858ec0                            
+ram:0c139134    d81f0500        ddw         51FD8h                                  
+ram:0c139138    5cb4120c        addr        s_c:/doa2/dat/char/hik02/hik02.chr_0c...;= "c:/doa2/dat/char/hik02/hik02.chr"
+ram:0c13913c    a0ae8a05        addr        DAT_058aaea0                            
+ram:0c139140    802d0500        ddw         52D80h                                  
+ram:0c139144    80b4120c        addr        s_c:/doa2/dat/char/kte00/kte00.chr_0c...;= "c:/doa2/dat/char/kte00/kte00.chr"
+ram:0c139148    20dc8f05        addr        DAT_058fdc20                            
+ram:0c13914c    d8390400        ddw         439D8h                                  
+ram:0c139150    a4b4120c        addr        s_c:/doa2/dat/char/kte01/kte01.chr_0c...;= "c:/doa2/dat/char/kte01/kte01.chr"
+ram:0c139154    00169405        addr        DAT_05941600                            
+ram:0c139158    082c0400        ddw         42C08h                                  
+ram:0c13915c    c8b4120c        addr        s_c:/doa2/dat/char/tng00/tng00.chr_0c...;= "c:/doa2/dat/char/tng00/tng00.chr"
+ram:0c139160    20429805        addr        DAT_05984220                            
+ram:0c139164    b4670400        ddw         467B4h                                  
+ram:0c139168    ecb4120c        addr        s_c:/doa2/dat/char/mam00/mam00.chr_0c...;= "c:/doa2/dat/char/mam00/mam00.chr"
+ram:0c13916c    e0a99c05        addr        DAT_059ca9e0                            
+ram:0c139170    140c0400        ddw         40C14h                                  
+ram:0c139174    10b5120c        addr        s_c:/doa2/dat/char/lor00/lor00.chr_0c...;= "c:/doa2/dat/char/lor00/lor00.chr"
+ram:0c139178    00b6a005        addr        DAT_05a0b600                            
+ram:0c13917c    4cd40300        ddw         3D44Ch                                  
+ram:0c139180    34b5120c        addr        s_c:/doa2/dat/char/wba00/wba00.chr_0c...;= "c:/doa2/dat/char/wba00/wba00.chr"
+ram:0c139184    608aa405        addr        DAT_05a48a60                            
+ram:0c139188    c8370600        ddw         637C8h                                  
+ram:0c13918c    58b5120c        addr        s_c:/doa2/dat/char/zac00/zac00.sup_0c...;= "c:/doa2/dat/char/zac00/zac00.sup"
+ram:0c139190    40c2aa05        addr        DAT_05aac240                            
+ram:0c139194    4c300000        ddw         304Ch                                   
+ram:0c139198    7cb5120c        addr        s_c:/doa2/dat/char/zac01/zac01.sup_0c...;= "c:/doa2/dat/char/zac01/zac01.sup"
+ram:0c13919c    a0f2aa05        addr        DAT_05aaf2a0                            
+ram:0c1391a0    5c2e0000        ddw         2E5Ch                                   
+ram:0c1391a4    a0b5120c        addr        s_c:/doa2/dat/char/zac02/zac02.sup_0c...;= "c:/doa2/dat/char/zac02/zac02.sup"
+ram:0c1391a8    0021ab05        addr        DAT_05ab2100                            
+ram:0c1391ac    102b0000        ddw         2B10h                                   
+ram:0c1391b0    c4b5120c        addr        s_c:/doa2/dat/char/tin00/tin00.sup_0c...;= "c:/doa2/dat/char/tin00/tin00.sup"
+ram:0c1391b4    204cab05        addr        DAT_05ab4c20                            
+ram:0c1391b8    54200000        ddw         2054h                                   
+ram:0c1391bc    e8b5120c        addr        s_c:/doa2/dat/char/tin01/tin01.sup_0c...;= "c:/doa2/dat/char/tin01/tin01.sup"
+ram:0c1391c0    806cab05        addr        DAT_05ab6c80                            
+ram:0c1391c4    20280000        ddw         2820h                                   
+ram:0c1391c8    0cb6120c        addr        s_c:/doa2/dat/char/tin02/tin02.sup_0c...;= "c:/doa2/dat/char/tin02/tin02.sup"
+ram:0c1391cc    a094ab05        addr        DAT_05ab94a0                            
+ram:0c1391d0    4c1c0000        ddw         1C4Ch                                   
+ram:0c1391d4    30b6120c        addr        s_c:/doa2/dat/char/jan00/jan00.sup_0c...;= "c:/doa2/dat/char/jan00/jan00.sup"
+ram:0c1391d8    00b1ab05        addr        DAT_05abb100                            
+ram:0c1391dc    18250000        ddw         2518h                                   
+ram:0c1391e0    54b6120c        addr        s_c:/doa2/dat/char/jan01/jan01.sup_0c...;= "c:/doa2/dat/char/jan01/jan01.sup"
+ram:0c1391e4    20d6ab05        addr        DAT_05abd620                            
+ram:0c1391e8    442a0000        ddw         2A44h                                   
+ram:0c1391ec    78b6120c        addr        s_c:/doa2/dat/char/ryu00/ryu00.sup_0c...;= "c:/doa2/dat/char/ryu00/ryu00.sup"
+ram:0c1391f0    8000ac05        addr        DAT_05ac0080                            
+ram:0c1391f4    541b0000        ddw         1B54h                                   
+ram:0c1391f8    9cb6120c        addr        s_c:/doa2/dat/char/ryu01/ryu01.sup_0c...;= "c:/doa2/dat/char/ryu01/ryu01.sup"
+ram:0c1391fc    e01bac05        addr        DAT_05ac1be0                            
+ram:0c139200    141d0000        ddw         1D14h                                   
+ram:0c139204    c0b6120c        addr        s_c:/doa2/dat/char/ryu02/ryu02.sup_0c...;= "c:/doa2/dat/char/ryu02/ryu02.sup"
+ram:0c139208    0039ac05        addr        DAT_05ac3900                            
+ram:0c13920c    d01f0000        ddw         1FD0h                                   
+ram:0c139210    e4b6120c        addr        s_c:/doa2/dat/char/kas00/kas00.sup_0c...;= "c:/doa2/dat/char/kas00/kas00.sup"
+ram:0c139214    e058ac05        addr        DAT_05ac58e0                            
+ram:0c139218    d01a0000        ddw         1AD0h                                   
+ram:0c13921c    08b7120c        addr        s_c:/doa2/dat/char/kas01/kas01.sup_0c...;= "c:/doa2/dat/char/kas01/kas01.sup"
+ram:0c139220    c073ac05        addr        DAT_05ac73c0                            
+ram:0c139224    f41b0000        ddw         1BF4h                                   
+ram:0c139228    2cb7120c        addr        s_c:/doa2/dat/char/kas02/kas02.sup_0c...;= "c:/doa2/dat/char/kas02/kas02.sup"
+ram:0c13922c    c08fac05        addr        DAT_05ac8fc0                            
+ram:0c139230    e41c0000        ddw         1CE4h                                   
+ram:0c139234    50b7120c        addr        s_c:/doa2/dat/char/kas03/kas03.sup_0c...;= "c:/doa2/dat/char/kas03/kas03.sup"
+ram:0c139238    c0acac05        addr        DAT_05acacc0                            
+ram:0c13923c    401a0000        ddw         1A40h                                   
+ram:0c139240    74b7120c        addr        s_c:/doa2/dat/char/kas04/kas04.sup_0c...;= "c:/doa2/dat/char/kas04/kas04.sup"
+ram:0c139244    00c7ac05        addr        DAT_05acc700                            
+ram:0c139248    d4360000        ddw         36D4h                                   
+ram:0c13924c    98b7120c        addr        s_c:/doa2/dat/char/gen00/gen00.sup_0c...;= "c:/doa2/dat/char/gen00/gen00.sup"
+ram:0c139250    e0fdac05        addr        DAT_05acfde0                            
+ram:0c139254    94150000        ddw         1594h                                   
+ram:0c139258    bcb7120c        addr        s_c:/doa2/dat/char/gen01/gen01.sup_0c...;= "c:/doa2/dat/char/gen01/gen01.sup"
+ram:0c13925c    8013ad05        addr        DAT_05ad1380                            
+ram:0c139260    9c260000        ddw         269Ch                                   
+ram:0c139264    e0b7120c        addr        s_c:/doa2/dat/char/bay00/bay00.sup_0c...;= "c:/doa2/dat/char/bay00/bay00.sup"
+ram:0c139268    203aad05        addr        DAT_05ad3a20                            
+ram:0c13926c    cc1f0000        ddw         1FCCh                                   
+ram:0c139270    04b8120c        addr        s_c:/doa2/dat/char/bay01/bay01.sup_0c...;= "c:/doa2/dat/char/bay01/bay01.sup"
+ram:0c139274    005aad05        addr        DAT_05ad5a00                            
+ram:0c139278    001f0000        ddw         1F00h                                   
+ram:0c13927c    28b8120c        addr        s_c:/doa2/dat/char/bas00/bas00.sup_0c...;= "c:/doa2/dat/char/bas00/bas00.sup"
+ram:0c139280    0079ad05        addr        DAT_05ad7900                            
+ram:0c139284    28290000        ddw         2928h                                   
+ram:0c139288    4cb8120c        addr        s_c:/doa2/dat/char/bas01/bas01.sup_0c...;= "c:/doa2/dat/char/bas01/bas01.sup"
+ram:0c13928c    40a2ad05        addr        DAT_05ada240                            
+ram:0c139290    441f0000        ddw         1F44h                                   
+ram:0c139294    70b8120c        addr        s_c:/doa2/dat/char/lei00/lei00.sup_0c...;= "c:/doa2/dat/char/lei00/lei00.sup"
+ram:0c139298    a0c1ad05        addr        DAT_05adc1a0                            
+ram:0c13929c    b82b0000        ddw         2BB8h                                   
+ram:0c1392a0    94b8120c        addr        s_c:/doa2/dat/char/lei01/lei01.sup_0c...;= "c:/doa2/dat/char/lei01/lei01.sup"
+ram:0c1392a4    60edad05        addr        DAT_05aded60                            
+ram:0c1392a8    781e0000        ddw         1E78h                                   
+ram:0c1392ac    b8b8120c        addr        s_c:/doa2/dat/char/lei02/lei02.sup_0c...;= "c:/doa2/dat/char/lei02/lei02.sup"
+ram:0c1392b0    e00bae05        addr        DAT_05ae0be0                            
+ram:0c1392b4    04230000        ddw         2304h                                   
+ram:0c1392b8    dcb8120c        addr        s_c:/doa2/dat/char/aya00/aya00.sup_0c...;= "c:/doa2/dat/char/aya00/aya00.sup"
+ram:0c1392bc    002fae05        addr        DAT_05ae2f00                            
+ram:0c1392c0    8c240000        ddw         248Ch                                   
+ram:0c1392c4    00b9120c        addr        s_c:/doa2/dat/char/aya01/aya01.sup_0c...;= "c:/doa2/dat/char/aya01/aya01.sup"
+ram:0c1392c8    a053ae05        addr        DAT_05ae53a0                            
+ram:0c1392cc    881f0000        ddw         1F88h                                   
+ram:0c1392d0    24b9120c        addr        s_c:/doa2/dat/char/aya02/aya02.sup_0c...;= "c:/doa2/dat/char/aya02/aya02.sup"
+ram:0c1392d4    4073ae05        addr        DAT_05ae7340                            
+ram:0c1392d8    04200000        ddw         2004h                                   
+ram:0c1392dc    48b9120c        addr        s_c:/doa2/dat/char/hik00/hik00.sup_0c...;= "c:/doa2/dat/char/hik00/hik00.sup"
+ram:0c1392e0    6093ae05        addr        DAT_05ae9360                            
+ram:0c1392e4    c4210000        ddw         21C4h                                   
+ram:0c1392e8    6cb9120c        addr        s_c:/doa2/dat/char/hik01/hik01.sup_0c...;= "c:/doa2/dat/char/hik01/hik01.sup"
+ram:0c1392ec    40b5ae05        addr        DAT_05aeb540                            
+ram:0c1392f0    ec220000        ddw         22ECh                                   
+ram:0c1392f4    90b9120c        addr        s_c:/doa2/dat/char/hik02/hik02.sup_0c...;= "c:/doa2/dat/char/hik02/hik02.sup"
+ram:0c1392f8    40d8ae05        addr        DAT_05aed840                            
+ram:0c1392fc    c8340000        ddw         34C8h                                   
+ram:0c139300    b4b9120c        addr        s_c:/doa2/dat/char/kte00/kte00.sup_0c...;= "c:/doa2/dat/char/kte00/kte00.sup"
+ram:0c139304    200daf05        addr        DAT_05af0d20                            
+ram:0c139308    c4210000        ddw         21C4h                                   
+ram:0c13930c    d8b9120c        addr        s_c:/doa2/dat/char/kte01/kte01.sup_0c...;= "c:/doa2/dat/char/kte01/kte01.sup"
+ram:0c139310    002faf05        addr        DAT_05af2f00                            
+ram:0c139314    d0200000        ddw         20D0h                                   
+ram:0c139318    fcb9120c        addr        s_c:/doa2/dat/char/tng00/tng00.sup_0c...;= "c:/doa2/dat/char/tng00/tng00.sup"
+ram:0c13931c    e04faf05        addr        DAT_05af4fe0                            
+ram:0c139320    e8210000        ddw         21E8h                                   
+ram:0c139324    20ba120c        addr        s_c:/doa2/dat/char/mam00/mam00.sup_0c...;= "c:/doa2/dat/char/mam00/mam00.sup"
+ram:0c139328    e071af05        addr        DAT_05af71e0                            
+ram:0c13932c    a42e0000        ddw         2EA4h                                   
+ram:0c139330    44ba120c        addr        s_c:/doa2/dat/char/lor00/lor00.sup_0c...;= "c:/doa2/dat/char/lor00/lor00.sup"
+ram:0c139334    a0a0af05        addr        DAT_05afa0a0                            
+ram:0c139338    04290000        ddw         2904h                                   
+ram:0c13933c    68ba120c        addr        s_c:/doa2/dat/char/wba00/wba00.sup_0c...;= "c:/doa2/dat/char/wba00/wba00.sup"
+ram:0c139340    c0c9af05        addr        DAT_05afc9c0                            
+ram:0c139344    681f0000        ddw         1F68h                                   
+ram:0c139348    8cba120c        addr        s_c:/doa2/dat/stage/stage00/stage0_0c...;= "c:/doa2/dat/stage/stage00/stage00...
+ram:0c13934c    40e9af05        addr        DAT_05afe940                            
+ram:0c139350    aca10a00        ddw         AA1ACh                                  
+ram:0c139354    b4ba120c        addr        s_c:/doa2/dat/stage/stage02/stage0_0c...;= "c:/doa2/dat/stage/stage02/stage02...
+ram:0c139358    008bba05        addr        DAT_05ba8b00                            
+ram:0c13935c    8c020700        ddw         7028Ch                                  
+ram:0c139360    dcba120c        addr        s_c:/doa2/dat/stage/stage03/stage0_0c...;= "c:/doa2/dat/stage/stage03/stage03...
+ram:0c139364    a08dc105        addr        DAT_05c18da0                            
+ram:0c139368    6c140d00        ddw         D146Ch                                  
+ram:0c13936c    04bb120c        addr        s_c:/doa2/dat/stage/stage04/stage0_0c...;= "c:/doa2/dat/stage/stage04/stage04...
+ram:0c139370    20a2ce05        addr        DAT_05cea220                            
+ram:0c139374    848d0200        ddw         28D84h                                  
+ram:0c139378    2cbb120c        addr        s_c:/doa2/dat/stage/stage05/stage0_0c...;= "c:/doa2/dat/stage/stage05/stage05...
+ram:0c13937c    c02fd105        addr        DAT_05d12fc0                            
+ram:0c139380    48490e00        ddw         E4948h                                  
+ram:0c139384    54bb120c        addr        s_c:/doa2/dat/stage/stage06/stage0_0c...;= "c:/doa2/dat/stage/stage06/stage06...
+ram:0c139388    2079df05        addr        DAT_05df7920                            
+ram:0c13938c    54ca0000        ddw         CA54h                                   
+ram:0c139390    7cbb120c        addr        s_c:/doa2/dat/stage/stage09/stage0_0c...;= "c:/doa2/dat/stage/stage09/stage09...
+ram:0c139394    8043e005        addr        DAT_05e04380                            
+ram:0c139398    68710c00        ddw         C7168h                                  
+ram:0c13939c    a4bb120c        addr        s_c:/doa2/dat/stage/stage10/stage1_0c...;= "c:/doa2/dat/stage/stage10/stage10...
+ram:0c1393a0    00b5ec05        addr        DAT_05ecb500                            
+ram:0c1393a4    ac2d0c00        ddw         C2DACh                                  
+ram:0c1393a8    ccbb120c        addr        s_c:/doa2/dat/stage/stage11/stage1_0c...;= "c:/doa2/dat/stage/stage11/stage11...
+ram:0c1393ac    c0e2f805        addr        DAT_05f8e2c0                            
+ram:0c1393b0    881e0f00        ddw         F1E88h                                  
+ram:0c1393b4    f4bb120c        addr        s_c:/doa2/dat/stage/stage12/stage1_0c...;= "c:/doa2/dat/stage/stage12/stage12...
+ram:0c1393b8    60010806        addr        DAT_06080160                            
+ram:0c1393bc    149e0f00        ddw         F9E14h                                  
+ram:0c1393c0    1cbc120c        addr        s_c:/doa2/dat/stage/stage13/stage1_0c...;= "c:/doa2/dat/stage/stage13/stage13...
+ram:0c1393c4    809f1706        addr        DAT_06179f80                            
+ram:0c1393c8    d4950e00        ddw         E95D4h                                  
+ram:0c1393cc    44bc120c        addr        s_c:/doa2/dat/stage/stage14/stage1_0c...;= "c:/doa2/dat/stage/stage14/stage14...
+ram:0c1393d0    60352606        addr        DAT_06263560                            
+ram:0c1393d4    00b70d00        ddw         DB700h                                  
+ram:0c1393d8    6cbc120c        addr        s_c:/doa2/dat/stage/stage15/stage1_0c...;= "c:/doa2/dat/stage/stage15/stage15...
+ram:0c1393dc    60ec3306        addr        DAT_0633ec60                            
+ram:0c1393e0    e40f0e00        ddw         E0FE4h                                  
+ram:0c1393e4    94bc120c        addr        s_c:/doa2/dat/stage/stage16/stage1_0c...;= "c:/doa2/dat/stage/stage16/stage16...
+ram:0c1393e8    60fc4106        addr        DAT_0641fc60                            
+ram:0c1393ec    54390a00        ddw         A3954h                                  
+ram:0c1393f0    bcbc120c        addr        s_c:/doa2/dat/stage/stage17/stage1_0c...;= "c:/doa2/dat/stage/stage17/stage17...
+ram:0c1393f4    c0354c06        addr        DAT_064c35c0                            
+ram:0c1393f8    ac730900        ddw         973ACh                                  
+ram:0c1393fc    e4bc120c        addr        s_c:/doa2/dat/stage/stage18/stage1_0c...;= "c:/doa2/dat/stage/stage18/stage18...
+ram:0c139400    80a95506        addr        DAT_0655a980                            
+ram:0c139404    a0560b00        ddw         B56A0h                                  
+ram:0c139408    0cbd120c        addr        s_c:/doa2/dat/stage/stage20/stage2_0c...;= "c:/doa2/dat/stage/stage20/stage20...
+ram:0c13940c    20006106        addr        DAT_06610020                            
+ram:0c139410    3cfb0d00        ddw         DFB3Ch                                  
+ram:0c139414    34bd120c        addr        s_c:/doa2/dat/stage/stage21/stage2_0c...;= "c:/doa2/dat/stage/stage21/stage21...
+ram:0c139418    60fb6e06        addr        DAT_066efb60                            
+ram:0c13941c    8c180d00        ddw         D188Ch                                  
+ram:0c139420    5cbd120c        addr        s_c:/doa2/dat/stage/stage22/stage2_0c...;= "c:/doa2/dat/stage/stage22/stage22...
+ram:0c139424    00147c06        addr        DAT_067c1400                            
+ram:0c139428    f06c0500        ddw         56CF0h                                  
+ram:0c13942c    84bd120c        addr        s_c:/doa2/dat/stage/stage23/stage2_0c...;= "c:/doa2/dat/stage/stage23/stage23...
+ram:0c139430    00818106        addr        DAT_06818100                            
+ram:0c139434    a0480a00        ddw         A48A0h                                  
+ram:0c139438    acbd120c        addr        s_c:/doa2/dat/stage/stage24/stage2_0c...;= "c:/doa2/dat/stage/stage24/stage24...
+ram:0c13943c    a0c98b06        addr        DAT_068bc9a0                            
+ram:0c139440    60c90900        ddw         9C960h                                  
+ram:0c139444    d4bd120c        addr        s_c:/doa2/dat/stage/stage27/stage2_0c...;= "c:/doa2/dat/stage/stage27/stage27...
+ram:0c139448    00939506        addr        DAT_06959300                            
+ram:0c13944c    482c0800        ddw         82C48h                                  
+ram:0c139450    fcbd120c        addr        s_c:/doa2/dat/stage/stage29/stage2_0c...;= "c:/doa2/dat/stage/stage29/stage29...
+ram:0c139454    60bf9d06        addr        DAT_069dbf60                            
+ram:0c139458    70c30300        ddw         3C370h                                  
+ram:0c13945c    24be120c        addr        s_c:/doa2/dat/stage/stage00/stage0_0c...;= "c:/doa2/dat/stage/stage00/stage00...
+ram:0c139460    e082a106        addr        DAT_06a182e0                            
+ram:0c139464    609d1600        ddw         169D60h                                 
+ram:0c139468    4cbe120c        addr        s_c:/doa2/dat/stage/stage02/stage0_0c...;= "c:/doa2/dat/stage/stage02/stage02...
+ram:0c13946c    4020b806        addr        DAT_06b82040                            
+ram:0c139470    00b00c00        ddw         CB000h                                  
+ram:0c139474    74be120c        addr        s_c:/doa2/dat/stage/stage03/stage0_0c...;= "c:/doa2/dat/stage/stage03/stage03...
+ram:0c139478    40d0c406        addr        DAT_06c4d040                            
+ram:0c13947c    407e1500        ddw         157E40h                                 
+ram:0c139480    9cbe120c        addr        s_c:/doa2/dat/stage/stage04/stage0_0c...;= "c:/doa2/dat/stage/stage04/stage04...
+ram:0c139484    804eda06        addr        DAT_06da4e80                            
+ram:0c139488    a0ff0a00        ddw         AFFA0h                                  
+ram:0c13948c    c4be120c        addr        s_c:/doa2/dat/stage/stage05/stage0_0c...;= "c:/doa2/dat/stage/stage05/stage05...
+ram:0c139490    204ee506        addr        DAT_06e54e20                            
+ram:0c139494    20611500        ddw         156120h                                 
+ram:0c139498    ecbe120c        addr        s_c:/doa2/dat/stage/stage06/stage0_0c...;= "c:/doa2/dat/stage/stage06/stage06...
+ram:0c13949c    40affa06        addr        DAT_06faaf40                            
+ram:0c1394a0    00010000        ddw         100h                                    
+ram:0c1394a4    14bf120c        addr        s_c:/doa2/dat/stage/stage09/stage0_0c...;= "c:/doa2/dat/stage/stage09/stage09...
+ram:0c1394a8    40b0fa06        addr        DAT_06fab040                            
+ram:0c1394ac    00ac1000        ddw         10AC00h                                 
+ram:0c1394b0    3cbf120c        addr        s_c:/doa2/dat/stage/stage10/stage1_0c...;= "c:/doa2/dat/stage/stage10/stage10...
+ram:0c1394b4    405c0b07        addr        DAT_070b5c40                            
+ram:0c1394b8    a0900a00        ddw         A90A0h                                  
+ram:0c1394bc    64bf120c        addr        s_c:/doa2/dat/stage/stage11/stage1_0c...;= "c:/doa2/dat/stage/stage11/stage11...
+ram:0c1394c0    e0ec1507        addr        DAT_0715ece0                            
+ram:0c1394c4    20b10700        ddw         7B120h                                  
+ram:0c1394c8    8cbf120c        addr        s_c:/doa2/dat/stage/stage12/stage1_0c...;= "c:/doa2/dat/stage/stage12/stage12...
+ram:0c1394cc    009e1d07        addr        DAT_071d9e00                            
+ram:0c1394d0    a0910800        ddw         891A0h                                  
+ram:0c1394d4    b4bf120c        addr        s_c:/doa2/dat/stage/stage13/stage1_0c...;= "c:/doa2/dat/stage/stage13/stage13...
+ram:0c1394d8    a02f2607        addr        DAT_07262fa0                            
+ram:0c1394dc    40e90700        ddw         7E940h                                  
+ram:0c1394e0    dcbf120c        addr        s_c:/doa2/dat/stage/stage14/stage1_0c...;= "c:/doa2/dat/stage/stage14/stage14...
+ram:0c1394e4    e0182e07        addr        DAT_072e18e0                            
+ram:0c1394e8    00e40800        ddw         8E400h                                  
+ram:0c1394ec    04c0120c        addr        s_c:/doa2/dat/stage/stage15/stage1_0c...;= "c:/doa2/dat/stage/stage15/stage15...
+ram:0c1394f0    e0fc3607        addr        DAT_0736fce0                            
+ram:0c1394f4    a0e91400        ddw         14E9A0h                                 
+ram:0c1394f8    2cc0120c        addr        s_c:/doa2/dat/stage/stage16/stage1_0c...;= "c:/doa2/dat/stage/stage16/stage16...
+ram:0c1394fc    80e64b07        addr        DAT_074be680                            
+ram:0c139500    a07f0c00        ddw         C7FA0h                                  
+ram:0c139504    54c0120c        addr        s_c:/doa2/dat/stage/stage17/stage1_0c...;= "c:/doa2/dat/stage/stage17/stage17...
+ram:0c139508    20665807        addr        DAT_07586620                            
+ram:0c13950c    80670e00        ddw         E6780h                                  
+ram:0c139510    7cc0120c        addr        s_c:/doa2/dat/stage/stage18/stage1_0c...;= "c:/doa2/dat/stage/stage18/stage18...
+ram:0c139514    a0cd6607        addr        DAT_0766cda0                            
+ram:0c139518    c04f1600        ddw         164FC0h                                 
+ram:0c13951c    a4c0120c        addr        s_c:/doa2/dat/stage/stage20/stage2_0c...;= "c:/doa2/dat/stage/stage20/stage20...
+ram:0c139520    601d7d07        addr        DAT_077d1d60                            
+ram:0c139524    20b11700        ddw         17B120h                                 
+ram:0c139528    ccc0120c        addr        s_c:/doa2/dat/stage/stage21/stage2_0c...;= "c:/doa2/dat/stage/stage21/stage21...
+ram:0c13952c    80ce9407        addr        DAT_0794ce80                            
+ram:0c139530    e0a91400        ddw         14A9E0h                                 
+ram:0c139534    f4c0120c        addr        s_c:/doa2/dat/stage/stage22/stage2_0c...;= "c:/doa2/dat/stage/stage22/stage22...
+ram:0c139538    6078a907        addr        DAT_07a97860                            
+ram:0c13953c    20240c00        ddw         C2420h                                  
+ram:0c139540    1cc1120c        addr        s_c:/doa2/dat/stage/stage23/stage2_0c...;= "c:/doa2/dat/stage/stage23/stage23...
+ram:0c139544    809cb507        addr        DAT_07b59c80                            
+ram:0c139548    003c0700        ddw         73C00h                                  
+ram:0c13954c    44c1120c        addr        s_c:/doa2/dat/stage/stage24/stage2_0c...;= "c:/doa2/dat/stage/stage24/stage24...
+ram:0c139550    80d8bc07        addr        DAT_07bcd880                            
+ram:0c139554    40611100        ddw         116140h                                 
+ram:0c139558    6cc1120c        addr        s_c:/doa2/dat/stage/stage27/stage2_0c...;= "c:/doa2/dat/stage/stage27/stage27...
+ram:0c13955c    c039ce07        addr        DAT_07ce39c0                            
+ram:0c139560    80070e00        ddw         E0780h                                  
+ram:0c139564    94c1120c        addr        s_c:/doa2/dat/stage/stage29/stage2_0c...;= "c:/doa2/dat/stage/stage29/stage29...
+ram:0c139568    4041dc07        addr        DAT_07dc4140                            
+ram:0c13956c    c0dc0800        ddw         8DCC0h                                  
+ram:0c139570    bcc1120c        addr        s_c:/doa2/dat/stage/stage00/s00_da_0c...;= "c:/doa2/dat/stage/stage00/s00_dat...
+ram:0c139574    001ee507        addr        DAT_07e51e00                            
+ram:0c139578    7ce90000        ddw         E97Ch                                   
+ram:0c13957c    e4c1120c        addr        s_c:/doa2/dat/stage/stage02/s02_da_0c...;= "c:/doa2/dat/stage/stage02/s02_dat...
+ram:0c139580    8007e607        addr        DAT_07e60780                            
+ram:0c139584    d8740000        ddw         74D8h                                   
+ram:0c139588    0cc2120c        addr        s_c:/doa2/dat/stage/stage03/s03_da_0c...;= "c:/doa2/dat/stage/stage03/s03_dat...
+ram:0c13958c    607ce607        addr        DAT_07e67c60                            
+ram:0c139590    d82d0200        ddw         22DD8h                                  
+ram:0c139594    34c2120c        addr        s_c:/doa2/dat/stage/stage04/s04_da_0c...;= "c:/doa2/dat/stage/stage04/s04_dat...
+ram:0c139598    40aae807        addr        DAT_07e8aa40                            
+ram:0c13959c    04000000        ddw         4h                                      
+ram:0c1395a0    5cc2120c        addr        s_c:/doa2/dat/stage/stage05/s05_da_0c...;= "c:/doa2/dat/stage/stage05/s05_dat...
+ram:0c1395a4    60aae807        addr        DAT_07e8aa60                            
+ram:0c1395a8    905d0200        ddw         25D90h                                  
+ram:0c1395ac    84c2120c        addr        s_c:/doa2/dat/stage/stage06/s06_da_0c...;= "c:/doa2/dat/stage/stage06/s06_dat...
+ram:0c1395b0    0008eb07        addr        DAT_07eb0800                            
+ram:0c1395b4    04000000        ddw         4h                                      
+ram:0c1395b8    acc2120c        addr        s_c:/doa2/dat/stage/stage09/s09_da_0c...;= "c:/doa2/dat/stage/stage09/s09_dat...
+ram:0c1395bc    2008eb07        addr        DAT_07eb0820                            
+ram:0c1395c0    d8740100        ddw         174D8h                                  
+ram:0c1395c4    d4c2120c        addr        s_c:/doa2/dat/stage/stage10/s10_da_0c...;= "c:/doa2/dat/stage/stage10/s10_dat...
+ram:0c1395c8    007dec07        addr        DAT_07ec7d00                            
+ram:0c1395cc    2c960000        ddw         962Ch                                   
+ram:0c1395d0    fcc2120c        addr        s_c:/doa2/dat/stage/stage11/s11_da_0c...;= "c:/doa2/dat/stage/stage11/s11_dat...
+ram:0c1395d4    4013ed07        addr        DAT_07ed1340                            
+ram:0c1395d8    b04d0000        ddw         4DB0h                                   
+ram:0c1395dc    24c3120c        addr        s_c:/doa2/dat/stage/stage12/s12_da_0c...;= "c:/doa2/dat/stage/stage12/s12_dat...
+ram:0c1395e0    0061ed07        addr        DAT_07ed6100                            
+ram:0c1395e4    585f0000        ddw         5F58h                                   
+ram:0c1395e8    4cc3120c        addr        s_c:/doa2/dat/stage/stage13/s13_da_0c...;= "c:/doa2/dat/stage/stage13/s13_dat...
+ram:0c1395ec    60c0ed07        addr        DAT_07edc060                            
+ram:0c1395f0    a0070100        ddw         107A0h                                  
+ram:0c1395f4    74c3120c        addr        s_c:/doa2/dat/stage/stage14/s14_da_0c...;= "c:/doa2/dat/stage/stage14/s14_dat...
+ram:0c1395f8    00c8ee07        addr        DAT_07eec800                            
+ram:0c1395fc    b4a90700        ddw         7A9B4h                                  
+ram:0c139600    9cc3120c        addr        s_c:/doa2/dat/stage/stage15/s15_da_0c...;= "c:/doa2/dat/stage/stage15/s15_dat...
+ram:0c139604    c071f607        addr        DAT_07f671c0                            
+ram:0c139608    88470200        ddw         24788h                                  
+ram:0c13960c    c4c3120c        addr        s_c:/doa2/dat/stage/stage16/s16_da_0c...;= "c:/doa2/dat/stage/stage16/s16_dat...
+ram:0c139610    60b9f807        addr        DAT_07f8b960                            
+ram:0c139614    98970000        ddw         9798h                                   
+ram:0c139618    ecc3120c        addr        s_c:/doa2/dat/stage/stage17/s17_da_0c...;= "c:/doa2/dat/stage/stage17/s17_dat...
+ram:0c13961c    0051f907        addr        DAT_07f95100                            
+ram:0c139620    04000000        ddw         4h                                      
+ram:0c139624    14c4120c        addr        s_c:/doa2/dat/stage/stage18/s18_da_0c...;= "c:/doa2/dat/stage/stage18/s18_dat...
+ram:0c139628    2051f907        addr        DAT_07f95120                            
+ram:0c13962c    14a50000        ddw         A514h                                   
+ram:0c139630    3cc4120c        addr        s_c:/doa2/dat/stage/stage20/s20_da_0c...;= "c:/doa2/dat/stage/stage20/s20_dat...
+ram:0c139634    40f6f907        addr        DAT_07f9f640                            
+ram:0c139638    404c0100        ddw         14C40h                                  
+ram:0c13963c    64c4120c        addr        s_c:/doa2/dat/stage/stage21/s21_da_0c...;= "c:/doa2/dat/stage/stage21/s21_dat...
+ram:0c139640    8042fb07        addr        DAT_07fb4280                            
+ram:0c139644    d03a0000        ddw         3AD0h                                   
+ram:0c139648    8cc4120c        addr        s_c:/doa2/dat/stage/stage22/s22_da_0c...;= "c:/doa2/dat/stage/stage22/s22_dat...
+ram:0c13964c    607dfb07        addr        DAT_07fb7d60                            
+ram:0c139650    04000000        ddw         4h                                      
+ram:0c139654    b4c4120c        addr        s_c:/doa2/dat/stage/stage23/s23_da_0c...;= "c:/doa2/dat/stage/stage23/s23_dat...
+ram:0c139658    807dfb07        addr        DAT_07fb7d80                            
+ram:0c13965c    04000000        ddw         4h                                      
+ram:0c139660    dcc4120c        addr        s_c:/doa2/dat/stage/stage24/s24_da_0c...;= "c:/doa2/dat/stage/stage24/s24_dat...
+ram:0c139664    a07dfb07        addr        DAT_07fb7da0                            
+ram:0c139668    bc7e0000        ddw         7EBCh                                   
+ram:0c13966c    04c5120c        addr        s_c:/doa2/dat/stage/stage27/s27_da_0c...;= "c:/doa2/dat/stage/stage27/s27_dat...
+ram:0c139670    60fcfb07        addr        DAT_07fbfc60                            
+ram:0c139674    444a0000        ddw         4A44h                                   
+ram:0c139678    2cc5120c        addr        s_c:/doa2/dat/stage/stage29/s29_da_0c...;= "c:/doa2/dat/stage/stage29/s29_dat...
+ram:0c13967c    c046fc07        addr        DAT_07fc46c0                            
+ram:0c139680    04000000        ddw         4h                                      
+ram:0c139684    54c5120c        addr        s_c:/doa2/bin/fight_se.bin_0c12c554     ;= "c:/doa2/bin/fight_se.bin"
+ram:0c139688    e046fc07        addr        DAT_07fc46e0                            
+ram:0c13968c    5ca11500        ddw         15A15Ch                                 
+ram:0c139690    70c5120c        addr        s_c:/doa2/bin/sy_voice.bin_0c12c570     ;= "c:/doa2/bin/sy_voice.bin"
+ram:0c139694    40e81108        addr        DAT_0811e840                            
+ram:0c139698    cca70300        ddw         3A7CCh                                  
+ram:0c13969c    8cc5120c        addr        s_c:/doa2/bin/voice_kl.bin_0c12c58c     ;= "c:/doa2/bin/voice_kl.bin"
+ram:0c1396a0    20901508        addr        DAT_08159020                            
+ram:0c1396a4    40da0700        ddw         7DA40h                                  
+ram:0c1396a8    a8c5120c        addr        s_c:/doa2/bin/voice_tn.bin_0c12c5a8     ;= "c:/doa2/bin/voice_tn.bin"
+ram:0c1396ac    606a1d08        addr        DAT_081d6a60                            
+ram:0c1396b0    d8c80400        ddw         4C8D8h                                  
+ram:0c1396b4    c4c5120c        addr        s_c:/doa2/bin/voice_lu.bin_0c12c5c4     ;= "c:/doa2/bin/voice_lu.bin"
+ram:0c1396b8    40332208        addr        DAT_08223340                            
+ram:0c1396bc    a0680700        ddw         768A0h                                  
+ram:0c1396c0    e0c5120c        addr        s_c:/doa2/bin/voice_kt.bin_0c12c5e0     ;= "c:/doa2/bin/voice_kt.bin"
+ram:0c1396c4    e09b2908        addr        DAT_08299be0                            
+ram:0c1396c8    40920400        ddw         49240h                                  
+ram:0c1396cc    fcc5120c        addr        s_c:/doa2/bin/voice_km.bin_0c12c5fc     ;= "c:/doa2/bin/voice_km.bin"
+ram:0c1396d0    202e2e08        addr        DAT_082e2e20                            
+ram:0c1396d4    7ccc0600        ddw         6CC7Ch                                  
+ram:0c1396d8    18c6120c        addr        s_c:/doa2/bin/voice_ks.bin_0c12c618     ;= "c:/doa2/bin/voice_ks.bin"
+ram:0c1396dc    a0fa3408        addr        DAT_0834faa0                            
+ram:0c1396e0    28800600        ddw         68028h                                  
+ram:0c1396e4    34c6120c        addr        s_c:/doa2/bin/voice_fa.bin_0c12c634     ;= "c:/doa2/bin/voice_fa.bin"
+ram:0c1396e8    e07a3b08        addr        DAT_083b7ae0                            
+ram:0c1396ec    40950600        ddw         69540h                                  
+ram:0c1396f0    50c6120c        addr        s_c:/doa2/bin/voice_hi.bin_0c12c650     ;= "c:/doa2/bin/voice_hi.bin"
+ram:0c1396f4    20104208        addr        DAT_08421020                            
+ram:0c1396f8    b8670500        ddw         567B8h                                  
+ram:0c1396fc    6cc6120c        addr        s_c:/doa2/bin/voice_gy.bin_0c12c66c     ;= "c:/doa2/bin/voice_gy.bin"
+ram:0c139700    e0774708        addr        DAT_084777e0                            
+ram:0c139704    1c0c0600        ddw         60C1Ch                                  
+ram:0c139708    88c6120c        addr        s_c:/doa2/bin/voice_ba.bin_0c12c688     ;= "c:/doa2/bin/voice_ba.bin"
+ram:0c13970c    00844d08        addr        DAT_084d8400                            
+ram:0c139710    089a0c00        ddw         C9A08h                                  
+ram:0c139714    a4c6120c        addr        s_c:/doa2/bin/voice_le.bin_0c12c6a4     ;= "c:/doa2/bin/voice_le.bin"
+ram:0c139718    201e5a08        addr        DAT_085a1e20                            
+ram:0c13971c    80450600        ddw         64580h                                  
+ram:0c139720    c0c6120c        addr        s_c:/doa2/bin/voice_ay.bin_0c12c6c0     ;= "c:/doa2/bin/voice_ay.bin"
+ram:0c139724    a0636008        addr        DAT_086063a0                            
+ram:0c139728    58cf0500        ddw         5CF58h                                  
+ram:0c13972c    dcc6120c        addr        s_c:/doa2/bin/voice_tg.bin_0c12c6dc     ;= "c:/doa2/bin/voice_tg.bin"
+ram:0c139730    00336608        addr        DAT_08663300                            
+ram:0c139734    24240c00        ddw         C2424h                                  
+ram:0c139738    f8c6120c        addr        s_c:/doa2/bin/aicadrv.bin_0c12c6f8      ;= "c:/doa2/bin/aicadrv.bin"
+ram:0c13973c    40577208        addr        DAT_08725740                            
+ram:0c139740    80df0000        ddw         DF80h                                   
+ram:0c139744    10c7120c        addr        s_c:/doa2/bin/le_sng.bin_0c12c710       ;= "c:/doa2/bin/le_sng.bin"
+ram:0c139748    c0367308        addr        DAT_087336c0                            
+ram:0c13974c    1cd80f00        ddw         FD81Ch                                  
+ram:0c139750    28c7120c        addr        s_c:/doa2/bin/gy_sng.bin_0c12c728       ;= "c:/doa2/bin/gy_sng.bin"
+ram:0c139754    e00e8308        addr        DAT_08830ee0                            
+ram:0c139758    a0bd1400        ddw         14BDA0h                                 
+ram:0c13975c    40c7120c        addr        s_c:/doa2/bin/fa_sng.bin_0c12c740       ;= "c:/doa2/bin/fa_sng.bin"
+ram:0c139760    80cc9708        addr        DAT_0897cc80                            
+ram:0c139764    743b1300        ddw         133B74h                                 
+ram:0c139768    58c7120c        addr        s_c:/doa2/bin/ba_sng.bin_0c12c758       ;= "c:/doa2/bin/ba_sng.bin"
+ram:0c13976c    0008ab08        addr        DAT_08ab0800                            
+ram:0c139770    e0721600        ddw         1672E0h                                 
+ram:0c139774    70c7120c        addr        s_c:/doa2/bin/kt_sng.bin_0c12c770       ;= "c:/doa2/bin/kt_sng.bin"
+ram:0c139778    e07ac108        addr        DAT_08c17ae0                            
+ram:0c13977c    d0ac1500        ddw         15ACD0h                                 
+ram:0c139780    88c7120c        addr        s_c:/doa2/bin/lu_sng.bin_0c12c788       ;= "c:/doa2/bin/lu_sng.bin"
+ram:0c139784    c027d708        addr        DAT_08d727c0                            
+ram:0c139788    a0c91500        ddw         15C9A0h                                 
+ram:0c13978c    a0c7120c        addr        s_c:/doa2/bin/km_sng.bin_0c12c7a0       ;= "c:/doa2/bin/km_sng.bin"
+ram:0c139790    60f1ec08        addr        DAT_08ecf160                            
+ram:0c139794    84ed1600        ddw         16ED84h                                 
+ram:0c139798    b8c7120c        addr        s_c:/doa2/bin/za_sng.bin_0c12c7b8       ;= "c:/doa2/bin/za_sng.bin"
+ram:0c13979c    00df0309        addr        DAT_0903df00                            
+ram:0c1397a0    88f71500        ddw         15F788h                                 
+ram:0c1397a4    d0c7120c        addr        s_c:/doa2/bin/tn_sng.bin_0c12c7d0       ;= "c:/doa2/bin/tn_sng.bin"
+ram:0c1397a8    a0d61909        addr        DAT_0919d6a0                            
+ram:0c1397ac    b87f1500        ddw         157FB8h                                 
+ram:0c1397b0    e8c7120c        addr        s_c:/doa2/bin/ay_sng.bin_0c12c7e8       ;= "c:/doa2/bin/ay_sng.bin"
+ram:0c1397b4    60562f09        addr        DAT_092f5660                            
+ram:0c1397b8    44ec1300        ddw         13EC44h                                 
+ram:0c1397bc    00c8120c        addr        s_c:/doa2/bin/hi_sng.bin_0c12c800       ;= "c:/doa2/bin/hi_sng.bin"
+ram:0c1397c0    c0424309        addr        DAT_094342c0                            
+ram:0c1397c4    ec801400        ddw         1480ECh                                 
+ram:0c1397c8    18c8120c        addr        s_c:/doa2/bin/ks_sng.bin_0c12c818       ;= "c:/doa2/bin/ks_sng.bin"
+ram:0c1397cc    c0c35709        addr        DAT_0957c3c0                            
+ram:0c1397d0    6ce91600        ddw         16E96Ch                                 
+ram:0c1397d4    30c8120c        addr        s_c:/doa2/bin/tg_sng.bin_0c12c830       ;= "c:/doa2/bin/tg_sng.bin"
+ram:0c1397d8    40ad6e09        addr        DAT_096ead40                            
+ram:0c1397dc    4c801300        ddw         13804Ch                                 
+ram:0c1397e0    48c8120c        addr        s_c:/doa2/bin/opn_sng.bin_0c12c848      ;= "c:/doa2/bin/opn_sng.bin"
+ram:0c1397e4    a02d8209        addr        DAT_09822da0                            
+ram:0c1397e8    48e21600        ddw         16E248h                                 
+ram:0c1397ec    60c8120c        addr        s_c:/doa2/bin/kl_clr.bin_0c12c860       ;= "c:/doa2/bin/kl_clr.bin"
+ram:0c1397f0    00109909        addr        DAT_09991000                            
+ram:0c1397f4    14a20700        ddw         7A214h                                  
+ram:0c1397f8    78c8120c        addr        s_c:/doa2/bin/le_clr.bin_0c12c878       ;= "c:/doa2/bin/le_clr.bin"
+ram:0c1397fc    20b2a009        addr        DAT_09a0b220                            
+ram:0c139800    4cd60e00        ddw         ED64Ch                                  
+ram:0c139804    90c8120c        addr        s_c:/doa2/bin/lu_clr.bin_0c12c890       ;= "c:/doa2/bin/lu_clr.bin"
+ram:0c139808    8088af09        addr        DAT_09af8880                            
+ram:0c13980c    28351000        ddw         103528h                                 
+ram:0c139810    a8c8120c        addr        s_c:/doa2/bin/sel_sng.bin_0c12c8a8      ;= "c:/doa2/bin/sel_sng.bin"
+ram:0c139814    c0bdbf09        addr        DAT_09bfbdc0                            
+ram:0c139818    88e10a00        ddw         AE188h                                  
+ram:0c13981c    c0c8120c        addr        s_c:/doa2/bin/end_sng.bin_0c12c8c0      ;= "c:/doa2/bin/end_sng.bin"
+ram:0c139820    609fca09        addr        DAT_09ca9f60                            
+ram:0c139824    20d01600        ddw         16D020h                                 
+ram:0c139828    d8c8120c        addr        s_c:/doa2/bin/ne_sng.bin_0c12c8d8       ;= "c:/doa2/bin/ne_sng.bin"
+ram:0c13982c    806fe109        addr        DAT_09e16f80                            
+ram:0c139830    8cd61300        ddw         13D68Ch                                 
+ram:0c139834    f0c8120c        addr        s_c:/doa2/bin/ay_c1.bin_0c12c8f0        ;= "c:/doa2/bin/ay_c1.bin"
+ram:0c139838    2046f509        addr        DAT_09f54620                            
+ram:0c13983c    f09f0000        ddw         9FF0h                                   
+ram:0c139840    08c9120c        addr        s_c:/doa2/bin/ay_c2.bin_0c12c908        ;= "c:/doa2/bin/ay_c2.bin"
+ram:0c139844    20e6f509        addr        DAT_09f5e620                            
+ram:0c139848    fc5a0000        ddw         5AFCh                                   
+ram:0c13984c    20c9120c        addr        s_c:/doa2/bin/ay_c3.bin_0c12c920        ;= "c:/doa2/bin/ay_c3.bin"
+ram:0c139850    2041f609        addr        DAT_09f64120                            
+ram:0c139854    10da0500        ddw         5DA10h                                  
+ram:0c139858    38c9120c        addr        s_c:/doa2/bin/ay_end.bin_0c12c938       ;= "c:/doa2/bin/ay_end.bin"
+ram:0c13985c    401bfc09        addr        DAT_09fc1b40                            
+ram:0c139860    207a0300        ddw         37A20h                                  
+ram:0c139864    50c9120c        addr        s_c:/doa2/bin/ba_c1.bin_0c12c950        ;= "c:/doa2/bin/ba_c1.bin"
+ram:0c139868    6095ff09        addr        DAT_09ff9560                            
+ram:0c13986c    20920300        ddw         39220h                                  
+ram:0c139870    68c9120c        addr        s_c:/doa2/bin/ba_c2.bin_0c12c968        ;= "c:/doa2/bin/ba_c2.bin"
+ram:0c139874    8027030a        addr        DAT_0a032780                            
+ram:0c139878    1cd40100        ddw         1D41Ch                                  
+ram:0c13987c    80c9120c        addr        s_c:/doa2/bin/ba_end.bin_0c12c980       ;= "c:/doa2/bin/ba_end.bin"
+ram:0c139880    a0fb040a        addr        DAT_0a04fba0                            
+ram:0c139884    d0750100        ddw         175D0h                                  
+ram:0c139888    98c9120c        addr        s_c:/doa2/bin/ba_end2.bin_0c12c998      ;= "c:/doa2/bin/ba_end2.bin"
+ram:0c13988c    8071060a        addr        DAT_0a067180                            
+ram:0c139890    d4d90300        ddw         3D9D4h                                  
+ram:0c139894    b0c9120c        addr        s_c:/doa2/bin/fa_c1.bin_0c12c9b0        ;= "c:/doa2/bin/fa_c1.bin"
+ram:0c139898    604b0a0a        addr        DAT_0a0a4b60                            
+ram:0c13989c    c4920100        ddw         192C4h                                  
+ram:0c1398a0    c8c9120c        addr        s_c:/doa2/bin/fa_end.bin_0c12c9c8       ;= "c:/doa2/bin/fa_end.bin"
+ram:0c1398a4    40de0b0a        addr        DAT_0a0bde40                            
+ram:0c1398a8    48880200        ddw         28848h                                  
+ram:0c1398ac    e0c9120c        addr        s_c:/doa2/bin/gy_c1.bin_0c12c9e0        ;= "c:/doa2/bin/gy_c1.bin"
+ram:0c1398b0    a0660e0a        addr        DAT_0a0e66a0                            
+ram:0c1398b4    78610300        ddw         36178h                                  
+ram:0c1398b8    f8c9120c        addr        s_c:/doa2/bin/gy_end.bin_0c12c9f8       ;= "c:/doa2/bin/gy_end.bin"
+ram:0c1398bc    20c8110a        addr        DAT_0a11c820                            
+ram:0c1398c0    c8b50100        ddw         1B5C8h                                  
+ram:0c1398c4    10ca120c        addr        s_c:/doa2/bin/hi_c1.bin_0c12ca10        ;= "c:/doa2/bin/hi_c1.bin"
+ram:0c1398c8    007e130a        addr        DAT_0a137e00                            
+ram:0c1398cc    f4d40300        ddw         3D4F4h                                  
+ram:0c1398d0    28ca120c        addr        s_c:/doa2/bin/hi_c2.bin_0c12ca28        ;= "c:/doa2/bin/hi_c2.bin"
+ram:0c1398d4    0053170a        addr        DAT_0a175300                            
+ram:0c1398d8    18e20200        ddw         2E218h                                  
+ram:0c1398dc    40ca120c        addr        s_c:/doa2/bin/hi_c3.bin_0c12ca40        ;= "c:/doa2/bin/hi_c3.bin"
+ram:0c1398e0    20351a0a        addr        DAT_0a1a3520                            
+ram:0c1398e4    dc870100        ddw         187DCh                                  
+ram:0c1398e8    58ca120c        addr        s_c:/doa2/bin/hi_c4.bin_0c12ca58        ;= "c:/doa2/bin/hi_c4.bin"
+ram:0c1398ec    00bd1b0a        addr        DAT_0a1bbd00                            
+ram:0c1398f0    ecb20200        ddw         2B2ECh                                  
+ram:0c1398f4    70ca120c        addr        s_c:/doa2/bin/hi_c5.bin_0c12ca70        ;= "c:/doa2/bin/hi_c5.bin"
+ram:0c1398f8    00701e0a        addr        DAT_0a1e7000                            
+ram:0c1398fc    1c810000        ddw         811Ch                                   
+ram:0c139900    88ca120c        addr        s_c:/doa2/bin/hi_end.bin_0c12ca88       ;= "c:/doa2/bin/hi_end.bin"
+ram:0c139904    20f11e0a        addr        DAT_0a1ef120                            
+ram:0c139908    406c0000        ddw         6C40h                                   
+ram:0c13990c    a0ca120c        addr        s_c:/doa2/bin/kl_c1.bin_0c12caa0        ;= "c:/doa2/bin/kl_c1.bin"
+ram:0c139910    605d1f0a        addr        DAT_0a1f5d60                            
+ram:0c139914    f4250200        ddw         225F4h                                  
+ram:0c139918    b8ca120c        addr        s_c:/doa2/bin/kl_c2.bin_0c12cab8        ;= "c:/doa2/bin/kl_c2.bin"
+ram:0c13991c    6083210a        addr        DAT_0a218360                            
+ram:0c139920    e4fa0100        ddw         1FAE4h                                  
+ram:0c139924    d0ca120c        addr        s_c:/doa2/bin/kl_end.bin_0c12cad0       ;= "c:/doa2/bin/kl_end.bin"
+ram:0c139928    607e230a        addr        DAT_0a237e60                            
+ram:0c13992c    bc430100        ddw         143BCh                                  
+ram:0c139930    e8ca120c        addr        s_c:/doa2/bin/km_c1.bin_0c12cae8        ;= "c:/doa2/bin/km_c1.bin"
+ram:0c139934    20c2240a        addr        DAT_0a24c220                            
+ram:0c139938    705b0600        ddw         65B70h                                  
+ram:0c13993c    00cb120c        addr        s_c:/doa2/bin/km_c2.bin_0c12cb00        ;= "c:/doa2/bin/km_c2.bin"
+ram:0c139940    a01d2b0a        addr        DAT_0a2b1da0                            
+ram:0c139944    08ca0400        ddw         4CA08h                                  
+ram:0c139948    18cb120c        addr        s_c:/doa2/bin/km_end.bin_0c12cb18       ;= "c:/doa2/bin/km_end.bin"
+ram:0c13994c    c0e72f0a        addr        DAT_0a2fe7c0                            
+ram:0c139950    cc330400        ddw         433CCh                                  
+ram:0c139954    30cb120c        addr        s_c:/doa2/bin/ks_c1.bin_0c12cb30        ;= "c:/doa2/bin/ks_c1.bin"
+ram:0c139958    a01b340a        addr        DAT_0a341ba0                            
+ram:0c13995c    5c160800        ddw         8165Ch                                  
+ram:0c139960    48cb120c        addr        s_c:/doa2/bin/ks_c2.bin_0c12cb48        ;= "c:/doa2/bin/ks_c2.bin"
+ram:0c139964    00323c0a        addr        DAT_0a3c3200                            
+ram:0c139968    bcb80200        ddw         2B8BCh                                  
+ram:0c13996c    60cb120c        addr        s_c:/doa2/bin/ks_c3.bin_0c12cb60        ;= "c:/doa2/bin/ks_c3.bin"
+ram:0c139970    c0ea3e0a        addr        DAT_0a3eeac0                            
+ram:0c139974    0c460200        ddw         2460Ch                                  
+ram:0c139978    78cb120c        addr        s_c:/doa2/bin/ks_c4.bin_0c12cb78        ;= "c:/doa2/bin/ks_c4.bin"
+ram:0c13997c    e030410a        addr        DAT_0a4130e0                            
+ram:0c139980    d87f0100        ddw         17FD8h                                  
+ram:0c139984    90cb120c        addr        s_c:/doa2/bin/ks_end.bin_0c12cb90       ;= "c:/doa2/bin/ks_end.bin"
+ram:0c139988    c0b0420a        addr        DAT_0a42b0c0                            
+ram:0c13998c    40a00200        ddw         2A040h                                  
+ram:0c139990    a8cb120c        addr        s_c:/doa2/bin/kt_c1.bin_0c12cba8        ;= "c:/doa2/bin/kt_c1.bin"
+ram:0c139994    0051450a        addr        DAT_0a455100                            
+ram:0c139998    88680000        ddw         6888h                                   
+ram:0c13999c    c0cb120c        addr        s_c:/doa2/bin/kt_end.bin_0c12cbc0       ;= "c:/doa2/bin/kt_end.bin"
+ram:0c1399a0    a0b9450a        addr        DAT_0a45b9a0                            
+ram:0c1399a4    b44b0200        ddw         24BB4h                                  
+ram:0c1399a8    d8cb120c        addr        s_c:/doa2/bin/le_c2.bin_0c12cbd8        ;= "c:/doa2/bin/le_c2.bin"
+ram:0c1399ac    6005480a        addr        DAT_0a480560                            
+ram:0c1399b0    b0490100        ddw         149B0h                                  
+ram:0c1399b4    f0cb120c        addr        s_c:/doa2/bin/lu_end.bin_0c12cbf0       ;= "c:/doa2/bin/lu_end.bin"
+ram:0c1399b8    204f490a        addr        DAT_0a494f20                            
+ram:0c1399bc    18770200        ddw         27718h                                  
+ram:0c1399c0    08cc120c        addr        s_c:/doa2/bin/tg_c123.bin_0c12cc08      ;= "c:/doa2/bin/tg_c123.bin"
+ram:0c1399c4    40c64b0a        addr        DAT_0a4bc640                            
+ram:0c1399c8    88730800        ddw         87388h                                  
+ram:0c1399cc    20cc120c        addr        s_c:/doa2/bin/tn_c1.bin_0c12cc20        ;= "c:/doa2/bin/tn_c1.bin"
+ram:0c1399d0    e039540a        addr        DAT_0a5439e0                            
+ram:0c1399d4    040d0200        ddw         20D04h                                  
+ram:0c1399d8    38cc120c        addr        s_c:/doa2/bin/ay_vskt.bin_0c12cc38      ;= "c:/doa2/bin/ay_vskt.bin"
+ram:0c1399dc    0047560a        addr        DAT_0a564700                            
+ram:0c1399e0    287e0000        ddw         7E28h                                   
+ram:0c1399e4    50cc120c        addr        s_c:/doa2/bin/km_vsks.bin_0c12cc50      ;= "c:/doa2/bin/km_vsks.bin"
+ram:0c1399e8    40c5560a        addr        DAT_0a56c540                            
+ram:0c1399ec    d0810000        ddw         81D0h                                   
+ram:0c1399f0    68cc120c        addr        s_c:/doa2/bin/km_vskt.bin_0c12cc68      ;= "c:/doa2/bin/km_vskt.bin"
+ram:0c1399f4    2047570a        addr        DAT_0a574720                            
+ram:0c1399f8    04a30000        ddw         A304h                                   
+ram:0c1399fc    80cc120c        addr        s_c:/doa2/bin/bgm_01.bin_0c12cc80       ;= "c:/doa2/bin/bgm_01.bin"
+ram:0c139a00    40ea570a        addr        DAT_0a57ea40                            
+ram:0c139a04    a0730c00        ddw         C73A0h                                  
+ram:0c139a08    98cc120c        addr        s_c:/doa2/bin/hi_uta.bin_0c12cc98       ;= "c:/doa2/bin/hi_uta.bin"
+ram:0c139a0c    e05d640a        addr        DAT_0a645de0                            
+ram:0c139a10    60e60a00        ddw         AE660h                                  
+ram:0c139a14    b0cc120c        addr        s_c:/doa2/bin/tg_mai.bin_0c12ccb0       ;= "c:/doa2/bin/tg_mai.bin"
+ram:0c139a18    40446f0a        addr        DAT_0a6f4440                            
+ram:0c139a1c    a8eb0600        ddw         6EBA8h                                  
+ram:0c139a20    c8cc120c        addr        s_c:/doa2/bin/ba_ms.bin_0c12ccc8        ;= "c:/doa2/bin/ba_ms.bin"
+ram:0c139a24    0030760a        addr        DAT_0a763000                            
+ram:0c139a28    5c260e00        ddw         E265Ch                                  
+ram:0c139a2c    e0cc120c        addr        s_c:/doa2/bin/dangset.bin_0c12cce0      ;= "c:/doa2/bin/dangset.bin"
+ram:0c139a30    6056840a        addr        DAT_0a845660                            
+ram:0c139a34    14100500        ddw         51014h                                  
+ram:0c139a38    f8cc120c        addr        s_c:/doa2/bin/water.bin_0c12ccf8        ;= "c:/doa2/bin/water.bin"
+ram:0c139a3c    8066890a        addr        DAT_0a896680                            
+ram:0c139a40    44cf0100        ddw         1CF44h                                  
+ram:0c139a44    10cd120c        addr        s_c:/doa2/bin/brrizard.bin_0c12cd10     ;= "c:/doa2/bin/brrizard.bin"
+ram:0c139a48    e0358b0a        addr        DAT_0a8b35e0                            
+ram:0c139a4c    e0710200        ddw         271E0h                                  
+ram:0c139a50    2ccd120c        addr        s_c:/doa2/dat/efc/efc0/efc0.chr_0c12cd2c;= "c:/doa2/dat/efc/efc0/efc0.chr"
+ram:0c139a54    c0a78d0a        addr        DAT_0a8da7c0                            
+ram:0c139a58    24190400        ddw         41924h                                  
+ram:0c139a5c    4ccd120c        addr        s_c:/doa2/dat/efc/efc0/efc0.bin_0c12cd4c;= "c:/doa2/dat/efc/efc0/efc0.bin"
+ram:0c139a60    00c1910a        addr        DAT_0a91c100                            
+ram:0c139a64    a0fe0f00        ddw         FFEA0h                                  
+ram:0c139a68    6ccd120c        addr        s_c:/doa2/dat/efc/fix/fix.chr_0c12cd6c  ;= "c:/doa2/dat/efc/fix/fix.chr"
+ram:0c139a6c    a0bfa10a        addr        DAT_0aa1bfa0                            
+ram:0c139a70    3c5f0000        ddw         5F3Ch                                   
+ram:0c139a74    88cd120c        addr        s_c:/doa2/dat/efc/fix/fix.bin_0c12cd88  ;= "c:/doa2/dat/efc/fix/fix.bin"
+ram:0c139a78    e01ea20a        addr        DAT_0aa21ee0                            
+ram:0c139a7c    80400000        ddw         4080h                                   
+ram:0c139a80    a4cd120c        addr        s_c:/doa2/dat/sprite/base/sprite.b_0c...;= "c:/doa2/dat/sprite/base/sprite.bin"
+ram:0c139a84    605fa20a        addr        DAT_0aa25f60                            
+ram:0c139a88    80450500        ddw         54580h                                  
+ram:0c139a8c    c8cd120c        addr        s_c:/doa2/dat/sprite/demo/sprite.b_0c...;= "c:/doa2/dat/sprite/demo/sprite.bin"
+ram:0c139a90    e0a4a70a        addr        DAT_0aa7a4e0                            
+ram:0c139a94    00c00800        ddw         8C000h                                  
+ram:0c139a98    eccd120c        addr        s_c:/doa2/dat/sprite/game/sprite.b_0c...;= "c:/doa2/dat/sprite/game/sprite.bin"
+ram:0c139a9c    e064b00a        addr        DAT_0ab064e0                            
+ram:0c139aa0    000e1000        ddw         100E00h                                 
+ram:0c139aa4    10ce120c        addr        s_c:/doa2/dat/sprite/ending/sprite_0c...;= "c:/doa2/dat/sprite/ending/sprite....
+ram:0c139aa8    e072c00a        addr        DAT_0ac072e0                            
+ram:0c139aac    00000c00        ddw         C0000h                                  
+ram:0c139ab0    38ce120c        addr        s_c:/doa2/dat/sprite/select/sel_sp_0c...;= "c:/doa2/dat/sprite/select/sel_spr...
+ram:0c139ab4    e072cc0a        addr        DAT_0acc72e0                            
+ram:0c139ab8    80e80e00        ddw         EE880h                                  
+ram:0c139abc    60ce120c        addr        s_c:/doa2/dat/sprite/test/test_spr_0c...;= "c:/doa2/dat/sprite/test/test_spr....
+ram:0c139ac0    605bdb0a        addr        DAT_0adb5b60                            
+ram:0c139ac4    00231200        ddw         122300h                                 
+ram:0c139ac8    88ce120c        addr        s_c:/doa2/dat/sprite/movie_tg/spri_0c...;= "c:/doa2/dat/sprite/movie_tg/sprit...
+ram:0c139acc    607eed0a        addr        DAT_0aed7e60                            
+ram:0c139ad0    00500100        ddw         15000h                                  
+ram:0c139ad4    b0ce120c        addr        s_c:/doa2/dat/sprite/movie_hi/spri_0c...;= "c:/doa2/dat/sprite/movie_hi/sprit...
+ram:0c139ad8    60ceee0a        addr        DAT_0aeece60                            
+ram:0c139adc    00c00000        ddw         C000h                                   
+ram:0c139ae0    d8ce120c        addr        s_c:/doa2/dat/sprite/prof_j/sprite_0c...;= "c:/doa2/dat/sprite/prof_j/sprite....
+ram:0c139ae4    608eef0a        addr        DAT_0aef8e60                            
+ram:0c139ae8    00000600        ddw         60000h                                  
+ram:0c139aec    00cf120c        addr        s_c:/doa2/dat/sprite/prof_e/sprite_0c...;= "c:/doa2/dat/sprite/prof_e/sprite....
+ram:0c139af0    608ef50a        addr        DAT_0af58e60                            
+ram:0c139af4    00000600        ddw         60000h                                  
