@@ -7,7 +7,7 @@
 |	5	|	龍麗華	|	Ryuhen Hua	|	F	|	バランス系	|	Balanced	|	中国拳法	|	Chinese Kenpō	|
 |	6	|	カスミ	|	Kasumi	|	F	|	関節系	|	Joint-Based	|	忍術	|	Ninjutsu	|
 |	7	|	ボブ	|	Bob	|	M	|	投げ系	|	Throw-Based	|	空手	|	Karate	|
-|	8	|	ルー	|	Lugh	|	M	|	打撃系	|	Strike-Based	|	カンフー	|	Kung Fu	|
+|	8	|	ルー	|	Lou	|	M	|	打撃系	|	Strike-Based	|	カンフー	|	Kung Fu	|
 |	9	|	カラス	|	Karasu (Crow)	|	M	|	打撃系	|	Strike-Based	|	忍術	|	Ninjutsu	|
 |	10	|	グレーシー	|	Gracie	|	M	|	バランス系	|	Balanced	|	総合格闘技	|	MMA	|
 |	11	|	五右衛門	|	Goemon	|	M	|	打撃系	|	Strike-Based	|	棒術	|	Bojutsu Stick Technique	|
