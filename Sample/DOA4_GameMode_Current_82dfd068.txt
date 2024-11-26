@@ -1,0 +1,11 @@
+0 Mode Select
+1 Single/Tag Select
+2 ?? 
+3 Player Entry 
+4 Character Select
+5 Stage Select
+6 Settings
+7 Warning Screen
+8 Set Video Gamma Value
+9 Controller Settings
+10 Ranking
