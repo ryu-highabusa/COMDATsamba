@@ -5819,6 +5819,301 @@
       <VariableType>Byte</VariableType>
       <Address>1832100E6</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>811</ID>
+      <Description>"game_mode maybe????????"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>183056081</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>812</ID>
+      <Description>"game_mode maybe????????"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>183056091</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>813</ID>
+      <Description>"game_mode maybe????????"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830560B9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>814</ID>
+      <Description>"GameMode_Current_830f7ba0"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7BA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>820</ID>
+      <Description>""</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7BA1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>821</ID>
+      <Description>"GameMode_Next_830f7ba2"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7BA2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>822</ID>
+      <Description>""</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7BA3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>818</ID>
+      <Description>"GameMode_ResetFlag_830f7c38"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830f7c38</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>815</ID>
+      <Description>"DAT_830f7be4"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830f7be4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>816</ID>
+      <Description>"DAT_830f7be8"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7BE8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>817</ID>
+      <Description>"DAT_830f7bec"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7BEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>819</ID>
+      <Description>"game mode queue? "</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7BA2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>826</ID>
+      <Description>"DWORD_830f7bb0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830f7bb0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>823</ID>
+      <Description>"DWORD_830f7bb4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7BB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>827</ID>
+      <Description>"DWORD_830f7bb8"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7BB8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>828</ID>
+      <Description>"DWORD_830f7bb8"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830F7BBC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>824</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7C14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>825</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1830F7C1B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>829</ID>
+      <Description>"TeamBattleQueue_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>7</ByteLength>
+      <Address>1830EF630</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>830</ID>
+      <Description>"TeamBattleSize_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EF834</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>831</ID>
+      <Description>"TeamBattleSize_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EF8C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>832</ID>
+      <Description>"Input_P2_83022d64"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022d64</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>833</ID>
+      <Description>"Input_P2_83022d68"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022D68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>834</ID>
+      <Description>"Input_P1_83022d90"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022d90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>835</ID>
+      <Description>"Input_P1_83022d94"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022D94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>836</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>183022E24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>837</ID>
+      <Description>"Input_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022d38</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>838</ID>
+      <Description>"Input_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022d3c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>839</ID>
+      <Description>"DAT_830a9480"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830a9480</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>840</ID>
+      <Description>"Input_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ed798</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>841</ID>
+      <Description>"Input_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ED79C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>842</ID>
+      <Description>"DAT_830a5278"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a5278</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>843</ID>
+      <Description>"DAT_830a5278"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A5279</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>844</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1830200F0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>845</ID>
+      <Description>"XPOS_P1_8302018c"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>18302018c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>846</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1830200f8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>847</ID>
+      <Description>"No description P1?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EF6A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>848</ID>
+      <Description>"No description P2?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ef6c8</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
