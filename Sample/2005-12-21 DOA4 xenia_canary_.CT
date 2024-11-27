@@ -2,6 +2,14 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
+      <ID>810</ID>
+      <Description>"Memory Scan Start 82000400 , Stop 8369d0af"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>182000400</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>0</ID>
       <Description>"Player_1"</Description>
       <ShowAsHex>1</ShowAsHex>
