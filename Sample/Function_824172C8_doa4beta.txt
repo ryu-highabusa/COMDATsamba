@@ -1,0 +1,303 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined Function_824172C8()
+             undefined         r3:1           <RETURN>
+                             Function_824172C8                               XREF[2]:     82271eb0(*), 
+                                                                                          Function_8241A5B0:8241a5d8(c)  
+        824172c8 7d 88 02 a6     mfspr      r12,LR
+        824172cc 48 3a a6 59     bl         FUN_827c1924                                     undefined FUN_827c1924()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        824172d0 94 21 ff 80     stwu       r1,-0x80(r1)
+        824172d4 3d 60 82 e0     lis        r11,-0x7d20
+        824172d8 3b 80 00 00     li         r28,0x0
+        824172dc 3b eb d0 68     subi       r31,r11,0x2f98
+        824172e0 3b 60 00 00     li         r27,0x0
+        824172e4 89 7f 00 00     lbz        r11,0x0(r31)=>GameMode_Current_82dfd068
+        824172e8 7d 6b 07 74     extsb      r11,r11
+        824172ec 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        824172f0 41 98 03 d4     blt        cr6,LAB_824176c4
+        824172f4 81 5f 00 88     lwz        r10,0x88(r31)=>DWORD_82dfd0f0
+        824172f8 39 4a ff ff     subi       r10,r10,0x1
+        824172fc 7d 48 07 74     extsb      r8,r10
+        82417300 7f 0b 40 00     cmpw       cr6,r11,r8
+        82417304 41 99 03 c0     bgt        cr6,LAB_824176c4
+        82417308 55 69 18 38     rlwinm     r9,r11,0x3,0x0,0x1c
+        8241730c 81 5f 00 98     lwz        r10,0x98(r31)=>DAT_82dfd100
+        82417310 7c eb 4a 14     add        r7,r11,r9
+        82417314 81 7f 00 44     lwz        r11,0x44(r31)=>PTR_82dfd0ac                      = 00000000
+        82417318 2f 0a 00 00     cmpwi      cr6,r10,0x0
+        8241731c 54 ea 10 3a     rlwinm     r10,r7,0x2,0x0,0x1d
+        82417320 7f aa 5a 14     add        r29,r10,r11
+        82417324 41 9a 00 14     beq        cr6,LAB_82417338
+        82417328 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        8241732c 4b ff f8 9d     bl         Function_82416BC8                                undefined Function_82416BC8()
+        82417330 39 60 00 00     li         r11,0x0
+        82417334 91 7f 00 98     stw        r11,0x98(r31)=>DAT_82dfd100
+                             LAB_82417338                                    XREF[1]:     82417324(j)  
+        82417338 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        8241733c 83 df 00 28     lwz        r30,0x28(r31)=>DAT_82dfd090
+        82417340 4b ff fe 61     bl         FUN_824171a0                                     undefined FUN_824171a0()
+        82417344 80 dd 00 04     lwz        r6,0x4(r29)
+        82417348 80 9d 00 20     lwz        r4,0x20(r29)
+        8241734c 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        82417350 7c c9 03 a6     mtspr      CTR,r6
+        82417354 4e 80 04 21     bctrl
+        82417358 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        8241735c 4b ff fe 45     bl         FUN_824171a0                                     undefined FUN_824171a0()
+        82417360 81 7f 00 28     lwz        r11,0x28(r31)=>DAT_82dfd090
+        82417364 93 df 00 2c     stw        r30,0x2c(r31)=>DAT_82dfd094
+        82417368 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8241736c 41 9a 02 ec     beq        cr6,LAB_82417658
+        82417370 2f 0b 00 02     cmpwi      cr6,r11,0x2
+        82417374 41 9a 00 f0     beq        cr6,LAB_82417464
+        82417378 2f 0b 00 03     cmpwi      cr6,r11,0x3
+        8241737c 40 9a 03 30     bne        cr6,LAB_824176ac
+        82417380 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        82417384 4b ff f5 05     bl         Function_82416888                                undefined Function_82416888()
+        82417388 2f 03 00 00     cmpwi      cr6,r3,0x0
+        8241738c 41 9a 03 20     beq        cr6,LAB_824176ac
+        82417390 39 60 00 01     li         r11,0x1
+        82417394 91 7f 00 1c     stw        r11,0x1c(r31)=>DAT_82dfd084
+        82417398 81 7f 00 48     lwz        r11,0x48(r31)=>PTR_82dfd0b0                      = 00000000
+        8241739c 81 4b 00 10     lwz        r10,0x10(r11)
+        824173a0 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        824173a4 41 9a 00 14     beq        cr6,LAB_824173b8
+        824173a8 80 8b 00 20     lwz        r4,0x20(r11)
+        824173ac 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        824173b0 7d 49 03 a6     mtspr      CTR,r10
+        824173b4 4e 80 04 21     bctrl
+                             LAB_824173b8                                    XREF[1]:     824173a4(j)  
+        824173b8 81 7d 00 10     lwz        r11,0x10(r29)
+        824173bc 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        824173c0 41 9a 00 14     beq        cr6,LAB_824173d4
+        824173c4 80 9d 00 20     lwz        r4,0x20(r29)
+        824173c8 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        824173cc 7d 69 03 a6     mtspr      CTR,r11
+        824173d0 4e 80 04 21     bctrl
+                             LAB_824173d4                                    XREF[1]:     824173c0(j)  
+        824173d4 39 60 00 00     li         r11,0x0
+        824173d8 91 7f 00 1c     stw        r11,0x1c(r31)=>DAT_82dfd084
+        824173dc 80 bf 00 24     lwz        r5,0x24(r31)=>DAT_82dfd08c
+        824173e0 2f 05 ff ff     cmpwi      cr6,r5,-0x1
+        824173e4 41 9a 00 08     beq        cr6,LAB_824173ec
+        824173e8 3b 60 00 01     li         r27,0x1
+                             LAB_824173ec                                    XREF[1]:     824173e4(j)  
+        824173ec 81 7f 00 14     lwz        r11,0x14(r31)=>DAT_82dfd07c
+        824173f0 81 5f 00 10     lwz        r10,0x10(r31)=>DWORD_82dfd078
+        824173f4 7d 6b 50 50     subf       r11,r11,r10
+        824173f8 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        824173fc 91 7f 00 10     stw        r11,0x10(r31)=>DWORD_82dfd078
+        82417400 40 98 00 10     bge        cr6,LAB_82417410
+        82417404 39 60 00 00     li         r11,0x0
+        82417408 3b 60 00 01     li         r27,0x1
+        8241740c 91 7f 00 10     stw        r11,0x10(r31)=>DWORD_82dfd078
+                             LAB_82417410                                    XREF[1]:     82417400(j)  
+        82417410 89 5f 00 00     lbz        r10,0x0(r31)=>GameMode_Current_82dfd068
+        82417414 38 9f 00 03     addi       r4=>BYTE_82dfd06b,r31,0x3
+        82417418 99 5f 00 01     stb        r10,0x1(r31)=>DAT_82dfd069
+        8241741c 81 5f 00 7c     lwz        r10,0x7c(r31)=>DAT_82dfd0e4
+        82417420 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        82417424 7d 4b 20 ae     lbzx       r10,r11,r4=>BYTE_82dfd06b
+        82417428 99 5f 00 00     stb        r10,0x0(r31)=>GameMode_Current_82dfd068
+        8241742c 41 9a 00 18     beq        cr6,LAB_82417444
+        82417430 81 7f 00 7c     lwz        r11,0x7c(r31)=>DAT_82dfd0e4
+        82417434 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        82417438 7d 69 03 a6     mtspr      CTR,r11
+        8241743c 4e 80 04 21     bctrl
+        82417440 81 7f 00 10     lwz        r11,0x10(r31)=>DWORD_82dfd078
+                             LAB_82417444                                    XREF[1]:     8241742c(j)  
+        82417444 39 40 ff ff     li         r10,-0x1
+        82417448 2f 1b 00 00     cmpwi      cr6,r27,0x0
+        8241744c 99 5f 00 02     stb        r10,0x2(r31)=>BYTE_82dfd06a
+        82417450 40 9a 02 2c     bne        cr6,LAB_8241767c
+        82417454 81 5f 00 24     lwz        r10,0x24(r31)=>DAT_82dfd08c
+        82417458 2f 0a ff ff     cmpwi      cr6,r10,-0x1
+        8241745c 40 9a 02 50     bne        cr6,LAB_824176ac
+        82417460 48 00 01 74     b          LAB_824175d4
+                             LAB_82417464                                    XREF[1]:     82417374(j)  
+        82417464 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        82417468 4b ff f4 21     bl         Function_82416888                                undefined Function_82416888()
+        8241746c 2f 03 00 00     cmpwi      cr6,r3,0x0
+        82417470 41 9a 02 3c     beq        cr6,LAB_824176ac
+        82417474 39 60 00 01     li         r11,0x1
+        82417478 91 7f 00 1c     stw        r11,0x1c(r31)=>DAT_82dfd084
+        8241747c 81 7f 00 48     lwz        r11,0x48(r31)=>PTR_82dfd0b0                      = 00000000
+        82417480 81 4b 00 1c     lwz        r10,0x1c(r11)
+        82417484 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        82417488 41 9a 00 14     beq        cr6,LAB_8241749c
+        8241748c 80 8b 00 20     lwz        r4,0x20(r11)
+        82417490 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        82417494 7d 49 03 a6     mtspr      CTR,r10
+        82417498 4e 80 04 21     bctrl
+                             LAB_8241749c                                    XREF[1]:     82417488(j)  
+        8241749c 81 7d 00 1c     lwz        r11,0x1c(r29)
+        824174a0 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        824174a4 41 9a 00 14     beq        cr6,LAB_824174b8
+        824174a8 80 9d 00 20     lwz        r4,0x20(r29)
+        824174ac 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        824174b0 7d 69 03 a6     mtspr      CTR,r11
+        824174b4 4e 80 04 21     bctrl
+                             LAB_824174b8                                    XREF[1]:     824174a4(j)  
+        824174b8 39 60 00 00     li         r11,0x0
+        824174bc 3b a0 00 00     li         r29,0x0
+        824174c0 91 7f 00 1c     stw        r11,0x1c(r31)=>DAT_82dfd084
+        824174c4 81 5f 00 8c     lwz        r10,0x8c(r31)=>DAT_82dfd0f4
+        824174c8 2f 0a 00 00     cmpwi      cr6,r10,0x0
+        824174cc 40 99 00 50     ble        cr6,LAB_8241751c
+        824174d0 81 7f 00 80     lwz        r11,0x80(r31)=>DAT_82dfd0e8
+        824174d4 3b c0 00 00     li         r30,0x0
+                             LAB_824174d8                                    XREF[1]:     82417518(j)  
+        824174d8 7d 3e 58 ae     lbzx       r9,r30,r11
+        824174dc 89 1f 00 02     lbz        r8,0x2(r31)=>BYTE_82dfd06a
+        824174e0 7d 26 07 74     extsb      r6,r9
+        824174e4 7d 07 07 74     extsb      r7,r8
+        824174e8 7f 07 30 00     cmpw       cr6,r7,r6
+        824174ec 40 9a 00 20     bne        cr6,LAB_8241750c
+        824174f0 7c be 5a 14     add        r5,r30,r11
+        824174f4 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        824174f8 80 85 00 04     lwz        r4,0x4(r5)
+        824174fc 7c 89 03 a6     mtspr      CTR,r4
+        82417500 4e 80 04 21     bctrl
+        82417504 81 5f 00 8c     lwz        r10,0x8c(r31)=>DAT_82dfd0f4
+        82417508 81 7f 00 80     lwz        r11,0x80(r31)=>DAT_82dfd0e8
+                             LAB_8241750c                                    XREF[1]:     824174ec(j)  
+        8241750c 3b bd 00 01     addi       r29,r29,0x1
+        82417510 3b de 00 08     addi       r30,r30,0x8
+        82417514 7f 1d 50 00     cmpw       cr6,r29,r10
+        82417518 41 98 ff c0     blt        cr6,LAB_824174d8
+                             LAB_8241751c                                    XREF[1]:     824174cc(j)  
+        8241751c 80 7f 00 24     lwz        r3,0x24(r31)=>DAT_82dfd08c
+        82417520 2f 03 ff ff     cmpwi      cr6,r3,-0x1
+        82417524 40 9a 00 0c     bne        cr6,LAB_82417530
+        82417528 3b 80 00 01     li         r28,0x1
+        8241752c 48 00 00 08     b          LAB_82417534
+                             LAB_82417530                                    XREF[1]:     82417524(j)  
+        82417530 3b 60 00 01     li         r27,0x1
+                             LAB_82417534                                    XREF[1]:     8241752c(j)  
+        82417534 89 7f 00 00     lbz        r11,0x0(r31)=>GameMode_Current_82dfd068
+        82417538 99 7f 00 01     stb        r11,0x1(r31)=>DAT_82dfd069
+        8241753c 81 5f 00 20     lwz        r10,0x20(r31)=>DAT_82dfd088
+        82417540 2f 0a 00 01     cmpwi      cr6,r10,0x1
+        82417544 40 9a 00 30     bne        cr6,LAB_82417574
+        82417548 39 60 00 00     li         r11,0x0
+        8241754c 39 20 ff ff     li         r9,-0x1
+        82417550 39 40 00 0a     li         r10,0xa
+        82417554 91 7f 00 10     stw        r11,0x10(r31)=>DWORD_82dfd078
+        82417558 39 7f 00 03     addi       r11,r31,0x3
+        8241755c 7d 49 03 a6     mtspr      CTR,r10
+                             LAB_82417560                                    XREF[1]:     82417568(j)  
+        82417560 99 2b 00 00     stb        r9,0x0(r11)=>BYTE_82dfd06b
+        82417564 39 6b 00 01     addi       r11,r11,0x1
+        82417568 42 00 ff f8     bdnz       LAB_82417560
+        8241756c 81 7f 00 10     lwz        r11,0x10(r31)=>DWORD_82dfd078
+        82417570 48 00 00 2c     b          LAB_8241759c
+                             LAB_82417574                                    XREF[1]:     82417544(j)  
+        82417574 81 5f 00 10     lwz        r10,0x10(r31)=>DWORD_82dfd078
+        82417578 2b 0a 00 0a     cmplwi     cr6,r10,0xa
+        8241757c 41 98 00 0c     blt        cr6,LAB_82417588
+        82417580 39 60 00 09     li         r11,0x9
+        82417584 48 00 00 14     b          LAB_82417598
+                             LAB_82417588                                    XREF[1]:     8241757c(j)  
+        82417588 39 3f 00 03     addi       r9,r31,0x3
+        8241758c 7d 6a 49 ae     stbx       r11,r10,r9=>BYTE_82dfd06b
+        82417590 81 7f 00 10     lwz        r11,0x10(r31)=>DWORD_82dfd078
+        82417594 39 6b 00 01     addi       r11,r11,0x1
+                             LAB_82417598                                    XREF[1]:     82417584(j)  
+        82417598 91 7f 00 10     stw        r11,0x10(r31)=>DWORD_82dfd078
+                             LAB_8241759c                                    XREF[1]:     82417570(j)  
+        8241759c 89 5f 00 02     lbz        r10,0x2(r31)=>BYTE_82dfd06a
+        824175a0 99 5f 00 00     stb        r10,0x0(r31)=>GameMode_Current_82dfd068
+        824175a4 81 5f 00 7c     lwz        r10,0x7c(r31)=>DAT_82dfd0e4
+        824175a8 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        824175ac 41 9a 00 18     beq        cr6,LAB_824175c4
+        824175b0 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        824175b4 55 48 00 3e     rlwinm     r8,r10,0x0,0x0,0x1f
+        824175b8 7d 09 03 a6     mtspr      CTR,r8
+        824175bc 4e 80 04 21     bctrl
+        824175c0 81 7f 00 10     lwz        r11,0x10(r31)=>DWORD_82dfd078
+                             LAB_824175c4                                    XREF[1]:     824175ac(j)  
+        824175c4 39 40 ff ff     li         r10,-0x1
+        824175c8 2f 1c 00 00     cmpwi      cr6,r28,0x0
+        824175cc 99 5f 00 02     stb        r10,0x2(r31)=>BYTE_82dfd06a
+        824175d0 41 9a 00 a4     beq        cr6,LAB_82417674
+                             LAB_824175d4                                    XREF[1]:     82417460(j)  
+        824175d4 81 5f 00 90     lwz        r10,0x90(r31)=>DAT_82dfd0f8
+        824175d8 3b a0 00 00     li         r29,0x0
+        824175dc 2f 0a 00 00     cmpwi      cr6,r10,0x0
+        824175e0 40 99 00 50     ble        cr6,LAB_82417630
+        824175e4 81 7f 00 84     lwz        r11,0x84(r31)=>DAT_82dfd0ec
+        824175e8 3b c0 00 00     li         r30,0x0
+                             LAB_824175ec                                    XREF[1]:     8241762c(j)  
+        824175ec 7c de 58 ae     lbzx       r6,r30,r11
+        824175f0 88 bf 00 01     lbz        r5,0x1(r31)=>DAT_82dfd069
+        824175f4 7c c3 07 74     extsb      r3,r6
+        824175f8 7c a4 07 74     extsb      r4,r5
+        824175fc 7f 04 18 00     cmpw       cr6,r4,r3
+        82417600 40 9a 00 20     bne        cr6,LAB_82417620
+        82417604 7d 7e 5a 14     add        r11,r30,r11
+        82417608 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        8241760c 81 4b 00 04     lwz        r10,0x4(r11)
+        82417610 7d 49 03 a6     mtspr      CTR,r10
+        82417614 4e 80 04 21     bctrl
+        82417618 81 5f 00 90     lwz        r10,0x90(r31)=>DAT_82dfd0f8
+        8241761c 81 7f 00 84     lwz        r11,0x84(r31)=>DAT_82dfd0ec
+                             LAB_82417620                                    XREF[1]:     82417600(j)  
+        82417620 3b bd 00 01     addi       r29,r29,0x1
+        82417624 3b de 00 08     addi       r30,r30,0x8
+        82417628 7f 1d 50 00     cmpw       cr6,r29,r10
+        8241762c 41 98 ff c0     blt        cr6,LAB_824175ec
+                             LAB_82417630                                    XREF[1]:     824175e0(j)  
+        82417630 39 60 00 01     li         r11,0x1
+        82417634 91 7f 00 98     stw        r11,0x98(r31)=>DAT_82dfd100
+        82417638 81 7f 00 94     lwz        r11,0x94(r31)=>DAT_82dfd0fc
+        8241763c 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        82417640 40 9a 00 6c     bne        cr6,LAB_824176ac
+        82417644 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        82417648 4b ff f5 81     bl         Function_82416BC8                                undefined Function_82416BC8()
+        8241764c 39 60 00 00     li         r11,0x0
+        82417650 91 7f 00 98     stw        r11,0x98(r31)=>DAT_82dfd100
+        82417654 48 00 00 58     b          LAB_824176ac
+                             LAB_82417658                                    XREF[1]:     8241736c(j)  
+        82417658 81 7f 00 38     lwz        r11,0x38(r31)=>DAT_82dfd0a0
+        8241765c 80 ff 00 34     lwz        r7,0x34(r31)=>DAT_82dfd09c
+        82417660 7f 07 58 00     cmpw       cr6,r7,r11
+        82417664 41 98 00 48     blt        cr6,LAB_824176ac
+        82417668 39 60 00 01     li         r11,0x1
+        8241766c 91 7f 00 28     stw        r11,0x28(r31)=>DAT_82dfd090
+        82417670 48 00 00 3c     b          LAB_824176ac
+                             LAB_82417674                                    XREF[1]:     824175d0(j)  
+        82417674 2f 1b 00 00     cmpwi      cr6,r27,0x0
+        82417678 41 9a 00 34     beq        cr6,LAB_824176ac
+                             LAB_8241767c                                    XREF[1]:     82417450(j)  
+        8241767c 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        82417680 40 98 00 0c     bge        cr6,LAB_8241768c
+        82417684 39 60 00 00     li         r11,0x0
+        82417688 91 7f 00 10     stw        r11,0x10(r31)=>DWORD_82dfd078
+                             LAB_8241768c                                    XREF[1]:     82417680(j)  
+        8241768c 81 7f 00 4c     lwz        r11,0x4c(r31)=>PTR_82dfd0b4                      = 00000000
+        82417690 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        82417694 41 9a 00 18     beq        cr6,LAB_824176ac
+        82417698 80 9f 00 24     lwz        r4,0x24(r31)=>DAT_82dfd08c
+        8241769c 7f e3 fb 78     or         r3=>GameMode_Current_82dfd068,r31,r31
+        824176a0 55 69 00 3e     rlwinm     r9,r11,0x0,0x0,0x1f
+        824176a4 7d 29 03 a6     mtspr      CTR,r9
+        824176a8 4e 80 04 21     bctrl
+                             LAB_824176ac                                    XREF[10]:    8241737c(j), 8241738c(j), 
+                                                                                          8241745c(j), 82417470(j), 
+                                                                                          82417640(j), 82417654(j), 
+                                                                                          82417664(j), 82417670(j), 
+                                                                                          82417678(j), 82417694(j)  
+        824176ac 81 7f 00 34     lwz        r11,0x34(r31)=>DAT_82dfd09c
+        824176b0 39 6b 00 01     addi       r11,r11,0x1
+        824176b4 91 7f 00 34     stw        r11,0x34(r31)=>DAT_82dfd09c
+        824176b8 81 7f 00 30     lwz        r11,0x30(r31)=>DAT_82dfd098
+        824176bc 39 6b 00 01     addi       r11,r11,0x1
+        824176c0 91 7f 00 30     stw        r11,0x30(r31)=>DAT_82dfd098
+                             LAB_824176c4                                    XREF[2]:     824172f0(j), 82417304(j)  
+        824176c4 38 21 00 80     addi       r1,r1,0x80
+        824176c8 48 3a a2 ac     b          switchD_823f277c::caseD_5
+        824176cc 00              ??         00h
+        824176cd 00              ??         00h
+        824176ce 00              ??         00h
+        824176cf 00              ??         00h
