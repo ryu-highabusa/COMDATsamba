@@ -1719,7 +1719,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>220</ID>
-      <Description>"MANCOM_P1??"</Description>
+      <Description>"InputAllowanceFlag_P1_830a5268"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830a5268</Address>
@@ -1733,7 +1733,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>222</ID>
-      <Description>"No description"</Description>
+      <Description>"InputAllowanceFlag_P2_830a5269"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830A5269</Address>
