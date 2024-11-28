@@ -6179,13 +6179,21 @@
     </CheatEntry>
     <CheatEntry>
       <ID>859</ID>
-      <Description>"Sparring_LogDisplay_CommandInputFlag"</Description>
-      <VariableType>Byte</VariableType>
+      <Description>"SPARRING_LogDisplay_Setting"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
       <Address>18318B220</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>860</ID>
+      <Description>"SPARRING_LogDisplay_AttackAttributeFlag"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>18318B224</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>858</ID>
-      <Description>"Sparring_LogDisplay_CommandInputFlag"</Description>
+      <Description>"SPARRING_LogDisplay_CommandInputFlag"</Description>
       <VariableType>Byte</VariableType>
       <Address>18318B225</Address>
     </CheatEntry>
