@@ -1,0 +1,6145 @@
+<!DOCTYPE html>
+<html id="XF" lang="en-US" dir="LTR" data-app="public" data-template="thread_view" data-container-key="node-73" data-content-key="thread-8886" data-logged-in="false" data-cookie-prefix="xf_" data-csrf="1732827755,ed7f389e21850f24dd1d21a85485de16" data-style-id="47" class="has-js template-thread_view has-no-touchevents has-passiveeventlisteners has-no-hiddenscroll has-os-windows has-browser-mozilla focus-mobile-navigation-bar focus-grid focus-sidebar-sticky has-pointer-nav focus-picker--loaded" data-focus-bg="1"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+	
+	
+	
+
+	<title>Program - Moveset bin format structure &amp; a bit more | Free Step Dodge</title>
+
+	<link rel="manifest" href="https://www.freestepdodge.com/webmanifest.php">
+	
+		<meta name="theme-color" content="#c7c7c7">
+	
+
+	<meta name="apple-mobile-web-app-title" content="Free Step Dodge">
+	
+	
+	
+		
+		<meta name="description" content="EDIT 18Jul21: for DOA6 there's this post: https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/
+
+I've been digging...">
+		<meta property="og:description" content="EDIT 18Jul21: for DOA6 there's this post: https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/
+
+I've been digging through moveset bin format for quite some time now, and even though there are still unknowns I'm now at a good point to share my findings and...">
+		<meta property="twitter:description" content="EDIT 18Jul21: for DOA6 there's this post: https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/
+
+I've been digging through moveset bin format for quite some...">
+	
+	
+		<meta property="og:url" content="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/">
+	
+		<link rel="canonical" href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/">
+	
+		<link rel="next" href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2">
+	
+
+	
+		
+	
+	
+	<meta property="og:site_name" content="Free Step Dodge">
+
+
+	
+	
+		
+	
+	
+	<meta property="og:type" content="website">
+
+
+	
+	
+		
+	
+	
+	
+		<meta property="og:title" content="Program - Moveset bin format structure &amp; a bit more">
+		<meta property="twitter:title" content="Program - Moveset bin format structure &amp; a bit more">
+	
+
+
+	
+	
+	
+	
+
+	<link href="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/css_003.css" rel="stylesheet">
+	
+	
+
+	
+
+
+	<link rel="preload" href="https://www.freestepdodge.com/styles/fonts/fa/fa-regular-400.woff2?_v=5.15.1" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+	<link rel="preload" href="https://www.freestepdodge.com/styles/fonts/fa/fa-solid-900.woff2?_v=5.15.1" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+<link rel="preload" href="https://www.freestepdodge.com/styles/fonts/fa/fa-brands-400.woff2?_v=5.15.1" as="font" type="font/woff2" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/css_002.css">
+
+	<link rel="stylesheet" href="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/css.css">
+
+	
+		<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/preamble.min.js"></script>
+	
+
+	
+	
+	<script async="" src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/google-analytics_analytics.js"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-34945576-1', {
+			// 
+			
+			
+		});
+	</script>
+
+	<script type="text/javascript">
+var xfhtml = document.getElementById('XF');
+function applySetting(settingName, settingOn, allowToggle){
+	
+	// Theme editor is enabled. Check for selected toggle, otherwise apply default
+		if(allowToggle === 1){
+			var choice = localStorage.getItem(settingName);
+			if( (choice === 'on') || (!choice && (settingOn === 1)) ){
+				xfhtml.classList.add(settingName);
+			}
+		} else if(settingOn === 1){
+			xfhtml.classList.add(settingName);
+		}
+	
+}
+
+applySetting('focus-mobile-navigation-bar', 1, 1);
+
+
+applySetting('focus-fluid', 0, 1);
+
+
+applySetting('focus-grid', 1, 0);
+
+
+applySetting('focus-sidebar-sticky', 1, 1);
+
+
+applySetting('focus-sidebar-flip', 0, 1);
+
+
+
+
+
+	var backgroundChoice = localStorage.getItem('xenfocusBackground-47');
+	if(backgroundChoice){ xfhtml.setAttribute('data-focus-bg', '' + backgroundChoice + '');	} else { xfhtml.setAttribute('data-focus-bg', '1'); }
+
+</script>
+
+
+</head>
+<body data-template="thread_view">
+  
+
+
+
+
+
+
+
+
+	
+
+
+   
+    
+    
+    
+
+
+    
+  
+    
+
+
+
+    
+    
+    
+    
+
+
+    
+    
+    
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+<div class="background-fade"><div class="background-fade-image"></div></div>
+
+
+<div class="focus-width"><div class="p-pageWrapper" id="top">
+
+
+<!-- Logo bar: start -->
+<header class="p-header" id="header">
+	<div class="p-header-inner">
+		<div class="p-header-content">
+
+			
+
+	<!-- Logo -->
+	<div class="p-header-logo p-header-logo--image">
+		<a href="https://www.freestepdodge.com/" class="focus-logo">
+			
+			
+				<span class="focus-logo--image">
+	                <img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/furisuste_330px.png" srcset="" alt="Free Step Dodge" width="" height="">
+	            </span>
+	        
+	        
+		</a>
+	</div>
+
+
+
+			
+
+    <div class="focus-ad"></div>
+    
+    
+	<div class="focus-wrap-search">
+	
+		
+			<form action="/search/search" method="post">
+	        
+	        <!-- Search -->
+			<div class="focus-search">	
+				
+				<div class="focus-search-flex">
+					<input name="keywords" placeholder="Search…" aria-label="Search" data-menu-autofocus="true" type="text">
+					<div class="focus-search-prefix"><i class="fa--xf far fa-search" aria-hidden="true"></i></div>
+				</div>
+				
+			</div>
+			
+			
+				<div class="focus-search-menu">
+
+					
+					
+						<div class="menu-row">
+							
+			<select name="constraints" class="js-quickSearch-constraint input" aria-label="Search within">
+				<option value="" selected="selected">Everywhere</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;}">Threads</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;nodes&quot;:[73],&quot;child_nodes&quot;:1}}">This forum</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;thread&quot;:8886}}">This thread</option>
+
+			</select>
+		
+						</div>
+					
+
+					
+					<div class="menu-row">
+						<label class="iconic"><input type="checkbox" name="c[title_only]" value="1"><i aria-hidden="true"></i><span class="iconic-label">Search titles only</span></label>
+
+					</div>
+					
+					<div class="menu-row">
+						<div class="inputGroup">
+							<span class="inputGroup-text">By:</span>
+							<input type="text" class="input" name="c[users]" data-xf-init="auto-complete" placeholder="Member" aria-labelledby="ctrl_search_menu_by_member" autocomplete="off">
+						</div>
+					</div>
+					<div class="menu-footer">
+						<span class="menu-footer-controls">
+							<a href="https://www.freestepdodge.com/search/" class="button"><span class="button-text">Filters</span></a>
+							<button type="submit" class="button--primary button button--icon button--icon--search"><span class="button-text">Search</span></button>
+						</span>
+					</div>
+
+				</div>
+			
+
+			<input type="hidden" name="_xfToken" value="1732827755,ed7f389e21850f24dd1d21a85485de16">
+
+			</form>
+		
+
+	</div>
+
+    
+
+			
+		</div>
+	</div>
+</header>
+<!-- Logo bar: end -->
+
+<!-- Secondary header: start -->
+
+	<div class="p-navSticky p-navSticky--all is-sticky" data-xf-init="sticky-header">
+		<div class="nav-wrap">
+			<div class="nav-main-wrap">
+    
+    <div class="xenfocus-blur"></div>
+	<div class="p-nav">
+		<div class="p-nav-inner">
+			
+			<div class="focus-mobile-navigation">
+				<button type="button" class="button--plain p-nav-menuTrigger button" data-xf-click="off-canvas" data-menu=".js-headerOffCanvasMenu" tabindex="0" aria-label="Menu"><span class="button-text">
+					<i aria-hidden="true"></i>
+					<span class="p-nav-menuText">Menu</span>
+				</span></button>
+				<div class="focus-mobile-logo">
+					<a href="https://www.freestepdodge.com/">
+						
+	                        <img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/furisuste_330px.png" srcset="" alt="Free Step Dodge" width="" height="">
+						
+					</a>
+				</div>
+			</div>
+
+			
+    
+    <!-- Navigation wrap -->
+    <nav class="focus-wrap-nav">
+		<div class="p-nav-scroller hScroller" data-xf-init="h-scroller" data-auto-scroll=".p-navEl.is-selected">
+			<div class="hScroller-scroll is-calculated" style="margin-bottom: -47px;">
+				<ul class="p-nav-list js-offCanvasNavSource">
+				
+					<li>
+						
+	<div class="p-navEl is-selected" data-has-children="true">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/forums/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="forums">Forums</a>
+
+
+			<a data-xf-key="1" data-xf-click="menu" data-menu-pos-ref="&lt; .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/whats-new/posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="newPosts">New posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/search/?type=post" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="searchForums">Search forums</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+					</li>
+				
+					<li>
+						
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/streams/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="EWRrio">Streams</a>
+
+
+			<a data-xf-key="2" data-xf-click="menu" data-menu-pos-ref="&lt; .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/streams/multi/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-xf-init="rio-multi-popout" data-nav-id="EWRrioMulti">Multi-Viewer</a>
+
+	
+
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/streams/games/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="EWRrioGames">Games</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+					</li>
+				
+					<li>
+						
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/rankings/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="EWRtorneo">Rankings</a>
+
+
+			<a data-xf-key="3" data-xf-click="menu" data-menu-pos-ref="&lt; .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/rankings/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="leagues">Leagues</a>
+
+	
+		
+			
+	
+	
+	<a href="https://www.freestepdodge.com/rankings/dead-or-alive-6.1/" class="menu-linkRow u-indentDepth1 js-offCanvasCopy " data-nav-id="DOA6">Dead or Alive 6</a>
+
+	
+
+		
+			
+	
+	
+	<a href="https://www.freestepdodge.com/rankings/dead-or-alive-5-last-round.2/" class="menu-linkRow u-indentDepth1 js-offCanvasCopy " data-nav-id="DOA5LR">Dead or Alive 5 Last Round</a>
+
+	
+
+		
+		
+			<hr class="menu-separator">
+		
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+					</li>
+				
+					<li>
+						
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/wiki/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="EWRcarta">Wiki</a>
+
+
+			<a data-xf-key="4" data-xf-click="menu" data-menu-pos-ref="&lt; .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/wiki/special/pages" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="EWRcarta_pages">Pages</a>
+
+	
+
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/wiki/special/activity/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="EWRcarta_activity">Latest activity</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+					</li>
+				
+					<li>
+						
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/media/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="EWRmedio">Media</a>
+
+
+			<a data-xf-key="5" data-xf-click="menu" data-menu-pos-ref="&lt; .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/media/random" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="EWRmedioRandom">Random</a>
+
+	
+
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/media/playlists/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " data-nav-id="EWRmedioPlaylists">Playlists</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+					</li>
+				
+					<li>
+						
+	<div class="p-navEl ">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/donate/" class="p-navEl-link " data-xf-key="6" data-nav-id="th_donate">Donate</a>
+
+
+			
+
+		
+		
+	</div>
+
+					</li>
+				
+					<li>
+						
+	<div class="p-navEl " data-has-children="true">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/whats-new/" class="p-navEl-link p-navEl-link--splitMenu " data-nav-id="whatsNew">What's new</a>
+
+
+			<a data-xf-key="7" data-xf-click="menu" data-menu-pos-ref="&lt; .p-navEl" class="p-navEl-splitTrigger" role="button" tabindex="0" aria-label="Toggle expanded" aria-expanded="false" aria-haspopup="true"></a>
+
+		
+		
+			<div class="menu menu--structural" data-menu="menu" aria-hidden="true">
+				<div class="menu-content">
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/whats-new/posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="whatsNewPosts">New posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/whats-new/profile-posts/" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="whatsNewProfilePosts">New profile posts</a>
+
+	
+
+					
+						
+	
+	
+	<a href="https://www.freestepdodge.com/whats-new/latest-activity" class="menu-linkRow u-indentDepth0 js-offCanvasCopy " rel="nofollow" data-nav-id="latestActivity">Latest activity</a>
+
+	
+
+					
+				</div>
+			</div>
+		
+	</div>
+
+					</li>
+				
+				</ul>
+			</div><i class="hScroller-action hScroller-action--end" aria-hidden="true"></i><i class="hScroller-action hScroller-action--start" aria-hidden="true"></i>
+		</div>
+	</nav>
+    
+
+			<div class="focus-wrap-user">
+
+    <!-- User bar -->
+
+		<div class="p-nav-opposite">
+			<div class="p-navgroup p-account p-navgroup--guest">
+				
+					<a href="https://www.freestepdodge.com/login/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--logIn" data-xf-click="overlay" data-follow-redirects="on">
+						<span class="p-navgroup-linkText">Log in</span>
+					</a>
+					
+						<a href="https://www.freestepdodge.com/register/" class="p-navgroup-link p-navgroup-link--textual p-navgroup-link--register" data-xf-click="overlay" data-follow-redirects="on">
+							<span class="p-navgroup-linkText">Register</span>
+						</a>
+					
+				
+				
+		            <a href="#" class="p-navgroup-link xenfocus-navgroup-icon" rel="nofollow" data-xf-init="tooltip" data-xenfocus-editor="" data-original-title="Customize" id="js-XFUniqueId1">
+	                    <i class="fa--xf far fa-toggle-on" aria-hidden="true"></i>
+	                </a>
+	            
+				
+				
+	            
+			</div>
+
+			<div class="p-navgroup p-discovery">
+				<a href="https://www.freestepdodge.com/whats-new/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--whatsnew" aria-label="What's new" title="What's new">
+					<i aria-hidden="true"></i>
+					<span class="p-navgroup-linkText">What's new</span>
+				</a>
+
+				
+					<a href="https://www.freestepdodge.com/search/" class="p-navgroup-link p-navgroup-link--iconic p-navgroup-link--search" data-xf-click="menu" data-xf-key="/" aria-label="Search" aria-expanded="false" aria-haspopup="true" data-xf-init="tooltip" data-original-title="Search" id="js-XFUniqueId2">
+						<i aria-hidden="true"></i>
+						<!-- <span class="p-navgroup-linkText">Search</span> -->
+					</a>
+					<div class="menu menu--structural menu--wide" data-menu="menu" aria-hidden="true">
+						<form action="/search/search" method="post" class="menu-content" data-xf-init="quick-search">
+
+							<h3 class="menu-header">Search</h3>
+							
+							<div class="menu-row">
+								
+									<div class="inputGroup inputGroup--joined">
+										<input type="text" class="input" name="keywords" placeholder="Search…" aria-label="Search" data-menu-autofocus="true">
+										
+			<select name="constraints" class="js-quickSearch-constraint input" aria-label="Search within" style="width: 95px; flex-grow: 0; flex-shrink: 0;">
+				<option value="" selected="selected">Everywhere</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;}">Threads</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;nodes&quot;:[73],&quot;child_nodes&quot;:1}}">This forum</option>
+<option value="{&quot;search_type&quot;:&quot;post&quot;,&quot;c&quot;:{&quot;thread&quot;:8886}}">This thread</option>
+
+			</select>
+		
+									</div>
+									
+							</div>
+
+							
+							<div class="menu-row">
+								<label class="iconic"><input type="checkbox" name="c[title_only]" value="1"><i aria-hidden="true"></i><span class="iconic-label">Search titles only
+
+											
+												<span tabindex="0" role="button" data-xf-init="tooltip" data-trigger="hover focus click" data-original-title="Tags will also be searched" id="js-XFUniqueId3">
+
+													<i class="fa--xf far fa-question-circle u-muted u-smaller" aria-hidden="true"></i>
+												</span></span></label>
+
+							</div>
+							
+							<div class="menu-row">
+								<div class="inputGroup">
+									<span class="inputGroup-text" id="ctrl_search_menu_by_member">By:</span>
+									<input type="text" class="input" name="c[users]" data-xf-init="auto-complete" placeholder="Member" aria-labelledby="ctrl_search_menu_by_member" autocomplete="off">
+								</div>
+							</div>
+							<div class="menu-footer">
+								<span class="menu-footer-controls">
+									<button type="submit" class="button--primary button button--icon button--icon--search"><span class="button-text">Search</span></button>
+									<a href="https://www.freestepdodge.com/search/" class="button"><span class="button-text">Advanced search…</span></a>
+								</span>
+							</div>
+
+							<input type="hidden" name="_xfToken" value="1732827755,ed7f389e21850f24dd1d21a85485de16">
+						</form>
+					</div>
+				
+			</div>
+		</div>
+
+</div>
+			
+
+		</div>
+	</div>
+    
+</div>
+			
+    <!-- Sub navigation -->
+	
+		<div class="p-sectionLinks">
+			<div class="p-sectionLinks-inner hScroller" data-xf-init="h-scroller">
+				<div class="hScroller-scroll is-calculated" style="margin-bottom: -47px;">
+					<ul class="p-sectionLinks-list">
+					
+						<li>
+							
+	<div class="p-navEl ">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/whats-new/posts/" class="p-navEl-link " data-xf-key="alt+1" data-nav-id="newPosts">New posts</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+						<li>
+							
+	<div class="p-navEl ">
+		
+
+			
+	
+	<a href="https://www.freestepdodge.com/search/?type=post" class="p-navEl-link " data-xf-key="alt+2" data-nav-id="searchForums">Search forums</a>
+
+
+			
+
+		
+		
+	</div>
+
+						</li>
+					
+					</ul>
+				</div><i class="hScroller-action hScroller-action--end" aria-hidden="true"></i><i class="hScroller-action hScroller-action--start" aria-hidden="true"></i>
+			</div>
+		</div>
+	
+
+		</div>
+	</div>
+
+<!-- Secondary header: end -->
+
+<div class="focus-content">
+
+<div class="p-body">
+	<div class="p-body-inner">
+		<!--XF:EXTRA_OUTPUT-->
+        
+        <!-- Staff bar: start -->
+        
+        
+        
+
+
+        
+		
+
+		
+
+		
+		
+        
+	        <div class="focus-breadcrumb">
+				
+					
+
+	
+	
+	
+	
+		<div class="p-breadcrumbs-wrap ">
+			<ul class="p-breadcrumbs " itemscope="" itemtype="https://schema.org/BreadcrumbList">
+				
+					
+
+					
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/" itemprop="item">
+			<span itemprop="name">Forums</span>
+		</a>
+		<meta itemprop="position" content="1">
+	</li>
+
+					
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/#game-discussion.3" itemprop="item">
+			<span itemprop="name">Game Discussion</span>
+		</a>
+		<meta itemprop="position" content="2">
+	</li>
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/dead-or-alive-5-discussion.63/" itemprop="item">
+			<span itemprop="name">Dead or Alive 5 Discussion</span>
+		</a>
+		<meta itemprop="position" content="3">
+	</li>
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/dead-or-alive-5-last-round-general-discussion.67/" itemprop="item">
+			<span itemprop="name">Dead or Alive 5 Last Round General Discussion</span>
+		</a>
+		<meta itemprop="position" content="4">
+	</li>
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/modding.73/" itemprop="item">
+			<span itemprop="name">Modding</span>
+		</a>
+		<meta itemprop="position" content="5">
+	</li>
+
+					
+
+				
+			</ul>
+		</div>
+	
+
+				
+				<ul class="xenfocus-social">
+	<li><a href="https://twitter.com/FreeStepDodge" target="_blank"></a></li>
+<li><a href="https://facebook.com/FreeStepDodge/" target="_blank"></a></li>
+<li><a href="https://twitch.tv/FreeStepDodge/" target="_blank"></a></li>
+<li><a href="https://discord.gg/JvNgawv" target="_blank"></a></li>
+<li><a href="https://youtube.com/user/freestepdodge" target="_blank"></a></li>
+</ul>
+			</div>
+		
+
+        
+            
+		
+
+		
+	<noscript><div class="blockMessage blockMessage--important blockMessage--iconic u-noJsOnly">JavaScript is disabled. For a better experience, please enable JavaScript in your browser before proceeding.</div></noscript>
+
+		
+	
+
+
+		
+			
+	
+
+			<div class="p-body-header " style=" ">
+			
+
+
+			
+				<div class="test">
+				
+					<div class="p-title ">
+					
+						
+							<h1 class="p-title-value"><span class="label label--primary" dir="auto">Program</span><span class="label-append">&nbsp;</span>Moveset bin format structure &amp; a bit more</h1>
+						
+						
+					
+					</div>
+				
+
+				
+					<div class="p-description">
+	
+	<ul class="listInline listInline--bullet">
+		<li>
+			<i class="fa--xf far fa-user" aria-hidden="true" title="Thread starter"></i>
+			<span class="u-srOnly">Thread starter</span>
+
+			<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username  u-concealed" dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId4">AlexXsWx</a>
+		</li>
+		<li>
+			<i class="fa--xf far fa-clock" aria-hidden="true" title="Start date"></i>
+			<span class="u-srOnly">Start date</span>
+
+			<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/" class="u-concealed"><time class="u-dt" dir="auto" datetime="2021-04-10T12:55:51-0400" data-time="1618073751" data-date-string="Apr 10, 2021" data-time-string="12:55 PM" title="Apr 10, 2021 at 12:55 PM">Apr 10, 2021</time></a>
+		</li>
+		
+			<li>
+				
+
+	
+
+	<dl class="tagList tagList--thread-8886 ">
+		<dt>
+			
+				
+		<i class="fa--xf far fa-tags" aria-hidden="true" title="Tags"></i>
+		<span class="u-srOnly">Tags</span>
+	
+			
+		</dt>
+		<dd>
+			<span class="js-tagList">
+				
+					
+						<a href="https://www.freestepdodge.com/tags/moveset/" class="tagItem tagItem--tag_moveset" dir="auto">
+							moveset
+						</a>
+					
+				
+			</span>
+		</dd>
+	</dl>
+
+
+			</li>
+		
+	</ul>
+</div>
+				
+			</div>
+			
+			</div>
+		
+
+		<div class="p-body-main  ">
+			
+			<div class="p-body-contentCol"></div>
+			
+			
+			
+
+			<div class="p-body-content">
+				
+				<div class="p-body-pageContent">
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+		
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="block block--messages" data-xf-init="" data-type="post" data-href="/inline-mod/" data-search-target="*">
+
+	<span class="u-anchorTarget" id="posts"></span>
+
+	
+		
+
+	
+
+
+	
+
+	
+
+	<div class="block-outer"><div class="block-outer-main"><nav class="pageNavWrapper pageNavWrapper--mixed ">
+
+
+
+<div class="pageNav  ">
+	
+
+	<ul class="pageNav-main">
+		
+
+	
+		<li class="pageNav-page pageNav-page--current "><a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/">1</a></li>
+	
+
+
+		
+
+		
+
+		
+
+		
+
+	
+		<li class="pageNav-page "><a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2">2</a></li>
+	
+
+	</ul>
+
+	
+		<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2" class="pageNav-jump pageNav-jump--next">Next</a>
+	
+</div>
+
+<div class="pageNavSimple">
+	
+
+	<a class="pageNavSimple-el pageNavSimple-el--current" data-xf-init="tooltip" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true" data-original-title="Go to page" id="js-XFUniqueId5">
+		1 of 2
+	</a>
+	
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/threads/moveset-bin-format-structure-a-bit-more.8886/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber inputGroup--joined" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="1" min="1" max="2" step="1" required="required" data-menu-autofocus="true"><button type="button" tabindex="-1" class="inputGroup-text inputNumber-button inputNumber-button--up js-up" data-dir="up" title="Increase" aria-label="Increase"></button><button type="button" tabindex="-1" class="inputGroup-text inputNumber-button inputNumber-button--down js-down" data-dir="down" title="Decrease" aria-label="Decrease"></button></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+		<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2" class="pageNavSimple-el pageNavSimple-el--next">
+			Next <i aria-hidden="true"></i>
+		</a>
+		<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2" class="pageNavSimple-el pageNavSimple-el--last" data-xf-init="tooltip" data-original-title="Last" id="js-XFUniqueId6">
+			<i aria-hidden="true"></i> <span class="u-srOnly">Last</span>
+		</a>
+	
+</div>
+
+</nav>
+
+
+
+</div></div>
+
+	
+
+	
+		
+	<div class="block-outer js-threadStatusField"></div>
+
+	
+
+	<div class="block-container lbContainer" data-xf-init="lightbox select-to-quote" data-message-selector=".js-post" data-lb-id="thread-8886" data-lb-universal="1">
+
+		<div class="block-body js-replyNewMessageContainer">
+			
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-416752" id="js-post-416752">
+
+		<span class="u-anchorTarget" id="post-416752"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId7">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId8">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416752" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T12:55:51-0400" data-time="1618073751" data-date-string="Apr 10, 2021" data-time-string="12:55 PM" title="Apr 10, 2021 at 12:55 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416752" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416752/share" rel="nofollow" id="js-XFUniqueId9">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416752" rel="nofollow">
+						#1
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416752" data-lb-caption-desc="AlexXsWx · Apr 10, 2021 at 12:55 PM">
+
+		
+			
+
+	
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">EDIT 18Jul21: for DOA6 there's this post: <a href="https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/" class="link link--internal">https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/</a><br>
+<br>
+I've been digging through moveset bin format for quite some time now, 
+and even though there are still unknowns I'm now at a good point to 
+share my findings and tools with everyone, along with some gifs I made 
+along the way <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" loading="lazy" data-shortname=":)"><br>
+<br>
+Here's an example of what moveset bins contain:<br>
+<br>
+Legacy information for hit reaction for BT NH / BT crouch NH:<br>
+<a href="https://gfycat.com/blondspeedyanemone" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/blondspeedyanemone</a><br>
+<br>
+Frame advantage on block / nh (and even ch / hch as long as it doesn't 
+stun or GB), stored as an actual advantage number (so the game does the 
+math to make it match):<br>
+<a href="https://gfycat.com/sophisticatedwaterloggedafricanparadiseflycatcher" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/sophisticatedwaterloggedafricanparadiseflycatcher</a><br>
+<a href="https://gfycat.com/severeplusharcherfish" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/severeplusharcherfish</a><br>
+<br>
+Overall information which move ids to apply in which situations (stun / juggle / ground hit etc), here's some modding of that:<br>
+<a href="https://gfycat.com/bareacclaimedcat" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/bareacclaimedcat</a><br>
+<br>
+Some unused moves and sometimes even inputs for them:<br>
+<a href="https://gfycat.com/acclaimedsandyleafwing" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/acclaimedsandyleafwing</a><br>
+<a href="https://gfycat.com/drearycompassionatearabianhorse" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/drearycompassionatearabianhorse</a><br>
+<br>
+Full AI configuration - pre-made combos and probability weights<br>
+e.g. here I constrained COM lvl 8 to just one combo (KK46K, PP4KKK) <i>after</i> I recorded the replay:<br>
+<a href="https://gfycat.com/pleasantfrequentasianporcupine" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/pleasantfrequentasianporcupine</a><br>
+and here I changed probability weights to always start offense with an 
+OH (which it doesn't have), and always defend with crushing moves:<br>
+<a href="https://gfycat.com/acclaimedmelodicindianglassfish" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/acclaimedmelodicindianglassfish</a><br>
+<br>
+General information about character like juggle momentum multiplier:<br>
+(this one nicely shows how juggle system works)<br>
+<a href="https://gfycat.com/impressivefairafricanwildcat" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/impressivefairafricanwildcat</a><br>
+<a href="https://gfycat.com/jealousanykakarikis" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/jealousanykakarikis</a><br>
+<br>
+... or juggle starting height multiplier (sort of "character height"):<br>
+<a href="https://gfycat.com/illfatedspeedycardinal" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/illfatedspeedycardinal</a><br>
+<br>
+
+
+<div class="bbCodeSpoiler">
+	<button type="button" class="bbCodeSpoiler-button button--longText button" data-xf-click="toggle" data-xf-init="tooltip" data-original-title="Click to reveal or hide spoiler" id="js-XFUniqueId10"><span class="button-text">
+
+		<span>Spoiler: <span class="bbCodeSpoiler-button-title">BTW here's that multipliers as of v1.10c</span></span>
+	</span></button>
+	<div class="bbCodeSpoiler-content" style="" tabindex="-1">
+		<div class="bbCodeBlock bbCodeBlock--spoiler">
+			<div class="bbCodeBlock-content">
+	
+	
+
+
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--code">
+	<div class="bbCodeBlock-title">
+		Code:
+	</div>
+	<div class="bbCodeBlock-content" dir="ltr">
+		<pre class="bbCodeCode" dir="ltr" data-xf-init="code-block" data-lang=""><code>// momentum mult. | height mult. | // char name
+1.0200 0.9880 // kasumi
+1.1025 0.9880 // alpha
+1.0000 1.0000 // brad wong
+1.0200 1.0000 // mila
+1.0000 0.9880 // helena
+1.0200 1.0000 // kokoro
+0.9150 1.0890 // bayman
+1.0000 1.0000 // christie
+1.0000 1.0020 // rig
+1.0000 1.0020 // jann lee
+1.0000 1.0020 // zack
+1.0200 0.9880 // ayane
+1.0000 1.0020 // hayabusa
+1.0000 1.0000 // nyotengu
+1.0200 1.0000 // eliot
+1.0000 1.0020 // tina
+1.0000 1.0000 // lisa
+1.0000 1.0020 // akira
+1.0200 1.0000 // sarah
+0.9150 1.0890 // bass
+1.0200 0.9620 // leifang
+1.0200 1.0000 // hitomi
+1.0200 0.9880 // phase 4
+1.0000 1.0020 // hayate
+0.9150 1.0890 // raidou
+1.0200 0.9880 // marie rose
+1.0200 1.0000 // momiji
+1.0000 0.9620 // gen fu
+1.0200 0.9620 // pai
+1.0000 1.0020 // jacky
+1.0000 1.0000 // ein
+0.9150 1.0890 // rachel
+0.9150 1.0890 // leon
+1.0200 0.9880 // honoka
+1.0200 1.0000 // mai
+1.0000 1.0020 // naotora</code></pre>
+	</div>
+</div></div>
+		</div>
+	</div>
+</div><br>
+A chunk for collisions, I'm talking hitboxes / hurtboxes / pushboxes:<br>
+<a href="https://gfycat.com/slowcookedbarebirdbat" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/slowcookedbarebirdbat</a><br>
+<br>
+Event timelines, among many other stuff, contain information about followup intervals:<br>
+<a href="https://gfycat.com/athleticexcitableamazonparrot" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/athleticexcitableamazonparrot</a><br>
+<br>
+And I briefly touched format of actual animations (not part of moveset 
+bin, but it's still used for it to tell how long an animation is, or to 
+define root motion):<br>
+<a href="https://gfycat.com/grandminiaturecatfish" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/grandminiaturecatfish</a><br>
+<br>
+<b>Anyways</b>, here you can find folder with movesets, few motions, and the code I used to parse &amp; document the files:<br>
+<b>EDIT (24apr2021): </b>please make sure to have verbose logs on (see <a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416932" class="link link--internal">this message</a> for more details)<br>
+<a href="https://www.mediafire.com/folder/43n9rlglsxufo/doa5lr_moveset" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://www.mediafire.com/folder/43n9rlglsxufo/doa5lr_moveset</a><br>
+<br>
+Be advised that it is mainly for other programmes who can read code, and
+ it's far from user friendly or complete, so don't expect to be able to 
+use it out of the box.<br>
+<br>
+Keep in mind I mainly tested on Rig's bin / animation, and while I was 
+briefly checking other characters from time to time, a lot of validation
+ is currently failing (and there are some overlaps in AI combos section,
+ apparently I got some terminators wrong).<br>
+I've also seen that structure is seriously off for Marie, Honoka and one
+ other char (can't remember right now), so they need to be inspected 
+more closely.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+			
+
+	
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+		<div class="message-lastEdit">
+			
+				Last edited: <time class="u-dt" dir="auto" datetime="2021-07-18T08:49:59-0400" data-time="1626612599" data-date-string="Jul 18, 2021" data-time-string="8:49 AM" title="Jul 18, 2021 at 8:49 AM" itemprop="dateModified">Jul 18, 2021</time>
+			
+		</div>
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li><li><span class="reaction reaction--small reaction--9" data-reaction-id="9"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Star" title="Star"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/416752/reactions" data-xf-click="overlay" data-cache="false"><bdi>UncleKitchener</bdi>, <bdi>Sindor</bdi>, <bdi>rjqnraos19</bdi> and 5 others</a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="KasumiLover" data-content="post-416753" id="js-post-416753">
+
+		<span class="u-anchorTarget" id="post-416753"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/kasumilover.8570/" class="avatar avatar--m" data-user-id="8570" data-xf-init="member-tooltip" id="js-XFUniqueId11">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/8570.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/8570_002.jpg 2x" alt="KasumiLover" class="avatar-u8570-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/kasumilover.8570/" class="username " dir="auto" itemprop="name" data-user-id="8570" data-xf-init="member-tooltip" id="js-XFUniqueId12">KasumiLover</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">SovereignKnight_</h5>
+			<div class="userBanner userBanner userBanner--orange message-userBanner" itemprop="jobTitle"><span class="userBanner-before"></span><strong>Premium Donor</strong><span class="userBanner-after"></span></div>
+		</div>
+		
+			
+	
+
+<a class="steam-user steam-user-banner visibility-0" data-steamid="76561198815337608" href="https://steamcommunity.com/profiles/76561198815337608/" target="_blank"><div class="image-container"><img class="image" src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/a8214321de745cb1fa66f67408f15b40fbb542b0.jpg"></div><div class="info-container">   <div class="name">SovereignKnight_</div>   <div class="visibility">Offline</div></div></a>
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main donor kasumi">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416753" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T13:00:01-0400" data-time="1618074001" data-date-string="Apr 10, 2021" data-time-string="1:00 PM" title="Apr 10, 2021 at 1:00 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416753" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416753/share" rel="nofollow" id="js-XFUniqueId13">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416753" rel="nofollow">
+						#2
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416753" data-lb-caption-desc="KasumiLover · Apr 10, 2021 at 1:00 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch is-expandable">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=416752" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-416752">AlexXsWx said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			I've been digging through moveset bin format for quite some time now,
+ and even though there are still unknowns I'm now at a good point to 
+share my findings and tools with everyone, along with some gifs I made 
+along the way <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" loading="lazy" data-shortname=":)"><br>
+<br>
+Here's an example of what moveset bins contain:<br>
+<br>
+Legacy information for hit reaction for BT NH / BT crouch NH:<br>
+<a href="https://gfycat.com/blondspeedyanemone" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/blondspeedyanemone</a><br>
+<br>
+Frame advantage on block / nh (and even ch / hch as long as it doesn't 
+stun or GB), stored as an actual advantage number (so the game does the 
+math to make it match):<br>
+<a href="https://gfycat.com/sophisticatedwaterloggedafricanparadiseflycatcher" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/sophisticatedwaterloggedafricanparadiseflycatcher</a><br>
+<a href="https://gfycat.com/severeplusharcherfish" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/severeplusharcherfish</a><br>
+<br>
+Overall information which move ids to apply in which situations (stun / juggle / ground hit etc), here's some modding of that:<br>
+<a href="https://gfycat.com/bareacclaimedcat" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/bareacclaimedcat</a><br>
+<br>
+Some unused moves and sometimes even inputs for them:<br>
+<a href="https://gfycat.com/acclaimedsandyleafwing" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/acclaimedsandyleafwing</a><br>
+<a href="https://gfycat.com/drearycompassionatearabianhorse" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/drearycompassionatearabianhorse</a><br>
+<br>
+Full AI configuration - pre-made combos and probability weights<br>
+e.g. here I constrained COM lvl 8 to just one combo (KK46K, PP4KKK) <i>after</i> I recorded the replay:<br>
+<a href="https://gfycat.com/pleasantfrequentasianporcupine" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/pleasantfrequentasianporcupine</a><br>
+and here I changed probability weights to always start offense with an 
+OH (which it doesn't have), and always defend with crushing moves:<br>
+<a href="https://gfycat.com/acclaimedmelodicindianglassfish" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/acclaimedmelodicindianglassfish</a><br>
+<br>
+General information about character like juggle momentum multiplier:<br>
+(this one nicely shows how juggle system works)<br>
+<a href="https://gfycat.com/impressivefairafricanwildcat" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/impressivefairafricanwildcat</a><br>
+<a href="https://gfycat.com/jealousanykakarikis" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/jealousanykakarikis</a><br>
+<br>
+... or juggle starting height multiplier (sort of "character height"):<br>
+<a href="https://gfycat.com/illfatedspeedycardinal" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/illfatedspeedycardinal</a><br>
+<br>
+
+
+<div class="bbCodeSpoiler">
+	<button type="button" class="bbCodeSpoiler-button button--longText button" data-xf-click="toggle" data-xf-init="tooltip" data-original-title="Click to reveal or hide spoiler" id="js-XFUniqueId14"><span class="button-text">
+
+		<span>Spoiler: <span class="bbCodeSpoiler-button-title">BTW here's that multipliers as of v1.10c</span></span>
+	</span></button>
+	<div class="bbCodeSpoiler-content">
+		<div class="bbCodeBlock bbCodeBlock--spoiler">
+			<div class="bbCodeBlock-content">
+	
+	
+
+
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--code">
+	<div class="bbCodeBlock-title">
+		Code:
+	</div>
+	<div class="bbCodeBlock-content" dir="ltr">
+		<pre class="bbCodeCode" dir="ltr" data-xf-init="code-block" data-lang=""><code>// momentum mult. | height mult. | // char name
+1.0200 0.9880 // kasumi
+1.1025 0.9880 // alpha
+1.0000 1.0000 // brad wong
+1.0200 1.0000 // mila
+1.0000 0.9880 // helena
+1.0200 1.0000 // kokoro
+0.9150 1.0890 // bayman
+1.0000 1.0000 // christie
+1.0000 1.0020 // rig
+1.0000 1.0020 // jann lee
+1.0000 1.0020 // zack
+1.0200 0.9880 // ayane
+1.0000 1.0020 // hayabusa
+1.0000 1.0000 // nyotengu
+1.0200 1.0000 // eliot
+1.0000 1.0020 // tina
+1.0000 1.0000 // lisa
+1.0000 1.0020 // akira
+1.0200 1.0000 // sarah
+0.9150 1.0890 // bass
+1.0200 0.9620 // leifang
+1.0200 1.0000 // hitomi
+1.0200 0.9880 // phase 4
+1.0000 1.0020 // hayate
+0.9150 1.0890 // raidou
+1.0200 0.9880 // marie rose
+1.0200 1.0000 // momiji
+1.0000 0.9620 // gen fu
+1.0200 0.9620 // pai
+1.0000 1.0020 // jacky
+1.0000 1.0000 // ein
+0.9150 1.0890 // rachel
+0.9150 1.0890 // leon
+1.0200 0.9880 // honoka
+1.0200 1.0000 // mai
+1.0000 1.0020 // naotora</code></pre>
+	</div>
+</div></div>
+		</div>
+	</div>
+</div><br>
+A chunk for collisions, I'm talking hitboxes / hurtboxes / pushboxes:<br>
+<a href="https://gfycat.com/slowcookedbarebirdbat" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/slowcookedbarebirdbat</a><br>
+<br>
+Event timelines, among many other stuff, contain information about followup intervals:<br>
+<a href="https://gfycat.com/athleticexcitableamazonparrot" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/athleticexcitableamazonparrot</a><br>
+<br>
+And I briefly touched format of actual animations (not part of moveset 
+bin, but it's still used for it to tell how long an animation is, or to 
+define root motion):<br>
+<a href="https://gfycat.com/grandminiaturecatfish" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://gfycat.com/grandminiaturecatfish</a><br>
+<br>
+<b>Anyways</b>, here you can find folder with movesets, few motions, and the code I used to parse &amp; document the files:<br>
+<a href="https://www.mediafire.com/folder/43n9rlglsxufo/doa5lr_moveset" target="_blank" class="link link--external" rel="nofollow ugc noopener">https://www.mediafire.com/folder/43n9rlglsxufo/doa5lr_moveset</a><br>
+<br>
+Be advised that it is mainly for other programmes who can read code, and
+ it's far from user friendly or complete, so don't expect to be able to 
+use it out of the box.<br>
+<br>
+Keep in mind I mainly tested on Rig's bin / animation, and while I was 
+briefly checking other characters from time to time, a lot of validation
+ is currently failing (and there are some overlaps in AI combos section,
+ apparently I got some terminators wrong).<br>
+I've also seen that structure is seriously off for Marie, Honoka and one
+ other char (can't remember right now), so they need to be inspected 
+more closely.
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>Do you have any cut moves for Naotora and Kasumi and Phase 4 that didn't make the cut and are unused??</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-416755" id="js-post-416755">
+
+		<span class="u-anchorTarget" id="post-416755"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId15">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId16">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416755" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T13:01:47-0400" data-time="1618074107" data-date-string="Apr 10, 2021" data-time-string="1:01 PM" title="Apr 10, 2021 at 1:01 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416755" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416755/share" rel="nofollow" id="js-XFUniqueId17">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416755" rel="nofollow">
+						#3
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416755" data-lb-caption-desc="AlexXsWx · Apr 10, 2021 at 1:01 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=416753" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-416753">KasumiLover said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			Do you have any cut moves for Naotora and Kasumi and Phase 4 that didn't make the cut and are unused??
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>I'm sorry but I will not go over every character to check 
+this. You can try to find this information using the files I provided 
+though <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" loading="lazy" data-shortname=":)"></div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/416755/reactions" data-xf-click="overlay" data-cache="false"><bdi>KasumiLover</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="DestructionBomb" data-content="post-416756" id="js-post-416756">
+
+		<span class="u-anchorTarget" id="post-416756"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/destructionbomb.4077/" class="avatar avatar--m" data-user-id="4077" data-xf-init="member-tooltip" id="js-XFUniqueId18">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/4077.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/4077_002.jpg 2x" alt="DestructionBomb" class="avatar-u4077-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/destructionbomb.4077/" class="username " dir="auto" itemprop="name" data-user-id="4077" data-xf-init="member-tooltip" id="js-XFUniqueId19">DestructionBomb</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Well-Known Member</h5>
+			<div class="userBanner userBanner userBanner--silver message-userBanner" itemprop="jobTitle"><span class="userBanner-before"></span><strong>Standard Donor</strong><span class="userBanner-after"></span></div>
+		</div>
+		
+			
+	
+
+<a class="steam-user steam-user-banner visibility-0" data-steamid="76561198173455545" href="https://steamcommunity.com/profiles/76561198173455545/" target="_blank"><div class="image-container"><img class="image" src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/583a9a40ab7c07cb42034b3c657ca6d09bd109db.jpg"></div><div class="info-container">   <div class="name">DB</div>   <div class="visibility">Offline</div></div></a>
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main donor pai">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416756" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T13:06:11-0400" data-time="1618074371" data-date-string="Apr 10, 2021" data-time-string="1:06 PM" title="Apr 10, 2021 at 1:06 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416756" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416756/share" rel="nofollow" id="js-XFUniqueId20">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416756" rel="nofollow">
+						#4
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416756" data-lb-caption-desc="DestructionBomb · Apr 10, 2021 at 1:06 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">I really want to dig into this. Will have to redownload the games at some point.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+		<div class="message-lastEdit">
+			
+				Last edited: <time class="u-dt" dir="auto" datetime="2021-04-10T14:04:12-0400" data-time="1618077852" data-date-string="Apr 10, 2021" data-time-string="2:04 PM" title="Apr 10, 2021 at 2:04 PM" itemprop="dateModified">Apr 10, 2021</time>
+			
+		</div>
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="DestructionBomb" data-content="post-416757" id="js-post-416757">
+
+		<span class="u-anchorTarget" id="post-416757"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/destructionbomb.4077/" class="avatar avatar--m" data-user-id="4077" data-xf-init="member-tooltip" id="js-XFUniqueId21">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/4077.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/4077_002.jpg 2x" alt="DestructionBomb" class="avatar-u4077-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/destructionbomb.4077/" class="username " dir="auto" itemprop="name" data-user-id="4077" data-xf-init="member-tooltip" id="js-XFUniqueId22">DestructionBomb</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Well-Known Member</h5>
+			<div class="userBanner userBanner userBanner--silver message-userBanner" itemprop="jobTitle"><span class="userBanner-before"></span><strong>Standard Donor</strong><span class="userBanner-after"></span></div>
+		</div>
+		
+			
+	
+
+<a class="steam-user steam-user-banner visibility-0" data-steamid="76561198173455545" href="https://steamcommunity.com/profiles/76561198173455545/" target="_blank"><div class="image-container"><img class="image" src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/583a9a40ab7c07cb42034b3c657ca6d09bd109db.jpg"></div><div class="info-container">   <div class="name">DB</div>   <div class="visibility">Offline</div></div></a>
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main donor pai">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416757" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T13:30:45-0400" data-time="1618075845" data-date-string="Apr 10, 2021" data-time-string="1:30 PM" title="Apr 10, 2021 at 1:30 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416757" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416757/share" rel="nofollow" id="js-XFUniqueId23">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416757" rel="nofollow">
+						#5
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416757" data-lb-caption-desc="DestructionBomb · Apr 10, 2021 at 1:30 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">Posted it on one of the FB groups. Curious if there'll be interesting talks about it.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/416757/reactions" data-xf-click="overlay" data-cache="false"><bdi>AlexXsWx</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="XxNoriakixX" data-content="post-416758" id="js-post-416758">
+
+		<span class="u-anchorTarget" id="post-416758"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/xxnoriakixx.10803/" class="avatar avatar--m" data-user-id="10803" data-xf-init="member-tooltip" id="js-XFUniqueId24">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10803.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10803_002.jpg 2x" alt="XxNoriakixX" class="avatar-u10803-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/xxnoriakixx.10803/" class="username " dir="auto" itemprop="name" data-user-id="10803" data-xf-init="member-tooltip" id="js-XFUniqueId25">XxNoriakixX</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Well-Known Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope genfu">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416758" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T13:51:09-0400" data-time="1618077069" data-date-string="Apr 10, 2021" data-time-string="1:51 PM" title="Apr 10, 2021 at 1:51 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416758" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416758/share" rel="nofollow" id="js-XFUniqueId26">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416758" rel="nofollow">
+						#6
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416758" data-lb-caption-desc="XxNoriakixX · Apr 10, 2021 at 1:51 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">If you can somehow find data to add lobbies to the pc version, then I'll patreon you for a year lol</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+		<div class="message-lastEdit">
+			
+				Last edited: <time class="u-dt" dir="auto" datetime="2021-04-12T04:48:44-0400" data-time="1618217324" data-date-string="Apr 12, 2021" data-time-string="4:48 AM" title="Apr 12, 2021 at 4:48 AM" itemprop="dateModified">Apr 12, 2021</time>
+			
+		</div>
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--9" data-reaction-id="9"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Star" title="Star"></span></li><li><span class="reaction reaction--small reaction--3" data-reaction-id="3"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Haha" title="Haha"></span></li><li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/416758/reactions" data-xf-click="overlay" data-cache="false"><bdi>rjqnraos19</bdi>, <bdi>AlexXsWx</bdi> and <bdi>DestructionBomb</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="WAZAAAAA" data-content="post-416760" id="js-post-416760">
+
+		<span class="u-anchorTarget" id="post-416760"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/wazaaaaa.389/" class="avatar avatar--m" data-user-id="389" data-xf-init="member-tooltip" id="js-XFUniqueId27">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/389.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/389_002.jpg 2x" alt="WAZAAAAA" class="avatar-u389-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/wazaaaaa.389/" class="username " dir="auto" itemprop="name" data-user-id="389" data-xf-init="member-tooltip" id="js-XFUniqueId28">WAZAAAAA</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Well-Known Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416760" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-10T20:40:33-0400" data-time="1618101633" data-date-string="Apr 10, 2021" data-time-string="8:40 PM" title="Apr 10, 2021 at 8:40 PM" itemprop="datePublished">Apr 10, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416760" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416760/share" rel="nofollow" id="js-XFUniqueId29">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416760" rel="nofollow">
+						#7
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416760" data-lb-caption-desc="WAZAAAAA · Apr 10, 2021 at 8:40 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">hovering characters on the character select screen while monitoring stuff that gets loaded using ProcMon, lool good shit</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="rjqnraos19" data-content="post-416761" id="js-post-416761">
+
+		<span class="u-anchorTarget" id="post-416761"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="avatar avatar--m avatar--default avatar--default--dynamic" data-user-id="12073" data-xf-init="member-tooltip" style="background-color: #7a1f7a; color: #db70db" id="js-XFUniqueId30">
+			<span class="avatar-u12073-m">R</span> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="username " dir="auto" itemprop="name" data-user-id="12073" data-xf-init="member-tooltip" id="js-XFUniqueId31">rjqnraos19</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416761" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-11T04:03:33-0400" data-time="1618128213" data-date-string="Apr 11, 2021" data-time-string="4:03 AM" title="Apr 11, 2021 at 4:03 AM" itemprop="datePublished">Apr 11, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416761" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416761/share" rel="nofollow" id="js-XFUniqueId32">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416761" rel="nofollow">
+						#8
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416761" data-lb-caption-desc="rjqnraos19 · Apr 11, 2021 at 4:03 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">So can we also improve the CPU AI? I'm so exciting now.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-416762" id="js-post-416762">
+
+		<span class="u-anchorTarget" id="post-416762"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId33">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId34">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416762" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-11T07:19:22-0400" data-time="1618139962" data-date-string="Apr 11, 2021" data-time-string="7:19 AM" title="Apr 11, 2021 at 7:19 AM" itemprop="datePublished">Apr 11, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416762" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416762/share" rel="nofollow" id="js-XFUniqueId35">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416762" rel="nofollow">
+						#9
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416762" data-lb-caption-desc="AlexXsWx · Apr 11, 2021 at 7:19 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=416761" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-416761">rjqnraos19 said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			So can we also improve the CPU AI? I'm so exciting now.
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>Yes, to an extent. I didn't dive too deep into AI stuff</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="DestructionBomb" data-content="post-416763" id="js-post-416763">
+
+		<span class="u-anchorTarget" id="post-416763"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/destructionbomb.4077/" class="avatar avatar--m" data-user-id="4077" data-xf-init="member-tooltip" id="js-XFUniqueId36">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/4077.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/4077_002.jpg 2x" alt="DestructionBomb" class="avatar-u4077-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/destructionbomb.4077/" class="username " dir="auto" itemprop="name" data-user-id="4077" data-xf-init="member-tooltip" id="js-XFUniqueId37">DestructionBomb</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Well-Known Member</h5>
+			<div class="userBanner userBanner userBanner--silver message-userBanner" itemprop="jobTitle"><span class="userBanner-before"></span><strong>Standard Donor</strong><span class="userBanner-after"></span></div>
+		</div>
+		
+			
+	
+
+<a class="steam-user steam-user-banner visibility-0" data-steamid="76561198173455545" href="https://steamcommunity.com/profiles/76561198173455545/" target="_blank"><div class="image-container"><img class="image" src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/583a9a40ab7c07cb42034b3c657ca6d09bd109db.jpg"></div><div class="info-container">   <div class="name">DB</div>   <div class="visibility">Offline</div></div></a>
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main donor pai">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416763" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-11T08:31:36-0400" data-time="1618144296" data-date-string="Apr 11, 2021" data-time-string="8:31 AM" title="Apr 11, 2021 at 8:31 AM" itemprop="datePublished">Apr 11, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416763" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416763/share" rel="nofollow" id="js-XFUniqueId38">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416763" rel="nofollow">
+						#10
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416763" data-lb-caption-desc="DestructionBomb · Apr 11, 2021 at 8:31 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=416762" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-416762">AlexXsWx said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			Yes, to an extent. I didn't dive too deep into AI stuff
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote><br>
+That's pretty dope actually, didn't expect that one. If there's a way, 
+i'd imagine CPU boss battles to be an actual thing than actual cheese 
+lol. Particularly Alpha-152, Raidou, Phase-4, or someone might be able 
+to once again replicate Akira into an incredibly hard boss but in DOA's 
+style. iirc, every single character I mentioned have very poor AI 
+overall.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-416932" id="js-post-416932">
+
+		<span class="u-anchorTarget" id="post-416932"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId39">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId40">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416932" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-04-24T10:29:02-0400" data-time="1619274542" data-date-string="Apr 24, 2021" data-time-string="10:29 AM" title="Apr 24, 2021 at 10:29 AM" itemprop="datePublished">Apr 24, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416932" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/416932/share" rel="nofollow" id="js-XFUniqueId41">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-416932" rel="nofollow">
+						#11
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-416932" data-lb-caption-desc="AlexXsWx · Apr 24, 2021 at 10:29 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">Just realized something - I print some 
+important logs in "debug" mode, which do not show up by default; this 
+can make following the documentation impossible (either because logs 
+won't show up or because context menu won't be available). So please 
+change displayed log levels to "verbose" to see that logs (that is done 
+in browser developer tools, "Default levels" -&gt; "verbose" for Chrome)</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/416932/reactions" data-xf-click="overlay" data-cache="false"><bdi>rjqnraos19</bdi> and <bdi>UncleKitchener</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="rjqnraos19" data-content="post-417851" id="js-post-417851">
+
+		<span class="u-anchorTarget" id="post-417851"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="avatar avatar--m avatar--default avatar--default--dynamic" data-user-id="12073" data-xf-init="member-tooltip" style="background-color: #7a1f7a; color: #db70db" id="js-XFUniqueId42">
+			<span class="avatar-u12073-m">R</span> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="username " dir="auto" itemprop="name" data-user-id="12073" data-xf-init="member-tooltip" id="js-XFUniqueId43">rjqnraos19</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417851" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-07-16T08:30:38-0400" data-time="1626438638" data-date-string="Jul 16, 2021" data-time-string="8:30 AM" title="Jul 16, 2021 at 8:30 AM" itemprop="datePublished">Jul 16, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417851" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/417851/share" rel="nofollow" id="js-XFUniqueId44">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417851" rel="nofollow">
+						#12
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-417851" data-lb-caption-desc="rjqnraos19 · Jul 16, 2021 at 8:30 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">Any news?</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-417852" id="js-post-417852">
+
+		<span class="u-anchorTarget" id="post-417852"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId45">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId46">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417852" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-07-16T08:53:51-0400" data-time="1626440031" data-date-string="Jul 16, 2021" data-time-string="8:53 AM" title="Jul 16, 2021 at 8:53 AM" itemprop="datePublished">Jul 16, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417852" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/417852/share" rel="nofollow" id="js-XFUniqueId47">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417852" rel="nofollow">
+						#13
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-417852" data-lb-caption-desc="AlexXsWx · Jul 16, 2021 at 8:53 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=417851" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-417851">rjqnraos19 said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			Any news?
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>I'm wrapping up documentation for DOA6, but nothing new for DOA5LR</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-417868" id="js-post-417868">
+
+		<span class="u-anchorTarget" id="post-417868"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId48">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId49">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417868" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-07-18T08:52:50-0400" data-time="1626612770" data-date-string="Jul 18, 2021" data-time-string="8:52 AM" title="Jul 18, 2021 at 8:52 AM" itemprop="datePublished">Jul 18, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417868" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/417868/share" rel="nofollow" id="js-XFUniqueId50">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-417868" rel="nofollow">
+						#14
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-417868" data-lb-caption-desc="AlexXsWx · Jul 18, 2021 at 8:52 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">Here it is for DOA6: <a href="https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/" class="link link--internal">https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/</a></div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/417868/reactions" data-xf-click="overlay" data-cache="false"><bdi>Matt Ponton</bdi> and <bdi>rjqnraos19</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="rjqnraos19" data-content="post-418130" id="js-post-418130">
+
+		<span class="u-anchorTarget" id="post-418130"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="avatar avatar--m avatar--default avatar--default--dynamic" data-user-id="12073" data-xf-init="member-tooltip" style="background-color: #7a1f7a; color: #db70db" id="js-XFUniqueId51">
+			<span class="avatar-u12073-m">R</span> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="username " dir="auto" itemprop="name" data-user-id="12073" data-xf-init="member-tooltip" id="js-XFUniqueId52">rjqnraos19</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418130" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-08-31T02:45:00-0400" data-time="1630392300" data-date-string="Aug 31, 2021" data-time-string="2:45 AM" title="Aug 31, 2021 at 2:45 AM" itemprop="datePublished">Aug 31, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418130" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/418130/share" rel="nofollow" id="js-XFUniqueId53">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418130" rel="nofollow">
+						#15
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-418130" data-lb-caption-desc="rjqnraos19 · Aug 31, 2021 at 2:45 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">I'm sorry for bothering you. I was trying to 
+edit CPU AI but I can't do anything because I don't know about 
+programming or coding at all.<br>
+I opened the .bin files on chrome and I just gave up.<br>
+Can you fix the CPU AI like this?<br>
+<br>
+Hayabusa: Disable or reducing 3•4kp - CPU spamming this over and over. It's boring and makes too easy to defeat CPU hayabusa.<br>
+Christie, Marie: Fix guard - their Guard is broken. They can't block anything. They do guard but not work at all.<br>
+Sarah,  Jacky: Throw the offensive hold - They keep attack when player do OH and getting Hi counter.<br>
+Jacky: Adding some combo after Critical burst - After Critical Burst Jacky just do nothing.<br>
+Akira: Punishing throws - Akira do nothing when player do throws. just guarding forever.<br>
+Rachel: Fix low hold - She can hold low attack 100%.<br>
+<br>
+I really want to fix these things...<br>
+Sorry for my bad english.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+		<div class="message-lastEdit">
+			
+				Last edited: <time class="u-dt" dir="auto" datetime="2021-08-31T03:23:58-0400" data-time="1630394638" data-date-string="Aug 31, 2021" data-time-string="3:23 AM" title="Aug 31, 2021 at 3:23 AM" itemprop="dateModified">Aug 31, 2021</time>
+			
+		</div>
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--1" data-reaction-id="1"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Like" title="Like"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/418130/reactions" data-xf-click="overlay" data-cache="false"><bdi>KasumiLover</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-418132" id="js-post-418132">
+
+		<span class="u-anchorTarget" id="post-418132"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId54">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId55">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418132" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-08-31T11:29:39-0400" data-time="1630423779" data-date-string="Aug 31, 2021" data-time-string="11:29 AM" title="Aug 31, 2021 at 11:29 AM" itemprop="datePublished">Aug 31, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418132" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/418132/share" rel="nofollow" id="js-XFUniqueId56">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418132" rel="nofollow">
+						#16
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-418132" data-lb-caption-desc="AlexXsWx · Aug 31, 2021 at 11:29 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch is-expandable">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=418130" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-418130">rjqnraos19 said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			I'm sorry for bothering you. I was trying to edit CPU AI but I can't 
+do anything because I don't know about programming or coding at all.<br>
+I opened the .bin files on chrome and I just gave up.<br>
+Can you fix the CPU AI like this?<br>
+<br>
+Hayabusa: Disable or reducing 3•4kp - CPU spamming this over and over. It's boring and makes too easy to defeat CPU hayabusa.<br>
+Christie, Marie: Fix guard - their Guard is broken. They can't block anything. They do guard but not work at all.<br>
+Sarah,  Jacky: Throw the offensive hold - They keep attack when player do OH and getting Hi counter.<br>
+Jacky: Adding some combo after Critical burst - After Critical Burst Jacky just do nothing.<br>
+Akira: Punishing throws - Akira do nothing when player do throws. just guarding forever.<br>
+Rachel: Fix low hold - She can hold low attack 100%.<br>
+<br>
+I really want to fix these things...<br>
+Sorry for my bad english.
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>Uhhhh that's a project and a half, and is not really of interest to me, so sorry - not gonna do that.</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="rjqnraos19" data-content="post-418136" id="js-post-418136">
+
+		<span class="u-anchorTarget" id="post-418136"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="avatar avatar--m avatar--default avatar--default--dynamic" data-user-id="12073" data-xf-init="member-tooltip" style="background-color: #7a1f7a; color: #db70db" id="js-XFUniqueId57">
+			<span class="avatar-u12073-m">R</span> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="username " dir="auto" itemprop="name" data-user-id="12073" data-xf-init="member-tooltip" id="js-XFUniqueId58">rjqnraos19</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418136" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2021-08-31T18:42:04-0400" data-time="1630449724" data-date-string="Aug 31, 2021" data-time-string="6:42 PM" title="Aug 31, 2021 at 6:42 PM" itemprop="datePublished">Aug 31, 2021</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418136" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/418136/share" rel="nofollow" id="js-XFUniqueId59">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-418136" rel="nofollow">
+						#17
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-418136" data-lb-caption-desc="rjqnraos19 · Aug 31, 2021 at 6:42 PM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=418132" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-418132">AlexXsWx said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			Uhhhh that's a project and a half, and is not really of interest to me, so sorry - not gonna do that.
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>Okay, Thanks for reply! <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite1" alt=":)" title="Smile    :)" loading="lazy" data-shortname=":)"></div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="rjqnraos19" data-content="post-422562" id="js-post-422562">
+
+		<span class="u-anchorTarget" id="post-422562"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="avatar avatar--m avatar--default avatar--default--dynamic" data-user-id="12073" data-xf-init="member-tooltip" style="background-color: #7a1f7a; color: #db70db" id="js-XFUniqueId60">
+			<span class="avatar-u12073-m">R</span> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="username " dir="auto" itemprop="name" data-user-id="12073" data-xf-init="member-tooltip" id="js-XFUniqueId61">rjqnraos19</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422562" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2023-03-14T02:34:18-0400" data-time="1678775658" data-date-string="Mar 14, 2023" data-time-string="2:34 AM" title="Mar 14, 2023 at 2:34 AM" itemprop="datePublished">Mar 14, 2023</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422562" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/422562/share" rel="nofollow" id="js-XFUniqueId62">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422562" rel="nofollow">
+						#18
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-422562" data-lb-caption-desc="rjqnraos19 · Mar 14, 2023 at 2:34 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper">hello again, I finally figured out editing AI moves and combos with hex workshop.<br>
+I edited ai Akira's CB combo(4p+k . 66p . 1p . 66p+k) to 1f h+k and 466p+k. now ai akira better than before <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite129" alt=":D" title="Big Grin    :D" loading="lazy" data-shortname=":D"><br>
+but don't know where is the AI's counter like your momiji video.<br>
+as I said before, akira never block low and just do nothing when opponent trying to throw him. <br>
+also seems akira doesn't hold that much unlike other characters. that's why he block over and over.<br>
+can you teach me where is the addresses for ai's counter and editing that?</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+		<div class="message-lastEdit">
+			
+				Last edited: <time class="u-dt" dir="auto" datetime="2023-03-14T06:03:54-0400" data-time="1678788234" data-date-string="Mar 14, 2023" data-time-string="6:03 AM" title="Mar 14, 2023 at 6:03 AM" itemprop="dateModified">Mar 14, 2023</time>
+			
+		</div>
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--9" data-reaction-id="9"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Star" title="Star"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/422562/reactions" data-xf-click="overlay" data-cache="false"><bdi>DestructionBomb</bdi>, <bdi>AlexXsWx</bdi> and <bdi>inochinagi</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+	
+
+
+	
+
+	
+	<article class="message    message-threadStarterPost message--post js-post js-inlineModContainer  " data-author="AlexXsWx" data-content="post-422564" id="js-post-422564">
+
+		<span class="u-anchorTarget" id="post-422564"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="avatar avatar--m" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId63">
+			<img src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985.jpg" srcset="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/10985_002.jpg 2x" alt="AlexXsWx" class="avatar-u10985-m" width="96" height="96" loading="lazy" itemprop="image"> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/alexxswx.10985/" class="username " dir="auto" itemprop="name" data-user-id="10985" data-xf-init="member-tooltip" id="js-XFUniqueId64">AlexXsWx</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422564" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2023-03-14T08:16:07-0400" data-time="1678796167" data-date-string="Mar 14, 2023" data-time-string="8:16 AM" title="Mar 14, 2023 at 8:16 AM" itemprop="datePublished">Mar 14, 2023</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422564" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/422564/share" rel="nofollow" id="js-XFUniqueId65">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422564" rel="nofollow">
+						#19
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-422564" data-lb-caption-desc="AlexXsWx · Mar 14, 2023 at 8:16 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=422562" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-422562">rjqnraos19 said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			hello again, I finally figured out editing AI moves and combos with hex workshop.<br>
+I edited ai Akira's CB combo(4p+k . 66p . 1p . 66p+k) to 1f h+k and 466p+k. now ai akira better than before <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="smilie smilie--sprite smilie--sprite129" alt=":D" title="Big Grin    :D" loading="lazy" data-shortname=":D"><br>
+but don't know where is the AI's counter like your momiji video.<br>
+as I said before, akira never block low and just do nothing when opponent trying to throw him.<br>
+also seems akira doesn't hold that much unlike other characters. that's why he block over and over.<br>
+can you teach me where is the addresses for ai's counter and editing that?
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>Well done!<br>
+I believe for the gif I changed <code class="bbCodeInline">pAiData-&gt;pIdk21[i].aiOffenseTypeWeights</code> to 0/0/0/100 and <code class="bbCodeInline">pAiData-&gt;pIdk21[i].aiDefenseTypeWeights</code> to 0/100/0/0.<br>
+These weights somehow define which list of "weighted combos" to use (from <code class="bbCodeInline">pAiData-&gt;pIdk19[i]-&gt;...</code> and <code class="bbCodeInline">pAiData-&gt;pIdk20[i]-&gt;...</code>).<br>
+I don't have an exact understanding of how they are connected, but you 
+can find my notes on it for doa6 (which likely uses the same structure) <a href="https://www.freestepdodge.com/threads/hitboxes-visualizer-moveset-bin-swapper.8908/page-2#post-421978" class="link link--internal">here</a> - the list of 48 entries after <code class="bbCodeInline">function createBtCombo(...) { ... }</code></div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList is-active">
+			
+	
+	
+		<ul class="reactionSummary">
+		
+			<li><span class="reaction reaction--small reaction--2" data-reaction-id="2"><i aria-hidden="true"></i><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="reaction-sprite js-reaction" alt="Love" title="Love"></span></li>
+		
+		</ul>
+	
+
+
+<span class="u-srOnly">Reactions:</span>
+<a class="reactionsBar-link" href="https://www.freestepdodge.com/posts/422564/reactions" data-xf-click="overlay" data-cache="false"><bdi>rjqnraos19</bdi></a>
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+
+					
+
+					
+						
+
+	
+
+
+
+	
+
+	
+	<article class="message   message--post js-post js-inlineModContainer  " data-author="rjqnraos19" data-content="post-422565" id="js-post-422565">
+
+		<span class="u-anchorTarget" id="post-422565"></span>
+
+		
+			<div class="message-inner">
+				
+					<div class="message-cell message-cell--user">
+						
+
+	<section itemscope="" itemtype="https://schema.org/Person" class="message-user">
+		<div class="message-avatar ">
+			<div class="message-avatar-wrapper">
+				<a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="avatar avatar--m avatar--default avatar--default--dynamic" data-user-id="12073" data-xf-init="member-tooltip" style="background-color: #7a1f7a; color: #db70db" id="js-XFUniqueId66">
+			<span class="avatar-u12073-m">R</span> 
+		</a>
+				
+			</div>
+		</div>
+		<div class="message-userDetails">
+			<h4 class="message-name"><a href="https://www.freestepdodge.com/members/rjqnraos19.12073/" class="username " dir="auto" itemprop="name" data-user-id="12073" data-xf-init="member-tooltip" id="js-XFUniqueId67">rjqnraos19</a></h4>
+			<h5 class="userTitle message-userTitle" dir="auto" itemprop="jobTitle">Active Member</h5>
+			
+		</div>
+		
+			
+	
+
+
+			
+		
+		<span class="message-userArrow"></span>
+
+	</section>
+
+					</div>
+				
+
+				
+					<div class="message-cell message-cell--main nope ">
+					
+						<div class="message-main js-quickEditTarget">
+
+							
+								
+
+	<header class="message-attribution message-attribution--split">
+		<ul class="message-attribution-main listInline ">
+			
+			
+			<li class="u-concealed">
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422565" rel="nofollow">
+					<time class="u-dt" dir="auto" datetime="2023-03-14T08:48:51-0400" data-time="1678798131" data-date-string="Mar 14, 2023" data-time-string="8:48 AM" title="Mar 14, 2023 at 8:48 AM" itemprop="datePublished">Mar 14, 2023</time>
+				</a>
+			</li>
+			
+		</ul>
+
+		<ul class="message-attribution-opposite message-attribution-opposite--list ">
+			
+			<li>
+				<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422565" class="message-attribution-gadget" data-xf-init="share-tooltip" data-href="/posts/422565/share" rel="nofollow" id="js-XFUniqueId68">
+					<i class="fa--xf far fa-share-alt" aria-hidden="true"></i>
+				</a>
+			</li>
+			
+			
+				<li>
+					<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/post-422565" rel="nofollow">
+						#20
+					</a>
+				</li>
+			
+		</ul>
+	</header>
+
+							
+
+							<div class="message-content js-messageContent">
+							
+
+								
+									
+	
+	
+	
+
+								
+
+								
+									
+
+	<div class="message-userContent lbContainer js-lbContainer " data-lb-id="post-422565" data-lb-caption-desc="rjqnraos19 · Mar 14, 2023 at 8:48 AM">
+
+		
+
+		<article class="message-body js-selectToQuote">
+			
+				
+			
+			
+				<div class="bbWrapper"><blockquote class="bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch">
+	
+		<div class="bbCodeBlock-title">
+			
+				<a href="https://www.freestepdodge.com/goto/post?id=422564" class="bbCodeBlock-sourceJump" data-xf-click="attribution" data-content-selector="#post-422564">AlexXsWx said:</a>
+			
+		</div>
+	
+	<div class="bbCodeBlock-content">
+		
+		<div class="bbCodeBlock-expandContent js-expandContent ">
+			Well done!<br>
+I believe for the gif I changed <code class="bbCodeInline">pAiData-&gt;pIdk21[i].aiOffenseTypeWeights</code> to 0/0/0/100 and <code class="bbCodeInline">pAiData-&gt;pIdk21[i].aiDefenseTypeWeights</code> to 0/100/0/0.<br>
+These weights somehow define which list of "weighted combos" to use (from <code class="bbCodeInline">pAiData-&gt;pIdk19[i]-&gt;...</code> and <code class="bbCodeInline">pAiData-&gt;pIdk20[i]-&gt;...</code>).<br>
+I don't have an exact understanding of how they are connected, but you 
+can find my notes on it for doa6 (which likely uses the same structure) <a href="https://www.freestepdodge.com/threads/hitboxes-visualizer-moveset-bin-swapper.8908/page-2#post-421978" class="link link--internal">here</a> - the list of 48 entries after <code class="bbCodeInline">function createBtCombo(...) { ... }</code>
+		</div>
+		<div class="bbCodeBlock-expandLink js-expandLink"><a>Click to expand...</a></div>
+	</div>
+</blockquote>thank you for the fast reply!<br>
+that looks hard. seems I must learn java script.<br>
+I just edited the bin file with hex editor</div>
+			
+			<div class="js-selectToQuoteEnd">&nbsp;</div>
+			
+				
+			
+		</article>
+
+		
+
+		
+	
+
+	</div>
+
+								
+
+								
+									
+	
+
+								
+
+								
+									
+	
+
+								
+
+							
+							</div>
+
+							
+								
+	<footer class="message-footer">
+		
+
+		<div class="reactionsBar js-reactionsList ">
+			
+		</div>
+
+		<div class="js-historyTarget message-historyTarget toggleTarget" data-href="trigger-href"></div>
+	</footer>
+
+							
+						</div>
+
+					
+					</div>
+				
+			</div>
+		
+	</article>
+
+	
+	
+
+					
+
+					
+
+				
+			
+		</div>
+	</div>
+
+	
+		<div class="block-outer block-outer--after">
+			
+				<div class="block-outer-main"><nav class="pageNavWrapper pageNavWrapper--mixed ">
+
+
+
+<div class="pageNav  ">
+	
+
+	<ul class="pageNav-main">
+		
+
+	
+		<li class="pageNav-page pageNav-page--current "><a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/">1</a></li>
+	
+
+
+		
+
+		
+
+		
+
+		
+
+	
+		<li class="pageNav-page "><a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2">2</a></li>
+	
+
+	</ul>
+
+	
+		<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2" class="pageNav-jump pageNav-jump--next">Next</a>
+	
+</div>
+
+<div class="pageNavSimple">
+	
+
+	<a class="pageNavSimple-el pageNavSimple-el--current" data-xf-init="tooltip" data-xf-click="menu" role="button" tabindex="0" aria-expanded="false" aria-haspopup="true" data-original-title="Go to page" id="js-XFUniqueId69">
+		1 of 2
+	</a>
+	
+
+	<div class="menu menu--pageJump" data-menu="menu" aria-hidden="true">
+		<div class="menu-content">
+			<h4 class="menu-header">Go to page</h4>
+			<div class="menu-row" data-xf-init="page-jump" data-page-url="/threads/moveset-bin-format-structure-a-bit-more.8886/page-%page%">
+				<div class="inputGroup inputGroup--numbers">
+					<div class="inputGroup inputGroup--numbers inputNumber inputGroup--joined" data-xf-init="number-box"><input type="number" pattern="\d*" class="input input--number js-numberBoxTextInput input input--numberNarrow js-pageJumpPage" value="1" min="1" max="2" step="1" required="required" data-menu-autofocus="true"><button type="button" tabindex="-1" class="inputGroup-text inputNumber-button inputNumber-button--up js-up" data-dir="up" title="Increase" aria-label="Increase"></button><button type="button" tabindex="-1" class="inputGroup-text inputNumber-button inputNumber-button--down js-down" data-dir="down" title="Decrease" aria-label="Decrease"></button></div>
+					<span class="inputGroup-text"><button type="button" class="js-pageJumpGo button"><span class="button-text">Go</span></button></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+		<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2" class="pageNavSimple-el pageNavSimple-el--next">
+			Next <i aria-hidden="true"></i>
+		</a>
+		<a href="https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/page-2" class="pageNavSimple-el pageNavSimple-el--last" data-xf-init="tooltip" data-original-title="Last" id="js-XFUniqueId70">
+			<i aria-hidden="true"></i> <span class="u-srOnly">Last</span>
+		</a>
+	
+</div>
+
+</nav>
+
+
+
+</div>
+
+				
+				
+					<div class="block-outer-opposite">
+						
+							<a href="https://www.freestepdodge.com/login/" class="button--link button" data-xf-click="overlay"><span class="button-text">
+								You must log in or register to reply here.
+							</span></a>
+						
+					</div>
+				
+			
+		</div>
+	
+
+	
+
+	
+
+
+	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="blockMessage blockMessage--none">
+	
+
+	
+		
+
+		<div class="shareButtons shareButtons--iconic" data-xf-init="share-buttons" data-page-url="" data-page-title="" data-page-desc="" data-page-image="">
+			
+				<span class="shareButtons-label">Share:</span>
+			
+
+			<div class="shareButtons-buttons">
+				
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook" data-href="https://www.facebook.com/sharer.php?u={url}" id="js-XFUniqueId71">
+							<i aria-hidden="true"></i>
+							<span>Facebook</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--twitter" data-href="https://twitter.com/intent/tweet?url={url}&amp;text={title}&amp;via=FreeStepDodge" id="js-XFUniqueId72">
+							<i aria-hidden="true"></i>
+							<span>Twitter</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit" data-href="https://reddit.com/submit?url={url}&amp;title={title}" id="js-XFUniqueId73">
+							<i aria-hidden="true"></i>
+							<span>Reddit</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--pinterest" data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}&amp;media={image}" id="js-XFUniqueId74">
+							<i aria-hidden="true"></i>
+							<span>Pinterest</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--tumblr" data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}" id="js-XFUniqueId75">
+							<i aria-hidden="true"></i>
+							<span>Tumblr</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp" data-href="https://api.whatsapp.com/send?text={title}&nbsp;{url}" id="js-XFUniqueId76">
+							<i aria-hidden="true"></i>
+							<span>WhatsApp</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--email" data-href="mailto:?subject={title}&amp;body={url}" id="js-XFUniqueId77">
+							<i aria-hidden="true"></i>
+							<span>Email</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--share is-hidden" data-xf-init="web-share" data-title="" data-text="" data-url="" data-hide=".shareButtons-button:not(.shareButtons-button--share)" id="js-XFUniqueId78">
+
+							<i aria-hidden="true"></i>
+							<span>Share</span>
+						</a>
+					
+
+					
+						<a class="shareButtons-button shareButtons-button--link" data-clipboard="{url}" id="js-XFUniqueId79">
+							<i aria-hidden="true"></i>
+							<span>Link</span>
+						</a>
+					
+				
+			</div>
+		</div>
+	
+
+</div>
+
+
+
+
+
+	
+
+
+
+
+
+</div>
+				
+			</div>
+
+			
+		</div>
+
+		
+		
+
+	
+	
+	
+	
+		<div class="p-breadcrumbs-wrap p-breadcrumbs-wrap--bottom">
+			<ul class="p-breadcrumbs p-breadcrumbs--bottom" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+				
+					
+
+					
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/" itemprop="item">
+			<span itemprop="name">Forums</span>
+		</a>
+		<meta itemprop="position" content="1">
+	</li>
+
+					
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/#game-discussion.3" itemprop="item">
+			<span itemprop="name">Game Discussion</span>
+		</a>
+		<meta itemprop="position" content="2">
+	</li>
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/dead-or-alive-5-discussion.63/" itemprop="item">
+			<span itemprop="name">Dead or Alive 5 Discussion</span>
+		</a>
+		<meta itemprop="position" content="3">
+	</li>
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/dead-or-alive-5-last-round-general-discussion.67/" itemprop="item">
+			<span itemprop="name">Dead or Alive 5 Last Round General Discussion</span>
+		</a>
+		<meta itemprop="position" content="4">
+	</li>
+
+					
+						
+						
+	<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+		<a href="https://www.freestepdodge.com/forums/modding.73/" itemprop="item">
+			<span itemprop="name">Modding</span>
+		</a>
+		<meta itemprop="position" content="5">
+	</li>
+
+					
+
+				
+			</ul>
+		</div>
+	
+
+		
+		
+	</div>
+</div>
+
+
+</div> <!-- End: focus-content -->
+
+
+
+<!-- Mobile off-canvas navigation: start -->
+<div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu" data-menu="menu" aria-hidden="true" data-ocm-builder="navigation">
+	<div class="offCanvasMenu-backdrop" data-menu-close="true"></div>
+	<div class="offCanvasMenu-content">
+		<div class="offCanvasMenu-header">
+			Menu
+			<a class="offCanvasMenu-closer" data-menu-close="true" role="button" tabindex="0" aria-label="Close"></a>
+		</div>
+		
+			<div class="p-offCanvasRegisterLink">
+				<div class="offCanvasMenu-linkHolder">
+					<a href="https://www.freestepdodge.com/login/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+					Log in
+					</a>
+				</div>
+				<hr class="offCanvasMenu-separator">
+				
+					<div class="offCanvasMenu-linkHolder">
+						<a href="https://www.freestepdodge.com/register/" class="offCanvasMenu-link" data-xf-click="overlay" data-menu-close="true">
+							Register
+						</a>
+					</div>
+				<hr class="offCanvasMenu-separator">
+				
+			</div>
+		
+		<div class="js-offCanvasNavTarget"></div>
+		<div class="offCanvasMenu-installBanner js-installPromptContainer" style="display: none;" data-xf-init="install-prompt">
+			<div class="offCanvasMenu-installBanner-header">Install the app</div>
+			<button type="button" class="js-installPromptButton button"><span class="button-text">Install</span></button>
+		</div>
+	</div>
+</div>
+<!-- Mobile off-canvas navigation: end -->
+
+<footer class="p-footer" id="footer" style="margin-bottom: 0px;">
+
+	
+
+	
+		<div class="p-footer-inner">
+
+			<div class="p-footer-row">
+				
+					<div class="p-footer-row-main">
+						<ul class="p-footer-linkList">
+						
+							
+							
+								<li class="xenfocus-footer-icon"><a href="#" rel="nofollow" data-xf-init="tooltip" data-xenfocus-editor="" data-original-title="Customize" id="js-XFUniqueId80"><i class="fa--xf far fa-toggle-on" aria-hidden="true"></i></a></li>
+							
+							
+							
+								<li><a href="https://www.freestepdodge.com/misc/language" data-xf-click="overlay" data-xf-init="tooltip" rel="nofollow" data-original-title="Language chooser" id="js-XFUniqueId81">
+									<i class="fa--xf far fa-globe" aria-hidden="true"></i> English (US)</a></li>
+							
+						
+						</ul>
+					</div>
+				
+				<div class="p-footer-row-opposite">
+					<ul class="p-footer-linkList">
+						
+							
+								<li><a href="https://www.freestepdodge.com/misc/contact" data-xf-click="overlay">Contact us</a></li>
+							
+						
+
+						
+							<li><a href="https://www.freestepdodge.com/help/terms/">Terms and rules</a></li>
+						
+
+						
+							<li><a href="https://www.freestepdodge.com/help/privacy-policy/">Privacy policy</a></li>
+						
+
+						
+							<li><a href="https://www.freestepdodge.com/help/">Help</a></li>
+						
+
+						
+
+						<li><a href="https://www.freestepdodge.com/forums/-/index.rss" target="_blank" class="p-footer-rssLink" title="RSS"><span aria-hidden="true"><i class="fa--xf far fa-rss" aria-hidden="true"></i><span class="u-srOnly">RSS</span></span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer-align">
+				<div>
+
+					
+						<div class="p-footer-copyright">
+							
+								<a href="https://xenforo.com/" class="u-concealed" dir="ltr" target="_blank" rel="sponsored noopener">Forum software by XenForo<sup>®</sup> <span class="copyright">© 2010-2021 XenForo Ltd.</span></a>
+								<span class="thBranding"> | <a href="https://www.themehouse.com/?utm_source=www.freestepdodge.com&amp;utm_medium=xf2product&amp;utm_campaign=product_branding" class="u-concealed" target="_BLANK" nofollow="nofollow">Add-ons by ThemeHouse</a></span>
+<div class="torneo-copyright">
+	<a href="https://xenforo.com/community/resources/6226/" target="_blank">XenTorneo 2 PRO</a> © Jason Axelrod of
+	<a href="https://8wayrun.com/" target="_blank">8WAYRUN</a>
+</div>
+<div class="rio-copyright">
+	<a href="https://xenforo.com/community/resources/6024/" target="_blank">XenRio 2 PRO</a> © Jason Axelrod of
+	<a href="https://8wayrun.com/" target="_blank">8WAYRUN</a>
+</div>
+<div class="porta-copyright">
+	<a href="https://xenforo.com/community/resources/6023/" target="_blank">XenPorta 2 PRO</a> © Jason Axelrod of
+	<a href="https://8wayrun.com/" target="_blank">8WAYRUN</a>
+</div>
+<div class="medio-copyright">
+	<a href="https://xenforo.com/community/resources/6366/" target="_blank">XenMedio 2 PRO</a> © Jason Axelrod of
+	<a href="https://8wayrun.com/" target="_blank">8WAYRUN</a>
+</div>
+<div class="carta-copyright">
+	<a href="https://xenforo.com/community/resources/6393/" target="_blank">XenCarta 2 PRO</a> © Jason Axelrod of
+	<a href="https://8wayrun.com/" target="_blank">8WAYRUN</a>
+</div>
+							
+								
+							
+
+						</div>
+					
+
+				</div>
+				<div>
+
+					<ul class="xenfocus-social">
+	<li><a href="https://twitter.com/FreeStepDodge" target="_blank"></a></li>
+<li><a href="https://facebook.com/FreeStepDodge/" target="_blank"></a></li>
+<li><a href="https://twitch.tv/FreeStepDodge/" target="_blank"></a></li>
+<li><a href="https://discord.gg/JvNgawv" target="_blank"></a></li>
+<li><a href="https://youtube.com/user/freestepdodge" target="_blank"></a></li>
+</ul>
+
+				</div>
+			</div>
+
+			
+		</div>
+	
+</footer>
+
+</div></div> <!-- closing p-pageWrapper -->
+
+
+<div class="mobile-navigation-bar">
+	<div class="focus-width">
+		<ul class="mobile-navigation-bar__list">
+			<li class="mobile-navigation-bar--forums">
+				<a href="https://www.freestepdodge.com/forums/-/list">
+					<span class="mobile-navigation-bar__icon"><i class="fa--xf far fa-comments" aria-hidden="true"></i></span>
+					<span class="mobile-navigation-bar__text">Forums</span>
+				</a>
+			</li>
+			<li class="mobile-navigation-bar--whatsnew">
+				<a href="https://www.freestepdodge.com/whats-new/">
+					<span class="mobile-navigation-bar__icon"><i class="fa--xf far fa-file-alt" aria-hidden="true"></i></span>
+					<span class="mobile-navigation-bar__text">What's new</span>
+				</a>
+			</li>
+			
+				<li class="mobile-navigation-bar--login">
+					<a href="https://www.freestepdodge.com/login/" rel="nofollow" data-xf-click="overlay" data-follow-redirects="on">
+						<span class="mobile-navigation-bar__icon"><i class="fa--xf far fa-sign-in-alt" aria-hidden="true"></i></span>
+						<span class="mobile-navigation-bar__text">Log in</span>
+					</a>
+				</li>
+				
+					<li class="mobile-navigation-bar--register">
+						<a href="https://www.freestepdodge.com/register/" rel="nofollow" data-xf-click="overlay" data-follow-redirects="on">
+							<span class="mobile-navigation-bar__icon"><i class="fa--xf far fa-user-plus" aria-hidden="true"></i></span>
+							<span class="mobile-navigation-bar__text">Register</span>
+						</a>
+					</li>
+				
+			
+			
+				<li class="mobile-navigation-bar--search">
+					<a href="https://www.freestepdodge.com/search/">
+						<span class="mobile-navigation-bar__icon"><i class="fa--xf far fa-search" aria-hidden="true"></i></span>
+						<span class="mobile-navigation-bar__text">Search</span>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+
+
+	<div class="focus-editor-wrap">
+		<div class="focus-editor-overlay" data-xenfocus-editor=""></div>
+		<div class="focus-editor">
+
+			<div class="focus-editor-scroll">
+
+				
+					<div>
+						<div class="focus-editor__title" data-focus-text="Background Picker"></div>
+						<div class="focus-picker">
+						    <span data-focus-bg="1"><i>ALL</i></span>
+						    <span data-focus-bg="2"><i>DOA6</i></span>
+						    <span data-focus-bg="3"><i>DOA5</i></span>
+						    <span data-focus-bg="4"><i>DOA4</i></span>
+						    <span data-focus-bg="5"><i>DOA3</i></span>
+						    <span data-focus-bg="6"><i>DOA2U</i></span>
+							<span data-focus-bg="7"><i>DOAD</i></span>
+							
+							
+							
+							
+							
+						</div>
+					</div>
+				
+
+				
+
+				<div>
+					<div class="focus-editor__title" data-focus-text="Customize layout"></div>
+					
+					
+						<div class="focus-editor-panel" data-setting="focus-mobile-navigation-bar" data-setting-default="on" data-setting-status="on">
+							<div class="focus-editor-toggle"><i class="focus-toggle"><i></i></i></div>
+							<div class="focus-editor-text" data-setting-title="Mobile navigation bar?" data-setting-desc="Display a navigation bar at the bottom of the site when using a mobile device?"></div>
+						</div>
+					
+
+					
+						<div class="focus-editor-panel" data-setting="focus-fluid" data-setting-default="off" data-setting-status="off">
+							<div class="focus-editor-toggle"><i class="focus-toggle"><i></i></i></div>
+							<div class="focus-editor-text" data-setting-title="Fluid width?" data-setting-desc="Enabling this will increase the width of the site so it occupies the width of your browser. Useful for larger screens."></div>
+						</div>
+					
+
+					
+
+					
+						<div class="focus-editor-panel" data-setting="focus-sidebar-sticky" data-setting-default="on" data-setting-status="on">
+							<div class="focus-editor-toggle"><i class="focus-toggle"><i></i></i></div>
+							<div class="focus-editor-text" data-setting-title="Sticky sidebar?" data-setting-desc="If enabled, the sidebar will stick to the top of the screen for easy access."></div>
+						</div>
+					
+
+					
+						<div class="focus-editor-panel" data-setting="focus-sidebar-flip" data-setting-default="off" data-setting-status="off">
+							<div class="focus-editor-toggle"><i class="focus-toggle"><i></i></i></div>
+							<div class="focus-editor-text" data-setting-title="Flip sidebar?" data-setting-desc="Flip the sidebar between the left and right sides."></div>
+						</div>
+					
+
+					
+
+					
+
+					
+					
+					
+					
+				</div>
+
+			</div>
+
+			<div class="focus-editor-save">
+				<button data-xenfocus-editor="" data-focus-text="Save"></button>
+			</div>
+
+		</div>
+	</div>
+
+
+<div class="u-bottomFixer js-bottomFixTarget">
+	
+	
+</div>
+
+
+	<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+		<a href="#top" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa--xf far fa-arrow-up" aria-hidden="true"></i><span class="u-srOnly">Top</span></span></a>
+		
+	</div>
+
+
+
+	<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/jquery-3.5.1.min.js"></script>
+	<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/vendor-compiled.js"></script>
+	<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/core-compiled.js"></script>
+	<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/20210125.min.js"></script>
+<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/index.js"></script>
+<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/code_block-compiled.js"></script>
+<script src="Program%20-%20Moveset%20bin%20format%20structure%20&amp;%20a%20bit%20more%20_%20Free%20Step%20Dodge_files/userbanner.js"></script>
+<script>
+
+		window.themehouse.covers.ele = new window.themehouse.covers.covers({
+		settings: {
+		url: "/covers/thread/8886/position"
+		},
+		width: 0,
+		height: 0,
+		});
+
+		window.themehouse.covers.ele.register();
+	
+</script>
+
+	<script>
+		jQuery.extend(true, XF.config, {
+			// 
+			userId: 0,
+			enablePush: false,
+			pushAppServerKey: '',
+			url: {
+				fullBase: 'https://www.freestepdodge.com/',
+				basePath: '/',
+				css: '/css.php?css=__SENTINEL__&s=47&l=1&d=1684813536',
+				keepAlive: '/login/keep-alive'
+			},
+			cookie: {
+				path: '/',
+				domain: '',
+				prefix: 'xf_',
+				secure: true
+			},
+			cacheKey: '9310500c2ff13c0d7e2ee84ee8b2ef1e',
+			csrf: '1732827755,ed7f389e21850f24dd1d21a85485de16',
+			js: {"\/js\/themehouse\/global\/20210125.min.js?_v=a7d97733":true,"\/js\/themehouse\/covers\/index.js?_v=a7d97733":true,"\/js\/xf\/code_block-compiled.js?_v=a7d97733":true,"\/js\/blacktea\/steamauth\/userbanner.js?_v=a7d97733":true},
+			css: {"public:bb_code.less":true,"public:blacktea_steamauth_user_banner.less":true,"public:message.less":true,"public:share_controls.less":true,"public:th_covers.less":true,"public:th_uix_threadStarterPost.less":true,"public:extra.less":true},
+			time: {
+				now: 1732827755,
+				today: 1732770000,
+				todayDow: 4,
+				tomorrow: 1732856400,
+				yesterday: 1732683600,
+				week: 1732251600
+			},
+			borderSizeFeature: '3px',
+			fontAwesomeWeight: 'r',
+			enableRtnProtect: true,
+			enableFormSubmitSticky: true,
+			uploadMaxFilesize: 2097152,
+			allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+			allowedAudioExtensions: ["mp3","ogg","wav"],
+			shortcodeToEmoji: true,
+			visitorCounts: {
+				conversations_unread: '0',
+				alerts_unviewed: '0',
+				total_unread: '0',
+				title_count: true,
+				icon_indicator: true
+			},
+			jsState: {},
+			publicMetadataLogoUrl: '',
+			publicPushBadgeUrl: 'https://www.freestepdodge.com/styles/default/xenforo/bell.png'
+		});
+
+		jQuery.extend(XF.phrases, {
+			// 
+			date_x_at_time_y: "{date} at {time}",
+			day_x_at_time_y:  "{day} at {time}",
+			yesterday_at_x:   "Yesterday at {time}",
+			x_minutes_ago:    "{minutes} minutes ago",
+			one_minute_ago:   "1 minute ago",
+			a_moment_ago:     "A moment ago",
+			today_at_x:       "Today at {time}",
+			in_a_moment:      "In a moment",
+			in_a_minute:      "In a minute",
+			in_x_minutes:     "In {minutes} minutes",
+			later_today_at_x: "Later today at {time}",
+			tomorrow_at_x:    "Tomorrow at {time}",
+
+			day0: "Sunday",
+			day1: "Monday",
+			day2: "Tuesday",
+			day3: "Wednesday",
+			day4: "Thursday",
+			day5: "Friday",
+			day6: "Saturday",
+
+			dayShort0: "Sun",
+			dayShort1: "Mon",
+			dayShort2: "Tue",
+			dayShort3: "Wed",
+			dayShort4: "Thu",
+			dayShort5: "Fri",
+			dayShort6: "Sat",
+
+			month0: "January",
+			month1: "February",
+			month2: "March",
+			month3: "April",
+			month4: "May",
+			month5: "June",
+			month6: "July",
+			month7: "August",
+			month8: "September",
+			month9: "October",
+			month10: "November",
+			month11: "December",
+
+			active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+			server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+			oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+			oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+			file_too_large_to_upload: "The file is too large to be uploaded.",
+			uploaded_file_is_too_large_for_server_to_process: "The uploaded file is too large for the server to process.",
+			files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+			attach: "Attach files",
+			rich_text_box: "Rich text box",
+			close: "Close",
+			link_copied_to_clipboard: "Link copied to clipboard.",
+			text_copied_to_clipboard: "Text copied to clipboard.",
+			loading: "Loading…",
+
+			processing: "Processing",
+			'processing...': "Processing…",
+
+			showing_x_of_y_items: "Showing {count} of {total} items",
+			showing_all_items: "Showing all items",
+			no_items_to_display: "No items to display",
+
+			number_button_up: "Increase",
+			number_button_down: "Decrease",
+
+			push_enable_notification_title: "Push notifications enabled successfully at Free Step Dodge",
+			push_enable_notification_body: "Thank you for enabling push notifications!"
+		});
+	</script>
+
+	<form style="display:none" hidden="hidden">
+		<input type="text" name="_xfClientLoadTime" value="1732827756,1732827755" id="_xfClientLoadTime" title="_xfClientLoadTime" tabindex="-1">
+	</form>
+
+	
+
+
+
+
+<script>
+
+$(document).ready(function(){
+	var html = $('#XF');
+	
+	
+		// Advanced search menu
+		$('.focus-search-advanced').on('click', function(){ html.toggleClass('focus-search-menu-active'); });
+		$('.focus-search-flex input').on('focus', function(){ html.addClass('focus-search-menu-active'); });
+		$(document).on('click', function() { html.removeClass('focus-search-menu-active'); });
+		$('.focus-wrap-search').on('click', function(event){ event.stopPropagation(); });
+	
+
+	
+		$("[data-xenfocus-editor]").hover(function() {
+			html.addClass('focus-picker--loaded');
+		});
+		// xenfocus editor: open and close with data-xenfocus-editor
+		$("[data-xenfocus-editor]").on('click', function(event){
+			html.toggleClass('focus-editor-open').addClass('focus-picker--loaded');
+			event.preventDefault();
+		});
+		// ..and close by pressing ESC
+		$(document).keyup(function(e) {
+			if (e.keyCode === 27){
+				html.removeClass('focus-editor-open');
+			}
+		});
+		
+			$(".focus-picker span").on('click', function(){
+				var styleid = html.attr('data-style-id');
+				var backgroundClass = $(this).attr("data-focus-bg");
+				html.attr('data-focus-bg', '' + backgroundClass + '');
+				localStorage.setItem('xenfocusBackground-' + styleid + '', '' + backgroundClass + '');
+			});
+		
+		$('.focus-editor-panel').each(function(){
+			// This value is used for localstorage names and class names.
+			var settingName = $(this).attr('data-setting');
+			var settingDefault = $(this).attr('data-setting-default');
+			var settingChoice = localStorage.getItem(settingName);
+			if(settingChoice === 'on'){
+				$(this).attr('data-setting-status','on');
+			} else if(settingChoice === 'off') {
+				$(this).attr('data-setting-status','off');
+			} else {
+				if(settingDefault === 'on'){
+					$(this).attr('data-setting-status','on');
+				} else{
+					$(this).attr('data-setting-status','off');
+				}
+			}
+		});
+		// Change the class and localstorage when the toggle is clicked
+		$('.focus-editor-panel').on('click', function(){
+			var settingName = $(this).attr('data-setting');
+			var settingStatus = $(this).attr('data-setting-status');
+			if(settingStatus === 'on'){
+				html.removeClass(settingName);
+				localStorage.setItem(settingName, 'off');
+				$(this).attr('data-setting-status', 'off');
+			} else {
+				html.addClass(settingName);
+				localStorage.setItem(settingName, 'on');
+				$(this).attr('data-setting-status', 'on');
+			}
+		});
+	
+});
+
+	
+
+</script>
+
+
+
+
+
+    
+
+	
+	
+		
+		
+			<script type="application/ld+json">
+				{
+    "@context": "https://schema.org",
+    "@type": "DiscussionForumPosting",
+    "@id": "https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/",
+    "headline": "Moveset bin format structure & a bit more",
+    "articleBody": "EDIT 18Jul21: for DOA6 there's this post: https://www.freestepdodge.com/threads/doa6-moveset-bin-format-partial-how-to-mod-them.8918/\n\nI've been digging through moveset bin format for quite some time now, and even though there are still unknowns...",
+    "articleSection": "Modding",
+    "author": {
+        "@type": "Person",
+        "name": "AlexXsWx"
+    },
+    "datePublished": "2021-04-10T16:55:51+00:00",
+    "dateModified": "2023-03-14T14:17:09+00:00",
+    "image": "https://www.freestepdodge.com/data/avatars/l/10/10985.jpg?1510116757",
+    "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/ReplyAction",
+        "userInteractionCount": 20
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Free Step Dodge"
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.freestepdodge.com/threads/moveset-bin-format-structure-a-bit-more.8886/"
+    }
+}
+			</script>
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="globalAction"><span class="globalAction-bar"></span><span class="globalAction-block"><i></i><i></i><i></i></span></span><div class="tooltip tooltip--basic tooltip--bottom" role="tooltip" style="z-index: 306; display: none; top: 1445.2px; left: 525.5px;" id="js-XFUniqueId82"><div class="tooltip-arrow" style="left: 93px;"></div><div class="tooltip-content">Click to reveal or hide spoiler</div></div></body></html>
