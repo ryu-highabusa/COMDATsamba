@@ -1246,7 +1246,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>167</ID>
-      <Description>"ACTCODE_P1"</Description>
+      <Description>"ACTCODE_P1*"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
@@ -1725,18 +1725,25 @@
       <Address>1830a5268</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>221</ID>
-      <Description>"No description"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>1830a526a</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>222</ID>
       <Description>"InputAllowanceFlag_P2_830a5269"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830A5269</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>221</ID>
+      <Description>"InputAllowanceFlag_P3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a526a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>849</ID>
+      <Description>"InputAllowanceFlag_P4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A526B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>223</ID>
@@ -3031,6 +3038,13 @@
     </CheatEntry>
     <CheatEntry>
       <ID>382</ID>
+      <Description>"related to CAM_MOTION_FLAG_8320a9cc"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18320babc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>851</ID>
       <Description>"CAM_MOTION_FLAG_8320a9cc*"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -6113,6 +6127,27 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>1830ef6c8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>850</ID>
+      <Description>"DAT_830a8cfd"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a8cfd</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>852</ID>
+      <Description>"DAT_830edf30"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830edf30</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>853</ID>
+      <Description>"DAT_830edf9c"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830edf9c</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
