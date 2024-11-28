@@ -1301,6 +1301,34 @@
       <Address>1932100BA</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>192</ID>
+      <Description>"BYTE_830201d2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201d2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>855</ID>
+      <Description>"BYTE_830201d7"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201d7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>857</ID>
+      <Description>"BYTE_830201ee"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201ee</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>856</ID>
+      <Description>"BYTE_830edf9c"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830edf9c</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>174</ID>
       <Description>"ACTCODE_P2"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -1445,7 +1473,7 @@
       <Address>1932100DE</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>192</ID>
+      <ID>854</ID>
       <Description>"No description"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -6148,6 +6176,18 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830edf9c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>859</ID>
+      <Description>"Sparring_LogDisplay_CommandInputFlag"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>18318B220</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>858</ID>
+      <Description>"Sparring_LogDisplay_CommandInputFlag"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>18318B225</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
