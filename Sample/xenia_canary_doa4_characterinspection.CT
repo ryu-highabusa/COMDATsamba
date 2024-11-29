@@ -981,6 +981,20 @@
       <VariableType>Byte</VariableType>
       <Address>183020226</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>858</ID>
+      <Description>"some sparring flag??"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183192541</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>859</ID>
+      <Description>"DAT_8318b23a*"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18318b23a</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
