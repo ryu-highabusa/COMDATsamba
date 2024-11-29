@@ -440,6 +440,34 @@
       <Address>1830201b6</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>192</ID>
+      <Description>"BYTE_830201d2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201d2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>855</ID>
+      <Description>"BYTE_830201d7"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201d7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>857</ID>
+      <Description>"BYTE_830201ee"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201ee</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>856</ID>
+      <Description>"BYTE_830edf9c"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830edf9c</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>26</ID>
       <Description>"ANIME_P1_830201b8"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -469,19 +497,15 @@
     <CheatEntry>
       <ID>29</ID>
       <Description>"ACT_REQ_P1_830201be"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
+      <VariableType>Byte</VariableType>
       <Address>1830201be</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>30</ID>
       <Description>"ACT_STATE_P1_830201bf*"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
+      <VariableType>Byte</VariableType>
       <Address>1830201bf</Address>
     </CheatEntry>
     <CheatEntry>
