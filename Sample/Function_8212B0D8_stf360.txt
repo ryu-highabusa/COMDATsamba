@@ -1,0 +1,122 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall Function_8212B0D8(void)
+             undefined         r3:1           <RETURN>
+                             Function_8212B0D8                               XREF[2]:     820de540(*), 
+                                                                                          Save_Registers_And_Setup_Stack_F
+        8212b0d8 7d 88 02 a6     mfspr      r12,LR
+        8212b0dc 48 34 b1 99     bl         Store_Register_Into_Local_Memory_FUN_82476274    Call to another function
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        8212b0e0 94 21 ff 80     stwu       r1,-0x80(r1)                                     Adjust the stack pointer
+        8212b0e4 7c 7e 1b 78     or         r30,r3,r3                                        Copy r3 to r30
+        8212b0e8 3b e0 00 00     li         r31,0x0                                          Initialize r31 to 0
+        8212b0ec 39 60 00 01     li         r11,0x1                                          Set r11 to 1
+        8212b0f0 39 40 ff ff     li         r10,-0x1
+        8212b0f4 93 e3 00 00     stw        r31,0x0(r3)                                      Store r31 at address in r3
+        8212b0f8 38 63 00 20     addi       r3,r3,0x20                                       Increment r3 by 0x20
+        8212b0fc 93 fe 00 04     stw        r31,0x4(r30)                                     Store r31 at address in r30
+        8212b100 93 fe 00 08     stw        r31,0x8(r30)
+        8212b104 93 fe 00 10     stw        r31,0x10(r30)
+        8212b108 99 7e 00 14     stb        r11,0x14(r30)                                    Store byte in r11 at address in 
+        8212b10c 91 5e 00 18     stw        r10,0x18(r30)
+        8212b110 9b fe 00 1c     stb        r31,0x1c(r30)
+        8212b114 4b ff e8 a5     bl         FUN_821299b8                                     Call another function
+        8212b118 38 7e 00 70     addi       r3,r30,0x70                                      Modify r3 and call another funct
+        8212b11c 4b ff db cd     bl         FUN_82128ce8                                     Call another function
+        8212b120 9b fe 00 90     stb        r31,0x90(r30)
+        8212b124 9b fe 00 91     stb        r31,0x91(r30)
+        8212b128 38 7e 00 d4     addi       r3,r30,0xd4                                      Modify r3 and store byte values
+        8212b12c 9b fe 00 92     stb        r31,0x92(r30)
+        8212b130 9b fe 00 93     stb        r31,0x93(r30)
+        8212b134 93 fe 00 98     stw        r31,0x98(r30)
+        8212b138 93 fe 00 9c     stw        r31,0x9c(r30)
+        8212b13c 93 fe 00 a0     stw        r31,0xa0(r30)
+        8212b140 93 fe 00 a4     stw        r31,0xa4(r30)
+        8212b144 93 fe 00 a8     stw        r31,0xa8(r30)
+        8212b148 48 03 2f e9     bl         Function_8215E130                                uint * Function_8215E130(uint * 
+        8212b14c 9b fe 01 14     stb        r31,0x114(r30)
+        8212b150 38 80 00 20     li         r4,0x20
+        8212b154 7f c3 f3 78     or         r3,r30,r30
+        8212b158 4b fc b8 91     bl         Function_820F69E8                                undefined Function_820F69E8(unde
+        8212b15c 3d 60 82 04     lis        r11,-0x7dfc
+        8212b160 3b be 00 a8     addi       r29,r30,0xa8
+        8212b164 3b 80 00 02     li         r28,0x2
+        8212b168 3b 6b 54 3c     addi       r27,r11,0x543c
+                             LAB_8212b16c                                    XREF[1]:     8212b198(j)  
+        8212b16c 7f 65 db 78     or         r5=>s_cmp_file_8204543c,r27,r27                  = "cmp_file"
+        8212b170 38 c0 00 00     li         r6,0x0
+        8212b174 38 80 08 00     li         r4,0x800
+        8212b178 38 60 00 06     li         r3,0x6
+        8212b17c 48 01 ec 95     bl         Function_82149E10                                undefined Function_82149E10(void)
+        8212b180 90 7d 00 04     stw        r3,0x4(r29)
+        8212b184 93 fd 00 08     stw        r31,0x8(r29)
+        8212b188 37 9c ff ff     subic.     r28,r28,0x1
+        8212b18c 93 fd 00 0c     stw        r31,0xc(r29)
+        8212b190 93 fd 00 10     stw        r31,0x10(r29)
+        8212b194 9f fd 00 14     stbu       r31,0x14(r29)
+        8212b198 40 82 ff d4     bne        LAB_8212b16c
+        8212b19c 3d 60 82 04     lis        r11,-0x7dfc
+        8212b1a0 38 c0 00 00     li         r6,0x0
+        8212b1a4 38 ab 54 34     addi       r5=>s_dec_buf_82045434,r11,0x5434                = "dec_buf"
+        8212b1a8 38 80 40 00     li         r4,0x4000
+        8212b1ac 38 60 00 06     li         r3,0x6
+        8212b1b0 48 01 ec 61     bl         Function_82149E10                                undefined Function_82149E10(void)
+        8212b1b4 90 7e 00 94     stw        r3,0x94(r30)
+        8212b1b8 7f c3 f3 78     or         r3,r30,r30
+        8212b1bc 38 21 00 80     addi       r1,r1,0x80
+        8212b1c0 48 34 b1 04     b          LAB_824762c4
+        8212b1c4 00 00 00 00     ddw        0h
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall Save_Registers_And_Setup_Stack_FUN_8
+             undefined         r3:1           <RETURN>
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[2]:     8212b1cc(W), 
+                                                                                                   8212b23c(R)  
+             undefined8        Stack[-0x10]:8 local_10                                XREF[2]:     8212b1d4(W), 
+                                                                                                   8212b248(R)  
+             undefined8        Stack[-0x18]:8 local_18                                XREF[2]:     8212b1d0(W), 
+                                                                                                   8212b244(R)  
+             undefined4        Stack[-0x70]:4 local_70                                XREF[1]:     8212b1d8(W)  
+                             Save_Registers_And_Setup_Stack_FUN_8212b1c8     XREF[3]:     820de548(*), 
+                                                                                          Function_8212B508:8212b51c(c), 
+                                                                                          82495ddc(c)  
+        8212b1c8 7d 88 02 a6     mfspr      r12,LR                                           Save the link register (return a
+        8212b1cc 91 81 ff f8     stw        r12,local_8(r1)                                  Store r12 (LR) in local_8
+        8212b1d0 fb c1 ff e8     std        r30,local_18(r1)                                 Store r30 in local_18
+        8212b1d4 fb e1 ff f0     std        r31,local_10(r1)                                 Store r31 in local_10
+        8212b1d8 94 21 ff 90     stwu       r1,local_70(r1)                                  Adjust stack pointer and store p
+        8212b1dc 3f e0 82 ac     lis        r31,-0x7d54                                      Load immediate for address calcu
+        8212b1e0 81 5f 4c bc     lwz        r10,offset DAT_82ac4cbc(r31)                     Load data from DAT_82ac4cbc into
+        8212b1e4 2f 0a 00 00     cmpwi      cr6,r10,0x0                                      Compare r10 to 0
+        8212b1e8 40 9a 00 48     bne        cr6,Process_NonZero_ROM_Data_Increment           Branch if r10 is not 0
+        8212b1ec 3d 60 82 ac     lis        r11,-0x7d54                                      Load immediate value into r11
+        8212b1f0 3b cb 4b 98     addi       r30,r11,0x4b98                                   Add 0x4b98 to r11 and store the 
+        8212b1f4 39 7e 00 08     addi       r11,r30,0x8                                      Add 0x8 to r30 and store in r11
+        8212b1f8 39 6b 00 03     addi       r11,r11,0x3                                      Further adjust r11 by adding 3
+        8212b1fc 55 63 00 3a     rlwinm     r3=>DAT_82ac4ba0,r11,0x0,0x0,0x1d                Rotate and mask r11, store in r3
+        8212b200 2b 03 00 00     cmplwi     cr6,r3,0x0                                       Compare r3 to 0
+        8212b204 41 9a 00 18     beq        cr6,Handle_Zero_ROM_Data                         Branch if r3 is 0 (invalid data)
+        8212b208 4b ff fe d1     bl         Function_8212B0D8                                Call another function (e.g., dec
+        8212b20c 81 7f 4c bc     lwz        r11,offset DAT_82ac4cbc(r31)
+        8212b210 90 7e 00 00     stw        r3,0x0(r30)=>PTR_82ac4b98                        = 00000000
+        8212b214 39 6b 00 01     addi       r11,r11,0x1
+        8212b218 48 00 00 1c     b          Update_ROM_Data_Entry
+                             Handle_Zero_ROM_Data                            XREF[1]:     8212b204(j)  
+        8212b21c 39 60 00 00     li         r11,0x0                                          Load 0 into r11
+        8212b220 39 4a 00 01     addi       r10,r10,0x1                                      Increment r10 by 1
+        8212b224 91 7e 00 00     stw        r11,0x0(r30)=>PTR_82ac4b98                       Store 0 at PTR_82ac4b98
+        8212b228 91 5f 4c bc     stw        r10,offset DAT_82ac4cbc(r31)                     Store updated r10 at DAT_82ac4cbc
+        8212b22c 48 00 00 0c     b          Restore_Stack_Pointer_And_Exit                   Jump to LAB_8212b238
+                             Process_NonZero_ROM_Data_Increment              XREF[1]:     8212b1e8(j)  
+        8212b230 39 6a 00 01     addi       r11,r10,0x1                                      Increment r10 by 1
+                             Update_ROM_Data_Entry                           XREF[1]:     8212b218(j)  
+        8212b234 91 7f 4c bc     stw        r11,offset DAT_82ac4cbc(r31)                     Store the updated r11 value into
+                             Restore_Stack_Pointer_And_Exit                  XREF[1]:     8212b22c(j)  
+        8212b238 38 21 00 70     addi       r1,r1,0x70                                       Restore stack pointer
+        8212b23c 81 81 ff f8     lwz        r12,local_8(r1)                                  Restore saved LR (return address)
+        8212b240 7d 88 03 a6     mtspr      LR,r12                                           Restore LR from r12
+        8212b244 eb c1 ff e8     ld         r30,local_18(r1)                                 Restore r30
+        8212b248 eb e1 ff f0     ld         r31,local_10(r1)                                 Restore r31
+        8212b24c 4e 80 00 20     blr                                                         Return from function
