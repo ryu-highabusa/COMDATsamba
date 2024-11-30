@@ -14,7 +14,7 @@
 |	12	|	M・ハーン	|	M-Khan	|	M	|	投げ系	|	Throw-Based	|	モンゴルズモウ	|	Mongoluzumou Mongolian Sumo	|
 |	.	|	イプシロン	|	Epsilon	|	Robot	|	.	|	.	|	『パワー系』	|	“Power System”	|
 |	.	|	ファン・フー	|	Fan Fu	|	M	|	.	|	.	|	心意六合拳	|	Xīnyì liùhé quán Shin'irokugōken	|
-|	.	|	ホン・ディ | Hong Di | M	|	.	|	.	|	
+|	.	|	ホン・ディ | Hong Di | M	|	.	|	.	|	心意六合拳	|	Xīnyì liùhé quán Shin'irokugōken	|
 |	.	|	フォンデイー	|	Fondei	|	M	|	.	|	.	|	太極拳	|	Tai Chi Taikyokuken	|
 |	.	|	ギャツビー	|	Gatsby	|	M	|	.	|	.	|	サンボ	|	Sambo	|
 |	.	|	カムイ	|	Kamui	|	M	|	.	|	.	|	忍者	|	Ninja	|
