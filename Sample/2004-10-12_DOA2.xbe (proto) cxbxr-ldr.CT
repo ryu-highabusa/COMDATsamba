@@ -94,14 +94,14 @@
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
-      <Description>"00851520"</Description>
+      <Description>"DOA1 or 2 FLAG"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>00851520</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>14</ID>
-      <Description>"No description"</Description>
+      <Description>"Kasumi Character Select Slot (20 bytes)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -109,11 +109,123 @@
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
-      <Description>"No description"</Description>
+      <Description>"Genfu Character Select Slot (20 bytes)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
-      <Address>cxbxr-ldr.exe+6CC47C</Address>
+      <Address>cxbxr-ldr.exe+6CC44C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC460</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC474</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC488</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC49C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC4B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC4C4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC4D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC4EC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC500</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC514</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC528</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC53C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC550</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>44</ByteLength>
+      <Address>cxbxr-ldr.exe+6CC564</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
