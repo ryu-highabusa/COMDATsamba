@@ -119,7 +119,6 @@
     <CheatEntry>
       <ID>379</ID>
       <Description>"STAGE_SELECT_ID"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
