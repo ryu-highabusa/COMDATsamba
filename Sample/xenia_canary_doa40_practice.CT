@@ -59,6 +59,15 @@
       <Address>182502197</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>857</ID>
+      <Description>"ANIME_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830201b8</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>451</ID>
       <Description>"ACT_CODE_P1"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -76,13 +85,13 @@
       <Address>1830201BF</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>857</ID>
-      <Description>"ANIME_P1"</Description>
+      <ID>858</ID>
+      <Description>"ANIME_P2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
-      <Address>1830201b8</Address>
+      <Address>183020254</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>452</ID>
@@ -99,15 +108,6 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>18302025B</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>858</ID>
-      <Description>"ANIME_P2"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
-      <Address>183020254</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>292</ID>
