@@ -148,11 +148,25 @@
       <Address>183020188</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>854</ID>
+      <Description>"CHAR_NUM_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020189</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>465</ID>
       <Description>"MANCOM_P2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>183020224</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>855</ID>
+      <Description>"CHAR_NUM_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020225</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>197</ID>
