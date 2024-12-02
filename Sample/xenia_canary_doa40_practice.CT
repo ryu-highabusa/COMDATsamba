@@ -100,6 +100,15 @@
     </CheatEntry>
     <CheatEntry>
       <ID>379</ID>
+      <Description>"STAGE_SELECT_ID"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830f7c98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>856</ID>
       <Description>"STAGE_DISPLAY"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -182,6 +191,13 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1830a54c8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>371</ID>
+      <Description>"RULE_ON"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EA969</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
