@@ -1,0 +1,188 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall FUN_00004a20(void)
+             undefined         g0:1           <RETURN>
+                             FUN_00004a20                                    XREF[1]:     caseD_1:00002f68(c)  
+        00004a20 00 00 00 0a     ret
+        00004a24 00 00 00 00     ddw        0h
+        00004a28 00 00 00 00     ddw        0h
+        00004a2c 00 00 00 00     ddw        0h
+                             s__00004a30                                     XREF[1]:     00004b1c(*)  
+        00004a30 20 20 20        ds         "                     \n"
+                 20 20 20 
+                 20 20 20 
+        00004a50 00 30 a0        ldob       ButtonPress_P1_0054fccd,g4
+                 80 cd fc 
+                 54 00
+        00004a58 87 08 a5 58     and        0x7,g4,g4
+        00004a5c 48 20 3d 3d     cmpibne    0x7,g4,LAB_00004aa4
+        00004a60 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fcd4,g4
+                 80 d4 fc 
+                 54 00
+        00004a68 3c 20 25 30     bbc        0x4,g4,LAB_00004aa4
+        00004a6c 00 30 80        lda        TMAPBASE_01000000,g0
+                 8c 00 00 
+                 00 01
+        00004a74 7c 3b 00 09     call       FUN_000085f0                                     undefined FUN_000085f0(undefined
+        00004a78 00 30 80        lda        DAT_01004000,g0
+                 8c 00 40 
+                 00 01
+                             LAB_00004a80                                    XREF[1]:     0006c348(*)  
+        00004a80 70 3b 00 09     call       FUN_000085f0                                     undefined FUN_000085f0(undefined
+                             LAB_00004a84                                    XREF[1]:     0006c15c(*)  
+        00004a84 00 30 80        lda        DAT_01002000,g0
+                 8c 00 20 
+                 00 01
+        00004a8c 64 3b 00 09     call       FUN_000085f0                                     undefined FUN_000085f0(undefined
+        00004a90 00 30 80        lda        DAT_01006000,g0
+                 8c 00 60 
+                 00 01
+                             LAB_00004a98                                    XREF[1]:     0006c0fc(*)  
+        00004a98 58 3b 00 09     call       FUN_000085f0                                     undefined FUN_000085f0(undefined
+                             LAB_00004a9c                                    XREF[1]:     0006c240(*)  
+        00004a9c 54 18 00 09     call       FUN_000062f0                                     undefined FUN_000062f0(void)
+                             LAB_00004aa0                                    XREF[1]:     00004aa0(j)  
+        00004aa0 00 00 00 08     b          LAB_00004aa0
+                             LAB_00004aa4                                    XREF[2]:     00004a5c(j), 00004a68(j)  
+        00004aa4 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fcd4,g4
+                 80 d4 fc 
+                 54 00
+        00004aac 24 20 25 30     bbc        0x4,g4,LAB_00004ad0
+        00004ab0 00 30 a0        ldob       ButtonPress_P1_0054fccd,g4
+                 80 cd fc 
+                 54 00
+        00004ab8 18 20 05 30     bbc        0x0,g4,LAB_00004ad0
+        00004abc 00 30 a0        ld         DAT_0054f3cc_debug1???,g4
+                 90 cc f3 
+                 54 00
+        00004ac4 14 50 a0 59     addo       g4,0x1,g4
+        00004ac8 00 30 a0        st         g4,DAT_0054f3cc_debug1???
+                 92 cc f3 
+                 54 00
+                             LAB_00004ad0                                    XREF[2]:     00004aac(j), 00004ab8(j)  
+        00004ad0 00 30 a0        ld         DAT_0054f3f0_debug0???,g4
+                 90 f0 f3 
+                 54 00
+        00004ad8 58 20 05 3d     cmpibne    0x0,g4,LAB_00004b30
+        00004adc 00 30 a0        ld         DAT_0054f3cc_debug1???,g4
+                 90 cc f3 
+                 54 00
+        00004ae4 14 20 0d 3d     cmpibne    0x1,g4,LAB_00004af8
+        00004ae8 01 1e 80 5c     mov        0x1,g0
+        00004aec 0a 1e 88 5c     mov        0xa,g1
+        00004af0 80 3d 00 09     call       FUN_00008870                                     undefined FUN_00008870(undefined
+        00004af4 0c 06 00 09     call       FUN_00005100_Debug?                              undefined FUN_00005100_Debug?(vo
+                             LAB_00004af8                                    XREF[1]:     00004ae4(j)  
+        00004af8 00 30 a0        ld         DAT_0054f3cc_debug1???,g4
+                 90 cc f3 
+                 54 00
+        00004b00 30 20 15 3d     cmpibne    0x2,g4,LAB_00004b30
+        00004b04 00 30 f0        st         g14,DAT_0054f3cc_debug1???
+                 92 cc f3 
+                 54 00
+        00004b0c 01 1e 80 5c     mov        0x1,g0
+        00004b10 0a 1e 88 5c     mov        0xa,g1
+        00004b14 5c 3d 00 09     call       FUN_00008870                                     undefined FUN_00008870(undefined
+        00004b18 00 1e 20 5c     mov        0x0,r4
+                             LAB_00004b1c                                    XREF[1]:     00004b2c(j)  
+        00004b1c 00 30 80        lda        s__00004a30,g0                                   = "                     \n"
+                 8c 30 4a 
+                 00 00
+        00004b24 1c 9c 08 09     call       FUN_0008e740                                     undefined FUN_0008e740(undefined
+        00004b28 04 50 20 59     addo       r4,0x1,r4
+        00004b2c f0 3f f9 3b     cmpibge    0x1f,r4,LAB_00004b1c
+                             LAB_00004b30                                    XREF[2]:     00004ad8(j), 00004b00(j)  
+        00004b30 00 30 a0        ldob       GameMode_0054fcb3,g4
+                 80 b3 fc 
+                 54 00
+        00004b38 e8 20 0d 3d     cmpibne    0x1,g4,LAB_00004c20
+        00004b3c 00 30 a0        ld         DAT_0054f3b4,g4
+                 90 b4 f3 
+                 54 00
+        00004b44 dc 20 05 3d     cmpibne    0x0,g4,LAB_00004c20
+        00004b48 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fcd4,g4
+                 80 d4 fc 
+                 54 00
+        00004b50 24 20 25 30     bbc        0x4,g4,LAB_00004b74
+        00004b54 00 30 a0        ldob       ButtonPress_P1_0054fccd,g4
+                 80 cd fc 
+                 54 00
+        00004b5c 18 20 15 30     bbc        0x2,g4,LAB_00004b74
+        00004b60 00 30 a0        ld         DAT_0054f3c8,g4
+                 90 c8 f3 
+                 54 00
+        00004b68 01 0b a5 58     xor        0x1,g4,g4
+        00004b6c 00 30 a0        st         g4,DAT_0054f3c8
+                 92 c8 f3 
+                 54 00
+                             LAB_00004b74                                    XREF[2]:     00004b50(j), 00004b5c(j)  
+        00004b74 00 30 a0        ld         DAT_0054f3c8,g4
+                 90 c8 f3 
+                 54 00
+        00004b7c 94 20 0d 3d     cmpibne    0x1,g4,LAB_00004c10
+        00004b80 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fcd4,g4
+                 80 d4 fc 
+                 54 00
+        00004b88 18 20 25 30     bbc        0x4,g4,LAB_00004ba0
+        00004b8c 00 30 a0        ld         DAT_0054f3c0,g4
+                 90 c0 f3 
+                 54 00
+        00004b94 08 20 0d 3d     cmpibne    0x1,g4,LAB_00004b9c
+        00004b98 28 01 00 09     call       FUN_00004cc0                                     undefined FUN_00004cc0(void)
+                             LAB_00004b9c                                    XREF[1]:     00004b94(j)  
+        00004b9c 00 00 00 0a     ret
+                             LAB_00004ba0                                    XREF[1]:     00004b88(j)  
+        00004ba0 00 30 a0        ldob       ButtonCoinTestServiceStart_0054fccc,g4
+                 80 cc fc 
+                 54 00
+        00004ba8 4c 20 25 30     bbc        0x4,g4,LAB_00004bf4
+        00004bac 00 30 a0        ld         DAT_0054f3c4,g4
+                 90 c4 f3 
+                 54 00
+        00004bb4 18 20 9d 3b     cmpibge    0x13,g4,LAB_00004bcc
+        00004bb8 00 30 a0        ld         DAT_0054f3c0,g4
+                 90 c0 f3 
+                 54 00
+        00004bc0 48 20 0d 3d     cmpibne    0x1,g4,LAB_00004c08
+        00004bc4 fc 00 00 09     call       FUN_00004cc0                                     undefined FUN_00004cc0(void)
+        00004bc8 00 00 00 0a     ret
+                             LAB_00004bcc                                    XREF[1]:     00004bb4(j)  
+        00004bcc 00 30 a0        ld         DAT_0054f3c4,g4
+                 90 c4 f3 
+                 54 00
+        00004bd4 14 50 a0 59     addo       g4,0x1,g4
+        00004bd8 00 30 a0        st         g4,DAT_0054f3c4
+                 92 c4 f3 
+                 54 00
+        00004be0 00 30 a0        ld         DAT_0054f3c0,g4
+                 90 c0 f3 
+                 54 00
+        00004be8 08 20 05 3d     cmpibne    0x0,g4,LAB_00004bf0
+        00004bec 94 00 00 09     call       FUN_00004c80                                     undefined FUN_00004c80(void)
+                             LAB_00004bf0                                    XREF[1]:     00004be8(j)  
+        00004bf0 00 00 00 0a     ret
+                             LAB_00004bf4                                    XREF[1]:     00004ba8(j)  
+        00004bf4 00 30 f0        st         g14,DAT_0054f3c4
+                 92 c4 f3 
+                 54 00
+        00004bfc 00 30 a0        ld         DAT_0054f3c0,g4
+                 90 c0 f3 
+                 54 00
+        00004c04 08 20 05 3d     cmpibne    0x0,g4,LAB_00004c0c
+                             LAB_00004c08                                    XREF[1]:     00004bc0(j)  
+        00004c08 78 00 00 09     call       FUN_00004c80                                     undefined FUN_00004c80(void)
+                             LAB_00004c0c                                    XREF[1]:     00004c04(j)  
+        00004c0c 00 00 00 0a     ret
+                             LAB_00004c10                                    XREF[1]:     00004b7c(j)  
+        00004c10 00 30 a0        ld         DAT_0054f3c0,g4
+                 90 c0 f3 
+                 54 00
+        00004c18 08 20 0d 3d     cmpibne    0x1,g4,LAB_00004c20
+        00004c1c a4 00 00 09     call       FUN_00004cc0                                     undefined FUN_00004cc0(void)
+                             LAB_00004c20                                    XREF[3]:     00004b38(j), 00004b44(j), 
+                                                                                          00004c18(j)  
+        00004c20 00 00 00 0a     ret
+        00004c24 00 00 00 00     ddw        0h
+        00004c28 00 00 00 00     ddw        0h
+        00004c2c 00 00 00 00     ddw        0h
