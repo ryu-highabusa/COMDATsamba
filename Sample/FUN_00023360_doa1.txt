@@ -1,0 +1,168 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall FUN_00023360(int param_1, undefined4
+             undefined         g0:1           <RETURN>
+             int               g0:4           param_1
+             undefined4        g1:4           param_2
+             undefined4        g2:4           param_3
+             undefined4        g3:4           param_4
+                             FUN_00023360                                    XREF[1]:     FUN_000232a0:0002332c(c)  
+        00023360 10 16 38 5c     mov        param_1,r7
+        00023364 00 1e 28 5c     mov        0x0,r5
+        00023368 01 ce a1 59     shlo       0x1,r7,g4
+        0002336c 07 00 a5 59     addo       r7,g4,g4
+        00023370 02 0e a5 59     shlo       0x2,g4,g4
+        00023374 07 01 a5 59     subo       r7,g4,g4
+        00023378 94 39 20        lda        MAN_COM_P1_0054fc00* [g4 * 0x8],r4
+                 8c 00 fc 
+                 54 00
+        00023380 47 20 a1 80     ldob       0x47 (r4),g4=>RING_HIT_P1_0054fc47
+        00023384 01 09 a5 59     subo       0x1,g4,g4
+        00023388 98 20 25 34     cmpobl     0x4,g4,LAB_00023420
+        0002338c 14 39 a0        ld         switchD_00023394::switchdataD_00023398 [g4 * 0   = 000233ac
+                 90 98 33 
+                 02 00
+                             switchD_00023394::switchD
+        00023394 00 10 05 84     bx         (g4)
+                             switchD_00023394::switchdataD_00023398          XREF[1]:     FUN_00023360:0002338c(*)  
+        00023398 ac 33 02 00     addr       switchD_00023394::caseD_0
+        0002339c c4 33 02 00     addr       switchD_00023394::caseD_1
+        000233a0 dc 33 02 00     addr       switchD_00023394::caseD_2
+        000233a4 00 34 02 00     addr       switchD_00023394::caseD_3
+        000233a8 18 34 02 00     addr       switchD_00023394::caseD_4
+                             switchD_00023394::caseD_0                       XREF[2]:     00023394(j), 00023398(*)  
+        000233ac 2e 20 a1 80     ldob       0x2e (r4),g4=>POSE_STA_P1_0054fc2e
+        000233b0 80 28 05 5a     cmpi       0x0,g4
+        000233b4 1f d8 35 59     addo       0x1f,0x17,r6
+        000233b8 40 00 00 15     bne        LAB_000233f8
+        000233bc 1f 58 35 59     addo       0x1f,0x15,r6
+        000233c0 38 00 00 08     b          LAB_000233f8
+                             switchD_00023394::caseD_1                       XREF[2]:     00023394(j), 0002339c(*)  
+        000233c4 2e 20 a1 80     ldob       0x2e (r4),g4=>POSE_STA_P1_0054fc2e
+        000233c8 80 28 05 5a     cmpi       0x0,g4
+        000233cc 1f d8 35 59     addo       0x1f,0x17,r6
+        000233d0 20 00 00 15     bne        LAB_000233f0
+        000233d4 1f 58 35 59     addo       0x1f,0x15,r6
+        000233d8 18 00 00 08     b          LAB_000233f0
+                             switchD_00023394::caseD_2                       XREF[2]:     00023394(j), 000233a0(*)  
+        000233dc 2e 20 a1 80     ldob       0x2e (r4),g4=>POSE_STA_P1_0054fc2e
+        000233e0 80 28 05 5a     cmpi       0x0,g4
+        000233e4 1f 18 36 59     addo       0x1f,0x18,r6
+        000233e8 08 00 00 15     bne        LAB_000233f0
+        000233ec 1f 98 35 59     addo       0x1f,0x16,r6
+                             LAB_000233f0                                    XREF[3]:     000233d0(j), 000233d8(j), 
+                                                                                          000233e8(j)  
+        000233f0 01 1e 90 5c     mov        0x1,param_3
+        000233f4 34 20 91 82     stob       param_3,offset ANIM_FLIP_P1_0054fc34 (r4)
+                             LAB_000233f8                                    XREF[4]:     000233b8(j), 000233c0(j), 
+                                                                                          0002340c(j), 00023414(j)  
+        000233f8 01 1e 28 5c     mov        0x1,r5
+        000233fc 24 00 00 08     b          LAB_00023420
+                             switchD_00023394::caseD_3                       XREF[2]:     00023394(j), 000233a4(*)  
+        00023400 2e 20 a1 80     ldob       0x2e (r4),g4=>POSE_STA_P1_0054fc2e
+        00023404 80 28 05 5a     cmpi       0x0,g4
+        00023408 1f 18 36 59     addo       0x1f,0x18,r6
+        0002340c ec ff ff 15     bne        LAB_000233f8
+        00023410 1f 98 35 59     addo       0x1f,0x16,r6
+        00023414 e4 ff ff 08     b          LAB_000233f8
+                             switchD_00023394::caseD_4                       XREF[2]:     00023394(j), 000233a8(*)  
+        00023418 07 16 80 5c     mov        r7,param_1
+        0002341c 34 03 00 09     call       FUN_00023750                                     undefined FUN_00023750(int param
+                             LAB_00023420                                    XREF[2]:     00023388(j), 000233fc(j)  
+        00023420 1c 61 09 3d     cmpibne    0x1,r5,LAB_0002353c
+        00023424 14 20 b1 90     ld         0x14 (r4),g6=>DIRECT_P1_0054fc14
+        00023428 04 20 a9 90     ld         0x4 (r4),g5=>XPOS_P1_0054fc04                    = 0.0
+        0002342c 90 6a 05 68     cmpr       +0.0,g5
+        00023430 08 00 00 16     ble        LAB_00023438
+        00023434 1f 48 ad 58     notbit     0x1f,g5,g5
+                             LAB_00023438                                    XREF[1]:     00023430(j)  
+        00023438 0c 20 a1 90     ld         0xc (r4),g4=>ZPOS_P1_0054fc0c                    = 0.0
+        0002343c 90 2a 05 68     cmpr       +0.0,g4
+        00023440 08 00 00 16     ble        LAB_00023448
+        00023444 1f 08 a5 58     notbit     0x1f,g4,g4
+                             LAB_00023448                                    XREF[1]:     00023440(j)  
+        00023448 95 22 05 68     cmpr       g5,g4
+        0002344c 24 00 00 14     bl         LAB_00023470
+        00023450 04 20 a1 90     ld         0x4 (r4),g4=>XPOS_P1_0054fc04                    = 0.0
+        00023454 94 34 00 6c     movr       g4,fp0
+        00023458 80 1c a0 6d     movrl      fp0,g4
+        0002345c 90 2a 05 69     cmprl      +0.0,g4
+        00023460 44 00 00 16     ble        LAB_000234a4
+        00023464 00 b4 b5        lda        -0x8000 (g6),g6
+                 8c 00 80 
+                 ff ff
+        0002346c 2c 00 00 08     b          LAB_00023498
+                             LAB_00023470                                    XREF[1]:     0002344c(j)  
+        00023470 0c 20 a1 90     ld         0xc (r4),g4=>ZPOS_P1_0054fc0c                    = 0.0
+        00023474 94 34 00 6c     movr       g4,fp0
+        00023478 80 1c a0 6d     movrl      fp0,g4
+        0002347c 90 2a 05 69     cmprl      +0.0,g4
+        00023480 10 00 00 11     bg         LAB_00023490
+        00023484 00 b4 b5        lda        -0x4000 (g6),g6
+                 8c 00 c0 
+                 ff ff
+        0002348c 0c 00 00 08     b          LAB_00023498
+                             LAB_00023490                                    XREF[1]:     00023480(j)  
+        00023490 00 b4 b5        lda        -0xc000 (g6),g6
+                 8c 00 40 
+                 ff ff
+                             LAB_00023498                                    XREF[2]:     0002346c(j), 0002348c(j)  
+        00023498 00 30 90        lda        0xffff,param_3
+                 8c ff ff 
+                 00 00
+        000234a0 96 80 b4 58     and        g6,param_3,g6
+                             LAB_000234a4                                    XREF[1]:     00023460(j)  
+        000234a4 ff 00 90 8c     lda        0xff,param_3
+        000234a8 86 80 a4 58     and        r6,param_3,g4
+        000234ac 1f 58 95 59     addo       0x1f,0x15,param_3
+        000234b0 0c 80 a4 3a     cmpibe     g4,param_3,LAB_000234bc
+        000234b4 1f d8 95 59     addo       0x1f,0x17,param_3
+        000234b8 28 80 a4 3d     cmpibne    g4,param_3,LAB_000234e0
+                             LAB_000234bc                                    XREF[1]:     000234b0(j)  
+        000234bc 00 b4 a5        lda        LAB_00004000 (g6),g4
+                 8c 00 40 
+                 00 00
+        000234c4 00 30 90        lda        0xffff,param_3
+                 8c ff ff 
+                 00 00
+        000234cc 94 80 a4 58     and        g4,param_3,g4
+        000234d0 00 30 90        lda        0x7fff,param_3
+                 8c ff 7f 
+                 00 00
+        000234d8 44 80 a4 3e     cmpible    g4,param_3,LAB_0002351c
+        000234dc 24 00 00 08     b          LAB_00023500
+                             LAB_000234e0                                    XREF[1]:     000234b8(j)  
+        000234e0 00 b4 a5        lda        LAB_00004000 (g6),g4
+                 8c 00 40 
+                 00 00
+        000234e8 00 30 90        lda        0xffff,param_3
+                 8c ff ff 
+                 00 00
+        000234f0 94 80 a4 58     and        g4,param_3,g4
+        000234f4 00 30 90        lda        0x7fff,param_3
+                 8c ff 7f 
+                 00 00
+        000234fc 20 80 a4 39     cmpibg     g4,param_3,LAB_0002351c
+                             LAB_00023500                                    XREF[1]:     000234dc(j)  
+        00023500 14 20 a1 90     ld         0x14 (r4),g4=>DIRECT_P1_0054fc14
+        00023504 00 34 a5        lda        0x8000 (g4),g4
+                 8c 00 80 
+                 00 00
+        0002350c 00 30 90        lda        0xffff,param_3
+                 8c ff ff 
+                 00 00
+        00023514 94 80 a4 58     and        g4,param_3,g4
+        00023518 14 20 a1 92     st         g4,offset DIRECT_P1_0054fc14 (r4)
+                             LAB_0002351c                                    XREF[2]:     000234d8(j), 000234fc(j)  
+        0002351c 96 3c 00 6c     movr       +1.0,fp0
+        00023520 80 1c 90 6c     movr       fp0,param_3
+        00023524 08 20 91 92     st         param_3,offset YPOS_P1_0054fc08 (r4)             = 0.0
+        00023528 35 20 f1 82     stob       g14,offset ANIM_FLAG_P1_0054fc35 (r4)
+        0002352c ff 00 90 8c     lda        0xff,param_3
+        00023530 86 80 84 58     and        r6,param_3,param_1
+        00023534 07 16 88 5c     mov        r7,param_2
+        00023538 a8 19 00 08     b          FUN_00024ee0                                     undefined FUN_00024ee0(undefined
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+                             LAB_0002353c                                    XREF[1]:     00023420(j)  
+        0002353c 00 00 00 0a     ret
