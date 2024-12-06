@@ -19,6 +19,11 @@ def read_anim_defs(file_path, offset_21, anim_def_value):
         # Go to the actual Anim-def data
         f.seek(anim_def_pointer)
 
+        # Read a larger chunk of data to check what's at the pointer
+        chunk_size = 64  # Read 64 bytes to inspect the data
+        chunk_data = f.read(chunk_size)
+        print(f"Data at pointer ({hex(anim_def_pointer)}): {chunk_data.hex()}")
+
         anim_def_data = []
         while True:
             # Safely read 2 bytes
