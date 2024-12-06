@@ -16,6 +16,13 @@ def read_anim_defs(file_path, offset_21, anim_def_value):
         anim_def_pointer = struct.unpack("<I", anim_def_pointer_data)[0]
         print(f"Anim-def pointer: {hex(anim_def_pointer)}")  # Debugging line
 
+        # Check if the pointer is within the file bounds
+        f.seek(0, 2)  # Move to the end of the file
+        file_size = f.tell()
+        if anim_def_pointer >= file_size:
+            print(f"Error: Anim-def pointer {hex(anim_def_pointer)} is beyond the file size ({hex(file_size)}).")
+            return []
+
         # Go to the actual Anim-def data
         f.seek(anim_def_pointer)
 
@@ -23,6 +30,10 @@ def read_anim_defs(file_path, offset_21, anim_def_value):
         chunk_size = 64  # Read 64 bytes to inspect the data
         chunk_data = f.read(chunk_size)
         print(f"Data at pointer ({hex(anim_def_pointer)}): {chunk_data.hex()}")
+
+        if not chunk_data:
+            print("No data found at the pointer.")
+            return []
 
         anim_def_data = []
         while True:
