@@ -6405,6 +6405,49 @@
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>1830eb97c</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>887</ID>
+      <Description>"CHARACTER.bin P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>120</ByteLength>
+      <Address>1007D4000</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>888</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183099E01</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>890</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183099E01</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>889</ID>
+      <Description>"DAT_83099e20"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183099e20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>891</ID>
+      <Description>"DAT_83099e20"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183099e20</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
