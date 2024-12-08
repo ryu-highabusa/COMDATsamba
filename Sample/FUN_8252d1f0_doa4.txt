@@ -1,0 +1,214 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined FUN_8252d1f0()
+             undefined         r3:1           <RETURN>
+             undefined4        Stack[-0x2c]:4 local_2c                                XREF[1]:     8252d2e0(R)  
+             undefined4        Stack[-0x30]:4 local_30                                XREF[2]:     8252d214(W), 
+                                                                                                   8252d300(R)  
+             undefined4        Stack[-0x80]:4 local_80                                XREF[1]:     8252d1f0(W)  
+                             FUN_8252d1f0
+        8252d1f0 94 21 ff 80     stwu       r1,local_80(r1)
+        8252d1f4 3d 60 83 30     lis        r11,-0x7cd0
+        8252d1f8 3d 20 00 0f     lis        r9,0xf
+        8252d1fc 3b eb 07 60     addi       r31,r11,0x760
+        8252d200 3d 60 00 0f     lis        r11,0xf
+        8252d204 61 28 00 8c     ori        r8,r9,0x8c
+        8252d208 61 6a 00 8c     ori        r10,r11,0x8c
+        8252d20c 3b a0 00 00     li         r29,0x0
+        8252d210 7d 7f 50 2e     lwzx       r11,r31,r10=>DAT_833f07ec
+        8252d214 93 a1 00 50     stw        r29,local_30(r1)
+        8252d218 39 6b 00 01     addi       r11,r11,0x1
+        8252d21c 7d 7f 41 2e     stwx       r11,r31,r8=>DAT_833f07ec
+        8252d220 80 ff 00 24     lwz        r7,0x24(r31)=>DAT_83300784
+        8252d224 2b 07 00 00     cmplwi     cr6,r7,0x0
+        8252d228 40 9a 00 0c     bne        cr6,LAB_8252d234
+        8252d22c 38 c0 00 01     li         r6,0x1
+        8252d230 90 df 00 24     stw        r6,0x24(r31)=>DAT_83300784
+                             LAB_8252d234                                    XREF[1]:     8252d228(j)  
+        8252d234 3d 60 82 19     lis        r11,-0x7de7
+        8252d238 38 c0 00 00     li         r6,0x0
+        8252d23c 3b cb 82 10     subi       r30,r11,0x7df0
+        8252d240 38 a1 00 50     addi       r5,r1,0x50
+        8252d244 38 7e f8 f8     subi       r3=>s_D:\Sound\doa4_sound.xgs_82187b08,r30,0x708 = "D:\\Sound\\doa4_sound.xgs"
+        8252d248 38 81 00 54     addi       r4,r1,0x54
+        8252d24c 48 00 0b a5     bl         Function_8252DDF0                                undefined Function_8252DDF0()
+        8252d250 3c a0 00 0f     lis        r5,0xf
+        8252d254 2f 03 00 00     cmpwi      cr6,r3,0x0
+        8252d258 60 a4 00 8c     ori        r4,r5,0x8c
+        8252d25c 40 98 00 4c     bge        cr6,LAB_8252d2a8
+        8252d260 7d 7f 20 2e     lwzx       r11,r31,r4=>DAT_833f07ec
+        8252d264 3c 60 00 0f     lis        r3,0xf
+        8252d268 39 6b ff ff     subi       r11,r11,0x1
+        8252d26c 60 6a 00 8c     ori        r10,r3,0x8c
+        8252d270 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8252d274 7d 7f 51 2e     stwx       r11,r31,r10=>DAT_833f07ec
+        8252d278 40 98 00 20     bge        cr6,LAB_8252d298
+        8252d27c 3d 20 00 0f     lis        r9,0xf
+        8252d280 7f ab eb 78     or         r11,r29,r29
+        8252d284 61 28 00 8c     ori        r8,r9,0x8c
+        8252d288 7d 7f 41 2e     stwx       r11,r31,r8=>DAT_833f07ec
+        8252d28c 93 bf 00 24     stw        r29,0x24(r31)=>DAT_83300784
+        8252d290 38 21 00 80     addi       r1,r1,0x80
+        8252d294 48 4c 1a 88     b          switchD_82426b00::caseD_4
+                             LAB_8252d298                                    XREF[1]:     8252d278(j)  
+        8252d298 40 9a 02 30     bne        cr6,LAB_8252d4c8
+        8252d29c 93 bf 00 24     stw        r29,0x24(r31)=>DAT_83300784
+        8252d2a0 38 21 00 80     addi       r1,r1,0x80
+        8252d2a4 48 4c 1a 78     b          switchD_82426b00::caseD_4
+                             LAB_8252d2a8                                    XREF[1]:     8252d25c(j)  
+        8252d2a8 3c e0 00 0f     lis        r7,0xf
+        8252d2ac 60 e6 00 8c     ori        r6,r7,0x8c
+        8252d2b0 7d 7f 30 2e     lwzx       r11,r31,r6=>DAT_833f07ec
+        8252d2b4 39 6b ff ff     subi       r11,r11,0x1
+        8252d2b8 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8252d2bc 7d 7f 21 2e     stwx       r11,r31,r4=>DAT_833f07ec
+        8252d2c0 40 98 00 18     bge        cr6,LAB_8252d2d8
+        8252d2c4 3c 60 00 0f     lis        r3,0xf
+        8252d2c8 7f ab eb 78     or         r11,r29,r29
+        8252d2cc 60 6a 00 8c     ori        r10,r3,0x8c
+        8252d2d0 7d 7f 51 2e     stwx       r11,r31,r10=>DAT_833f07ec
+        8252d2d4 48 00 00 08     b          LAB_8252d2dc
+                             LAB_8252d2d8                                    XREF[1]:     8252d2c0(j)  
+        8252d2d8 40 9a 00 08     bne        cr6,LAB_8252d2e0
+                             LAB_8252d2dc                                    XREF[1]:     8252d2d4(j)  
+        8252d2dc 93 bf 00 24     stw        r29,0x24(r31)=>DAT_83300784
+                             LAB_8252d2e0                                    XREF[1]:     8252d2d8(j)  
+        8252d2e0 81 61 00 54     lwz        r11,local_2c(r1)
+        8252d2e4 3d 40 83 19     lis        r10,-0x7ce7
+        8252d2e8 3b e0 ff ff     li         r31,-0x1
+        8252d2ec 3c 60 00 01     lis        r3,0x1
+        8252d2f0 38 c0 00 04     li         r6,0x4
+        8252d2f4 38 a0 00 10     li         r5,0x10
+        8252d2f8 91 6a 40 48     stw        r11,offset DAT_83194048(r10)
+        8252d2fc 3d 40 83 19     lis        r10,-0x7ce7
+        8252d300 81 61 00 50     lwz        r11,local_30(r1)
+        8252d304 7f e4 fb 78     or         r4,r31,r31
+        8252d308 60 63 10 00     ori        r3,r3,0x1000
+        8252d30c 91 6a 40 4c     stw        r11,offset DAT_8319404c(r10)
+        8252d310 48 25 06 c1     bl         Function_8277D9D0                                undefined Function_8277D9D0()
+        8252d314 3d 60 83 0f     lis        r11,-0x7cf1
+        8252d318 3c 80 00 01     lis        r4,0x1
+        8252d31c 60 84 10 00     ori        r4,r4,0x1000
+        8252d320 90 6b 7d b8     stw        r3,offset DAT_830f7db8(r11)
+        8252d324 48 22 ba 75     bl         Function_82758D98                                undefined Function_82758D98()
+        8252d328 2f 03 00 00     cmpwi      cr6,r3,0x0
+        8252d32c 41 98 01 9c     blt        cr6,LAB_8252d4c8
+        8252d330 38 c0 00 04     li         r6,0x4
+        8252d334 38 a0 00 10     li         r5,0x10
+        8252d338 7f e4 fb 78     or         r4,r31,r31
+        8252d33c 38 60 02 80     li         r3,0x280
+        8252d340 48 25 06 91     bl         Function_8277D9D0                                undefined Function_8277D9D0()
+        8252d344 3d 60 83 0f     lis        r11,-0x7cf1
+        8252d348 38 80 02 80     li         r4,0x280
+        8252d34c 90 6b 7d b0     stw        r3,offset DAT_830f7db0(r11)
+        8252d350 48 23 43 e1     bl         Function_82761730                                undefined Function_82761730()
+        8252d354 2f 03 00 00     cmpwi      cr6,r3,0x0
+        8252d358 41 98 01 70     blt        cr6,LAB_8252d4c8
+        8252d35c 3d 60 82 05     lis        r11,-0x7dfb
+        8252d360 3f e0 83 19     lis        r31,-0x7ce7
+        8252d364 c0 0b fe a0     lfs        f0,-0x160(r11)=>FLOAT_8204fea0                   = 1.0
+        8252d368 3d 60 83 19     lis        r11,-0x7ce7
+        8252d36c 81 5f 40 44     lwz        r10,offset DAT_83194044(r31)
+        8252d370 81 2b 2a 40     lwz        r9,offset DAT_83192a40(r11)
+        8252d374 d0 0a 00 08     stfs       f0,0x8(r10)
+        8252d378 2b 09 00 00     cmplwi     cr6,r9,0x0
+        8252d37c 40 9a 00 14     bne        cr6,LAB_8252d390
+        8252d380 3d 20 83 0f     lis        r9,-0x7cf1
+        8252d384 39 29 7e 20     addi       r9,r9,0x7e20
+        8252d388 91 2b 2a 40     stw        r9=>DAT_830f7e20,offset DAT_83192a40(r11)
+        8252d38c 93 c9 00 00     stw        r30=>DAT_82188210,0x0(r9)=>DAT_830f7e20
+                             LAB_8252d390                                    XREF[1]:     8252d37c(j)  
+        8252d390 3d 20 83 19     lis        r9,-0x7ce7
+        8252d394 81 69 2a 44     lwz        r11,offset DAT_83192a44(r9)
+        8252d398 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        8252d39c 3d 60 82 18     lis        r11,-0x7de8
+        8252d3a0 3b cb 7b 4c     addi       r30,r11,0x7b4c
+        8252d3a4 40 9a 00 18     bne        cr6,LAB_8252d3bc
+        8252d3a8 3d 60 83 0f     lis        r11,-0x7cf1
+        8252d3ac 39 1e 00 64     addi       r8=>DWORD_82187bb0,r30,0x64                      = 1h
+        8252d3b0 39 6b 7e 24     addi       r11,r11,0x7e24
+        8252d3b4 91 69 2a 44     stw        r11=>DAT_830f7e24,offset DAT_83192a44(r9)
+        8252d3b8 91 0b 00 00     stw        r8=>DWORD_82187bb0,0x0(r11)=>DAT_830f7e24        = 1h
+                             LAB_8252d3bc                                    XREF[1]:     8252d3a4(j)  
+        8252d3bc 38 a0 00 00     li         r5,0x0
+        8252d3c0 80 6a 01 34     lwz        r3,0x134(r10)
+        8252d3c4 38 80 00 00     li         r4,0x0
+        8252d3c8 48 42 5a e9     bl         Function_82952EB0                                undefined Function_82952EB0()
+        8252d3cc 81 7f 40 44     lwz        r11,offset DAT_83194044(r31)
+        8252d3d0 3d 40 83 0f     lis        r10,-0x7cf1
+        8252d3d4 38 a0 00 00     li         r5,0x0
+        8252d3d8 38 80 00 00     li         r4,0x0
+        8252d3dc 80 6b 01 14     lwz        r3,0x114(r11)
+        8252d3e0 7f ab eb 78     or         r11,r29,r29
+        8252d3e4 91 6a 7d b4     stw        r11,offset DAT_830f7db4(r10)
+        8252d3e8 48 42 5a c9     bl         Function_82952EB0                                undefined Function_82952EB0()
+        8252d3ec 48 00 16 e5     bl         Function_8252EAD0                                undefined Function_8252EAD0()
+        8252d3f0 3d 40 82 18     lis        r10,-0x7de8
+        8252d3f4 3d 60 83 0f     lis        r11,-0x7cf1
+        8252d3f8 7f c9 f3 78     or         r9,r30,r30
+        8252d3fc 39 0b 7d f0     addi       r8,r11,0x7df0
+        8252d400 3d 60 82 1f     lis        r11,-0x7de1
+        8252d404 c0 0a 1e 3c     lfs        f0,offset FLOAT_82181e3c(r10)                    = 0.4
+        8252d408 81 5f 40 44     lwz        r10,offset DAT_83194044(r31)
+        8252d40c d0 0a 00 0c     stfs       f0,0xc(r10)
+        8252d410 7d 2a 4b 78     or         r10,r9,r9
+        8252d414 c0 0b 80 ac     lfs        f0,-0x7f54(r11)=>FLOAT_821e80ac                  = 0.5
+        8252d418 3d 60 83 0f     lis        r11,-0x7cf1
+        8252d41c 7d 09 43 78     or         r9,r8,r8
+        8252d420 d0 0b 7d bc     stfs       f0,offset DAT_830f7dbc(r11)
+        8252d424 39 60 00 0c     li         r11,0xc
+        8252d428 7d 69 03 a6     mtspr      CTR,r11
+                             LAB_8252d42c                                    XREF[1]:     8252d43c(j)  
+        8252d42c 80 ea 00 00     lwz        r7,0x0(r10)=>ULONG_82187b4c                      = FFFFD8F0h
+        8252d430 39 4a 00 04     addi       r10,r10,0x4
+        8252d434 90 e9 00 00     stw        r7,0x0(r9)=>DAT_830f7df0
+        8252d438 39 29 00 04     addi       r9,r9,0x4
+        8252d43c 42 00 ff f0     bdnz       LAB_8252d42c
+        8252d440 3d 60 83 0f     lis        r11,-0x7cf1
+        8252d444 39 20 00 0c     li         r9,0xc
+        8252d448 39 4b 7d c0     addi       r10,r11,0x7dc0
+        8252d44c 7f cb f3 78     or         r11,r30,r30
+        8252d450 7d 29 03 a6     mtspr      CTR,r9
+                             LAB_8252d454                                    XREF[1]:     8252d464(j)  
+        8252d454 80 ab 00 00     lwz        r5,0x0(r11)=>ULONG_82187b4c                      = FFFFD8F0h
+        8252d458 39 6b 00 04     addi       r11,r11,0x4
+        8252d45c 90 aa 00 00     stw        r5,0x0(r10)=>DAT_830f7dc0
+        8252d460 39 4a 00 04     addi       r10,r10,0x4
+        8252d464 42 00 ff f0     bdnz       LAB_8252d454
+        8252d468 3d 60 82 f5     lis        r11,-0x7d0b
+        8252d46c 3b ab b9 b0     subi       r29,r11,0x4650
+        8252d470 3d 60 82 20     lis        r11,-0x7de0
+        8252d474 3b fd 00 04     addi       r31,r29,0x4
+        8252d478 3b cb b3 21     subi       r30,r11,0x4cdf
+                             LAB_8252d47c                                    XREF[1]:     8252d4c4(j)  
+        8252d47c 80 7f 00 00     lwz        r3=>s_D:\Sound\bgm_stream.xwb_82288c50,0x0(r31   = "D:\\Sound\\bgm_stream.xwb"
+                                                                                             = 82288c50
+                                                                                             = 82288c30
+        8252d480 7f ca f3 78     or         r10,r30,r30
+        8252d484 7c 6b 1b 78     or         r11,r3,r3
+                             LAB_8252d488                                    XREF[1]:     8252d4a8(j)  
+        8252d488 89 2b 00 00     lbz        r9,0x0(r11)=>s_D:\Sound\bgm_stream.xwb_82288c50  = "D:\\Sound\\voice_sys_stream.x
+                                                                                             = "D:\\Sound\\bgm_stream.xwb"
+                                                                                             = ":\\Sound\\bgm_stream.xwb"
+        8252d48c 88 8a 00 00     lbz        r4,0x0(r10)=>BYTE_821fb321
+        8252d490 2f 09 00 00     cmpwi      cr6,r9,0x0
+        8252d494 7d 04 48 50     subf       r8,r4,r9
+        8252d498 41 9a 00 14     beq        cr6,LAB_8252d4ac
+        8252d49c 39 6b 00 01     addi       r11,r11,0x1
+        8252d4a0 39 4a 00 01     addi       r10=>DAT_821fb322,r10,0x1
+        8252d4a4 2f 08 00 00     cmpwi      cr6,r8,0x0
+        8252d4a8 41 9a ff e0     beq        cr6,LAB_8252d488
+                             LAB_8252d4ac                                    XREF[1]:     8252d498(j)  
+        8252d4ac 2f 08 00 00     cmpwi      cr6,r8,0x0
+        8252d4b0 41 9a 00 08     beq        cr6,LAB_8252d4b8
+        8252d4b4 48 23 43 a5     bl         Function_82761858                                undefined Function_82761858()
+                             LAB_8252d4b8                                    XREF[1]:     8252d4b0(j)  
+        8252d4b8 3b ff 00 0c     addi       r31,r31,0xc
+        8252d4bc 38 7d 01 30     addi       r3,r29,0x130
+        8252d4c0 7f 1f 18 00     cmpw       cr6,r31,r3
+        8252d4c4 41 98 ff b8     blt        cr6,LAB_8252d47c
+                             LAB_8252d4c8                                    XREF[3]:     8252d298(j), 8252d32c(j), 
+                                                                                          8252d358(j)  
+        8252d4c8 38 21 00 80     addi       r1,r1,0x80
+        8252d4cc 48 4c 18 50     b          switchD_82426b00::caseD_4
