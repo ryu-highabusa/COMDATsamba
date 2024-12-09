@@ -1,26 +1,26 @@
-0 NORMAL: Stand
-1 NORMAL: Crouch
-2 NORMAL: Stand Backward
-3 NORMAL: Crouch Backward
-4 NORMAL: Free Step Right
-5 NORMAL: Free Step Left
-6 GUARD: Standing Guard
-7 GUARD: Crouching Guard
-8 BLOW: High Punch
-9 BLOW: Middle Punch
-10 BLOW: Low Punch
-11 BLOW: Jumping Punch
-12 BLOW: High Kick
-13 BLOW: Middle Kick
-14 BLOW: Low Kick
-15 BLOW: Jumping Kick
-16 HOLD: High Hold
-17 HOLD: Middle Punch Hold
-18 HOLD: Middle Kick Hold
-19 HOLD: Low Hold
-20 THROW: Standing Throw
-21 THROW: Crouching Throw
-22 THROW: High OH
-23 THROW: Low OH
+0 NORMAL/ Stand
+1 NORMAL/ Crouch
+2 NORMAL/ Stand Backward
+3 NORMAL/ Crouch Backward
+4 NORMAL/ Free Step Right
+5 NORMAL/ Free Step Left
+6 GUARD/ Standing Guard
+7 GUARD/ Crouching Guard
+8 BLOW/ High Punch
+9 BLOW/ Middle Punch
+10 BLOW/ Low Punch
+11 BLOW/ Jumping Punch
+12 BLOW/ High Kick
+13 BLOW/ Middle Kick
+14 BLOW/ Low Kick
+15 BLOW/ Jumping Kick
+16 HOLD/ High Hold
+17 HOLD/ Middle Punch Hold
+18 HOLD/ Middle Kick Hold
+19 HOLD/ Low Hold
+20 THROW/ Standing Throw
+21 THROW/ Crouching Throw
+22 THROW/ High OH
+23 THROW/ Low OH
 24 COMBO Presets
 25 COM Level 
