@@ -82,11 +82,21 @@
     </CheatEntry>
     <CheatEntry>
       <ID>810</ID>
-      <Description>"Memory Scan Start 82000400 , Stop 8369d0af"</Description>
+      <Description>"Memory Scan Start 182000400 , Stop 18369d0af"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
       <Address>182000400</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>942</ID>
+      <Description>"Memory Scan Start 182000400 , Stop 18369d0af"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>18369d0af</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>811</ID>
@@ -6750,6 +6760,86 @@
       <Description>"UPS_Nation_Cursor_XPOS"</Description>
       <VariableType>Byte</VariableType>
       <Address>182E62BD3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>933</ID>
+      <Description>"DWORD_835745c0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1835745c0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>934</ID>
+      <Description>"DAT_8318b087"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18318b087</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>935</ID>
+      <Description>"DAT_8318af2f"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18318af2f</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>936</ID>
+      <Description>"DAT_8318b1e7"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18318b1e7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>937</ID>
+      <Description>"mot.afs maybe??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ec42c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>938</ID>
+      <Description>"BYTE_830996af"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830996af</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>939</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830996C2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>940</ID>
+      <Description>"BYTE_830201a9 p1??"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201a9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>941</ID>
+      <Description>"BYTE_830201a9 p2???"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201a9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>943</ID>
+      <Description>"LeadingFootP1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201c6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>944</ID>
+      <Description>"LeadingFootP2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020262</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
