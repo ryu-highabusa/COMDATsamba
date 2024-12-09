@@ -6745,6 +6745,12 @@
       <VariableType>Byte</VariableType>
       <Address>18318b236</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>932</ID>
+      <Description>"UPS_Nation_Cursor_XPOS"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>182E62BD3</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
