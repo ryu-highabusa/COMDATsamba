@@ -5,49 +5,41 @@
              undefined         r3:1           <RETURN>
              undefined4        Stack[-0x70]:4 local_70                                XREF[1]:     824f2050(W)  
                              FUN_824f2050
-        824f2050 94 21 ff 90     stwu       r1,local_70(r1)               # Allocate stack space
-        824f2054 3d 60 83 02     lis        r11,-0x7cfe                  # Load immediate shifted value for base address
-        824f2058 7c 7f 1b 78     or         r31,r3,r3                    # Copy argument r3 to r31
-        824f205c 38 8b 01 88     addi       r4=>MAN_COM_P1_83020188,r11,0x188  # Load MANCOM_P1 address
-        824f2060 1f df 00 9c     mulli      r30,r31,0x9c                 # Multiply r31 by 0x9C (character index?)
-        824f2064 39 64 00 6b     addi       r11,r4,0x6b                  # Calculate offset to BYTE_830201f3
-        824f2068 3b a0 00 00     li         r29,0x0                      # Initialize r29 to 0
-        824f206c 7d 5e 58 ae     lbzx       r10,r30,r11=>BYTE_830201f3   # Load byte indexed by r30 and r11
-        824f2070 2b 0a 00 04     cmplwi     cr6,r10,0x4                  # Compare loaded value to 4
-        824f2074 40 9a 00 d8     bne        cr6,LAB_824f214c             # Branch if not equal
-        824f2078 6b e9 00 01     xori       r9,r31,0x1                   # XOR r31 with 1 (toggle player ID?)
-        824f207c 38 e4 00 18     addi       r7,r4,0x18                   # Load ATK_DIR_P1 address
-        824f2080 1d 09 00 9c     mulli      r8,r9,0x9c                   # Multiply r9 by 0x9C (other player index?)
-        824f2084 7d 48 38 2e     lwzx       r10,r8,r7=>ATK_DIR_P1_830201a0  # Load ATK_DIR_P1 value
-        824f2088 38 c4 00 1c     addi       r6,r4,0x1c                   # Load BODY_DIR_P1 address
-        824f208c 3c a0 00 00     lis        r5,0x0                       # Load immediate shifted value
-        824f2090 7f a3 eb 78     or         r3,r29,r29                   # OR operation (set r3 to 0?)
-        824f2094 60 ab 80 00     ori        r11,r5,0x8000                # Load 0x8000 into r11
-        824f2098 7d 3e 30 2e     lwzx       r9,r30,r6=>BODY_DIR_P1_830201a4  # Load BODY_DIR_P1 value
-        824f209c 7d 64 5b 78     or         r4,r11,r11                   # Prepare r4 with 0x8000
-        824f20a0 7d 0a 48 50     subf       r8,r10,r9                    # Subtract BODY_DIR from ATK_DIR
-        824f20a4 7d 68 5a 14     add        r11,r8,r11                   # Add result to r11 (threshold?)
-        824f20a8 38 eb 40 00     addi       r7,r11,0x4000                # Add 0x4000 to r11 (range limit?)
-        824f20ac 54 e6 04 3e     rlwinm     r6,r7,0x0,0x10,0x1f          # Rotate and mask r7
-        824f20b0 7f 06 20 00     cmpw       cr6,r6,r4                    # Compare r6 to 0x8000
-        824f20b4 40 99 00 08     ble        cr6,LAB_824f20bc             # Branch if less than or equal
-        824f20b8 38 60 00 01     li         r3,0x1                       # Set r3 to 1
+        824f2050 94 21 ff 90     stwu       r1,local_70(r1)  # Create stack frame
+        824f2054 3d 60 83 02     lis        r11,-0x7cfe      # Load immediate shifted address
+        824f2058 7c 7f 1b 78     or         r31,r3,r3        # Copy r3 (input) to r31
+        824f205c 38 8b 01 88     addi       r4=>MAN_COM_P1_83020188,r11,0x188  # Address of MAN_COM_P1
+        824f2060 1f df 00 9c     mulli      r30,r31,0x9c     # Multiply input by 0x9C for offset
+        824f2064 39 64 00 6b     addi       r11,r4,0x6b      # Offset to BYTE_830201f3
+        824f2068 3b a0 00 00     li         r29,0x0          # Clear r29
+        824f206c 7d 5e 58 ae     lbzx       r10,r30,r11=>BYTE_830201f3  # Load BYTE_830201f3
+        824f2070 2b 0a 00 04     cmplwi     cr6,r10,0x4      # Compare loaded value to 0x4
+        824f2074 40 9a 00 d8     bne        cr6,LAB_824f214c  # Branch if not equal to 0x4
+        824f2078 6b e9 00 01     xori       r9,r31,0x1       # Invert last bit of input
+        824f207c 38 e4 00 18     addi       r7,r4,0x18       # Address of ATK_DIR_P1
+        824f2080 1d 09 00 9c     mulli      r8,r9,0x9c       # Offset calculation
+        824f2084 7d 48 38 2e     lwzx       r10,r8,r7=>ATK_DIR_P1_830201a0  # Load ATK_DIR_P1
+        824f2088 38 c4 00 1c     addi       r6,r4,0x1c       # Address of BODY_DIR_P1
+        824f208c 3c a0 00 00     lis        r5,0x0           # Prepare constant
+        824f2090 7f a3 eb 78     or         r3,r29,r29       # Clear r3
+        824f2094 60 ab 80 00     ori        r11,r5,0x8000    # Load constant 0x8000 (Facing direction: Up)
+        824f2098 7d 3e 30 2e     lwzx       r9,r30,r6=>BODY_DIR_P1_830201a4  # Load BODY_DIR_P1
+        824f209c 7d 64 5b 78     or         r4,r11,r11       # Duplicate 0x8000 in r4
+        824f20a0 7d 0a 48 50     subf       r8,r10,r9        # Subtract BODY_DIR from ATK_DIR
+        824f20a4 7d 68 5a 14     add        r11,r8,r11       # Add result to 0x8000
+        824f20a8 38 eb 40 00     addi       r7,r11,0x4000    # Add offset 0x4000 (Facing direction: Right)
+        824f20ac 54 e6 04 3e     rlwinm     r6,r7,0x0,0x10,0x1f  # Mask lower 16 bits
+        824f20b0 7f 06 20 00     cmpw       cr6,r6,r4        # Compare masked result to 0x8000
+        824f20b4 40 99 00 08     ble        cr6,LAB_824f20bc  # Branch if <= 0x8000
+        824f20b8 38 60 00 01     li         r3,0x1           # Set r3 to 1 (result flag)
                              LAB_824f20bc                                    XREF[1]:     824f20b4(j)  
-        824f20bc 3d 20 83 0f     lis        r9,-0x7cf1                  # Load shifted address (data table?)
-        824f20c0 1d 5f 02 50     mulli      r10,r31,0x250               # Multiply r31 by 0x250 (player data block size?)
-        824f20c4 39 29 de d0     subi       r9,r9,0x2130                # Adjust address to specific table
-        824f20c8 55 6b 04 3e     rlwinm     r11,r11,0x0,0x10,0x1f       # Rotate and mask r11 (range check?)
-        824f20cc 38 a9 00 28     addi       r5,r9,0x28                  # Load offset 0x28 in table
-        824f20d0 38 89 00 29     addi       r4,r9,0x29                  # Load offset 0x29 in table
-        824f20d4 2f 0b 20 00     cmpwi      cr6,r11,0x2000              # Compare masked value to 0x2000
-        824f20d8 7c 6a 29 ae     stbx       r3,r10,r5=>DAT_830edef8     # Store r3 at calculated address
-        824f20dc 7f aa 21 ae     stbx       r29,r10,r4=>DAT_830edef9    # Store r29 at calculated address
-        824f20e0 40 99 00 58     ble        cr6,LAB_824f2138            # Branch if less than or equal to 0x2000
-        824f20e4 2f 0b 60 00     cmpwi      cr6,r11,0x6000              # Compare masked value to 0x6000
-        824f20e8 40 98 00 18     bge        cr6,LAB_824f2100            # Branch if greater than or equal to 0x6000
-        824f20ec 39 60 00 01     li         r11,0x1                     # Set r11 to 1
-        824f20f0 38 89 00 2e     addi       r4,r9,0x2e                  # Load offset 0x2E in table
-        824f20f4 7d 6a 21 ae     stbx       r11,r10,r4=>DAT_830edefe    # Store r11 at calculated address
-        824f20f8 38 21 00 70     addi       r1,r1,0x70                  # Restore stack pointer
-        824f20fc 48 4f cc 20     b          switchD_82426b00::caseD_4  # Jump to switch case handler
-                             LAB_824f2100                                    XREF[1]:     824f20e8(j)
+        824f20bc 3d 20 83 0f     lis        r9,-0x7cf1       # Load shifted address base
+        824f20c0 1d 5f 02 50     mulli      r10,r31,0x250    # Multiply input by 0x250
+        824f20c4 39 29 de d0     subi       r9,r9,0x2130     # Subtract offset for base
+        824f20c8 55 6b 04 3e     rlwinm     r11,r11,0x0,0x10,0x1f  # Mask lower 16 bits of r11
+        824f20cc 38 a9 00 28     addi       r5,r9,0x28       # Address offset DAT_830edef8
+        824f20d0 38 89 00 29     addi       r4,r9,0x29       # Address offset DAT_830edef9
+        824f20d4 2f 0b 20 00     cmpwi      cr6,r11,0x2000   # Compare to threshold 0x2000 (Facing direction: Down)
+        824f20d8 7c 6a 29 ae     stbx       r3,r10,r5=>DAT_830edef8  # Store result
+        824f20dc 7f aa 21 ae     stbx       r29,r10,r4=>DAT_830edef9  # Store cleared value
+        824f20e0 40 99 00 58     ble        cr6,LAB_824f2138
