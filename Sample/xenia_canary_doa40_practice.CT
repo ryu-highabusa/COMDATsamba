@@ -2,63 +2,46 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
-      <ID>31</ID>
-      <Description>"Health_P1"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
-      <Address>1830201ac</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>30</ID>
-      <Description>"Health_P2"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
-      <Address>183020248</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>449</ID>
-      <Description>"Health_P3"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
-      <Address>18301DF58</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>447</ID>
-      <Description>"Health_P4"</Description>
-      <VariableType>Custom</VariableType>
-      <CustomType>2 Byte Big Endian</CustomType>
-      <Address>18301DF5C</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>1167</ID>
-      <Description>"InputAllowanceFlag_P1"</Description>
+      <ID>450</ID>
+      <Description>"COMBO_LIMIT"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1830a5268</Address>
+      <Address>182502197</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>1168</ID>
-      <Description>"InputAllowanceFlag_P2"</Description>
+      <ID>362</ID>
+      <Description>"CHARSEL_DISP_P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1830A5269</Address>
+      <Address>182e62ac0</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>1169</ID>
-      <Description>"InputAllowanceFlag_P3"</Description>
+      <ID>852</ID>
+      <Description>"CHARSEL_DISP_P2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1830A526A</Address>
+      <Address>182e62ae4</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>1170</ID>
-      <Description>"InputAllowanceFlag_P4"</Description>
+      <ID>917</ID>
+      <Description>"Free Step Flag P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1830A526B</Address>
+      <Address>182fb8fbc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>918</ID>
+      <Description>"Free Step Flag P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182FB8FBD</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>856</ID>
+      <Description>"STAGE_DISPLAY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830200dc</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>378</ID>
@@ -80,11 +63,84 @@
       <Address>183022D32</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>450</ID>
-      <Description>"COMBO_LIMIT"</Description>
+      <ID>366</ID>
+      <Description>"CHAR_DISP_P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>182502197</Address>
+      <Address>1830201A8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>367</ID>
+      <Description>"CHAR_DISP_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020244</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Health_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183020248</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"Health_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830201ac</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>449</ID>
+      <Description>"Health_P3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18301DF58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>447</ID>
+      <Description>"Health_P4"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18301DF5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>292</ID>
+      <Description>"DISTANCE"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>18301FC44</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>466</ID>
+      <Description>"MANCOM_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020188</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>854</ID>
+      <Description>"CHAR_NUM_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020189</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>465</ID>
+      <Description>"MANCOM_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020224</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>855</ID>
+      <Description>"CHAR_NUM_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020225</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>857</ID>
@@ -156,11 +212,82 @@
       <Address>18302025B</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>292</ID>
-      <Description>"DISTANCE"</Description>
+      <ID>834</ID>
+      <Description>"Input_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
-      <CustomType>Float Big Endian</CustomType>
-      <Address>18301FC44</Address>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022d90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>835</ID>
+      <Description>"Input_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022D94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>832</ID>
+      <Description>"Input_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022d64</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>833</ID>
+      <Description>"Input_P2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183022D68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1167</ID>
+      <Description>"InputAllowanceFlag_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a5268</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1168</ID>
+      <Description>"InputAllowanceFlag_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A5269</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1169</ID>
+      <Description>"InputAllowanceFlag_P3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A526A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1170</ID>
+      <Description>"InputAllowanceFlag_P4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A526B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>853</ID>
+      <Description>"Pause_Menu_DISP"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a54c8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>371</ID>
+      <Description>"RULE_ON"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EA969</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>379</ID>
@@ -171,74 +298,11 @@
       <Address>1830f7c98</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>856</ID>
-      <Description>"STAGE_DISPLAY"</Description>
+      <ID>861</ID>
+      <Description>"Sparring_Menu_DISP"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1830200dc</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>366</ID>
-      <Description>"CHRDISP_P1"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>1830201A8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>367</ID>
-      <Description>"CHRDISP_P2"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>183020244</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>362</ID>
-      <Description>"CHRSELDISP_P1"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182e62ac0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>852</ID>
-      <Description>"CHRSELDISP_P2"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182e62ae4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>851</ID>
-      <Description>"CAM_MOTION_FLAG"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>18320a9cc</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>466</ID>
-      <Description>"MANCOM_P1"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>183020188</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>854</ID>
-      <Description>"CHAR_NUM_P1"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>183020189</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>465</ID>
-      <Description>"MANCOM_P2"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>183020224</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>855</ID>
-      <Description>"CHAR_NUM_P2"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>183020225</Address>
+      <Address>18318b1e3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>197</ID>
@@ -249,25 +313,11 @@
       <Address>183191f10</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>853</ID>
-      <Description>"Pause_Menu_DISP"</Description>
+      <ID>851</ID>
+      <Description>"CAM_MOTION_FLAG"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1830a54c8</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>861</ID>
-      <Description>"Sparring_Menu_DISP"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>18318b1e3</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>371</ID>
-      <Description>"RULE_ON"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>1830EA969</Address>
+      <Address>18320a9cc</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1166</ID>
@@ -275,31 +325,6 @@
       <Options moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
-        <CheatEntry>
-          <ID>917</ID>
-          <Description>"Free Step Flag P1"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Byte</VariableType>
-          <Address>182fb8fbc</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>834</ID>
-          <Description>"Input_P1_83022d90"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Custom</VariableType>
-          <CustomType>4 Byte Big Endian</CustomType>
-          <Address>183022d90</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>835</ID>
-          <Description>"Input_P1_83022d94"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Custom</VariableType>
-          <CustomType>4 Byte Big Endian</CustomType>
-          <Address>183022D94</Address>
-        </CheatEntry>
         <CheatEntry>
           <ID>985</ID>
           <Description>"MAN_COM_P1"</Description>
@@ -966,31 +991,6 @@
       <Options moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
-        <CheatEntry>
-          <ID>918</ID>
-          <Description>"Free Step Flag P2"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Byte</VariableType>
-          <Address>182FB8FBD</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>832</ID>
-          <Description>"Input_P2_83022d64"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Custom</VariableType>
-          <CustomType>4 Byte Big Endian</CustomType>
-          <Address>183022d64</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>833</ID>
-          <Description>"Input_P2_83022d68"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Custom</VariableType>
-          <CustomType>4 Byte Big Endian</CustomType>
-          <Address>183022D68</Address>
-        </CheatEntry>
         <CheatEntry>
           <ID>1073</ID>
           <Description>"MAN_COM_P2"</Description>
