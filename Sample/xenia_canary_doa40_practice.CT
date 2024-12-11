@@ -33,6 +33,34 @@
       <Address>18301DF5C</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>1167</ID>
+      <Description>"InputAllowanceFlag_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830a5268</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1168</ID>
+      <Description>"InputAllowanceFlag_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A5269</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1169</ID>
+      <Description>"InputAllowanceFlag_P3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A526A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1170</ID>
+      <Description>"InputAllowanceFlag_P4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830A526B</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>378</ID>
       <Description>"Timer_SettingCurrentMode"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -253,6 +281,24 @@
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>182fb8fbc</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>834</ID>
+          <Description>"Input_P1_83022d90"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>183022d90</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>835</ID>
+          <Description>"Input_P1_83022d94"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>183022D94</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>985</ID>
@@ -926,6 +972,24 @@
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>182FB8FBD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>832</ID>
+          <Description>"Input_P2_83022d64"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>183022d64</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>833</ID>
+          <Description>"Input_P2_83022d68"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>4 Byte Big Endian</CustomType>
+          <Address>183022D68</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>1073</ID>
