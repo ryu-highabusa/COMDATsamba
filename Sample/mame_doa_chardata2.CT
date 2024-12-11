@@ -7,7 +7,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C40</Address>
+      <Address>1CAFA57BC40</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
@@ -15,7 +15,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C41</Address>
+      <Address>1CAFA57BC41</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
@@ -23,7 +23,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C42</Address>
+      <Address>1CAFA57BC42</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
@@ -31,35 +31,35 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C43</Address>
+      <Address>1CAFA57BC43</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
       <Description>"XPOS_P1_0054fc04"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3C44</Address>
+      <Address>1CAFA57BC44</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
       <Description>"YPOS_P1_0054fc08"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3C48</Address>
+      <Address>1CAFA57BC48</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"ZPOS_P1_0054fc0c"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3C4C</Address>
+      <Address>1CAFA57BC4C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
       <Description>"ANIME_SPD_P1_0054fc10"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3C50</Address>
+      <Address>1CAFA57BC50</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>8</ID>
@@ -67,7 +67,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C54</Address>
+      <Address>1CAFA57BC54</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>9</ID>
@@ -75,7 +75,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C58</Address>
+      <Address>1CAFA57BC58</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>10</ID>
@@ -83,39 +83,35 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C5C</Address>
+      <Address>1CAFA57BC5C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>11</ID>
       <Description>"HIT_POINT_P1_0054fc20"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C60</Address>
+      <Address>1CAFA57BC60</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>12</ID>
       <Description>"DAMAGE_P1_0054fc22"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C62</Address>
+      <Address>1CAFA57BC62</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
       <Description>"LAST_DMG_P1_0054fc24"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C64</Address>
+      <Address>1CAFA57BC64</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>14</ID>
       <Description>"DMG_DISP_P1_0054fc26"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C66</Address>
+      <Address>1CAFA57BC66</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
@@ -123,7 +119,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3C68</Address>
+      <Address>1CAFA57BC68</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>16</ID>
@@ -131,7 +127,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C6A</Address>
+      <Address>1CAFA57BC6A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>17</ID>
@@ -139,7 +135,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C6B</Address>
+      <Address>1CAFA57BC6B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>18</ID>
@@ -147,7 +143,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C6C</Address>
+      <Address>1CAFA57BC6C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>19</ID>
@@ -155,7 +151,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C6D</Address>
+      <Address>1CAFA57BC6D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>20</ID>
@@ -163,7 +159,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C6E</Address>
+      <Address>1CAFA57BC6E</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>21</ID>
@@ -171,7 +167,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C6F</Address>
+      <Address>1CAFA57BC6F</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>22</ID>
@@ -179,7 +175,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C70</Address>
+      <Address>1CAFA57BC70</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>23</ID>
@@ -187,7 +183,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C71</Address>
+      <Address>1CAFA57BC71</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>24</ID>
@@ -195,7 +191,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C72</Address>
+      <Address>1CAFA57BC72</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>25</ID>
@@ -203,7 +199,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C73</Address>
+      <Address>1CAFA57BC73</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>26</ID>
@@ -211,7 +207,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C74</Address>
+      <Address>1CAFA57BC74</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>27</ID>
@@ -219,7 +215,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C75</Address>
+      <Address>1CAFA57BC75</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>28</ID>
@@ -227,7 +223,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C76</Address>
+      <Address>1CAFA57BC76</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>29</ID>
@@ -235,7 +231,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C77</Address>
+      <Address>1CAFA57BC77</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>30</ID>
@@ -243,7 +239,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C78</Address>
+      <Address>1CAFA57BC78</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>31</ID>
@@ -251,7 +247,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C79</Address>
+      <Address>1CAFA57BC79</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>32</ID>
@@ -259,7 +255,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C7A</Address>
+      <Address>1CAFA57BC7A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>33</ID>
@@ -267,7 +263,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C7B</Address>
+      <Address>1CAFA57BC7B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>34</ID>
@@ -275,7 +271,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C7C</Address>
+      <Address>1CAFA57BC7C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>35</ID>
@@ -283,7 +279,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C7D</Address>
+      <Address>1CAFA57BC7D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>36</ID>
@@ -291,7 +287,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C7E</Address>
+      <Address>1CAFA57BC7E</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>37</ID>
@@ -299,7 +295,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C7F</Address>
+      <Address>1CAFA57BC7F</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>38</ID>
@@ -307,7 +303,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C80</Address>
+      <Address>1CAFA57BC80</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>39</ID>
@@ -315,7 +311,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C81</Address>
+      <Address>1CAFA57BC81</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>40</ID>
@@ -323,7 +319,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C82</Address>
+      <Address>1CAFA57BC82</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>41</ID>
@@ -331,7 +327,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C83</Address>
+      <Address>1CAFA57BC83</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>42</ID>
@@ -339,7 +335,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C84</Address>
+      <Address>1CAFA57BC84</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>43</ID>
@@ -347,7 +343,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C85</Address>
+      <Address>1CAFA57BC85</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>44</ID>
@@ -355,7 +351,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C86</Address>
+      <Address>1CAFA57BC86</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>45</ID>
@@ -363,7 +359,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C87</Address>
+      <Address>1CAFA57BC87</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>46</ID>
@@ -371,7 +367,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C88</Address>
+      <Address>1CAFA57BC88</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>47</ID>
@@ -379,7 +375,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C89</Address>
+      <Address>1CAFA57BC89</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>48</ID>
@@ -387,7 +383,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C8A</Address>
+      <Address>1CAFA57BC8A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>49</ID>
@@ -395,7 +391,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C8B</Address>
+      <Address>1CAFA57BC8B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>50</ID>
@@ -403,7 +399,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C8C</Address>
+      <Address>1CAFA57BC8C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>51</ID>
@@ -411,7 +407,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C8D</Address>
+      <Address>1CAFA57BC8D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>52</ID>
@@ -419,7 +415,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C8E</Address>
+      <Address>1CAFA57BC8E</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>53</ID>
@@ -427,7 +423,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C8F</Address>
+      <Address>1CAFA57BC8F</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>54</ID>
@@ -435,7 +431,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C90</Address>
+      <Address>1CAFA57BC90</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>55</ID>
@@ -443,7 +439,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C91</Address>
+      <Address>1CAFA57BC91</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>56</ID>
@@ -451,7 +447,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C92</Address>
+      <Address>1CAFA57BC92</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>57</ID>
@@ -459,7 +455,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C93</Address>
+      <Address>1CAFA57BC93</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>58</ID>
@@ -467,7 +463,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C94</Address>
+      <Address>1CAFA57BC94</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>59</ID>
@@ -475,7 +471,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C95</Address>
+      <Address>1CAFA57BC95</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>60</ID>
@@ -483,7 +479,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C98</Address>
+      <Address>1CAFA57BC98</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>61</ID>
@@ -491,7 +487,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C99</Address>
+      <Address>1CAFA57BC99</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>62</ID>
@@ -499,7 +495,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C9A</Address>
+      <Address>1CAFA57BC9A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>63</ID>
@@ -507,35 +503,35 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3C9B</Address>
+      <Address>1CAFA57BC9B</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>64</ID>
       <Description>"XPOS_P2_0054fc5c"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3C9C</Address>
+      <Address>1CAFA57BC9C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>65</ID>
       <Description>"YPOS_P2_0054fc60"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3CA0</Address>
+      <Address>1CAFA57BCA0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>66</ID>
       <Description>"ZPOS_P2_0054fc64"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3CA4</Address>
+      <Address>1CAFA57BCA4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>67</ID>
       <Description>"ANIME_SPD_P2_0054fc68"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
-      <Address>1A77FEB3CA8</Address>
+      <Address>1CAFA57BCA8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>68</ID>
@@ -543,7 +539,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CAC</Address>
+      <Address>1CAFA57BCAC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>69</ID>
@@ -551,7 +547,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CB0</Address>
+      <Address>1CAFA57BCB0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>70</ID>
@@ -559,39 +555,35 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CB4</Address>
+      <Address>1CAFA57BCB4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>71</ID>
       <Description>"HIT_POINT_P2_0054fc78"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CB8</Address>
+      <Address>1CAFA57BCB8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>72</ID>
       <Description>"DAMAGE_P2_0054fc7a"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CBA</Address>
+      <Address>1CAFA57BCBA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>73</ID>
       <Description>"LAST_DMG_P2_0054fc7c"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CBC</Address>
+      <Address>1CAFA57BCBC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>74</ID>
       <Description>"DMG_DISP_P2_0054fc7e"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CBE</Address>
+      <Address>1CAFA57BCBE</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>75</ID>
@@ -599,7 +591,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
-      <Address>1A77FEB3CC0</Address>
+      <Address>1CAFA57BCC0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>76</ID>
@@ -607,7 +599,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC2</Address>
+      <Address>1CAFA57BCC2</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>77</ID>
@@ -615,7 +607,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC3</Address>
+      <Address>1CAFA57BCC3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>78</ID>
@@ -623,7 +615,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC4</Address>
+      <Address>1CAFA57BCC4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>79</ID>
@@ -631,7 +623,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC5</Address>
+      <Address>1CAFA57BCC5</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>80</ID>
@@ -639,7 +631,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC6</Address>
+      <Address>1CAFA57BCC6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>81</ID>
@@ -647,7 +639,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC7</Address>
+      <Address>1CAFA57BCC7</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>82</ID>
@@ -655,7 +647,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC8</Address>
+      <Address>1CAFA57BCC8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>83</ID>
@@ -663,7 +655,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CC9</Address>
+      <Address>1CAFA57BCC9</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>84</ID>
@@ -671,7 +663,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CCA</Address>
+      <Address>1CAFA57BCCA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>85</ID>
@@ -679,7 +671,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CCB</Address>
+      <Address>1CAFA57BCCB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>86</ID>
@@ -687,7 +679,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CCC</Address>
+      <Address>1CAFA57BCCC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>87</ID>
@@ -695,7 +687,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CCD</Address>
+      <Address>1CAFA57BCCD</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>88</ID>
@@ -703,7 +695,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CCE</Address>
+      <Address>1CAFA57BCCE</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>89</ID>
@@ -711,7 +703,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CCF</Address>
+      <Address>1CAFA57BCCF</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>90</ID>
@@ -719,7 +711,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD0</Address>
+      <Address>1CAFA57BCD0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>91</ID>
@@ -727,7 +719,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD1</Address>
+      <Address>1CAFA57BCD1</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>92</ID>
@@ -735,7 +727,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD2</Address>
+      <Address>1CAFA57BCD2</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>93</ID>
@@ -743,7 +735,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD3</Address>
+      <Address>1CAFA57BCD3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>94</ID>
@@ -751,7 +743,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD4</Address>
+      <Address>1CAFA57BCD4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>95</ID>
@@ -759,7 +751,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD5</Address>
+      <Address>1CAFA57BCD5</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>96</ID>
@@ -767,7 +759,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD6</Address>
+      <Address>1CAFA57BCD6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>97</ID>
@@ -775,7 +767,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD7</Address>
+      <Address>1CAFA57BCD7</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>98</ID>
@@ -783,7 +775,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD8</Address>
+      <Address>1CAFA57BCD8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>99</ID>
@@ -791,7 +783,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CD9</Address>
+      <Address>1CAFA57BCD9</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>100</ID>
@@ -799,7 +791,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CDA</Address>
+      <Address>1CAFA57BCDA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>101</ID>
@@ -807,7 +799,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CDB</Address>
+      <Address>1CAFA57BCDB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>102</ID>
@@ -815,7 +807,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CDC</Address>
+      <Address>1CAFA57BCDC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>103</ID>
@@ -823,7 +815,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CDD</Address>
+      <Address>1CAFA57BCDD</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>104</ID>
@@ -831,7 +823,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CDE</Address>
+      <Address>1CAFA57BCDE</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>105</ID>
@@ -839,7 +831,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CDF</Address>
+      <Address>1CAFA57BCDF</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>106</ID>
@@ -847,7 +839,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE0</Address>
+      <Address>1CAFA57BCE0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>107</ID>
@@ -855,7 +847,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE1</Address>
+      <Address>1CAFA57BCE1</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>108</ID>
@@ -863,7 +855,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE2</Address>
+      <Address>1CAFA57BCE2</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>109</ID>
@@ -871,7 +863,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE3</Address>
+      <Address>1CAFA57BCE3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>110</ID>
@@ -879,7 +871,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE4</Address>
+      <Address>1CAFA57BCE4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>111</ID>
@@ -887,7 +879,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE5</Address>
+      <Address>1CAFA57BCE5</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>112</ID>
@@ -895,7 +887,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE6</Address>
+      <Address>1CAFA57BCE6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>113</ID>
@@ -903,7 +895,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE7</Address>
+      <Address>1CAFA57BCE7</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>114</ID>
@@ -911,7 +903,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE8</Address>
+      <Address>1CAFA57BCE8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>115</ID>
@@ -919,7 +911,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CE9</Address>
+      <Address>1CAFA57BCE9</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>116</ID>
@@ -927,7 +919,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CEA</Address>
+      <Address>1CAFA57BCEA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>117</ID>
@@ -935,7 +927,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CEB</Address>
+      <Address>1CAFA57BCEB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>118</ID>
@@ -943,7 +935,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CEC</Address>
+      <Address>1CAFA57BCEC</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>119</ID>
@@ -951,7 +943,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1A77FEB3CED</Address>
+      <Address>1CAFA57BCED</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
