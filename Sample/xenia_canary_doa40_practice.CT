@@ -462,7 +462,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1011</ID>
-          <Description>"POSE_STA_P1_830201c0"</Description>
+          <Description>"POSE_STA_P1_830201c0 (0=STANDING, 1=CROUCHING)"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201c0</Address>
@@ -504,7 +504,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1017</ID>
-          <Description>"No description"</Description>
+          <Description>"LeadingFoot_P1 (0=left foot forward,1=right foot forward)"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201C6</Address>
