@@ -5,41 +5,235 @@
              undefined         r3:1           <RETURN>
              undefined4        Stack[-0x70]:4 local_70                                XREF[1]:     824f2050(W)  
                              FUN_824f2050
-        824f2050 94 21 ff 90     stwu       r1,local_70(r1)  # Create stack frame
-        824f2054 3d 60 83 02     lis        r11,-0x7cfe      # Load immediate shifted address
-        824f2058 7c 7f 1b 78     or         r31,r3,r3        # Copy r3 (input) to r31
-        824f205c 38 8b 01 88     addi       r4=>MAN_COM_P1_83020188,r11,0x188  # Address of MAN_COM_P1
-        824f2060 1f df 00 9c     mulli      r30,r31,0x9c     # Multiply input by 0x9C for offset
-        824f2064 39 64 00 6b     addi       r11,r4,0x6b      # Offset to BYTE_830201f3
-        824f2068 3b a0 00 00     li         r29,0x0          # Clear r29
-        824f206c 7d 5e 58 ae     lbzx       r10,r30,r11=>BYTE_830201f3  # Load BYTE_830201f3
-        824f2070 2b 0a 00 04     cmplwi     cr6,r10,0x4      # Compare loaded value to 0x4
-        824f2074 40 9a 00 d8     bne        cr6,LAB_824f214c  # Branch if not equal to 0x4
-        824f2078 6b e9 00 01     xori       r9,r31,0x1       # Invert last bit of input
-        824f207c 38 e4 00 18     addi       r7,r4,0x18       # Address of ATK_DIR_P1
-        824f2080 1d 09 00 9c     mulli      r8,r9,0x9c       # Offset calculation
-        824f2084 7d 48 38 2e     lwzx       r10,r8,r7=>ATK_DIR_P1_830201a0  # Load ATK_DIR_P1
-        824f2088 38 c4 00 1c     addi       r6,r4,0x1c       # Address of BODY_DIR_P1
-        824f208c 3c a0 00 00     lis        r5,0x0           # Prepare constant
-        824f2090 7f a3 eb 78     or         r3,r29,r29       # Clear r3
-        824f2094 60 ab 80 00     ori        r11,r5,0x8000    # Load constant 0x8000 (Facing direction: Up)
-        824f2098 7d 3e 30 2e     lwzx       r9,r30,r6=>BODY_DIR_P1_830201a4  # Load BODY_DIR_P1
-        824f209c 7d 64 5b 78     or         r4,r11,r11       # Duplicate 0x8000 in r4
-        824f20a0 7d 0a 48 50     subf       r8,r10,r9        # Subtract BODY_DIR from ATK_DIR
-        824f20a4 7d 68 5a 14     add        r11,r8,r11       # Add result to 0x8000
-        824f20a8 38 eb 40 00     addi       r7,r11,0x4000    # Add offset 0x4000 (Facing direction: Right)
-        824f20ac 54 e6 04 3e     rlwinm     r6,r7,0x0,0x10,0x1f  # Mask lower 16 bits
-        824f20b0 7f 06 20 00     cmpw       cr6,r6,r4        # Compare masked result to 0x8000
-        824f20b4 40 99 00 08     ble        cr6,LAB_824f20bc  # Branch if <= 0x8000
-        824f20b8 38 60 00 01     li         r3,0x1           # Set r3 to 1 (result flag)
-                             LAB_824f20bc                                    XREF[1]:     824f20b4(j)  
-        824f20bc 3d 20 83 0f     lis        r9,-0x7cf1       # Load shifted address base
-        824f20c0 1d 5f 02 50     mulli      r10,r31,0x250    # Multiply input by 0x250
-        824f20c4 39 29 de d0     subi       r9,r9,0x2130     # Subtract offset for base
-        824f20c8 55 6b 04 3e     rlwinm     r11,r11,0x0,0x10,0x1f  # Mask lower 16 bits of r11
-        824f20cc 38 a9 00 28     addi       r5,r9,0x28       # Address offset DAT_830edef8
-        824f20d0 38 89 00 29     addi       r4,r9,0x29       # Address offset DAT_830edef9
-        824f20d4 2f 0b 20 00     cmpwi      cr6,r11,0x2000   # Compare to threshold 0x2000 (Facing direction: Down)
-        824f20d8 7c 6a 29 ae     stbx       r3,r10,r5=>DAT_830edef8  # Store result
-        824f20dc 7f aa 21 ae     stbx       r29,r10,r4=>DAT_830edef9  # Store cleared value
-        824f20e0 40 99 00 58     ble        cr6,LAB_824f2138
+        824f2050 94 21 ff 90     stwu       r1,local_70(r1)                                          Create stack frame
+        824f2054 3d 60 83 02     lis        r11,-0x7cfe                                              Load immediate shifted value fo
+        824f2058 7c 7f 1b 78     or         r31,r3,r3                                                Copy r3 (input) to r31
+        824f205c 38 8b 01 88     addi       r4=>MAN_COM_P1_83020188,r11,0x188                        Load MANCOM_P1 address
+        824f2060 1f df 00 9c     mulli      r30,r31,0x9c                                             Multiply r31 by 0x9C (player da
+        824f2064 39 64 00 6b     addi       r11,r4,0x6b                                              Calculate offset to BYTE_830201
+        824f2068 3b a0 00 00     li         r29,0x0                                                  Clear r29
+        824f206c 7d 5e 58 ae     lbzx       r10,r30,r11=>BYTE_830201f3                               Load BYTE_830201f3 indexed by r
+        824f2070 2b 0a 00 04     cmplwi     cr6,r10,0x4                                              Compare loaded value to 0x4
+        824f2074 40 9a 00 d8     bne        cr6,LAB_824f214c                                         Branch if not 0x4
+        824f2078 6b e9 00 01     xori       r9,r31,0x1                                               Invert last bit of input
+        824f207c 38 e4 00 18     addi       r7,r4,0x18                                               Address of ATK_DIR_P1
+        824f2080 1d 09 00 9c     mulli      r8,r9,0x9c                                               Offset calculation
+        824f2084 7d 48 38 2e     lwzx       r10,r8,r7=>ATK_DIR_P1_830201a0                           Load ATK_DIR_P1
+        824f2088 38 c4 00 1c     addi       r6,r4,0x1c                                               Address of BODY_DIR_P1
+        824f208c 3c a0 00 00     lis        r5,0x0                                                   Prepare constant
+        824f2090 7f a3 eb 78     or         r3,r29,r29                                               Clear r3
+        824f2094 60 ab 80 00     ori        r11,r5,0x8000                                            Load constant 0x8000 (180 degre
+        824f2098 7d 3e 30 2e     lwzx       r9,r30,r6=>BODY_DIR_P1_830201a4                          Load BODY_DIR_P1
+        824f209c 7d 64 5b 78     or         r4,r11,r11                                               Duplicate 0x8000 in r4
+        824f20a0 7d 0a 48 50     subf       r8,r10,r9                                                Subtract BODY_DIR from ATK_DIR
+        824f20a4 7d 68 5a 14     add        r11,r8,r11                                               Add result to 0x8000
+        824f20a8 38 eb 40 00     addi       r7,r11,0x4000                                            Add offset 0x4000 (90 degrees)
+        824f20ac 54 e6 04 3e     rlwinm     r6,r7,0x0,0x10,0x1f                                      Mask lower 16 bits
+        824f20b0 7f 06 20 00     cmpw       cr6,r6,r4                                                Compare masked result to 0x8000
+        824f20b4 40 99 00 08     ble        cr6,LAB_824f20bc                                         Branch if <= 0x8000
+        824f20b8 38 60 00 01     li         r3,0x1                                                   Set r3 to 1 (result flag)
+                             LAB_824f20bc                                                XREF[1]:     824f20b4(j)  
+        824f20bc 3d 20 83 0f     lis        r9,-0x7cf1                                               Load shifted address base
+        824f20c0 1d 5f 02 50     mulli      r10,r31,0x250                                            Multiply input by 0x250
+        824f20c4 39 29 de d0     subi       r9,r9,0x2130                                             Subtract offset for base
+        824f20c8 55 6b 04 3e     rlwinm     r11,r11,0x0,0x10,0x1f                                    Mask lower 16 bits of r11
+        824f20cc 38 a9 00 28     addi       r5,r9,0x28                                               Address offset DAT_830edef8
+        824f20d0 38 89 00 29     addi       r4,r9,0x29                                               Address offset DAT_830edef9
+        824f20d4 2f 0b 20 00     cmpwi      cr6,r11,0x2000                                           Compare to threshold 0x2000 (45
+        824f20d8 7c 6a 29 ae     stbx       r3,r10,r5=>DAT_830edef8                                  Store result
+        824f20dc 7f aa 21 ae     stbx       r29,r10,r4=>DAT_830edef9                                 Store cleared value
+        824f20e0 40 99 00 58     ble        cr6,LAB_824f2138                                         Branch if <= 0x2000
+        824f20e4 2f 0b 60 00     cmpwi      cr6,r11,0x6000                                           Compare to upper threshold
+        824f20e8 40 98 00 18     bge        cr6,LAB_824f2100                                         Branch if >= 0x6000 (135 degree
+        824f20ec 39 60 00 01     li         r11,0x1                                                  Set flag
+        824f20f0 38 89 00 2e     addi       r4,r9,0x2e                                               Address offset DAT_830edefe
+        824f20f4 7d 6a 21 ae     stbx       r11,r10,r4=>DAT_830edefe                                 Store flag
+        824f20f8 38 21 00 70     addi       r1,r1,0x70                                               Restore stack
+        824f20fc 48 4f cc 20     b          switchD_82426b00::caseD_4                                Branch to handler
+                             LAB_824f2100                                                XREF[1]:     824f20e8(j)  
+        824f2100 3d 00 00 00     lis        r8,0x0                                                   Clear high bits of r8
+        824f2104 61 07 a0 00     ori        r7,r8,0xa000                                             Load constant 0xa000 (225 degre
+        824f2108 7f 0b 38 00     cmpw       cr6,r11,r7                                               Compare to 0xa000
+        824f210c 41 99 00 18     bgt        cr6,LAB_824f2124                                         Branch if > 0xa000
+        824f2110 39 60 00 02     li         r11,0x2
+        824f2114 38 89 00 2e     addi       r4,r9,0x2e
+        824f2118 7d 6a 21 ae     stbx       r11,r10,r4=>DAT_830edefe
+        824f211c 38 21 00 70     addi       r1,r1,0x70
+        824f2120 48 4f cb fc     b          switchD_82426b00::caseD_4
+                             LAB_824f2124                                                XREF[1]:     824f210c(j)  
+        824f2124 3c c0 00 00     lis        r6,0x0
+        824f2128 60 c5 e0 00     ori        r5,r6,0xe000                                             (315 degrees)
+        824f212c 7f 0b 28 00     cmpw       cr6,r11,r5
+        824f2130 39 60 00 03     li         r11,0x3
+        824f2134 41 98 00 08     blt        cr6,LAB_824f213c
+                             LAB_824f2138                                                XREF[1]:     824f20e0(j)  
+        824f2138 7f ab eb 78     or         r11,r29,r29
+                             LAB_824f213c                                                XREF[1]:     824f2134(j)  
+        824f213c 38 89 00 2e     addi       r4,r9,0x2e
+        824f2140 7d 6a 21 ae     stbx       r11,r10,r4=>DAT_830edefe
+        824f2144 38 21 00 70     addi       r1,r1,0x70
+        824f2148 48 4f cb d4     b          switchD_82426b00::caseD_4
+                             LAB_824f214c                                                XREF[1]:     824f2074(j)  
+        824f214c 38 64 00 37     addi       r3,r4,0x37
+        824f2150 7d 7e 18 ae     lbzx       r11,r30,r3=>ACT_STATE_P1_830201bf*
+        824f2154 2b 0b 00 07     cmplwi     cr6,r11,0x7
+        824f2158 41 9a 00 30     beq        cr6,LAB_824f2188                                         0x7 BLOCK_STUN (no hold)
+        824f215c 2b 0b 00 08     cmplwi     cr6,r11,0x8
+        824f2160 41 9a 00 28     beq        cr6,LAB_824f2188                                         0x8 CRITICAL_STUN (hold availab
+        824f2164 2b 0b 00 09     cmplwi     cr6,r11,0x9
+        824f2168 41 9a 00 20     beq        cr6,LAB_824f2188                                         0x9 HIT_STUN (no hold)
+        824f216c 2b 0b 00 0f     cmplwi     cr6,r11,0xf
+        824f2170 41 9a 00 18     beq        cr6,LAB_824f2188                                         0xf DOWN_ATTACK_STUN (no hold)
+        824f2174 2b 0b 00 0a     cmplwi     cr6,r11,0xa
+        824f2178 41 9a 00 10     beq        cr6,LAB_824f2188                                         0xa BEING_THROWN
+        824f217c 2b 0b 00 0b     cmplwi     cr6,r11,0xb
+        824f2180 7f ab eb 78     or         r11,r29,r29
+        824f2184 40 9a 00 08     bne        cr6,LAB_824f218c                                         0xb BEING_HELD
+                             LAB_824f2188                                                XREF[5]:     824f2158(j), 824f2160(j), 
+                                                                                                     824f2168(j), 824f2170(j), 
+                                                                                                     824f2178(j)  
+        824f2188 39 60 00 01     li         r11,0x1
+                             LAB_824f218c                                                XREF[1]:     824f2184(j)  
+        824f218c 55 6b 06 3e     rlwinm     r11,r11,0x0,0x18,0x1f
+        824f2190 2b 0b 00 01     cmplwi     cr6,r11,0x1
+        824f2194 40 9a 00 d8     bne        cr6,LAB_824f226c
+        824f2198 6b ea 00 01     xori       r10,r31,0x1
+        824f219c 38 e4 00 1c     addi       r7,r4,0x1c
+        824f21a0 1d 2a 00 9c     mulli      r9,r10,0x9c
+        824f21a4 7d 5e 38 2e     lwzx       r10,r30,r7=>BODY_DIR_P1_830201a4
+        824f21a8 39 04 00 18     addi       r8,r4,0x18
+        824f21ac 3c c0 00 00     lis        r6,0x0
+        824f21b0 7f a3 eb 78     or         r3,r29,r29
+        824f21b4 60 cb 80 00     ori        r11,r6,0x8000
+        824f21b8 7c 89 40 2e     lwzx       r4,r9,r8=>ATK_DIR_P1_830201a0
+        824f21bc 7d 65 5b 78     or         r5,r11,r11
+        824f21c0 7d 24 50 50     subf       r9,r4,r10
+        824f21c4 7d 69 5a 14     add        r11,r9,r11
+        824f21c8 39 0b 40 00     addi       r8,r11,0x4000
+        824f21cc 55 07 04 3e     rlwinm     r7,r8,0x0,0x10,0x1f
+        824f21d0 7f 07 28 00     cmpw       cr6,r7,r5
+        824f21d4 40 99 00 08     ble        cr6,LAB_824f21dc
+        824f21d8 38 60 00 01     li         r3,0x1
+                             LAB_824f21dc                                                XREF[1]:     824f21d4(j)  
+        824f21dc 3d 20 83 0f     lis        r9,-0x7cf1
+        824f21e0 1d 5f 02 50     mulli      r10,r31,0x250
+        824f21e4 39 29 de d0     subi       r9,r9,0x2130
+        824f21e8 55 6b 04 3e     rlwinm     r11,r11,0x0,0x10,0x1f
+        824f21ec 38 c9 00 28     addi       r6,r9,0x28
+        824f21f0 38 a9 00 29     addi       r5,r9,0x29
+        824f21f4 2f 0b 20 00     cmpwi      cr6,r11,0x2000
+        824f21f8 7c 6a 31 ae     stbx       r3,r10,r6=>DAT_830edef8
+        824f21fc 7f aa 29 ae     stbx       r29,r10,r5=>DAT_830edef9
+        824f2200 40 99 00 58     ble        cr6,LAB_824f2258
+        824f2204 2f 0b 60 00     cmpwi      cr6,r11,0x6000
+        824f2208 40 98 00 18     bge        cr6,LAB_824f2220
+        824f220c 39 60 00 01     li         r11,0x1
+        824f2210 38 a9 00 2e     addi       r5,r9,0x2e
+        824f2214 7d 6a 29 ae     stbx       r11,r10,r5=>DAT_830edefe
+        824f2218 38 21 00 70     addi       r1,r1,0x70
+        824f221c 48 4f cb 00     b          switchD_82426b00::caseD_4
+                             LAB_824f2220                                                XREF[1]:     824f2208(j)  
+        824f2220 3c 80 00 00     lis        r4,0x0
+        824f2224 60 88 a0 00     ori        r8,r4,0xa000
+        824f2228 7f 0b 40 00     cmpw       cr6,r11,r8
+        824f222c 41 99 00 18     bgt        cr6,LAB_824f2244
+        824f2230 39 60 00 02     li         r11,0x2
+        824f2234 38 a9 00 2e     addi       r5,r9,0x2e
+        824f2238 7d 6a 29 ae     stbx       r11,r10,r5=>DAT_830edefe
+        824f223c 38 21 00 70     addi       r1,r1,0x70
+        824f2240 48 4f ca dc     b          switchD_82426b00::caseD_4
+                             LAB_824f2244                                                XREF[1]:     824f222c(j)  
+        824f2244 3c e0 00 00     lis        r7,0x0
+        824f2248 60 e6 e0 00     ori        r6,r7,0xe000
+        824f224c 7f 0b 30 00     cmpw       cr6,r11,r6
+        824f2250 39 60 00 03     li         r11,0x3
+        824f2254 41 98 00 08     blt        cr6,LAB_824f225c
+                             LAB_824f2258                                                XREF[1]:     824f2200(j)  
+        824f2258 7f ab eb 78     or         r11,r29,r29
+                             LAB_824f225c                                                XREF[1]:     824f2254(j)  
+        824f225c 38 a9 00 2e     addi       r5,r9,0x2e
+        824f2260 7d 6a 29 ae     stbx       r11,r10,r5=>DAT_830edefe
+        824f2264 38 21 00 70     addi       r1,r1,0x70
+        824f2268 48 4f ca b4     b          switchD_82426b00::caseD_4
+                             LAB_824f226c                                                XREF[1]:     824f2194(j)  
+        824f226c 7f e3 fb 78     or         r3,r31,r31
+        824f2270 4b df 01 d1     bl         Check_UpsideDownHead_Hayabusa_FUN_822e2440               undefined Check_UpsideDownHead_
+        824f2274 54 63 06 3e     rlwinm     r3,r3,0x0,0x18,0x1f
+        824f2278 2b 03 00 01     cmplwi     cr6,r3,0x1
+        824f227c 40 9a 00 d0     bne        cr6,LAB_824f234c
+        824f2280 6b eb 00 01     xori       r11,r31,0x1
+        824f2284 38 e4 00 1c     addi       r7,r4,0x1c
+        824f2288 1d 4b 00 9c     mulli      r10,r11,0x9c
+        824f228c 7c 7e 38 2e     lwzx       r3,r30,r7=>BODY_DIR_P1_830201a4
+        824f2290 39 24 00 18     addi       r9,r4,0x18
+        824f2294 3c c0 00 00     lis        r6,0x0
+        824f2298 7f a8 eb 78     or         r8,r29,r29
+        824f229c 60 cb 80 00     ori        r11,r6,0x8000
+        824f22a0 7c 8a 48 2e     lwzx       r4,r10,r9=>ATK_DIR_P1_830201a0
+        824f22a4 7d 65 5b 78     or         r5,r11,r11
+        824f22a8 7d 44 18 50     subf       r10,r4,r3
+        824f22ac 7d 6a 5a 14     add        r11,r10,r11
+        824f22b0 39 2b 40 00     addi       r9,r11,0x4000
+        824f22b4 55 27 04 3e     rlwinm     r7,r9,0x0,0x10,0x1f
+        824f22b8 7f 07 28 00     cmpw       cr6,r7,r5
+        824f22bc 40 99 00 08     ble        cr6,LAB_824f22c4
+        824f22c0 39 00 00 01     li         r8,0x1
+                             LAB_824f22c4                                                XREF[1]:     824f22bc(j)  
+        824f22c4 3d 20 83 0f     lis        r9,-0x7cf1
+        824f22c8 1d 5f 02 50     mulli      r10,r31,0x250
+        824f22cc 39 29 de d0     subi       r9,r9,0x2130
+        824f22d0 55 6b 04 3e     rlwinm     r11,r11,0x0,0x10,0x1f
+        824f22d4 38 c9 00 28     addi       r6,r9,0x28
+        824f22d8 38 a9 00 29     addi       r5,r9,0x29
+        824f22dc 2f 0b 20 00     cmpwi      cr6,r11,0x2000
+        824f22e0 7d 0a 31 ae     stbx       r8,r10,r6=>DAT_830edef8
+        824f22e4 7f aa 29 ae     stbx       r29,r10,r5=>DAT_830edef9
+        824f22e8 40 99 00 40     ble        cr6,LAB_824f2328
+        824f22ec 2f 0b 60 00     cmpwi      cr6,r11,0x6000
+        824f22f0 40 98 00 0c     bge        cr6,LAB_824f22fc
+        824f22f4 39 60 00 01     li         r11,0x1
+        824f22f8 48 00 00 34     b          LAB_824f232c
+                             LAB_824f22fc                                                XREF[1]:     824f22f0(j)  
+        824f22fc 3c 80 00 00     lis        r4,0x0
+        824f2300 60 83 a0 00     ori        r3,r4,0xa000
+        824f2304 7f 0b 18 00     cmpw       cr6,r11,r3
+        824f2308 41 99 00 0c     bgt        cr6,LAB_824f2314
+        824f230c 39 60 00 02     li         r11,0x2
+        824f2310 48 00 00 1c     b          LAB_824f232c
+                             LAB_824f2314                                                XREF[1]:     824f2308(j)  
+        824f2314 3c e0 00 00     lis        r7,0x0
+        824f2318 60 e6 e0 00     ori        r6,r7,0xe000
+        824f231c 7f 0b 30 00     cmpw       cr6,r11,r6
+        824f2320 39 60 00 03     li         r11,0x3
+        824f2324 41 98 00 08     blt        cr6,LAB_824f232c
+                             LAB_824f2328                                                XREF[1]:     824f22e8(j)  
+        824f2328 7f ab eb 78     or         r11,r29,r29
+                             LAB_824f232c                                                XREF[3]:     824f22f8(j), 824f2310(j), 
+                                                                                                     824f2324(j)  
+        824f232c 38 89 00 2e     addi       r4,r9,0x2e
+        824f2330 55 05 06 3e     rlwinm     r5,r8,0x0,0x18,0x1f
+        824f2334 2b 05 00 00     cmplwi     cr6,r5,0x0
+        824f2338 7d 6a 21 ae     stbx       r11,r10,r4=>DAT_830edefe
+        824f233c 40 9a 00 48     bne        cr6,LAB_824f2384
+        824f2340 38 60 00 01     li         r3,0x1
+        824f2344 38 21 00 70     addi       r1,r1,0x70
+        824f2348 48 4f c9 d4     b          switchD_82426b00::caseD_4
+                             LAB_824f234c                                                XREF[1]:     824f227c(j)  
+        824f234c 6b e3 00 01     xori       r3,r31,0x1
+        824f2350 39 44 00 18     addi       r10=>ATK_DIR_P1_830201a0,r4,0x18
+        824f2354 39 24 00 1c     addi       r9=>BODY_DIR_P1_830201a4,r4,0x1c
+        824f2358 1d 63 00 9c     mulli      r11,r3,0x9c
+        824f235c 7c fe 48 2e     lwzx       r7,r30,r9=>BODY_DIR_P1_830201a4
+        824f2360 7d 0b 50 2e     lwzx       r8,r11,r10=>ATK_DIR_P1_830201a0
+        824f2364 7c c8 38 50     subf       r6,r8,r7
+        824f2368 38 a0 00 00     li         r5,0x0
+        824f236c 7f e3 fb 78     or         r3,r31,r31
+        824f2370 3c 86 00 01     addis      r4,r6,0x1
+        824f2374 38 84 80 00     subi       r4,r4,0x8000
+        824f2378 4b ff d6 21     bl         Function_824EF998                                        undefined Function_824EF998()
+        824f237c 38 21 00 70     addi       r1,r1,0x70
+        824f2380 48 4f c9 9c     b          switchD_82426b00::caseD_4
+                             LAB_824f2384                                                XREF[1]:     824f233c(j)  
+        824f2384 7f a3 eb 78     or         r3,r29,r29
+        824f2388 38 21 00 70     addi       r1,r1,0x70
+        824f238c 48 4f c9 90     b          switchD_82426b00::caseD_4
