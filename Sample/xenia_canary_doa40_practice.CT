@@ -270,7 +270,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>988</ID>
-          <Description>"No description"</Description>
+          <Description>"WIN_POINT_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>18302018b</Address>
@@ -447,7 +447,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1010</ID>
-          <Description>"ACT_STATE_P1_830201bf*"</Description>
+          <Description>"ACT_STATE_P1_830201bf* (0=NEUTRAL, 1=AIR, 2=AIR ATTACK, 3=ATTACK, 4=THROW, 5=HOLD, 6=HOLD SUCCESS, 7=Block Stun, 8=Critical Stun, 9=Hit Stun, A=BEING THROWN, B=BEING HELD, C=GROUND STATE, D=SPECIAL MOVE, E=DOWN ATTACK, F=Down Attack Stun,10=THROW MISS)"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -532,7 +532,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1022</ID>
-          <Description>"No description"</Description>
+          <Description>"THROW_FLAG_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201cb</Address>
@@ -688,7 +688,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1044</ID>
-          <Description>"No description"</Description>
+          <Description>"HIT_GRASP???_P1 (0=high punch,1=high kick,2=mid punch,3=mid kick,4=low punch,5=low kick)"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201E3</Address>
@@ -936,7 +936,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1079</ID>
-          <Description>"No description"</Description>
+          <Description>"WIN_POINT_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>183020227</Address>
@@ -1163,7 +1163,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1108</ID>
-          <Description>"No description"</Description>
+          <Description>"LeadingFoot_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>183020262</Address>
@@ -1198,7 +1198,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1113</ID>
-          <Description>"No description"</Description>
+          <Description>"THROW_FLAG_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>183020267</Address>
