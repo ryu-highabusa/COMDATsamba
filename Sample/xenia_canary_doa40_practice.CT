@@ -602,7 +602,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1024</ID>
-          <Description>"No description"</Description>
+          <Description>"GUARD_STA_P1 (0=NEUTRAL, 1=STANDING_GUARD, 2=CHROUCHING_GUARD)"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201CD</Address>
@@ -730,7 +730,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1042</ID>
-          <Description>"No description"</Description>
+          <Description>"UKEMI_FLAG_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201E1</Address>
@@ -1268,7 +1268,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1115</ID>
-          <Description>"No description"</Description>
+          <Description>"GUARD_STA_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>183020269</Address>
@@ -1396,7 +1396,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1133</ID>
-          <Description>"No description"</Description>
+          <Description>"UKEMI_FLAG_P2 ???"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>18302027D</Address>
