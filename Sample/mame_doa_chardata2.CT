@@ -4,7 +4,6 @@
     <CheatEntry>
       <ID>0</ID>
       <Description>"MAN_COM_P1_0054fc00*"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1CAFA57BC40</Address>
@@ -12,7 +11,6 @@
     <CheatEntry>
       <ID>1</ID>
       <Description>"CHAR_NUM_P1_0054fc01*"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1CAFA57BC41</Address>
@@ -20,7 +18,6 @@
     <CheatEntry>
       <ID>2</ID>
       <Description>"CHAR_COL_P1_0054fc02"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1CAFA57BC42</Address>
@@ -28,7 +25,6 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"WIN_POINT_P1_0054fc03"</Description>
-      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>1CAFA57BC43</Address>
