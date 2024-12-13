@@ -1,0 +1,4 @@
+0=high punch,1=high kick,2=mid punch,3=mid kick,4=low punch,5=low kick
+0=NEUTRAL, 1=AIR, 2=AIR ATTACK, 3=ATTACK, 4=THROW, 5=HOLD, 6=HOLD SUCCESS, 7=Block Stun, 8=Critical Stun, 9=Hit Stun, A=BEING THROWN, B=BEING HELD, C=GROUND STATE, D=SPECIAL MOVE, E=DOWN ATTACK, F=Down Attack Stun,10=THROW MISS
+0=STANDING, 1=CROUCHING
+0=left foot forward,1=right foot forward 
