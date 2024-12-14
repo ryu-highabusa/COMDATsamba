@@ -33,7 +33,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>8</ID>
-      <Description>"Char ID P1 (0=AKIRA,1=SARAH,2=LAU,3=SHUN,4=JEFFRY,5=PAI,6=JACKY,7=KAGE,8=LION,9=WOLF,10=AOI,11=LEIFEI,12=VANESSA,13=BRAD,14=GOH,15=EILEEN,16=EL_BLAZE,17=JEAN,18=TAKA)"</Description>
+      <Description>"Char ID P1 (0=AKIRA,1=SARAH,2=LAU,3=SHUN,4=JEFFRY,5=PAI,6=JACKY,7=KAGE,8=LION,9=WOLF,10=AOI,11=LEIFEI,12=VANESSA,13=BRAD,14=GOH,15=EILEEN,16=EL_BLAZE,17=JEAN,18=TAKA,,19=NUDE_AKIRA,20=DURAL,21=DURAL)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -64,10 +64,49 @@
       <Address>182D26654</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>13</ID>
+      <Description>"Chard ID P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182D26420</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Chard ID P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182D2656c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Chard ID P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182D26570</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"Chard ID P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182D26674</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>12</ID>
-      <Description>"No description"</Description>
+      <Description>""</Description>
       <VariableType>Byte</VariableType>
       <Address>182D5DFB5</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Debug Flag???"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182724af0</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
