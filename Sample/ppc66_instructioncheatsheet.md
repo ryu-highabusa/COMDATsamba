@@ -1,5 +1,5 @@
 | **Instruction**         | **Operation**                                                                                       | **Description**                                                                 |
-|--------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | `stwu Rt, offset(Ra)`    | Store Word with Update                                                                            | Stores a 32-bit value in memory and updates `Ra` (commonly for stack setup).    |
 | `lis Rt, immediate`      | Load Immediate Shifted                                                                            | Loads a 16-bit value into the upper half of `Rt`.                               |
 | `addi Rt, Ra, immediate` | Add Immediate                                                                                    | Adds a 16-bit immediate value to `Ra`.                                          |
