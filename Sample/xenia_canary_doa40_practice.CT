@@ -1447,7 +1447,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1138</ID>
-          <Description>"No description"</Description>
+          <Description>"BYTE_83020282_ukemiflagmaybe??"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>183020282</Address>
