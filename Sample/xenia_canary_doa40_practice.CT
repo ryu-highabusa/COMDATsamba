@@ -113,6 +113,22 @@
       <Address>182502197</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>1172</ID>
+      <Description>"CriticalHitStunRedBar_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EE4F8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1171</ID>
+      <Description>"CriticalHitStunRedBar_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ee4fc</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>292</ID>
       <Description>"DISTANCE"</Description>
       <VariableType>Custom</VariableType>
