@@ -6841,6 +6841,76 @@
       <VariableType>Byte</VariableType>
       <Address>183020262</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>1172</ID>
+      <Description>"CriticalHitStunRedBar_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EE4F8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1171</ID>
+      <Description>"CriticalHitStunRedBar_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ee4fc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1173</ID>
+      <Description>"CriticalHitFlagP1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ee4d0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1174</ID>
+      <Description>"CriticalHitFlagP2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EE4D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1177</ID>
+      <Description>"DAT_830ee4c0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830ee4c0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1178</ID>
+      <Description>"DAT_830ee4c2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE4C2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1179</ID>
+      <Description>"DAT_830ee4c3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EE4C3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1175</ID>
+      <Description>"DAT_830ee4c4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830ee4c4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1176</ID>
+      <Description>"DAT_830ee4c8"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830EE4C8</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
