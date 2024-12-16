@@ -3014,7 +3014,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>371</ID>
-      <Description>"RULE_ON"</Description>
+      <Description>"GAME_RULE_ON"</Description>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>1830EA969</Address>
@@ -3629,10 +3629,17 @@
     </CheatEntry>
     <CheatEntry>
       <ID>453</ID>
-      <Description>"Health_P1*"</Description>
+      <Description>"HIT_POINT_P1_830201ac*"</Description>
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
       <Address>1830201AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1180</ID>
+      <Description>"HIT_POINT_P2"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183020248</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>454</ID>
@@ -6828,6 +6835,20 @@
       <Address>1830201a9</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>1183</ID>
+      <Description>"STAGE_DISPLAY"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830200dc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1184</ID>
+      <Description>"GAME_RULE_ON"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830EA969</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>943</ID>
       <Description>"LeadingFootP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -6842,8 +6863,22 @@
       <Address>183020262</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>1181</ID>
+      <Description>"HIT_POINT_P1"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830201AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1182</ID>
+      <Description>"HIT_POINT_P2"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183020248</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>1172</ID>
-      <Description>"CriticalHitStunRedBar_P1"</Description>
+      <Description>"CriticalHitStunBarFlashValue_P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -6851,7 +6886,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>1171</ID>
-      <Description>"CriticalHitStunRedBar_P2"</Description>
+      <Description>"CriticalHitStunBarFlashValue_P2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -6897,7 +6932,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>1175</ID>
-      <Description>"DAT_830ee4c4"</Description>
+      <Description>"DAT_830ee4c4 p1 (updates after hitstunbarflash)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -6905,11 +6940,48 @@
     </CheatEntry>
     <CheatEntry>
       <ID>1176</ID>
-      <Description>"DAT_830ee4c8"</Description>
+      <Description>"DAT_830ee4c8 p2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>1830EE4C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1185</ID>
+      <Description>"DAT_8301d76a   PlayerResetFlagMaybe???"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18301d76a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1186</ID>
+      <Description>"DAT_830edfa0 p1 ?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830edfa0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1187</ID>
+      <Description>"DAT_830ee0c8 p2?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830EE0C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1188</ID>
+      <Description>"BYTE_830201cc p1 flag?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830201cc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1189</ID>
+      <Description>"BYTE_830268cc p2 flag?"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020268</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
