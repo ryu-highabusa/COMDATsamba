@@ -444,7 +444,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1001</ID>
-          <Description>"No description"</Description>
+          <Description>"Damage_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
@@ -460,7 +460,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1003</ID>
-          <Description>"No description"</Description>
+          <Description>"Last_Damage_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
@@ -468,7 +468,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1004</ID>
-          <Description>"No description"</Description>
+          <Description>"Damage_Disp_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
@@ -781,7 +781,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1047</ID>
-          <Description>"No description"</Description>
+          <Description>"No description real ukemi flag?"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>1830201E6</Address>
@@ -1110,7 +1110,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1092</ID>
-          <Description>"No description"</Description>
+          <Description>"Damage_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
@@ -1126,7 +1126,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1094</ID>
-          <Description>"No description"</Description>
+          <Description>"Last_Damage_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
@@ -1134,7 +1134,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>1095</ID>
-          <Description>"No description"</Description>
+          <Description>"Damage_Disp_P2"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
