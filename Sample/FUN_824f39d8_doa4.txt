@@ -1,9 +1,9 @@
                              **************************************************************
                              *                          FUNCTION                          *
                              **************************************************************
-                             undefined FUN_824f39d8()
+                             undefined ResolveHitLevel_FUN_824f39d8()
              undefined         r3:1           <RETURN>
-                             FUN_824f39d8
+                             ResolveHitLevel_FUN_824f39d8
         824f39d8 3d 40 83 02     lis        r10,-0x7cfe
         824f39dc 1d 63 00 9c     mulli      r11,r3,0x9c
         824f39e0 39 4a 01 88     addi       r10,r10,0x188
@@ -32,69 +32,69 @@
         824f3a3c 7f e8 fb 78     or         r8,r31,r31
         824f3a40 80 8a db 08     lwz        r4,-0x24f8(r10)=>DAT_830edb08
         824f3a44 80 ab d9 c0     lwz        r5,-0x2640(r11)=>DAT_830ed9c0
-                             LAB_824f3a48                                    XREF[1]:     824f3acc(j)  
+                             ProcessPrimaryHitLevelConditions                XREF[1]:     824f3acc(j)  
         824f3a48 a1 48 00 00     lhz        r10,0x0(r8)
         824f3a4c 54 e7 10 3a     rlwinm     r7,r7,0x2,0x0,0x1d
         824f3a50 2b 0a 44 a2     cmplwi     cr6,r10,0x44a2
-        824f3a54 41 98 00 0c     blt        cr6,LAB_824f3a60
+        824f3a54 41 98 00 0c     blt        cr6,HandleDefaultHitLevelState
         824f3a58 2b 0a 44 c4     cmplwi     cr6,r10,0x44c4
-        824f3a5c 41 98 00 58     blt        cr6,LAB_824f3ab4
-                             LAB_824f3a60                                    XREF[1]:     824f3a54(j)  
+        824f3a5c 41 98 00 58     blt        cr6,AssignMidLevelHit
+                             HandleDefaultHitLevelState                      XREF[1]:     824f3a54(j)  
         824f3a60 7c 8b 23 78     or         r11,r4,r4
         824f3a64 39 20 00 00     li         r9,0x0
         824f3a68 7f 0b 28 40     cmplw      cr6,r11,r5
         824f3a6c 40 98 00 24     bge        cr6,LAB_824f3a90
-                             LAB_824f3a70                                    XREF[1]:     824f3a84(j)  
+                             CheckHitLevelConditions                         XREF[1]:     824f3a84(j)  
         824f3a70 a3 ab 00 00     lhz        r29,0x0(r11)
         824f3a74 7f 1d 50 40     cmplw      cr6,r29,r10
-        824f3a78 41 9a 00 14     beq        cr6,LAB_824f3a8c
+        824f3a78 41 9a 00 14     beq        cr6,MarkHitLevelConditionMet
         824f3a7c 39 6b 00 02     addi       r11,r11,0x2
         824f3a80 7f 0b 28 40     cmplw      cr6,r11,r5
-        824f3a84 41 98 ff ec     blt        cr6,LAB_824f3a70
+        824f3a84 41 98 ff ec     blt        cr6,CheckHitLevelConditions
         824f3a88 48 00 00 08     b          LAB_824f3a90
-                             LAB_824f3a8c                                    XREF[1]:     824f3a78(j)  
+                             MarkHitLevelConditionMet                        XREF[1]:     824f3a78(j)  
         824f3a8c 39 20 00 01     li         r9,0x1
                              LAB_824f3a90                                    XREF[2]:     824f3a6c(j), 824f3a88(j)  
         824f3a90 55 2b 06 3e     rlwinm     r11,r9,0x0,0x18,0x1f
         824f3a94 2b 0b 00 00     cmplwi     cr6,r11,0x0
-        824f3a98 40 9a 00 1c     bne        cr6,LAB_824f3ab4
+        824f3a98 40 9a 00 1c     bne        cr6,AssignMidLevelHit
         824f3a9c 2b 0a ff ff     cmplwi     cr6,r10,0xffff
-        824f3aa0 41 9a 00 0c     beq        cr6,LAB_824f3aac
+        824f3aa0 41 9a 00 0c     beq        cr6,PrepareMidLevelHoldCondition
         824f3aa4 39 60 00 01     li         r11,0x1
-        824f3aa8 48 00 00 10     b          LAB_824f3ab8
-                             LAB_824f3aac                                    XREF[1]:     824f3aa0(j)  
+        824f3aa8 48 00 00 10     b          AssignMidPunchOrKickHold
+                             PrepareMidLevelHoldCondition                    XREF[1]:     824f3aa0(j)  
         824f3aac 39 60 00 00     li         r11,0x0
-        824f3ab0 48 00 00 08     b          LAB_824f3ab8
-                             LAB_824f3ab4                                    XREF[2]:     824f3a5c(j), 824f3a98(j)  
+        824f3ab0 48 00 00 08     b          AssignMidPunchOrKickHold
+                             AssignMidLevelHit                               XREF[2]:     824f3a5c(j), 824f3a98(j)  
         824f3ab4 39 60 00 02     li         r11,0x2
-                             LAB_824f3ab8                                    XREF[2]:     824f3aa8(j), 824f3ab0(j)  
+                             AssignMidPunchOrKickHold                        XREF[2]:     824f3aa8(j), 824f3ab0(j)  
         824f3ab8 38 c6 ff ff     subi       r6,r6,0x1
         824f3abc 55 6a 07 be     rlwinm     r10,r11,0x0,0x1e,0x1f
         824f3ac0 39 08 00 02     addi       r8,r8,0x2
         824f3ac4 7d 47 3b 78     or         r7,r10,r7
         824f3ac8 2b 06 00 00     cmplwi     cr6,r6,0x0
-        824f3acc 40 9a ff 7c     bne        cr6,LAB_824f3a48
+        824f3acc 40 9a ff 7c     bne        cr6,ProcessPrimaryHitLevelConditions
         824f3ad0 a1 7e 00 50     lhz        r11,0x50(r30)=>ATK_HEIGHT_P1_830201d8
         824f3ad4 2b 0b 00 00     cmplwi     cr6,r11,0x0
-        824f3ad8 40 9a 00 30     bne        cr6,LAB_824f3b08
+        824f3ad8 40 9a 00 30     bne        cr6,HandleHighAttackOrHold
         824f3adc 3d 20 00 55     lis        r9,0x55
         824f3ae0 61 28 40 05     ori        r8,r9,0x4005
         824f3ae4 7f 07 40 00     cmpw       cr6,r7,r8
-        824f3ae8 40 9a 00 20     bne        cr6,LAB_824f3b08
+        824f3ae8 40 9a 00 20     bne        cr6,HandleHighAttackOrHold
         824f3aec 54 6a 10 3a     rlwinm     r10,r3,0x2,0x0,0x1d
         824f3af0 3d 60 83 0a     lis        r11,-0x7cf6
         824f3af4 7c e3 52 14     add        r7,r3,r10
         824f3af8 39 6b 55 08     addi       r11,r11,0x5508
         824f3afc 54 ea 10 3a     rlwinm     r10,r7,0x2,0x0,0x1d
         824f3b00 7c ca 59 ae     stbx       r6,r10,r11=>HitLevel_830a5508
-        824f3b04 48 00 00 c8     b          LAB_824f3bcc
-                             LAB_824f3b08                                    XREF[2]:     824f3ad8(j), 824f3ae8(j)  
+        824f3b04 48 00 00 c8     b          FinalizeHitLevelUpdates
+                             HandleHighAttackOrHold                          XREF[2]:     824f3ad8(j), 824f3ae8(j)  
         824f3b08 2b 0b 00 01     cmplwi     cr6,r11,0x1
-        824f3b0c 40 9a 00 34     bne        cr6,LAB_824f3b40
+        824f3b0c 40 9a 00 34     bne        cr6,HandleMidAttack
         824f3b10 3c a0 00 59     lis        r5,0x59
         824f3b14 60 a4 40 05     ori        r4,r5,0x4005
         824f3b18 7f 07 20 00     cmpw       cr6,r7,r4
-        824f3b1c 40 9a 00 24     bne        cr6,LAB_824f3b40
+        824f3b1c 40 9a 00 24     bne        cr6,HandleMidAttack
         824f3b20 54 6a 10 3a     rlwinm     r10,r3,0x2,0x0,0x1d
         824f3b24 3d 60 83 0a     lis        r11,-0x7cf6
         824f3b28 7c 63 52 14     add        r3,r3,r10
@@ -102,14 +102,14 @@
         824f3b30 54 6a 10 3a     rlwinm     r10,r3,0x2,0x0,0x1d
         824f3b34 39 20 00 01     li         r9,0x1
         824f3b38 7d 2a 59 ae     stbx       r9,r10,r11=>HitLevel_830a5508
-        824f3b3c 48 00 00 90     b          LAB_824f3bcc
-                             LAB_824f3b40                                    XREF[2]:     824f3b0c(j), 824f3b1c(j)  
+        824f3b3c 48 00 00 90     b          FinalizeHitLevelUpdates
+                             HandleMidAttack                                 XREF[2]:     824f3b0c(j), 824f3b1c(j)  
         824f3b40 2b 0b 00 02     cmplwi     cr6,r11,0x2
-        824f3b44 40 9a 00 34     bne        cr6,LAB_824f3b78
+        824f3b44 40 9a 00 34     bne        cr6,HandleLowAttackOrHold
         824f3b48 3d 00 00 59     lis        r8,0x59
         824f3b4c 61 06 55 55     ori        r6,r8,0x5555
         824f3b50 7f 07 30 00     cmpw       cr6,r7,r6
-        824f3b54 40 9a 00 24     bne        cr6,LAB_824f3b78
+        824f3b54 40 9a 00 24     bne        cr6,HandleLowAttackOrHold
         824f3b58 54 6a 10 3a     rlwinm     r10,r3,0x2,0x0,0x1d
         824f3b5c 3d 60 83 0a     lis        r11,-0x7cf6
         824f3b60 7c a3 52 14     add        r5,r3,r10
@@ -117,14 +117,14 @@
         824f3b68 54 aa 10 3a     rlwinm     r10,r5,0x2,0x0,0x1d
         824f3b6c 38 80 00 02     li         r4,0x2
         824f3b70 7c 8a 59 ae     stbx       r4,r10,r11=>HitLevel_830a5508
-        824f3b74 48 00 00 58     b          LAB_824f3bcc
-                             LAB_824f3b78                                    XREF[2]:     824f3b44(j), 824f3b54(j)  
+        824f3b74 48 00 00 58     b          FinalizeHitLevelUpdates
+                             HandleLowAttackOrHold                           XREF[2]:     824f3b44(j), 824f3b54(j)  
         824f3b78 2b 0b 00 03     cmplwi     cr6,r11,0x3
-        824f3b7c 40 9a 00 34     bne        cr6,LAB_824f3bb0
+        824f3b7c 40 9a 00 34     bne        cr6,HandleSpecialMoves
         824f3b80 3d 60 00 55     lis        r11,0x55
         824f3b84 61 6a 56 55     ori        r10,r11,0x5655
         824f3b88 7f 07 50 00     cmpw       cr6,r7,r10
-        824f3b8c 40 9a 00 24     bne        cr6,LAB_824f3bb0
+        824f3b8c 40 9a 00 24     bne        cr6,HandleSpecialMoves
         824f3b90 54 6a 10 3a     rlwinm     r10,r3,0x2,0x0,0x1d
         824f3b94 3d 60 83 0a     lis        r11,-0x7cf6
         824f3b98 7d 03 52 14     add        r8,r3,r10
@@ -132,8 +132,8 @@
         824f3ba0 39 20 00 03     li         r9,0x3
         824f3ba4 55 0a 10 3a     rlwinm     r10,r8,0x2,0x0,0x1d
         824f3ba8 7d 2a 59 ae     stbx       r9,r10,r11=>HitLevel_830a5508
-        824f3bac 48 00 00 20     b          LAB_824f3bcc
-                             LAB_824f3bb0                                    XREF[2]:     824f3b7c(j), 824f3b8c(j)  
+        824f3bac 48 00 00 20     b          FinalizeHitLevelUpdates
+                             HandleSpecialMoves                              XREF[2]:     824f3b7c(j), 824f3b8c(j)  
         824f3bb0 54 6a 10 3a     rlwinm     r10,r3,0x2,0x0,0x1d
         824f3bb4 3d 60 83 0a     lis        r11,-0x7cf6
         824f3bb8 7c c3 52 14     add        r6,r3,r10
@@ -141,12 +141,12 @@
         824f3bc0 38 e0 00 ff     li         r7,0xff
         824f3bc4 54 ca 10 3a     rlwinm     r10,r6,0x2,0x0,0x1d
         824f3bc8 7c ea 59 ae     stbx       r7,r10,r11=>HitLevel_830a5508
-                             LAB_824f3bcc                                    XREF[4]:     824f3b04(j), 824f3b3c(j), 
+                             FinalizeHitLevelUpdates                         XREF[4]:     824f3b04(j), 824f3b3c(j), 
                                                                                           824f3b74(j), 824f3bac(j)  
-        824f3bcc 38 6b 00 01     addi       r3=>DAT_830a5509,r11,0x1
+        824f3bcc 38 6b 00 01     addi       r3=>BYTE_830a5509,r11,0x1
         824f3bd0 88 bf 00 26     lbz        r5,0x26(r31)
         824f3bd4 88 9e 00 5b     lbz        r4,0x5b(r30)=>HIT_GRASP???_P1_830201E3
         824f3bd8 39 6b 00 02     addi       r11,r11,0x2
-        824f3bdc 7c aa 19 ae     stbx       r5,r10,r3=>DAT_830a5509
+        824f3bdc 7c aa 19 ae     stbx       r5,r10,r3=>BYTE_830a5509
         824f3be0 7c 8a 59 ae     stbx       r4,r10,r11=>DAT_830a550a
         824f3be4 48 4f b1 38     b          switchD_82426b00::caseD_4
