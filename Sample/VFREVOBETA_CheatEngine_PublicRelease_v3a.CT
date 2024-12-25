@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"Select Character and Stage to initiate address values in training"</Description>
+      <Options moHideChildren="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"Double click on Value column for dropdown items"</Description>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"Arcade"</Description>
+          <Options moHideChildren="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>40</ID>
+              <Description>"1P ARCADE FORCE CHARACTER SELECT / DURAL (SELECT DURAL VALUE AND LOCK CODE BEFORE SELECTING ARCADE MODE)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:AKIRA YUKI
+1:SARAH BRYANT
+2:LAU CHAN
+3:SHUN DI
+4:JEFFRY MCWILD
+5:PAI CHAN
+6:JACKY BRYANT
+7:KAGE MARU
+8:LION RAFAEL
+9:WOLF HAWKFIELD
+10:AOI UMENOKOJI
+11:LEI-FEI
+12:VANESSA LEWIS
+13:BRAD BURNS
+14:GOH HINOGAMI
+15:EILEEN
+16:EL BLAZE
+17:JEAN KUJO
+18:TAKA ARASHI
+19:ANTI PIRACY AKIRA
+20:DURAL
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCC8</Address>
+              <Offsets>
+                <Offset>79C</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"2P FORCE CHARACTER SELECT / DURAL (SELECT DURAL VALUE AND LOCK CODE BEFORE SELECTING ARCADE MODE)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:AKIRA YUKI
+1:SARAH BRYANT
+2:LAU CHAN
+3:SHUN DI
+4:JEFFRY MCWILD
+5:PAI CHAN
+6:JACKY BRYANT
+7:KAGE MARU
+8:LION RAFAEL
+9:WOLF HAWKFIELD
+10:AOI UMENOKOJI
+11:LEI-FEI
+12:VANESSA LEWIS
+13:BRAD BURNS
+14:GOH HINOGAMI
+15:EILEEN
+16:EL BLAZE
+17:JEAN KUJO
+18:TAKA ARASHI
+19:ANTI PIRACY AKIRA
+20:DURAL
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCC8</Address>
+              <Offsets>
+                <Offset>7A0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>46</ID>
+              <Description>"1P ARCADE COSTUME (SELECT COSTUME VALUE AND LOCK CODE BEFORE SELECTING ARCADE CHARACTER)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Type A
+1:Type B
+2:Type C
+3:Type D
+10:VF1 Type A
+11:VF2 Type B
+9:Yakuza
+14:Tekken
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCC8</Address>
+              <Offsets>
+                <Offset>7A4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>69</ID>
+              <Description>"2P ARCADE COSTUME (SELECT COSTUME VALUE AND LOCK CODE BEFORE SELECTING ARCADE CHARACTER)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Type A
+1:Type B
+2:Type C
+3:Type D
+10:VF1 Type A
+11:VF2 Type B
+9:Yakuza
+14:Tekken
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCC8</Address>
+              <Offsets>
+                <Offset>7A8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>74</ID>
+              <Description>"ARCADE FORCE STAGE SELECT"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:grey room [STGTST]
+1:grey room statues wall [STGTS2]
+2:grey room city wall [STGTS3]
+3:mono test [STGWHT]
+4:Great Wall (Lau) [STGBAN]
+5:Temple (Kage) [STGTER]
+6:City (Jacky) [STGNYC]
+7:Palace (Lion) [STGCAS]
+8:River (Shun) [STGRIV]
+9:Shrine (Aoi) [STGJIN]
+10:Deep Mountain (Lei Fei) [STGSIN]
+11:Statues (Akira) [STGDJO]
+12:Island (Jeffry) [STGUMI]
+13:Abandoned Dojo (Goh) [STGHAI]
+14:Arena (El Blaze) [STGARE]
+15:Ruins (Eileen) [STGSLK]
+16:Snow Mountain (Wolf) [STGYUK]
+17:Water Falls (Vanessa) [STGTAK]
+18:Aurora (Sarah) [STGAUR]
+19:Terrace (Brad) [STGBAR]
+20:Grassland (Pai) [STGTAN]
+21:Sanctuary Snow (Dural) [STGDU1]
+22:Sanctuary Meteor (Dural) [STGDU2]
+23:Sanctuary Normal / blue sky (Dural) [STGDU3]
+24:Sanctuary Cloudy (Dural) [STGDU4]
+25:Sanctuary Space / Special License Stage (Dural)  [STGDU5]
+26:dressing room [STGTRM]
+27:after effect motions [STGCID]
+28:color debug [STGTRS]
+29:VF1 Jacky [STGEVO00]
+30:grey room city wall short [STGEVO01]
+31:grey room city wall [STGEVO02]
+32:grey room octagon wall [STGEVO03]
+33:grey room foot wall [STGEVO04]
+34:grey room lateral wall / different start position [STGEVO05]
+35:grey room city wall short breakable [STGEVO06]
+36:grey room city wall breakable [STGEVO07]
+37:grey room city wall interchangable to open between rounds [STGEVO08]
+38:grey room great 1 sided wall [STGEVO09]
+39:Training Room (Jean) [STGGYM]
+40:Sumo Ring  (Taka Arashi) [STGSMO]
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCC8</Address>
+              <Offsets>
+                <Offset>7D4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>53</ID>
+              <Description>"ARCADE CHARACTER CPU DIFFICULTY SETTING (1-31)"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCE0</Address>
+              <Offsets>
+                <Offset>6758</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Versus / Training"</Description>
+          <Options moHideChildren="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"1P VERSUS / TRAINING COSTUME (LOCK CODE FIRST BEFORE SELECTING CHARACTER)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Type A
+1:Type B
+2:Type C
+3:Type D
+10:VF1 Type A
+11:VF2 Type B
+9:Yakuza
+14:Tekken
+</DropDownList>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+0071B110</Address>
+              <Offsets>
+                <Offset>88</Offset>
+                <Offset>10</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>27</ID>
+              <Description>"2P VERSUS / TRAINING COSTUME (LOCK CODE FIRST BEFORE SELECTING CHARACTER)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Type A
+1:Type B
+2:Type C
+3:Type D
+10:VF1 Type A
+11:VF2 Type B
+9:Yakuza
+14:Tekken
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+0071B110</Address>
+              <Offsets>
+                <Offset>8C</Offset>
+                <Offset>10</Offset>
+                <Offset>10</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>34</ID>
+              <Description>"1P FORCE CHARACTER SELECT / DURAL VERSUS / TRAINING  (LOCK CODE BEFORE SELECTING CHARACTER)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:AKIRA YUKI
+1:SARAH BRYANT
+2:LAU CHAN
+3:SHUN DI
+4:JEFFRY MCWILD
+5:PAI CHAN
+6:JACKY BRYANT
+7:KAGE MARU
+8:LION RAFAEL
+9:WOLF HAWKFIELD
+10:AOI UMENOKOJI
+11:LEI-FEI
+12:VANESSA LEWIS
+13:BRAD BURNS
+14:GOH HINOGAMI
+15:EILEEN
+16:EL BLAZE
+17:JEAN KUJO
+18:TAKA ARASHI
+19:ANTI PIRACY AKIRA
+20:DURAL
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+0071BA78</Address>
+              <Offsets>
+                <Offset>C8</Offset>
+                <Offset>3C0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>35</ID>
+              <Description>"2P FORCE CHARACTER SELECT / DURAL VERSUS / TRAINING  (LOCK CODE BEFORE SELECTING CHARACTER)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:AKIRA YUKI
+1:SARAH BRYANT
+2:LAU CHAN
+3:SHUN DI
+4:JEFFRY MCWILD
+5:PAI CHAN
+6:JACKY BRYANT
+7:KAGE MARU
+8:LION RAFAEL
+9:WOLF HAWKFIELD
+10:AOI UMENOKOJI
+11:LEI-FEI
+12:VANESSA LEWIS
+13:BRAD BURNS
+14:GOH HINOGAMI
+15:EILEEN
+16:EL BLAZE
+17:JEAN KUJO
+18:TAKA ARASHI
+19:ANTI PIRACY AKIRA
+20:DURAL
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+0071BA78</Address>
+              <Offsets>
+                <Offset>F8</Offset>
+                <Offset>3C0</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>32</ID>
+              <Description>"FORCE STAGE SELECT VERSUS / TRAINING (LOCK CODE FIRST BEFORE SELECTING STAGE)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:grey room [STGTST]
+1:grey room statues wall [STGTS2]
+2:grey room city wall [STGTS3]
+3:mono test [STGWHT]
+4:Great Wall (Lau) [STGBAN]
+5:Temple (Kage) [STGTER]
+6:City (Jacky) [STGNYC]
+7:Palace (Lion) [STGCAS]
+8:River (Shun) [STGRIV]
+9:Shrine (Aoi) [STGJIN]
+10:Deep Mountain (Lei Fei) [STGSIN]
+11:Statues (Akira) [STGDJO]
+12:Island (Jeffry) [STGUMI]
+13:Abandoned Dojo (Goh) [STGHAI]
+14:Arena (El Blaze) [STGARE]
+15:Ruins (Eileen) [STGSLK]
+16:Snow Mountain (Wolf) [STGYUK]
+17:Water Falls (Vanessa) [STGTAK]
+18:Aurora (Sarah) [STGAUR]
+19:Terrace (Brad) [STGBAR]
+20:Grassland (Pai) [STGTAN]
+21:Sanctuary Snow (Dural) [STGDU1]
+22:Sanctuary Meteor (Dural) [STGDU2]
+23:Sanctuary Normal / blue sky (Dural) [STGDU3]
+24:Sanctuary Cloudy (Dural) [STGDU4]
+25:Sanctuary Space / Special License Stage (Dural)  [STGDU5]
+26:dressing room [STGTRM]
+27:after effect motions [STGCID]
+28:color debug [STGTRS]
+29:VF1 Jacky [STGEVO00]
+30:grey room city wall short [STGEVO01]
+31:grey room city wall [STGEVO02]
+32:grey room octagon wall [STGEVO03]
+33:grey room foot wall [STGEVO04]
+34:grey room lateral wall / different start position [STGEVO05]
+35:grey room city wall short breakable [STGEVO06]
+36:grey room city wall breakable [STGEVO07]
+37:grey room city wall interchangable to open between rounds [STGEVO08]
+38:grey room great 1 sided wall [STGEVO09]
+39:Training Room (Jean) [STGGYM]
+40:Sumo Ring  (Taka Arashi) [STGSMO]
+</DropDownList>
+              <VariableType>4 Bytes</VariableType>
+              <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+0071BA78</Address>
+              <Offsets>
+                <Offset>40C</Offset>
+                <Offset>3C0</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"1p action monitor(debug)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>"vf5fs-pxd-w64-d3d12_SteamRetail.dll"+006FFCE0</Address>
+      <Offsets>
+        <Offset>F790</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Code :sub rsp,28</Description>
+      <AddressString>VFREVOBETA.exe.unpacked.exe+2173BEC</AddressString>
+      <Before>
+        <Byte>E9</Byte>
+        <Byte>78</Byte>
+        <Byte>34</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+        <Byte>EC</Byte>
+        <Byte>28</Byte>
+      </Actual>
+      <After>
+        <Byte>E8</Byte>
+        <Byte>77</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
