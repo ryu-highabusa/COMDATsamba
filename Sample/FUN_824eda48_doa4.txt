@@ -1,0 +1,444 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined FUN_824eda48()
+             undefined         r3:1           <RETURN>
+             undefined8        Stack[-0x90]:8 local_90                                XREF[1]:     824ee018(R)  
+             undefined8        Stack[-0x98]:8 local_98                                XREF[1]:     824ee014(R)  
+             undefined8        Stack[-0xa8]:8 local_a8                                XREF[2]:     824edd98(W), 
+                                                                                                   824edd9c(R)  
+             undefined4        Stack[-0xb0]:4 local_b0                                XREF[3]:     824eddb0(*), 
+                                                                                                   824eddb4(R), 
+                                                                                                   824eddd4(W)  
+             undefined4        Stack[-0x100   local_100                               XREF[1]:     824eda48(W)  
+                             FUN_824eda48
+        824eda48 94 21 ff 00     stwu       r1,local_100(r1)
+        824eda4c 3d 60 83 02     lis        r11,-0x7cfe
+        824eda50 3d 20 82 2b     lis        r9,-0x7dd5
+        824eda54 3a 6b 2d 10     addi       r19,r11,0x2d10
+        824eda58 3d 60 82 c3     lis        r11,-0x7d3d
+        824eda5c 3d 40 82 05     lis        r10,-0x7dfb
+        824eda60 3a 4b 8b dc     subi       r18,r11,0x7424
+        824eda64 3d 60 83 02     lis        r11,-0x7cfe
+        824eda68 c3 c9 9f 0c     lfs        f30,-0x60f4(r9)=>FLOAT_822a9f0c                                 = 182.04445
+        824eda6c 3b 00 00 00     li         r24,0x0
+        824eda70 3a 2b 30 38     addi       r17,r11,0x3038
+        824eda74 3d 60 83 0f     lis        r11,-0x7cf1
+        824eda78 c3 ea fe a0     lfs        f31,-0x160(r10)=>FLOAT_8204fea0                                 = 1.0
+        824eda7c 7f 1a c3 78     or         r26,r24,r24
+        824eda80 3b 2b de d0     subi       r25,r11,0x2130
+        824eda84 3d 60 83 02     lis        r11,-0x7cfe
+        824eda88 7f 1c c3 78     or         r28,r24,r24
+        824eda8c 3a eb 01 88     addi       r23,r11,0x188
+        824eda90 3d 60 00 00     lis        r11,0x0
+        824eda94 3e 80 83 02     lis        r20,-0x7cfe
+        824eda98 3e 00 83 02     lis        r16,-0x7cfe
+        824eda9c 3a a0 00 01     li         r21,0x1
+        824edaa0 61 76 80 00     ori        r22,r11,0x8000
+                             LAB_824edaa4                                    XREF[1]:     824ee00c(j)  
+        824edaa4 1d 7c 00 9c     mulli      r11,r28,0x9c
+        824edaa8 7f ab ba 14     add        r29,r11,r23
+        824edaac 6b 8a 00 01     xori       r10,r28,0x1
+        824edab0 1d 6a 00 9c     mulli      r11,r10,0x9c
+        824edab4 8b fd 00 37     lbz        r31,0x37(r29)=>ACT_STATE_P1_830201bf*
+        824edab8 7f 6b ba 14     add        r27,r11,r23
+        824edabc 2b 1f 00 10     cmplwi     cr6,r31,0x10
+        824edac0 41 9a 00 30     beq        cr6,LAB_824edaf0
+        824edac4 2b 1f 00 05     cmplwi     cr6,r31,0x5
+        824edac8 41 9a 00 28     beq        cr6,LAB_824edaf0
+        824edacc 2b 1f 00 03     cmplwi     cr6,r31,0x3
+        824edad0 41 9a 00 20     beq        cr6,LAB_824edaf0
+        824edad4 2b 1f 00 02     cmplwi     cr6,r31,0x2
+        824edad8 41 9a 00 18     beq        cr6,LAB_824edaf0
+        824edadc 2b 1f 00 0e     cmplwi     cr6,r31,0xe
+        824edae0 41 9a 00 10     beq        cr6,LAB_824edaf0
+        824edae4 1d 3c 02 50     mulli      r9,r28,0x250
+        824edae8 39 19 00 30     addi       r8=>DAT_830edf00,r25,0x30
+        824edaec 7f 09 41 ae     stbx       r24,r9,r8=>DAT_830edf00
+                             LAB_824edaf0                                    XREF[5]:     824edac0(j), 824edac8(j), 
+                                                                                          824edad0(j), 824edad8(j), 
+                                                                                          824edae0(j)  
+        824edaf0 1f dc 02 50     mulli      r30,r28,0x250
+        824edaf4 38 f9 00 1c     addi       r7=>DAT_830edeec,r25,0x1c
+        824edaf8 7c de 3a 2e     lhzx       r6,r30,r7=>DAT_830edeec
+        824edafc 2b 06 00 01     cmplwi     cr6,r6,0x1
+        824edb00 40 9a 00 88     bne        cr6,LAB_824edb88
+        824edb04 38 b9 00 06     addi       r5=>DAT_830eded6,r25,0x6
+        824edb08 7d 5e 28 ae     lbzx       r10,r30,r5=>DAT_830eded6
+        824edb0c 2b 0a 00 01     cmplwi     cr6,r10,0x1
+        824edb10 40 9a 00 34     bne        cr6,LAB_824edb44
+        824edb14 2b 1f 00 03     cmplwi     cr6,r31,0x3
+        824edb18 40 9a 00 2c     bne        cr6,LAB_824edb44
+        824edb1c a1 7d 00 32     lhz        r11,0x32(r29)=>ACT_CODE_P1_830201ba*
+        824edb20 2b 0b 00 d0     cmplwi     cr6,r11,0xd0
+        824edb24 41 9a 00 20     beq        cr6,LAB_824edb44
+        824edb28 2b 0b 00 d1     cmplwi     cr6,r11,0xd1
+        824edb2c 41 9a 00 18     beq        cr6,LAB_824edb44
+        824edb30 2b 0b 00 d2     cmplwi     cr6,r11,0xd2
+        824edb34 41 9a 00 10     beq        cr6,LAB_824edb44
+        824edb38 38 99 00 3a     addi       r4,r25,0x3a
+        824edb3c 7e be 21 ae     stbx       r21,r30,r4=>DAT_830edf0a
+        824edb40 48 00 00 28     b          LAB_824edb68
+                             LAB_824edb44                                    XREF[5]:     824edb10(j), 824edb18(j), 
+                                                                                          824edb24(j), 824edb2c(j), 
+                                                                                          824edb34(j)  
+        824edb44 80 7d 00 14     lwz        r3,0x14(r29)=>DIRECT_P1_8302019c
+        824edb48 81 7d 00 18     lwz        r11,0x18(r29)=>ATK_DIR_P1_830201a0
+        824edb4c 7f 03 58 00     cmpw       cr6,r3,r11
+        824edb50 41 9a 00 10     beq        cr6,LAB_824edb60
+        824edb54 39 39 00 3a     addi       r9,r25,0x3a
+        824edb58 7e be 49 ae     stbx       r21,r30,r9=>DAT_830edf0a
+        824edb5c 48 00 00 0c     b          LAB_824edb68
+                             LAB_824edb60                                    XREF[1]:     824edb50(j)  
+        824edb60 39 19 00 3a     addi       r8,r25,0x3a
+        824edb64 7f 1e 41 ae     stbx       r24,r30,r8=>DAT_830edf0a
+                             LAB_824edb68                                    XREF[2]:     824edb40(j), 824edb5c(j)  
+        824edb68 38 f9 00 39     addi       r7=>DAT_830edf09,r25,0x39
+        824edb6c 7c de 38 ae     lbzx       r6,r30,r7=>DAT_830edf09
+        824edb70 2b 06 00 02     cmplwi     cr6,r6,0x2
+        824edb74 41 98 00 0c     blt        cr6,LAB_824edb80
+        824edb78 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        824edb7c 41 9a 00 0c     beq        cr6,LAB_824edb88
+                             LAB_824edb80                                    XREF[1]:     824edb74(j)  
+        824edb80 38 b9 00 30     addi       r5=>DAT_830edf00,r25,0x30
+        824edb84 7f 1e 29 ae     stbx       r24,r30,r5=>DAT_830edf00
+                             LAB_824edb88                                    XREF[2]:     824edb00(j), 824edb7c(j)  
+        824edb88 38 80 00 00     li         r4,0x0
+        824edb8c 7f 83 e3 78     or         r3,r28,r28
+        824edb90 48 00 04 91     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edb94 54 64 06 3e     rlwinm     r4,r3,0x0,0x18,0x1f
+        824edb98 2b 04 00 01     cmplwi     cr6,r4,0x1
+        824edb9c 40 9a 00 14     bne        cr6,LAB_824edbb0
+        824edba0 c0 10 fc 44     lfs        f0,-0x3bc(r16)=>DISTANCE_8301fc44                               = 0.0
+        824edba4 ff 00 f8 00     fcmpu      cr6,f0,f31
+        824edba8 41 9b 00 08     bso        cr6,LAB_824edbb0
+        824edbac 40 99 04 50     ble        cr6,LAB_824edffc
+                             LAB_824edbb0                                    XREF[2]:     824edb9c(j), 824edba8(j)  
+        824edbb0 38 80 00 01     li         r4,0x1
+        824edbb4 7f 83 e3 78     or         r3,r28,r28
+        824edbb8 48 00 04 69     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edbbc 54 63 06 3e     rlwinm     r3,r3,0x0,0x18,0x1f
+        824edbc0 2b 03 00 01     cmplwi     cr6,r3,0x1
+        824edbc4 40 9a 00 14     bne        cr6,LAB_824edbd8
+        824edbc8 c1 b0 fc 44     lfs        f13,-0x3bc(r16)=>DISTANCE_8301fc44                              = 0.0
+        824edbcc ff 0d f8 00     fcmpu      cr6,f13,f31
+        824edbd0 41 9b 00 08     bso        cr6,LAB_824edbd8
+        824edbd4 40 99 04 28     ble        cr6,LAB_824edffc
+                             LAB_824edbd8                                    XREF[2]:     824edbc4(j), 824edbd0(j)  
+        824edbd8 2b 1f 00 10     cmplwi     cr6,r31,0x10
+        824edbdc 41 9a 00 24     beq        cr6,LAB_824edc00
+        824edbe0 2b 1f 00 05     cmplwi     cr6,r31,0x5
+        824edbe4 41 9a 00 1c     beq        cr6,LAB_824edc00
+        824edbe8 2b 1f 00 03     cmplwi     cr6,r31,0x3
+        824edbec 41 9a 00 14     beq        cr6,LAB_824edc00
+        824edbf0 2b 1f 00 02     cmplwi     cr6,r31,0x2
+        824edbf4 41 9a 00 0c     beq        cr6,LAB_824edc00
+        824edbf8 2b 1f 00 0e     cmplwi     cr6,r31,0xe
+        824edbfc 40 9a 00 28     bne        cr6,LAB_824edc24
+                             LAB_824edc00                                    XREF[4]:     824edbdc(j), 824edbe4(j), 
+                                                                                          824edbec(j), 824edbf4(j)  
+        824edc00 38 80 00 17     li         r4,0x17
+        824edc04 7f 83 e3 78     or         r3,r28,r28
+        824edc08 48 00 04 19     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edc0c 54 6b 06 3e     rlwinm     r11,r3,0x0,0x18,0x1f
+        824edc10 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        824edc14 41 9a 00 10     beq        cr6,LAB_824edc24
+        824edc18 39 59 00 30     addi       r10,r25,0x30
+        824edc1c 7e be 51 ae     stbx       r21,r30,r10=>DAT_830edf00
+        824edc20 48 00 03 dc     b          LAB_824edffc
+                             LAB_824edc24                                    XREF[2]:     824edbfc(j), 824edc14(j)  
+        824edc24 38 80 00 02     li         r4,0x2
+        824edc28 7f 83 e3 78     or         r3,r28,r28
+        824edc2c 48 00 03 f5     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edc30 54 69 06 3e     rlwinm     r9,r3,0x0,0x18,0x1f
+        824edc34 7f 83 e3 78     or         r3,r28,r28
+        824edc38 2b 09 00 01     cmplwi     cr6,r9,0x1
+        824edc3c 41 9a 03 b8     beq        cr6,LAB_824edff4
+        824edc40 38 80 00 03     li         r4,0x3
+        824edc44 48 00 03 dd     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edc48 54 68 06 3e     rlwinm     r8,r3,0x0,0x18,0x1f
+        824edc4c 2b 08 00 01     cmplwi     cr6,r8,0x1
+        824edc50 41 9a 03 ac     beq        cr6,LAB_824edffc
+        824edc54 38 80 00 08     li         r4,0x8
+        824edc58 7f 83 e3 78     or         r3,r28,r28
+        824edc5c 48 00 03 c5     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edc60 54 67 06 3e     rlwinm     r7,r3,0x0,0x18,0x1f
+        824edc64 2b 07 00 01     cmplwi     cr6,r7,0x1
+        824edc68 41 9a 03 94     beq        cr6,LAB_824edffc
+        824edc6c 7f 43 d3 78     or         r3,r26,r26
+        824edc70 48 00 14 91     bl         Function_824EF100                                               undefined Function_824EF100()
+        824edc74 54 66 06 3e     rlwinm     r6,r3,0x0,0x18,0x1f
+        824edc78 2b 06 00 00     cmplwi     cr6,r6,0x0
+        824edc7c 40 9a 03 80     bne        cr6,LAB_824edffc
+        824edc80 7f 43 d3 78     or         r3,r26,r26
+        824edc84 48 00 12 25     bl         Function_824EEEA8                                               undefined Function_824EEEA8()
+        824edc88 54 65 06 3e     rlwinm     r5,r3,0x0,0x18,0x1f
+        824edc8c 2b 05 00 01     cmplwi     cr6,r5,0x1
+        824edc90 41 9a 03 6c     beq        cr6,LAB_824edffc
+        824edc94 89 7d 00 37     lbz        r11,0x37(r29)=>ACT_STATE_P1_830201bf*
+        824edc98 2b 0b 00 03     cmplwi     cr6,r11,0x3
+        824edc9c 41 9a 02 fc     beq        cr6,LAB_824edf98
+        824edca0 2b 0b 00 02     cmplwi     cr6,r11,0x2
+        824edca4 41 9a 02 f4     beq        cr6,LAB_824edf98
+        824edca8 2b 0b 00 0e     cmplwi     cr6,r11,0xe
+        824edcac 41 9a 02 ec     beq        cr6,LAB_824edf98
+        824edcb0 2b 0b 00 10     cmplwi     cr6,r11,0x10
+        824edcb4 41 9a 03 48     beq        cr6,LAB_824edffc
+        824edcb8 2b 0b 00 05     cmplwi     cr6,r11,0x5
+        824edcbc 41 9a 03 40     beq        cr6,LAB_824edffc
+        824edcc0 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        824edcc4 40 9a 00 10     bne        cr6,LAB_824edcd4
+        824edcc8 38 80 00 00     li         r4,0x0
+        824edccc 7f 83 e3 78     or         r3,r28,r28
+        824edcd0 48 00 03 28     b          LAB_824edff8
+                             LAB_824edcd4                                    XREF[1]:     824edcc4(j)  
+        824edcd4 88 9d 00 57     lbz        r4,0x57(r29)=>BYTE_830201df
+        824edcd8 2b 04 00 01     cmplwi     cr6,r4,0x1
+        824edcdc 40 9a 02 78     bne        cr6,LAB_824edf54
+        824edce0 1d 7c 00 9c     mulli      r11,r28,0x9c
+        824edce4 7f eb ba 14     add        r31,r11,r23
+        824edce8 89 5f 00 37     lbz        r10,0x37(r31)=>ACT_STATE_P1_830201bf*
+        824edcec 2b 0a 00 0d     cmplwi     cr6,r10,0xd
+        824edcf0 40 9a 01 7c     bne        cr6,LAB_824ede6c
+        824edcf4 a1 3f 00 32     lhz        r9,0x32(r31)=>ACT_CODE_P1_830201ba*
+        824edcf8 2b 09 00 47     cmplwi     cr6,r9,0x47
+        824edcfc 41 98 01 24     blt        cr6,LAB_824ede20
+        824edd00 2b 09 00 6e     cmplwi     cr6,r9,0x6e
+        824edd04 41 99 01 1c     bgt        cr6,LAB_824ede20
+        824edd08 88 7f 00 3f     lbz        r3,0x3f(r31)=>BYTE_830201c7
+        824edd0c 2b 03 00 01     cmplwi     cr6,r3,0x1
+        824edd10 41 9a 01 10     beq        cr6,LAB_824ede20
+        824edd14 81 1f 00 14     lwz        r8,0x14(r31)=>DIRECT_P1_8302019c
+        824edd18 2f 1c 00 00     cmpwi      cr6,r28,0x0
+        824edd1c 81 74 2d 08     lwz        r11,offset DAT_83022d08(r20)
+        824edd20 40 9a 00 0c     bne        cr6,LAB_824edd2c
+        824edd24 7d 4b 40 50     subf       r10,r11,r8
+        824edd28 48 00 00 0c     b          LAB_824edd34
+                             LAB_824edd2c                                    XREF[1]:     824edd20(j)  
+        824edd2c 7d 6b 40 50     subf       r11,r11,r8
+        824edd30 7d 56 58 50     subf       r10,r22,r11
+                             LAB_824edd34                                    XREF[1]:     824edd28(j)  
+        824edd34 39 69 ff b9     subi       r11,r9,0x47
+        824edd38 7d 3c 98 ae     lbzx       r9,r28,r19=>DAT_83022d10
+        824edd3c 7d 67 1e 70     srawi      r7,r11,0x3
+        824edd40 2b 09 00 ff     cmplwi     cr6,r9,0xff
+        824edd44 7c c7 01 94     addze      r6,r7
+        824edd48 54 c5 18 38     rlwinm     r5,r6,0x3,0x0,0x1c
+        824edd4c 7c 85 58 50     subf       r4,r5,r11
+        824edd50 54 83 10 3a     rlwinm     r3,r4,0x2,0x0,0x1d
+        824edd54 7d 63 90 2e     lwzx       r11,r3,r18=>WORD_82c28bdc
+        824edd58 40 9a 00 08     bne        cr6,LAB_824edd60
+        824edd5c 7d 6b 00 d0     neg        r11,r11
+                             LAB_824edd60                                    XREF[1]:     824edd58(j)  
+        824edd60 21 4a 80 00     subfic     r10,r10,-0x8000
+        824edd64 7d 2b 50 50     subf       r9,r11,r10
+        824edd68 7f 0b c3 78     or         r11,r24,r24
+        824edd6c 55 27 04 3e     rlwinm     r7,r9,0x0,0x10,0x1f
+        824edd70 7d 56 38 50     subf       r10,r22,r7
+        824edd74 38 ca 6a aa     addi       r6,r10,0x6aaa
+        824edd78 2b 06 d5 54     cmplwi     cr6,r6,0xd554
+        824edd7c 41 99 00 74     bgt        cr6,LAB_824eddf0
+        824edd80 1c bc 02 50     mulli      r5,r28,0x250
+        824edd84 38 79 00 1c     addi       r3,r25,0x1c
+        824edd88 38 81 00 50     addi       r4,r1,0x50
+        824edd8c 7d 65 1a 2e     lhzx       r11,r5,r3=>DAT_830edeec
+        824edd90 39 6b ff f8     subi       r11,r11,0x8
+        824edd94 7d 69 07 b4     extsw      r9,r11
+        824edd98 f9 21 00 58     std        r9,local_a8(r1)
+        824edd9c c9 81 00 58     lfd        f12,local_a8(r1)
+        824edda0 fd 60 66 9c     fcfid      f11,f12
+        824edda4 fd 40 58 18     frsp       f10,f11
+        824edda8 ed 2a 07 b2     fmuls      f9,f10,f30
+        824eddac fd 00 48 1e     fctiwz     f8,f9
+        824eddb0 7d 00 27 ae     stfiwx     f8,0,r4=>local_b0
+        824eddb4 81 61 00 50     lwz        r11,local_b0(r1)
+        824eddb8 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        824eddbc 40 98 00 0c     bge        cr6,LAB_824eddc8
+        824eddc0 7f 0b c3 78     or         r11,r24,r24
+        824eddc4 48 00 00 10     b          LAB_824eddd4
+                             LAB_824eddc8                                    XREF[1]:     824eddbc(j)  
+        824eddc8 2f 0b 0a aa     cmpwi      cr6,r11,0xaaa
+        824eddcc 40 99 00 0c     ble        cr6,LAB_824eddd8
+        824eddd0 39 60 0a aa     li         r11,0xaaa
+                             LAB_824eddd4                                    XREF[1]:     824eddc4(j)  
+        824eddd4 91 61 00 50     stw        r11,local_b0(r1)
+                             LAB_824eddd8                                    XREF[1]:     824eddcc(j)  
+        824eddd8 7f 0b 50 00     cmpw       cr6,r11,r10
+        824edddc 41 98 00 14     blt        cr6,LAB_824eddf0
+        824edde0 7d 6b 00 d0     neg        r11,r11
+        824edde4 7f 0b 50 00     cmpw       cr6,r11,r10
+        824edde8 41 99 00 08     bgt        cr6,LAB_824eddf0
+        824eddec 7d 4b 53 78     or         r11,r10,r10
+                             LAB_824eddf0                                    XREF[3]:     824edd7c(j), 824edddc(j), 
+                                                                                          824edde8(j)  
+        824eddf0 81 3f 00 1c     lwz        r9,0x1c(r31)=>BODY_DIR_P1_830201a4
+        824eddf4 7d 08 5a 14     add        r8,r8,r11
+        824eddf8 81 5f 00 18     lwz        r10,0x18(r31)=>ATK_DIR_P1_830201a0
+        824eddfc 7c eb 4a 14     add        r7,r11,r9
+        824ede00 7c ca 5a 14     add        r6,r10,r11
+        824ede04 91 1f 00 14     stw        r8,0x14(r31)=>DIRECT_P1_8302019c
+        824ede08 b3 1f 00 14     sth        r24,0x14(r31)=>DIRECT_P1_8302019c
+        824ede0c 90 ff 00 1c     stw        r7,0x1c(r31)=>BODY_DIR_P1_830201a4
+        824ede10 90 df 00 18     stw        r6,0x18(r31)=>ATK_DIR_P1_830201a0
+        824ede14 b3 1f 00 1c     sth        r24,0x1c(r31)=>BODY_DIR_P1_830201a4
+        824ede18 b3 1f 00 18     sth        r24,0x18(r31)=>ATK_DIR_P1_830201a0
+        824ede1c 48 00 01 e0     b          LAB_824edffc
+                             LAB_824ede20                                    XREF[3]:     824edcfc(j), 824edd04(j), 
+                                                                                          824edd10(j)  
+        824ede20 2b 0a 00 0d     cmplwi     cr6,r10,0xd
+        824ede24 40 9a 00 48     bne        cr6,LAB_824ede6c
+        824ede28 a1 7f 00 32     lhz        r11,0x32(r31)=>ACT_CODE_P1_830201ba*
+        824ede2c 2b 0b 01 0e     cmplwi     cr6,r11,0x10e
+        824ede30 41 98 00 3c     blt        cr6,LAB_824ede6c
+        824ede34 2b 0b 01 11     cmplwi     cr6,r11,0x111
+        824ede38 41 99 00 34     bgt        cr6,LAB_824ede6c
+        824ede3c 88 bf 00 3f     lbz        r5,0x3f(r31)=>BYTE_830201c7
+        824ede40 2b 05 00 01     cmplwi     cr6,r5,0x1
+        824ede44 41 9a 00 28     beq        cr6,LAB_824ede6c
+        824ede48 80 9f 00 1c     lwz        r4,0x1c(r31)=>BODY_DIR_P1_830201a4
+        824ede4c 1d 7c 02 50     mulli      r11,r28,0x250
+        824ede50 39 59 00 3a     addi       r10=>DAT_830edf0a,r25,0x3a
+        824ede54 90 9f 00 18     stw        r4,0x18(r31)=>ATK_DIR_P1_830201a0
+        824ede58 38 80 00 02     li         r4,0x2
+        824ede5c 7f 83 e3 78     or         r3,r28,r28
+        824ede60 7e ab 51 ae     stbx       r21,r11,r10=>DAT_830edf0a
+        824ede64 48 00 0f 85     bl         Function_824EEDE8                                               undefined Function_824EEDE8()
+        824ede68 48 00 01 94     b          LAB_824edffc
+                             LAB_824ede6c                                    XREF[5]:     824edcf0(j), 824ede24(j), 
+                                                                                          824ede30(j), 824ede38(j), 
+                                                                                          824ede44(j)  
+        824ede6c 2b 0a 00 01     cmplwi     cr6,r10,0x1
+        824ede70 40 9a 00 40     bne        cr6,LAB_824edeb0
+        824ede74 a1 3f 00 32     lhz        r9,0x32(r31)=>ACT_CODE_P1_830201ba*
+        824ede78 2b 09 00 45     cmplwi     cr6,r9,0x45
+        824ede7c 40 9a 00 34     bne        cr6,LAB_824edeb0
+        824ede80 89 1f 00 3f     lbz        r8,0x3f(r31)=>BYTE_830201c7
+        824ede84 2b 08 00 01     cmplwi     cr6,r8,0x1
+        824ede88 41 9a 00 28     beq        cr6,LAB_824edeb0
+        824ede8c 80 ff 00 1c     lwz        r7,0x1c(r31)=>BODY_DIR_P1_830201a4
+        824ede90 1c dc 02 50     mulli      r6,r28,0x250
+        824ede94 38 b9 00 3a     addi       r5=>DAT_830edf0a,r25,0x3a
+        824ede98 90 ff 00 18     stw        r7,0x18(r31)=>ATK_DIR_P1_830201a0
+        824ede9c 38 80 00 00     li         r4,0x0
+        824edea0 7f 83 e3 78     or         r3,r28,r28
+        824edea4 7e a6 29 ae     stbx       r21,r6,r5=>DAT_830edf0a
+        824edea8 48 00 0f 41     bl         Function_824EEDE8                                               undefined Function_824EEDE8()
+        824edeac 48 00 01 50     b          LAB_824edffc
+                             LAB_824edeb0                                    XREF[3]:     824ede70(j), 824ede7c(j), 
+                                                                                          824ede88(j)  
+        824edeb0 2b 0a 00 0d     cmplwi     cr6,r10,0xd
+        824edeb4 40 9a 00 34     bne        cr6,LAB_824edee8
+        824edeb8 88 9f 00 01     lbz        r4,0x1(r31)=>CHAR_NUM_P1_83020189
+        824edebc 2b 04 00 13     cmplwi     cr6,r4,0x13
+        824edec0 40 9a 00 28     bne        cr6,LAB_824edee8
+        824edec4 a1 7f 00 32     lhz        r11,0x32(r31)=>ACT_CODE_P1_830201ba*
+        824edec8 2b 0b 01 5b     cmplwi     cr6,r11,0x15b
+        824edecc 41 98 00 1c     blt        cr6,LAB_824edee8
+        824eded0 2b 0b 01 5e     cmplwi     cr6,r11,0x15e
+        824eded4 41 99 00 14     bgt        cr6,LAB_824edee8
+        824eded8 38 80 00 01     li         r4,0x1
+        824ededc 7f 83 e3 78     or         r3,r28,r28
+        824edee0 48 00 0f 09     bl         Function_824EEDE8                                               undefined Function_824EEDE8()
+        824edee4 48 00 01 18     b          LAB_824edffc
+                             LAB_824edee8                                    XREF[4]:     824edeb4(j), 824edec0(j), 
+                                                                                          824edecc(j), 824eded4(j)  
+        824edee8 89 7f 00 49     lbz        r11,0x49(r31)=>BYTE_830201d1
+        824edeec 2b 0b 00 0c     cmplwi     cr6,r11,0xc
+        824edef0 41 9a 00 1c     beq        cr6,LAB_824edf0c
+        824edef4 2b 0b 00 0d     cmplwi     cr6,r11,0xd
+        824edef8 41 9a 00 14     beq        cr6,LAB_824edf0c
+        824edefc 2b 0b 00 0e     cmplwi     cr6,r11,0xe
+        824edf00 41 9a 00 0c     beq        cr6,LAB_824edf0c
+        824edf04 2b 0b 00 0f     cmplwi     cr6,r11,0xf
+        824edf08 40 9a 00 24     bne        cr6,LAB_824edf2c
+                             LAB_824edf0c                                    XREF[3]:     824edef0(j), 824edef8(j), 
+                                                                                          824edf00(j)  
+        824edf0c 7f 83 e3 78     or         r3,r28,r28
+        824edf10 48 00 c6 39     bl         Function_824FA548                                               undefined Function_824FA548()
+        824edf14 2f 03 00 00     cmpwi      cr6,r3,0x0
+        824edf18 40 9a 00 14     bne        cr6,LAB_824edf2c
+        824edf1c 38 80 00 01     li         r4,0x1
+        824edf20 7f 83 e3 78     or         r3,r28,r28
+        824edf24 48 00 0e c5     bl         Function_824EEDE8                                               undefined Function_824EEDE8()
+        824edf28 48 00 00 d4     b          LAB_824edffc
+                             LAB_824edf2c                                    XREF[2]:     824edf08(j), 824edf18(j)  
+        824edf2c a1 7f 00 32     lhz        r11,0x32(r31)=>ACT_CODE_P1_830201ba*
+        824edf30 2b 0b 40 00     cmplwi     cr6,r11,0x4000
+        824edf34 41 98 00 c8     blt        cr6,LAB_824edffc
+        824edf38 38 6b bf 70     subi       r3,r11,0x4090
+        824edf3c 2b 03 00 07     cmplwi     cr6,r3,0x7
+        824edf40 41 99 00 bc     bgt        cr6,LAB_824edffc
+        824edf44 38 80 00 01     li         r4,0x1
+        824edf48 7f 83 e3 78     or         r3,r28,r28
+        824edf4c 48 00 0e 9d     bl         Function_824EEDE8                                               undefined Function_824EEDE8()
+        824edf50 48 00 00 ac     b          LAB_824edffc
+                             LAB_824edf54                                    XREF[1]:     824edcdc(j)  
+        824edf54 38 80 00 19     li         r4,0x19
+        824edf58 7f 83 e3 78     or         r3,r28,r28
+        824edf5c 48 00 00 c5     bl         Function_824EE020                                               undefined Function_824EE020()
+        824edf60 54 6b 06 3e     rlwinm     r11,r3,0x0,0x18,0x1f
+        824edf64 7f 83 e3 78     or         r3,r28,r28
+        824edf68 2b 0b 00 01     cmplwi     cr6,r11,0x1
+        824edf6c 40 9a 00 10     bne        cr6,LAB_824edf7c
+        824edf70 38 80 00 00     li         r4,0x0
+        824edf74 4b ff d2 5d     bl         Function_824EB1D0                                               undefined Function_824EB1D0()
+        824edf78 48 00 00 84     b          LAB_824edffc
+                             LAB_824edf7c                                    XREF[1]:     824edf6c(j)  
+        824edf7c 48 00 a8 15     bl         FUN_824f8790                                                    undefined FUN_824f8790()
+        824edf80 2f 03 00 00     cmpwi      cr6,r3,0x0
+        824edf84 41 9a 00 78     beq        cr6,LAB_824edffc
+        824edf88 38 80 00 01     li         r4,0x1
+        824edf8c 7f 83 e3 78     or         r3,r28,r28
+        824edf90 4b ff d2 41     bl         Function_824EB1D0                                               undefined Function_824EB1D0()
+        824edf94 48 00 00 68     b          LAB_824edffc
+                             LAB_824edf98                                    XREF[3]:     824edc9c(j), 824edca4(j), 
+                                                                                          824edcac(j)  
+        824edf98 7d 5c 88 ae     lbzx       r10,r28,r17=>DAT_83023038
+        824edf9c 2b 0a 00 01     cmplwi     cr6,r10,0x1
+        824edfa0 40 9a 00 5c     bne        cr6,LAB_824edffc
+        824edfa4 89 7b 00 37     lbz        r11,0x37(r27)=>ACT_STATE_P2_8302025b*
+        824edfa8 2b 0b 00 07     cmplwi     cr6,r11,0x7
+        824edfac 41 9a 00 1c     beq        cr6,LAB_824edfc8
+        824edfb0 2b 0b 00 08     cmplwi     cr6,r11,0x8
+        824edfb4 41 9a 00 14     beq        cr6,LAB_824edfc8
+        824edfb8 2b 0b 00 09     cmplwi     cr6,r11,0x9
+        824edfbc 41 9a 00 0c     beq        cr6,LAB_824edfc8
+        824edfc0 2b 0b 00 0f     cmplwi     cr6,r11,0xf
+        824edfc4 40 9a 00 38     bne        cr6,LAB_824edffc
+                             LAB_824edfc8                                    XREF[3]:     824edfac(j), 824edfb4(j), 
+                                                                                          824edfbc(j)  
+        824edfc8 39 39 00 2f     addi       r9=>DAT_830edeff,r25,0x2f
+        824edfcc 7d 1e 48 ae     lbzx       r8,r30,r9=>DAT_830edeff
+        824edfd0 2b 08 00 00     cmplwi     cr6,r8,0x0
+        824edfd4 40 9a 00 28     bne        cr6,LAB_824edffc
+        824edfd8 88 fd 00 01     lbz        r7,0x1(r29)=>CHAR_NUM_P1_83020189
+        824edfdc 2b 07 00 09     cmplwi     cr6,r7,0x9                                                      0x9 BASS
+        824edfe0 40 9a 00 10     bne        cr6,LAB_824edff0
+        824edfe4 a0 dd 00 32     lhz        r6,0x32(r29)=>ACT_CODE_P1_830201ba*
+        824edfe8 2b 06 01 62     cmplwi     cr6,r6,0x162                                                    0x162 "Buffalo Train" 2P+KP
+        824edfec 41 9a 00 10     beq        cr6,LAB_824edffc
+                             LAB_824edff0                                    XREF[1]:     824edfe0(j)  
+        824edff0 7f 83 e3 78     or         r3,r28,r28
+                             LAB_824edff4                                    XREF[1]:     824edc3c(j)  
+        824edff4 38 80 00 01     li         r4,0x1
+                             LAB_824edff8                                    XREF[1]:     824edcd0(j)  
+        824edff8 48 00 09 61     bl         Function_824EE958                                               undefined Function_824EE958()
+                             LAB_824edffc                                    XREF[24]:    824edbac(j), 824edbd4(j), 
+                                                                                          824edc20(j), 824edc50(j), 
+                                                                                          824edc68(j), 824edc7c(j), 
+                                                                                          824edc90(j), 824edcb4(j), 
+                                                                                          824edcbc(j), 824ede1c(j), 
+                                                                                          824ede68(j), 824edeac(j), 
+                                                                                          824edee4(j), 824edf28(j), 
+                                                                                          824edf34(j), 824edf40(j), 
+                                                                                          824edf50(j), 824edf78(j), 
+                                                                                          824edf84(j), 824edf94(j), [more]
+        824edffc 38 bc 00 01     addi       r5,r28,0x1
+        824ee000 54 ba 06 3e     rlwinm     r26,r5,0x0,0x18,0x1f
+        824ee004 7f 5c d3 78     or         r28,r26,r26
+        824ee008 2b 1c 00 02     cmplwi     cr6,r28,0x2
+        824ee00c 41 98 fa 98     blt        cr6,LAB_824edaa4
+        824ee010 38 21 01 00     addi       r1,r1,0x100
+        824ee014 cb c1 ff 68     lfd        f30,local_98(r1)
+        824ee018 cb e1 ff 70     lfd        f31,local_90(r1)
+        824ee01c 48 50 0c cc     b          LAB_829eece8
