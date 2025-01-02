@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3994</ID>
+      <Description>"1p hp max"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183022F74</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3995</ID>
+      <Description>"2p hp max"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183022F76</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"1p hp"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830201AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"2p hp"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183020248</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>301</ID>
+      <Description>"1P SLOW"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830A7C28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>302</ID>
+      <Description>"2P SLOW"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830A7C5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18284</ID>
+      <Description>"smooth slow"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>19204FEA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"overkill (100)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183099586</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"motion"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183020254</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Increase Value</Action>
+          <Keys>
+            <Key>103</Key>
+          </Keys>
+          <Value>1</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>136</ID>
+      <Description>"Stops as much as the number."</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830A7C6C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>137</ID>
+      <Description>"Stops as much as the number."</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1830A7C70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Replay. (1)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183020264</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>191</Key>
+          </Keys>
+          <Value>1</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Attack(1) or go out of the map(3)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183020268</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>141</ID>
+      <Description>"0 "</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183020270</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>140</ID>
+      <Description>"218169343 or 134283263  167903231"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183020258</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>219</Key>
+          </Keys>
+          <Value>167903231</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>221</Key>
+          </Keys>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>153</ID>
+      <Description>"Hitting range 4867000"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183022FB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"Hitting range 1684864300"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183022F98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22828</ID>
+      <Description>"Stairway camera 16450"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18320A3EC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22806</ID>
+      <Description>"Stairway camera off"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18320A3EE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20872</ID>
+      <Description>"Stairway camera off"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18320A3E4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22892</ID>
+      <Description>"Stairway camera off"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18320A3DC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20842</ID>
+      <Description>"map 36766472 16780544 33780544"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>192FB9024</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>504</ID>
+      <Description>"Voice volume.(16256~17150)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>18318F2F8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>717</ID>
+      <Description>"Camera assistant."</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183209C20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"sure to catch 0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1830200D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"sure to catch 0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1830EE1EC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4243</ID>
+      <Description>"아임뚜렛"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1830A7C24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4248</ID>
+      <Description>"아임 뚜렛"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1830A7C58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"2p the opposite direction."</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>183020238</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>718</ID>
+      <Description>"Camera assistant."</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183209C34</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>719</ID>
+      <Description>"Camera assistant."</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183209C48</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>721</ID>
+      <Description>"Camera assistant."</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183209C9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>723</ID>
+      <Description>"Camera assistant. set"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183209EB0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>724</ID>
+      <Description>"Camera assistant. set"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183209EB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20785</ID>
+      <Description>"시점"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>193209AD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19510</ID>
+      <Description>"1p pos"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>1930200CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19511</ID>
+      <Description>"1p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>19302018C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19513</ID>
+      <Description>"1p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>193020200</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19518</ID>
+      <Description>"1p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>193020214</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19512</ID>
+      <Description>"1p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>193020194</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19520</ID>
+      <Description>"2p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>193020228</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19521</ID>
+      <Description>"2p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>193020230</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19522</ID>
+      <Description>"2p pos"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>19302027C</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax+32],r11d</Description>
+      <AddressString>A1A7DBA3</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>5C</Byte>
+        <Byte>07</Byte>
+        <Byte>32</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>C7</Byte>
+        <Byte>46</Byte>
+        <Byte>38</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax-02],r10d</Description>
+      <AddressString>A19C7775</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>54</Byte>
+        <Byte>07</Byte>
+        <Byte>FE</Byte>
+      </Actual>
+      <After>
+        <Byte>B8</Byte>
+        <Byte>34</Byte>
+        <Byte>48</Byte>
+        <Byte>50</Byte>
+        <Byte>82</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax+32],r13d</Description>
+      <AddressString>A19B50DF</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>6C</Byte>
+        <Byte>07</Byte>
+        <Byte>32</Byte>
+      </Actual>
+      <After>
+        <Byte>49</Byte>
+        <Byte>81</Byte>
+        <Byte>C3</Byte>
+        <Byte>98</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax+32],r11d</Description>
+      <AddressString>A1C053E7</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>5C</Byte>
+        <Byte>07</Byte>
+        <Byte>32</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>C7</Byte>
+        <Byte>46</Byte>
+        <Byte>48</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rdi+rax+32],r10w</Description>
+      <AddressString>A1C64721</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>44</Byte>
+        <Byte>89</Byte>
+        <Byte>54</Byte>
+        <Byte>07</Byte>
+        <Byte>32</Byte>
+      </Actual>
+      <After>
+        <Byte>81</Byte>
+        <Byte>FB</Byte>
+        <Byte>FC</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax-02],r10d</Description>
+      <AddressString>A1C3BAE5</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>54</Byte>
+        <Byte>07</Byte>
+        <Byte>FE</Byte>
+      </Actual>
+      <After>
+        <Byte>B8</Byte>
+        <Byte>34</Byte>
+        <Byte>48</Byte>
+        <Byte>50</Byte>
+        <Byte>82</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of nop </Description>
+      <AddressString>A1C3BAE5</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Actual>
+      <After>
+        <Byte>B8</Byte>
+        <Byte>34</Byte>
+        <Byte>48</Byte>
+        <Byte>50</Byte>
+        <Byte>82</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rdi+rax],0000803F</Description>
+      <AddressString>A178C1FD</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E8</Byte>
+      </Before>
+      <Actual>
+        <Byte>C7</Byte>
+        <Byte>04</Byte>
+        <Byte>07</Byte>
+        <Byte>3F</Byte>
+        <Byte>80</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>81</Byte>
+        <Byte>C3</Byte>
+        <Byte>2C</Byte>
+        <Byte>7B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1B5225B</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>30</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rdi+rax+70],r11</Description>
+      <AddressString>A0006CF8</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E8</Byte>
+      </Before>
+      <Actual>
+        <Byte>4C</Byte>
+        <Byte>89</Byte>
+        <Byte>5C</Byte>
+        <Byte>07</Byte>
+        <Byte>70</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>81</Byte>
+        <Byte>FD</Byte>
+        <Byte>88</Byte>
+        <Byte>FF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax+0C],r10d</Description>
+      <AddressString>A0010AEC</AddressString>
+      <Before>
+        <Byte>C1</Byte>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>01</Byte>
+        <Byte>D8</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>54</Byte>
+        <Byte>07</Byte>
+        <Byte>0C</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+        <Byte>C3</Byte>
+        <Byte>10</Byte>
+        <Byte>48</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1B50D3B</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>30</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1B50E9B</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>50</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1C493BB</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>18</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1C494FB</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>30</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1C4965B</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>50</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1C3CB4B</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>18</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1C3CC8B</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>30</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of movbe [rdi+rax],r13d</Description>
+      <AddressString>A1C3CDEB</AddressString>
+      <Before>
+        <Byte>E0</Byte>
+        <Byte>0C</Byte>
+        <Byte>44</Byte>
+        <Byte>01</Byte>
+        <Byte>E0</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>0F</Byte>
+        <Byte>38</Byte>
+        <Byte>F1</Byte>
+        <Byte>2C</Byte>
+        <Byte>07</Byte>
+      </Actual>
+      <After>
+        <Byte>41</Byte>
+        <Byte>BC</Byte>
+        <Byte>50</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
