@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3684</ID>
+      <Description>"overkill"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1F4C6DD1F20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"SPARRING profile Character"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1F4C6DD1F9A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"SPARRING costume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>1F4C6DD1F9B</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"2p story mode Character"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1F4C6DD1A08</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"2p story mode costume"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1F4C6DD193C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3277</ID>
+      <Description>"SLOW SPEED"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1F4C6DD3706</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2886</ID>
+      <Description>"1P SPEED"</Description>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1F4C6DD5622</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2887</ID>
+      <Description>"2P SPEED"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1F4C6DD5656</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>219</Key>
+          </Keys>
+          <Value>15900</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>221</Key>
+          </Keys>
+          <Value>16300</Value>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3368</ID>
+      <Description>"잡기풀지마"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DD55F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3515</ID>
+      <Description>"HP"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8EE8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3511</ID>
+      <Description>"514로하면 판정전체"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DAB4C4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3582</ID>
+      <Description>"판정전체 0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DAB4C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3661</ID>
+      <Description>"1p 리플"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8E70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3665</ID>
+      <Description>"1p motion"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8E60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3666</ID>
+      <Description>"2P motion"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8EF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3667</ID>
+      <Description>"2P replay"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8F04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3496</ID>
+      <Description>"일어날때 무적판정 삭제 0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8EF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2888</ID>
+      <Description>"잡기 218169343"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8EF8</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>90</Key>
+          </Keys>
+          <Value>218169343</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2897</ID>
+      <Description>"잡기"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F4C6DA8F10</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>90</Key>
+          </Keys>
+          <Value>0</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rdx],r12l</Description>
+      <AddressString>1F2A17723FA</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>48</Byte>
+        <Byte>03</Byte>
+        <Byte>51</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>88</Byte>
+        <Byte>22</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>5D</Byte>
+        <Byte>14</Byte>
+        <Byte>81</Byte>
+        <Byte>C3</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rdx],r10d</Description>
+      <AddressString>2720B37C4EB</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>48</Byte>
+        <Byte>03</Byte>
+        <Byte>51</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>44</Byte>
+        <Byte>89</Byte>
+        <Byte>12</Byte>
+      </Actual>
+      <After>
+        <Byte>45</Byte>
+        <Byte>8D</Byte>
+        <Byte>AE</Byte>
+        <Byte>48</Byte>
+        <Byte>76</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
