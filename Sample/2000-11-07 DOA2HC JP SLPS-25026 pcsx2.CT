@@ -166,21 +166,21 @@
     </CheatEntry>
     <CheatEntry>
       <ID>27</ID>
-      <Description>"BYTE_0067b225"</Description>
+      <Description>"Pause_Display_0067b225"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2067b225</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>28</ID>
-      <Description>"BYTE_0067bf75"</Description>
+      <Description>"Pause_Flag_0067bf75"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2067bf75</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>29</ID>
-      <Description>"BYTE_0067b162"</Description>
+      <Description>"BYTE_0067b162  ==7 or == 0xb"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2067b162</Address>
@@ -257,7 +257,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>40</ID>
-      <Description>"DWORD_0067bf08 (six dwords)"</Description>
+      <Description>"Pause_Timer_0067bf08"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>2067bf08</Address>
