@@ -81,7 +81,7 @@ FUN_0028a788(undefined8 param_1,undefined8 param_2,ulong param_3,ulong param_4,u
       DAT_0067be4c = 0;
     }
   }
-  if (DAT_0067bf70 == '\x01') {
+  if (DebugFlag___0067bf70 == 1) {
     Debug___FUN_0028a9c8();
   }
   if (cVar1 != DAT_0067bf75) {
