@@ -1,0 +1,337 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined FUN_82377428()
+             undefined         r3:1           <RETURN>
+             undefined4        Stack[-0xbc]:4 local_bc                                XREF[1]:     823777fc(W)  
+             undefined1        Stack[-0xbf]:1 local_bf                                XREF[1]:     823777f8(W)  
+             undefined1        Stack[-0xc0]:1 local_c0                                XREF[1]:     823777f4(W)  
+             undefined2        Stack[-0xc6]:2 local_c6                                XREF[1]:     823777e8(W)  
+             undefined2        Stack[-0xc8]:2 local_c8                                XREF[1]:     823777f0(W)  
+             undefined4        Stack[-0xcc]:4 local_cc                                XREF[1]:     823777e0(W)  
+             undefined1        Stack[-0xcd]:1 local_cd                                XREF[1]:     823777d8(W)  
+             undefined1        Stack[-0xce]:1 local_ce                                XREF[1]:     823777d0(W)  
+             undefined1        Stack[-0xcf]:1 local_cf                                XREF[1]:     823777ec(W)  
+             undefined1        Stack[-0xd0]:1 local_d0                                XREF[1]:     823777c8(W)  
+             undefined4        Stack[-0xe0]:4 local_e0                                XREF[2]:     82377474(W), 
+                                                                                                   823777b4(R)  
+             undefined4        Stack[-0x130   local_130                               XREF[1]:     82377428(W)  
+                             FUN_82377428
+        82377428 94 21 fe d0     stwu       r1,local_130(r1)
+        8237742c 3d 60 82 30     lis        r11,-0x7dd0
+        82377430 3a e0 00 01     li         r23,0x1
+        82377434 38 8b 25 20     addi       r4=>Function_82302520,r11,0x2520
+        82377438 3d 60 83 02     lis        r11,-0x7cfe
+        8237743c 3b a0 00 00     li         r29,0x0
+        82377440 3b eb 7b 58     addi       r31,r11,0x7b58
+        82377444 7e eb bb 78     or         r11,r23,r23
+        82377448 38 60 00 0b     li         r3,0xb
+        8237744c 99 7f 00 00     stb        r11,0x0(r31)=>DAT_83027b58
+        82377450 7f ab eb 78     or         r11,r29,r29
+        82377454 99 7f 00 02     stb        r11,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        82377458 99 7f 00 07     stb        r11,0x7(r31)=>DAT_83027b5f
+        8237745c 48 16 87 15     bl         Function_824DFB70                                               undefined Function_824DFB70()
+        82377460 3d 60 83 02     lis        r11,-0x7cfe
+        82377464 89 3f 00 03     lbz        r9,0x3(r31)=>DAT_83027b5b
+        82377468 39 4b 7b 78     addi       r10=>TitleScreen_StageAttractPlayFlag,r11,0x7b78
+        8237746c 7f ab eb 78     or         r11,r29,r29
+        82377470 2b 09 00 00     cmplwi     cr6,r9,0x0
+        82377474 91 41 00 50     stw        r10=>TitleScreen_StageAttractPlayFlag,local_e0(r1)
+        82377478 99 6a 00 00     stb        r11,0x0(r10)=>TitleScreen_StageAttractPlayFlag
+        8237747c 41 9a 04 08     beq        cr6,LAB_82377884
+        82377480 3d 60 83 03     lis        r11,-0x7cfd
+        82377484 3e 20 83 19     lis        r17,-0x7ce7
+        82377488 3b 0b 3e 00     addi       r24,r11,0x3e00
+        8237748c 3d 60 82 c7     lis        r11,-0x7d39
+        82377490 3e 40 82 fc     lis        r18,-0x7d04
+        82377494 3b 8b cb e0     subi       r28,r11,0x3420
+        82377498 3d 60 83 0f     lis        r11,-0x7cf1
+        8237749c 3f c0 83 19     lis        r30,-0x7ce7
+        823774a0 3b 2b d4 e8     subi       r25,r11,0x2b18
+        823774a4 3d 60 83 02     lis        r11,-0x7cfe
+        823774a8 3e 60 83 0f     lis        r19,-0x7cf1
+        823774ac 3e 80 83 0f     lis        r20,-0x7cf1
+        823774b0 3d c0 82 fc     lis        r14,-0x7d04
+        823774b4 3e a0 83 02     lis        r21,-0x7cfe
+        823774b8 3e c0 83 02     lis        r22,-0x7cfe
+        823774bc 3d e0 83 02     lis        r15,-0x7cfe
+        823774c0 3b 6b 03 1c     addi       r27,r11,0x31c
+        823774c4 3f 40 82 fc     lis        r26,-0x7d04
+        823774c8 3a 00 00 03     li         r16,0x3
+                             LAB_823774cc                                    XREF[1]:     82377880(j)  
+        823774cc 81 74 d7 88     lwz        r11,-0x2878(r20)=>DWORD_830ed788
+        823774d0 80 73 d4 e4     lwz        r3,-0x2b1c(r19)=>FLOAT_830ed4e4                                 = 0.0
+        823774d4 1d 6b 00 1c     mulli      r11,r11,0x1c
+        823774d8 7d 6b ca 14     add        r11,r11,r25
+        823774dc 81 0b 00 00     lwz        r8,0x0(r11)=>InputAllowanceFlag_P1_830ed4e8
+        823774e0 92 eb 00 04     stw        r23,0x4(r11)=>InputAllowanceFlag_P1_830ed4ec
+        823774e4 55 07 07 b8     rlwinm     r7,r8,0x0,0x1e,0x1c
+        823774e8 90 eb 00 00     stw        r7,0x0(r11)=>InputAllowanceFlag_P1_830ed4e8
+        823774ec 48 40 6f cd     bl         thunk_FUN_8277fe50                                              undefined thunk_FUN_8277fe50()
+        823774f0 88 df 00 02     lbz        r6,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        823774f4 7c cb 33 78     or         r11,r6,r6
+        823774f8 2b 0b 00 04     cmplwi     cr6,r11,0x4
+        823774fc 41 99 03 7c     bgt        cr6,switchD_82377514::caseD_5
+        82377500 3d 80 82 37     lis        r12,-0x7dc9
+        82377504 39 8c 75 18     addi       r12,r12,0x7518
+        82377508 55 60 10 3a     rlwinm     r0,r11,0x2,0x0,0x1d
+        8237750c 7c 0c 00 2e     lwzx       r0,r12=>->switchD_82377514::caseD_0,r0                          = 8237752c
+        82377510 7c 09 03 a6     mtspr      CTR,r0
+                             switchD_82377514::switchD
+        82377514 4e 80 04 20     bctr
+                             switchD_82377514::switchdataD_82377518          XREF[1]:     FUN_82377428:8237750c(R)  
+        82377518 82 37 75 2c     addr       switchD_82377514::caseD_0
+        8237751c 82 37 75 d0     addr       switchD_82377514::caseD_1
+        82377520 82 37 76 14     addr       switchD_82377514::caseD_2
+        82377524 82 37 77 0c     addr       switchD_82377514::caseD_3
+        82377528 82 37 78 1c     addr       switchD_82377514::caseD_4
+                             switchD_82377514::caseD_0                       XREF[2]:     82377514(j), 82377518(*)  
+        8237752c 89 7e 1e c1     lbz        r11,offset DAT_83191ec1(r30)
+        82377530 89 3f 00 01     lbz        r9,0x1(r31)=>DAT_83027b59
+        82377534 7d 6b 07 74     extsb      r11,r11
+        82377538 55 6a 08 3c     rlwinm     r10,r11,0x1,0x0,0x1e
+        8237753c 7d 4b 52 14     add        r10,r11,r10
+        82377540 7d 4a e2 14     add        r10,r10,r28
+        82377544 88 8a 00 02     lbz        r4,0x2(r10)=>TitleScreen_StagePlaylist_82c6cbe2
+        82377548 7c 83 48 38     and        r3,r4,r9
+        8237754c 7f 03 48 40     cmplw      cr6,r3,r9
+        82377550 41 9a 00 48     beq        cr6,LAB_82377598
+                             LAB_82377554                                    XREF[1]:     82377594(j)  
+        82377554 39 6b 00 01     addi       r11,r11,0x1
+        82377558 7d 6b 07 74     extsb      r11,r11
+        8237755c 55 6a 06 3e     rlwinm     r10,r11,0x0,0x18,0x1f
+        82377560 2b 0a 00 0c     cmplwi     cr6,r10,0xc
+        82377564 99 7e 1e c1     stb        r11,offset DAT_83191ec1(r30)
+        82377568 41 98 00 0c     blt        cr6,LAB_82377574
+        8237756c 7f ab eb 78     or         r11,r29,r29
+        82377570 99 7e 1e c1     stb        r11,offset DAT_83191ec1(r30)
+                             LAB_82377574                                    XREF[1]:     82377568(j)  
+        82377574 7d 6b 07 74     extsb      r11,r11
+        82377578 55 27 06 3e     rlwinm     r7,r9,0x0,0x18,0x1f
+        8237757c 55 6a 08 3c     rlwinm     r10,r11,0x1,0x0,0x1e
+        82377580 7d 4b 52 14     add        r10,r11,r10
+        82377584 7d 4a e2 14     add        r10=>TitleScreen_StagePlaylist_82c6cbe0,r10,r28                 = 15h
+        82377588 88 ca 00 02     lbz        r6,0x2(r10)=>TitleScreen_StagePlaylist_82c6cbe2
+        8237758c 7c c5 38 38     and        r5,r6,r7
+        82377590 7f 05 48 40     cmplw      cr6,r5,r9
+        82377594 40 9a ff c0     bne        cr6,LAB_82377554
+                             LAB_82377598                                    XREF[1]:     82377550(j)  
+        82377598 81 79 01 34     lwz        r11,0x134(r25)=>DAT_830ed61c
+        8237759c 88 6a 00 00     lbz        r3,0x0(r10)=>TitleScreen_StagePlaylist_82c6cbe0                 = 15h
+        823775a0 55 64 07 fe     rlwinm     r4,r11,0x0,0x1f,0x1f
+        823775a4 2f 04 00 00     cmpwi      cr6,r4,0x0
+        823775a8 98 7f 00 04     stb        r3,0x4(r31)=>DAT_83027b5c
+        823775ac 41 9a 00 0c     beq        cr6,LAB_823775b8
+        823775b0 61 6b 00 02     ori        r11,r11,0x2
+        823775b4 91 79 01 34     stw        r11,0x134(r25)=>DAT_830ed61c
+                             LAB_823775b8                                    XREF[1]:     823775ac(j)  
+        823775b8 38 80 00 1e     li         r4,0x1e
+        823775bc 48 07 93 bd     bl         Function_823F0978                                               undefined Function_823F0978()
+        823775c0 89 7f 00 02     lbz        r11,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        823775c4 38 6b 00 01     addi       r3,r11,0x1
+        823775c8 54 66 06 3e     rlwinm     r6,r3,0x0,0x18,0x1f
+        823775cc 98 df 00 02     stb        r6,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+                             switchD_82377514::caseD_1                       XREF[2]:     82377514(j), 8237751c(*)  
+        823775d0 88 bf 00 04     lbz        r5,0x4(r31)=>DAT_83027b5c
+        823775d4 7c a3 2b 78     or         r3,r5,r5
+        823775d8 48 07 92 e9     bl         FUN_823f08c0                                                    undefined FUN_823f08c0()
+        823775dc 7c 6a 07 74     extsb      r10,r3
+        823775e0 2f 0a ff ff     cmpwi      cr6,r10,-0x1
+        823775e4 41 9a 02 94     beq        cr6,switchD_82377514::caseD_5
+        823775e8 81 79 01 34     lwz        r11,0x134(r25)=>DAT_830ed61c
+        823775ec 55 69 07 fe     rlwinm     r9,r11,0x0,0x1f,0x1f
+        823775f0 2f 09 00 00     cmpwi      cr6,r9,0x0
+        823775f4 41 9a 00 0c     beq        cr6,LAB_82377600
+        823775f8 55 6b 07 fa     rlwinm     r11,r11,0x0,0x1f,0x1d
+        823775fc 91 79 01 34     stw        r11,0x134(r25)=>DAT_830ed61c
+                             LAB_82377600                                    XREF[1]:     823775f4(j)  
+        82377600 54 cb 06 3e     rlwinm     r11,r6,0x0,0x18,0x1f
+        82377604 98 7a 90 27     stb        r3,-0x6fd9(r26)=>DAT_82fb9027
+        82377608 7c aa d9 ae     stbx       r5,r10,r27=>BYTE_8302031c_stageloadrelated?
+        8237760c 39 0b 00 01     addi       r8,r11,0x1
+        82377610 99 1f 00 02     stb        r8,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+                             switchD_82377514::caseD_2                       XREF[2]:     82377514(j), 82377520(*)  
+        82377614 88 ef df 53     lbz        r7,-0x20ad(r15)=>DAT_8301df53
+        82377618 2b 07 00 01     cmplwi     cr6,r7,0x1
+        8237761c 40 9a 00 10     bne        cr6,LAB_8237762c
+        82377620 38 80 00 00     li         r4,0x0
+        82377624 38 60 00 00     li         r3,0x0
+        82377628 4b ff fc c9     bl         Function_823772F0                                               undefined Function_823772F0()
+                             LAB_8237762c                                    XREF[1]:     8237761c(j)  
+        8237762c 89 7e 1e c1     lbz        r11,offset DAT_83191ec1(r30)
+        82377630 38 dc 00 01     addi       r6=>DAT_82c6cbe1,r28,0x1
+        82377634 7d 6b 07 74     extsb      r11,r11
+        82377638 55 6a 08 3c     rlwinm     r10,r11,0x1,0x0,0x1e
+        8237763c 7c ab 52 14     add        r5,r11,r10
+        82377640 7d 65 30 ae     lbzx       r11,r5,r6=>DAT_82c6cbe1
+        82377644 99 71 14 83     stb        r11,offset DAT_83191483(r17)
+        82377648 99 72 8f a7     stb        r11,-0x7059(r18)=>DAT_82fb8fa7
+        8237764c 48 1c 56 a5     bl         Function_8253CCF0                                               undefined Function_8253CCF0()
+        82377650 48 1f 33 01     bl         Function_8256A950                                               undefined Function_8256A950()
+        82377654 4b f9 48 35     bl         Function_8230BE88                                               undefined Function_8230BE88()
+        82377658 89 7f 00 03     lbz        r11,0x3(r31)=>DAT_83027b5b
+        8237765c 7e ea bb 78     or         r10,r23,r23
+        82377660 2b 0b 00 ff     cmplwi     cr6,r11,0xff
+        82377664 41 9a 00 08     beq        cr6,LAB_8237766c
+        82377668 7f aa eb 78     or         r10,r29,r29
+                             LAB_8237766c                                    XREF[1]:     82377664(j)  
+        8237766c 88 7a 90 27     lbz        r3,-0x6fd9(r26)=>DAT_82fb9027
+        82377670 55 44 06 3e     rlwinm     r4,r10,0x0,0x18,0x1f
+        82377674 7c 63 d8 ae     lbzx       r3,r3,r27=>BYTE_8302031c_stageloadrelated?
+        82377678 48 00 04 11     bl         FUN_82377a88                                                    undefined FUN_82377a88()
+        8237767c 7e eb bb 78     or         r11,r23,r23
+        82377680 89 5e 1e c1     lbz        r10,offset DAT_83191ec1(r30)
+        82377684 39 4a 00 01     addi       r10,r10,0x1
+        82377688 99 76 00 dc     stb        r11,offset STAGE_DISPLAY_830200dc(r22)
+        8237768c 99 75 df 8a     stb        r11,-0x2076(r21)=>DAT_8301df8a
+        82377690 7d 4b 07 74     extsb      r11,r10
+        82377694 7f aa eb 78     or         r10,r29,r29
+        82377698 55 69 06 3e     rlwinm     r9,r11,0x0,0x18,0x1f
+        8237769c 2b 09 00 0c     cmplwi     cr6,r9,0xc
+        823776a0 99 7e 1e c1     stb        r11,offset DAT_83191ec1(r30)
+        823776a4 91 5f 00 08     stw        r10,0x8(r31)=>DAT_83027b60
+        823776a8 39 40 ff ff     li         r10,-0x1
+        823776ac 91 5f 00 0c     stw        r10,0xc(r31)=>DAT_83027b64
+        823776b0 41 98 00 0c     blt        cr6,LAB_823776bc
+        823776b4 7f ab eb 78     or         r11,r29,r29
+        823776b8 99 7e 1e c1     stb        r11,offset DAT_83191ec1(r30)
+                             LAB_823776bc                                    XREF[1]:     823776b0(j)  
+        823776bc 89 1f 00 03     lbz        r8,0x3(r31)=>DAT_83027b5b
+        823776c0 7f aa eb 78     or         r10,r29,r29
+        823776c4 7d 07 07 74     extsb      r7,r8
+        823776c8 2f 07 00 01     cmpwi      cr6,r7,0x1
+        823776cc 99 4e 92 ff     stb        r10,-0x6d01(r14)=>SpecialEffectAnimationFlag_82fb92ff
+        823776d0 40 99 00 1c     ble        cr6,LAB_823776ec
+        823776d4 7d 6b 07 74     extsb      r11,r11
+        823776d8 38 80 00 00     li         r4,0x0
+        823776dc 55 6a 08 3c     rlwinm     r10,r11,0x1,0x0,0x1e
+        823776e0 7c cb 52 14     add        r6,r11,r10
+        823776e4 7c 66 e0 ae     lbzx       r3,r6,r28=>TitleScreen_StagePlaylist_82c6cbe0                   = 15h
+        823776e8 48 07 92 91     bl         Function_823F0978                                               undefined Function_823F0978()
+                             LAB_823776ec                                    XREF[1]:     823776d0(j)  
+        823776ec 7f ab eb 78     or         r11,r29,r29
+        823776f0 89 5f 00 02     lbz        r10,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        823776f4 38 aa 00 01     addi       r5,r10,0x1
+        823776f8 99 7f 00 07     stb        r11,0x7(r31)=>DAT_83027b5f
+        823776fc 39 60 00 04     li         r11,0x4
+        82377700 98 bf 00 02     stb        r5,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        82377704 91 78 00 94     stw        r11,0x94(r24)=>TitleScreen_StageAttractSceneSwitchFlag
+        82377708 48 00 01 70     b          switchD_82377514::caseD_5
+                             switchD_82377514::caseD_3                       XREF[2]:     82377514(j), 82377524(*)  
+        8237770c 81 7f 00 08     lwz        r11,0x8(r31)=>DAT_83027b60
+        82377710 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        82377714 40 9a 00 34     bne        cr6,LAB_82377748
+        82377718 88 8f df 53     lbz        r4,-0x20ad(r15)=>DAT_8301df53
+        8237771c 2b 04 00 01     cmplwi     cr6,r4,0x1
+        82377720 40 9a 00 28     bne        cr6,LAB_82377748
+        82377724 48 02 e6 15     bl         FUN_823a5d38                                                    undefined FUN_823a5d38()
+        82377728 54 63 06 3e     rlwinm     r3,r3,0x0,0x18,0x1f
+        8237772c 2b 03 00 00     cmplwi     cr6,r3,0x0
+        82377730 40 9a 00 18     bne        cr6,LAB_82377748
+        82377734 48 02 e5 35     bl         FUN_823a5c68                                                    undefined FUN_823a5c68()
+        82377738 2f 03 00 00     cmpwi      cr6,r3,0x0
+        8237773c 41 9a 00 0c     beq        cr6,LAB_82377748
+        82377740 38 60 00 3c     li         r3,0x3c
+        82377744 4b ff fb 25     bl         Function_82377268                                               undefined Function_82377268()
+                             LAB_82377748                                    XREF[4]:     82377714(j), 82377720(j), 
+                                                                                          82377730(j), 8237773c(j)  
+        82377748 48 00 03 c1     bl         Function_82377B08                                               undefined Function_82377B08()
+        8237774c 90 7f 00 0c     stw        r3,0xc(r31)=>DAT_83027b64
+        82377750 2f 03 00 00     cmpwi      cr6,r3,0x0
+        82377754 40 99 00 30     ble        cr6,LAB_82377784
+        82377758 89 7f 00 03     lbz        r11,0x3(r31)=>DAT_83027b5b
+        8237775c 7d 6a 07 74     extsb      r10,r11
+        82377760 2f 0a 00 00     cmpwi      cr6,r10,0x0
+        82377764 40 99 00 20     ble        cr6,LAB_82377784
+        82377768 2f 03 00 3c     cmpwi      cr6,r3,0x3c
+        8237776c 40 9a 00 18     bne        cr6,LAB_82377784
+        82377770 38 80 00 3c     li         r4,0x3c
+        82377774 38 60 00 00     li         r3,0x0
+        82377778 4b ff fb 79     bl         Function_823772F0                                               undefined Function_823772F0()
+        8237777c 9a ff 00 07     stb        r23,0x7(r31)=>DAT_83027b5f
+        82377780 80 7f 00 0c     lwz        r3,0xc(r31)=>DAT_83027b64
+                             LAB_82377784                                    XREF[3]:     82377754(j), 82377764(j), 
+                                                                                          8237776c(j)  
+        82377784 3d 20 7f ff     lis        r9,0x7fff
+        82377788 81 7f 00 08     lwz        r11,0x8(r31)=>DAT_83027b60
+        8237778c 61 28 ff ff     ori        r8,r9,0xffff
+        82377790 7f 0b 40 00     cmpw       cr6,r11,r8
+        82377794 40 98 00 0c     bge        cr6,LAB_823777a0
+        82377798 39 6b 00 01     addi       r11,r11,0x1
+        8237779c 91 7f 00 08     stw        r11,0x8(r31)=>DAT_83027b60
+                             LAB_823777a0                                    XREF[1]:     82377794(j)  
+        823777a0 2f 03 00 01     cmpwi      cr6,r3,0x1
+        823777a4 40 9a 00 64     bne        cr6,LAB_82377808
+        823777a8 88 df 00 07     lbz        r6,0x7(r31)=>DAT_83027b5f
+        823777ac 2b 06 00 00     cmplwi     cr6,r6,0x0
+        823777b0 40 9a 00 c8     bne        cr6,switchD_82377514::caseD_5
+        823777b4 80 a1 00 50     lwz        r5,local_e0(r1)
+        823777b8 81 65 00 14     lwz        r11,0x14(r5)=>DAT_83027b8c
+        823777bc 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        823777c0 40 98 00 b8     bge        cr6,switchD_82377514::caseD_5
+        823777c4 39 60 00 09     li         r11,0x9
+        823777c8 9a e1 00 60     stb        r23,local_d0(r1)
+        823777cc 39 40 00 0f     li         r10,0xf
+        823777d0 9b a1 00 62     stb        r29,local_ce(r1)
+        823777d4 38 a1 00 60     addi       r5,r1,0x60
+        823777d8 9b a1 00 63     stb        r29,local_cd(r1)
+        823777dc 38 98 00 90     addi       r4=>DAT_83033e90,r24,0x90
+        823777e0 93 a1 00 64     stw        r29,local_cc(r1)
+        823777e4 7f 03 c3 78     or         r3=>DAT_83033e00,r24,r24
+        823777e8 b3 a1 00 6a     sth        r29,local_c6(r1)
+        823777ec 99 61 00 61     stb        r11,local_cf(r1)
+        823777f0 b1 41 00 68     sth        r10,local_c8(r1)
+        823777f4 9a 01 00 70     stb        r16,local_c0(r1)
+        823777f8 9a 01 00 71     stb        r16,local_bf(r1)
+        823777fc 93 a1 00 74     stw        r29,local_bc(r1)
+        82377800 48 02 e8 89     bl         Function_823A6088                                               undefined Function_823A6088()
+        82377804 80 7f 00 0c     lwz        r3,0xc(r31)=>DAT_83027b64
+                             LAB_82377808                                    XREF[1]:     823777a4(j)  
+        82377808 2f 03 00 00     cmpwi      cr6,r3,0x0
+        8237780c 40 9a 00 6c     bne        cr6,switchD_82377514::caseD_5
+        82377810 89 7f 00 02     lbz        r11,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        82377814 39 2b 00 01     addi       r9,r11,0x1
+        82377818 99 3f 00 02     stb        r9,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+                             switchD_82377514::caseD_4                       XREF[2]:     82377514(j), 82377528(*)  
+        8237781c 89 1f 00 03     lbz        r8,0x3(r31)=>DAT_83027b5b
+        82377820 7d 0b 07 74     extsb      r11,r8
+        82377824 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        82377828 40 99 00 2c     ble        cr6,LAB_82377854
+        8237782c 88 df 00 07     lbz        r6,0x7(r31)=>DAT_83027b5f
+        82377830 2b 06 00 00     cmplwi     cr6,r6,0x0
+        82377834 41 9a 00 20     beq        cr6,LAB_82377854
+        82377838 2f 0b 00 64     cmpwi      cr6,r11,0x64
+        8237783c 40 98 00 0c     bge        cr6,LAB_82377848
+        82377840 38 ab ff ff     subi       r5,r11,0x1
+        82377844 98 bf 00 03     stb        r5,0x3(r31)=>DAT_83027b5b
+                             LAB_82377848                                    XREF[1]:     8237783c(j)  
+        82377848 7f ab eb 78     or         r11,r29,r29
+        8237784c 99 7f 00 02     stb        r11,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        82377850 48 00 00 28     b          switchD_82377514::caseD_5
+                             LAB_82377854                                    XREF[2]:     82377828(j), 82377834(j)  
+        82377854 38 80 00 01     li         r4,0x1
+        82377858 88 7f 00 04     lbz        r3,0x4(r31)=>DAT_83027b5c
+        8237785c 48 00 02 2d     bl         FUN_82377a88                                                    undefined FUN_82377a88()
+        82377860 7e 0b 83 78     or         r11,r16,r16
+        82377864 99 7f 00 02     stb        r11,0x2(r31)=>DAT_83027b5a_titlestageswitch???
+        82377868 7f ab eb 78     or         r11,r29,r29
+        8237786c 91 7f 00 08     stw        r11,0x8(r31)=>DAT_83027b60
+        82377870 39 60 ff ff     li         r11,-0x1
+        82377874 91 7f 00 0c     stw        r11,0xc(r31)=>DAT_83027b64
+                             switchD_82377514::caseD_5                       XREF[8]:     823774fc(j), 82377514(j), 
+                                                                                          823775e4(j), 82377708(j), 
+                                                                                          823777b0(j), 823777c0(j), 
+                                                                                          8237780c(j), 82377850(j)  
+        82377878 88 7f 00 03     lbz        r3,0x3(r31)=>DAT_83027b5b
+        8237787c 2b 03 00 00     cmplwi     cr6,r3,0x0
+        82377880 40 9a fc 4c     bne        cr6,LAB_823774cc
+                             LAB_82377884                                    XREF[1]:     8237747c(j)  
+        82377884 48 00 00 15     bl         Function_82377898                                               undefined Function_82377898()
+        82377888 48 16 83 89     bl         Function_824DFC10                                               undefined Function_824DFC10()
+        8237788c 38 21 01 30     addi       r1,r1,0x130
+        82377890 48 67 74 50     b          Function_829EECE0                                               undefined Function_829EECE0()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        82377894 00              ??         00h
+        82377895 00              ??         00h
+        82377896 00              ??         00h
+        82377897 00              ??         00h
