@@ -1786,6 +1786,14 @@
       <CustomType>Float Big Endian</CustomType>
       <Address>1834BC1F0</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>1190</ID>
+      <Description>"DWORD_82c21ebc"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182c21ebc</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
