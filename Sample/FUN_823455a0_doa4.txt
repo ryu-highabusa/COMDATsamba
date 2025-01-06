@@ -1,0 +1,68 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             FUN_823455a0
+        823455a0 94 21 ff 80     stwu       r1,local_80(r1)                   # Allocate stack space
+        823455a4 7c 7d 1b 78     or         r29,r3,r3                         # Copy input parameter to r29
+        823455a8 2b 1d 00 00     cmplwi     cr6,r29,0x0                       # Check if r29 (input) is NULL
+        823455ac 41 9a 00 20     beq        cr6,LAB_823455cc                  # If NULL, branch to return 0
+        823455b0 3d 60 82 20     lis        r11,-0x7de0                       # Load base address for MULTI_CLOTH
+        823455b4 38 a0 00 10     li         r5,0x10                           # Load 0x10 (likely size or type)
+        823455b8 38 6b f0 a0     subi       r3=>s_MULTI_CLOTH_821ff0a0,r11,0xf60  # Load pointer to "MULTI_CLOTH"
+        823455bc 7f a4 eb 78     or         r4,r29,r29                        # Copy r29 to r4 for call
+        823455c0 48 6a 71 01     bl         FUN_829ec6c0                      # Call helper function (init MULTI_CLOTH)
+        823455c4 2f 03 00 00     cmpwi      cr6,r3,0x0                        # Check return value of call
+        823455c8 41 9a 00 10     beq        cr6,LAB_823455d8                  # If 0 (failure), branch to end
+                             LAB_823455cc
+        823455cc 38 60 00 00     li         r3,0x0                            # Set return value to 0
+        823455d0 38 21 00 80     addi       r1,r1,0x80                        # Restore stack
+        823455d4 48 6a 97 44     b          switchD_824230b8::caseD_4         # Jump to case handler
+                             LAB_823455d8
+        823455d8 81 7d 00 14     lwz        r11,0x14(r29)                     # Load word from offset 0x14
+        823455dc 2b 0b 00 00     cmplwi     cr6,r11,0x0                       # Check if value at 0x14 is 0
+        823455e0 41 9a 00 b8     beq        cr6,LAB_82345698                  # If NULL, branch to end
+        823455e4 81 7d 00 18     lwz        r11,0x18(r29)                     # Load word from offset 0x18
+        823455e8 3b c0 00 00     li         r30,0x0                           # Initialize counter (r30 = 0)
+        823455ec 2f 0b 00 00     cmpwi      cr6,r11,0x0                       # Check if value at 0x18 is 0
+        823455f0 40 99 00 80     ble        cr6,LAB_82345670                  # If <= 0, branch to skip loop
+
+# Loop: Process Cloth Entries
+                             LAB_823455f4
+        823455f4 3d 60 82 20     lis        r11,-0x7de0                       # Load base address for CLOTH_DATA
+        823455f8 3b 8b f0 b8     subi       r28,r11,0xf48                     # Calculate pointer to "CLOTH_DATA"
+                             LAB_823455fc
+        823455fc 7f c4 f3 78     or         r4,r30,r30                        # Set r4 to loop index
+        82345600 7f a3 eb 78     or         r3,r29,r29                        # Set r3 to input parameter
+        82345604 48 00 00 a5     bl         Function_823456A8                 # Call helper function (process entry)
+        82345608 7c 7f 1b 78     or         r31,r3,r3                         # Store return value in r31
+        8234560c 2b 1f 00 00     cmplwi     cr6,r31,0x0                       # Check if function returned 0
+        82345610 41 9a 00 50     beq        cr6,LAB_82345660                  # If NULL, skip processing
+        82345614 38 a0 00 10     li         r5,0x10                           # Load 0x10 (size/type)
+        82345618 7f e4 fb 78     or         r4,r31,r31                        # Set r4 to entry
+        8234561c 7f 83 e3 78     or         r3=>s_CLOTH_DATA_821ff0b8,r28,r28 # Set r3 to "CLOTH_DATA"
+        82345620 48 6a 70 a1     bl         FUN_829ec6c0                      # Call helper function (init CLOTH_DATA)
+        82345624 2f 03 00 00     cmpwi      cr6,r3,0x0                        # Check return value
+        82345628 40 9a 00 38     bne        cr6,LAB_82345660                  # If success, continue
+        8234562c 81 7f 00 4c     lwz        r11,0x4c(r31)                     # Load pointer from offset 0x4c
+        82345630 2b 0b 00 00     cmplwi     cr6,r11,0x0                       # Check if pointer is NULL
+        82345634 41 9a 00 2c     beq        cr6,LAB_82345660                  # If NULL, skip processing
+
+# Finalizing Entry
+        82345644 55 6b 00 3e     rlwinm     r11,r11,0x0,0x0,0x1f              # Mask value
+        8234564c 38 60 00 04     li         r3,0x4                            # Set argument for next function
+        82345650 80 ab 00 ac     lwz        r5,0xac(r11)                      # Load word from offset 0xac
+        82345654 81 2b 00 b0     lwz        r9,0xb0(r11)                      # Load word from offset 0xb0
+        82345658 7d 29 03 a6     mtspr      CTR,r9                            # Load loop count
+        8234565c 4e 80 04 21     bctrl                                      # Branch to next processing step
+                             LAB_82345660
+        82345660 81 7d 00 18     lwz        r11,0x18(r29)                     # Reload loop limit
+        82345664 3b de 00 01     addi       r30,r30,0x1                       # Increment counter
+        82345668 7f 1e 58 00     cmpw       cr6,r30,r11                       # Compare counter to limit
+        8234566c 41 98 ff 90     blt        cr6,LAB_823455fc                  # If less, repeat loop
+
+# End and Cleanup
+                             LAB_82345670
+        82345670 81 1d 00 10     lwz        r8,0x10(r29)                     # Load final value
+        82345698 38 60 00 01     li         r3,0x1                            # Set success return value
+        8234569c 38 21 00 80     addi       r1,r1,0x80                        # Restore stack
+        823456a0 48 6a 96 78     b          switchD_824230b8::caseD_4         # Branch to return
