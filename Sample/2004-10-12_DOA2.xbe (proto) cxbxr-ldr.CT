@@ -102,6 +102,7 @@
     <CheatEntry>
       <ID>46</ID>
       <Description>"replace the char ids at 0x0011e709"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>47</ByteLength>
