@@ -4,14 +4,16 @@
     <CheatEntry>
       <ID>24</ID>
       <Description>"182000400"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
-      <CustomType>4 Byte Big Endian</CustomType>
+      <CustomType>Float Big Endian</CustomType>
       <Address>start_address</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>25</ID>
       <Description>"1834bffff"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
@@ -360,6 +362,33 @@
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
       <Address>182AC4DFC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"DAT_82abf770"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182abf770</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"DAT_82abf46c"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182abf46c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"DAT_82abf774"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>182abf774</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
