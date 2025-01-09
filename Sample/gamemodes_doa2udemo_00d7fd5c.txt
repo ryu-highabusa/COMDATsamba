@@ -1,0 +1,21 @@
+0 Story
+1 Time Attack
+2 Survival
+3 Tag Battle
+4 Team Battle
+5 Versus
+6 Sparring
+7 
+8 Watch
+9 Battle Record
+a Options
+b Collection
+c 
+d
+e
+f Online
+10
+11
+12 DOA3_BOOSTER
+13 UPS
+14 CG Gallery
