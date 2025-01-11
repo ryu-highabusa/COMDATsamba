@@ -189,6 +189,42 @@
       <VariableType>4 Bytes</VariableType>
       <Address>005c9ff0</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"DAT_00d802f8 mode open closed table start"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00d802f8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"DAT_00d802fc mode open closed table end"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>cxbxr-ldr.exe+D702FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"DAT_00d802a0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00d802a0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"DAT_00d802ae"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00d802ae</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"opened mode (0 Story,1 Time Attack,2 Survival,3 Tag Battle,4 Team Battle,5 Versus,6 Sparring,7 ,8 Watch,9 Battle Record,a Options,b Collection,c ,d,e,f Online,10,11,12 DOA3_BOOSTER,13 UPS,14 CG Gallery)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00106AC6</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
