@@ -225,6 +225,15 @@
       <VariableType>Byte</VariableType>
       <Address>00106AC6</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"B9 02 00 00 00 89 0C 85 F8 02 D8 00"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>00106AC2</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
