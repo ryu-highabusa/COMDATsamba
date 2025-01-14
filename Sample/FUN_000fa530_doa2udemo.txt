@@ -1,0 +1,749 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined FUN_000fa530(undefined4 param_1, undefined4 pa
+             undefined         AL:1           <RETURN>
+             undefined4        Stack[0x4]:4   param_1                                 XREF[2]:     000fa74a(R), 
+                                                                                                   000fa764(R)  
+             undefined4        Stack[0x8]:4   param_2                                 XREF[9]:     000fa548(R), 
+                                                                                                   000fa631(W), 
+                                                                                                   000fa646(R), 
+                                                                                                   000fa64e(W), 
+                                                                                                   000fa65a(W), 
+                                                                                                   000fa664(RW), 
+                                                                                                   000fa6a8(R), 
+                                                                                                   000fa706(*), 
+                                                                                                   000fa739(R)  
+             undefined4        Stack[-0x4]:4  local_4                                 XREF[2]:     000fa5a2(W), 
+                                                                                                   000fa75b(R)  
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[5]:     000fa6b3(W), 
+                                                                                                   000fa6bc(R), 
+                                                                                                   000fa702(W), 
+                                                                                                   000fa71e(W), 
+                                                                                                   000fa731(R)  
+             undefined4        Stack[-0xc]:4  local_c                                 XREF[3]:     000fa55f(W), 
+                                                                                                   000fa570(W), 
+                                                                                                   000fa757(R)  
+             undefined4        Stack[-0x10]:4 local_10                                XREF[7]:     000fa537(W), 
+                                                                                                   000fa5b2(W), 
+                                                                                                   000fa5c6(W), 
+                                                                                                   000fa5fa(R), 
+                                                                                                   000fa63b(R), 
+                                                                                                   000fa6eb(R), 
+                                                                                                   000fa6f8(R)  
+             undefined1        Stack[-0x11]:1 local_11                                XREF[2]:     000fa5f6(W), 
+                                                                                                   000fa76b(R)  
+             undefined1        Stack[-0x18]:1 local_18                                XREF[4]:     000fa66f(W), 
+                                                                                                   000fa680(R), 
+                                                                                                   000fa6c1(*), 
+                                                                                                   000fa6dc(R)  
+             undefined1        Stack[-0x19]:1 local_19                                XREF[5]:     000fa53c(W), 
+                                                                                                   000fa5da(W), 
+                                                                                                   000fa5ee(W), 
+                                                                                                   000fa602(R), 
+                                                                                                   000fa678(R)  
+             undefined1        Stack[-0x1a]:1 local_1a                                XREF[6]:     000fa635(W), 
+                                                                                                   000fa688(W), 
+                                                                                                   000fa694(W), 
+                                                                                                   000fa6a2(W), 
+                                                                                                   000fa726(*), 
+                                                                                                   000fa735(R)  
+                             FUN_000fa530                                    XREF[1]:     0061a50c(*)  
+        000fa530 83 ec 1c        SUB        ESP,0x1c
+        000fa533 53              PUSH       EBX
+        000fa534 55              PUSH       EBP
+        000fa535 56              PUSH       ESI
+        000fa536 57              PUSH       EDI
+        000fa537 c6 44 24        MOV        byte ptr [ESP + local_10],0x0
+                 1c 00
+        000fa53c c6 44 24        MOV        byte ptr [ESP + local_19],0x0
+                 13 00
+        000fa541 e8 4a 9f        CALL       FUN_00234490                                       undefined FUN_00234490()
+                 13 00
+        000fa546 85 c0           TEST       EAX,EAX
+        000fa548 8b 74 24 34     MOV        ESI,dword ptr [ESP + param_2]
+        000fa54c 74 17           JZ         LAB_000fa565
+        000fa54e 33 c0           XOR        EAX,EAX
+        000fa550 8a 46 1a        MOV        AL,byte ptr [ESI + 0x1a]
+        000fa553 50              PUSH       EAX
+        000fa554 e8 47 a8        CALL       FUN_00104da0                                       undefined FUN_00104da0(undefined1 param_1)
+                 00 00
+        000fa559 0f b6 d8        MOVZX      EBX,AL
+        000fa55c 83 c4 04        ADD        ESP,0x4
+        000fa55f 89 5c 24 20     MOV        dword ptr [ESP + local_c],EBX
+        000fa563 eb 11           JMP        LAB_000fa576
+                             LAB_000fa565                                    XREF[1]:     000fa54c(j)  
+        000fa565 0f b6 4e 1a     MOVZX      ECX,byte ptr [ESI + 0x1a]
+        000fa569 0f b6 91        MOVZX      EDX,byte ptr [ECX + DAT_00e46850]
+                 50 68 e4 00
+        000fa570 89 54 24 20     MOV        dword ptr [ESP + local_c],EDX
+        000fa574 8b da           MOV        EBX,EDX
+                             LAB_000fa576                                    XREF[1]:     000fa563(j)  
+        000fa576 0f b6 05        MOVZX      EAX,byte ptr [DAT_0079d8ae]
+                 ae d8 79 00
+        000fa57d 83 c0 03        ADD        EAX,0x3
+        000fa580 8d 0c 80        LEA        ECX,[EAX + EAX*0x4]
+        000fa583 d1 e1           SHL        ECX,0x1
+        000fa585 b8 89 88        MOV        EAX,0x88888889
+                 88 88
+        000fa58a f7 e9           IMUL       ECX
+        000fa58c 03 d1           ADD        EDX,ECX
+        000fa58e c1 fa 05        SAR        EDX,0x5
+        000fa591 8b fa           MOV        EDI,EDX
+        000fa593 c1 ef 1f        SHR        EDI,0x1f
+        000fa596 03 fa           ADD        EDI,EDX
+        000fa598 57              PUSH       EDI
+        000fa599 8d 2c dd        LEA        EBP,[EBX*0x8 + DAT_0061b4dc]
+                 dc b4 61 00
+        000fa5a0 57              PUSH       EDI
+        000fa5a1 55              PUSH       EBP
+        000fa5a2 89 6c 24 34     MOV        dword ptr [ESP + local_4],EBP
+        000fa5a6 e8 05 a2        CALL       FUN_000f47b0                                       undefined FUN_000f47b0(undefined4 param_1, undefined
+                 ff ff
+        000fa5ab 83 c4 0c        ADD        ESP,0xc
+        000fa5ae 85 c0           TEST       EAX,EAX
+        000fa5b0 74 05           JZ         LAB_000fa5b7
+        000fa5b2 c6 44 24        MOV        byte ptr [ESP + local_10],0xff
+                 1c ff
+                             LAB_000fa5b7                                    XREF[1]:     000fa5b0(j)  
+        000fa5b7 57              PUSH       EDI
+        000fa5b8 57              PUSH       EDI
+        000fa5b9 55              PUSH       EBP
+        000fa5ba e8 51 a2        CALL       FUN_000f4810                                       undefined FUN_000f4810(undefined4 param_1, undefined
+                 ff ff
+        000fa5bf 83 c4 0c        ADD        ESP,0xc
+        000fa5c2 85 c0           TEST       EAX,EAX
+        000fa5c4 74 05           JZ         LAB_000fa5cb
+        000fa5c6 c6 44 24        MOV        byte ptr [ESP + local_10],0x1
+                 1c 01
+                             LAB_000fa5cb                                    XREF[1]:     000fa5c4(j)  
+        000fa5cb 57              PUSH       EDI
+        000fa5cc 57              PUSH       EDI
+        000fa5cd 55              PUSH       EBP
+        000fa5ce e8 1d a1        CALL       FUN_000f46f0                                       undefined FUN_000f46f0(undefined4 param_1, undefined
+                 ff ff
+        000fa5d3 83 c4 0c        ADD        ESP,0xc
+        000fa5d6 85 c0           TEST       EAX,EAX
+        000fa5d8 74 05           JZ         LAB_000fa5df
+        000fa5da c6 44 24        MOV        byte ptr [ESP + local_19],0xff
+                 13 ff
+                             LAB_000fa5df                                    XREF[1]:     000fa5d8(j)  
+        000fa5df 57              PUSH       EDI
+        000fa5e0 57              PUSH       EDI
+        000fa5e1 55              PUSH       EBP
+        000fa5e2 e8 69 a1        CALL       FUN_000f4750                                       undefined FUN_000f4750(undefined4 param_1, undefined
+                 ff ff
+        000fa5e7 83 c4 0c        ADD        ESP,0xc
+        000fa5ea 85 c0           TEST       EAX,EAX
+        000fa5ec 74 05           JZ         LAB_000fa5f3
+        000fa5ee c6 44 24        MOV        byte ptr [ESP + local_19],0x1
+                 13 01
+                             LAB_000fa5f3                                    XREF[1]:     000fa5ec(j)  
+        000fa5f3 8a 46 16        MOV        AL,byte ptr [ESI + 0x16]
+        000fa5f6 88 44 24 1b     MOV        byte ptr [ESP + local_11],AL
+        000fa5fa 8a 44 24 1c     MOV        AL,byte ptr [ESP + local_10]
+        000fa5fe 84 c0           TEST       AL,AL
+        000fa600 75 0c           JNZ        LAB_000fa60e
+        000fa602 8a 44 24 13     MOV        AL,byte ptr [ESP + local_19]
+        000fa606 84 c0           TEST       AL,AL
+        000fa608 0f 84 56        JZ         LAB_000fa764
+                 01 00 00
+                             LAB_000fa60e                                    XREF[1]:     000fa600(j)  
+        000fa60e 8b 2d f0        MOV        EBP,dword ptr [CharacterSelectSlotCount]           = 16
+                 a4 61 00
+        000fa614 8b c5           MOV        EAX,EBP
+        000fa616 99              CDQ
+        000fa617 2b c2           SUB        EAX,EDX
+        000fa619 8b c8           MOV        ECX,EAX
+        000fa61b c6 05 18        MOV        byte ptr [DAT_00d7f618],0x3
+                 f6 d7 00 03
+        000fa622 8a 5e 16        MOV        BL,byte ptr [ESI + 0x16]
+        000fa625 0f be c3        MOVSX      EAX,BL
+        000fa628 d1 f9           SAR        ECX,0x1
+        000fa62a 99              CDQ
+        000fa62b f7 f9           IDIV       ECX
+        000fa62d 84 c9           TEST       CL,CL
+        000fa62f 8a d8           MOV        BL,AL
+        000fa631 88 54 24 34     MOV        byte ptr [ESP + param_2],DL
+        000fa635 88 5c 24 12     MOV        byte ptr [ESP + local_1a],BL
+        000fa639 74 2d           JZ         LAB_000fa668
+        000fa63b 0f be 44        MOVSX      EAX,byte ptr [ESP + local_10]
+                 24 1c
+        000fa640 99              CDQ
+        000fa641 0f be f9        MOVSX      EDI,CL
+        000fa644 f7 ff           IDIV       EDI
+        000fa646 8a 44 24 34     MOV        AL,byte ptr [ESP + param_2]
+        000fa64a 02 c2           ADD        AL,DL
+        000fa64c 3a c1           CMP        AL,CL
+        000fa64e 88 44 24 34     MOV        byte ptr [ESP + param_2],AL
+        000fa652 7c 0c           JL         LAB_000fa660
+        000fa654 0f be c0        MOVSX      EAX,AL
+        000fa657 99              CDQ
+        000fa658 f7 ff           IDIV       EDI
+        000fa65a 88 54 24 34     MOV        byte ptr [ESP + param_2],DL
+        000fa65e eb 08           JMP        LAB_000fa668
+                             LAB_000fa660                                    XREF[1]:     000fa652(j)  
+        000fa660 84 c0           TEST       AL,AL
+        000fa662 7d 04           JGE        LAB_000fa668
+        000fa664 00 4c 24 34     ADD        byte ptr [ESP + param_2],CL
+                             LAB_000fa668                                    XREF[3]:     000fa639(j), 000fa65e(j), 
+                                                                                          000fa662(j)  
+        000fa668 8b c5           MOV        EAX,EBP
+        000fa66a 99              CDQ
+        000fa66b f7 f9           IDIV       ECX
+        000fa66d 84 c0           TEST       AL,AL
+        000fa66f 88 44 24 14     MOV        byte ptr [ESP + local_18],AL
+        000fa673 74 31           JZ         LAB_000fa6a6
+        000fa675 0f be f8        MOVSX      EDI,AL
+        000fa678 0f be 44        MOVSX      EAX,byte ptr [ESP + local_19]
+                 24 13
+        000fa67d 99              CDQ
+        000fa67e f7 ff           IDIV       EDI
+        000fa680 8a 44 24 14     MOV        AL,byte ptr [ESP + local_18]
+        000fa684 02 da           ADD        BL,DL
+        000fa686 3a d8           CMP        BL,AL
+        000fa688 88 5c 24 12     MOV        byte ptr [ESP + local_1a],BL
+        000fa68c 7c 0e           JL         LAB_000fa69c
+        000fa68e 0f be c3        MOVSX      EAX,BL
+        000fa691 99              CDQ
+        000fa692 f7 ff           IDIV       EDI
+        000fa694 88 54 24 12     MOV        byte ptr [ESP + local_1a],DL
+        000fa698 8a da           MOV        BL,DL
+        000fa69a eb 0a           JMP        LAB_000fa6a6
+                             LAB_000fa69c                                    XREF[1]:     000fa68c(j)  
+        000fa69c 84 db           TEST       BL,BL
+        000fa69e 7d 06           JGE        LAB_000fa6a6
+        000fa6a0 02 d8           ADD        BL,AL
+        000fa6a2 88 5c 24 12     MOV        byte ptr [ESP + local_1a],BL
+                             LAB_000fa6a6                                    XREF[3]:     000fa673(j), 000fa69a(j), 
+                                                                                          000fa69e(j)  
+        000fa6a6 8a c1           MOV        AL,CL
+        000fa6a8 8a 4c 24 34     MOV        CL,byte ptr [ESP + param_2]
+        000fa6ac f6 eb           IMUL       BL
+        000fa6ae 8a d8           MOV        BL,AL
+        000fa6b0 02 d9           ADD        BL,CL
+        000fa6b2 56              PUSH       ESI
+        000fa6b3 88 5c 24 28     MOV        byte ptr [ESP + local_8],BL
+        000fa6b7 e8 74 d4        CALL       FUN_000f7b30                                       undefined FUN_000f7b30(undefined4 param_1)
+                 ff ff
+        000fa6bc 8b 4c 24 28     MOV        ECX,dword ptr [ESP + local_8]
+        000fa6c0 51              PUSH       ECX
+        000fa6c1 8d 7c 24 1c     LEA        EDI=>local_18,[ESP + 0x1c]
+        000fa6c5 8a c8           MOV        CL,AL
+        000fa6c7 e8 14 de        CALL       FUN_000f84e0                                       undefined FUN_000f84e0(undefined4 param_1)
+                 ff ff
+        000fa6cc 83 c4 08        ADD        ESP,0x8
+        000fa6cf 85 c0           TEST       EAX,EAX
+        000fa6d1 74 74           JZ         LAB_000fa747
+        000fa6d3 80 3d d2        CMP        byte ptr [DAT_007987d2],0x8
+                 87 79 00 08
+        000fa6da 75 0f           JNZ        LAB_000fa6eb
+        000fa6dc 8a 44 24 14     MOV        AL,byte ptr [ESP + local_18]
+        000fa6e0 0f be d3        MOVSX      EDX,BL
+        000fa6e3 88 5e 16        MOV        byte ptr [ESI + 0x16],BL
+        000fa6e6 88 04 32        MOV        byte ptr [EDX + ESI*0x1],AL
+        000fa6e9 eb 5f           JMP        LAB_000fa74a
+                             LAB_000fa6eb                                    XREF[1]:     000fa6da(j)  
+        000fa6eb 8a 44 24 1c     MOV        AL,byte ptr [ESP + local_10]
+        000fa6ef 84 c0           TEST       AL,AL
+        000fa6f1 74 19           JZ         LAB_000fa70c
+        000fa6f3 a1 f0 a4        MOV        EAX,[CharacterSelectSlotCount]                     = 16
+                 61 00
+        000fa6f8 8b 4c 24 1c     MOV        ECX,dword ptr [ESP + local_10]
+        000fa6fc 99              CDQ
+        000fa6fd 2b c2           SUB        EAX,EDX
+        000fa6ff d1 f8           SAR        EAX,0x1
+        000fa701 51              PUSH       ECX
+        000fa702 89 44 24 28     MOV        dword ptr [ESP + local_8],EAX
+        000fa706 8d 4c 24 38     LEA        ECX=>param_2,[ESP + 0x38]
+        000fa70a eb 1e           JMP        LAB_000fa72a
+                             LAB_000fa70c                                    XREF[1]:     000fa6f1(j)  
+        000fa70c 8b 3d f0        MOV        EDI,dword ptr [CharacterSelectSlotCount]           = 16
+                 a4 61 00
+        000fa712 8b c7           MOV        EAX,EDI
+        000fa714 99              CDQ
+        000fa715 2b c2           SUB        EAX,EDX
+        000fa717 8b c8           MOV        ECX,EAX
+        000fa719 8b c7           MOV        EAX,EDI
+        000fa71b d1 f9           SAR        ECX,0x1
+        000fa71d 99              CDQ
+        000fa71e 89 4c 24 24     MOV        dword ptr [ESP + local_8],ECX
+        000fa722 f7 f9           IDIV       ECX
+        000fa724 6a 01           PUSH       0x1
+        000fa726 8d 4c 24 16     LEA        ECX=>local_1a,[ESP + 0x16]
+                             LAB_000fa72a                                    XREF[1]:     000fa70a(j)  
+        000fa72a 8a d8           MOV        BL,AL
+        000fa72c e8 9f 3d        CALL       FUN_000fe4d0                                       undefined FUN_000fe4d0(undefined1 param_1)
+                 00 00
+        000fa731 8a 44 24 28     MOV        AL,byte ptr [ESP + local_8]
+        000fa735 f6 6c 24 16     IMUL       byte ptr [ESP + local_1a]
+        000fa739 8a 4c 24 38     MOV        CL,byte ptr [ESP + param_2]
+        000fa73d 83 c4 04        ADD        ESP,0x4
+        000fa740 02 c1           ADD        AL,CL
+        000fa742 88 46 16        MOV        byte ptr [ESI + 0x16],AL
+        000fa745 eb 03           JMP        LAB_000fa74a
+                             LAB_000fa747                                    XREF[1]:     000fa6d1(j)  
+        000fa747 88 5e 16        MOV        byte ptr [ESI + 0x16],BL
+                             LAB_000fa74a                                    XREF[2]:     000fa6e9(j), 000fa745(j)  
+        000fa74a 8b 7c 24 30     MOV        EDI,dword ptr [ESP + param_1]
+        000fa74e 6a 00           PUSH       0x0
+        000fa750 56              PUSH       ESI
+        000fa751 57              PUSH       EDI
+        000fa752 e8 39 f3        CALL       FUN_000f9a90                                       undefined FUN_000f9a90(undefined param_1, undefined4
+                 ff ff
+        000fa757 8b 5c 24 2c     MOV        EBX,dword ptr [ESP + local_c]
+        000fa75b 8b 6c 24 34     MOV        EBP,dword ptr [ESP + local_4]
+        000fa75f 83 c4 0c        ADD        ESP,0xc
+        000fa762 eb 04           JMP        ProcessRandomOrLockedSlots
+                             LAB_000fa764                                    XREF[1]:     000fa608(j)  
+        000fa764 8b 7c 24 30     MOV        EDI,dword ptr [ESP + param_1]
+                             ProcessRandomOrLockedSlots                      XREF[1]:     000fa762(j)  
+        000fa768 8a 4e 16        MOV        CL,byte ptr [ESI + 0x16]
+        000fa76b 3a 4c 24 1b     CMP        CL,byte ptr [ESP + local_11]
+        000fa76f 0f 84 73        JZ         LAB_000fa8e8
+                 01 00 00
+        000fa775 0f b6 d1        MOVZX      EDX,CL
+        000fa778 0f b6 82        MOVZX      EAX,byte ptr [EDX + DAT_00d7f5f0]
+                 f0 f5 d7 00
+        000fa77f 8d 04 80        LEA        EAX,[EAX + EAX*0x4]
+        000fa782 8a 14 85        MOV        DL,byte ptr [EAX*0x4 + CharacterSelectSlotVersus0  = 5h
+                 e0 a1 61 00
+        000fa789 0f be c1        MOVSX      EAX,CL
+        000fa78c 88 56 14        MOV        byte ptr [ESI + 0x14],DL
+        000fa78f 8a 0c 30        MOV        CL,byte ptr [EAX + ESI*0x1]
+        000fa792 56              PUSH       ESI
+        000fa793 88 4e 15        MOV        byte ptr [ESI + 0x15],CL
+        000fa796 e8 95 d3        CALL       FUN_000f7b30                                       undefined FUN_000f7b30(undefined4 param_1)
+                 ff ff
+        000fa79b 0f b6 56 16     MOVZX      EDX,byte ptr [ESI + 0x16]
+        000fa79f 0f b6 8a        MOVZX      ECX,byte ptr [EDX + DAT_00d7f5f0]
+                 f0 f5 d7 00
+        000fa7a6 8d 0c 89        LEA        ECX,[ECX + ECX*0x4]
+        000fa7a9 8a 0c 8d        MOV        CL,byte ptr [ECX*0x4 + CharacterSelectSlotVersus0  = 5h
+                 e0 a1 61 00
+        000fa7b0 83 c4 04        ADD        ESP,0x4
+        000fa7b3 80 f9 ff        CMP        CL,RANDOM
+        000fa7b6 74 3e           JZ         LAB_000fa7f6
+        000fa7b8 80 f9 fe        CMP        CL,LOCKED_CHARACTER
+        000fa7bb 74 39           JZ         LAB_000fa7f6
+        000fa7bd 0f b6 f8        MOVZX      EDI,AL
+        000fa7c0 8b ef           MOV        EBP,EDI
+        000fa7c2 6a 00           PUSH       0x0
+        000fa7c4 c1 e5 05        SHL        EBP,0x5
+        000fa7c7 56              PUSH       ESI
+        000fa7c8 c6 85 17        MOV        byte ptr [EBP + DAT_00d80017],0x0
+                 00 d8 00 00
+        000fa7cf e8 bc ea        CALL       FUN_000f9290                                       undefined FUN_000f9290(undefined4 param_1, undefined
+                 ff ff
+        000fa7d4 0f be 56 15     MOVSX      EDX,byte ptr [ESI + 0x15]
+        000fa7d8 0f b6 46 14     MOVZX      EAX,byte ptr [ESI + 0x14]
+        000fa7dc 52              PUSH       EDX
+        000fa7dd 50              PUSH       EAX
+        000fa7de 57              PUSH       EDI
+        000fa7df e8 2c 90        CALL       FUN_00103810                                       undefined FUN_00103810(undefined4 param_1, undefined
+                 00 00
+        000fa7e4 56              PUSH       ESI
+        000fa7e5 6a 00           PUSH       0x0
+        000fa7e7 57              PUSH       EDI
+        000fa7e8 e8 a3 d4        CALL       FUN_000f7c90                                       undefined FUN_000f7c90(undefined4 param_1, undefined
+                 ff ff
+        000fa7ed 83 c4 20        ADD        ESP,0x20
+        000fa7f0 c6 46 31 00     MOV        byte ptr [ESI + 0x31],0x0
+        000fa7f4 eb 29           JMP        LAB_000fa81f
+                             LAB_000fa7f6                                    XREF[2]:     000fa7b6(j), 000fa7bb(j)  
+        000fa7f6 0f b6 f8        MOVZX      EDI,AL
+        000fa7f9 6a 00           PUSH       0x0
+        000fa7fb 57              PUSH       EDI
+        000fa7fc e8 df 8c        CALL       FUN_001034e0                                       undefined FUN_001034e0(undefined4 param_1, undefined
+                 00 00
+        000fa801 8b ef           MOV        EBP,EDI
+        000fa803 c1 e5 05        SHL        EBP,0x5
+        000fa806 83 c4 08        ADD        ESP,0x8
+        000fa809 8d 8d 10        LEA        ECX,[EBP + DAT_00d80010]
+                 00 d8 00
+        000fa80f e8 0c 3b        CALL       FUN_000fe320                                       undefined FUN_000fe320()
+                 00 00
+        000fa814 c6 85 17        MOV        byte ptr [EBP + DAT_00d80017],0x1
+                 00 d8 00 01
+        000fa81b c6 46 31 01     MOV        byte ptr [ESI + 0x31],0x1
+                             LAB_000fa81f                                    XREF[1]:     000fa7f4(j)  
+        000fa81f 33 c0           XOR        EAX,EAX
+        000fa821 c6 85 2d        MOV        byte ptr [EBP + DAT_00d8002d],0x0
+                 00 d8 00 00
+        000fa828 6a 23           PUSH       0x23
+        000fa82a 89 46 24        MOV        dword ptr [ESI + 0x24],EAX
+        000fa82d 89 46 20        MOV        dword ptr [ESI + 0x20],EAX
+        000fa830 e8 8b f6        CALL       FUN_000d9ec0                                       undefined FUN_000d9ec0(undefined4 param_1)
+                 fd ff
+        000fa835 56              PUSH       ESI
+        000fa836 e8 15 cf        CALL       FUN_000f7750                                       undefined FUN_000f7750(undefined4 param_1)
+                 ff ff
+        000fa83b 83 c4 08        ADD        ESP,0x8
+        000fa83e 81 e7 01        AND        EDI,0x80000001
+                 00 00 80
+        000fa844 79 05           JNS        LAB_000fa84b
+        000fa846 4f              DEC        EDI
+        000fa847 83 cf fe        OR         EDI,0xfffffffe
+        000fa84a 47              INC        EDI
+                             LAB_000fa84b                                    XREF[1]:     000fa844(j)  
+        000fa84b 0f b6 d0        MOVZX      EDX,AL
+        000fa84e 8a 46 14        MOV        AL,byte ptr [ESI + 0x14]
+        000fa851 8d 0c bf        LEA        ECX,[EDI + EDI*0x4]
+        000fa854 88 84 11        MOV        byte ptr [ECX + EDX*0x1 + CHAR_P1_00776044],AL
+                 44 60 77 00
+        000fa85b e8 30 9c        CALL       FUN_00234490                                       undefined FUN_00234490()
+                 13 00
+        000fa860 85 c0           TEST       EAX,EAX
+        000fa862 0f 84 0b        JZ         LAB_000fab73
+                 03 00 00
+        000fa868 e8 03 7a        CALL       FUN_00232270                                       undefined FUN_00232270()
+                 13 00
+        000fa86d 8b f8           MOV        EDI,EAX
+        000fa86f e8 0c 3e        CALL       FUN_0022e680                                       undefined FUN_0022e680()
+                 13 00
+        000fa874 0f b6 4e 1a     MOVZX      ECX,byte ptr [ESI + 0x1a]
+        000fa878 33 f8           XOR        EDI,EAX
+        000fa87a 83 f7 01        XOR        EDI,0x1
+        000fa87d 3b f9           CMP        EDI,ECX
+        000fa87f 0f 85 ee        JNZ        LAB_000fab73
+                 02 00 00
+        000fa885 8a 46 19        MOV        AL,byte ptr [ESI + 0x19]
+        000fa888 84 c0           TEST       AL,AL
+        000fa88a 75 13           JNZ        LAB_000fa89f
+        000fa88c 8a 56 14        MOV        DL,byte ptr [ESI + 0x14]
+        000fa88f 88 15 68        MOV        byte ptr [DAT_0061b368],DL                         = FFh
+                 b3 61 00
+        000fa895 8a 46 15        MOV        AL,byte ptr [ESI + 0x15]
+        000fa898 a2 6a b3        MOV        [DAT_0061b36a],AL                                  = FFh
+                 61 00
+        000fa89d eb 12           JMP        LAB_000fa8b1
+                             LAB_000fa89f                                    XREF[1]:     000fa88a(j)  
+        000fa89f 8a 4e 14        MOV        CL,byte ptr [ESI + 0x14]
+        000fa8a2 88 0d 69        MOV        byte ptr [DAT_0061b369],CL                         = FFh
+                 b3 61 00
+        000fa8a8 8a 56 15        MOV        DL,byte ptr [ESI + 0x15]
+        000fa8ab 88 15 6b        MOV        byte ptr [DAT_0061b36b],DL                         = FFh
+                 b3 61 00
+                             LAB_000fa8b1                                    XREF[1]:     000fa89d(j)  
+        000fa8b1 33 c0           XOR        EAX,EAX
+        000fa8b3 a0 6b b3        MOV        AL,[DAT_0061b36b]                                  = FFh
+                 61 00
+        000fa8b8 33 c9           XOR        ECX,ECX
+        000fa8ba 8a 0d 69        MOV        CL,byte ptr [DAT_0061b369]                         = FFh
+                 b3 61 00
+        000fa8c0 33 d2           XOR        EDX,EDX
+        000fa8c2 8a 15 6a        MOV        DL,byte ptr [DAT_0061b36a]                         = FFh
+                 b3 61 00
+        000fa8c8 50              PUSH       EAX
+        000fa8c9 33 c0           XOR        EAX,EAX
+        000fa8cb a0 68 b3        MOV        AL,[DAT_0061b368]                                  = FFh
+                 61 00
+        000fa8d0 51              PUSH       ECX
+        000fa8d1 52              PUSH       EDX
+        000fa8d2 50              PUSH       EAX
+        000fa8d3 e8 98 3e        CALL       FUN_0022e770                                       undefined FUN_0022e770(undefined1 param_1, undefined
+                 13 00
+        000fa8d8 83 c4 10        ADD        ESP,0x10
+        000fa8db 5f              POP        EDI
+        000fa8dc 5e              POP        ESI
+        000fa8dd 5d              POP        EBP
+        000fa8de b8 01 00        MOV        EAX,0x1
+                 00 00
+        000fa8e3 5b              POP        EBX
+        000fa8e4 83 c4 1c        ADD        ESP,0x1c
+        000fa8e7 c3              RET
+                             LAB_000fa8e8                                    XREF[1]:     000fa76f(j)  
+        000fa8e8 e8 a3 9b        CALL       FUN_00234490                                       undefined FUN_00234490()
+                 13 00
+        000fa8ed 85 c0           TEST       EAX,EAX
+        000fa8ef 74 71           JZ         LAB_000fa962
+        000fa8f1 8d 0c 5b        LEA        ECX,[EBX + EBX*0x2]
+        000fa8f4 c1 e1 04        SHL        ECX,0x4
+        000fa8f7 8b 81 98        MOV        EAX,dword ptr [ECX + DAT_0079d698]
+                 d6 79 00
+        000fa8fd f6 c4 0d        TEST       AH,0xd
+        000fa900 75 6e           JNZ        EnforceDemoCharacterLimit
+        000fa902 a8 10           TEST       AL,0x10
+        000fa904 75 6a           JNZ        EnforceDemoCharacterLimit
+                             LAB_000fa906                                    XREF[2]:     000fa96e(j), 000fa975(j)  
+        000fa906 e8 85 9b        CALL       FUN_00234490                                       undefined FUN_00234490()
+                 13 00
+        000fa90b 85 c0           TEST       EAX,EAX
+        000fa90d 0f 84 4d        JZ         LAB_000faa60
+                 01 00 00
+        000fa913 8d 0c 5b        LEA        ECX,[EBX + EBX*0x2]
+        000fa916 c1 e1 04        SHL        ECX,0x4
+        000fa919 8b 81 98        MOV        EAX,dword ptr [ECX + DAT_0079d698]
+                 d6 79 00
+        000fa91f f6 c4 02        TEST       AH,0x2
+        000fa922 0f 85 4a        JNZ        LAB_000faa72
+                 01 00 00
+        000fa928 a8 20           TEST       AL,0x20
+        000fa92a 0f 85 42        JNZ        LAB_000faa72
+                 01 00 00
+                             LAB_000fa930                                    XREF[3]:     000faa6c(j), 000faa77(j), 
+                                                                                          000faa89(j)  
+        000fa930 33 ff           XOR        EDI,EDI
+        000fa932 e8 59 9b        CALL       FUN_00234490                                       undefined FUN_00234490()
+                 13 00
+        000fa937 85 c0           TEST       EAX,EAX
+        000fa939 0f 84 ce        JZ         LAB_000fab0d
+                 01 00 00
+        000fa93f 8d 14 5b        LEA        EDX,[EBX + EBX*0x2]
+        000fa942 c1 e2 04        SHL        EDX,0x4
+        000fa945 8b 82 98        MOV        EAX,dword ptr [EDX + DAT_0079d698]
+                 d6 79 00
+        000fa94b f6 c4 02        TEST       AH,0x2
+        000fa94e 75 08           JNZ        LAB_000fa958
+        000fa950 a8 20           TEST       AL,0x20
+        000fa952 0f 84 c0        JZ         LAB_000fab18
+                 01 00 00
+                             LAB_000fa958                                    XREF[1]:     000fa94e(j)  
+        000fa958 bf 01 00        MOV        EDI,0x1
+                 00 00
+        000fa95d e9 b6 01        JMP        LAB_000fab18
+                 00 00
+                             LAB_000fa962                                    XREF[1]:     000fa8ef(j)  
+        000fa962 55              PUSH       EBP
+        000fa963 e8 68 eb        CALL       FUN_000f94d0                                       undefined FUN_000f94d0(undefined4 param_1)
+                 ff ff
+        000fa968 83 c4 04        ADD        ESP,0x4
+        000fa96b 83 f8 01        CMP        EAX,0x1
+        000fa96e 75 96           JNZ        LAB_000fa906
+                             EnforceDemoCharacterLimit                       XREF[2]:     000fa900(j), 000fa904(j)  
+        000fa970 8b 46 20        MOV        EAX,dword ptr [ESI + 0x20]                         Load value at [ESI + 0x20] into EAX
+        000fa973 85 c0           TEST       EAX,EAX                                            Check if EAX is 0
+        000fa975 7f 8f           JG         LAB_000fa906                                       If greater than 0, jump to LAB_000fa906
+        000fa977 0f b6 4e 16     MOVZX      ECX,byte ptr [ESI + 0x16]                          Load a byte from [ESI + 0x16] into ECX (zero-extend)
+        000fa97b 0f b6 81        MOVZX      EAX,byte ptr [ECX + DAT_00d7f5f0]                  Table lookup using ECX index
+                 f0 f5 d7 00
+        000fa982 8d 14 80        LEA        EDX,[EAX + EAX*0x4]                                Calculate 5x(EAX) -> EDX
+        000fa985 80 3c 95        CMP        byte ptr [EDX*0x4 + CharacterSelectSlotVersus01_K  = 5h
+                 e0 a1 61 
+                 00 fe
+        000fa98d 0f 84 b9        JZ         LAB_000faa4c                                       If equal to 5, jump to LAB_000faa4c
+                 00 00 00
+        000fa993 8a 46 14        MOV        AL,byte ptr [ESI + 0x14]                           Load character ID from [ESI + 0x14] into AL
+        000fa996 3c 02           CMP        AL,JANNLEE                                         Compare with JANNLEE ID 0x02
+        000fa998 74 10           JZ         UpdateSlotState                                    Jump if selected character is JANNLEE
+        000fa99a 3c 0c           CMP        AL,LEIFANG                                         Compare with LEIFANG ID 0x0C
+        000fa99c 74 0c           JZ         UpdateSlotState                                    Jump if selected character is LEIFANG
+        000fa99e 3c 01           CMP        AL,TINA                                            Compare with TINA ID 0x01
+        000fa9a0 74 08           JZ         UpdateSlotState                                    Jump if selected character is TINA
+        000fa9a2 3c 09           CMP        AL,BASS                                            Compare with BASS ID 0x09
+        000fa9a4 0f 85 a2        JNZ        LAB_000faa4c                                       If not JANNLEE, LEIFANG, TINA, or BASS,
+                 00 00 00                                                                         jump to LAB_000faa4c
+                             UpdateSlotState                                 XREF[3]:     000fa998(j), 000fa99c(j), 
+                                                                                          000fa9a0(j)  
+        000fa9aa c7 46 20        MOV        dword ptr [ESI + 0x20],0x1                         Set [ESI + 0x20] to 1
+                 01 00 00 00
+        000fa9b1 0f b6 81        MOVZX      EAX,byte ptr [ECX + DAT_00d7f5f0]                  Table lookup using ECX
+                 f0 f5 d7 00
+        000fa9b8 8d 04 80        LEA        EAX,[EAX + EAX*0x4]                                Calculate 5x(EAX)
+        000fa9bb 80 3c 85        CMP        byte ptr [EAX*0x4 + CharacterSelectSlotVersus01_K  Compare with 0x5
+                 e0 a1 61 
+                 00 ff
+        000fa9c3 75 1b           JNZ        LAB_000fa9e0                                       If not equal, jump to LAB_000fa9e0
+        000fa9c5 6a 00           PUSH       0x0                                                Push argument 0x0
+        000fa9c7 53              PUSH       EBX
+        000fa9c8 57              PUSH       EDI
+        000fa9c9 e8 b2 f4        CALL       FUN_000f9e80                                       Call external function
+                 ff ff
+        000fa9ce 83 c4 0c        ADD        ESP,0xc                                            Clean up the stack
+        000fa9d1 85 c0           TEST       EAX,EAX                                            Test return value (EAX)
+        000fa9d3 0f 84 90        JZ         CleanupAndExit                                     If return value is zero, jump to LAB_000fab69
+                 01 00 00
+        000fa9d9 6a 24           PUSH       0x24                                               Otherwise, push argument 0x24
+        000fa9db e9 8b 01        JMP        LAB_000fab6b                                       Jump to LAB_000fab6b
+                 00 00
+                             LAB_000fa9e0                                    XREF[1]:     000fa9c3(j)  
+        000fa9e0 6a 24           PUSH       0x24
+        000fa9e2 e8 d9 f4        CALL       FUN_000d9ec0                                       undefined FUN_000d9ec0(undefined4 param_1)
+                 fd ff
+        000fa9e7 83 c4 04        ADD        ESP,0x4
+        000fa9ea c7 46 38        MOV        dword ptr [ESI + 0x38],0x1
+                 01 00 00 00
+        000fa9f1 e8 9a 9a        CALL       FUN_00234490                                       undefined FUN_00234490()
+                 13 00
+        000fa9f6 85 c0           TEST       EAX,EAX
+        000fa9f8 0f 84 75        JZ         LAB_000fab73
+                 01 00 00
+        000fa9fe e8 6d 78        CALL       FUN_00232270                                       undefined FUN_00232270()
+                 13 00
+        000faa03 8b f8           MOV        EDI,EAX
+        000faa05 e8 76 3c        CALL       FUN_0022e680                                       undefined FUN_0022e680()
+                 13 00
+        000faa0a 33 f8           XOR        EDI,EAX
+        000faa0c 83 f7 01        XOR        EDI,0x1
+        000faa0f 3b df           CMP        EBX,EDI
+        000faa11 0f 85 5c        JNZ        LAB_000fab73
+                 01 00 00
+        000faa17 8a 46 19        MOV        AL,byte ptr [ESI + 0x19]
+        000faa1a 84 c0           TEST       AL,AL
+        000faa1c 75 17           JNZ        LAB_000faa35
+        000faa1e 6a 01           PUSH       0x1
+        000faa20 e8 6b 3e        CALL       FUN_0022e890                                       undefined FUN_0022e890(undefined1 param_1)
+                 13 00
+        000faa25 83 c4 04        ADD        ESP,0x4
+        000faa28 5f              POP        EDI
+        000faa29 5e              POP        ESI
+        000faa2a 5d              POP        EBP
+        000faa2b b8 01 00        MOV        EAX,0x1
+                 00 00
+        000faa30 5b              POP        EBX
+        000faa31 83 c4 1c        ADD        ESP,0x1c
+        000faa34 c3              RET
+                             LAB_000faa35                                    XREF[1]:     000faa1c(j)  
+        000faa35 6a 03           PUSH       0x3
+        000faa37 e8 54 3e        CALL       FUN_0022e890                                       undefined FUN_0022e890(undefined1 param_1)
+                 13 00
+        000faa3c 83 c4 04        ADD        ESP,0x4
+        000faa3f 5f              POP        EDI
+        000faa40 5e              POP        ESI
+        000faa41 5d              POP        EBP
+        000faa42 b8 01 00        MOV        EAX,0x1
+                 00 00
+        000faa47 5b              POP        EBX
+        000faa48 83 c4 1c        ADD        ESP,0x1c
+        000faa4b c3              RET
+                             LAB_000faa4c                                    XREF[2]:     000fa98d(j), 000fa9a4(j)  
+        000faa4c 6a 29           PUSH       0x29                                               Push argument 0x29
+        000faa4e e8 6d f4        CALL       FUN_000d9ec0                                       Call external cleanup function
+                 fd ff
+        000faa53 83 c4 04        ADD        ESP,0x4                                            Clean up the stack
+        000faa56 5f              POP        EDI
+        000faa57 5e              POP        ESI
+        000faa58 5d              POP        EBP
+        000faa59 33 c0           XOR        EAX,EAX                                            Set EAX to 0
+        000faa5b 5b              POP        EBX
+        000faa5c 83 c4 1c        ADD        ESP,0x1c                                           Adjust stack pointer
+        000faa5f c3              RET
+                             LAB_000faa60                                    XREF[1]:     000fa90d(j)  
+        000faa60 55              PUSH       EBP
+        000faa61 e8 3a 9e        CALL       FUN_000f48a0                                       undefined FUN_000f48a0(undefined4 param_1)
+                 ff ff
+        000faa66 83 c4 04        ADD        ESP,0x4
+        000faa69 83 f8 01        CMP        EAX,0x1
+        000faa6c 0f 85 be        JNZ        LAB_000fa930
+                 fe ff ff
+                             LAB_000faa72                                    XREF[2]:     000fa922(j), 000fa92a(j)  
+        000faa72 8a 46 19        MOV        AL,byte ptr [ESI + 0x19]
+        000faa75 84 c0           TEST       AL,AL
+        000faa77 0f 8e b3        JLE        LAB_000fa930
+                 fe ff ff
+        000faa7d 56              PUSH       ESI
+        000faa7e 57              PUSH       EDI
+        000faa7f e8 9c c4        CALL       FUN_000f6f20                                       undefined FUN_000f6f20(undefined param_1, undefined4
+                 ff ff
+        000faa84 83 c4 08        ADD        ESP,0x8
+        000faa87 85 c0           TEST       EAX,EAX
+        000faa89 0f 85 a1        JNZ        LAB_000fa930
+                 fe ff ff
+        000faa8f 56              PUSH       ESI
+        000faa90 e8 9b d0        CALL       FUN_000f7b30                                       undefined FUN_000f7b30(undefined4 param_1)
+                 ff ff
+        000faa95 8a d8           MOV        BL,AL
+        000faa97 83 c4 04        ADD        ESP,0x4
+        000faa9a 8b c7           MOV        EAX,EDI
+        000faa9c e8 cf d7        CALL       FUN_000f8270                                       undefined FUN_000f8270()
+                 ff ff
+        000faaa1 85 c0           TEST       EAX,EAX
+        000faaa3 74 43           JZ         LAB_000faae8
+        000faaa5 80 3d d2        CMP        byte ptr [DAT_007987d2],0x8
+                 87 79 00 08
+        000faaac 75 29           JNZ        LAB_000faad7
+        000faaae 6a 00           PUSH       0x0
+        000faab0 56              PUSH       ESI
+        000faab1 e8 da e7        CALL       FUN_000f9290                                       undefined FUN_000f9290(undefined4 param_1, undefined
+                 ff ff
+        000faab6 0f be 56 15     MOVSX      EDX,byte ptr [ESI + 0x15]
+        000faaba 0f b6 46 14     MOVZX      EAX,byte ptr [ESI + 0x14]
+        000faabe 52              PUSH       EDX
+        000faabf 0f b6 fb        MOVZX      EDI,BL
+        000faac2 50              PUSH       EAX
+        000faac3 57              PUSH       EDI
+        000faac4 e8 47 8d        CALL       FUN_00103810                                       undefined FUN_00103810(undefined4 param_1, undefined
+                 00 00
+        000faac9 56              PUSH       ESI
+        000faaca 6a 00           PUSH       0x0
+        000faacc 57              PUSH       EDI
+        000faacd e8 be d1        CALL       FUN_000f7c90                                       undefined FUN_000f7c90(undefined4 param_1, undefined
+                 ff ff
+        000faad2 83 c4 20        ADD        ESP,0x20
+        000faad5 eb 11           JMP        LAB_000faae8
+                             LAB_000faad7                                    XREF[1]:     000faaac(j)  
+        000faad7 0f b6 cb        MOVZX      ECX,BL
+        000faada c1 e1 05        SHL        ECX,0x5
+        000faadd 81 c1 10        ADD        ECX,DAT_00d80010
+                 00 d8 00
+        000faae3 e8 38 38        CALL       FUN_000fe320                                       undefined FUN_000fe320()
+                 00 00
+                             LAB_000faae8                                    XREF[2]:     000faaa3(j), 000faad5(j)  
+        000faae8 0f b6 05        MOVZX      EAX,byte ptr [DAT_0079d8ae]
+                 ae d8 79 00
+        000faaef 83 c0 06        ADD        EAX,0x6
+        000faaf2 8d 0c 80        LEA        ECX,[EAX + EAX*0x4]
+        000faaf5 b8 89 88        MOV        EAX,0x88888889
+                 88 88
+        000faafa f7 e9           IMUL       ECX
+        000faafc 03 d1           ADD        EDX,ECX
+        000faafe c1 fa 05        SAR        EDX,0x5
+        000fab01 8b ca           MOV        ECX,EDX
+        000fab03 c1 e9 1f        SHR        ECX,0x1f
+        000fab06 03 ca           ADD        ECX,EDX
+        000fab08 89 4e 20        MOV        dword ptr [ESI + 0x20],ECX
+        000fab0b eb 5c           JMP        CleanupAndExit
+                             LAB_000fab0d                                    XREF[1]:     000fa939(j)  
+        000fab0d 55              PUSH       EBP
+        000fab0e e8 8d 9d        CALL       FUN_000f48a0                                       undefined FUN_000f48a0(undefined4 param_1)
+                 ff ff
+        000fab13 83 c4 04        ADD        ESP,0x4
+        000fab16 8b f8           MOV        EDI,EAX
+                             LAB_000fab18                                    XREF[2]:     000fa952(j), 000fa95d(j)  
+        000fab18 80 3d d2        CMP        byte ptr [DAT_007987d2],0x8
+                 87 79 00 08
+        000fab1f 75 52           JNZ        LAB_000fab73
+        000fab21 83 ff 01        CMP        EDI,0x1
+        000fab24 75 4d           JNZ        LAB_000fab73
+        000fab26 8a 46 19        MOV        AL,byte ptr [ESI + 0x19]
+        000fab29 84 c0           TEST       AL,AL
+        000fab2b 75 46           JNZ        LAB_000fab73
+        000fab2d 0f b6 4e 1a     MOVZX      ECX,byte ptr [ESI + 0x1a]
+        000fab31 c1 e1 05        SHL        ECX,0x5
+        000fab34 81 c1 10        ADD        ECX,DAT_00d80010
+                 00 d8 00
+        000fab3a e8 e1 37        CALL       FUN_000fe320                                       undefined FUN_000fe320()
+                 00 00
+        000fab3f c7 46 38        MOV        dword ptr [ESI + 0x38],0x3
+                 03 00 00 00
+        000fab46 0f b6 05        MOVZX      EAX,byte ptr [DAT_0079d8ae]
+                 ae d8 79 00
+        000fab4d 83 c0 06        ADD        EAX,0x6
+        000fab50 8d 0c 80        LEA        ECX,[EAX + EAX*0x4]
+        000fab53 b8 89 88        MOV        EAX,0x88888889
+                 88 88
+        000fab58 f7 e9           IMUL       ECX
+        000fab5a 03 d1           ADD        EDX,ECX
+        000fab5c c1 fa 05        SAR        EDX,0x5
+        000fab5f 8b c2           MOV        EAX,EDX
+        000fab61 c1 e8 1f        SHR        EAX,0x1f
+        000fab64 03 c2           ADD        EAX,EDX
+        000fab66 89 46 20        MOV        dword ptr [ESI + 0x20],EAX
+                             CleanupAndExit                                  XREF[2]:     000fa9d3(j), 000fab0b(j)  
+        000fab69 6a 29           PUSH       0x29
+                             LAB_000fab6b                                    XREF[1]:     000fa9db(j)  
+        000fab6b e8 50 f3        CALL       FUN_000d9ec0                                       undefined FUN_000d9ec0(undefined4 param_1)
+                 fd ff
+        000fab70 83 c4 04        ADD        ESP,0x4
+                             LAB_000fab73                                    XREF[7]:     000fa862(j), 000fa87f(j), 
+                                                                                          000fa9f8(j), 000faa11(j), 
+                                                                                          000fab1f(j), 000fab24(j), 
+                                                                                          000fab2b(j)  
+        000fab73 5f              POP        EDI
+        000fab74 5e              POP        ESI
+        000fab75 5d              POP        EBP
+        000fab76 b8 01 00        MOV        EAX,0x1
+                 00 00
+        000fab7b 5b              POP        EBX
+        000fab7c 83 c4 1c        ADD        ESP,0x1c
+        000fab7f c3              RET
