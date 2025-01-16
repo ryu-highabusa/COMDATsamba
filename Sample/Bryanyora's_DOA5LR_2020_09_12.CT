@@ -1,0 +1,6871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3570</ID>
+      <Description>"0000_Stage Select Expansion"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_StageSelect_A1,game.exe,0F B6 C0 83 C4 0C 33 C9 85 C0 7E 2C)
+aobscanmodule(AOB_StageSelect_A2,game.exe,88 86 EF 00 00 00 3C 01 75 08 88 9E EC 00 00 00)
+aobscanmodule(AOB_StageSelect_A3,game.exe,88 86 EF 00 00 00 3A C1 74 27 3C 02 74 1D)
+aobscanmodule(AOB_StageSelect_B,game.exe,0F B6 D9 03 DF 3B DA 74 0A 41 3B C8 7C F2)
+aobscanmodule(AOB_StageSelect_C1,game.exe,0F B6 C0 03 F8 89 7D E4 81 FF FF 00 00 00)
+aobscanmodule(AOB_StageSelect_C2,game.exe,0F B6 D8 03 DE 53 E8 * * * * 8A 4D 0B 38 4D FF)
+aobscanmodule(AOB_StageSelect_D1,game.exe,8B 45 F8 03 C6 50 89 45 F8 E8 * * * *)
+aobscanmodule(AOB_StageSelect_D2,game.exe,0F B6 D0 03 D3 52 E8 * * * * 83 C4 04 50 8D 47 14 50)
+aobscanmodule(AOB_StageSelect_D3,game.exe,0F B6 C8 03 CB 51 E8 * * * * 83 C4 04)
+aobscanmodule(AOB_StageSelect_D4,game.exe,0F B6 C0 03 45 08 50 E8 * * * * 83 C4 04)
+aobscanmodule(AOB_StageSelect_E1,game.exe,0F B6 C9 03 C8 51 E8 * * * * 83 C4 04 50)
+aobscanmodule(AOB_StageSelect_E2,game.exe,0F B6 45 0B 03 C6 80 7D 0C 00 C6 45 08 00)
+aobscanmodule(AOB_StageSelect_F,game.exe,0F B6 C9 03 C1 50 E8 * * * * 83 C4 04 5D C2 04 00 CC)
+registersymbol(AOB_StageSelect_A1)
+registersymbol(AOB_StageSelect_A2)
+registersymbol(AOB_StageSelect_A3)
+registersymbol(AOB_StageSelect_B)
+registersymbol(AOB_StageSelect_C1)
+registersymbol(AOB_StageSelect_C2)
+registersymbol(AOB_StageSelect_D1)
+registersymbol(AOB_StageSelect_D2)
+registersymbol(AOB_StageSelect_D3)
+registersymbol(AOB_StageSelect_D4)
+registersymbol(AOB_StageSelect_E1)
+registersymbol(AOB_StageSelect_E2)
+registersymbol(AOB_StageSelect_F)
+alloc(newmem,$2000,"game.exe")
+label(StageSelect_A1)
+label(StageSelect_A1_al_02)
+label(StageSelect_A1_al_03)
+label(StageSelect_A1_al_04)
+label(StageSelect_A1_al_08)
+label(StageSelect_A1_al_09)
+label(StageSelect_A1_END)
+label(StageSelect_A1_RET)
+label(StageSelect_A2)
+label(StageSelect_A2_al_02)
+label(StageSelect_A2_al_03)
+label(StageSelect_A2_al_04)
+label(StageSelect_A2_al_08)
+label(StageSelect_A2_al_09)
+label(StageSelect_A2_END)
+label(StageSelect_A2_RET)
+label(StageSelect_A3)
+label(StageSelect_A3_al_02)
+label(StageSelect_A3_al_03)
+label(StageSelect_A3_al_04)
+label(StageSelect_A3_al_08)
+label(StageSelect_A3_al_09)
+label(StageSelect_A3_END)
+label(StageSelect_A3_RET)
+
+label(StageSelect_B)
+label(StageSelect_B_01)
+label(StageSelect_B_03)
+label(StageSelect_B_06)
+label(StageSelect_B_0A)
+label(StageSelect_B_0B)
+label(StageSelect_B_0D)
+label(StageSelect_B_0F)
+label(StageSelect_B_13)
+label(StageSelect_B_16)
+label(StageSelect_B_1B)
+label(StageSelect_B_1D)
+label(StageSelect_B_END)
+label(StageSelect_B_RET)
+
+label(StageSelect_C1)
+label(StageSelect_C1_01)
+label(StageSelect_C1_03)
+label(StageSelect_C1_06)
+label(StageSelect_C1_0A)
+label(StageSelect_C1_0B)
+label(StageSelect_C1_0D)
+label(StageSelect_C1_0F)
+label(StageSelect_C1_13)
+label(StageSelect_C1_16)
+label(StageSelect_C1_1B)
+label(StageSelect_C1_1D)
+label(StageSelect_C1_END)
+label(StageSelect_C1_RET)
+label(StageSelect_C2)
+label(StageSelect_C2_01)
+label(StageSelect_C2_03)
+label(StageSelect_C2_06)
+label(StageSelect_C2_0A)
+label(StageSelect_C2_0B)
+label(StageSelect_C2_0D)
+label(StageSelect_C2_0F)
+label(StageSelect_C2_13)
+label(StageSelect_C2_16)
+label(StageSelect_C2_1B)
+label(StageSelect_C2_1D)
+label(StageSelect_C2_END)
+label(StageSelect_C2_RET)
+label(StageSelect_D1)
+label(StageSelect_D1_01)
+label(StageSelect_D1_03)
+label(StageSelect_D1_06)
+label(StageSelect_D1_0A)
+label(StageSelect_D1_0B)
+label(StageSelect_D1_0D)
+label(StageSelect_D1_0F)
+label(StageSelect_D1_13)
+label(StageSelect_D1_16)
+label(StageSelect_D1_1B)
+label(StageSelect_D1_1D)
+label(StageSelect_D1_END)
+label(StageSelect_D1_JMP)
+label(StageSelect_D1_RET)
+label(StageSelect_D2)
+label(StageSelect_D2_01)
+label(StageSelect_D2_03)
+label(StageSelect_D2_06)
+label(StageSelect_D2_0A)
+label(StageSelect_D2_0B)
+label(StageSelect_D2_0D)
+label(StageSelect_D2_0F)
+label(StageSelect_D2_13)
+label(StageSelect_D2_16)
+label(StageSelect_D2_1B)
+label(StageSelect_D2_1D)
+label(StageSelect_D2_END)
+label(StageSelect_D2_JMP)
+label(StageSelect_D2_RET)
+label(StageSelect_D3)
+label(StageSelect_D3_01)
+label(StageSelect_D3_03)
+label(StageSelect_D3_06)
+label(StageSelect_D3_0A)
+label(StageSelect_D3_0B)
+label(StageSelect_D3_0D)
+label(StageSelect_D3_0F)
+label(StageSelect_D3_13)
+label(StageSelect_D3_16)
+label(StageSelect_D3_1B)
+label(StageSelect_D3_1D)
+label(StageSelect_D3_END)
+label(StageSelect_D3_JMP)
+label(StageSelect_D3_RET)
+label(StageSelect_D4)
+label(StageSelect_D4_01)
+label(StageSelect_D4_03)
+label(StageSelect_D4_06)
+label(StageSelect_D4_0A)
+label(StageSelect_D4_0B)
+label(StageSelect_D4_0D)
+label(StageSelect_D4_0F)
+label(StageSelect_D4_13)
+label(StageSelect_D4_16)
+label(StageSelect_D4_1B)
+label(StageSelect_D4_1D)
+label(StageSelect_D4_JMP)
+label(StageSelect_D4_END)
+label(StageSelect_D4_RET)
+
+label(StageSelect_E1)
+label(StageSelect_E1_01)
+label(StageSelect_E1_03)
+label(StageSelect_E1_06)
+label(StageSelect_E1_0A)
+label(StageSelect_E1_0B)
+label(StageSelect_E1_0D)
+label(StageSelect_E1_0F)
+label(StageSelect_E1_13)
+label(StageSelect_E1_16)
+label(StageSelect_E1_1B)
+label(StageSelect_E1_1D)
+label(StageSelect_E1_END)
+label(StageSelect_E1_JMP)
+label(StageSelect_E1_RET)
+label(StageSelect_E2)
+label(StageSelect_E2_01)
+label(StageSelect_E2_03)
+label(StageSelect_E2_06)
+label(StageSelect_E2_06_a)
+label(StageSelect_E2_0A)
+label(StageSelect_E2_0B)
+label(StageSelect_E2_0D)
+label(StageSelect_E2_0F)
+label(StageSelect_E2_13)
+label(StageSelect_E2_16)
+label(StageSelect_E2_1B)
+label(StageSelect_E2_1D)
+label(StageSelect_E2_END)
+label(StageSelect_E2_JMP)
+label(StageSelect_E2_RET)
+
+label(StageSelect_F)
+label(StageSelect_F_01)
+label(StageSelect_F_03)
+label(StageSelect_F_06)
+label(StageSelect_F_0A)
+label(StageSelect_F_0B)
+label(StageSelect_F_0D)
+label(StageSelect_F_0F)
+label(StageSelect_F_13)
+label(StageSelect_F_16)
+label(StageSelect_F_1B)
+label(StageSelect_F_1D)
+label(StageSelect_F_END)
+label(StageSelect_F_RET)
+
+newmem:
+StageSelect_A1:
+cmp edi,0000000A
+je StageSelect_A1_al_02
+cmp edi,00000013
+je StageSelect_A1_al_02
+cmp edi,00000014
+je StageSelect_A1_al_02
+cmp edi,00000016
+je StageSelect_A1_al_02
+cmp edi,0000001D
+je StageSelect_A1_al_02
+cmp edi,0000000B
+je StageSelect_A1_al_03
+cmp edi,00000001
+je StageSelect_A1_al_04
+cmp edi,00000006
+je StageSelect_A1_al_04
+cmp edi,0000000F
+je StageSelect_A1_al_04
+cmp edi,00000003
+je StageSelect_A1_al_08
+cmp edi,0000000D
+je StageSelect_A1_al_08
+cmp edi,0000001B
+je StageSelect_A1_al_09
+StageSelect_A1_END:
+db 0F B6 C0
+db 83 C4 0C
+jmp StageSelect_A1_RET
+
+StageSelect_A1_al_02:
+mov al,02
+jmp StageSelect_A1_END
+StageSelect_A1_al_03:
+mov al,03
+jmp StageSelect_A1_END
+StageSelect_A1_al_04:
+mov al,04
+jmp StageSelect_A1_END
+StageSelect_A1_al_08:
+mov al,08
+jmp StageSelect_A1_END
+StageSelect_A1_al_09:
+mov al,09
+jmp StageSelect_A1_END
+
+StageSelect_A2:
+cmp edi,0000000A
+je StageSelect_A2_al_02
+cmp edi,00000013
+je StageSelect_A2_al_02
+cmp edi,00000014
+je StageSelect_A2_al_02
+cmp edi,00000016
+je StageSelect_A2_al_02
+cmp edi,0000001D
+je StageSelect_A2_al_02
+cmp edi,0000000B
+je StageSelect_A2_al_03
+cmp edi,00000001
+je StageSelect_A2_al_04
+cmp edi,00000006
+je StageSelect_A2_al_04
+cmp edi,0000000F
+je StageSelect_A2_al_04
+cmp edi,00000003
+je StageSelect_A2_al_08
+cmp edi,0000000D
+je StageSelect_A2_al_08
+cmp edi,0000001B
+je StageSelect_A2_al_09
+StageSelect_A2_END:
+db 88 86 EF 00 00 00
+jmp StageSelect_A2_RET
+
+StageSelect_A2_al_02:
+mov al,02
+jmp StageSelect_A2_END
+StageSelect_A2_al_03:
+mov al,03
+jmp StageSelect_A2_END
+StageSelect_A2_al_04:
+mov al,04
+jmp StageSelect_A2_END
+StageSelect_A2_al_08:
+mov al,08
+jmp StageSelect_A2_END
+StageSelect_A2_al_09:
+mov al,09
+jmp StageSelect_A2_END
+
+StageSelect_A3:
+cmp [ebp+08],0000000A
+je StageSelect_A3_al_02
+cmp [ebp+08],00000013
+je StageSelect_A3_al_02
+cmp [ebp+08],00000014
+je StageSelect_A3_al_02
+cmp [ebp+08],00000016
+je StageSelect_A3_al_02
+cmp [ebp+08],0000001D
+je StageSelect_A3_al_02
+cmp [ebp+08],0000000B
+je StageSelect_A3_al_03
+cmp [ebp+08],00000001
+je StageSelect_A3_al_04
+cmp [ebp+08],00000006
+je StageSelect_A3_al_04
+cmp [ebp+08],0000000F
+je StageSelect_A3_al_04
+cmp [ebp+08],00000003
+je StageSelect_A3_al_08
+cmp [ebp+08],0000000D
+je StageSelect_A3_al_08
+cmp [ebp+08],0000001B
+je StageSelect_A3_al_09
+StageSelect_A3_END:
+db 88 86 EF 00 00 00
+jmp StageSelect_A3_RET
+
+StageSelect_A3_al_02:
+mov al,02
+jmp StageSelect_A3_END
+StageSelect_A3_al_03:
+mov al,03
+jmp StageSelect_A3_END
+StageSelect_A3_al_04:
+mov al,04
+jmp StageSelect_A3_END
+StageSelect_A3_al_08:
+mov al,08
+jmp StageSelect_A3_END
+StageSelect_A3_al_09:
+mov al,09
+jmp StageSelect_A3_END
+
+StageSelect_B:
+db 0F B6 D9
+db 03 DF
+push eax
+cmp edi,00000001
+je StageSelect_B_01
+cmp edi,00000003
+je StageSelect_B_03
+cmp edi,00000006
+je StageSelect_B_06
+cmp edi,0000000A
+je StageSelect_B_0A
+cmp edi,0000000B
+je StageSelect_B_0B
+cmp edi,0000000D
+je StageSelect_B_0D
+cmp edi,0000000F
+je StageSelect_B_0F
+cmp edi,00000013
+je StageSelect_B_13
+cmp edi,00000016
+je StageSelect_B_16
+cmp edi,0000001B
+je StageSelect_B_1B
+cmp edi,0000001D
+je StageSelect_B_1D
+StageSelect_B_END:
+pop eax
+jmp StageSelect_B_RET
+StageSelect_B_01:
+mov eax,00000044
+cmp ebx,00000003
+cmove ebx,eax
+mov eax,00000045
+cmp ebx,00000004
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_03:
+mov eax,00000033
+cmp ebx,00000005
+cmove ebx,eax
+mov eax,0000003A
+cmp ebx,00000006
+cmove ebx,eax
+mov eax,00000046
+cmp ebx,00000007
+cmove ebx,eax
+mov eax,00000047
+cmp ebx,00000008
+cmove ebx,eax
+mov eax,00000048
+cmp ebx,00000009
+cmove ebx,eax
+mov eax,00000049
+cmp ebx,0000000A
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_06:
+mov eax,00000005
+cmp ebx,00000008
+cmove ebx,eax
+mov eax,00000042
+cmp ebx,00000009
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_0A:
+mov eax,00000041
+cmp ebx,0000000B
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_0B:
+mov eax,0000003D
+cmp ebx,0000000D
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_0D:
+mov eax,0000002E
+cmp ebx,0000000F
+cmove ebx,eax
+mov eax,0000002F
+cmp ebx,00000010
+cmove ebx,eax
+mov eax,00000030
+cmp ebx,00000011
+cmove ebx,eax
+mov eax,0000003E
+cmp ebx,00000012
+cmove ebx,eax
+mov eax,0000003F
+cmp ebx,00000013
+cmove ebx,eax
+mov eax,00000040
+cmp ebx,00000014
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_0F:
+mov eax,0000003C
+cmp ebx,00000012
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_13:
+mov eax,00000043
+cmp ebx,00000014
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_16:
+mov eax,00000039
+cmp ebx,00000017
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_1B:
+mov eax,0000003B
+cmp ebx,00000023
+cmove ebx,eax
+mov eax,00000037
+cmp ebx,00000022
+cmove ebx,eax
+mov eax,00000036
+cmp ebx,00000021
+cmove ebx,eax
+mov eax,00000035
+cmp ebx,00000020
+cmove ebx,eax
+mov eax,00000034
+cmp ebx,0000001F
+cmove ebx,eax
+mov eax,00000031
+cmp ebx,0000001E
+cmove ebx,eax
+mov eax,00000038
+cmp ebx,0000001D
+cmove ebx,eax
+mov eax,00000020
+cmp ebx,0000001C
+cmove ebx,eax
+jmp StageSelect_B_END
+StageSelect_B_1D:
+mov eax,00000032
+cmp ebx,0000001E
+cmove ebx,eax
+jmp StageSelect_B_END
+
+StageSelect_C1:
+db 0F B6 C0
+db 03 F8
+cmp [rbp-14],00000001
+je StageSelect_C1_01
+cmp [rbp-14],00000003
+je StageSelect_C1_03
+cmp [rbp-14],00000006
+je StageSelect_C1_06
+cmp [rbp-14],0000000A
+je StageSelect_C1_0A
+cmp [rbp-14],0000000B
+je StageSelect_C1_0B
+cmp [rbp-14],0000000D
+je StageSelect_C1_0D
+cmp [rbp-14],0000000F
+je StageSelect_C1_0F
+cmp [rbp-14],00000013
+je StageSelect_C1_13
+cmp [rbp-14],00000016
+je StageSelect_C1_16
+cmp [rbp-14],0000001B
+je StageSelect_C1_1B
+cmp [rbp-14],0000001D
+je StageSelect_C1_1D
+StageSelect_C1_END:
+jmp StageSelect_C1_RET
+StageSelect_C1_01:
+mov eax,00000044
+cmp edi,00000003
+cmove edi,eax
+mov eax,00000045
+cmp edi,00000004
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_03:
+mov eax,00000033
+cmp edi,00000005
+cmove edi,eax
+mov eax,0000003A
+cmp edi,00000006
+cmove edi,eax
+mov eax,00000046
+cmp edi,00000007
+cmove edi,eax
+mov eax,00000047
+cmp edi,00000008
+cmove edi,eax
+mov eax,00000048
+cmp edi,00000009
+cmove edi,eax
+mov eax,00000049
+cmp edi,0000000A
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_06:
+mov eax,00000005
+cmp edi,00000008
+cmove edi,eax
+mov eax,00000042
+cmp edi,00000009
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_0A:
+mov eax,00000041
+cmp edi,0000000B
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_0B:
+mov eax,0000003D
+cmp edi,0000000D
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_0D:
+mov eax,0000002E
+cmp edi,0000000F
+cmove edi,eax
+mov eax,0000002F
+cmp edi,00000010
+cmove edi,eax
+mov eax,00000030
+cmp edi,00000011
+cmove edi,eax
+mov eax,0000003E
+cmp edi,00000012
+cmove edi,eax
+mov eax,0000003F
+cmp edi,00000013
+cmove edi,eax
+mov eax,00000040
+cmp edi,00000014
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_0F:
+mov eax,0000003C
+cmp edi,00000012
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_13:
+mov eax,00000043
+cmp edi,00000014
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_16:
+mov eax,00000039
+cmp edi,00000017
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_1B:
+mov eax,0000003B
+cmp edi,00000023
+cmove edi,eax
+mov eax,00000037
+cmp edi,00000022
+cmove edi,eax
+mov eax,00000036
+cmp edi,00000021
+cmove edi,eax
+mov eax,00000035
+cmp edi,00000020
+cmove edi,eax
+mov eax,00000034
+cmp edi,0000001F
+cmove edi,eax
+mov eax,00000031
+cmp edi,0000001E
+cmove edi,eax
+mov eax,00000038
+cmp edi,0000001D
+cmove edi,eax
+mov eax,00000020
+cmp edi,0000001C
+cmove edi,eax
+jmp StageSelect_C1_END
+StageSelect_C1_1D:
+mov eax,00000032
+cmp edi,0000001E
+cmove edi,eax
+jmp StageSelect_C1_END
+
+StageSelect_C2:
+db 0F B6 D8
+db 03 DE
+cmp esi,00000001
+je StageSelect_C2_01
+cmp esi,00000003
+je StageSelect_C2_03
+cmp esi,00000006
+je StageSelect_C2_06
+cmp esi,0000000A
+je StageSelect_C2_0A
+cmp esi,0000000B
+je StageSelect_C2_0B
+cmp esi,0000000D
+je StageSelect_C2_0D
+cmp esi,0000000F
+je StageSelect_C2_0F
+cmp esi,00000013
+je StageSelect_C2_13
+cmp esi,00000016
+je StageSelect_C2_16
+cmp esi,0000001B
+je StageSelect_C2_1B
+cmp esi,0000001D
+je StageSelect_C2_1D
+StageSelect_C2_END:
+jmp StageSelect_C2_RET
+StageSelect_C2_01:
+mov eax,00000044
+cmp ebx,00000003
+cmove ebx,eax
+mov eax,00000045
+cmp ebx,00000004
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_03:
+mov eax,00000033
+cmp ebx,00000005
+cmove ebx,eax
+mov eax,0000003A
+cmp ebx,00000006
+cmove ebx,eax
+mov eax,00000046
+cmp ebx,00000007
+cmove ebx,eax
+mov eax,00000047
+cmp ebx,00000008
+cmove ebx,eax
+mov eax,00000048
+cmp ebx,00000009
+cmove ebx,eax
+mov eax,00000049
+cmp ebx,0000000A
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_06:
+mov eax,00000005
+cmp ebx,00000008
+cmove ebx,eax
+mov eax,00000042
+cmp ebx,00000009
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_0A:
+mov eax,00000041
+cmp ebx,0000000B
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_0B:
+mov eax,0000003D
+cmp ebx,0000000D
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_0D:
+mov eax,0000002E
+cmp ebx,0000000F
+cmove ebx,eax
+mov eax,0000002F
+cmp ebx,00000010
+cmove ebx,eax
+mov eax,00000030
+cmp ebx,00000011
+cmove ebx,eax
+mov eax,0000003E
+cmp ebx,00000012
+cmove ebx,eax
+mov eax,0000003F
+cmp ebx,00000013
+cmove ebx,eax
+mov eax,00000040
+cmp ebx,00000014
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_0F:
+mov eax,0000003C
+cmp ebx,00000012
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_13:
+mov eax,00000043
+cmp ebx,00000014
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_16:
+mov eax,00000039
+cmp ebx,00000017
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_1B:
+mov eax,0000003B
+cmp ebx,00000023
+cmove ebx,eax
+mov eax,00000037
+cmp ebx,00000022
+cmove ebx,eax
+mov eax,00000036
+cmp ebx,00000021
+cmove ebx,eax
+mov eax,00000035
+cmp ebx,00000020
+cmove ebx,eax
+mov eax,00000034
+cmp ebx,0000001F
+cmove ebx,eax
+mov eax,00000031
+cmp ebx,0000001E
+cmove ebx,eax
+mov eax,00000038
+cmp ebx,0000001D
+cmove ebx,eax
+mov eax,00000020
+cmp ebx,0000001C
+cmove ebx,eax
+jmp StageSelect_C2_END
+StageSelect_C2_1D:
+mov eax,00000032
+cmp ebx,0000001E
+cmove ebx,eax
+jmp StageSelect_C2_END
+
+StageSelect_D1:
+db 8B 45 F8
+db 03 C6
+cmp [ebp-08],00000001
+je StageSelect_D1_01
+cmp [ebp-08],00000003
+je StageSelect_D1_03
+cmp [ebp-08],00000006
+je StageSelect_D1_06
+cmp [ebp-08],0000000A
+je StageSelect_D1_0A
+cmp [ebp-08],0000000B
+je StageSelect_D1_0B
+cmp [ebp-08],0000000D
+je StageSelect_D1_0D
+cmp [ebp-08],0000000F
+je StageSelect_D1_0F
+cmp [ebp-08],00000013
+je StageSelect_D1_13
+cmp [ebp-08],00000016
+je StageSelect_D1_16
+cmp [ebp-08],0000001B
+je StageSelect_D1_1B
+cmp [ebp-08],0000001D
+je StageSelect_D1_1D
+StageSelect_D1_END:
+jmp StageSelect_D1_RET
+StageSelect_D1_01:
+cmp eax,00000002
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_03:
+cmp eax,00000004
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_06:
+cmp eax,00000008
+ja StageSelect_D1_JMP
+cmp eax,00000006
+je StageSelect_D1_END
+mov eax,00000006
+jmp StageSelect_D1_END
+StageSelect_D1_0A:
+cmp eax,0000000A
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_0B:
+cmp eax,0000000C
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_0D:
+cmp eax,0000000E
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_0F:
+cmp eax,00000011
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_13:
+cmp eax,00000013
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_16:
+cmp eax,00000016
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_1B:
+cmp eax,0000001B
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_1D:
+cmp eax,0000001D
+ja StageSelect_D1_JMP
+jmp StageSelect_D1_END
+StageSelect_D1_JMP:
+mov eax,0000004B
+jmp StageSelect_D1_END
+
+StageSelect_D2:
+db 0F B6 D0
+db 03 D3
+cmp ebx,00000001
+je StageSelect_D2_01
+cmp ebx,00000003
+je StageSelect_D2_03
+cmp ebx,00000006
+je StageSelect_D2_06
+cmp ebx,0000000A
+je StageSelect_D2_0A
+cmp ebx,0000000B
+je StageSelect_D2_0B
+cmp ebx,0000000D
+je StageSelect_D2_0D
+cmp ebx,0000000F
+je StageSelect_D2_0F
+cmp ebx,00000013
+je StageSelect_D2_13
+cmp ebx,00000016
+je StageSelect_D2_16
+cmp ebx,0000001B
+je StageSelect_D2_1B
+cmp ebx,0000001D
+je StageSelect_D2_1D
+StageSelect_D2_END:
+jmp StageSelect_D2_RET
+StageSelect_D2_01:
+cmp edx,00000002
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_03:
+cmp edx,00000004
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_06:
+cmp edx,00000008
+ja StageSelect_D2_JMP
+cmp edx,00000006
+je StageSelect_D2_END
+mov edx,00000006
+jmp StageSelect_D2_END
+StageSelect_D2_0A:
+cmp edx,0000000A
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_0B:
+cmp edx,0000000C
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_0D:
+cmp edx,0000000E
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_0F:
+cmp edx,00000011
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_13:
+cmp edx,00000013
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_16:
+cmp edx,00000016
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_1B:
+cmp edx,0000001B
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_1D:
+cmp edx,0000001D
+ja StageSelect_D2_JMP
+jmp StageSelect_D2_END
+StageSelect_D2_JMP:
+mov edx,0000004B
+jmp StageSelect_D2_END
+
+StageSelect_D3:
+db 0F B6 C8
+db 03 CB
+cmp ebx,00000001
+je StageSelect_D3_01
+cmp ebx,00000003
+je StageSelect_D3_03
+cmp ebx,00000006
+je StageSelect_D3_06
+cmp ebx,0000000A
+je StageSelect_D3_0A
+cmp ebx,0000000B
+je StageSelect_D3_0B
+cmp ebx,0000000D
+je StageSelect_D3_0D
+cmp ebx,0000000F
+je StageSelect_D3_0F
+cmp ebx,00000013
+je StageSelect_D3_13
+cmp ebx,00000016
+je StageSelect_D3_16
+cmp ebx,0000001B
+je StageSelect_D3_1B
+cmp ebx,0000001D
+je StageSelect_D3_1D
+StageSelect_D3_END:
+jmp StageSelect_D3_RET
+StageSelect_D3_01:
+cmp ecx,00000002
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_03:
+cmp ecx,00000004
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_06:
+cmp ecx,00000008
+ja StageSelect_D3_JMP
+cmp ecx,00000006
+je StageSelect_D3_END
+mov ecx,00000006
+jmp StageSelect_D3_END
+StageSelect_D3_0A:
+cmp ecx,0000000A
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_0B:
+cmp ecx,0000000C
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_0D:
+cmp ecx,0000000E
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_0F:
+cmp ecx,00000011
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_13:
+cmp ecx,00000013
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_16:
+cmp ecx,00000016
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_1B:
+cmp ecx,0000001B
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_1D:
+cmp ecx,0000001D
+ja StageSelect_D3_JMP
+jmp StageSelect_D3_END
+StageSelect_D3_JMP:
+mov ecx,0000004B
+jmp StageSelect_D3_END
+
+StageSelect_D4:
+db 0F B6 C0
+db 03 45 08
+cmp [ebp+08],00000001
+je StageSelect_D4_01
+cmp [ebp+08],00000003
+je StageSelect_D4_03
+cmp [ebp+08],00000006
+je StageSelect_D4_06
+cmp [ebp+08],0000000A
+je StageSelect_D4_0A
+cmp [ebp+08],0000000B
+je StageSelect_D4_0B
+cmp [ebp+08],0000000D
+je StageSelect_D4_0D
+cmp [ebp+08],0000000F
+je StageSelect_D4_0F
+cmp [ebp+08],00000013
+je StageSelect_D4_13
+cmp [ebp+08],00000016
+je StageSelect_D4_16
+cmp [ebp+08],0000001B
+je StageSelect_D4_1B
+cmp [ebp+08],0000001D
+je StageSelect_D4_1D
+StageSelect_D4_END:
+jmp StageSelect_D4_RET
+StageSelect_D4_01:
+cmp eax,00000002
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_03:
+cmp eax,00000004
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_06:
+cmp eax,00000008
+ja StageSelect_D4_JMP
+cmp eax,00000006
+je StageSelect_D4_END
+mov eax,00000006
+jmp StageSelect_D4_END
+StageSelect_D4_0A:
+cmp eax,0000000A
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_0B:
+cmp eax,0000000C
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_0D:
+cmp eax,0000000E
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_0F:
+cmp eax,00000011
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_13:
+cmp eax,00000013
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_16:
+cmp eax,00000016
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_1B:
+cmp eax,0000001B
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_1D:
+cmp eax,0000001D
+ja StageSelect_D4_JMP
+jmp StageSelect_D4_END
+StageSelect_D4_JMP:
+mov eax,0000004B
+jmp StageSelect_D4_END
+
+StageSelect_E1:
+db 0F B6 C9
+db 03 C8
+cmp eax,00000001
+je StageSelect_E1_01
+cmp eax,00000003
+je StageSelect_E1_03
+cmp eax,00000006
+je StageSelect_E1_06
+cmp eax,0000000A
+je StageSelect_E1_0A
+cmp eax,0000000B
+je StageSelect_E1_0B
+cmp eax,0000000D
+je StageSelect_E1_0D
+cmp eax,0000000F
+je StageSelect_E1_0F
+cmp eax,00000013
+je StageSelect_E1_13
+cmp eax,00000016
+je StageSelect_E1_16
+cmp eax,0000001B
+je StageSelect_E1_1B
+cmp eax,0000001D
+je StageSelect_E1_1D
+StageSelect_E1_END:
+jmp StageSelect_E1_RET
+StageSelect_E1_01:
+cmp ecx,00000002
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_03:
+cmp ecx,00000004
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_06:
+cmp ecx,00000008
+ja StageSelect_E1_JMP
+mov ecx,00000006
+jmp StageSelect_E1_END
+StageSelect_E1_0A:
+cmp ecx,0000000A
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_0B:
+cmp ecx,0000000C
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_0D:
+cmp ecx,0000000E
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_0F:
+cmp ecx,00000011
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_13:
+cmp ecx,00000013
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_16:
+cmp ecx,00000016
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_1B:
+cmp ecx,0000001B
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_1D:
+cmp ecx,0000001D
+ja StageSelect_E1_JMP
+jmp StageSelect_E1_END
+StageSelect_E1_JMP:
+mov ecx,0000004B
+jmp StageSelect_E1_END
+
+StageSelect_E2:
+db 0F B6 45 0B
+db 03 C6
+cmp esi,00000001
+je StageSelect_E2_01
+cmp esi,00000003
+je StageSelect_E2_03
+cmp esi,00000006
+je StageSelect_E2_06
+cmp esi,0000000A
+je StageSelect_E2_0A
+cmp esi,0000000B
+je StageSelect_E2_0B
+cmp esi,0000000D
+je StageSelect_E2_0D
+cmp esi,0000000F
+je StageSelect_E2_0F
+cmp esi,00000013
+je StageSelect_E2_13
+cmp esi,00000016
+je StageSelect_E2_16
+cmp esi,0000001B
+je StageSelect_E2_1B
+cmp esi,0000001D
+je StageSelect_E2_1D
+StageSelect_E2_END:
+jmp StageSelect_E2_RET
+StageSelect_E2_01:
+cmp eax,00000002
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_03:
+cmp eax,00000004
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_06:
+cmp ebx,00000008
+ja StageSelect_E2_06_a
+mov ebx,00000006
+StageSelect_E2_06_a:
+cmp eax,00000008
+ja StageSelect_E2_JMP
+mov eax,00000006
+jmp StageSelect_E2_END
+StageSelect_E2_0A:
+cmp eax,0000000A
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_0B:
+cmp eax,0000000C
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_0D:
+cmp eax,0000000E
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_0F:
+cmp eax,00000011
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_13:
+cmp eax,00000013
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_16:
+cmp eax,00000016
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_1B:
+cmp eax,0000001B
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_1D:
+cmp eax,0000001D
+ja StageSelect_E2_JMP
+jmp StageSelect_E2_END
+StageSelect_E2_JMP:
+mov eax,0000004B
+jmp StageSelect_E2_END
+
+StageSelect_F:
+db 0F B6 C9
+cmp eax,00000001
+je StageSelect_F_01
+cmp eax,00000003
+je StageSelect_F_03
+cmp eax,00000006
+je StageSelect_F_06
+cmp eax,0000000A
+je StageSelect_F_0A
+cmp eax,0000000B
+je StageSelect_F_0B
+cmp eax,0000000D
+je StageSelect_F_0D
+cmp eax,0000000F
+je StageSelect_F_0F
+cmp eax,00000013
+je StageSelect_F_13
+cmp eax,00000016
+je StageSelect_F_16
+cmp eax,0000001B
+je StageSelect_F_1B
+cmp eax,0000001D
+je StageSelect_F_1D
+db 03 C1
+StageSelect_F_END:
+jmp StageSelect_F_RET
+StageSelect_F_01:
+db 03 C1
+mov ecx,00000044
+cmp eax,00000003
+cmove eax,ecx
+mov ecx,00000044
+cmp eax,00000004
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_03:
+db 03 C1
+mov ecx,00000033
+cmp eax,00000005
+cmove eax,ecx
+mov ecx,0000003A
+cmp eax,00000006
+cmove eax,ecx
+mov ecx,00000046
+cmp eax,00000007
+cmove eax,ecx
+mov ecx,00000047
+cmp eax,00000008
+cmove eax,ecx
+mov ecx,00000048
+cmp eax,00000009
+cmove eax,ecx
+mov ecx,00000049
+cmp eax,0000000A
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_06:
+db 03 C1
+mov ecx,00000005
+cmp eax,00000008
+cmove eax,ecx
+mov ecx,00000042
+cmp eax,00000009
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_0A:
+db 03 C1
+mov ecx,00000041
+cmp eax,0000000B
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_0B:
+db 03 C1
+mov ecx,0000003D
+cmp eax,0000000D
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_0D:
+db 03 C1
+mov ecx,0000002E
+cmp eax,0000000F
+cmove eax,ecx
+mov ecx,0000002F
+cmp eax,00000010
+cmove eax,ecx
+mov ecx,00000030
+cmp eax,00000011
+cmove eax,ecx
+mov ecx,0000003E
+cmp eax,00000012
+cmove eax,ecx
+mov ecx,0000003F
+cmp eax,00000013
+cmove eax,ecx
+mov ecx,00000040
+cmp eax,00000014
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_0F:
+db 03 C1
+mov ecx,0000003C
+cmp eax,00000012
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_13:
+db 03 C1
+mov ecx,00000043
+cmp eax,00000014
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_16:
+db 03 C1
+mov ecx,00000039
+cmp eax,00000017
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_1B:
+db 03 C1
+mov ecx,0000003B
+cmp eax,00000023
+cmove eax,ecx
+mov ecx,00000037
+cmp eax,00000022
+cmove eax,ecx
+mov ecx,00000036
+cmp eax,00000021
+cmove eax,ecx
+mov ecx,00000035
+cmp eax,00000020
+cmove eax,ecx
+mov ecx,00000034
+cmp eax,0000001F
+cmove eax,ecx
+mov ecx,00000031
+cmp eax,0000001E
+cmove eax,ecx
+mov ecx,00000038
+cmp eax,0000001D
+cmove eax,ecx
+mov ecx,00000020
+cmp eax,0000001C
+cmove eax,ecx
+jmp StageSelect_F_END
+StageSelect_F_1D:
+db 03 C1
+mov ecx,00000032
+cmp eax,0000001E
+cmove eax,ecx
+jmp StageSelect_F_END
+
+AOB_StageSelect_A1:
+jmp StageSelect_A1
+nop
+StageSelect_A1_RET:
+
+AOB_StageSelect_A2:
+jmp StageSelect_A2
+nop
+StageSelect_A2_RET:
+
+AOB_StageSelect_A3:
+jmp StageSelect_A3
+nop
+StageSelect_A3_RET:
+
+AOB_StageSelect_B:
+jmp StageSelect_B
+StageSelect_B_RET:
+
+AOB_StageSelect_C1:
+jmp StageSelect_C1
+StageSelect_C1_RET:
+
+AOB_StageSelect_C2:
+jmp StageSelect_C2
+StageSelect_C2_RET:
+
+AOB_StageSelect_D1:
+jmp StageSelect_D1
+StageSelect_D1_RET:
+
+AOB_StageSelect_D2:
+jmp StageSelect_D2
+StageSelect_D2_RET:
+
+AOB_StageSelect_D3:
+jmp StageSelect_D3
+StageSelect_D3_RET:
+
+AOB_StageSelect_D4:
+jmp StageSelect_D4
+nop
+StageSelect_D4_RET:
+
+AOB_StageSelect_E1:
+jmp StageSelect_E1
+StageSelect_E1_RET:
+
+AOB_StageSelect_E2:
+jmp StageSelect_E2
+nop
+StageSelect_E2_RET:
+
+AOB_StageSelect_F:
+jmp StageSelect_F
+StageSelect_F_RET:
+
+[disable]
+unregistersymbol(AOB_StageSelect_A1)
+unregistersymbol(AOB_StageSelect_A2)
+unregistersymbol(AOB_StageSelect_A3)
+unregistersymbol(AOB_StageSelect_B)
+unregistersymbol(AOB_StageSelect_C1)
+unregistersymbol(AOB_StageSelect_C2)
+unregistersymbol(AOB_StageSelect_D1)
+unregistersymbol(AOB_StageSelect_D2)
+unregistersymbol(AOB_StageSelect_D3)
+unregistersymbol(AOB_StageSelect_D4)
+unregistersymbol(AOB_StageSelect_E1)
+unregistersymbol(AOB_StageSelect_E2)
+unregistersymbol(AOB_StageSelect_F)
+dealloc(newmem)
+
+AOB_StageSelect_A1:
+db 0F B6 C0
+db 83 C4 0C
+
+AOB_StageSelect_A2:
+db 88 86 EF 00 00 00
+
+AOB_StageSelect_A3:
+db 88 86 EF 00 00 00
+
+AOB_StageSelect_B:
+db 0F B6 D9
+db 03 DF
+
+AOB_StageSelect_C1:
+db 0F B6 C0
+db 03 F8
+
+AOB_StageSelect_C2:
+db 0F B6 D8
+db 03 DE
+
+AOB_StageSelect_D1:
+db 8B 45 F8
+db 03 C6
+
+AOB_StageSelect_D2:
+db 0F B6 D0
+db 03 D3
+
+AOB_StageSelect_D3:
+db 0F B6 C8
+db 03 CB
+
+AOB_StageSelect_D4:
+db 0F B6 C0
+db 03 45 08
+
+AOB_StageSelect_E1:
+db 0F B6 C9
+db 03 C8
+
+AOB_StageSelect_E2:
+db 0F B6 45 0B
+db 03 C6
+
+AOB_StageSelect_F:
+db 0F B6 C9
+db 03 C1
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3563</ID>
+      <Description>"0001_Tag Stage Select Expansion"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_TagStageSelect_A,game.exe,83 F8 03 7C 11 83 F8 07 7E 05 83 F8 0B)
+aobscanmodule(AOB_TagStageSelect_B,game.exe,84 C0 75 74 6A 01 E8 * * * * 83 C4 04 84 C0)
+aobscanmodule(AOB_TagStageSelect_C,game.exe,84 C0 75 0E 6A 01 E8 * * * * 83 C4 04 84 C0 74 07 C7 45 A8 00 03 00 00)
+aobscanmodule(AOB_TagStageSelect_D,game.exe,84 C0 75 12 6A 01 E8 * * * * 83 C4 04 84 C0 0F 84 B0 01 00 00)
+registersymbol(AOB_TagStageSelect_A)
+registersymbol(AOB_TagStageSelect_B)
+registersymbol(AOB_TagStageSelect_C)
+registersymbol(AOB_TagStageSelect_D)
+
+AOB_TagStageSelect_A:
+db 83 F8 05
+
+AOB_TagStageSelect_B:
+db 38 C0
+AOB_TagStageSelect_B+E:
+db 38 C0
+
+AOB_TagStageSelect_C:
+db 38 C0
+AOB_TagStageSelect_C+E:
+db 38 C0
+
+AOB_TagStageSelect_D:
+db 38 C0
+AOB_TagStageSelect_D+E:
+db 38 C0
+
+[disable]
+unregistersymbol(AOB_TagStageSelect_A)
+unregistersymbol(AOB_TagStageSelect_B)
+unregistersymbol(AOB_TagStageSelect_C)
+unregistersymbol(AOB_TagStageSelect_D)
+dealloc(newmem)
+
+AOB_TagStageSelect_A:
+db 83 F8 03
+
+AOB_TagStageSelect_B:
+db 84 C0
+AOB_TagStageSelect_B+E:
+db 84 C0
+
+AOB_TagStageSelect_C:
+db 84 C0
+AOB_TagStageSelect_C+E:
+db 84 C0
+
+AOB_TagStageSelect_D:
+db 84 C0
+AOB_TagStageSelect_D+E:
+db 84 C0
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3567</ID>
+      <Description>"0010_Power Attack"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_PowerAtack_A,game.exe,0F B6 71 36 83 FE 02 7D 4A 80 79 30 00)
+registersymbol(AOB_PowerAtack_A)
+registersymbol(POWER_MEM)
+alloc(newmem,$1000,"game.exe")
+label(PowerAtack_A)
+label(PowerAtack_A_SKIP)
+label(PowerAtack_A_JMP)
+label(PowerAtack_A_RET)
+label(POWER_MEM)
+
+newmem:
+PowerAtack_A:
+db 0F B6 71 36
+db 83 FE 01
+je PowerAtack_A_A
+db 83 FE 00
+jne PowerAtack_A_SKIP
+cmp byte ptr [POWER_MEM],01
+je PowerAtack_A_JMP
+jmp PowerAtack_A_SKIP
+PowerAtack_A_A:
+cmp byte ptr [POWER_MEM+01],01
+je PowerAtack_A_JMP
+PowerAtack_A_SKIP:
+db 83 FE 02
+jmp PowerAtack_A_RET
+PowerAtack_A_JMP:
+db B0 01
+jmp PowerAtack_A_RET+4E
+
+newmem+400:
+POWER_MEM:
+db 01 00
+
+AOB_PowerAtack_A:
+jmp PowerAtack_A
+nop
+nop
+PowerAtack_A_RET:
+
+[disable]
+unregistersymbol(AOB_PowerAtack_A)
+unregistersymbol(POWER_MEM)
+dealloc(newmem)
+
+AOB_PowerAtack_A:
+db 0F B6 71 36
+db 83 FE 02
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3568</ID>
+          <Description>"1P Power Attack"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>POWER_MEM</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3569</ID>
+          <Description>"2P Power Attack"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>POWER_MEM+01</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3564</ID>
+      <Description>"0020_Tag Team"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_TagSolo_A,game.exe,8B 75 F4 8A 45 FF 66 89 4E FF 88 4E 01)
+aobscanmodule(AOB_TagSolo_B,game.exe,8B 48 08 6A 00 51 8D 53 02 0F B6 C2)
+registersymbol(AOB_TagSolo_A)
+registersymbol(AOB_TagSolo_B)
+registersymbol(TAGSOLO_MEM)
+alloc(newmem,$1000,"game.exe")
+label(TagSolo_A)
+label(TagSolo_A_A)
+label(TagSolo_A_B)
+label(TagSolo_A_SKIP)
+label(TagSolo_A_RET)
+label(TagSolo_B)
+label(TagSolo_B_A)
+label(TagSolo_B_B)
+label(TagSolo_B_C)
+label(TagSolo_B_SKIP)
+label(TagSolo_B_RET)
+label(TAGSOLO_MEM)
+
+newmem:
+TagSolo_A:
+db 8B 75 F4
+db 8A 45 FF
+cmp al,02
+jne TagSolo_A_SKIP
+cmp edi,01
+je TagSolo_A_A
+cmp edi,00
+jne TagSolo_A_SKIP
+cmp byte ptr [TAGSOLO_MEM],01
+je TagSolo_A_B
+jmp TagSolo_A_SKIP
+TagSolo_A_A:
+cmp byte ptr [TAGSOLO_MEM+01],01
+jne TagSolo_A_SKIP
+TagSolo_A_B:
+mov al,01
+TagSolo_A_SKIP:
+jmp TagSolo_A_RET
+
+TagSolo_B:
+db 8B 48 08
+cmp ecx,00000080
+je TagSolo_B_A
+cmp ecx,0000012B
+jne TagSolo_B_SKIP
+TagSolo_B_A:
+cmp bl,01
+je TagSolo_B_B
+cmp bl,00
+jne TagSolo_B_SKIP
+cmp byte ptr [TAGSOLO_MEM],01
+je TagSolo_B_C
+jmp TagSolo_B_SKIP
+TagSolo_B_B:
+cmp byte ptr [TAGSOLO_MEM+01],01
+jne TagSolo_B_SKIP
+TagSolo_B_C:
+xor ecx,ecx
+TagSolo_B_SKIP:
+db 6A 00
+jmp TagSolo_B_RET
+
+newmem+400:
+TAGSOLO_MEM:
+db 00 01
+
+AOB_TagSolo_A:
+jmp TagSolo_A
+nop
+TagSolo_A_RET:
+
+AOB_TagSolo_B:
+jmp TagSolo_B
+TagSolo_B_RET:
+
+[disable]
+unregistersymbol(AOB_TagSolo_A)
+unregistersymbol(AOB_TagSolo_B)
+unregistersymbol(TAGSOLO_MEM)
+dealloc(newmem)
+
+AOB_TagSolo_A:
+db 8B 75 F4
+db 8A 45 FF
+
+AOB_TagSolo_B:
+db 8B 48 08
+db 6A 00
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3565</ID>
+          <Description>"1P Tag Team"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Default
+01:Solo
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>TAGSOLO_MEM</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3566</ID>
+          <Description>"2P Tag Team"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Default
+01:Solo
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>TAGSOLO_MEM+01</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"0030_RandomCharacterSelect"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_Character_A,game.exe,8B 45 08 50 6A 00 56)
+aobscanmodule(AOB_Character_B,game.exe,8B 55 08 52 6A 00 56)
+aobscanmodule(AOB_Character_C,game.exe,8B 4D 08 51 8D 46 FE)
+registersymbol(AOB_Character_A)
+registersymbol(AOB_Character_B)
+registersymbol(AOB_Character_C)
+registersymbol(CHARACTER_SELECT)
+alloc(newmem,4096,"game.exe")
+label(Character_A)
+label(Character_A_RET)
+label(Character_B)
+label(Character_B_RET)
+label(Character_C)
+label(Character_C_RET)
+label(CHARACTER_SELECT)
+
+
+newmem:
+Character_A:
+db 8B 45 08
+cmp eax,000000FD
+jne Character_A_SKIP
+lea eax,[CHARACTER_SELECT]
+lea eax,[eax+esi*4]
+mov eax,[eax]
+Character_A_SKIP:
+db 50
+db 6A 00
+jmp Character_A_RET
+
+Character_B:
+db 8B 55 08
+cmp edx,000000FD
+jne Character_B_SKIP
+lea edx,[CHARACTER_SELECT]
+lea edx,[edx+esi*4]
+mov edx,[edx]
+Character_B_SKIP:
+db 52
+db 6A 00
+jmp Character_B_RET
+
+Character_C:
+db 8B 4D 08
+cmp ecx,000000FD
+jne Character_C_SKIP
+lea ecx,[CHARACTER_SELECT]
+lea ecx,[ecx+esi*4]
+mov ecx,[ecx]
+Character_C_SKIP:
+db 51
+db 8D 46 FE
+jmp Character_C_RET
+
+newmem+100:
+CHARACTER_SELECT:
+dd 00000024
+dd 00000023
+dd 00000026
+dd 00000025
+
+AOB_Character_A:
+jmp Character_A
+nop
+Character_A_RET:
+
+AOB_Character_B:
+jmp Character_B
+nop
+Character_B_RET:
+
+AOB_Character_C:
+jmp Character_C
+nop
+nop
+Character_C_RET:
+
+[disable]
+unregistersymbol(AOB_Character_A)
+unregistersymbol(AOB_Character_B)
+unregistersymbol(AOB_Character_C)
+
+dealloc(newmem)
+
+AOB_Character_A:
+db 8B 45 08
+db 50
+db 6A 00
+
+AOB_Character_B:
+db 8B 55 08
+db 52
+db 6A 00
+
+AOB_Character_C:
+db 8B 4D 08
+db 51
+db 8D 46 FE
+
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"1PCharacter01"</Description>
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">23:αAYANE
+24:αHAYATE
+25:αKASUMI
+26:αHAYABUSA
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>CHARACTER_SELECT</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"1PCharacter02"</Description>
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">23:αAYANE
+24:αHAYATE
+25:αKASUMI
+26:αHAYABUSA
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>CHARACTER_SELECT+08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"2PCharacter01"</Description>
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">23:αAYANE
+24:αHAYATE
+25:αKASUMI
+26:αHAYABUSA
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>CHARACTER_SELECT+04</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"2PCharacter02"</Description>
+          <DropDownList ReadOnly="1" DisplayValueAsItem="1">23:αAYANE
+24:αHAYATE
+25:αKASUMI
+26:αHAYABUSA
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>CHARACTER_SELECT+0C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3545</ID>
+      <Description>"0040_Wet Ratio"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_WetRatio_A,game.exe,0F B6 7E 36 57 E8 * * * * 83 C4 04 3B C6 0F 85 * * * * 0F B6 46 34)
+registersymbol(AOB_WetRatio_A)
+registersymbol(WET_MEM)
+alloc(newmem,$1000,"game.exe")
+label(WetRatio_A)
+label(WetRatio_A_A)
+label(WetRatio_A_END)
+label(WetRatio_A_RET)
+label(WET_MEM)
+
+newmem:
+WetRatio_A:
+movzx edi,byte ptr [esi+36]
+lea ecx,[WET_MEM]
+cmp byte ptr [ecx+edi*8],01
+jne WetRatio_A_A
+movss xmm0,[ecx+edi*8+04]
+comiss xmm0,[esi+60]
+je WetRatio_A_A
+movss [esi+60],xmm0
+WetRatio_A_A:
+movzx edi,byte ptr [esi+34]
+add ecx,10
+cmp byte ptr [ecx+edi*8],01
+jne WetRatio_A_END
+movss xmm0,[ecx+edi*8+04]
+comiss xmm0,[esi+60]
+je WetRatio_A_END
+movss [esi+60],xmm0
+WetRatio_A_END:
+db 0F B6 7E 36
+db 57
+jmp WetRatio_A_RET
+
+newmem+400:
+WET_MEM:
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+dd 00000000
+
+AOB_WetRatio_A:
+jmp WetRatio_A
+WetRatio_A_RET:
+
+[disable]
+unregistersymbol(AOB_WetRatio_A)
+unregistersymbol(WET_MEM)
+dealloc(newmem)
+
+AOB_WetRatio_A:
+db 0F B6 7E 36
+db 57
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3547</ID>
+          <Description>"Wet Stats"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3546</ID>
+              <Description>"1P/3P Wet Change"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>WET_MEM</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>3548</ID>
+                  <Description>"1P/3P Wet Value"</Description>
+                  <VariableType>Float</VariableType>
+                  <Address>WET_MEM+04</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3549</ID>
+              <Description>"2P/4P Wet Change"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>WET_MEM+08</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>3550</ID>
+                  <Description>"2P/4P Wet Value"</Description>
+                  <VariableType>Float</VariableType>
+                  <Address>WET_MEM+0C</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3551</ID>
+              <Description>"1P Wet Change"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>WET_MEM+10</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>3552</ID>
+                  <Description>"1P Wet Value"</Description>
+                  <VariableType>Float</VariableType>
+                  <Address>WET_MEM+14</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3553</ID>
+              <Description>"2P Wet Change"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>WET_MEM+18</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>3554</ID>
+                  <Description>"2P Wet Value"</Description>
+                  <VariableType>Float</VariableType>
+                  <Address>WET_MEM+1C</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3555</ID>
+              <Description>"3P Wet Change"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>WET_MEM+20</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>3556</ID>
+                  <Description>"3P Wet Value"</Description>
+                  <VariableType>Float</VariableType>
+                  <Address>WET_MEM+24</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3557</ID>
+              <Description>"4P Wet Change"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>WET_MEM+28</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>3558</ID>
+                  <Description>"4P Wet Value"</Description>
+                  <VariableType>Float</VariableType>
+                  <Address>WET_MEM+2C</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3559</ID>
+      <Description>"0041_Wet Attack"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_WetAttack_A,game.exe,0F B6 96 AF 00 00 00 8D 9B * * * * 52 8B CB)
+registersymbol(AOB_WetAttack_A)
+registersymbol(WETATK_MEM)
+alloc(newmem,$1000,"game.exe")
+label(WetAttack_A)
+label(WetAttack_A_A)
+label(WetAttack_A_END)
+label(WetAttack_A_RET)
+label(WETATK_MEM)
+
+newmem:
+WetAttack_A:
+lea ecx,[WETATK_MEM]
+cmp byte ptr [ecx],01
+jne WetAttack_A_A
+movss xmm0,[ecx+04]
+mov ecx,[ebp-40]
+addss xmm0,[ecx+60]
+minss xmm0,[WETATK_MEM+08]
+movss [ecx+60],xmm0
+jmp WetAttack_A_END
+WetAttack_A_A:
+cmp byte ptr [ecx],02
+jne WetAttack_A_END
+movss xmm0,[ecx+04]
+mov ecx,[ebp-40]
+movss [ecx+60],xmm0
+WetAttack_A_END:
+db 0F B6 96 AF 00 00 00
+jmp WetAttack_A_RET
+
+newmem+400:
+WETATK_MEM:
+dd 00000001
+dd 3DCCCCCD
+dd 3F800000
+
+AOB_WetAttack_A:
+jmp WetAttack_A
+nop
+nop
+WetAttack_A_RET:
+
+[disable]
+unregistersymbol(AOB_WetAttack_A)
+unregistersymbol(WETATK_MEM)
+dealloc(newmem)
+
+AOB_WetAttack_A:
+db 0F B6 96 AF 00 00 00
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3560</ID>
+          <Description>"Wet Change"</Description>
+          <DropDownList DisplayValueAsItem="1">00:Default
+01:Add
+02:Fix
+</DropDownList>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>WETATK_MEM</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3561</ID>
+              <Description>"Wet Value"</Description>
+              <VariableType>Float</VariableType>
+              <Address>WETATK_MEM+04</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3544</ID>
+      <Description>"0050_Disable Effect"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3540</ID>
+          <Description>"B.U.R.S.T 1"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_BurstEffect_A,game.exe,23 C7 89 45 8C 0F 84 94 04 00 00 8B 50 40 8A 82 86 00 00 00)
+registersymbol(AOB_BurstEffect_A)
+
+AOB_BurstEffect_A:
+db 33 C0
+
+[disable]
+unregistersymbol(AOB_BurstEffect_A)
+
+AOB_BurstEffect_A:
+db 23 C7
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3543</ID>
+          <Description>"B.U.R.S.T 2"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_BurstEffect_B,game.exe,23 C8 89 8D 9C FE FF FF 0F 84 B9 06 00 00 8B 57 40 8A 82 86 00 00 00)
+registersymbol(AOB_BurstEffect_B)
+
+AOB_BurstEffect_B:
+db 33 C9
+
+[disable]
+unregistersymbol(AOB_BurstEffect_B)
+
+AOB_BurstEffect_B:
+db 23 C8
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3542</ID>
+          <Description>"ALPHA-152 Aura"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_Alpha152Effect_A,game.exe,39 5E 1C 0F 84 BF 00 00 00 BF * * * * 8D 9E EC 00 00 00)
+registersymbol(AOB_Alpha152Effect_A)
+
+AOB_Alpha152Effect_A:
+db 39 DB
+db 90
+
+[disable]
+unregistersymbol(AOB_Alpha152Effect_A)
+
+AOB_Alpha152Effect_A:
+db 39 5E 1C
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3541</ID>
+          <Description>"RAIDOU Aura"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_RaidouEffect_A,game.exe,39 5E 1C 0F 84 E7 00 00 00 89 5D 08 39 9E E4 23 00 00)
+registersymbol(AOB_RaidouEffect_A)
+
+AOB_RaidouEffect_A:
+db 39 DB
+db 90
+
+[disable]
+unregistersymbol(AOB_RaidouEffect_A)
+
+AOB_RaidouEffect_A:
+db 39 5E 1C
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3562</ID>
+          <Description>"α Aura"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_AlphaEffect_A,game.exe,85 C0 0F 84 B5 00 00 00 BF * * * * 8D 9E EC 00 00 00)
+registersymbol(AOB_AlphaEffect_A)
+
+AOB_AlphaEffect_A:
+db 39 C0
+
+[disable]
+unregistersymbol(AOB_AlphaEffect_A)
+
+AOB_AlphaEffect_A:
+db 85 C0
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"0060_Replay Camera Limit Release"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+aobscanmodule(AOB_ReplayCameraZoom_A,game.exe,76 03 0F 28 C2 F3 0F 10 15 * * * * 0F 57 DB)
+aobscanmodule(AOB_ReplayCameraZoom_B,game.exe,76 03 0F 28 C2 F3 0F 10 25 * * * * F3 0F 11 81 40 E3 00 00)
+aobscanmodule(AOB_ReplayCameraZoom_C,game.exe,76 22 0F 57 D2 F3 0F 5A D0 0F 5A DB F2 0F 5C D3)
+aobscanmodule(AOB_ReplayCameraA_A,game.exe,76 03 0F 28 C1 0F 57 ED 0F 5A CA F3 0F 5A E8)
+aobscanmodule(AOB_ReplayCameraA_B,game.exe,76 03 0F 28 C2 F3 0F 11 80 3C E3 00 00 EB 6D)
+aobscanmodule(AOB_ReplayCameraA_C,game.exe,76 17 F3 0F 5A C9 0F 5A D0 F2 0F 5C CA)
+aobscanmodule(AOB_ReplayCameraA_D,game.exe,76 7B 0F 5A C9 0F 57 D2 0F 5A D0 F2 0F 5C CA)
+aobscanmodule(AOB_ReplayCameraA_E,game.exe,76 10 F3 0F 10 15 * * * * F3 0F 11 97 3C E3 00 00)
+aobscanmodule(AOB_ReplayCameraA_F,game.exe,76 0B 0F 57 C9 F3 0F 11 8F 3C E3 00 00)
+aobscanmodule(AOB_ReplayCameraA_G,game.exe,76 16 0F 5A D2 0F 5A D9 F2 0F 5C D3 66 0F 5A D2)
+aobscanmodule(AOB_ReplayCameraA_H,game.exe,76 19 0F 5A C9 0F 5A D2 F2 0F 5C D1 0F 57 C9)
+aobscanmodule(AOB_ReplayCameraB_A,game.exe,76 03 0F 28 CA 0F 57 D2 F3 0F 5A D3 0F 5A E1)
+aobscanmodule(AOB_ReplayCameraB_B,game.exe,76 03 0F 28 CB F3 0F 10 5D B4 F3 0F 10 55 88)
+aobscanmodule(AOB_ReplayCameraB_C,game.exe,76 03 0F 28 CA 0F 5A D0 0F 5A D9 66 0F 2F DA)
+aobscanmodule(AOB_ReplayCameraB_D,game.exe,77 03 0F 28 C1 BF 01 00 00 00 F3 0F 11 86 2C E3 00 00)
+aobscanmodule(AOB_ReplayCameraB_E,game.exe,76 03 0F 28 C1 0F 57 C9 0F 5A C8 66 0F 2F 0D * * * * 76 08 F3 0F 10 05 * * * * F3 0F 11 86 2C E3 00 00)
+aobscanmodule(AOB_ReplayCameraC_A,game.exe,0F 86 74 03 00 00 DD 05 * * * * 8D 45 E8 50)
+aobscanmodule(AOB_ReplayCameraC_B,game.exe,0F 86 84 03 00 00 0F 57 C0 0F 2F 45 0C)
+aobscanmodule(AOB_ReplayCameraC_C,game.exe,0F 86 8E 00 00 00 8B 45 10 F3 0F 11 86 F4 00 00 00)
+aobscanmodule(AOB_ReplayCameraC_D,game.exe,7B 39 8B 45 D8 0F 5A C0 0F 5A C9 F2 0F 5C C1)
+aobscanmodule(AOB_ReplayCameraD_A,game.exe,84 C0 74 65 F6 05 * * * * 01 75 28)
+aobscanmodule(AOB_ReplayCameraD_B,game.exe,84 C0 75 11 6A 01 E8 * * * * 83 C4 04 84 C0 74 69)
+registersymbol(AOB_ReplayCameraZoom_A)
+registersymbol(AOB_ReplayCameraZoom_B)
+registersymbol(AOB_ReplayCameraZoom_C)
+registersymbol(AOB_ReplayCameraA_A)
+registersymbol(AOB_ReplayCameraA_B)
+registersymbol(AOB_ReplayCameraA_C)
+registersymbol(AOB_ReplayCameraA_D)
+registersymbol(AOB_ReplayCameraA_E)
+registersymbol(AOB_ReplayCameraA_F)
+registersymbol(AOB_ReplayCameraA_G)
+registersymbol(AOB_ReplayCameraA_H)
+registersymbol(AOB_ReplayCameraB_A)
+registersymbol(AOB_ReplayCameraB_B)
+registersymbol(AOB_ReplayCameraB_C)
+registersymbol(AOB_ReplayCameraB_D)
+registersymbol(AOB_ReplayCameraB_E)
+registersymbol(AOB_ReplayCameraC_A)
+registersymbol(AOB_ReplayCameraC_B)
+registersymbol(AOB_ReplayCameraC_C)
+registersymbol(AOB_ReplayCameraC_D)
+registersymbol(AOB_ReplayCameraD_A)
+registersymbol(AOB_ReplayCameraD_B)
+
+AOB_ReplayCameraZoom_A:
+db EB 03
+AOB_ReplayCameraZoom_B:
+db EB 03
+AOB_ReplayCameraZoom_C:
+db EB 22
+
+AOB_ReplayCameraA_A:
+db EB 03
+AOB_ReplayCameraA_B:
+db EB 03
+AOB_ReplayCameraA_C:
+db EB 17
+AOB_ReplayCameraA_D:
+db EB 7B
+AOB_ReplayCameraA_E:
+db EB 10
+AOB_ReplayCameraA_F:
+db EB 0B
+AOB_ReplayCameraA_G:
+db EB 16
+AOB_ReplayCameraA_H:
+db EB 19
+
+AOB_ReplayCameraB_A:
+db EB 03
+AOB_ReplayCameraB_B:
+db EB 03
+AOB_ReplayCameraB_C:
+db EB 03
+AOB_ReplayCameraB_D:
+db 90 90
+AOB_ReplayCameraB_E:
+db EB 03
+AOB_ReplayCameraB_E+13:
+db EB 08
+
+AOB_ReplayCameraC_A:
+db E9 75 03 00 00
+db 90
+AOB_ReplayCameraC_B:
+db E9 85 03 00 00
+db 90
+AOB_ReplayCameraC_C:
+db E9 8F 00 00 00
+db 90
+AOB_ReplayCameraC_D:
+db EB 39
+
+AOB_ReplayCameraD_A:
+db 32 C0
+AOB_ReplayCameraD_B:
+db 30 C0
+db EB 0A
+
+[disable]
+unregistersymbol(AOB_ReplayCameraZoom_A)
+unregistersymbol(AOB_ReplayCameraZoom_B)
+unregistersymbol(AOB_ReplayCameraZoom_C)
+unregistersymbol(AOB_ReplayCameraA_A)
+unregistersymbol(AOB_ReplayCameraA_B)
+unregistersymbol(AOB_ReplayCameraA_C)
+unregistersymbol(AOB_ReplayCameraA_D)
+unregistersymbol(AOB_ReplayCameraA_E)
+unregistersymbol(AOB_ReplayCameraA_F)
+unregistersymbol(AOB_ReplayCameraA_G)
+unregistersymbol(AOB_ReplayCameraA_H)
+unregistersymbol(AOB_ReplayCameraB_A)
+unregistersymbol(AOB_ReplayCameraB_B)
+unregistersymbol(AOB_ReplayCameraB_C)
+unregistersymbol(AOB_ReplayCameraB_D)
+unregistersymbol(AOB_ReplayCameraB_E)
+unregistersymbol(AOB_ReplayCameraC_A)
+unregistersymbol(AOB_ReplayCameraC_B)
+unregistersymbol(AOB_ReplayCameraC_C)
+unregistersymbol(AOB_ReplayCameraC_D)
+unregistersymbol(AOB_ReplayCameraD_A)
+unregistersymbol(AOB_ReplayCameraD_B)
+
+AOB_ReplayCameraZoom_A:
+db 76 03
+AOB_ReplayCameraZoom_B:
+db 76 03
+AOB_ReplayCameraZoom_C:
+db 76 22
+
+AOB_ReplayCameraA_A:
+db 76 03
+AOB_ReplayCameraA_B:
+db 76 03
+AOB_ReplayCameraA_C:
+db 76 17
+AOB_ReplayCameraA_D:
+db 76 7B
+AOB_ReplayCameraA_E:
+db 76 10
+AOB_ReplayCameraA_F:
+db 76 0B
+AOB_ReplayCameraA_G:
+db 76 16
+AOB_ReplayCameraA_H:
+db 76 19
+
+AOB_ReplayCameraB_A:
+db 76 03
+AOB_ReplayCameraB_B:
+db 76 03
+AOB_ReplayCameraB_C:
+db 76 03
+AOB_ReplayCameraB_D:
+db 77 03
+AOB_ReplayCameraB_E:
+db 76 03
+AOB_ReplayCameraB_E+13:
+db 76 08
+
+AOB_ReplayCameraC_A:
+db 0F 86 74 03 00 00
+AOB_ReplayCameraC_B:
+db 0F 86 84 03 00 00
+AOB_ReplayCameraC_C:
+db 0F 86 8E 00 00 00
+AOB_ReplayCameraC_D:
+db 7B 39
+
+AOB_ReplayCameraD_A:
+db 84 C0
+AOB_ReplayCameraD_B:
+db 84 C0
+db 75 11
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"1000_Ryona Cheats"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>assert(game.exe+99CAEC,56 00 65 00 72 00 2E 00 31 00 2E 00 31 00 30 00 43 00 00 00)
+
+[enable]
+registersymbol(BryanyoraMem)
+registersymbol(CameraPos_PN)
+alloc(BryanyoraMem,4096,"game.exe")
+label(CameraPos_PN)
+
+BryanyoraMem+0C:
+db 00
+
+BryanyoraMem+180:
+CameraPos_PN:
+db 00 10 02 0F 01 81 80 83 84 85 86 87 88 00 00 00
+BryanyoraMem+190:
+db 00 10 02 0F 01 81 80 83 84 85 86 87 88 00 00 00
+BryanyoraMem+1A0:
+db 0D 0D 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+BryanyoraMem+1B0:
+dq 0000000000000000 0000000000000000
+BryanyoraMem+1C0:
+dq 0000000000000000 0000000000000000
+
+[disable]
+unregistersymbol(BryanyoraMem)
+unregistersymbol(CameraPos_PN)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>49</ID>
+          <Description>"0000_PAD"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_PAD,game.exe,F3 0F 11 46 20 83 C4 1C 43 83 C6 2C)
+aobscanmodule(AOB_PauseShinai_A,game.exe,83 C4 04 84 C0 75 14 0F B6 8B * * * * 51 E8 * * * *)
+aobscanmodule(AOB_PauseShinai_B,game.exe,8B 7F 08 8B C7 C1 E8 02 84 C3 74 26)
+registersymbol(AOB_PAD)
+registersymbol(AOB_PauseShinai_A)
+registersymbol(AOB_PauseShinai_B)
+alloc(newmem,4096,"game.exe")
+label(PAD_Suuchi)
+label(PAD_Suuchi_RET)
+label(Cam_F)
+label(Cam_F_GET)
+label(Cam_F_END)
+
+label(CamPos_F)
+label(CamPos_F_A)
+label(CamPos_F_B)
+label(CamPos_F_C)
+label(CamPos_F_D)
+label(CamPos_F_SPC)
+label(CamPos_F_END)
+
+label(CamPos_PT_F)
+label(CamPos_PT_Fa)
+label(CamPos_PT_Fs)
+label(CamPos_PT_F_A)
+label(CamPos_PT_F_B)
+label(CamPos_PT_F_C)
+label(CamPos_PT_F_D)
+label(CamPos_PT_F_END)
+
+label(CamPos_SP_F)
+label(CamPos_SP_F_A)
+label(CamPos_SP_F_B)
+label(CamPos_SP_F_C)
+label(CamPos_SP_F_D)
+label(CamPos_SP_F_END)
+
+label(CamPos_SP_PT_F)
+label(CamPos_SP_PT_F_A)
+label(CamPos_SP_PT_F_B)
+label(CamPos_SP_PT_F_C)
+label(CamPos_SP_PT_F_D)
+label(CamPos_SP_PT_F_END)
+
+label(CamPos_A_F)
+label(CamPos_A_F_GET)
+
+label(CamPos_SP_F)
+label(CamPos_SP_PT_F)
+label(CamPos_SP_F_END)
+
+label(Pause_F_GET)
+label(Pause_F_END)
+
+label(Cam_X_ZERO)
+label(Cam_Z_ZERO)
+label(Cam_M_ZERO)
+label(Cam_ZERO_END)
+
+label(Cam_END)
+
+label(MotSpeed_GET)
+label(MotSpeed_END)
+
+label(AnalogSuuchi)
+label(AnalogSuuchi_JMP)
+label(CamZahyou_A_A)
+label(CamZahyou_A_B)
+label(CamZahyou_B_A)
+label(CamZahyou_B_B)
+
+label(Hannou_F)
+label(Hannou_F_01)
+label(Hannou_F_02)
+label(Hannou_F_03)
+label(Hannou_F_END)
+
+label(DownM_F)
+label(DownM_F_01)
+label(DownM_F_02)
+label(DownM_F_03)
+label(DownM_F_END)
+
+label(Hold_F)
+label(Hold_F_01)
+label(Hold_F_02)
+label(Hold_F_03)
+label(Hold_F_END)
+
+label(Counter_F)
+label(Counter_F_01)
+label(Counter_F_02)
+label(Counter_F_03)
+label(Counter_F_END)
+
+label(Himei_F_01)
+label(Himei_F_02)
+label(Himei_F_03)
+label(Himei_F_END)
+
+label(Hyoujou_F)
+label(Hyoujou_F_01)
+label(Hyoujou_F_02)
+label(Hyoujou_F_03)
+label(Hyoujou_F_END)
+
+label(CharaModel_F)
+label(CharaModel_F_A)
+label(CharaModel_F_FPV_GET)
+label(CharaModel_F_1P)
+label(CharaModel_F_1P_GET)
+label(CharaModel_F_2P)
+label(CharaModel_F_2P_GET)
+label(CharaModel_F_END)
+
+label(Cam_FPV1)
+label(Cam_FPV1_END)
+label(Cam_FPV2)
+label(Cam_FPV2_END)
+label(NotCamera_A1)
+label(NotCamera_A2)
+label(NotCamera_A3)
+
+label(PAD_SKIP)
+label(PAD_ALLSKIP)
+
+label(AnalogHosei)
+label(AnalogHosei_MINUS)
+label(AnalogHosei_ZERO)
+
+label(PauseShinai_A)
+label(PauseShinai_A_JMP)
+label(PauseShinai_A_SKIP)
+label(PauseShinai_A_RET)
+
+label(PauseShinai_B)
+label(PauseShinai_B_JMP)
+label(PauseShinai_B_SKIP)
+label(PauseShinai_B_RET)
+
+newmem:
+PAD_Suuchi:
+db F3 0F 11 46 20
+cmp byte ptr [BryanyoraMem+08],bl
+jne PAD_ALLSKIP
+push eax
+push ebx
+push ecx
+push edx
+lea edx,[esi-08]
+mov ebx,edx
+lea ecx,[BryanyoraMem]
+cmp byte ptr [ecx],00
+je Cam_F
+test [edx],00000F000
+jne CamPos_F
+Cam_F:
+test [edx+10],00000200
+je Cam_F_END
+cmp byte ptr [ecx],01
+jne Cam_F_GET
+mov byte ptr [ecx],00
+jmp Cam_F_END
+Cam_F_GET:
+mov byte ptr [ecx],01
+jmp Cam_F_END
+
+CamPos_F:
+test [edx],0000E0F0
+jne CamPos_F_END
+test [edx],00001000
+je CamPos_F_END
+test [edx],00000800
+je CamPos_F_A
+mov byte ptr [ecx+1],00
+CamPos_F_A:
+test [edx+10],00000004
+je CamPos_F_B
+cmp byte ptr [ecx+4],00
+jne CamPos_F_SPC
+inc byte ptr [ecx+1]
+CamPos_F_B:
+test [edx+10],00000008
+je CamPos_F_C
+cmp byte ptr [ecx+4],00
+jne CamPos_F_SPC
+dec byte ptr [ecx+1]
+CamPos_F_C:
+cmp byte ptr [ecx+1],04
+jle CamPos_F_D
+mov byte ptr [ecx+1],00
+CamPos_F_D:
+cmp byte ptr [ecx+1],00
+jge CamPos_F_END
+mov byte ptr [ecx+1],04
+jmp CamPos_F_END
+CamPos_F_SPC:
+mov byte ptr [ecx+4],00
+CamPos_F_END:
+
+
+cmp byte ptr [ecx+4],01
+je CamPos_PT_Fs
+cmp byte ptr [ecx+4],02
+je CamPos_PT_Fs
+cmp byte ptr [ecx+4],03
+je CamPos_PT_Fs
+cmp byte ptr [ecx+4],04
+jne CamPos_PT_Fa
+CamPos_PT_Fs:
+add ecx,04
+jmp CamPos_PT_F
+CamPos_PT_Fa:
+cmp byte ptr [ecx+1],01
+je CamPos_PT_F
+cmp byte ptr [ecx+1],02
+je CamPos_PT_F
+cmp byte ptr [ecx+1],03
+je CamPos_PT_F
+cmp byte ptr [ecx+1],04
+jne CamPos_PT_F_END
+CamPos_PT_F:
+test [edx],0000E0F0
+jne CamPos_PT_F_END
+test [edx],00001000
+je CamPos_PT_F_END
+test [edx],00000800
+je CamPos_PT_F_A
+mov byte ptr [ecx+2],00
+jmp CamPos_PT_F_END
+CamPos_PT_F_A:
+test [edx+10],00000001
+je CamPos_PT_F_B
+inc byte ptr [ecx+2]
+CamPos_PT_F_B:
+test [edx+10],00000002
+je CamPos_PT_F_C
+dec byte ptr [ecx+2]
+CamPos_PT_F_C:
+cmp byte ptr [ecx+2],1F
+jle CamPos_PT_F_D
+mov byte ptr [ecx+2],1F
+CamPos_PT_F_D:
+cmp byte ptr [ecx+2],00
+jge CamPos_PT_F_END
+mov byte ptr [ecx+2],00
+CamPos_PT_F_END:
+
+lea ecx,[BryanyoraMem]
+
+cmp byte ptr [ecx+4],00
+jne CamPos_A_F_END
+cmp byte ptr [ecx+1],01
+je CamPos_A_F
+cmp byte ptr [ecx+1],02
+je CamPos_A_F
+cmp byte ptr [ecx+1],03
+je CamPos_A_F
+cmp byte ptr [ecx+1],04
+jne CamPos_A_F_END
+CamPos_A_F:
+test [edx],00001000
+je CamPos_A_F_END
+test [edx+10],00000200
+je CamPos_A_F_END
+cmp byte ptr [ecx+3],01
+jne CamPos_A_F_GET
+mov byte ptr [ecx+3],00
+jmp CamPos_A_F_END
+CamPos_A_F_GET:
+mov byte ptr [ecx+3],01
+CamPos_A_F_END:
+
+CamPos_SP_F:
+test [edx],0000B0F0
+jne CamPos_SP_F_END
+test [edx],00004000
+je CamPos_SP_F_END
+test [edx],00000080
+je CamPos_SP_F_A
+mov byte ptr [ecx+4],00
+jmp CamPos_SP_F_END
+CamPos_SP_F_A:
+test [edx+10],00000004
+je CamPos_SP_F_B
+inc byte ptr [ecx+4]
+CamPos_SP_F_B:
+test [edx+10],00000008
+je CamPos_SP_F_C
+dec byte ptr [ecx+4]
+CamPos_SP_F_C:
+cmp byte ptr [ecx+4],04
+jle CamPos_SP_F_D
+mov byte ptr [ecx+4],00
+CamPos_SP_F_D:
+cmp byte ptr [ecx+4],00
+jge CamPos_SP_F_END
+mov byte ptr [ecx+4],04
+CamPos_SP_F_END:
+
+cmp byte ptr [ecx+4],01
+je CamPos_SP_PT_F
+cmp byte ptr [ecx+4],02
+je CamPos_SP_PT_F
+cmp byte ptr [ecx+4],03
+je CamPos_SP_PT_F
+cmp byte ptr [ecx+4],04
+jne CamPos_SP_PT_F_END
+CamPos_SP_PT_F:
+test [edx],0000B0F0
+jne CamPos_SP_PT_F_END
+test [edx],00004000
+je CamPos_SP_PT_F_END
+test [edx],00000080
+je CamPos_SP_PT_F_A
+mov byte ptr [ecx+5],00
+jmp CamPos_SP_PT_F_END
+CamPos_SP_PT_F_A:
+test [edx+10],00000001
+je CamPos_SP_PT_F_B
+inc byte ptr [ecx+5]
+CamPos_SP_PT_F_B:
+test [edx+10],00000002
+je CamPos_SP_PT_F_C
+dec byte ptr [ecx+5]
+CamPos_SP_PT_F_C:
+cmp byte ptr [ecx+5],1F
+jle CamPos_SP_PT_F_D
+mov byte ptr [ecx+5],1F
+CamPos_SP_PT_F_D:
+cmp byte ptr [ecx+5],00
+jge CamPos_SP_PT_F_END
+mov byte ptr [ecx+5],00
+CamPos_SP_PT_F_END:
+
+Cam_F_END:
+
+cmp byte ptr [ecx],01
+jne NotCamera_A1
+cmp byte ptr [ecx+04],01
+je Cam_FPV1
+cmp byte ptr [ecx+04],02
+je Cam_FPV1
+cmp byte ptr [ecx+04],03
+je Cam_FPV1
+cmp byte ptr [ecx+04],04
+jne Cam_FPV1_END
+Cam_FPV1:
+add ecx,0060
+jmp Cam_FPV1_END
+NotCamera_A1:
+cmp byte ptr [ecx+0C],01
+jne Cam_FPV1_END
+add ecx,00E0
+Cam_FPV1_END:
+
+add ecx,20
+pxor xmm0,xmm0
+test [edx+10],00000800
+je Cam_X_ZERO
+test [edx],00008000
+jne Cam_M_ZERO
+movaps [ecx],xmm0
+jmp Cam_X_ZERO
+Cam_M_ZERO:
+movss [BryanyoraMem+1C],xmm0
+
+Cam_X_ZERO:
+test [edx+10],00000400
+je Cam_ZERO_END
+test [edx],00008000
+jne Cam_Z_ZERO
+movaps [ecx+10],xmm0
+jmp Cam_ZERO_END
+Cam_Z_ZERO:
+movss [ecx+20],xmm0
+movss [ecx+24],xmm0
+movss [ecx+54],xmm0
+Cam_ZERO_END:
+
+lea ecx,[BryanyoraMem]
+cmp byte ptr [ecx+0C],01
+je NotCamera_A2
+cmp byte ptr [ecx],01
+jne Cam_END
+NotCamera_A2:
+
+test [edx+08],00000100
+je Pause_F_END
+cmp byte ptr [ecx+18],01
+jne Pause_F_GET
+mov byte ptr [ecx+18],00
+jmp Pause_F_END
+Pause_F_GET:
+mov byte ptr [ecx+18],01
+Pause_F_END:
+
+cmp byte ptr [ecx],01
+je NotCamera_A3
+add ecx,00E0
+jmp Cam_FPV2_END
+NotCamera_A3:
+cmp byte ptr [ecx+04],01
+je Cam_FPV2
+cmp byte ptr [ecx+04],02
+je Cam_FPV2
+cmp byte ptr [ecx+04],03
+je Cam_FPV2
+cmp byte ptr [ecx+04],04
+jne Cam_FPV2_END
+Cam_FPV2:
+add ecx,0060
+Cam_FPV2_END:
+
+mov eax,BECCCCCD
+movd xmm4,eax
+mov eax,3ECCCCCD
+movd xmm5,eax
+
+add ecx,20
+mov eax,C2800000
+movd xmm0,eax
+test [edx],00001000
+je AnalogSuuchi
+mov eax,40200000
+movd xmm1,eax
+divss xmm0,xmm1
+AnalogSuuchi:
+test [edx],00004000
+je AnalogSuuchi_JMP
+mov eax,3F000000
+movd xmm1,eax
+divss xmm0,xmm1
+AnalogSuuchi_JMP:
+test [edx],00008000
+je CamZoomSkip
+mov eax,BF000000
+movd xmm1,eax
+divss xmm0,xmm1
+movss xmm6,[ebx+18]
+call AnalogHosei
+movss xmm1,xmm6
+divss xmm1,xmm0
+
+mov eax,40000000
+movd xmm2,eax
+divss xmm1,xmm2
+
+addss xmm1,[ecx+20]
+movss [ecx+20],xmm1
+
+mov eax,80000000
+movd xmm1,eax
+xorps xmm0,xmm1
+
+movss xmm6,[ebx+14]
+call AnalogHosei
+movss xmm1,xmm6
+divss xmm1,xmm0
+
+mov eax,C0000000
+movd xmm2,eax
+mulss xmm1,xmm2
+
+addss xmm1,[ecx+24]
+movss [ecx+24],xmm1
+
+//mov eax,80000000
+//movd xmm1,eax
+//xorps xmm0,xmm1
+
+mov eax,3F000000
+movd xmm1,eax
+divss xmm0,xmm1
+
+movss xmm6,[ebx+20]
+call AnalogHosei
+movss xmm1,xmm6
+
+lea ecx,[BryanyoraMem+1C]
+
+divss xmm1,xmm0
+addss xmm1,[ecx]
+movss [ecx],xmm1
+mov eax,3F800000
+movd xmm1,eax
+comiss xmm1,[ecx]
+jb MotSpeed_GET
+xorps xmm1,xmm1
+comiss xmm1,[ecx]
+jb MotSpeed_END
+MotSpeed_GET:
+movss [ecx],xmm1
+MotSpeed_END:
+and [ebx],FF00FFFF
+mov [ebx+14],00000000
+mov [ebx+18],00000000
+mov [ebx+1C],00000000
+mov [ebx+20],00000000
+jmp Cam_END
+
+CamZoomSkip:
+//cmp byte ptr [BryanyoraMem],01
+//jne Cam_END
+
+mov eax,40A00000
+movd xmm1,eax
+divss xmm0,xmm1
+
+movss xmm6,[ebx+1C]
+call AnalogHosei
+movss xmm1,xmm6
+
+divss xmm1,xmm0
+addss xmm1,[ecx]
+movss [ecx],xmm1
+
+movss xmm6,[ebx+20]
+call AnalogHosei
+movss xmm1,xmm6
+divss xmm1,xmm0
+test [edx],00002000
+je CamZahyou_A_A
+addss xmm1,[ecx+4]
+movss [ecx+4],xmm1
+jmp CamZahyou_A_B
+CamZahyou_A_A:
+addss xmm1,[ecx+8]
+movss [ecx+8],xmm1
+CamZahyou_A_B:
+
+movss xmm6,[ebx+14]
+call AnalogHosei
+movss xmm1,xmm6
+
+divss xmm1,xmm0
+addss xmm1,[ecx+10]
+movss [ecx+10],xmm1
+
+movss xmm6,[ebx+18]
+call AnalogHosei
+movss xmm1,xmm6
+
+divss xmm1,xmm0
+test [edx],00002000
+je CamZahyou_B_A
+addss xmm1,[ecx+14]
+movss [ecx+14],xmm1
+jmp CamZahyou_B_B
+CamZahyou_B_A:
+addss xmm1,[ecx+18]
+movss [ecx+18],xmm1
+CamZahyou_B_B:
+and [ebx],FF00FFFF
+mov [ebx+14],00000000
+mov [ebx+18],00000000
+mov [ebx+1C],00000000
+mov [ebx+20],00000000
+Cam_END:
+
+lea ecx,[BryanyoraMem+200]
+Hannou_F:
+test [edx],0000D000
+jne Hannou_F_END
+test [edx],00002000
+je Hannou_F_END
+test [edx+10],00000001
+je Hannou_F_01
+mov byte ptr [ecx],00
+jmp Hannou_F_END
+Hannou_F_01:
+test [edx+10],00000008
+je Hannou_F_02
+mov byte ptr [ecx],01
+jmp Hannou_F_END
+Hannou_F_02:
+test [edx+10],00000002
+je Hannou_F_03
+mov byte ptr [ecx],02
+jmp Hannou_F_END
+Hannou_F_03:
+test [edx+10],00000004
+je Hannou_F_END
+mov byte ptr [ecx],03
+Hannou_F_END:
+
+DownM_F:
+test [edx],0000C000
+jne DownM_F_END
+test [edx],00001000
+je DownM_F_END
+test [edx],00002000
+je DownM_F_END
+test [edx+10],00000001
+je DownM_F_01
+mov byte ptr [ecx+03],00
+jmp DownM_F_END
+DownM_F_01:
+test [edx+10],00000008
+je DownM_F_02
+mov byte ptr [ecx+03],01
+jmp DownM_F_END
+DownM_F_02:
+test [edx+10],00000002
+je DownM_F_03
+mov byte ptr [ecx+03],02
+jmp DownM_F_END
+DownM_F_03:
+test [edx+10],00000004
+je DownM_F_END
+mov byte ptr [ecx+03],01
+DownM_F_END:
+
+Hold_F:
+test [edx],00005000
+jne Hold_F_END
+test [edx],00002000
+je Hold_F_END
+test [edx],00008000
+je Hold_F_END
+test [edx+10],00000001
+je Hold_F_01
+mov byte ptr [ecx+06],00
+jmp Hold_F_END
+Hold_F_01:
+test [edx+10],00000008
+je Hold_F_02
+mov byte ptr [ecx+06],01
+jmp Hold_F_END
+Hold_F_02:
+test [edx+10],00000002
+je Hold_F_03
+mov byte ptr [ecx+06],02
+jmp Hold_F_END
+Hold_F_03:
+test [edx+10],00000004
+je Hold_F_END
+mov byte ptr [ecx+06],03
+Hold_F_END:
+
+Counter_F:
+test [edx],00009000
+jne Counter_F_END
+test [edx],00002000
+je Counter_F_END
+test [edx],00004000
+je Counter_F_END
+test [edx+10],00000001
+je Counter_F_01
+mov byte ptr [ecx+07],00
+jmp Counter_F_END
+Counter_F_01:
+test [edx+10],00000008
+je Counter_F_02
+mov byte ptr [ecx+07],01
+jmp Counter_F_END
+Counter_F_02:
+test [edx+10],00000002
+je Counter_F_03
+mov byte ptr [ecx+07],02
+jmp Counter_F_END
+Counter_F_03:
+test [edx+10],00000004
+je Counter_F_END
+mov byte ptr [ecx+07],01
+Counter_F_END:
+
+Himei_F:
+test [edx],00007000
+jne Himei_F_END
+test [edx],00008000
+je Himei_F_END
+test [edx+10],00000001
+je Himei_F_01
+mov byte ptr [ecx+04],00
+jmp Himei_F_END
+Himei_F_01:
+test [edx+10],00000008
+je Himei_F_02
+mov byte ptr [ecx+04],01
+jmp Himei_F_END
+Himei_F_02:
+test [edx+10],00000002
+je Himei_F_03
+mov byte ptr [ecx+04],02
+jmp Himei_F_END
+Himei_F_03:
+test [edx+10],00000004
+je Himei_F_END
+mov byte ptr [ecx+04],00
+Himei_F_END:
+
+Hyoujou_F:
+test [edx],00006000
+jne Hyoujou_F_END
+test [edx],00008000
+je Hyoujou_F_END
+test [edx],00001000
+je Hyoujou_F_END
+test [edx+10],00000001
+je Hyoujou_F_01
+mov byte ptr [ecx+08],00
+jmp Hyoujou_F_END
+Hyoujou_F_01:
+test [edx+10],00000008
+je Hyoujou_F_02
+mov byte ptr [ecx+08],01
+jmp Hyoujou_F_END
+Hyoujou_F_02:
+test [edx+10],00000002
+je Hyoujou_F_03
+mov byte ptr [ecx+08],02
+jmp Hyoujou_F_END
+Hyoujou_F_03:
+test [edx+10],00000004
+je Hyoujou_F_END
+mov byte ptr [ecx+08],03
+Hyoujou_F_END:
+
+lea ecx,[BryanyoraMem+10]
+CharaModel_F:
+test [edx],0000A000
+jne CharaModel_F_END
+test [edx],00001000
+je CharaModel_F_END
+test [edx],00004000
+je CharaModel_F_END
+test [edx],00000002
+je CharaModel_F_A
+mov byte ptr [ecx],00
+mov byte ptr [ecx+01],00
+mov byte ptr [ecx+02],00
+jmp CharaModel_F_END
+CharaModel_F_A:
+
+cmp byte ptr [BryanyoraMem],01
+je CharaModel_F_B
+cmp byte ptr [BryanyoraMem+C],01
+je CharaModel_F_1P
+jmp CharaModel_F_END
+
+CharaModel_F_B:
+cmp byte ptr [BryanyoraMem+04],01
+je CharaModel_F_FPV
+cmp byte ptr [BryanyoraMem+04],02
+je CharaModel_F_FPV
+cmp byte ptr [BryanyoraMem+04],03
+je CharaModel_F_FPV
+cmp byte ptr [BryanyoraMem+04],04
+jne CharaModel_F_1P
+
+CharaModel_F_FPV:
+test [edx+10],00000001
+je CharaModel_F_1P
+cmp byte ptr [ecx],01
+jne CharaModel_F_FPV_GET
+mov byte ptr [ecx],00
+jmp CharaModel_F_1P
+CharaModel_F_FPV_GET:
+mov byte ptr [ecx],01
+
+CharaModel_F_1P:
+test [edx+10],00000004
+je CharaModel_F_2P
+cmp byte ptr [ecx+01],01
+jne CharaModel_F_1P_GET
+mov byte ptr [ecx+01],00
+jmp CharaModel_F_2P
+CharaModel_F_1P_GET:
+mov byte ptr [ecx+01],01
+
+CharaModel_F_2P:
+test [edx+10],00000008
+je CharaModel_F_END
+cmp byte ptr [ecx+02],01
+jne CharaModel_F_2P_GET
+mov byte ptr [ecx+02],00
+jmp CharaModel_F_END
+CharaModel_F_2P_GET:
+mov byte ptr [ecx+02],01
+CharaModel_F_END:
+
+test [ebx],0000F000
+je PAD_SKIP
+and [ebx],FFFFFFF0
+and [ebx+08],FFFFFFF0
+
+PAD_SKIP:
+pop edx
+pop ecx
+pop ebx
+pop eax
+PAD_ALLSKIP:
+jmp PAD_Suuchi_RET
+
+AnalogHosei:
+comiss xmm6,xmm4
+ja AnalogHosei_MINUS
+subss xmm6,xmm4
+ret
+AnalogHosei_MINUS:
+comiss xmm6,xmm5
+jb AnalogHosei_ZERO
+subss xmm6,xmm5
+ret
+AnalogHosei_ZERO:
+pxor xmm6,xmm6
+ret
+
+PauseShinai_A:
+db 83 C4 04
+cmp byte ptr [BryanyoraMem+0C],01
+je PauseShinai_A_JMP
+cmp byte ptr [BryanyoraMem],01
+jne PauseShinai_A_SKIP
+PauseShinai_A_JMP:
+xor al,al
+PauseShinai_A_SKIP:
+db 84 C0
+jmp PauseShinai_A_RET
+
+PauseShinai_B:
+db 8B 7F 08
+cmp byte ptr [BryanyoraMem+0C],01
+je PauseShinai_B_JMP
+cmp byte ptr [BryanyoraMem],01
+jne PauseShinai_B_SKIP
+PauseShinai_B_JMP:
+xor edi,edi
+PauseShinai_B_SKIP:
+db 8B C7
+jmp PauseShinai_B_RET
+
+AOB_PAD:
+jmp PAD_Suuchi
+PAD_Suuchi_RET:
+
+AOB_PauseShinai_A:
+jmp PauseShinai_A
+PauseShinai_A_RET:
+
+AOB_PauseShinai_B:
+jmp PauseShinai_B
+PauseShinai_B_RET:
+
+[disable]
+unregistersymbol(AOB_PAD)
+unregistersymbol(AOB_PauseShinai_A)
+unregistersymbol(AOB_PauseShinai_B)
+dealloc(newmem)
+
+AOB_PAD:
+db F3 0F 11 46 20
+
+AOB_PauseShinai_A:
+db 83 C4 04
+db 84 C0
+
+AOB_PauseShinai_B:
+db 8B 7F 08
+db 8B C7
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>50</ID>
+          <Description>"0100_Camera"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_Camera_A,game.exe,39 9F 28 E3 00 00 8D B7 28 E3 00 00 75 72 E8 * * * * 84 C0)
+aobscanmodule(AOB_Camera_B,game.exe,D9 99 BC 00 00 00 F3 0F 10 80 F0 10 00 00)
+aobscanmodule(AOB_CameraSP_A,game.exe,53 8B 5D 08 56 80 7F 30 00 74 6D)
+aobscanmodule(AOB_CameraSP_B,game.exe,8B B7 BC 00 00 00 85 F6 0F 95 C0 84 C0)
+registersymbol(AOB_Camera_A)
+registersymbol(AOB_Camera_B)
+registersymbol(AOB_CameraSP_A)
+registersymbol(AOB_CameraSP_B)
+alloc(newmem,4096,"game.exe")
+label(Camera_A)
+label(Camera_A_A)
+label(Camera_A_H)
+label(Camera_A_P)
+label(Camera_A_OP)
+label(Camera_A_MA)
+label(Camera_A_OP_A)
+label(Camera_A_OPS)
+label(Camera_A_SP)
+label(Camera_A_SMA)
+label(Camera_A_SP_A)
+label(Camera_A_SP_Aa)
+label(Camera_A_SMB)
+label(Camera_A_SP_B)
+label(Camera_A_SP_Ba)
+label(Camera_A_FPV)
+label(Camera_A_END)
+label(Camera_A_SKIP)
+label(Camera_A_RET)
+label(NotCamera_A1)
+label(NotCamera_A2)
+label(Camera_A_P1)
+label(Camera_A_P2)
+label(Camera_A_P3)
+label(Camera_A_P4)
+label(Camera_A_P_A)
+label(Camera_A_P_Aa)
+label(Camera_A_P_Ab)
+label(Camera_A_P_B)
+label(Camera_A_P_C)
+label(Camera_A_P_D)
+label(Camera_A_SPA1)
+label(Camera_A_SPA2)
+label(Camera_A_SPA3)
+label(Camera_A_SPA4)
+label(Camera_A_SPA_A)
+label(Camera_A_SPA_Aa)
+label(Camera_A_SPA_Ab)
+label(Camera_A_SPA_B)
+label(Camera_A_SPA_C)
+label(Camera_A_SPA_D)
+label(Camera_A_SPB1)
+label(Camera_A_SPB2)
+label(Camera_A_SPB3)
+label(Camera_A_SPB4)
+label(Camera_A_SPB_A)
+label(Camera_A_SPB_Aa)
+label(Camera_A_SPB_Ab)
+label(Camera_A_SPB_B)
+label(Camera_A_SPB_C)
+label(Camera_A_SPB_D)
+label(Camera_A_SPBOP)
+
+label(Camera_B)
+label(Camera_B_SKIP)
+label(Camera_B_RET)
+
+label(CameraSP_A)
+label(CameraSP_A_2P)
+label(CameraSP_A_3P)
+label(CameraSP_A_4P)
+label(CameraSP_A_A)
+label(CameraSP_A_B)
+label(CameraSP_A_C)
+label(CameraSP_A_D)
+label(CameraSP_A_SKIP)
+label(CameraSP_A_RET)
+
+label(CameraSP_B)
+label(CameraSP_B_SKIP)
+label(CameraSP_B_RET)
+
+newmem:
+Camera_A:
+push eax
+push ebx
+push ecx
+push edx
+lea eax,[BryanyoraMem]
+lea ecx,[edi+000000E0]
+cmp byte ptr [eax],01
+je Camera_A_H
+Camera_A_SKIP:
+cmp byte ptr [eax+0C],01
+jne NotCamera_A1
+add eax,00E0
+NotCamera_A1:
+add eax,20
+movaps xmm0,[ecx]
+movaps [eax+30],xmm0
+movaps xmm0,[ecx+10]
+movaps [eax+40],xmm0
+movss xmm0,[ecx+30]
+movss [eax+50],xmm0
+movss xmm0,[ecx+34]
+movss [eax+54],xmm0
+cmp byte ptr [BryanyoraMem+0C],01
+je NotCamera_A2
+pop edx
+pop ecx
+pop ebx
+pop eax
+db 39 9F 28 E3 00 00
+jmp Camera_A_RET
+Camera_A_H:
+mov edx,[game.exe+20720D4]
+test edx,edx
+je Camera_A_P
+cmp byte ptr [eax+04],01
+je Camera_A_SP
+cmp byte ptr [eax+04],02
+je Camera_A_SP
+cmp byte ptr [eax+04],03
+je Camera_A_SP
+cmp byte ptr [eax+04],04
+je Camera_A_SP
+
+Camera_A_A:
+Camera_A_P1:
+cmp byte ptr [eax+01],01
+jne Camera_A_P2
+mov eax,00000000
+mov esi,00000002
+jmp Camera_A_P_A
+Camera_A_P2:
+cmp byte ptr [eax+01],02
+jne Camera_A_P3
+mov eax,00000001
+mov esi,00000003
+jmp Camera_A_P_A
+Camera_A_P3:
+cmp byte ptr [eax+01],03
+jne Camera_A_P4
+mov eax,00000002
+mov esi,00000000
+jmp Camera_A_P_A
+Camera_A_P4:
+cmp byte ptr [eax+01],04
+jne Camera_A_P
+mov eax,00000003
+mov esi,00000001
+Camera_A_P_A:
+mov ebx,eax
+Camera_A_P_Ab:
+lea ecx,[eax*8+game.exe+FD1310]
+mov eax,[ecx]
+mov ecx,[ecx+04]
+Camera_A_P_Aa:
+cmp [edx],eax
+jne Camera_A_P_B
+cmp [edx+04],ecx
+je Camera_A_P_C
+Camera_A_P_B:
+mov edx,[edx+10]
+test edx,edx
+jne Camera_A_P_Aa
+jmp Camera_A_P_D
+Camera_A_P_C:
+mov ecx,[edx+40]
+mov cl,[ecx+28]
+cmp cl,[edx+34]
+je Camera_A_OP
+cmp byte ptr [edx+34],bl
+jne Camera_A_P_D
+cmp byte ptr [edx+30],00
+je Camera_A_P_D
+cmp byte ptr [edx+31],00
+je Camera_A_P_D
+cmp byte ptr [edx+32],00
+jne Camera_A_OP
+Camera_A_P_D:
+cmp ebx,esi
+je Camera_A_P
+mov edx,[game.exe+20720D4]
+mov eax,esi
+mov ebx,eax
+jmp Camera_A_P_Ab
+
+Camera_A_OP:
+lea eax,[BryanyoraMem]
+movzx ebx,byte ptr [eax+02]
+cmp byte ptr [CameraPos_PN+20],bl
+ja Camera_A_MA
+movzx ebx,[CameraPos_PN+20]
+mov byte ptr [eax+02],bl
+Camera_A_MA:
+cmp [edx],00000004
+je Camera_A_MAtest1
+cmp [edx],00000026
+jne Camera_A_MAtest2
+Camera_A_MAtest1:
+mov edx,[edx+18]
+test edx,edx
+je Camera_A_P
+mov esi,edx
+jmp Camera_A_MAtest3
+Camera_A_MAtest2:
+mov esi,[edx+000000BC]
+test esi,esi
+je Camera_A_P
+mov esi,[esi+20]
+test esi,esi
+je Camera_A_P
+mov edx,[edx+18]
+test edx,edx
+je Camera_A_P
+Camera_A_MAtest3:
+lea ecx,[edx+00000030]
+test ebx,ebx
+je Camera_A_OPS
+dec ebx
+lea eax,[CameraPos_PN]
+lea eax,[eax+ebx]
+movzx eax,byte ptr [eax]
+test al,80
+je Camera_A_OP_A
+and al,7F
+mov edx,esi
+Camera_A_OP_A:
+lea ecx,[edx+00000030]
+imul eax,00000040
+add ecx,eax
+Camera_A_OPS:
+mov ebx,ecx
+mov eax,3F800000
+movd xmm1,eax
+lea eax,[BryanyoraMem+20]
+movaps xmm0,[ebx]
+movaps [eax+40],xmm0
+cmp byte ptr [BryanyoraMem+03],01
+je Camera_A_P
+movss xmm0,[ebx]
+addss xmm0,xmm1
+movss [eax+30],xmm0
+movss xmm0,[ebx+4]
+addss xmm0,xmm1
+movss [eax+34],xmm0
+movss xmm0,[ebx+8]
+addss xmm0,xmm1
+movss [eax+38],xmm0
+jmp Camera_A_P
+
+Camera_A_SP:
+Camera_A_SPA1:
+cmp byte ptr [eax+04],01
+jne Camera_A_SPA2
+mov eax,00000001
+mov esi,00000003
+jmp Camera_A_SPA_A
+Camera_A_SPA2:
+cmp byte ptr [eax+04],02
+jne Camera_A_SPA3
+mov eax,00000000
+mov esi,00000002
+jmp Camera_A_SPA_A
+Camera_A_SPA3:
+cmp byte ptr [eax+04],03
+jne Camera_A_SPA4
+mov eax,00000003
+mov esi,00000001
+jmp Camera_A_SPA_A
+Camera_A_SPA4:
+cmp byte ptr [eax+04],04
+jne Camera_A_P
+mov eax,00000002
+mov esi,00000000
+Camera_A_SPA_A:
+mov ebx,eax
+Camera_A_SPA_Ab:
+lea ecx,[eax*8+game.exe+FD1310]
+mov eax,[ecx]
+mov ecx,[ecx+04]
+Camera_A_SPA_Aa:
+cmp [edx],eax
+jne Camera_A_SPA_B
+cmp [edx+04],ecx
+je Camera_A_SPA_C
+Camera_A_SPA_B:
+mov edx,[edx+10]
+test edx,edx
+jne Camera_A_SPA_Aa
+jmp Camera_A_SPA_D
+Camera_A_SPA_C:
+cmp byte ptr [edx+34],bl
+jne Camera_A_SPA_D
+mov ecx,[edx+40]
+mov cl,[ecx+28]
+cmp cl,[edx+34]
+je Camera_A_SPOP
+cmp byte ptr [edx+30],00
+je Camera_A_SPA_D
+cmp byte ptr [edx+31],00
+je Camera_A_SPA_D
+cmp byte ptr [edx+32],00
+jne Camera_A_SPOP
+Camera_A_SPA_D:
+cmp ebx,esi
+je Camera_A_P
+mov edx,[game.exe+20720D4]
+mov eax,esi
+mov ebx,eax
+jmp Camera_A_SPA_Ab
+
+Camera_A_SPOP:
+lea eax,[BryanyoraMem]
+movzx ebx,byte ptr [eax+06]
+cmp byte ptr [CameraPos_PN+20],bl
+ja Camera_A_SMA
+movzx ebx,[CameraPos_PN+20]
+mov byte ptr [eax+06],bl
+Camera_A_SMA:
+cmp [edx],00000004
+je Camera_A_SMAtest1
+cmp [edx],00000026
+jne Camera_A_SMAtest2
+Camera_A_SMAtest1:
+mov edx,[edx+18]
+test edx,edx
+je Camera_A_P
+mov esi,edx
+jmp Camera_A_SMAtest3
+Camera_A_SMAtest2:
+mov esi,[edx+000000BC]
+test esi,esi
+je Camera_A_P
+mov esi,[esi+20]
+test esi,esi
+je Camera_A_P
+mov edx,[edx+18]
+test edx,edx
+je Camera_A_P
+Camera_A_SMAtest3:
+lea ecx,[esi+00000030]
+lea ecx,[ecx+00000040]
+test ebx,ebx
+je Camera_A_SP_A
+dec ebx
+lea eax,[CameraPos_PN]
+lea eax,[eax+ebx]
+movzx eax,byte ptr [eax]
+test al,80
+je Camera_A_SP_Aa
+and al,7F
+mov edx,esi
+Camera_A_SP_Aa:
+lea ecx,[edx+000030]
+imul eax,00000040
+add ecx,eax
+
+Camera_A_SP_A:
+lea eax,[BryanyoraMem+80]
+movaps xmm0,[ecx]
+movaps [eax+40],xmm0
+
+mov edx,[game.exe+20720D4]
+lea eax,[BryanyoraMem]
+Camera_A_SPB1:
+cmp byte ptr [eax+04],01
+jne Camera_A_SPB2
+mov eax,00000000
+mov esi,00000002
+jmp Camera_A_SPB_A
+Camera_A_SPB2:
+cmp byte ptr [eax+04],02
+jne Camera_A_SPB3
+mov eax,00000001
+mov esi,00000003
+jmp Camera_A_SPB_A
+Camera_A_SPB3:
+cmp byte ptr [eax+04],03
+jne Camera_A_SPB4
+mov eax,00000002
+mov esi,00000000
+jmp Camera_A_SPB_A
+Camera_A_SPB4:
+cmp byte ptr [eax+04],04
+jne Camera_A_P
+mov eax,00000003
+mov esi,00000001
+Camera_A_SPB_A:
+mov ebx,eax
+Camera_A_SPB_Ab:
+lea ecx,[eax*8+game.exe+FD1310]
+mov eax,[ecx]
+mov ecx,[ecx+04]
+Camera_A_SPB_Aa:
+cmp [edx],eax
+jne Camera_A_SPB_B
+cmp [edx+04],ecx
+je Camera_A_SPB_C
+Camera_A_SPB_B:
+mov edx,[edx+10]
+test edx,edx
+jne Camera_A_SPB_Aa
+jmp Camera_A_SPB_D
+Camera_A_SPB_C:
+mov ecx,[edx+40]
+mov cl,[ecx+28]
+cmp cl,[edx+34]
+je Camera_A_SPBOP
+cmp byte ptr [edx+34],bl
+jne Camera_A_SPB_D
+cmp byte ptr [edx+30],00
+je Camera_A_SPB_D
+cmp byte ptr [edx+31],00
+je Camera_A_SPB_D
+cmp byte ptr [edx+32],00
+jne Camera_A_SPBOP
+Camera_A_SPB_D:
+cmp ebx,esi
+je Camera_A_P
+mov edx,[game.exe+20720D4]
+mov eax,esi
+mov ebx,eax
+jmp Camera_A_SPB_Ab
+
+Camera_A_SPBOP:
+lea eax,[BryanyoraMem]
+movzx ebx,byte ptr [eax+05]
+cmp byte ptr [CameraPos_PN+21],bl
+ja Camera_A_SMB
+movzx ebx,[CameraPos_PN+21]
+mov byte ptr [eax+05],bl
+Camera_A_SMB:
+cmp [edx],00000004
+je Camera_A_SMBtest1
+cmp [edx],00000026
+jne Camera_A_SMBtest2
+Camera_A_SMBtest1:
+mov edx,[edx+18]
+test edx,edx
+je Camera_A_P
+mov esi,edx
+lea ecx,[esi+00000030]
+lea ecx,[ecx+00000040]
+jmp Camera_A_SMBtest3
+Camera_A_SMBtest2:
+mov esi,[edx+000000BC]
+test esi,esi
+je Camera_A_P
+mov esi,[esi+20]
+test esi,esi
+je Camera_A_P
+mov edx,[edx+18]
+test edx,edx
+je Camera_A_P
+lea ecx,[esi+00000030]
+lea ecx,[ecx+00000080]
+Camera_A_SMBtest3:
+test ebx,ebx
+je Camera_A_SP_B
+dec ebx
+lea eax,[CameraPos_PN+10]
+lea eax,[eax+ebx]
+movzx eax,byte ptr [eax]
+test al,80
+je Camera_A_SP_Ba
+and al,7F
+mov edx,esi
+Camera_A_SP_Ba:
+lea ecx,[edx+00000030]
+imul eax,00000040
+add ecx,eax
+Camera_A_SP_B:
+lea rax,[BryanyoraMem+80]
+movaps xmm0,[ecx]
+movaps [eax+30],xmm0
+jmp Camera_A_FPV
+Camera_A_P:
+lea eax,[BryanyoraMem+20]
+Camera_A_FPV:
+mov [eax+50],3F1E9D93
+mov [eax+54],00000000
+//mov [ecx+3C],40000000
+lea ecx,[edi+000000E0]
+movss xmm0,[eax+00]
+addss xmm0,[eax+30]
+movss [ecx],xmm0
+movss xmm0,[eax+04]
+addss xmm0,[eax+34]
+movss [ecx+4],xmm0
+movss xmm0,[eax+08]
+addss xmm0,[eax+38]
+movss [ecx+8],xmm0
+movss xmm0,[eax+10]
+addss xmm0,[eax+40]
+movss [ecx+10],xmm0
+movss xmm0,[eax+14]
+addss xmm0,[eax+44]
+movss [ecx+14],xmm0
+movss xmm0,[eax+18]
+addss xmm0,[eax+48]
+movss [ecx+18],xmm0
+NotCamera_A2:
+movss xmm0,[eax+20]
+addss xmm0,[eax+50]
+movss [ecx+30],xmm0
+movss xmm0,[eax+24]
+addss xmm0,[eax+54]
+movss [ecx+34],xmm0
+Camera_A_END:
+pop edx
+pop ecx
+pop ebx
+pop eax
+db 39 9F 28 E3 00 00
+db 8D B7 28 E3 00 00
+jmp Camera_A_RET+11
+
+Camera_B:
+db D9 99 BC 00 00 00
+cmp byte ptr [BryanyoraMem],01
+jne Camera_B_SKIP
+mov [ecx+000000BC],3D4CCCCD
+Camera_B_SKIP:
+jmp Camera_B_RET
+
+CameraSP_A:
+db 53
+mov byte ptr [BryanyoraMem+000001E0],00
+mov [BryanyoraMem+000001E4],00000000
+cmp byte ptr [BryanyoraMem],01
+jne CameraSP_A_SKIP
+cmp byte ptr [BryanyoraMem+04],01
+jne CameraSP_A_2P
+mov ebx,00000000
+mov ecx,00000002
+jmp CameraSP_A_A
+CameraSP_A_2P:
+cmp byte ptr [BryanyoraMem+04],02
+jne CameraSP_A_3P
+mov ebx,00000001
+mov ecx,00000003
+jmp CameraSP_A_A
+CameraSP_A_3P:
+cmp byte ptr [BryanyoraMem+04],03
+jne CameraSP_A_4P
+mov ebx,00000002
+mov ecx,00000000
+jmp CameraSP_A_A
+CameraSP_A_4P:
+cmp byte ptr [BryanyoraMem+04],04
+jne CameraSP_A_SKIP
+mov ebx,00000003
+mov ecx,00000001
+jmp CameraSP_A_A
+CameraSP_A_A:
+mov eax,edi
+CameraSP_A_B:
+cmp byte ptr [eax+34],bl
+je CameraSP_A_C
+mov eax,[eax+10]
+test eax,eax
+jne CameraSP_A_B
+cmp ebx,00000002
+cmove ebx,ecx
+cmp ebx,00000003
+cmove ebx,ecx
+jmp CameraSP_A_D
+CameraSP_A_C:
+cmp byte ptr [eax+30],00
+cmove ebx,ecx
+cmp byte ptr [eax+31],00
+cmove ebx,ecx
+cmp byte ptr [eax+32],00
+cmove ebx,ecx
+CameraSP_A_D:
+mov byte ptr [BryanyoraMem+01E0],01
+mov [BryanyoraMem+01E4],ebx
+CameraSP_A_SKIP:
+db 8B 5D 08
+db 56
+jmp CameraSP_A_RET
+
+CameraSP_B:
+db 8B B7 BC 00 00 00
+cmp byte ptr [BryanyoraMem+01E0],01
+jne CameraSP_B_SKIP
+movzx eax,byte ptr [edi+34]
+cmp byte ptr [BryanyoraMem+01E4],al
+jne CameraSP_B_SKIP
+xor esi,esi
+CameraSP_B_SKIP:
+jmp CameraSP_B_RET
+
+AOB_Camera_A:
+jmp Camera_A
+nop
+Camera_A_RET:
+
+AOB_Camera_B:
+jmp Camera_B
+nop
+Camera_B_RET:
+
+AOB_CameraSP_A:
+jmp CameraSP_A
+CameraSP_A_RET:
+
+AOB_CameraSP_B:
+jmp CameraSP_B
+nop
+CameraSP_B_RET:
+
+[disable]
+unregistersymbol(AOB_Camera_A)
+unregistersymbol(AOB_Camera_B)
+unregistersymbol(AOB_CameraSP_A)
+unregistersymbol(AOB_CameraSP_B)
+dealloc(newmem)
+
+AOB_Camera_A:
+db 39 9F 28 E3 00 00
+
+AOB_Camera_B:
+db D9 99 BC 00 00 00
+
+AOB_CameraSP_A:
+db 53
+db 8B 5D 08
+db 56
+
+AOB_CameraSP_B:
+db 8B B7 BC 00 00 00
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>132</ID>
+              <Description>"00_Camera Mode Check"</Description>
+              <DropDownList DisplayValueAsItem="1">00:ON
+01:OFF
+</DropDownList>
+              <LastState Value="00" RealAddress="00B3000C"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>BryanyoraMem+0C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>133</ID>
+              <Description>"Keyboard Control"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>134</ID>
+                  <Description>"(Don't Active)CameraMode"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+00</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>135</ID>
+                      <Description>"(Don't Active)FPVMode"</Description>
+                      <DropDownList DisplayValueAsItem="1">00:OFF
+01:1P/3P
+02:2P/4P
+03:3P/1P
+04:4P/2P
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30004"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+04</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136</ID>
+                  <Description>"NormalCameraMode"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>137</ID>
+                      <Description>"(Don't Active)Camera Centering Character"</Description>
+                      <Options moHideChildren="1"/>
+                      <DropDownList DisplayValueAsItem="1">00:None
+01:1P/3P
+02:2P/4P
+03:3P/1P
+04:4P/2P
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30001"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+01</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>138</ID>
+                      <Description>"(Don't Active)Camera Centering Parts"</Description>
+                      <DropDownList DisplayValueAsItem="1">00:00
+01:01
+02:02
+03:03
+04:04
+05:05
+06:06
+07:07
+08:08
+09:09
+0A:0A
+0B:0B
+0C:0C
+0D:0D
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30002"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+02</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>139</ID>
+                      <Description>"(Don't Active)Camera Centering Stats"</Description>
+                      <Options moHideChildren="1"/>
+                      <DropDownList DisplayValueAsItem="1">00:Axis+Rotation
+01:Axis Only
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30003"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+03</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>140</ID>
+                      <Description>"(Don't Active)Camera Rotation X"</Description>
+                      <LastState Value="0" RealAddress="00B30020"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+20</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>141</ID>
+                      <Description>"(Don't Active)Camera Rotation Y"</Description>
+                      <LastState Value="0" RealAddress="00B30024"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+24</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>142</ID>
+                      <Description>"(Don't Active)Camera Rotation Z"</Description>
+                      <LastState Value="0" RealAddress="00B30028"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+28</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>143</ID>
+                      <Description>"(Don't Active)Camera Axis X"</Description>
+                      <LastState Value="0" RealAddress="00B30030"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+30</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>144</ID>
+                      <Description>"(Don't Active)Camera Axis Y"</Description>
+                      <LastState Value="0" RealAddress="00B30034"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+34</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>145</ID>
+                      <Description>"(Don't Active)Camera Axis Z"</Description>
+                      <LastState Value="0" RealAddress="00B30038"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+38</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>146</ID>
+                      <Description>"(Don't Active)Camera Zoom"</Description>
+                      <LastState Value="0" RealAddress="00B30040"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+40</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>147</ID>
+                      <Description>"(Don't Active)Camera Tilt"</Description>
+                      <LastState Value="0" RealAddress="00B30044"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+44</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>148</ID>
+                  <Description>"FPVCameraMode"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>149</ID>
+                      <Description>"(Don't Active)FPV Camera Centering Parts"</Description>
+                      <DropDownList DisplayValueAsItem="1">00:00
+01:01
+02:02
+03:03
+04:04
+05:05
+06:06
+07:07
+08:08
+09:09
+0A:0A
+0B:0B
+0C:0C
+0D:0D
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30005"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+05</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>150</ID>
+                      <Description>"(Don't Active)Target Camera Centering Parts"</Description>
+                      <DropDownList DisplayValueAsItem="1">00:00
+01:01
+02:02
+03:03
+04:04
+05:05
+06:06
+07:07
+08:08
+09:09
+0A:0A
+0B:0B
+0C:0C
+0D:0D
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30006"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+06</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>151</ID>
+                      <Description>"(Don't Active)Camera Rotation X"</Description>
+                      <LastState Value="0" RealAddress="00B30080"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+80</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>152</ID>
+                      <Description>"(Don't Active)Camera Rotation Y"</Description>
+                      <LastState Value="0" RealAddress="00B30084"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+84</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>153</ID>
+                      <Description>"(Don't Active)Camera Rotation Z"</Description>
+                      <LastState Value="0" RealAddress="00B30088"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+88</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>154</ID>
+                      <Description>"(Don't Active)Camera Axis X"</Description>
+                      <LastState Value="0" RealAddress="00B30090"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+90</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>155</ID>
+                      <Description>"(Don't Active)Camera Axis Y"</Description>
+                      <LastState Value="0" RealAddress="00B30094"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+94</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>156</ID>
+                      <Description>"(Don't Active)Camera Axis Z"</Description>
+                      <LastState Value="0" RealAddress="00B30098"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+98</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>157</ID>
+                      <Description>"(Don't Active)Camera Zoom"</Description>
+                      <LastState Value="0" RealAddress="00B300A0"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+A0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>158</ID>
+                      <Description>"(Don't Active)Camera Tilt"</Description>
+                      <LastState Value="0" RealAddress="00B300A4"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+A4</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>159</ID>
+                  <Description>"DefaultCamera"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>160</ID>
+                      <Description>"(Don't Active)Camera Zoom"</Description>
+                      <LastState Value="0" RealAddress="00B30120"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+120</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>161</ID>
+                      <Description>"(Don't Active)Camera Tilt"</Description>
+                      <LastState Value="0" RealAddress="00B30124"/>
+                      <VariableType>Float</VariableType>
+                      <Address>BryanyoraMem+124</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>124</ID>
+          <Description>"0110_Hide Character Model(CameraMode)"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_CharaModel_A,game.exe,0F B7 47 06 8B 4F 08 8B 09 50 51 E8 36 41 02 00 83 C4 08 50 57 8B CB)
+registersymbol(AOB_CharaModel_A)
+alloc(newmem,1024,"game.exe")
+
+label(CharaModel_A)
+label(CharaModel_A_A)
+label(CharaModel_A_B)
+label(CharaModel_A_SKIP)
+label(CharaModel_A_JMP)
+label(CharaModel_A_RET)
+
+newmem:
+CharaModel_A:
+cmp byte ptr [BryanyoraMem+C],01
+je CharaModel_A_B
+cmp byte ptr [BryanyoraMem],01
+jne CharaModel_A_SKIP
+CharaModel_A_B:
+movzx eax,byte ptr [edi+34]
+cmp byte ptr [BryanyoraMem],01
+jne CharaModel_A_A
+cmp byte ptr [BryanyoraMem+10],01
+jne CharaModel_A_A
+cmp byte ptr [BryanyoraMem+01E0],01
+jne CharaModel_A_A
+cmp byte ptr [BryanyoraMem+01E4],al
+je CharaModel_A_JMP
+CharaModel_A_A:
+lea ecx,[BryanyoraMem+10]
+lea eax,[eax+ecx]
+cmp byte ptr [eax+04],01
+je CharaModel_A_JMP
+movzx eax,byte ptr [edi+36]
+inc eax
+lea eax,[eax+ecx]
+cmp byte ptr [eax],01
+je CharaModel_A_JMP
+CharaModel_A_SKIP:
+db 0F B7 47 06
+db 8B 4F 08
+jmp CharaModel_A_RET
+CharaModel_A_JMP:
+jmp CharaModel_A_RET+5A
+
+
+AOB_CharaModel_A:
+jmp CharaModel_A
+nop
+nop
+CharaModel_A_RET:
+
+[disable]
+unregistersymbol(AOB_CharaModel_A)
+dealloc(newmem)
+
+AOB_CharaModel_A:
+db 0F B7 47 06
+db 8B 4F 08
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3573</ID>
+              <Description>"Hide Character Model"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>125</ID>
+                  <Description>"(Don't Active)00_FPV Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30010"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+10</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>126</ID>
+                  <Description>"(Don't Active)01_1P/3P Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30011"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+11</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>127</ID>
+                  <Description>"(Don't Active)02_2P/4P Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30012"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+12</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>128</ID>
+                  <Description>"1P Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30014"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+14</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>129</ID>
+                  <Description>"2P Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30015"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+15</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>130</ID>
+                  <Description>"3P Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30016"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+16</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>131</ID>
+                  <Description>"4P Model"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30017"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+17</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>162</ID>
+          <Description>"0120_Left Side(CameraMode)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_CameraMuki_A,game.exe,8A 88 79 11 00 00 88 0D * * * *)
+registersymbol(AOB_CameraMuki_A)
+alloc(newmem,1024,"game.exe")
+
+newmem:
+CameraMuki_A:
+db 8A 88 79 11 00 00
+cmp byte ptr [BryanyoraMem],01
+jne CameraMuki_A_SKIP
+xor cl,cl
+CameraMuki_A_SKIP:
+jmp CameraMuki_A_RET
+
+AOB_CameraMuki_A:
+jmp CameraMuki_A
+nop
+CameraMuki_A_RET:
+
+[disable]
+unregistersymbol(AOB_CameraMuki_A)
+dealloc(newmem)
+
+AOB_CameraMuki_A:
+db 8A 88 79 11 00 00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3533</ID>
+          <Description>"0130_Motion Speed(CameraMode)"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_MotSpeed_A,game.exe,A1 * * * * 33 C5 50 8D 45 F4 64 A3 00 00 00 00 * * * * * * * 74 69)
+aobscanmodule(AOB_MotSpeed_B,game.exe,F3 0F 11 0D * * * * F6 C4 44 7A 13 0F 57 C0)
+aobscanmodule(AOB_MotSpeed_C,game.exe,F3 0F 11 05 * * * * F6 C4 44 7A 17 0F 57 C0)
+registersymbol(AOB_MotSpeed_A)
+registersymbol(AOB_MotSpeed_B)
+registersymbol(AOB_MotSpeed_C)
+alloc(newmem,1024,"game.exe")
+label(MotSpeed_A)
+label(MotSpeed_A_A)
+label(MotSpeed_A_B)
+label(MotSpeed_A_C)
+label(MotSpeed_A_NC)
+label(MotSpeed_A_STP)
+label(MotSpeed_A_ZERO)
+label(MotSpeed_A_JMP)
+label(MotSpeed_A_SKIP)
+label(MotSpeed_A_RET)
+
+label(MotSpeed_B)
+label(MotSpeed_B_RET)
+label(MotSpeed_C)
+label(MotSpeed_C_RET)
+
+newmem:
+MotSpeed_A:
+movss xmm0,[BryanyoraMem+01F0]
+comiss xmm0,[game.exe+F9CEC0]
+je MotSpeed_A_A
+movss [game.exe+F9CEC0],xmm0
+MotSpeed_A_A:
+cmp byte ptr [game.exe+10879B0],00
+jne MotSpeed_A_SKIP
+cmp byte ptr [BryanyoraMem+C],01
+je MotSpeed_A_NC
+cmp byte ptr [BryanyoraMem],01
+je MotSpeed_A_NC
+cmp byte ptr [game.exe+10879B1],00
+je MotSpeed_A_SKIP
+cmp byte ptr [BryanyoraMem+18],01
+jne MotSpeed_A_SKIP
+call game.exe+313030
+jmp MotSpeed_A_SKIP
+MotSpeed_A_NC:
+mov al,[BryanyoraMem+18]
+cmp byte ptr [game.exe+10879B1],al
+je MotSpeed_A_STP
+test al,al
+je MotSpeed_A_STP_A
+call game.exe+313010
+jmp MotSpeed_A_STP
+MotSpeed_A_STP_A:
+call game.exe+313030
+MotSpeed_A_STP:
+xorps xmm0,xmm0
+comiss xmm0,[BryanyoraMem+1C]
+je MotSpeed_A_SKIP
+jna MotSpeed_A_B
+movss [BryanyoraMem+1C],xmm0
+jmp MotSpeed_A_SKIP
+MotSpeed_A_B:
+mov eax,3F800000
+movd xmm0,eax
+comiss xmm0,[BryanyoraMem+1C]
+jae MotSpeed_A_C
+movss [BryanyoraMem+1C],xmm0
+MotSpeed_A_C:
+subss xmm0,[BryanyoraMem+1C]
+MotSpeed_A_JMP:
+xorps xmm1,xmm1
+comiss xmm0,xmm1
+jne MotSpeed_A_ZERO
+cmp byte ptr [game.exe+10879B1],00
+jne MotSpeed_A_ZERO
+call game.exe+313010
+MotSpeed_A_ZERO:
+minss xmm0,[BryanyoraMem+01F0]
+movss [game.exe+F9CEC0],xmm0
+MotSpeed_A_SKIP:
+mov eax,[game.exe+F0E700]
+jmp MotSpeed_A_RET
+
+MotSpeed_B:
+movss [game.exe+F9CEC0],xmm1
+movss [BryanyoraMem+01F0],xmm1
+jmp MotSpeed_B_RET
+
+MotSpeed_C:
+movss [game.exe+F9CEC0],xmm0
+movss [BryanyoraMem+01F0],xmm0
+jmp MotSpeed_C_RET
+
+BryanyoraMem+01F0:
+dd 3F800000
+
+AOB_MotSpeed_A:
+jmp MotSpeed_A
+MotSpeed_A_RET:
+
+AOB_MotSpeed_B:
+jmp MotSpeed_B
+nop
+nop
+nop
+MotSpeed_B_RET:
+
+AOB_MotSpeed_C:
+jmp MotSpeed_C
+nop
+nop
+nop
+MotSpeed_C_RET:
+
+[disable]
+unregistersymbol(AOB_MotSpeed_A)
+unregistersymbol(AOB_MotSpeed_B)
+unregistersymbol(AOB_MotSpeed_C)
+dealloc(newmem)
+
+AOB_MotSpeed_A:
+mov eax,[game.exe+F0E700]
+
+AOB_MotSpeed_B:
+movss [game.exe+F9CEC0],xmm1
+
+AOB_MotSpeed_C:
+movss [game.exe+F9CEC0],xmm0
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3534</ID>
+              <Description>"(Don't Active)Motion Stop"</Description>
+              <DropDownList DisplayValueAsItem="1">00:OFF
+01:ON
+</DropDownList>
+              <LastState Value="00" RealAddress="00B30018"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>BryanyoraMem+18</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3535</ID>
+              <Description>"(Don't Active)Motion Speed Value"</Description>
+              <LastState Value="0" RealAddress="00B3001C"/>
+              <VariableType>Float</VariableType>
+              <Address>BryanyoraMem+1C</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>163</ID>
+          <Description>"0140_Hide UI(CameraMode)"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_HUD_A,game.exe,0F 84 CB 03 00 00 53 57 33 FF)
+aobscanmodule(AOB_HUD_B,game.exe,8B BB F8 01 00 00 EB 08 8D A4 24 00 00 00 00 90 8B 93 F0 01 00 00)
+registersymbol(AOB_HUD_A)
+registersymbol(AOB_HUD_B)
+alloc(newmem,256,"game.exe")
+
+label(HUD_A)
+label(HUD_A_SKIP)
+label(HUD_A_JMP)
+label(HUD_A_RET)
+
+label(HUD_B)
+label(HUD_B_SKIP)
+label(HUD_B_JMP)
+label(HUD_B_RET)
+
+newmem:
+HUD_A:
+je HUD_A_JMP
+cmp byte ptr [BryanyoraMem],01
+je HUD_A_JMP
+cmp byte ptr [BryanyoraMem+E],01
+je HUD_A_JMP
+HUD_A_SKIP:
+jmp HUD_A_RET
+HUD_A_JMP:
+jmp HUD_A_RET+03CB
+
+HUD_B:
+cmp byte ptr [BryanyoraMem],01
+je HUD_B_JMP
+cmp byte ptr [BryanyoraMem+E],01
+je HUD_B_JMP
+HUD_B_SKIP:
+db 8B BB F8 01 00 00
+jmp HUD_B_RET
+HUD_B_JMP:
+jmp HUD_B_RET+48
+
+AOB_HUD_A:
+jmp HUD_A
+nop
+HUD_A_RET:
+
+AOB_HUD_B:
+jmp HUD_B
+nop
+HUD_B_RET:
+
+[disable]
+unregistersymbol(AOB_HUD_A)
+unregistersymbol(AOB_HUD_B)
+dealloc(newmem)
+
+AOB_HUD_A:
+db 0F 84 CB 03 00 00
+
+AOB_HUD_B:
+db 8B BB F8 01 00 00
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3532</ID>
+              <Description>"Hide UI Select"</Description>
+              <DropDownList DisplayValueAsItem="1">00:CameraMode
+01:Always
+</DropDownList>
+              <LastState Value="00" RealAddress="00B3000E"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>BryanyoraMem+E</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"0200_OverKill"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>assert(game.exe+40CF50,83 3D * * * * 00 56 8B F1)
+assert(game.exe+291FA0,81 45 FC C8 06 00 00)
+
+[enable]
+aobscanmodule(AOB_OverKill_A,game.exe,73 49 80 7E 70 0C 75 09 81 7E 74 FF FF 00 00)
+aobscanmodule(AOB_OverKill_B,game.exe,FF 0D * * * * E8 B9 83 F5 FF 83 3D * * * * 00)
+aobscanmodule(AOB_OverKill_C,game.exe,75 0D 84 DB 74 04 85 F6 75 05 5E B0 01 5B C3)
+aobscanmodule(AOB_OverKill_D,game.exe,72 18 38 8E 37 0A 00 00 75 10 F3 0F 10 05 * * * *)
+aobscanmodule(AOB_Kanashibari_A,game.exe,0F 85 28 01 00 00 8A 4D FC)
+aobscanmodule(AOB_Kanashibari_B,game.exe,C6 86 * * * * 01 81 45 FC C8 06 00 00)
+registersymbol(AOB_OverKill_A)
+registersymbol(AOB_OverKill_B)
+registersymbol(AOB_OverKill_C)
+registersymbol(AOB_OverKill_D)
+registersymbol(AOB_Kanashibari_A)
+registersymbol(AOB_Kanashibari_B)
+alloc(newmem,1024,"game.exe")
+label(OverKill_B)
+label(OverKill_B_SKIP)
+label(OverKill_B_RET)
+
+newmem:
+OverKill_B:
+cmp dword ptr [game.exe+CD6D98],01
+je OverKill_B_SKIP
+dec [game.exe+CD6D98]
+OverKill_B_SKIP:
+jmp OverKill_B_RET
+
+AOB_OverKill_A:
+db 90 90
+
+AOB_OverKill_B:
+jmp OverKill_B
+nop
+OverKill_B_RET:
+
+AOB_OverKill_C:
+db EB 0D
+
+AOB_OverKill_D:
+db EB 18
+
+AOB_Kanashibari_A:
+db 90 90 90 90 90 90
+
+AOB_Kanashibari_B:
+mov byte ptr [esi+game.exe+F9CC10],00
+
+[disable]
+unregistersymbol(AOB_OverKill_A)
+unregistersymbol(AOB_OverKill_B)
+unregistersymbol(AOB_OverKill_C)
+unregistersymbol(AOB_OverKill_D)
+unregistersymbol(AOB_Kanashibari_A)
+unregistersymbol(AOB_Kanashibari_B)
+dealloc(newmem)
+
+AOB_OverKill_A:
+db 73 49
+
+AOB_OverKill_B:
+dec [game.exe+CD6D98]
+
+AOB_OverKill_C:
+db 75 0D
+
+AOB_OverKill_D:
+db 72 18
+
+AOB_Kanashibari_A:
+db 0F 85 28 01 00 00
+
+AOB_Kanashibari_B:
+mov byte ptr [esi+game.exe+F9CC10],01
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3538</ID>
+          <Description>"0201_Enable Pause After KO"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_EnablePause_A,game.exe,83 3D * * * * 02 74 69 F6 05 * * * * 01 75 2C)
+registersymbol(AOB_EnablePause_A)
+alloc(newmem,1024,"game.exe")
+label(EnablePause_A)
+label(EnablePause_A_END)
+label(EnablePause_A_RET)
+
+newmem:
+EnablePause_A:
+cmp dword ptr [game.exe+DD94D4],03
+je EnablePause_A_END
+cmp dword ptr [game.exe+DD94D4],02
+EnablePause_A_END:
+jmp EnablePause_A_RET
+
+AOB_EnablePause_A:
+jmp EnablePause_A
+nop
+nop
+EnablePause_A_RET:
+
+[disable]
+unregistersymbol(AOB_EnablePause_A)
+dealloc(newmem)
+
+AOB_EnablePause_A:
+cmp dword ptr [game.exe+DD94D4],02
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"0210_OverKillOption"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_AtariHantei_A,game.exe,8D 43 02 89 06 0F B7 10 52 57 E8 * * * * 69 FF 44 01 00 00)
+aobscanmodule(AOB_AtariHantei_B,game.exe,8B 4D D0 85 C9 75 05 8D 41 02 EB 09 8D 41 FE F7 D8)
+aobscanmodule(AOB_AtariHantei_C1,game.exe,F3 0F 11 04 24 F3 0F 10 83 * * * * 50 51 F3 0F 11 04 24 57)
+aobscanmodule(AOB_AtariHantei_C2,game.exe,F3 0F 11 04 24 56 51 8B 4D FC F3 0F 10 81 * * * *)
+aobscanmodule(AOB_AtariHantei_C3,game.exe,F3 0F 11 04 24 F3 0F 10 83 * * * * 51 51 F3 0F 11 04 24)
+aobscanmodule(AOB_AtariHantei_D,game.exe,BB 02 00 00 00 84 C0 74 05 BB 01 00 00 00)
+aobscanmodule(AOB_AtariHantei_E,game.exe,69 FF C8 06 00 00 C1 E0 04 89 45 DC)
+aobscanmodule(AOB_HoldType_A,game.exe,B8 EB FF 00 00 66 3B C7 76 0F 8B 4D 08)
+aobscanmodule(AOB_NageHantei_A,game.exe,E8 * * * * 83 C4 04 84 C0 0F 84 9F 00 00 00 8B DE 56)
+aobscanmodule(CALL_NAGEHANTEI,game.exe,55 8B EC 51 56 57 8B 7D 08 8B F7 C6 45 FF 00)
+aobscanmodule(AOB_KabeBitan_A,game.exe,80 BF * * * * 00 0F 85 2B 04 00 00 8B D3 52)
+aobscanmodule(AOB_PowerBlow_A1,game.exe,0F B7 90 * * * * 0F 57 C9 0F 57 C0 F2 0F 2A C9 F2 0F 59 0D * * * * F2 0F 2A C2 66 0F 2F C1 72 60)
+aobscanmodule(AOB_PowerBlow_A2,game.exe,0F B7 D0 0F 57 C0 F2 0F 2A C2 56 F2 0F 11 45 EC)
+aobscanmodule(AOB_PowerBlow_B,game.exe,66 3B 96 * * * * 72 36 0F B6 8E * * * *)
+aobscanmodule(AOB_PowerBlow_C,game.exe,83 3D * * * * 02 0F 85 F9 08 00 00 83 7E 10 FF)
+aobscanmodule(AOB_Cliffhanger_A,game.exe,83 3D * * * * 02 F3 0F 10 45 08 0F 94 C0)
+aobscanmodule(AOB_Cliffhanger_B,game.exe,69 C0 C8 06 00 00 83 B8 * * * * 00 0F 85 9D 00 00 00 83 3D * * * * 00)
+aobscanmodule(AOB_DownNokezori_A,game.exe,83 C4 08 84 C0 75 64 8B 87 * * * *)
+aobscanmodule(AOB_Counter_A,game.exe,69 F6 C8 06 00 00 E8 * * * * 84 C0 74 29 E8 * * * *)
+aobscanmodule(AOB_Counter_B,game.exe,8D B8 * * * * E8 * * * * 84 C0 74 25 E8 * * * * 85 C0 74 1C 38 5F 70)
+aobscanmodule(AOB_Counter_C,game.exe,81 C6 * * * * 89 4D 08 E8 * * * * 84 C0 74 1F E8 * * * * 85 C0 74 16)
+aobscanmodule(AOB_HaibokuChara_A,game.exe,6A 00 8B CB E8 * * * * 57 E8 * * * *)
+aobscanmodule(AOB_HaibokuChara_B,game.exe,6A 00 8B CE C6 05 * * * * 01 E8 * * * *)
+registersymbol(AOB_AtariHantei_A)
+registersymbol(AOB_AtariHantei_B)
+registersymbol(AOB_AtariHantei_C1)
+registersymbol(AOB_AtariHantei_C2)
+registersymbol(AOB_AtariHantei_C3)
+registersymbol(AOB_AtariHantei_D)
+registersymbol(AOB_AtariHantei_E)
+registersymbol(AOB_HoldType_A)
+registersymbol(AOB_NageHantei_A)
+registersymbol(CALL_NAGEHANTEI)
+registersymbol(AOB_KabeBitan_A)
+registersymbol(AOB_PowerBlow_A1)
+registersymbol(AOB_PowerBlow_A2)
+registersymbol(AOB_PowerBlow_B)
+registersymbol(AOB_PowerBlow_C)
+registersymbol(AOB_Cliffhanger_A)
+registersymbol(AOB_Cliffhanger_B)
+registersymbol(AOB_DownNokezori_A)
+registersymbol(AOB_Counter_A)
+registersymbol(AOB_Counter_B)
+registersymbol(AOB_Counter_C)
+registersymbol(AOB_HaibokuChara_A)
+registersymbol(AOB_HaibokuChara_B)
+alloc(newmem,$4000,"game.exe")
+label(AtariHantei_A)
+label(AtariHantei_A_SKIP)
+label(AtariHantei_A_RET)
+label(AtariHantei_B)
+label(AtariHantei_B_A)
+label(AtariHantei_B_B)
+label(AtariHantei_B_C)
+label(AtariHantei_B_D)
+label(AtariHantei_B_Ho_P)
+label(AtariHantei_B_Ho_P_05)
+label(AtariHantei_B_Ho_P_05a)
+label(AtariHantei_B_Ho_P_06)
+label(AtariHantei_B_Ho_P_0C)
+label(AtariHantei_B_Ho_P_0E)
+label(AtariHantei_B_Ho_P_10)
+label(AtariHantei_B_Ho_P_15)
+label(AtariHantei_B_Ho_P_18)
+label(AtariHantei_B_Ho_P_1F)
+label(AtariHantei_B_Ho_K)
+label(AtariHantei_B_Ho_K_05)
+label(AtariHantei_B_Ho_K_05a)
+label(AtariHantei_B_Ho_K_06)
+label(AtariHantei_B_Ho_K_0C)
+label(AtariHantei_B_Ho_K_0E)
+label(AtariHantei_B_Ho_K_10)
+label(AtariHantei_B_Ho_K_15)
+label(AtariHantei_B_Ho_K_18)
+label(AtariHantei_B_Ho_K_1F)
+label(AtariHantei_B_Ho_EX)
+label(AtariHantei_B_Ho_EX_01)
+label(AtariHantei_B_Ho_EX_02)
+label(AtariHantei_B_Ho_EX_04)
+label(AtariHantei_B_Ho_EX_04a)
+label(AtariHantei_B_Ho_EX_05)
+label(AtariHantei_B_Ho_EX_05a)
+label(AtariHantei_B_Ho_EX_09)
+label(AtariHantei_B_Ho_EX_0B)
+label(AtariHantei_B_Ho_EX_0Ba)
+label(AtariHantei_B_Ho_EX_0C)
+label(AtariHantei_B_Ho_EX_0D)
+label(AtariHantei_B_Ho_EX_0Da)
+label(AtariHantei_B_Ho_EX_15)
+label(AtariHantei_B_Ho_EX_18)
+label(AtariHantei_B_Ho_EX_1D)
+label(AtariHantei_B_Ho_EX_27)
+label(AtariHantei_B_Ho_EX_2A)
+label(AtariHantei_B_Ho_EX_2B)
+label(AtariHantei_B_Ho_PU)
+label(AtariHantei_B_Ho_PM)
+label(AtariHantei_B_Ho_PL)
+label(AtariHantei_B_Ho_KU)
+label(AtariHantei_B_Ho_KM)
+label(AtariHantei_B_Ho_KL)
+label(AtariHantei_B_Ho_END)
+label(AtariHantei_B_SKIP)
+label(AtariHantei_B_RET)
+label(AtariHantei_C1)
+label(AtariHantei_C1_A)
+label(AtariHantei_C1_B)
+label(AtariHantei_C1_END)
+label(AtariHantei_C1_SKIP)
+label(AtariHantei_C1_RET)
+label(AtariHantei_C2_A)
+label(AtariHantei_C2_B)
+label(AtariHantei_C2_SKIP)
+label(AtariHantei_C2_RET)
+label(AtariHantei_C3)
+label(AtariHantei_C3_A)
+label(AtariHantei_C3_B)
+label(AtariHantei_C3_END)
+label(AtariHantei_C3_SKIP)
+label(AtariHantei_C3_RET)
+label(AtariHantei_D)
+label(AtariHantei_D_SKIP)
+label(AtariHantei_D_RET)
+label(AtariHantei_E)
+label(AtariHantei_E_SKIP)
+label(AtariHantei_E_RET)
+label(HoldType_A)
+label(HoldType_A_A)
+label(HoldType_A_B)
+label(HoldType_A_C)
+label(HoldType_A_D)
+label(HoldType_A_E)
+label(HoldType_A_SKIP)
+label(HoldType_A_RET)
+
+label(NageHantei_A)
+label(NageHantei_A_A)
+label(NageHantei_A_END)
+label(NageHantei_A_SKIP)
+label(NageHantei_A_JMP)
+label(NageHantei_A_RET)
+
+label(KabeBitan_A)
+label(KabeBitan_A_SKIP)
+label(KabeBitan_A_RET)
+
+label(PowerBlow_A1)
+label(PowerBlow_A1_JMP)
+label(PowerBlow_A1_SKIP)
+label(PowerBlow_A1_RET)
+label(PowerBlow_A2)
+label(PowerBlow_A2_SKIP)
+label(PowerBlow_A2_END)
+label(PowerBlow_A2_RET)
+
+label(PowerBlow_B)
+label(PowerBlow_B_JMP)
+label(PowerBlow_B_RET)
+
+label(PowerBlow_C)
+label(PowerBlow_C_JMP)
+label(PowerBlow_C_RET)
+
+label(Cliffhanger_A)
+label(Cliffhanger_A_JMP)
+label(Cliffhanger_A_RET)
+
+label(Cliffhanger_B)
+label(Cliffhanger_B_JMP)
+label(Cliffhanger_B_SKIP)
+label(Cliffhanger_B_RET)
+
+label(DownNokezori_A)
+label(DownNokezori_A_SKIP)
+label(DownNokezori_A_JMP)
+label(DownNokezori_A_RET)
+
+label(Counter_A)
+label(Counter_A_JMP)
+label(Counter_A_SKIP)
+label(Counter_A_RET)
+label(Counter_B)
+label(Counter_B_JMP)
+label(Counter_B_SKIP)
+label(Counter_B_RET)
+label(Counter_C)
+label(Counter_C_JMP)
+label(Counter_C_SKIP)
+label(Counter_C_RET)
+
+label(OVKLOP_MEM)
+
+newmem:
+AtariHantei_A:
+xor edx,edx
+cmp dx,[eax+2C]
+jb AtariHantei_A_SKIP
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_A_SKIP
+cmp [rax+6C],62C4
+jb AtariHantei_A_SKIP
+cmp [rax+6C],62F8
+jna AtariHantei_A_JMP
+AtariHantei_A_SKIP:
+db 8D 43 02
+db 89 06
+jmp AtariHantei_A_RET
+AtariHantei_A_JMP:
+db 8D 43 02
+db 89 06
+db 0F B7 10
+test dx,dx
+jne AtariHantei_A_RET
+mov edx,00000001
+jmp AtariHantei_A_RET+03
+
+AtariHantei_B:
+xor edx,edx
+mov ecx,[ebp-18]
+imul ecx,ecx,000006C8
+mov eax,[ebp-1C]
+lea ecx,[ecx+game.exe+FD0540]
+lea eax,[eax+game.exe+FD0540]
+cmp dx,[ecx+2C]
+jb AtariHantei_B_SKIP
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_B_SKIP
+movzx edx,byte ptr [eax+04]
+movzx ebx,word ptr [eax+6C]
+lea edi,[OVKLOP_MEM]
+AtariHantei_B_PB_A:
+cmp word ptr [edi],dx
+jne AtariHantei_B_BP_B
+cmp word ptr [edi+02],bx
+je AtariHantei_B_A
+jmp AtariHantei_B_BP_C
+AtariHantei_B_BP_B:
+add edi,08
+cmp word ptr [edi+02],00
+jne AtariHantei_B_PB_A
+AtariHantei_B_BP_C:
+
+cmp byte ptr [BryanyoraMem+200],03
+jne AtariHantei_B_D
+AtariHantei_B_A:
+{
+cmp byte ptr [eax+game.exe+FD05B0],05
+je AtariHantei_B_SKIP
+cmp byte ptr [eax+game.exe+FD05B0],0E
+je AtariHantei_B_SKIP
+cmp byte ptr [eax+game.exe+FD05B0],10
+je AtariHantei_B_SKIP
+}
+cmp byte ptr [eax+70],02
+je AtariHantei_B_B
+cmp byte ptr [eax+70],03
+jne AtariHantei_B_D
+AtariHantei_B_B:
+cmp byte ptr [ecx+0000009C],01
+je AtariHantei_B_C
+cmp byte ptr [ecx+70],0C
+je AtariHantei_B_C
+cmp [ecx+6C],613D
+je AtariHantei_B_C
+cmp [ecx+6C],613E
+je AtariHantei_B_C
+cmp [ecx+6C],6149
+je AtariHantei_B_C
+cmp [ecx+6C],614A
+je AtariHantei_B_C
+cmp [ecx+6C],62F6
+jne AtariHantei_B_SKIP
+
+AtariHantei_B_C:
+mov byte ptr [ecx+9C],00
+mov byte ptr [ecx+70],08
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_D:
+cmp byte ptr [eax+70],05
+jne AtariHantei_B_SKIP
+mov edx,[eax+6C]
+cmp edx,0000009A
+je AtariHantei_B_Ho_PM
+cmp edx,0000009B
+je AtariHantei_B_Ho_KM
+cmp byte ptr [BryanyoraMem+206],00
+je AtariHantei_B_Ho_P
+cmp byte ptr [BryanyoraMem+206],01
+je AtariHantei_B_Ho_P
+cmp byte ptr [BryanyoraMem+206],02
+je AtariHantei_B_Ho_K
+cmp byte ptr [BryanyoraMem+206],03
+je AtariHantei_B_Ho_K
+AtariHantei_B_Ho_P:
+cmp edx,00000098
+je AtariHantei_B_Ho_PU
+cmp edx,0000009C
+je AtariHantei_B_Ho_PL
+
+AtariHantei_B_Ho_P_05:
+cmp byte ptr [eax+04],05
+je AtariHantei_B_Ho_P_05a
+cmp byte ptr [eax+04],25
+jne AtariHantei_B_Ho_P_06
+AtariHantei_B_Ho_P_05a:
+cmp edx,00000096
+je AtariHantei_B_Ho_PU
+cmp edx,0000211E
+je AtariHantei_B_Ho_PU
+cmp edx,00000097
+je AtariHantei_B_Ho_PM
+cmp edx,0000211F
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_06:
+cmp byte ptr [eax+04],06
+jne AtariHantei_B_Ho_P_0C
+cmp edx,00000096
+je AtariHantei_B_Ho_PU
+cmp edx,00000097
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_0C:
+cmp byte ptr [eax+04],0C
+jne AtariHantei_B_Ho_P_0E
+cmp edx,00000096
+je AtariHantei_B_Ho_PU
+cmp edx,00000097
+je AtariHantei_B_Ho_PM
+cmp edx,000000A0
+je AtariHantei_B_Ho_PU
+cmp edx,000000A1
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_0E:
+cmp byte ptr [eax+04],0E
+jne AtariHantei_B_Ho_P_10
+cmp edx,00000096
+je AtariHantei_B_Ho_PU
+cmp edx,00000097
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_10:
+cmp byte ptr [eax+04],10
+jne AtariHantei_B_Ho_P_15
+cmp edx,00000096
+je AtariHantei_B_Ho_PU
+cmp edx,00000097
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_15:
+cmp byte ptr [eax+04],15
+jne AtariHantei_B_Ho_P_18
+cmp edx,00001F58
+je AtariHantei_B_Ho_PU
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_18:
+cmp byte ptr [eax+04],18
+jne AtariHantei_B_Ho_P_1F
+cmp edx,00000096
+je AtariHantei_B_Ho_PU
+cmp edx,00000097
+je AtariHantei_B_Ho_PM
+cmp edx,000000A0
+je AtariHantei_B_Ho_PU
+cmp edx,000000A1
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_P_1F:
+cmp byte ptr [eax+04],1F
+jne AtariHantei_B_Ho_EX
+cmp edx,00001F8E
+je AtariHantei_B_Ho_PU
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K:
+cmp edx,00000098
+je AtariHantei_B_Ho_KU
+cmp edx,0000009C
+je AtariHantei_B_Ho_KL
+
+AtariHantei_B_Ho_K_05:
+cmp byte ptr [eax+04],05
+je AtariHantei_B_Ho_K_05a
+cmp byte ptr [eax+04],25
+jne AtariHantei_B_Ho_K_06
+AtariHantei_B_Ho_K_05a:
+cmp edx,00000096
+je AtariHantei_B_Ho_KU
+cmp edx,0000211E
+je AtariHantei_B_Ho_KU
+cmp edx,00000097
+je AtariHantei_B_Ho_KM
+cmp edx,0000211F
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_06:
+cmp byte ptr [eax+04],06
+jne AtariHantei_B_Ho_K_0C
+cmp edx,00000096
+je AtariHantei_B_Ho_KU
+cmp edx,00000097
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_0C:
+cmp byte ptr [eax+04],0C
+jne AtariHantei_B_Ho_K_0E
+cmp edx,00000096
+je AtariHantei_B_Ho_KU
+cmp edx,00000097
+je AtariHantei_B_Ho_KM
+cmp edx,000000A0
+je AtariHantei_B_Ho_KU
+cmp edx,000000A1
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_0E:
+cmp byte ptr [eax+04],0E
+jne AtariHantei_B_Ho_K_10
+cmp edx,00000096
+je AtariHantei_B_Ho_KU
+cmp edx,00000097
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_10:
+cmp byte ptr [eax+04],10
+jne AtariHantei_B_Ho_K_15
+cmp edx,00000096
+je AtariHantei_B_Ho_KU
+cmp edx,00000097
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_15:
+cmp byte ptr [eax+04],15
+jne AtariHantei_B_Ho_K_18
+cmp edx,00001F58
+je AtariHantei_B_Ho_PM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_18:
+cmp byte ptr [eax+04],18
+jne AtariHantei_B_Ho_K_1F
+cmp edx,00000096
+je AtariHantei_B_Ho_KU
+cmp edx,00000097
+je AtariHantei_B_Ho_KM
+cmp edx,000000A0
+je AtariHantei_B_Ho_KU
+cmp edx,000000A1
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_K_1F:
+cmp byte ptr [eax+04],1F
+jne AtariHantei_B_Ho_EX
+cmp edx,00001F8E
+je AtariHantei_B_Ho_PL
+jmp AtariHantei_B_Ho_EX
+
+AtariHantei_B_Ho_EX:
+AtariHantei_B_Ho_EX_01:
+cmp byte ptr [eax+04],01
+jne AtariHantei_B_Ho_EX_02
+cmp edx,00002161
+je AtariHantei_B_Ho_PU
+cmp edx,00002162
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_02:
+cmp byte ptr [eax+04],02
+jne AtariHantei_B_Ho_EX_04
+cmp edx,00001F56
+je AtariHantei_B_Ho_KM
+cmp edx,000020EA
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_04:
+cmp byte ptr [eax+04],04
+je AtariHantei_B_Ho_EX_04a
+cmp byte ptr [eax+04],26
+jne AtariHantei_B_Ho_EX_05
+AtariHantei_B_Ho_EX_04a:
+cmp edx,00002147
+je AtariHantei_B_Ho_PU
+cmp edx,00002148
+je AtariHantei_B_Ho_PM
+cmp edx,00002149
+je AtariHantei_B_Ho_KM
+cmp edx,0000214A
+je AtariHantei_B_Ho_PL
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_05:
+cmp byte ptr [eax+04],05
+je AtariHantei_B_Ho_EX_05a
+cmp byte ptr [eax+04],25
+jne AtariHantei_B_Ho_EX_09
+AtariHantei_B_Ho_EX_05a:
+cmp edx,0000210B
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_09:
+cmp byte ptr [eax+04],09
+jne AtariHantei_B_Ho_EX_0B
+cmp edx,0000213D
+je AtariHantei_B_Ho_PM
+cmp edx,0000213E
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_0B:
+cmp byte ptr [eax+04],0B
+je AtariHantei_B_Ho_EX_0Ba
+cmp byte ptr [eax+04],24
+jne AtariHantei_B_Ho_EX_0C
+AtariHantei_B_Ho_EX_0Ba:
+cmp edx,000020E7
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_0C:
+cmp byte ptr [eax+04],0C
+jne AtariHantei_B_Ho_EX_0D
+cmp edx,00002021
+je AtariHantei_B_Ho_PU
+cmp edx,00002022
+je AtariHantei_B_Ho_KU
+cmp edx,00002023
+je AtariHantei_B_Ho_PM
+cmp edx,00002024
+je AtariHantei_B_Ho_KM
+cmp edx,00002025
+je AtariHantei_B_Ho_PL
+cmp edx,00002026
+je AtariHantei_B_Ho_KL
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_0D:
+cmp byte ptr [eax+04],0D
+je AtariHantei_B_Ho_EX_0Da
+cmp byte ptr [eax+04],23
+jne AtariHantei_B_Ho_EX_15
+AtariHantei_B_Ho_EX_0Da:
+cmp edx,000020DE
+je AtariHantei_B_Ho_PM
+cmp edx,000020DF
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_15:
+cmp byte ptr [eax+04],15
+jne AtariHantei_B_Ho_EX_18
+cmp edx,000020BC
+je AtariHantei_B_Ho_PM
+cmp edx,000020BD
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_18:
+cmp byte ptr [eax+04],18
+jne AtariHantei_B_Ho_EX_1D
+cmp edx,00002087
+je AtariHantei_B_Ho_PU
+cmp edx,00002088
+je AtariHantei_B_Ho_KU
+cmp edx,00002089
+je AtariHantei_B_Ho_PM
+cmp edx,0000208A
+je AtariHantei_B_Ho_KM
+cmp edx,0000208B
+je AtariHantei_B_Ho_PL
+cmp edx,0000208C
+je AtariHantei_B_Ho_KL
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_1D:
+cmp byte ptr [eax+04],1D
+jne AtariHantei_B_Ho_EX_27
+cmp edx,00001FB6
+je AtariHantei_B_Ho_KM
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_27:
+cmp byte ptr [eax+04],27
+jne AtariHantei_B_Ho_EX_2A
+cmp edx,00001FB0
+je AtariHantei_B_Ho_KL
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_2A:
+cmp byte ptr [eax+04],2A
+jne AtariHantei_B_Ho_EX_2B
+cmp edx,00001F9D
+je AtariHantei_B_Ho_PU
+cmp edx,00001F9E
+je AtariHantei_B_Ho_PM
+cmp edx,00001F9F
+je AtariHantei_B_Ho_KM
+cmp edx,00001FA0
+je AtariHantei_B_Ho_PL
+cmp edx,00001FF6
+je AtariHantei_B_Ho_KU
+cmp edx,00001FF9
+je AtariHantei_B_Ho_KL
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_EX_2B:
+cmp byte ptr [eax+04],2B
+jne AtariHantei_B_SKIP
+cmp edx,00002174
+je AtariHantei_B_Ho_PM
+cmp edx,0000210B
+je AtariHantei_B_Ho_KL
+jmp AtariHantei_B_SKIP
+
+AtariHantei_B_Ho_PU:
+mov edx,000000B0
+jmp AtariHantei_B_Ho_END
+AtariHantei_B_Ho_PM:
+mov edx,000000B1
+jmp AtariHantei_B_Ho_END
+AtariHantei_B_Ho_PL:
+mov edx,000000B2
+jmp AtariHantei_B_Ho_END
+AtariHantei_B_Ho_KU:
+mov edx,000000B3
+jmp AtariHantei_B_Ho_END
+AtariHantei_B_Ho_KM:
+mov edx,000000B4
+jmp AtariHantei_B_Ho_END
+AtariHantei_B_Ho_KL:
+mov edx,000000B5
+AtariHantei_B_Ho_END:
+mov [ecx+6C],edx
+mov byte ptr [ecx+70],03
+mov byte ptr [ecx+9A],01
+AtariHantei_B_SKIP:
+db 8B 45 08
+db 8B C8
+jmp AtariHantei_B_RET
+
+AtariHantei_C1:
+db F3 0F 11 04 24
+cmp byte ptr [BryanyoraMem+201],01
+jne AtariHantei_C1_SKIP
+xor edx,edx
+mov ecx,[ebp-18]
+imul ecx,ecx,000006C8
+mov eax,[ebp-1C]
+lea ecx,[ecx+game.exe+FD0540]
+lea eax,[eax+game.exe+FD0540]
+cmp dx,[ecx+2C]
+jb AtariHantei_C1_END
+{
+cmp byte ptr [eax+70],10
+je AtariHantei_C1_SKIP
+}
+cmp byte ptr [eax+70],02
+je AtariHantei_C1_A
+cmp byte ptr [eax+70],03
+je AtariHantei_C1_A
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_C1_END
+cmp byte ptr [eax+70],05
+je AtariHantei_C1_B
+AtariHantei_C1_A:
+cmp byte ptr [ecx+0000009C],01
+je AtariHantei_C1_B
+cmp byte ptr [ecx+70],0C
+je AtariHantei_C1_B
+cmp [ecx+6C],613D
+je AtariHantei_C1_B
+cmp [ecx+6C],613E
+je AtariHantei_C1_B
+cmp [ecx+6C],6149
+je AtariHantei_C1_B
+cmp [ecx+6C],614A
+je AtariHantei_C1_B
+cmp [ecx+6C],62F6
+je AtariHantei_C1_B
+jmp AtariHantei_C1_END
+
+AtariHantei_C1_B:
+db 8B 45 F8
+mov ecx,BF000000
+movd xmm0,ecx
+addss xmm0,[eax+04]
+movss [eax+04],xmm0
+AtariHantei_C1_END:
+db 8B 55 FC
+db 8B 45 F8
+AtariHantei_C1_SKIP:
+jmp AtariHantei_C1_RET
+
+AtariHantei_C2:
+db F3 0F 11 04 24
+cmp byte ptr [BryanyoraMem+201],01
+jne AtariHantei_C2_SKIP
+xor eax,eax
+mov ecx,[ebp-18]
+imul ecx,ecx,000006C8
+lea ecx,[ecx+game.exe+FD0540]
+cmp ax,[ecx+2C]
+mov eax,[ebp-1C]
+lea eax,[eax+game.exe+FD0540]
+jb AtariHantei_C2_SKIP
+{
+cmp byte ptr [eax+70],10
+je AtariHantei_C3_SKIP
+}
+cmp byte ptr [eax+70],02
+je AtariHantei_C2_A
+cmp byte ptr [eax+70],03
+je AtariHantei_C2_A
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_C2_SKIP
+cmp byte ptr [eax+70],05
+je AtariHantei_C2_B
+AtariHantei_C2_A:
+cmp byte ptr [ecx+0000009C],01
+je AtariHantei_C2_B
+cmp byte ptr [ecx+70],0C
+je AtariHantei_C2_B
+cmp [ecx+6C],613D
+je AtariHantei_C2_B
+cmp [ecx+6C],613E
+je AtariHantei_C2_B
+cmp [ecx+6C],6149
+je AtariHantei_C2_B
+cmp [ecx+6C],614A
+je AtariHantei_C2_B
+cmp [ecx+6C],62F6
+je AtariHantei_C2_B
+jmp AtariHantei_C2_SKIP
+
+AtariHantei_C2_B:
+mov eax,BF000000
+movd xmm0,eax
+addss xmm0,[edx+04]
+movss [edx+04],xmm0
+AtariHantei_C2_SKIP:
+jmp AtariHantei_C2_RET
+
+AtariHantei_C3:
+db F3 0F 11 04 24
+cmp byte ptr [BryanyoraMem+201],01
+jne AtariHantei_C3_SKIP
+xor eax,eax
+mov ecx,[ebp-18]
+imul ecx,ecx,000006C8
+lea ecx,[ecx+game.exe+FD0540]
+cmp ax,[ecx+2C]
+mov eax,[ebp-1C]
+lea eax,[eax+game.exe+FD0540]
+jb AtariHantei_C3_END
+{
+cmp byte ptr [eax+70],10
+je AtariHantei_C3_SKIP
+}
+cmp byte ptr [eax+70],02
+je AtariHantei_C3_A
+cmp byte ptr [eax+70],03
+je AtariHantei_C3_A
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_C3_END
+cmp byte ptr [eax+70],05
+je AtariHantei_C3_B
+AtariHantei_C3_A:
+cmp byte ptr [ecx+0000009C],01
+je AtariHantei_C3_B
+cmp byte ptr [ecx+70],0C
+je AtariHantei_C3_B
+cmp [ecx+6C],613D
+je AtariHantei_C3_B
+cmp [ecx+6C],613E
+je AtariHantei_C3_B
+cmp [ecx+6C],6149
+je AtariHantei_C3_B
+cmp [ecx+6C],614A
+je AtariHantei_C3_B
+cmp [ecx+6C],62F6
+je AtariHantei_C3_B
+jmp AtariHantei_C3_END
+
+AtariHantei_C3_B:
+db 8B 4D F4
+mov eax,BF000000
+movd xmm0,eax
+addss xmm0,[ecx+04]
+movss [ecx+04],xmm0
+AtariHantei_C3_END:
+db 8B 45 FC
+db 8B 4D F4
+AtariHantei_C3_SKIP:
+jmp AtariHantei_C3_RET
+
+AtariHantei_D:
+db BB 02 00 00 00
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_D_SKIP
+xor ecx,ecx
+cmp ax,[edi+2C]
+jb AtariHantei_D_SKIP
+db BB 01 00 00 00
+AtariHantei_D_SKIP:
+jmp AtariHantei_D_RET
+
+AtariHantei_E:
+db 69 FF C8 06 00 00
+cmp byte ptr [BryanyoraMem+200],00
+je AtariHantei_E_SKIP
+xor edx,edx
+cmp dx,[edi+game.exe+FD056C]
+jb AtariHantei_E_SKIP
+cmp byte ptr [ebx+game.exe+FD05B0],05
+jne AtariHantei_E_SKIP
+movzx edx,byte ptr [game.exe+FC7EE8]
+test edx,edx
+jne AtariHantei_E_SKIP
+mov byte ptr [game.exe+FC7EE8],01
+AtariHantei_E_SKIP:
+jmp AtariHantei_E_RET
+
+HoldType_A:
+cmp byte ptr [BryanyoraMem+200],00
+je HoldType_A_SKIP
+xor eax,eax
+cmp ax,[ebx+2C]
+jb HoldType_A_SKIP
+cmp byte ptr [ebx+9C],03
+je HoldType_A_A
+cmp byte ptr [BryanyoraMem+206],01
+je HoldType_A_B
+cmp byte ptr [BryanyoraMem+206],03
+je HoldType_A_B
+jmp HoldType_A_SKIP
+HoldType_A_A:
+xor al,al
+mov ecx,[ebx+6C]
+cmp ecx,000000B0
+je HoldType_A_C
+cmp ecx,000000B1
+je HoldType_A_C
+cmp ecx,000000B2
+je HoldType_A_C
+mov al,01
+cmp ecx,000000B3
+je HoldType_A_C
+cmp ecx,000000B4
+je HoldType_A_C
+cmp ecx,000000B5
+je HoldType_A_C
+jmp HoldType_A_SKIP
+
+HoldType_A_B:
+xor al,al
+mov ecx,[esi+6C]
+cmp ecx,0000009A
+je HoldType_A_C
+mov al,01
+cmp ecx,0000009B
+jne HoldType_A_SKIP
+HoldType_A_C:
+lea ecx,[OVKLOP_MEM]
+movzx edx,[esi+04]
+HoldType_A_D:
+cmp word ptr [ecx],dx
+jne HoldType_A_E
+movzx edi,word ptr [ecx+04]
+movzx ecx,word ptr [ecx+06]
+test al,al
+cmovne edi,ecx
+jmp HoldType_A_SKIP
+HoldType_A_E:
+add ecx,08
+cmp dword ptr [ecx+04],00
+jne HoldType_A_D
+HoldType_A_SKIP:
+db B8 EB FF 00 00
+jmp HoldType_A_RET
+
+NageHantei_A:
+xor eax,eax
+cmp ax,[edi+2C]
+jb NageHantei_A_SKIP
+cmp byte ptr [edi+0000009C],01
+je NageHantei_A_A
+cmp [edi+6C],613D
+je NageHantei_A_A
+cmp [edi+6C],613E
+je NageHantei_A_A
+cmp [edi+6C],6149
+je NageHantei_A_A
+cmp [edi+6C],614A
+je NageHantei_A_A
+cmp [edi+6C],62F6
+je NageHantei_A_A
+cmp byte ptr [edi+70],08
+je NageHantei_A_A
+cmp byte ptr [edi+70],0C
+jne NageHantei_A_SKIP
+NageHantei_A_A:
+cmp byte ptr [BryanyoraMem+200],00
+je NageHantei_A_SKIP
+mov byte ptr [edi+00000080],01
+mov eax,esi
+xor eax,01
+imul eax,eax,000006C8
+lea eax,[eax+game.exe+FD0540]
+mov ebx,[eax+6C]
+NageHantei_A_01:
+cmp byte ptr [eax+04],01
+jne NageHantei_A_08
+cmp ebx,00001FDA
+je NageHantei_A_END
+jmp NageHantei_A_JMP
+
+NageHantei_A_08:
+cmp byte ptr [eax+04],08
+jne NageHantei_A_09
+cmp ebx,00001FB5
+je NageHantei_A_END
+jmp NageHantei_A_JMP
+
+NageHantei_A_09:
+cmp byte ptr [eax+04],09
+jne NageHantei_A_18
+cmp ebx,00001FBA
+je NageHantei_A_END
+jmp NageHantei_A_JMP
+
+NageHantei_A_18:
+cmp byte ptr [eax+04],18
+jne NageHantei_A_1E
+cmp ebx,00001FC3
+je NageHantei_A_END
+cmp ebx,0000212C
+je NageHantei_A_END
+jmp NageHantei_A_JMP
+
+NageHantei_A_1E:
+cmp byte ptr [eax+04],1E
+jne NageHantei_A_2C
+cmp ebx,00001FB0
+je NageHantei_A_END
+jmp NageHantei_A_JMP
+
+NageHantei_A_2C:
+cmp byte ptr [eax+04],2C
+jne NageHantei_A_JMP
+cmp ebx,00001FD6
+je NageHantei_A_END
+cmp ebx,00002052
+je NageHantei_A_END
+jmp NageHantei_A_JMP
+
+NageHantei_A_END:
+db BB FF FF 00 00
+NageHantei_A_SKIP:
+call CALL_NAGEHANTEI
+jmp NageHantei_A_RET
+NageHantei_A_JMP:
+db BB FF FF 00 00
+mov al,01
+jmp NageHantei_A_RET
+
+KabeBitan_A:
+xor edx,edx
+cmp dx,[esi+game.exe+FD056C]
+jb KabeBitan_A_SKIP
+cmp byte ptr [BryanyoraMem+202],01
+jne KabeBitan_A_SKIP
+mov byte ptr [edi+game.exe+FCF060],00
+KabeBitan_A_SKIP:
+cmp byte ptr [edi+game.exe+FCF060],00
+jmp KabeBitan_A_RET
+
+PowerBlow_A1:
+cmp dword ptr [game.exe+DD94D4],03
+jne PowerBlow_A1_SKIP
+xor edx,edx
+mov eax,esi
+xor eax,01
+imul eax,eax,000006C8
+cmp dx,[eax+game.exe+FD056C]
+jae PowerBlow_A1_JMP
+mov eax,esi
+imul eax,eax,000006C8
+PowerBlow_A1_SKIP:
+movzx edx,word ptr [eax+game.exe+FD056C]
+jmp PowerBlow_A1_RET
+PowerBlow_A1_JMP:
+mov eax,esi
+imul eax,eax,000006C8
+mov byte ptr [edi+000000AE],dl
+jmp PowerBlow_A1_RET
+
+PowerBlow_A2:
+cmp dword ptr [game.exe+DD94D4],03
+jne PowerBlow_A2_SKIP
+xor edx,edx
+mov ecx,esi
+xor ecx,01
+imul ecx,ecx,000006C8
+cmp dx,[ecx+game.exe+FD056C]
+jb PowerBlow_A2_SKIP
+mov byte ptr [edi+000000AE],dl
+jmp PowerBlow_A2_END
+PowerBlow_A2_SKIP:
+db 0F B7 D0
+PowerBlow_A2_END:
+db 0F 57 C0
+jmp PowerBlow_A2_RET
+
+PowerBlow_B:
+cmp byte ptr [BryanyoraMem+20A],01
+je PowerBlow_B_JMP
+cmp dx,[esi+game.exe+FD056C]
+jmp PowerBlow_B_RET
+PowerBlow_B_JMP:
+cmp dx,[esi+game.exe+FD056E]
+jmp PowerBlow_B_RET
+
+PowerBlow_C:
+cmp dword ptr [game.exe+DD94D4],03
+je PowerBlow_C_JMP
+cmp dword ptr [game.exe+DD94D4],02
+PowerBlow_C_JMP:
+jmp PowerBlow_C_RET
+
+Cliffhanger_A:
+cmp dword ptr [game.exe+DD94D4],03
+je Cliffhanger_A_JMP
+cmp dword ptr [game.exe+DD94D4],02
+Cliffhanger_A_JMP:
+jmp Cliffhanger_A_RET
+
+Cliffhanger_B:
+db 69 C0 C8 06 00 00
+cmp byte ptr [BryanyoraMem+20B],02
+je Cliffhanger_B_JMP
+cmp byte ptr [BryanyoraMem+20B],01
+jne Cliffhanger_B_SKIP
+xor edx,edx
+cmp dx,[eax+game.exe+FD056C]
+jb Cliffhanger_B_SKIP
+Cliffhanger_B_JMP:
+mov edx,00000001
+mov [game.exe+FCE9F4],dx
+Cliffhanger_B_SKIP:
+jmp Cliffhanger_B_RET
+
+DownNokezori_A:
+db 83 C4 08
+cmp byte ptr [BryanyoraMem+200],02
+je DownNokezori_A_JMP
+DownNokezori_A_SKIP:
+db 84 C0
+jmp DownNokezori_A_RET
+DownNokezori_A_JMP:
+db 38 C0
+jmp DownNokezori_A_RET
+
+Counter_A:
+db 69 F6 C8 06 00 00
+xor eax,eax
+cmp ax,[esi+game.exe+FD056C]
+jb Counter_A_SKIP
+cmp byte ptr [BryanyoraMem+207],01
+jne Counter_A_A
+mov eax,00000001
+jmp Counter_A_JMP
+Counter_A_A:
+cmp byte ptr [BryanyoraMem+207],02
+jne Counter_A_SKIP
+mov eax,00000002
+jmp Counter_A_JMP
+Counter_A_SKIP:
+jmp Counter_A_RET
+Counter_A_JMP:
+jmp Counter_A_RET+20
+
+Counter_B:
+lea edi,[eax+game.exe+FD0540]
+cmp bx,[edi+2C]
+jb Counter_B_SKIP
+cmp byte ptr [BryanyoraMem+207],01
+jne Counter_B_A
+mov eax,00000001
+jmp Counter_B_JMP
+Counter_B_A:
+cmp byte ptr [BryanyoraMem+207],02
+jne Counter_B_SKIP
+mov eax,00000002
+jmp Counter_B_JMP
+Counter_B_SKIP:
+jmp Counter_B_RET
+Counter_B_JMP:
+jmp Counter_B_RET+1C
+
+Counter_C:
+add esi,game.exe+FD0540
+xor eax,eax
+cmp ax,[esi+2C]
+jb Counter_C_SKIP
+cmp byte ptr [BryanyoraMem+207],01
+jne Counter_C_A
+mov eax,00000001
+jmp Counter_C_JMP
+Counter_C_A:
+cmp byte ptr [BryanyoraMem+207],02
+jne Counter_C_SKIP
+mov eax,00000002
+jmp Counter_C_JMP
+Counter_C_SKIP:
+jmp Counter_C_RET
+Counter_C_JMP:
+db 89 4D 08
+jmp Counter_C_RET+1A
+
+newmem+2000:
+OVKLOP_MEM:
+dw 0000 20FE 209F 20A1 0001 214E 20D7 20DB
+dw 0002 20B6 2036 203A 0003 2026 1FD7 1FD9
+dw 0004 2127 20B5 20B7 0005 20EC 2061 2065
+dw 0006 205C 1FFC 2000 0007 20DC 2074 2076
+dw 0008 20EF 20B1 20B3 0009 2131 2098 209A
+dw 000A 2063 201E 2020 000B 20CC 2072 2074
+dw 000C 20A2 201D 201F 000D 20E4 206F 2073
+dw 000E 2068 2015 2019 000F 20B5 2074 2076
+dw 0010 2176 FFF5 FFEB 0013 2119 20CA 20CE
+dw 0014 20CC 2081 2085 0015 209A 204F 2051
+dw 0018 210A 207B 207D 001D 200B 2005 2007
+dw 001E 1FDA 1FA4 1FA6 001F 1FC8 1FBC 1FBE
+dw 0020 203A 2016 2018 0021 1F4C 200E 2010
+dw 0023 20E4 206F 2073 0024 20CC 2072 2074
+dw 0025 20EC 2061 2065 0026 2127 20B5 20B7
+dw 0027 1FCD 1FAC 1FAE 0028 1FA5 1F97 1F99
+dw 0029 1FDB 200D 200F 002A 1FC3 1FAF 1FB1
+dw 002B 20EC 2061 2065 002C 2065 201F 2023
+dw 002D 1F5F 207B 207D 002E 1F62 1FFE 2000
+dw 002F 1FC6 1FBB 1FBD 0030 1F42 1F69 1F6B
+dw 0000 0000 0000 0000 0000 0000 0000 0000
+
+
+BryanyoraMem+200:
+db 02
+BryanyoraMem+201:
+db 01
+BryanyoraMem+202:
+db 01
+BryanyoraMem+205:
+db 01
+BryanyoraMem+207:
+db 01
+BryanyoraMem+20A:
+db 01
+
+AOB_AtariHantei_A:
+jmp AtariHantei_A
+AtariHantei_A_RET:
+
+AOB_AtariHantei_B:
+jmp AtariHantei_B
+AtariHantei_B_RET:
+
+AOB_AtariHantei_C1:
+jmp AtariHantei_C1
+AtariHantei_C1_RET:
+
+AOB_AtariHantei_C2:
+jmp AtariHantei_C2
+AtariHantei_C2_RET:
+
+AOB_AtariHantei_C3:
+jmp AtariHantei_C3
+AtariHantei_C3_RET:
+
+AOB_AtariHantei_D:
+jmp AtariHantei_D
+AtariHantei_D_RET:
+
+AOB_AtariHantei_E:
+jmp AtariHantei_E
+nop
+AtariHantei_E_RET:
+
+AOB_HoldType_A:
+jmp HoldType_A
+HoldType_A_RET:
+
+AOB_NageHantei_A:
+jmp NageHantei_A
+NageHantei_A_RET:
+
+AOB_KabeBitan_A:
+jmp KabeBitan_A
+nop
+nop
+KabeBitan_A_RET:
+
+AOB_PowerBlow_A1:
+jmp PowerBlow_A1
+nop
+nop
+PowerBlow_A1_RET:
+
+AOB_PowerBlow_A2:
+jmp PowerBlow_A2
+nop
+PowerBlow_A2_RET:
+
+AOB_PowerBlow_B:
+jmp PowerBlow_B
+nop
+nop
+PowerBlow_B_RET:
+
+AOB_PowerBlow_C:
+jmp PowerBlow_C
+nop
+nop
+PowerBlow_C_RET:
+
+AOB_Cliffhanger_A:
+jmp Cliffhanger_A
+nop
+nop
+Cliffhanger_A_RET:
+
+AOB_Cliffhanger_B:
+jmp Cliffhanger_B
+nop
+Cliffhanger_B_RET:
+
+AOB_DownNokezori_A:
+jmp DownNokezori_A
+DownNokezori_A_RET:
+
+AOB_Counter_A:
+jmp Counter_A
+nop
+Counter_A_RET:
+
+AOB_Counter_B:
+jmp Counter_B
+nop
+Counter_B_RET:
+
+AOB_Counter_C:
+jmp Counter_C
+nop
+Counter_C_RET:
+
+AOB_HaibokuChara_A:
+db 6A 01
+
+AOB_HaibokuChara_B:
+db 6A 01
+
+[disable]
+unregistersymbol(AOB_AtariHantei_A)
+unregistersymbol(AOB_AtariHantei_B)
+unregistersymbol(AOB_AtariHantei_C1)
+unregistersymbol(AOB_AtariHantei_C2)
+unregistersymbol(AOB_AtariHantei_C3)
+unregistersymbol(AOB_AtariHantei_D)
+unregistersymbol(AOB_AtariHantei_E)
+unregistersymbol(AOB_HoldType_A)
+unregistersymbol(AOB_NageHantei_A)
+unregistersymbol(CALL_NAGEHANTEI)
+unregistersymbol(AOB_KabeBitan_A)
+unregistersymbol(AOB_PowerBlow_A1)
+unregistersymbol(AOB_PowerBlow_A2)
+unregistersymbol(AOB_PowerBlow_B)
+unregistersymbol(AOB_PowerBlow_C)
+unregistersymbol(AOB_Cliffhanger_A)
+unregistersymbol(AOB_Cliffhanger_B)
+unregistersymbol(AOB_DownNokezori_A)
+unregistersymbol(AOB_Counter_A)
+unregistersymbol(AOB_Counter_B)
+unregistersymbol(AOB_Counter_C)
+unregistersymbol(AOB_HaibokuChara_A)
+unregistersymbol(AOB_HaibokuChara_B)
+dealloc(newmem)
+
+AOB_AtariHantei_A:
+db 8D 43 02
+db 89 06
+
+AOB_AtariHantei_B:
+db 8B 4D D0
+db 85 C9
+
+AOB_AtariHantei_C1:
+db F3 0F 11 04 24
+
+AOB_AtariHantei_C2:
+db F3 0F 11 04 24
+
+AOB_AtariHantei_C3:
+db F3 0F 11 04 24
+
+AOB_AtariHantei_D:
+db BB 02 00 00 00
+
+AOB_AtariHantei_E:
+db 69 FF C8 06 00 00
+
+AOB_HoldType_A:
+db B8 EB FF 00 00
+
+AOB_NageHantei_A:
+call CALL_NAGEHANTEI
+
+AOB_KabeBitan_A:
+cmp byte ptr [edi+game.exe+FCF060],00
+
+AOB_PowerBlow_A1:
+movzx edx,word ptr [eax+game.exe+FD056C]
+
+AOB_PowerBlow_A2:
+db 0F B7 D0
+db 0F 57 C0
+
+AOB_PowerBlow_B:
+cmp dx,[esi+game.exe+FD056C]
+
+AOB_PowerBlow_C:
+cmp dword ptr [game.exe+DD94D4],02
+
+AOB_Cliffhanger_A:
+cmp dword ptr [game.exe+DD94D4],02
+
+AOB_Cliffhanger_B:
+db 69 C0 C8 06 00 00
+
+AOB_DownNokezori_A:
+db 83 C4 08
+db 84 C0
+
+AOB_Counter_A:
+db 69 F6 C8 06 00 00
+
+AOB_Counter_B:
+lea edi,[eax+game.exe+FD0540]
+
+AOB_Counter_C:
+add esi,game.exe+FD0540
+
+AOB_HaibokuChara_A:
+db 6A 00
+
+AOB_HaibokuChara_B:
+db 6A 00
+
+{
+ホールド技
+// ORIGINAL CODE - INJECTION POINT: "game.exe"+351B6B
+
+"game.exe"+351B45: 74 11                 -  je game.exe+351B58
+"game.exe"+351B47: 57                    -  push edi
+"game.exe"+351B48: E8 D3 CB FF FF        -  call game.exe+34E720
+"game.exe"+351B4D: 83 C4 04              -  add esp,04
+"game.exe"+351B50: 84 C0                 -  test al,al
+"game.exe"+351B52: 0F 84 BA 01 00 00     -  je game.exe+351D12
+"game.exe"+351B58: 80 BB 89 00 00 00 01  -  cmp byte ptr [ebx+00000089],01
+"game.exe"+351B5F: 0F 85 AD 01 00 00     -  jne game.exe+351D12
+"game.exe"+351B65: 57                    -  push edi
+"game.exe"+351B66: E8 95 FE FF FF        -  call game.exe+351A00
+// ---------- INJECTING HERE ----------
+"game.exe"+351B6B: 0F B7 F8              -  movzx edi,ax
+"game.exe"+351B6E: B8 EB FF 00 00        -  mov eax,0000FFEB
+// ---------- DONE INJECTING  ----------
+"game.exe"+351B73: 83 C4 04              -  add esp,04
+"game.exe"+351B76: 66 3B C7              -  cmp ax,di
+"game.exe"+351B79: 76 51                 -  jna game.exe+351BCC
+"game.exe"+351B7B: 8B 4D F8              -  mov ecx,[ebp-08]
+"game.exe"+351B7E: 51                    -  push ecx
+"game.exe"+351B7F: E8 3C FF F5 FF        -  call game.exe+2B1AC0
+"game.exe"+351B84: 83 C4 04              -  add esp,04
+"game.exe"+351B87: 84 C0                 -  test al,al
+"game.exe"+351B89: 0F 84 8D 00 00 00     -  je game.exe+351C1C
+"game.exe"+351B8F: 8B 46 6C              -  mov eax,[esi+6C]
+}
+
+
+{
+パワーブロー
+// ORIGINAL CODE - INJECTION POINT: "game.exe"+3597F0
+
+"game.exe"+3597C9: 50                    -  push eax
+"game.exe"+3597CA: E8 61 C7 FF FF        -  call game.exe+355F30
+"game.exe"+3597CF: 83 C4 08              -  add esp,08
+"game.exe"+3597D2: 8B 8E 1C F8 6A 01     -  mov ecx,[esi+game.exe+FCF81C]
+"game.exe"+3597D8: 51                    -  push ecx
+"game.exe"+3597D9: E8 E2 B3 FE FF        -  call game.exe+344BC0
+"game.exe"+3597DE: 83 C4 04              -  add esp,04
+"game.exe"+3597E1: 89 86 1C F8 6A 01     -  mov [esi+game.exe+FCF81C],eax
+"game.exe"+3597E7: 33 D2                 -  xor edx,edx
+"game.exe"+3597E9: 66 3B 96 6C 05 6B 01  -  cmp dx,[esi+game.exe+FD056C]
+// ---------- INJECTING HERE ----------
+"game.exe"+3597F0: 72 36                 -  jb game.exe+359828
+"game.exe"+3597F2: 0F B6 8E 88 F8 6A 01  -  movzx ecx,byte ptr [esi+game.exe+FCF888]
+// ---------- DONE INJECTING  ----------
+"game.exe"+3597F9: 8B 86 F4 F7 6A 01     -  mov eax,[esi+game.exe+FCF7F4]
+"game.exe"+3597FF: 51                    -  push ecx
+"game.exe"+359800: 8D 55 EC              -  lea edx,[ebp-14]
+"game.exe"+359803: 52                    -  push edx
+"game.exe"+359804: 89 45 EC              -  mov [ebp-14],eax
+"game.exe"+359807: E8 04 71 F5 FF        -  call game.exe+2B0910
+"game.exe"+35980C: 83 C4 08              -  add esp,08
+"game.exe"+35980F: 39 86 F4 F7 6A 01     -  cmp [esi+game.exe+FCF7F4],eax
+"game.exe"+359815: 74 11                 -  je game.exe+359828
+"game.exe"+359817: 3D FF FF 00 00        -  cmp eax,0000FFFF
+}
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3574</ID>
+              <Description>"Over Kill Option"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>0</ID>
+                  <Description>"(Don't Active)00_Option Select"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:Throw+Hold
+02:Throw+Hold+KnockDown
+03:Throw+Hold+StandUp
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30200"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+200</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>34</ID>
+                      <Description>"(Don't Active)Hold Select"</Description>
+                      <DropDownList DisplayValueAsItem="1">00:P-Hold
+01:P-Hold_J
+02:K-Hold
+03:K-Hold_J
+</DropDownList>
+                      <LastState Value="00" RealAddress="00B30206"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>BryanyoraMem+206</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>35</ID>
+                  <Description>"(Don't Active)01_Counter Hit"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:High Counter
+02:Counter
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30207"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+207</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>36</ID>
+                  <Description>"02_Y-axis Hit Box Correction"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30201"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+201</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>37</ID>
+                  <Description>"03_Wall Hit"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B30202"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+202</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3536</ID>
+                  <Description>"04_Power Blow"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B3020A"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+20A</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3537</ID>
+                  <Description>"05_Cliffhanger"</Description>
+                  <DropDownList DisplayValueAsItem="1">00:Default
+01:ON(HP0)
+02:ON
+</DropDownList>
+                  <LastState Value="00" RealAddress="00B3020B"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>Byte</VariableType>
+                  <Address>BryanyoraMem+20B</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"0220_DownAtack"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+aobscanmodule(AOB_DownAttack_A,game.exe,80 B9 9B 00 00 00 01 75 06 80 79 70 0F)
+aobscanmodule(AOB_DownAttack_B,game.exe,80 7F 70 0C 74 45 8B C6 69 C0 88 04 00 00)
+registersymbol(AOB_DownAttack_A)
+registersymbol(AOB_DownAttack_B)
+alloc(newmem,1024,"game.exe")
+label(DownAttack_A)
+label(DownAttack_A_JMP)
+label(DownAttack_A_SKIP)
+label(DownAttack_A_RET)
+
+label(DownAttack_B)
+label(DownAttack_B_JMP)
+label(DownAttack_B_RET)
+
+newmem:
+DownAttack_A:
+cmp ax,[ecx+2C]
+jb DownAttack_A_SKIP
+cmp byte ptr [ecx+0000009C],01
+je DownAttack_A_JMP
+cmp byte ptr [ecx+70],0C
+je DownAttack_A_JMP
+cmp [ecx+6C],613D
+je DownAttack_A_JMP
+cmp [ecx+6C],613E
+je DownAttack_A_JMP
+cmp [ecx+6C],6149
+je DownAttack_A_JMP
+cmp [ecx+6C],614A
+je DownAttack_A_JMP
+cmp [ecx+6C],62F6
+jne DownAttack_A_SKIP
+DownAttack_A_JMP:
+db B8 01 00 00 00
+DownAttack_A_SKIP:
+db 80 B9 9B 00 00 00 01
+jmp DownAttack_A_RET
+
+DownAttack_B:
+db 80 7F 70 0C
+je DownAttack_B_JMP
+xor eax,eax
+cmp ax,[edi+2C]
+jb DownAttack_B_SKIP
+cmp byte ptr [edi+0000009C],01
+je DownAttack_B_JMP
+cmp [edi+6C],613D
+je DownAttack_B_JMP
+cmp [edi+6C],613E
+je DownAttack_B_JMP
+cmp [edi+6C],6149
+je DownAttack_B_JMP
+cmp [edi+6C],614A
+je DownAttack_B_JMP
+cmp [edi+6C],62F6
+jne DownAttack_B_SKIP
+DownAttack_B_SKIP:
+jmp DownAttack_B_RET
+DownAttack_B_JMP:
+jmp DownAttack_B_RET+45
+
+AOB_DownAttack_A:
+jmp DownAttack_A
+nop
+nop
+DownAttack_A_RET:
+
+AOB_DownAttack_B:
+jmp DownAttack_B
+nop
+DownAttack_B_RET:
+
+[Disable]
+unregistersymbol(AOB_DownAttack_A)
+unregistersymbol(AOB_DownAttack_B)
+dealloc(newmem)
+
+AOB_DownAttack_A:
+db 80 B9 9B 00 00 00 01
+
+AOB_DownAttack_B:
+db 80 7F 70 0C
+db 74 45
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"0230_DownMotion"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_DownMotion_A,game.exe,89 BE * * * * 81 FF C0 5D 00 00 5F 5E)
+registersymbol(AOB_DownMotion_A)
+alloc(newmem,$1000,"game.exe")
+label(DownMotion_A)
+label(DownMotion_A_A)
+label(DownMotion_A_B)
+label(DownMotion_A_C)
+label(DownMotion_A_END)
+label(DownMotion_A_RET)
+
+newmem:
+DownMotion_A:
+xor eax,eax
+cmp ax,[esi+game.exe+FD056C]
+jb DownMotion_A_END
+cmp byte ptr [BryanyoraMem+203],00
+je DownMotion_A_END
+cmp edi,0000007F
+je DownMotion_A_A
+cmp edi,00000083
+jne DownMotion_A_END
+DownMotion_A_A:
+cmp byte ptr [BryanyoraMem+203],01
+je DownMotion_A_B
+cmp byte ptr [BryanyoraMem+203],02
+je DownMotion_A_C
+jmp DownMotion_A_END
+DownMotion_A_B:
+mov eax,00000082
+cmp edi,0000007F
+cmove edi,eax
+mov eax,00000086
+cmp edi,00000083
+cmove edi,eax
+jmp DownMotion_A_END
+DownMotion_A_C:
+mov eax,00000081
+cmp edi,0000007F
+cmove edi,eax
+mov eax,00000085
+cmp edi,00000083
+cmove edi,eax
+DownMotion_A_END:
+mov [esi+game.exe+FD05AC],edi
+jmp DownMotion_A_RET
+
+AOB_DownMotion_A:
+jmp DownMotion_A
+nop
+DownMotion_A_RET:
+
+[disable]
+unregistersymbol(AOB_DownMotion_A)
+dealloc(newmem)
+
+AOB_DownMotion_A:
+mov [esi+game.exe+FD05AC],edi
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>41</ID>
+              <Description>"(Don't Active)00_DownMotion Select"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Default
+01:DownMotion1
+02:DownMotion2
+</DropDownList>
+              <LastState Value="00" RealAddress="00B30203"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>BryanyoraMem+203</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"0240_Scream"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_Himei_A,game.exe,83 3D * * * * 02 75 49 8A 46 34 88 45 08 8B 4D 08)
+aobscanmodule(AOB_Himei_B,game.exe,51 50 E8 * * * * 83 C4 0C 5F 5E 8B E5 5D)
+aobscanmodule(CALL_HIMEI,game.exe,55 8B EC 57 8B 3D * * * * 85 FF 0F 84 F7 00 00 00)
+aobscanmodule(CALL_DANMATSUMA,game.exe,55 8B EC 8B 15 * * * * 85 D2 74 3D)
+registersymbol(AOB_Himei_A)
+registersymbol(AOB_Himei_B)
+registersymbol(CALL_HIMEI)
+registersymbol(CALL_DANMATSUMA)
+alloc(newmem,$1000,"game.exe")
+
+label(Himei_A)
+label(Himei_A_SKIP)
+label(Himei_A_JMP)
+label(Himei_A_RET)
+
+label(Himei_B)
+label(Himei_B_JMP)
+label(Himei_B_SKIP)
+label(Himei_B_RET)
+
+newmem:
+Himei_A:
+xor ecx,ecx
+movzx eax,[esi+36]
+imul eax,eax,000006C8
+cmp cx,[eax+game.exe+FD056C]
+jb Himei_A_SKIP
+cmp byte ptr [BryanyoraMem+204],00
+jne Himei_A_JMP
+Himei_A_SKIP:
+cmp dword ptr [game.exe+DD94D4],02
+jmp Himei_A_RET
+Himei_A_JMP:
+cmp al,al
+jmp Himei_A_RET
+
+Himei_B:
+xor ecx,ecx
+movzx eax,[esi+36]
+imul eax,eax,000006C8
+cmp cx,[eax+game.exe+FD056C]
+jb Himei_B_SKIP
+cmp byte ptr [BryanyoraMem+204],00
+je Himei_B_SKIP
+cmp byte ptr [BryanyoraMem+204],01
+je Himei_B_JMP
+cmp byte ptr [BryanyoraMem+204],02
+Himei_B_SKIP:
+call CALL_HIMEI
+jmp Himei_B_RET
+Himei_B_JMP:
+call CALL_DANMATSUMA
+jmp Himei_B_RET
+
+AOB_Himei_A:
+jmp Himei_A
+nop
+nop
+Himei_A_RET:
+
+AOB_Himei_B+02:
+jmp Himei_B
+Himei_B_RET:
+
+[disable]
+unregistersymbol(AOB_Himei_A)
+unregistersymbol(AOB_Himei_B)
+unregistersymbol(CALL_HIMEI)
+unregistersymbol(CALL_DANMATSUMA)
+dealloc(newmem)
+
+AOB_Himei_A:
+cmp dword ptr [game.exe+DD94D4],02
+
+AOB_Himei_B+02:
+call CALL_HIMEI
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>38</ID>
+              <Description>"(Don't Active)00_Scream Select"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Default
+01:DeathScream
+02:Scream
+</DropDownList>
+              <LastState Value="00" RealAddress="00B30204"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>BryanyoraMem+204</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"0250_Facial Expression"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+aobscanmodule(AOB_Hyoujou_A,game.exe,F3 0F 11 04 24 6A 00 56 6A 00 8B CF)
+registersymbol(AOB_Hyoujou_A)
+registersymbol(HYOUJOU_NUM)
+alloc(newmem,$1000,"game.exe")
+label(Hyoujou_A)
+label(Hyoujou_A_A)
+label(Hyoujou_A_B)
+label(Hyoujou_A_JMP)
+label(Hyoujou_A_SKIP)
+label(Hyoujou_A_RET)
+label(HYOUJOU_NUM)
+
+newmem:
+Hyoujou_A:
+db F3 0F 11 04 24
+movzx eax,byte ptr [ebx+36]
+lea ecx,[HYOUJOU_NUM]
+add ecx,eax
+movzx ecx,byte ptr [ecx]
+test ecx,ecx
+je Hyoujou_A_A
+mov eax,0000000B
+cmp ecx,01
+je Hyoujou_A_JMP
+mov eax,0000000C
+cmp ecx,02
+je Hyoujou_A_JMP
+mov eax,0000000D
+cmp ecx,03
+je Hyoujou_A_JMP
+xor eax,eax
+cmp ecx,04
+je Hyoujou_A_JMP
+mov eax,00000004
+cmp ecx,05
+je Hyoujou_A_JMP
+mov eax,00000005
+cmp ecx,06
+je Hyoujou_A_JMP
+mov eax,00000006
+cmp ecx,07
+je Hyoujou_A_JMP
+mov eax,00000007
+cmp ecx,08
+je Hyoujou_A_JMP
+mov eax,00000008
+cmp ecx,09
+je Hyoujou_A_JMP
+mov eax,00000009
+cmp ecx,0A
+je Hyoujou_A_JMP
+mov eax,0000000A
+cmp ecx,0B
+je Hyoujou_A_JMP
+Hyoujou_A_A:
+xor ecx,ecx
+mov eax,[ebx+40]
+cmp cx,[eax+2C]
+jb Hyoujou_A_SKIP
+cmp byte ptr [eax+70],00
+je Hyoujou_A_SKIP
+cmp [eax+6C],00000120
+je Hyoujou_A_B
+cmp byte ptr [eax+70],0D
+je Hyoujou_A_SKIP
+Hyoujou_A_B:
+mov eax,0000000B
+cmp byte ptr [BryanyoraMem+208],01
+je Hyoujou_A_JMP
+mov eax,0000000C
+cmp byte ptr [BryanyoraMem+208],02
+je Hyoujou_A_JMP
+mov eax,0000000D
+cmp byte ptr [BryanyoraMem+208],03
+je Hyoujou_A_JMP
+mov eax,0000000D
+test esi,esi
+jne Hyoujou_A_SKIP
+Hyoujou_A_JMP:
+mov esi,eax
+mov [ebp+0C],esi
+Hyoujou_A_SKIP:
+jmp Hyoujou_A_RET
+
+newmem+400:
+HYOUJOU_NUM:
+db 00 00
+
+AOB_Hyoujou_A:
+jmp Hyoujou_A
+Hyoujou_A_RET:
+
+[disable]
+unregistersymbol(AOB_Hyoujou_A)
+unregistersymbol(HYOUJOU_NUM)
+dealloc(newmem)
+
+AOB_Hyoujou_A:
+db F3 0F 11 04 24
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>43</ID>
+              <Description>"(Don't Active)00_HP0 Facial Expression"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Default
+01:01
+02:02
+03:03
+04:04
+05:05
+</DropDownList>
+              <LastState Value="00" RealAddress="00B30208"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>BryanyoraMem+208</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>44</ID>
+              <Description>"01_1P Facial Expression"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Default
+01:01
+02:02
+03:03
+04:04
+05:05
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HYOUJOU_NUM</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>45</ID>
+              <Description>"02_2P Facial Expression"</Description>
+              <DropDownList DisplayValueAsItem="1">00:Default
+01:01
+02:02
+03:03
+04:04
+05:05
+</DropDownList>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Byte</VariableType>
+              <Address>HYOUJOU_NUM+1</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>121</ID>
+      <Description>"Single precision floating point check"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+alloc(IEEE754CHECK,$10,"game.exe")
+registersymbol(IEEE754CHECK)
+
+IEEE754CHECK:
+dd 00000000
+
+[disable]
+unregistersymbol(IEEE754CHECK)
+dealloc(IEEE754CHECK)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>123</ID>
+          <Description>"(Don't Active)Show as Hexadecimal"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>IEEE754CHECK</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>122</ID>
+          <Description>"Show as Decimal"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Float</VariableType>
+          <Address>IEEE754CHECK</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
