@@ -1148,6 +1148,20 @@
       <VariableType>Byte</VariableType>
       <Address>2c0598be</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>444</ID>
+      <Description>"Unlock_TENGU"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2c23681a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>445</ID>
+      <Description>"Unlock_BAYMAN"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>2C23681B</Address>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry>
