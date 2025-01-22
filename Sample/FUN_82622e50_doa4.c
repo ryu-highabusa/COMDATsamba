@@ -7,8 +7,8 @@ undefined8 FUN_82622e50(void)
   
   uVar2 = 1;
   if ((CHAR_DISP_P1_830201a8 != 0) || (CHAR_DISP_P2_83020244 != 0)) {
-    if ((DAT_8301df53 != '\x01') ||
-       ((gamemodemaybe____83020318 != '\x01' || (bVar1 = true, DAT_83022cee != '\x03')))) {
+    if ((BYTE_8301df53 != 1) ||
+       ((GameMode_83020318 != TITLE_SCREEN || (bVar1 = true, DAT_83022cee != '\x03')))) {
       bVar1 = false;
     }
     if (!bVar1) {
