@@ -1,0 +1,183 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined FUN_823f5f88()
+             undefined         r3:1           <RETURN>
+             undefined8        Stack[-0x30]:8 local_30
+             undefined4        Stack[-0x80]:4 local_80                                XREF[1]:     823f5f88(W)  
+                             FUN_823f5f88
+        823f5f88 94 21 ff 80     stwu       r1,local_80(r1)
+        823f5f8c 3d 60 83 0a     lis        r11,-0x7cf6
+        823f5f90 3f a0 83 0f     lis        r29,-0x7cf1
+        823f5f94 3b eb 54 c8     addi       r31,r11,0x54c8
+        823f5f98 39 60 00 01     li         r11,0x1
+        823f5f9c 99 7f 00 00     stb        r11,0x0(r31)=>Pause_Menu_DISP_830a54c8
+        823f5fa0 39 60 00 00     li         r11,0x0
+        823f5fa4 99 7f 00 01     stb        r11,0x1(r31)=>Pause_Menu_Confirm_830a54c9
+        823f5fa8 99 7f 00 02     stb        r11,0x2(r31)=>DAT_830a54ca
+        823f5fac 99 7f 00 03     stb        r11,0x3(r31)=>Pause_Menu_Cursor_XPOS_830a54cb
+        823f5fb0 99 7f 00 04     stb        r11,0x4(r31)=>DAT_830a54cc
+        823f5fb4 91 7f 00 14     stw        r11,0x14(r31)=>Pause_Timer_830a54dc
+        823f5fb8 91 7f 00 18     stw        r11,0x18(r31)=>Pause_Timer_830a54e0
+        823f5fbc 99 7f 00 0d     stb        r11,0xd(r31)=>DAT_830a54d5
+        823f5fc0 81 7d 7c 94     lwz        r11,offset DAT_830f7c94(r29)
+        823f5fc4 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        823f5fc8 41 9a 00 58     beq        cr6,LAB_823f6020
+        823f5fcc 48 03 47 fd     bl         Function_8242A7C8                                  undefined Function_8242A7C8()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        823f5fd0 2f 03 ff ff     cmpwi      cr6,r3,-0x1
+        823f5fd4 41 9a 00 38     beq        cr6,LAB_823f600c
+        823f5fd8 48 00 0c 11     bl         Function_823F6BE8                                  undefined Function_823F6BE8()
+        823f5fdc 2f 03 00 00     cmpwi      cr6,r3,0x0
+        823f5fe0 41 9a 00 18     beq        cr6,LAB_823f5ff8
+        823f5fe4 3d 60 82 c5     lis        r11,-0x7d3b
+        823f5fe8 3b cb 9d 48     subi       r30,r11,0x62b8
+        823f5fec 48 03 47 dd     bl         Function_8242A7C8                                  undefined Function_8242A7C8()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        823f5ff0 98 7f 00 0d     stb        r3,0xd(r31)
+        823f5ff4 48 00 00 ac     b          LAB_823f60a0
+                             LAB_823f5ff8                                    XREF[1]:     823f5fe0(j)  
+        823f5ff8 3d 60 82 c5     lis        r11,-0x7d3b
+        823f5ffc 3b cb 9d 40     subi       r30,r11,0x62c0
+        823f6000 48 03 47 c9     bl         Function_8242A7C8                                  undefined Function_8242A7C8()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        823f6004 98 7f 00 0d     stb        r3,0xd(r31)
+        823f6008 48 00 00 98     b          LAB_823f60a0
+                             LAB_823f600c                                    XREF[1]:     823f5fd4(j)  
+        823f600c 3d 60 82 c5     lis        r11,-0x7d3b
+        823f6010 3b cb 8b bc     subi       r30,r11,0x7444
+        823f6014 48 03 47 b5     bl         Function_8242A7C8                                  undefined Function_8242A7C8()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        823f6018 98 7f 00 0d     stb        r3,0xd(r31)
+        823f601c 48 00 00 84     b          LAB_823f60a0
+                             LAB_823f6020                                    XREF[1]:     823f5fc8(j)  
+        823f6020 3d 60 83 02     lis        r11,-0x7cfe
+        823f6024 89 6b 03 18     lbz        r11,offset GameMode_83020318(r11)
+        823f6028 2b 0b 00 0b     cmplwi     cr6,r11,WATCH_MODE_SINGLE
+        823f602c 41 9a 00 6c     beq        cr6,LAB_823f6098
+        823f6030 2b 0b 00 0c     cmplwi     cr6,r11,WATCH_MODE_TAG
+        823f6034 41 9a 00 64     beq        cr6,LAB_823f6098
+        823f6038 2b 0b 00 0d     cmplwi     cr6,r11,0xd
+        823f603c 41 9a 00 34     beq        cr6,LAB_823f6070
+        823f6040 2b 0b 00 0e     cmplwi     cr6,r11,0xe
+        823f6044 41 9a 00 2c     beq        cr6,LAB_823f6070
+        823f6048 2b 0b 00 0f     cmplwi     cr6,r11,BATTLE_VIEWER_MODE
+        823f604c 41 9a 00 18     beq        cr6,LAB_823f6064
+        823f6050 2b 0b 00 10     cmplwi     cr6,r11,0x10
+        823f6054 41 9a 00 10     beq        cr6,LAB_823f6064
+        823f6058 3d 60 82 c5     lis        r11,-0x7d3b
+        823f605c 3b cb 9d 20     subi       r30,r11,0x62e0
+        823f6060 48 00 00 40     b          LAB_823f60a0
+                             LAB_823f6064                                    XREF[2]:     823f604c(j), 823f6054(j)  
+        823f6064 3d 60 82 c5     lis        r11,-0x7d3b
+        823f6068 3b cb 8b 2c     subi       r30,r11,0x74d4
+        823f606c 48 00 00 34     b          LAB_823f60a0
+                             LAB_823f6070                                    XREF[2]:     823f603c(j), 823f6044(j)  
+        823f6070 3d 60 82 fc     lis        r11,-0x7d04
+        823f6074 89 6b 90 26     lbz        r11,-0x6fda(r11)=>DAT_82fb9026
+        823f6078 2b 0b 00 01     cmplwi     cr6,r11,0x1
+        823f607c 40 9a 00 10     bne        cr6,LAB_823f608c
+        823f6080 3d 60 82 c5     lis        r11,-0x7d3b
+        823f6084 3b cb 9d 38     subi       r30,r11,0x62c8
+        823f6088 48 00 00 18     b          LAB_823f60a0
+                             LAB_823f608c                                    XREF[1]:     823f607c(j)  
+        823f608c 3d 60 82 c5     lis        r11,-0x7d3b
+        823f6090 3b cb 9d 30     subi       r30,r11,0x62d0
+        823f6094 48 00 00 0c     b          LAB_823f60a0
+                             LAB_823f6098                                    XREF[2]:     823f602c(j), 823f6034(j)  
+        823f6098 3d 60 82 c5     lis        r11,-0x7d3b
+        823f609c 3b cb 9d 28     subi       r30,r11,0x62d8
+                             LAB_823f60a0                                    XREF[7]:     823f5ff4(j), 823f6008(j), 
+                                                                                          823f601c(j), 823f6060(j), 
+                                                                                          823f606c(j), 823f6088(j), 
+                                                                                          823f6094(j)  
+        823f60a0 39 60 00 00     li         r11,0x0
+        823f60a4 89 5e 00 00     lbz        r10,0x0(r30)=>BYTE_82c49d48
+        823f60a8 93 df 00 10     stw        r30=>BYTE_82c49d48,0x10(r31)=>Pause_Menu_Options_
+        823f60ac 2b 0a 00 ff     cmplwi     cr6,r10,0xff
+        823f60b0 99 7f 00 0c     stb        r11,0xc(r31)=>Pause_Menu_BOXES_830a54d4
+        823f60b4 41 9a 00 24     beq        cr6,LAB_823f60d8
+                             LAB_823f60b8                                    XREF[1]:     823f60d0(j)  
+        823f60b8 3b de 00 01     addi       r30,r30,0x1
+        823f60bc 55 6b 06 3e     rlwinm     r11,r11,0x0,0x18,0x1f
+        823f60c0 39 2b 00 01     addi       r9,r11,0x1
+        823f60c4 89 1e 00 00     lbz        r8,0x0(r30)=>BYTE_82c49d49                         = 1h
+                                                                                                = 2h
+                                                                                                = Eh
+        823f60c8 55 2b 06 3e     rlwinm     r11,r9,0x0,0x18,0x1f
+        823f60cc 2b 08 00 ff     cmplwi     cr6,r8,0xff
+        823f60d0 40 9a ff e8     bne        cr6,LAB_823f60b8
+        823f60d4 99 7f 00 0c     stb        r11,0xc(r31)=>Pause_Menu_BOXES_830a54d4
+                             LAB_823f60d8                                    XREF[1]:     823f60b4(j)  
+        823f60d8 39 60 00 00     li         r11,0x0
+        823f60dc 38 80 01 e0     li         r4,480
+        823f60e0 38 60 02 d0     li         r3,720
+        823f60e4 91 7f 00 1c     stw        r11,0x1c(r31)=>DWORD_830a54e4
+        823f60e8 91 7f 00 20     stw        r11,0x20(r31)=>DAT_830a54e8
+        823f60ec 4b fb 89 95     bl         Function_823AEA80                                  undefined Function_823AEA80()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        823f60f0 3d 60 83 03     lis        r11,-0x7cfd
+        823f60f4 38 c0 00 00     li         r6,0x0
+        823f60f8 38 6b 3e 00     addi       r3=>DAT_83033e00,r11,0x3e00
+        823f60fc 3d 60 83 03     lis        r11,-0x7cfd
+        823f6100 38 83 00 74     addi       r4=>DAT_83033e74,r3,0x74
+        823f6104 38 ab 3d a0     addi       r5=>DAT_83033da0,r11,0x3da0
+        823f6108 39 60 00 00     li         r11,0x0
+        823f610c 99 65 00 00     stb        r11,0x0(r5)=>DAT_83033da0
+        823f6110 39 60 00 04     li         r11,0x4
+        823f6114 99 65 00 01     stb        r11,0x1(r5)=>DAT_83033da1
+        823f6118 39 60 00 00     li         r11,0x0
+        823f611c 99 65 00 02     stb        r11,0x2(r5)=>DAT_83033da2
+        823f6120 39 60 00 01     li         r11,0x1
+        823f6124 99 65 00 03     stb        r11,0x3(r5)=>DAT_83033da3
+        823f6128 39 60 00 22     li         r11,0x22
+        823f612c 99 65 00 10     stb        r11,0x10(r5)=>DAT_83033db0
+        823f6130 39 60 00 00     li         r11,0x0
+        823f6134 99 65 00 11     stb        r11,0x11(r5)=>DAT_83033db1
+        823f6138 99 65 00 1c     stb        r11,0x1c(r5)=>DAT_83033dbc
+        823f613c b1 65 00 08     sth        r11,0x8(r5)=>DAT_83033da8
+        823f6140 39 60 00 01     li         r11,0x1
+        823f6144 91 65 00 04     stw        r11,0x4(r5)=>DAT_83033da4
+        823f6148 39 60 00 00     li         r11,0x0
+        823f614c b1 65 00 0a     sth        r11,0xa(r5)=>DAT_83033daa
+        823f6150 91 65 00 14     stw        r11,0x14(r5)=>DAT_83033db4
+        823f6154 3d 60 80 00     lis        r11,-0x8000
+        823f6158 91 65 00 18     stw        r11,0x18(r5)=>DAT_83033db8
+        823f615c 4b fa ff 2d     bl         Function_823A6088                                  undefined Function_823A6088()
+        823f6160 3d 60 83 58     lis        r11,-0x7ca8
+        823f6164 39 6b 99 60     subi       r11,r11,0x66a0
+        823f6168 80 8b 00 04     lwz        r4,0x4(r11)=>DAT_83579964
+        823f616c 80 6b 00 00     lwz        r3,0x0(r11)=>DAT_83579960
+        823f6170 4b fb 89 11     bl         Function_823AEA80                                  undefined Function_823AEA80()
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        823f6174 3d 60 83 02     lis        r11,-0x7cfe
+        823f6178 81 5d 7c 94     lwz        r10,0x7c94(r29)
+        823f617c 3c e0 66 66     lis        r7,0x6666
+        823f6180 2f 0a 00 00     cmpwi      cr6,r10,0x0
+        823f6184 60 e6 66 67     ori        r6,r7,0x6667
+        823f6188 81 6b 23 20     lwz        r11,offset PTR_to_0x8319cb00_Settings_Game_Story_  = 00000000
+        823f618c 89 6b 00 20     lbz        r11,0x20(r11)
+        823f6190 7c ab 30 96     mulhw      r5,r11,r6
+        823f6194 7c ab 0e 70     srawi      r11,r5,0x1
+        823f6198 55 6a 0f fe     rlwinm     r10,r11,0x1,0x1f,0x1f
+        823f619c 7c 8b 52 14     add        r4,r11,r10
+        823f61a0 3d 60 82 18     lis        r11,-0x7de8
+        823f61a4 78 83 00 20     rldicl     r3,r4,0x0,0x20
+        823f61a8 f8 61 00 50     std        r3,0x50(r1)
+        823f61ac c8 01 00 50     lfd        f0,0x50(r1)
+        823f61b0 fd a0 06 9c     fcfid      f13,f0
+        823f61b4 c0 0b f3 04     lfs        f0,-0xcfc(r11)=>FLOAT_8217f304                     = 0.0099999998
+        823f61b8 3d 60 83 19     lis        r11,-0x7ce7
+        823f61bc 81 6b 40 54     lwz        r11,offset PTR_83194054(r11)                       = 00000000
+        823f61c0 fd 80 68 18     frsp       f12,f13
+        823f61c4 ed 6c 00 32     fmuls      f11,f12,f0
+        823f61c8 d1 6b 00 04     stfs       f11,0x4(r11)
+        823f61cc 40 9a 00 08     bne        cr6,LAB_823f61d4
+        823f61d0 48 13 a3 91     bl         Function_82530560                                  undefined Function_82530560()
+                             LAB_823f61d4                                    XREF[1]:     823f61cc(j)  
+        823f61d4 38 21 00 80     addi       r1,r1,0x80
+        823f61d8 48 5f 8b 44     b          switchD_82426b00::caseD_4
+        823f61dc 00              ??         00h
+        823f61dd 00              ??         00h
+        823f61de 00              ??         00h
+        823f61df 00              ??         00h
