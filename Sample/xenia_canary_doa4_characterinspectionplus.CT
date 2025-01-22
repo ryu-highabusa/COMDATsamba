@@ -10552,6 +10552,72 @@
       <VariableType>Byte</VariableType>
       <Address>182E62BB0</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>1420</ID>
+      <Description>"game mode"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8ffb</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1423</ID>
+      <Description>"gamemodemaybe???_83020318"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020318</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1424</ID>
+      <Description>""</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183020319</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1425</ID>
+      <Description>"DAT_830999ab"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1830999ab</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1421</ID>
+      <Description>"BYTE_8301df53"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18301df53</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1422</ID>
+      <Description>"BYTE_8302031e"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>18302031e</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1426</ID>
+      <Description>"SINGLE/TAG FLAG"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183022e92</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1427</ID>
+      <Description>"GetReady_82fb9012"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb9012</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1428</ID>
+      <Description>"GetReady_82fb8e6e"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182fb8e6e</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
