@@ -5,7 +5,7 @@
     群がりて息吹
 
     Romanji:
-    "Dedar" no hi wa
+    "Dedara" no hi wa
     Kaze ni aragai
     Moyuru mama
     Mamoru te naku to mo
