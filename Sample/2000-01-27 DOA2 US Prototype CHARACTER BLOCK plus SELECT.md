@@ -26,3 +26,9 @@
 | `8c14db5f`| `08`  | 0x8 | LEON                  |
 | `8c14db60`| `0C`  | 0xC | LEIFANG               |
 | `8c14db61`| `03`  | 0x3 | EIN                   |
+
+### DEFEAT CHARACTER BLOCK
+Character 0xF is normally not selectable, but we can easily defeat her lockout by patching 8c14db50 with FF. 
+
+### REPLACE CHARACTER SELECT SLOT
+Then subsequently overwriting someone else's character select slot, such as Kasumi's at 8c14db56, with 0xF.
