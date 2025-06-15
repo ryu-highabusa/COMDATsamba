@@ -87,14 +87,14 @@
     </CheatEntry>
     <CheatEntry>
       <ID>12</ID>
-      <Description>"No description"</Description>
+      <Description>""</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>2C1FBFD6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
-      <Description>"No description"</Description>
+      <Description>""</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>2C1FBFD8</Address>
@@ -115,7 +115,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>16</ID>
-      <Description>"No description"</Description>
+      <Description>""</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>2C1FBFDE</Address>
