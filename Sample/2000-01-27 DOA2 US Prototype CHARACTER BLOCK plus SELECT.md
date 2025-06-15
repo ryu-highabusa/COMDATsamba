@@ -3,7 +3,7 @@
 
 ### Memory Address Reference Table
 
-#### ILLEGAL_CHARACTER_LIST `XREF[1]: 8c02a89c(*)`
+#### ILLEGAL_CHARACTER_LIST 
 | Address   | Value | Character Name        |
 |-----------|-------|-----------------------|
 | `8c14db4f`| `0B`  | RAIDOU                |
@@ -14,7 +14,7 @@
 | `8c14db54`| `15`  | GENRA                 |
 | `8c14db55`| `16`  | BOSS                  |
 
-#### CHARACTER_SELECT_IDs_MULTIPLAYER `XREF[1]: 8c022aa0(*)`
+#### CHARACTER_SELECT_IDs_MULTIPLAYER 
 | Address   | Value | Character Name        |
 |-----------|-------|-----------------------|
 | `8c14db56`| `05`  | KASUMI                |
@@ -51,7 +51,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 
 ### メモリアドレス参照表
 
-#### 非選択可能キャラクターリスト `XREF[1]: 8c02a89c(*)`
+#### 非選択可能キャラクターリスト 
 | アドレス    | 値    | キャラクター名         |
 |-----------|-------|-----------------------|
 | `8c14db4f`| `0B`  | 雷道                  |
@@ -62,7 +62,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 | `8c14db54`| `15`  | 幻羅                 |
 | `8c14db55`| `16`  | ボス                  |
 
-#### マルチプレイヤー選択可能キャラクターID `XREF[1]: 8c022aa0(*)`
+#### マルチプレイヤー選択可能キャラクターID 
 | Address   | Value | Character Name        |
 |-----------|-------|-----------------------|
 | `8c14db56`| `05`  | かすみ                |
