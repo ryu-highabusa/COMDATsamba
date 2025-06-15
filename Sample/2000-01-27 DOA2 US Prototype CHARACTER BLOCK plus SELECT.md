@@ -43,3 +43,51 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 [Ghidra Project](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27_1ST_READ.bin.gzf)
 
 [Crash RAM Dump](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27%20DOA2%20US%20Prototype%20RAMDUMP%20CHARACTER%200F%20INDIANBELLYDANCER%20CRASH.bin)
+
+---
+
+### DEAD OR ALIVE 2
+### ビルド 2000-01-27 
+
+### メモリアドレス参照表
+
+#### 非選択可能キャラクターリスト `XREF[1]: 8c02a89c(*)`
+| アドレス    | 値    | キャラクター名         |
+|-----------|-------|-----------------------|
+| `8c14db4f`| `0B`  | 雷道                  |
+| `8c14db50`| `0F`  | インドのベリーダンサー      |
+| `8c14db51`| `12`  | 子供の頃のティナ         |
+| `8c14db52`| `13`  | バーサーク              |
+| `8c14db53`| `14`  | ライバル                |
+| `8c14db54`| `15`  | 幻羅                 |
+| `8c14db55`| `16`  | ボス                  |
+
+#### CHARACTER_SELECT_IDs_MULTIPLAYER `XREF[1]: 8c022aa0(*)`
+| Address   | Value | Character Name        |
+|-----------|-------|-----------------------|
+| `8c14db56`| `05`  | かすみ                |
+| `8c14db57`| `06`  | ゲン・フー                 |
+| `8c14db58`| `01`  | ティナ                  |
+| `8c14db59`| `00`  | ザック                  |
+| `8c14db5a`| `02`  | ジャン・リー               |
+| `8c14db5b`| `0D`  | あやね                 |
+| `8c14db5c`| `04`  | リュウ・ハヤブサ/隼 龍              |
+| `8c14db5d`| `07`  | エレナ                |
+| `8c14db5e`| `09`  | バース                  |
+| `8c14db5f`| `08`  | レオン                  |
+| `8c14db60`| `0C`  | レイファン               |
+| `8c14db61`| `03`  | アイン                    |
+
+### キャラクターブロック解除
+通常は選択不可能なキャラクター`0F`ですが、`8c14db50`を`FF`でパッチすることでロックを解除できます。
+
+### キャラクター選択スロットの書き換え
+続いて、かすみのスロット(`8c14db56`)など既存キャラクターのスロットを`0F`で上書きします。
+
+### レンダリング時のクラッシュ
+残念ながら、キャラクターが画面上に表示されるべきフレームでゲームがフリーズします。[スクリーンショット](https://raw.githubusercontent.com/ryu-highabusa/COMDATsamba/refs/heads/main/Sample/2000-01-27%20DOA2%20US%20Prototype%20RAMDUMP%20CHARACTER%200F%20INDIANBELLYDANCER%20CRASH.png)
+
+### Ghidraプロジェクトとクラッシュ時RAMダンプ
+[Ghidraプロジェクト](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27_1ST_READ.bin.gzf)
+
+[クラッシュ時RAMダンプ](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27%20DOA2%20US%20Prototype%20RAMDUMP%20CHARACTER%200F%20INDIANBELLYDANCER%20CRASH.bin)
