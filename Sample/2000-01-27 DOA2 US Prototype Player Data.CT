@@ -509,12 +509,6 @@
       <VariableType>Byte</VariableType>
       <Address>2c1fc01c</Address>
     </CheatEntry>
-    <CheatEntry>
-      <ID>20</ID>
-      <Description>"No description"</Description>
-      <VariableType>Byte</VariableType>
-      <Address>2C1F92BA</Address>
-    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
