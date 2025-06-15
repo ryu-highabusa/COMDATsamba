@@ -122,8 +122,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>17</ID>
-      <Description>"No description"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <Description>"ANIME_P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>2C1FBFE0</Address>
@@ -143,6 +142,12 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>2C1FBFE4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"No description"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>2C1F92BA</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
