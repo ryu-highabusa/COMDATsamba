@@ -63,7 +63,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 | `8c14db55`| `16`  | ボス                  |
 
 #### マルチプレイヤー選択可能キャラクターID 
-| Address   | Value | Character Name        |
+| アドレス    | 値    | キャラクター名         |
 |-----------|-------|-----------------------|
 | `8c14db56`| `05`  | かすみ                |
 | `8c14db57`| `06`  | ゲン・フー                 |
@@ -71,7 +71,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 | `8c14db59`| `00`  | ザック                  |
 | `8c14db5a`| `02`  | ジャン・リー               |
 | `8c14db5b`| `0D`  | あやね                 |
-| `8c14db5c`| `04`  | リュウ・ハヤブサ/隼 龍              |
+| `8c14db5c`| `04`  | リュウ・ハヤブサ            |
 | `8c14db5d`| `07`  | エレナ                |
 | `8c14db5e`| `09`  | バース                  |
 | `8c14db5f`| `08`  | レオン                  |
