@@ -62,7 +62,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 | `8c14db54`| `15`  | 幻羅                 |
 | `8c14db55`| `16`  | ボス                  |
 
-#### CHARACTER_SELECT_IDs_MULTIPLAYER `XREF[1]: 8c022aa0(*)`
+#### マルチプレイヤー選択可能キャラクターID `XREF[1]: 8c022aa0(*)`
 | Address   | Value | Character Name        |
 |-----------|-------|-----------------------|
 | `8c14db56`| `05`  | かすみ                |
