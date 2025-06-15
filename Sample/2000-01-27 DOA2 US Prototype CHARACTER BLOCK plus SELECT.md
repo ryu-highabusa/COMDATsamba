@@ -1,3 +1,6 @@
+### DEAD OR ALIVE 2
+### Build 2000-01-27 
+
 ### Memory Address Reference Table
 
 #### ILLEGAL_CHARACTER_LIST `XREF[1]: 8c02a89c(*)`
@@ -38,4 +41,5 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 
 ### Ghidra Project and Crash RAM Dump
 [Ghidra Project](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27_1ST_READ.bin.gzf)
+
 [Crash RAM Dump](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27%20DOA2%20US%20Prototype%20RAMDUMP%20CHARACTER%200F%20INDIANBELLYDANCER%20CRASH.bin)
