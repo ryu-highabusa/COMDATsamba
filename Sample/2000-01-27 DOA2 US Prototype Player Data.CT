@@ -145,7 +145,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>21</ID>
-      <Description>"ACT_REQ_P1"</Description>
+      <Description>"ACT_REQ_P1 ????"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>2C1FBFE6</Address>
