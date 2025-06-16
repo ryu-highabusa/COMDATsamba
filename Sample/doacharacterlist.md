@@ -1,16 +1,16 @@
 |	HEX	|	DECIMAL	|	DOA1 Arcade	|	DOA1 PSX	|	DOA++	|	DOA2	|	DOA2LE/H	|	DOA3	|	DOA4	|	DOA DIM	|	DOA5	|	DOA6	|
 |	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|
-|	`0x0`	|	0	|	`ZACK (KELLY)`	|	ZACK	|		|	ZACK	|	ZACK	|	ZACK	|	ZACK	|		|	ZACK	|		|
+|	`0x0`	|	0	|	`ZACK` <sub>(KELLY)</sub></sub>	|	ZACK	|		|	ZACK	|	ZACK	|	ZACK	|	ZACK	|		|	ZACK	|		|
 |	`0x1`	|	1	|	`TINA`	|	TINA	|		|	TINA	|	TINA	|	TINA	|	TINA	|		|	TINA	|		|
-|	`0x2`	|	2	|	`JANN-LEE (LOO/LU)`	|	JANN-LEE	|		|	JANN-LEE	|	JANN-LEE	|	JANN LEE	|	JANN LEE	|		|	JANN LEE	|		|
-|	`0x3`	|	3	|	`?? TINA ??`	|	??	|		|	EIN (KARATE)	|	EIN	|	EIN	|	EIN	|		|	EIN	|		|
-|	`0x4`	|	4	|	`HAYABUSA (KAMUI)`	|	HAYABUSA	|		|	HAYABUSA	|	HAYABUSA	|	HAYABUSA	|	HAYABUSA	|		|	HAYABUSA	|		|
+|	`0x2`	|	2	|	`JANN-LEE` <sub>(LOO/LU)</sub>	|	JANN-LEE	|		|	JANN-LEE	|	JANN-LEE	|	JANN LEE	|	JANN LEE	|		|	JANN LEE	|		|
+|	`0x3`	|	3	|	?? `TINA` ??	|	??	|		|	EIN (KARATE)	|	EIN	|	EIN	|	EIN	|		|	EIN	|		|
+|	`0x4`	|	4	|	`HAYABUSA` <sub>(KAMUI)</sub>	|	HAYABUSA	|		|	HAYABUSA	|	HAYABUSA	|	HAYABUSA	|	HAYABUSA	|		|	HAYABUSA	|		|
 |	`0x5`	|	5	|	`KASUMI`	|	KASUMI	|		|	KASUMI	|	KASUMI	|	KASUMI	|	KASUMI	|		|	KASUMI	|		|
-|	`0x6`	|	6	|	`GEN-FU (FAN-FU)`	|	GEN-FU	|		|	GEN-FU	|	GEN-FU	|	GEN FU	|	GEN FU	|		|	GEN FU	|		|
-|	`0x7`	|	7	|	`?? CHAMPION ??`	|	??	|		|	HELENA (HIKA-KEN)	|	HELENA	|	HELENA	|	HELENA	|		|	HELENA	|		|
-|	`0x8`	|	8	|	`BAYMAN (GATSBY)`	|	BAYMAN	|		|	LEON (BAYMAN)	|	LEON	|	LEON	|	LEON	|		|	LEON	|		|
-|	`0x9`	|	9	|	`?? BLANK ??`	|	??	|		|	BASS	|	BASS	|	BASS	|	BASS	|		|	BASS	|		|
-|	`0xa`	|	10	|	`?? RAIDOU ??`	|	??	|		|	HELENA MAM	|		|	HAKKYOKU-KEN	|	KOKORO	|		|	KOKORO	|		|
+|	`0x6`	|	6	|	`GEN-FU` <sub>(FAN-FU)</sub>	|	GEN-FU	|		|	GEN-FU	|	GEN-FU	|	GEN FU	|	GEN FU	|		|	GEN FU	|		|
+|	`0x7`	|	7	|	?? `CHAMPION` ??	|	??	|		|	HELENA (HIKA-KEN)	|	HELENA	|	HELENA	|	HELENA	|		|	HELENA	|		|
+|	`0x8`	|	8	|	`BAYMAN` <sub>(GATSBY)</sub>	|	BAYMAN	|		|	LEON (BAYMAN)	|	LEON	|	LEON	|	LEON	|		|	LEON	|		|
+|	`0x9`	|	9	|	?? `BLANK` ??	|	??	|		|	BASS	|	BASS	|	BASS	|	BASS	|		|	BASS	|		|
+|	`0xa`	|	10	|	?? `RAIDOU` ??	|	??	|		|	HELENA MAM	|		|	HAKKYOKU-KEN	|	KOKORO	|		|	KOKORO	|		|
 |	`0xb`	|	11	|	`RAIDOU`	|	RAIDOU	|		|	RAIDOU	|		|	HAYATE (NINJA)	|	HAYATE	|		|	HAYATE	|		|
 |	`0xc`	|	12	|	`LEI-FANG`	|	LEI-FANG	|		|	LEI-FANG	|	LEI-FANG	|	LEI-FANG	|	LEI-FANG	|		|	LEI-FANG	|		|
 |	`0xd`	|	13	|		|	`AYANE`	|		|	AYANE	|	AYANE	|	AYANE	|	AYANE	|		|	AYANE	|		|
