@@ -1,6 +1,6 @@
 |`Variable Name`|`doa.zip`|`doaa.zip`|`DOA2M`|`DOA2 Demo 2000-01-07`|`DOA2 Proto 2001-01-27`|`DOA2 PS2 2000-03-17`|`DOA2LE 2000-08-29`|`DOA2HC 2000-11-07`|`DOA3 Proto 2001-10-14`|`DOA3.1 2002-02-08`|`DOA2U 2004-10-07`|`DOA2U Proto 2004-10-12`|`DOA4 2005-12-21`|	Notes	|
 |	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|
-|`MAN_COM_P1`|`0054fc00`|`0054fbe0`|`0c2544f4`|`8c21c2cc`|`8c1fbfb4`|`0041a960`|`8c2376b8`|`004a2b80`|``|``|`0087ae30`|`008767d0`|`83020188`|	0=COMPUTER, 1=HUMAN	|
+|`MAN_COM_P1`|`0054fc00`|`0054fbe0`|`0c2544f4`|`8c21c2cc`|`8c1fbfb4`|`0041a960`|`8c2376b8`|`004a2b80`|``|``|`0087ae30`|`008767d0`|`83020188`|	`0=COMputer`, `1=huMAN`	|
 |`CHAR_NUM_P1`|`0054fc01`|`0054fbe1`|`0c2544f5`|`8c21c2cd`|`8c1fbfb5`|`0041a961`|`8c2376b9`|`004a2b81`|`0045e479`|`0059cf59`|`0087ae31`|`008767d1`|`83020189`|		|
 |`CHAR_COL_P1`|`0054fc02`|`0054fbe2`|`0c2544f6`|`8c21c2ce`|`8c1fbfb6`|`0041a962`|`8c2376ba`|`004a2b82`|`0045e47a`|`0059cf5a`|`0087ae32`|`008767d2`|`8302018a`|		|
 |`WIN_POINT_P1`|`0054fc03`|`0054fbe3`|`0c2544f7`|`8c21c2cf`|`8c1fbfb7`|`0041a963`|`8c2376bb`|`004a2b83`|`0045e47b`|``|`0087ae33`|`008767d3`|`8302018b`|	Rounds Won	|
@@ -26,7 +26,7 @@
 |`DOWN_DIR_P1`|`0054fc31`|`0054fc11`|``|``|``|``|``|``|``|``|``|``|``|		|
 |`ATK_POINT_P1`|`0054fc32`|`0054fc12`|``|``|``|``|``|``|``|``|``|``|``|		|
 |`ATK_STA_P1`|`0054fc33`|`0054fc13`|``|``|``|``|``|``|``|``|``|``|``|	`0=NEUTRAL`, `1=AIR`, `2=AIR_ATTACK`, `3=ATTACK`, `4=THROW`, `5=HOLD`, `6=HOLD_SUCCESS`, `7=Block_Stun (Hold_Disabled)`, `8=Critical_Stun (Hold_Enabled)`, `9=Hit_Stun (Hold_Disabled)`, `10=BEING_THROWN`, `11=BEING_HELD`, `12=GROUND_STATE (Wake-Up-Kick_Enabled)`, `13=SPECIAL_MOVE (Taunts/Flips)`, `14=DOWN_ATTACK`, `15=Down_Attack_Stun`, `16=THROW_MISS`	|
-|`ANIM_FLIP_P1`|`0054fc34`|`0054fc14`|``|``|`8c1fbfee`|``|``|``|``|``|``|``|`830201c6`|	0=left foot forward, 1=right foot forward 	|
+|`ANIM_FLIP_P1`|`0054fc34`|`0054fc14`|``|``|`8c1fbfee`|``|``|``|``|``|``|``|`830201c6`|	`0=left foot forward`, `1=right foot forward` 	|
 |`ANIM_FLAG_P1`|`0054fc35`|`0054fc15`|``|``|``|``|``|``|``|``|``|``|``|		|
 |`ANIM_REQ_P1`|`0054fc36`|`0054fc16`|``|``|``|``|``|``|``|``|``|``|``|		|
 |`HIT_ATK_P1`|`0054fc37`|`0054fc17`|``|``|``|``|``|``|``|``|``|``|``|		|
