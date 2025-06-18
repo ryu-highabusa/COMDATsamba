@@ -44,7 +44,33 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 
 [Crash RAM Dump](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27%20DOA2%20US%20Prototype%20RAMDUMP%20CHARACTER%200F%20INDIANBELLYDANCER%20CRASH.bin)
 
----
+-----
+| `8c073ff8`` | `PTR_SKELETON_DATA` |    |
+| `8c17957c` | `SKELETON_DATA_ZACK` |    |
+| `8c179580` | `SKELETON_DATA_TINA` |    |
+| `8c179584` | `SKELETON_DATA_JANNLEE` |    |
+| `8c179588` | `SKELETON_DATA_EIN` |    |
+| `8c17958c` | `SKELETON_DATA_HAYABUSA` |    |
+| `8c179590` | `SKELETON_DATA_KASUMI` |    |
+| `8c179594` | `SKELETON_DATA_GENFU` |    |
+| `8c179598` | `SKELETON_DATA_HELENA` |    |
+| `8c17959c` | `SKELETON_DATA_LEON` |    |
+| `8c1795a0` | `SKELETON_DATA_BASS` |    |
+| `8c1795a4` | `SKELETON_DATA_DELETED` | `0xA HELENA MAM` |
+| `8c1795a8` | `SKELETON_DATA_DELETED` | `0xB RAIDOU`  |
+| `8c1795ac` | `SKELETON_DATA_LEIFANG` |    |
+| `8c1795b0` | `SKELETON_DATA_AYANE` |    |
+| `8c1795b4` | `SKELETON_DATA_DELETED` | `0xE WAKA BASS` |
+| `8c1795b8` | `SKELETON_DATA_DELETED` | `0xF INDIA`  |
+| `8c1795bc` | `SKELETON_DATA_DELETED` | `0x10 LORAN`  |
+| `8c1795c0` | `SKELETON_DATA_TENGU` |    |
+| `8c1795c4` | `SKELETON_DATA_DELETED` | `0x12 CoTINA`  |
+| `8c1795c8` | `SKELETON_DATA_DELETED` | `0x13 BERSERK`  |
+| `8c1795cc` | `SKELETON_DATA_DELETED` | `0x14 RIVAL`  |
+| `8c1795d0` | `SKELETON_DATA_DELETED` | `0x15 GENRA`  |
+| `8c1795d4` | `SKELETON_DATA_DELETED` | `0x16 BOSS`  |
+| `8c1795d8` | `SKELETON_DATA_DELETED` |    |
+-----
 
 ### DEAD OR ALIVE 2
 ### ビルド 2000-01-27 
