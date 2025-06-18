@@ -46,6 +46,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 
 -----
 | `` | `PTR_SKELETON_DATA` |    |
+|-----|-----|-----|
 | `8c17957c` | `SKELETON_DATA_ZACK` |    |
 | `8c179580` | `SKELETON_DATA_TINA` |    |
 | `8c179584` | `SKELETON_DATA_JANNLEE` |    |
