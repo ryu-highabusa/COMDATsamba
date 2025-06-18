@@ -45,7 +45,7 @@ Unfortunately the game freezes at the exact frame the character is supposed to r
 [Crash RAM Dump](https://github.com/ryu-highabusa/COMDATsamba/blob/main/Sample/2000-01-27%20DOA2%20US%20Prototype%20RAMDUMP%20CHARACTER%200F%20INDIANBELLYDANCER%20CRASH.bin)
 
 -----
-| `` | `PTR_SKELETON_DATA` |    |
+| `Address` | `PTR_SKELETON_DATA` |    |
 |-----|-----|-----|
 | `8c17957c` | `SKELETON_DATA_ZACK` |    |
 | `8c179580` | `SKELETON_DATA_TINA` |    |
