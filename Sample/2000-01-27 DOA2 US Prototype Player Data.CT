@@ -565,6 +565,14 @@
       <VariableType>4 Bytes</VariableType>
       <Address>2c1765f8</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>81</ID>
+      <Description>"india_pointer 6, change to 8c18a238"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>2c18b5f4</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
