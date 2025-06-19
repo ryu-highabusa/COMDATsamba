@@ -15,6 +15,7 @@
         <CheatEntry>
           <ID>29</ID>
           <Description>"No description"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>2C1CED00</Address>
         </CheatEntry>
@@ -2958,6 +2959,14 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>2c135bf8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>450</ID>
+      <Description>"pointers to costume data maybe???"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>2c1c85f4</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
