@@ -1,0 +1,706 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall FUN_8c01b02c(char param_1)
+                               assume r12 = 0x8c0e4cfa
+             undefined         r0:1           <RETURN>
+             char              r4:1           param_1
+             undefined4        Stack[-0x4]:4  local_4                                 XREF[1]:     8c01b02c(*)  
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[2]:     8c01b030(*), 
+                                                                                                   8c01b48a(*)  
+             undefined4        Stack[-0xc]:4  local_c                                 XREF[2]:     8c01b034(*), 
+                                                                                                   8c01b488(*)  
+             undefined4        Stack[-0x10]:4 local_10                                XREF[2]:     8c01b040(*), 
+                                                                                                   8c01b486(*)  
+             undefined4        Stack[-0x14]:4 local_14                                XREF[2]:     8c01b044(*), 
+                                                                                                   8c01b484(*)  
+                             FUN_8c01b02c                                    XREF[23]:    8c015c28(c), 8c015d6c(*), 
+                                                                                          FUN_8c016394:8c016476(c), 
+                                                                                          8c016524(*), 
+                                                                                          FUN_8c016580:8c01660a(c), 
+                                                                                          8c016678(*), 
+                                                                                          FUN_8c016690:8c0167ee(c), 
+                                                                                          8c0168b8(*), 8c016b54(*), 
+                                                                                          FUN_8c016c44:8c016fc6(c), 
+                                                                                          8c0170e4(*), 8c0178dc(*), 
+                                                                                          8c017d10(*), 
+                                                                                          FUN_8c018540:8c0184b0(c), 
+                                                                                          8c01852c(*), 
+                                                                                          FUN_8c02d906:8c02d980(c), 
+                                                                                          8c02d9bc(*), 
+                                                                                          FUN_8c02d906:8c02d9e2(c), 
+                                                                                          FUN_8c02d906:8c02da0e(c), 
+                                                                                          FUN_8c02d906:8c02da24(c), [more]
+        8c01b02c e6 2f           mov.l      r14,@-r15=>local_4
+             assume r12 = <UNKNOWN>
+        8c01b02e 4c 60           extu.b     param_1,r0
+        8c01b030 d6 2f           mov.l      r13,@-r15=>local_8
+        8c01b032 10 e7           mov        #0x10,r7
+        8c01b034 c6 2f           mov.l      r12,@-r15=>local_c
+        8c01b036 00 88           cmp/eq     #0x0,r0
+        8c01b038 49 dc           mov.l      PTR_DAT_8c01b160,r12                               = 8c1fb128
+        8c01b03a 00 ee           mov        #0x0,r14
+        8c01b03c 47 d5           mov.l      ->P1CHARBIN_MEMORYADDRESS???,r5                    = 8c1fb090
+        8c01b03e 70 ed           mov        #0x70,r13
+        8c01b040 b6 2f           mov.l      r11,@-r15=>local_10
+        8c01b042 01 eb           mov        #0x1,r11
+        8c01b044 a6 2f           mov.l      r10,@-r15=>local_14
+        8c01b046 0e 8d           bt/s       LAB_8c01b066
+        8c01b048 02 e6           _mov       #0x2,r6
+        8c01b04a 01 88           cmp/eq     #0x1,r0
+        8c01b04c 01 8b           bf         LAB_8c01b052
+        8c01b04e 93 a0           bra        LAB_8c01b178
+        8c01b050 09 00           _nop
+                             LAB_8c01b052                                    XREF[1]:     8c01b04c(j)  
+        8c01b052 02 88           cmp/eq     #0x2,r0
+        8c01b054 01 8b           bf         LAB_8c01b05a
+        8c01b056 15 a1           bra        LAB_8c01b284
+        8c01b058 09 00           _nop
+                             LAB_8c01b05a                                    XREF[1]:     8c01b054(j)  
+        8c01b05a 03 88           cmp/eq     #0x3,r0
+        8c01b05c 01 8b           bf         LAB_8c01b062
+        8c01b05e 97 a1           bra        LAB_8c01b390
+        8c01b060 09 00           _nop
+                             LAB_8c01b062                                    XREF[1]:     8c01b05c(j)  
+        8c01b062 0f a2           bra        LAB_8c01b484
+        8c01b064 09 00           _nop
+                             LAB_8c01b066                                    XREF[1]:     8c01b046(j)  
+        8c01b066 3f db           mov.l      PTR_PTR_P1_CHR_FILE_8c01b164,r11                   = 8c13590c
+        8c01b068 e3 64           mov        r14,param_1
+                             LAB_8c01b06a                                    XREF[1]:     8c01b0b8(j)  
+        8c01b06a 43 62           mov        param_1,r2
+        8c01b06c bc 32           add        r11,r2
+        8c01b06e 22 61           mov.l      @r2=>->P1_CHR_FILE,r1                              = 8c678000
+                                                                                                = 8c858000
+        8c01b070 53 63           mov        r5,r3
+        8c01b072 4c 33           add        param_1,r3
+        8c01b074 21 50           mov.l      @(0x4,r2)=>->P1_SUP_FILE,r0                        = 8c6cb000
+                                                                                                = 8c8ab000
+        8c01b076 12 23           mov.l      r1=>P1_CHR_FILE,@r3=>P1CHARBIN_MEMORYADDRESS???
+        8c01b078 1c 74           add        #0x1c,param_1
+        8c01b07a 01 13           mov.l      r0=>P1_SUP_FILE,@(0x4,r3)=>PTR_P1SUPFILE_ADDR
+        8c01b07c 22 51           mov.l      @(0x8,r2)=>->P1_APV_FILE,r1                        = 8c6cf000
+                                                                                                = 8c8af000
+        8c01b07e 23 50           mov.l      @(0xc,r2)=>->P1_CHARBIN,r0                         = 8c74d000
+                                                                                                = 8c92d000
+        8c01b080 12 13           mov.l      r1=>P1_APV_FILE,@(0x8,r3)=>PTR_P1APVFILE_ADDR
+        8c01b082 03 13           mov.l      r0=>P1_CHARBIN,@(0xc,r3)=>PTR_P1CHARBIN_ADDR
+        8c01b084 24 51           mov.l      @(0x10,r2)=>->P1_ACS_FILE,r1                       = 8c766000
+                                                                                                = 8c946000
+        8c01b086 25 50           mov.l      @(0x14,r2)=>->P3_TEXTURE.BIN_FILE,r0               = 8cbe8000
+        8c01b088 14 13           mov.l      r1=>P1_ACS_FILE,@(0x10,r3)=>PTR_P1ACS_FILEADDR
+        8c01b08a 05 13           mov.l      r0=>P3_TEXTURE.BIN_FILE,@(0x14,r3)=>PTR_P3texture
+        8c01b08c 26 51           mov.l      @(0x18,r2)=>->P3_TEXTURE.BIN_FILE,r1               = 8cbe8000
+        8c01b08e 43 62           mov        param_1,r2
+        8c01b090 bc 32           add        r11,r2
+        8c01b092 16 13           mov.l      r1=>P3_TEXTURE.BIN_FILE,@(0x18,r3)=>PTR_P3texture
+        8c01b094 53 63           mov        r5,r3
+        8c01b096 22 61           mov.l      @r2=>->P2_CHR_FILE,r1                              = 8c768000
+                                                                                                = 8c858000
+        8c01b098 4c 33           add        param_1,r3
+        8c01b09a 21 50           mov.l      @(0x4,r2)=>->P2_SUP_FILE,r0                        = 8c7bb000
+                                                                                                = 8c8ab000
+        8c01b09c 12 23           mov.l      r1=>P2_CHR_FILE,@r3=>PTR_P2CHARBIN_ADDR
+        8c01b09e 01 13           mov.l      r0=>P2_SUP_FILE,@(0x4,r3)=>PTR_P2SUPFILE_ADDR
+        8c01b0a0 22 51           mov.l      @(0x8,r2)=>->P2_APV_FILE,r1                        = 8c7bf000
+                                                                                                = 8c8af000
+        8c01b0a2 23 50           mov.l      @(0xc,r2)=>->P2_CHARBIN,r0                         = 8c83d000
+                                                                                                = 8c92d000
+        8c01b0a4 12 13           mov.l      r1=>P2_APV_FILE,@(0x8,r3)=>PTR_P2APVFILE_ADDR
+        8c01b0a6 03 13           mov.l      r0=>P2_CHARBIN,@(0xc,r3)=>PTR_P2CHARBIN_ADDR
+        8c01b0a8 24 51           mov.l      @(0x10,r2)=>->P2_ACS_FILE,r1                       = 8c856000
+                                                                                                = 8c946000
+        8c01b0aa 25 50           mov.l      @(0x14,r2)=>->P3_TEXTURE.BIN_FILE,r0               = 8cbe8000
+        8c01b0ac 1c 74           add        #0x1c,param_1
+        8c01b0ae 14 13           mov.l      r1=>P2_ACS_FILE,@(0x10,r3)=>PTR_P2ACS_FILEADDR
+        8c01b0b0 d2 34           cmp/hs     r13,param_1
+        8c01b0b2 05 13           mov.l      r0=>P3_TEXTURE.BIN_FILE,@(0x14,r3)=>PTR_P3texture
+        8c01b0b4 26 51           mov.l      @(0x18,r2)=>->P3_TEXTURE.BIN_FILE,r1               = 8cbe8000
+        8c01b0b6 16 13           mov.l      r1=>P3_TEXTURE.BIN_FILE,@(0x18,r3)=>PTR_P3texture
+        8c01b0b8 d7 8b           bf         LAB_8c01b06a
+        8c01b0ba 2b dd           mov.l      PTR_PTR_DAT_8c01b168,r13                           = 8c13597c
+        8c01b0bc e3 64           mov        r14,param_1
+                             LAB_8c01b0be                                    XREF[1]:     8c01b110(j)  
+        8c01b0be 43 6b           mov        param_1,r11
+        8c01b0c0 08 4b           shll2      r11
+        8c01b0c2 53 63           mov        r5,r3
+        8c01b0c4 43 62           mov        param_1,r2
+        8c01b0c6 00 4b           shll       r11
+        8c01b0c8 08 42           shll2      r2
+        8c01b0ca 70 73           add        #0x70,r3
+        8c01b0cc dc 3b           add        r13,r11
+        8c01b0ce 3c 32           add        r3,r2
+        8c01b0d0 b2 63           mov.l      @r11=>PTR_DAT_8c13597c,r3                          = 8c948000
+                                                                                                = 8c438000
+        8c01b0d2 32 22           mov.l      r3=>DAT_8c948000,@r2=>DAT_8c1fb100
+        8c01b0d4 43 62           mov        param_1,r2
+        8c01b0d6 53 63           mov        r5,r3
+        8c01b0d8 6b 22           or         r6,r2
+        8c01b0da b1 51           mov.l      @(0x4,r11)=>->maybe_p1_mot_file??,r1               = 8ca58000
+                                                                                                = 8c532000
+        8c01b0dc 70 73           add        #0x70,r3
+        8c01b0de 08 42           shll2      r2
+        8c01b0e0 01 74           add        #0x1,param_1
+        8c01b0e2 3c 32           add        r3,r2
+        8c01b0e4 43 6b           mov        param_1,r11
+        8c01b0e6 12 22           mov.l      r1=>maybe_p1_mot_file??,@r2=>DAT_8c1fb108
+        8c01b0e8 08 4b           shll2      r11
+        8c01b0ea 53 62           mov        r5,r2
+        8c01b0ec 43 63           mov        param_1,r3
+        8c01b0ee 00 4b           shll       r11
+        8c01b0f0 08 43           shll2      r3
+        8c01b0f2 70 72           add        #0x70,r2
+        8c01b0f4 dc 3b           add        r13,r11
+        8c01b0f6 2c 33           add        r2,r3
+        8c01b0f8 b2 62           mov.l      @r11=>PTR_DAT_8c135984,r2                          = 8ca98000
+                                                                                                = 8c558000
+        8c01b0fa 22 23           mov.l      r2=>DAT_8ca98000,@r3=>DAT_8c1fb104
+        8c01b0fc 43 63           mov        param_1,r3
+        8c01b0fe 53 62           mov        r5,r2
+        8c01b100 6b 23           or         r6,r3
+        8c01b102 b1 51           mov.l      @(0x4,r11)=>->maybe_p2_mot_file??,r1               = 8cba8000
+                                                                                                = 8c652000
+        8c01b104 70 72           add        #0x70,r2
+        8c01b106 08 43           shll2      r3
+        8c01b108 01 74           add        #0x1,param_1
+        8c01b10a 2c 33           add        r2,r3
+        8c01b10c 63 34           cmp/ge     r6,param_1
+        8c01b10e 12 23           mov.l      r1=>maybe_p2_mot_file??,@r3=>DAT_8c1fb10c
+        8c01b110 d5 8b           bf         LAB_8c01b0be
+        8c01b112 16 d6           mov.l      PTR_PTR_stage_chr_file_mem1???_8c01b16c,r6         = 8c13598c
+        8c01b114 e3 64           mov        r14,param_1
+                             LAB_8c01b116                                    XREF[1]:     8c01b140(j)  
+        8c01b116 43 63           mov        param_1,r3
+        8c01b118 1e 92           mov.w      DAT_8c01b158,r2                                    = 0080h
+        8c01b11a 6c 33           add        r6,r3
+        8c01b11c 32 61           mov.l      @r3=>->stage_chr_file_mem1???,r1                   = 8c438000
+                                                                                                = 8ce07000
+        8c01b11e 5c 32           add        r5,r2
+        8c01b120 31 50           mov.l      @(0x4,r3)=>PTR_DAT_8c135990,r0                     = 8c532000
+                                                                                                = 8cbe8000
+        8c01b122 4c 32           add        param_1,r2
+        8c01b124 08 74           add        #0x8,param_1
+        8c01b126 17 93           mov.w      DAT_8c01b158,r3                                    = 0080h
+        8c01b128 12 22           mov.l      r1=>stage_chr_file_mem1???,@r2=>DAT_8c1fb110
+        8c01b12a 01 12           mov.l      r0=>DAT_8c532000,@(0x4,r2)=>DAT_8c1fb114
+        8c01b12c 43 62           mov        param_1,r2
+        8c01b12e 6c 32           add        r6,r2
+        8c01b130 5c 33           add        r5,r3
+        8c01b132 21 50           mov.l      @(0x4,r2)=>PTR_DAT_8c135998,r0                     = 8c652000
+                                                                                                = 8c988000
+        8c01b134 22 61           mov.l      @r2=>->stage_chr_file_mem2???,r1                   = 8c558000
+                                                                                                = 8ca58000
+        8c01b136 4c 33           add        param_1,r3
+        8c01b138 08 74           add        #0x8,param_1
+        8c01b13a 72 34           cmp/hs     r7,param_1
+        8c01b13c 12 23           mov.l      r1=>stage_chr_file_mem2???,@r3=>DAT_8c1fb118
+        8c01b13e 01 13           mov.l      r0=>DAT_8c652000,@(0x4,r3)=>DAT_8c1fb11c
+        8c01b140 e9 8b           bf         LAB_8c01b116
+        8c01b142 0b d3           mov.l      PTR_PTR_DAT_8c01b170,r3                            = 8c13599c
+        8c01b144 09 90           mov.w      DAT_8c01b15a,r0                                    = 0090h
+        8c01b146 32 62           mov.l      @r3=>PTR_DAT_8c13599c,r2                           = 8ce07000
+        8c01b148 26 05           mov.l      r2=>DAT_8ce07000,@(r0,r5)=>DAT_8c1fb120
+        8c01b14a 04 70           add        #0x4,r0
+        8c01b14c 09 d2           mov.l      PTR_PTR_P3_TEXTURE.BIN_FILE_8c01b174,r2            = 8c1359a0
+        8c01b14e 22 61           mov.l      @r2=>->P3_TEXTURE.BIN_FILE,r1                      = 8cbe8000
+        8c01b150 16 05           mov.l      r1=>P3_TEXTURE.BIN_FILE,@(r0,r5)=>DAT_8c1fb124
+        8c01b152 e0 2c           mov.b      r14,@r12=>DAT_8c1fb128
+        8c01b154 95 a1           bra        LAB_8c01b482
+        8c01b156 e3 60           _mov       r14,r0
+                             DAT_8c01b158                                    XREF[2]:     FUN_8c01b02c:8c01b118(R), 
+                                                                                          FUN_8c01b02c:8c01b126(R)  
+        8c01b158 80 00           undefined2 0080h
+                             DAT_8c01b15a                                    XREF[1]:     FUN_8c01b02c:8c01b144(R)  
+        8c01b15a 90 00           undefined2 0090h
+                             PTR_P1CHARBIN_MEMORYADDRESS???_8c01b15c         XREF[1]:     FUN_8c01b02c:8c01b03c(R)  
+        8c01b15c 90 b0 1f 8c     addr       P1CHARBIN_MEMORYADDRESS???
+                             PTR_DAT_8c01b160                                XREF[1]:     FUN_8c01b02c:8c01b038(R)  
+        8c01b160 28 b1 1f 8c     addr       DAT_8c1fb128
+                             PTR_PTR_P1_CHR_FILE_8c01b164                    XREF[1]:     FUN_8c01b02c:8c01b066(R)  
+        8c01b164 0c 59 13 8c     addr       PTR_P1_CHR_FILE_8c13590c                           = 8c678000
+                             PTR_PTR_DAT_8c01b168                            XREF[1]:     FUN_8c01b02c:8c01b0ba(R)  
+        8c01b168 7c 59 13 8c     addr       PTR_DAT_8c13597c                                   = 8c948000
+                             PTR_PTR_stage_chr_file_mem1???_8c01b16c         XREF[1]:     FUN_8c01b02c:8c01b112(R)  
+        8c01b16c 8c 59 13 8c     addr       PTR_stage_chr_file_mem1???_8c13598c                = 8c438000
+                             PTR_PTR_DAT_8c01b170                            XREF[1]:     FUN_8c01b02c:8c01b142(R)  
+        8c01b170 9c 59 13 8c     addr       PTR_DAT_8c13599c                                   = 8ce07000
+                             PTR_PTR_P3_TEXTURE.BIN_FILE_8c01b174            XREF[1]:     FUN_8c01b02c:8c01b14c(R)  
+        8c01b174 a0 59 13 8c     addr       PTR_P3_TEXTURE.BIN_FILE_8c1359a0                   = 8cbe8000
+                             LAB_8c01b178                                    XREF[1]:     8c01b04e(j)  
+        8c01b178 3d da           mov.l      PTR_PTR_P1_CHR_FILE_8c01b270,r10                   = 8c1359b4
+        8c01b17a e3 64           mov        r14,param_1
+                             LAB_8c01b17c                                    XREF[1]:     8c01b1ca(j)  
+        8c01b17c 43 63           mov        param_1,r3
+        8c01b17e ac 33           add        r10,r3
+        8c01b180 32 61           mov.l      @r3=>->P1_CHR_FILE,r1=>->P1_CHR_FILE               = 8c678000
+                                                                                                = 8c858000
+        8c01b182 53 62           mov        r5,r2
+        8c01b184 4c 32           add        param_1,r2
+        8c01b186 31 50           mov.l      @(0x4,r3)=>->P1_SUP_FILE,r0=>->P1_SUP_FILE         = 8c6cb000
+                                                                                                = 8c8ab000
+        8c01b188 12 22           mov.l      r1=>P1_CHR_FILE,@r2=>P1CHARBIN_MEMORYADDRESS???
+        8c01b18a 1c 74           add        #0x1c,param_1
+        8c01b18c 01 12           mov.l      r0=>P1_SUP_FILE,@(0x4,r2)=>PTR_P1SUPFILE_ADDR
+        8c01b18e 32 51           mov.l      @(0x8,r3)=>->P1_APV_FILE,r1=>->P1_APV_FILE         = 8c6cf000
+                                                                                                = 8c8af000
+        8c01b190 33 50           mov.l      @(0xc,r3)=>->P1_CHARBIN,r0=>->P1_CHARBIN           = 8c74d000
+                                                                                                = 8c92d000
+        8c01b192 12 12           mov.l      r1=>P1_APV_FILE,@(0x8,r2)=>PTR_P1APVFILE_ADDR
+        8c01b194 03 12           mov.l      r0=>P1_CHARBIN,@(0xc,r2)=>PTR_P1CHARBIN_ADDR
+        8c01b196 34 51           mov.l      @(0x10,r3)=>->P1_ACS_FILE,r1=>->P1_ACS_FILE        = 8c766000
+                                                                                                = 8c946000
+        8c01b198 35 50           mov.l      @(0x14,r3)=>PTR_DAT_8c1359c8,r0=>PTR_DAT_8c1359c8  = 8cab8000
+        8c01b19a 14 12           mov.l      r1=>P1_ACS_FILE,@(0x10,r2)=>PTR_P1ACS_FILEADDR
+        8c01b19c 05 12           mov.l      r0=>DAT_8cab8000,@(0x14,r2)=>PTR_P3textureFILE_ADDR
+        8c01b19e 36 51           mov.l      @(0x18,r3)=>PTR_DAT_8c1359cc,r1=>PTR_DAT_8c1359cc  = 8cab8000
+        8c01b1a0 53 63           mov        r5,r3
+        8c01b1a2 4c 33           add        param_1,r3
+        8c01b1a4 16 12           mov.l      r1=>DAT_8cab8000,@(0x18,r2)=>PTR_P3textureFILE_AD
+        8c01b1a6 43 62           mov        param_1,r2
+        8c01b1a8 ac 32           add        r10,r2
+        8c01b1aa 22 61           mov.l      @r2=>->P2_CHR_FILE,r1=>->P2_CHR_FILE               = 8c768000
+                                                                                                = 8c948000
+        8c01b1ac 21 50           mov.l      @(0x4,r2)=>->P2_SUP_FILE,r0=>->P2_SUP_FILE         = 8c7bb000
+                                                                                                = 8c99b000
+        8c01b1ae 12 23           mov.l      r1=>P2_CHR_FILE,@r3=>PTR_P2CHARBIN_ADDR
+        8c01b1b0 01 13           mov.l      r0=>P2_SUP_FILE,@(0x4,r3)=>PTR_P2SUPFILE_ADDR
+        8c01b1b2 22 51           mov.l      @(0x8,r2)=>->P2_APV_FILE,r1=>->P2_APV_FILE         = 8c7bf000
+                                                                                                = 8c99f000
+        8c01b1b4 23 50           mov.l      @(0xc,r2)=>->P2_CHARBIN,r0=>->P2_CHARBIN           = 8c83d000
+                                                                                                = 8ca1d000
+        8c01b1b6 12 13           mov.l      r1=>P2_APV_FILE,@(0x8,r3)=>PTR_P2APVFILE_ADDR
+        8c01b1b8 03 13           mov.l      r0=>P2_CHARBIN,@(0xc,r3)=>PTR_P2CHARBIN_ADDR
+        8c01b1ba 24 51           mov.l      @(0x10,r2)=>->P2_ACS_FILE,r1=>->P2_ACS_FILE        = 8c856000
+                                                                                                = 8ca36000
+        8c01b1bc 25 50           mov.l      @(0x14,r2)=>PTR_DAT_8c1359e4,r0=>PTR_DAT_8c1359e4  = 8cab8000
+        8c01b1be 1c 74           add        #0x1c,param_1
+        8c01b1c0 14 13           mov.l      r1=>P2_ACS_FILE,@(0x10,r3)=>PTR_P2ACS_FILEADDR
+        8c01b1c2 d2 34           cmp/hs     r13,param_1
+        8c01b1c4 05 13           mov.l      r0=>DAT_8cab8000,@(0x14,r3)=>PTR_P3textureFILE_AD
+        8c01b1c6 26 51           mov.l      @(0x18,r2)=>PTR_DAT_8c1359e8,r1=>PTR_DAT_8c1359e8  = 8cab8000
+        8c01b1c8 16 13           mov.l      r1=>DAT_8cab8000,@(0x18,r3)=>PTR_P3textureFILE_AD
+        8c01b1ca d7 8b           bf         LAB_8c01b17c
+        8c01b1cc 29 dd           mov.l      PTR_PTR_DAT_8c01b274,r13                           = 8c135a24
+        8c01b1ce e3 64           mov        r14,param_1
+                             LAB_8c01b1d0                                    XREF[1]:     8c01b222(j)  
+        8c01b1d0 43 6a           mov        param_1,r10
+        8c01b1d2 08 4a           shll2      r10
+        8c01b1d4 53 63           mov        r5,r3
+        8c01b1d6 43 62           mov        param_1,r2
+        8c01b1d8 00 4a           shll       r10
+        8c01b1da 08 42           shll2      r2
+        8c01b1dc 70 73           add        #0x70,r3
+        8c01b1de dc 3a           add        r13,r10
+        8c01b1e0 3c 32           add        r3,r2
+        8c01b1e2 a2 63           mov.l      @r10=>PTR_DAT_8c135a24,r3=>PTR_DAT_8c135a24        = 8ca38000
+                                                                                                = 8c438000
+        8c01b1e4 32 22           mov.l      r3=>DAT_8ca38000,@r2=>DAT_8c1fb100
+        8c01b1e6 43 62           mov        param_1,r2
+        8c01b1e8 53 63           mov        r5,r3
+        8c01b1ea 6b 22           or         r6,r2
+        8c01b1ec a1 51           mov.l      @(0x4,r10)=>PTR_DAT_8c135a28,r1=>PTR_DAT_8c135a28  = 8ca78000
+                                                                                                = 8c532000
+        8c01b1ee 70 73           add        #0x70,r3
+        8c01b1f0 08 42           shll2      r2
+        8c01b1f2 01 74           add        #0x1,param_1
+        8c01b1f4 3c 32           add        r3,r2
+        8c01b1f6 43 6a           mov        param_1,r10
+        8c01b1f8 12 22           mov.l      r1=>DAT_8ca78000,@r2=>DAT_8c1fb108
+        8c01b1fa 08 4a           shll2      r10
+        8c01b1fc 53 62           mov        r5,r2
+        8c01b1fe 43 63           mov        param_1,r3
+        8c01b200 00 4a           shll       r10
+        8c01b202 08 43           shll2      r3
+        8c01b204 70 72           add        #0x70,r2
+        8c01b206 dc 3a           add        r13,r10
+        8c01b208 2c 33           add        r2,r3
+        8c01b20a a2 62           mov.l      @r10=>->maybe_p1_mot_file??,r2=>PTR_DAT_8c135a24   = 8ca58000
+                                                                                                = 8c558000
+                                                                                                = 8ca38000
+        8c01b20c 22 23           mov.l      r2=>maybe_p1_mot_file??,@r3=>DAT_8c1fb104
+        8c01b20e 43 63           mov        param_1,r3
+        8c01b210 53 62           mov        r5,r2
+        8c01b212 6b 23           or         r6,r3
+        8c01b214 a1 51           mov.l      @(0x4,r10)=>PTR_DAT_8c135a30,r1=>PTR_DAT_8c135a28  = 8ca98000
+                                                                                                = 8c652000
+                                                                                                = 8ca78000
+        8c01b216 70 72           add        #0x70,r2
+        8c01b218 08 43           shll2      r3
+        8c01b21a 01 74           add        #0x1,param_1
+        8c01b21c 2c 33           add        r2,r3
+        8c01b21e 63 34           cmp/ge     r6,param_1
+        8c01b220 12 23           mov.l      r1=>DAT_8ca98000,@r3=>DAT_8c1fb10c
+        8c01b222 d5 8b           bf         LAB_8c01b1d0
+        8c01b224 e3 64           mov        r14,param_1
+        8c01b226 14 de           mov.l      PTR_PTR_stage_chr_file_mem1???_8c01b278,r14        = 8c135a34
+                             LAB_8c01b228                                    XREF[1]:     8c01b252(j)  
+        8c01b228 43 63           mov        param_1,r3
+        8c01b22a 1e 92           mov.w      DAT_8c01b26a,r2                                    = 0080h
+        8c01b22c ec 33           add        r14,r3
+        8c01b22e 32 61           mov.l      @r3=>->stage_chr_file_mem1???,r1=>->stage_chr_fil  = 8c438000
+                                                                                                = 8ce07000
+        8c01b230 5c 32           add        r5,r2
+        8c01b232 31 50           mov.l      @(0x4,r3)=>PTR_DAT_8c135a38,r0=>PTR_DAT_8c135a38   = 8c532000
+                                                                                                = 8cab8000
+        8c01b234 4c 32           add        param_1,r2
+        8c01b236 08 74           add        #0x8,param_1
+        8c01b238 17 93           mov.w      DAT_8c01b26a,r3                                    = 0080h
+        8c01b23a 12 22           mov.l      r1=>stage_chr_file_mem1???,@r2=>DAT_8c1fb110
+        8c01b23c 01 12           mov.l      r0=>DAT_8c532000,@(0x4,r2)=>DAT_8c1fb114
+        8c01b23e 43 62           mov        param_1,r2
+        8c01b240 ec 32           add        r14,r2
+        8c01b242 5c 33           add        r5,r3
+        8c01b244 21 50           mov.l      @(0x4,r2)=>PTR_DAT_8c135a40,r0=>PTR_DAT_8c135a40   = 8c652000
+                                                                                                = 8c503000
+        8c01b246 22 61           mov.l      @r2=>->stage_chr_file_mem2???,r1=>->stage_chr_fil  = 8c558000
+                                                                                                = 8c4b1000
+        8c01b248 4c 33           add        param_1,r3
+        8c01b24a 08 74           add        #0x8,param_1
+        8c01b24c 72 34           cmp/hs     r7,param_1
+        8c01b24e 12 23           mov.l      r1=>stage_chr_file_mem2???,@r3=>DAT_8c1fb118
+        8c01b250 01 13           mov.l      r0=>DAT_8c652000,@(0x4,r3)=>DAT_8c1fb11c
+        8c01b252 e9 8b           bf         LAB_8c01b228
+        8c01b254 09 d3           mov.l      PTR_PTR_DAT_8c01b27c,r3                            = 8c135a44
+        8c01b256 09 90           mov.w      DAT_8c01b26c,r0                                    = 0090h
+        8c01b258 32 62           mov.l      @r3=>PTR_DAT_8c135a44,r2                           = 8ce07000
+        8c01b25a 26 05           mov.l      r2=>DAT_8ce07000,@(r0,r5)=>DAT_8c1fb120
+        8c01b25c 04 70           add        #0x4,r0
+        8c01b25e 08 d2           mov.l      PTR_PTR_DAT_8c01b280,r2                            = 8c135a48
+        8c01b260 22 61           mov.l      @r2=>PTR_DAT_8c135a48,r1                           = 8cab8000
+        8c01b262 16 05           mov.l      r1=>DAT_8cab8000,@(r0,r5)=>DAT_8c1fb124
+        8c01b264 b0 2c           mov.b      r11,@r12=>DAT_8c1fb128
+        8c01b266 0c a1           bra        LAB_8c01b482
+        8c01b268 63 60           _mov       r6,r0
+                             DAT_8c01b26a                                    XREF[2]:     FUN_8c01b02c:8c01b22a(R), 
+                                                                                          FUN_8c01b02c:8c01b238(R)  
+        8c01b26a 80 00           undefined2 0080h
+                             DAT_8c01b26c                                    XREF[1]:     FUN_8c01b02c:8c01b256(R)  
+        8c01b26c 90 00           undefined2 0090h
+        8c01b26e 00              ??         00h
+        8c01b26f 00              ??         00h
+                             PTR_PTR_P1_CHR_FILE_8c01b270                    XREF[1]:     FUN_8c01b02c:8c01b178(R)  
+        8c01b270 b4 59 13 8c     addr       PTR_P1_CHR_FILE_8c1359b4                           = 8c678000
+                             PTR_PTR_DAT_8c01b274                            XREF[1]:     FUN_8c01b02c:8c01b1cc(R)  
+        8c01b274 24 5a 13 8c     addr       PTR_DAT_8c135a24                                   = 8ca38000
+                             PTR_PTR_stage_chr_file_mem1???_8c01b278         XREF[1]:     FUN_8c01b02c:8c01b226(R)  
+        8c01b278 34 5a 13 8c     addr       PTR_stage_chr_file_mem1???_8c135a34                = 8c438000
+                             PTR_PTR_DAT_8c01b27c                            XREF[1]:     FUN_8c01b02c:8c01b254(R)  
+        8c01b27c 44 5a 13 8c     addr       PTR_DAT_8c135a44                                   = 8ce07000
+                             PTR_PTR_DAT_8c01b280                            XREF[1]:     FUN_8c01b02c:8c01b25e(R)  
+        8c01b280 48 5a 13 8c     addr       PTR_DAT_8c135a48                                   = 8cab8000
+                             LAB_8c01b284                                    XREF[1]:     8c01b056(j)  
+        8c01b284 3d da           mov.l      PTR_PTR_DAT_8c01b37c,r10                           = 8c135a4c
+        8c01b286 e3 64           mov        r14,param_1
+                             LAB_8c01b288                                    XREF[1]:     8c01b2d6(j)  
+        8c01b288 43 63           mov        param_1,r3
+        8c01b28a ac 33           add        r10,r3
+        8c01b28c 32 61           mov.l      @r3=>PTR_DAT_8c135a4c,r1=>PTR_DAT_8c135a4c         = 8c4b1000
+                                                                                                = 8c68f000
+        8c01b28e 53 62           mov        r5,r2
+        8c01b290 4c 32           add        param_1,r2
+        8c01b292 31 50           mov.l      @(0x4,r3)=>PTR_DAT_8c135a50,r0=>PTR_DAT_8c135a50   = 8c503000
+                                                                                                = 8c6e1000
+        8c01b294 12 22           mov.l      r1=>DAT_8c4b1000,@r2=>P1CHARBIN_MEMORYADDRESS???
+        8c01b296 1c 74           add        #0x1c,param_1
+        8c01b298 01 12           mov.l      r0=>DAT_8c503000,@(0x4,r2)=>PTR_P1SUPFILE_ADDR
+        8c01b29a 32 51           mov.l      @(0x8,r3)=>PTR_DAT_8c135a54,r1=>PTR_DAT_8c135a54   = 8c507000
+                                                                                                = 8c6e5000
+        8c01b29c 33 50           mov.l      @(0xc,r3)=>PTR_DAT_8c135a58,r0=>PTR_DAT_8c135a58   = 8c585000
+                                                                                                = 8c763000
+        8c01b29e 12 12           mov.l      r1=>DAT_8c507000,@(0x8,r2)=>PTR_P1APVFILE_ADDR
+        8c01b2a0 03 12           mov.l      r0=>DAT_8c585000,@(0xc,r2)=>PTR_P1CHARBIN_ADDR
+        8c01b2a2 34 51           mov.l      @(0x10,r3)=>PTR_DAT_8c135a5c,r1=>PTR_DAT_8c135a5c  = 8c59e000
+                                                                                                = 8c77c000
+        8c01b2a4 35 50           mov.l      @(0x14,r3)=>PTR_DAT_8c135a60,r0=>PTR_DAT_8c135a60  = 8cb26000
+        8c01b2a6 14 12           mov.l      r1=>DAT_8c59e000,@(0x10,r2)=>PTR_P1ACS_FILEADDR
+        8c01b2a8 05 12           mov.l      r0=>DAT_8cb26000,@(0x14,r2)=>PTR_P3textureFILE_ADDR
+        8c01b2aa 36 51           mov.l      @(0x18,r3)=>PTR_DAT_8c135a64,r1=>PTR_DAT_8c135a64  = 8cb26000
+        8c01b2ac 53 63           mov        r5,r3
+        8c01b2ae 4c 33           add        param_1,r3
+        8c01b2b0 16 12           mov.l      r1=>DAT_8cb26000,@(0x18,r2)=>PTR_P3textureFILE_AD
+        8c01b2b2 43 62           mov        param_1,r2
+        8c01b2b4 ac 32           add        r10,r2
+        8c01b2b6 22 61           mov.l      @r2=>PTR_DAT_8c135a68,r1=>PTR_DAT_8c135a68         = 8c5a0000
+                                                                                                = 8c68f000
+        8c01b2b8 21 50           mov.l      @(0x4,r2)=>PTR_DAT_8c135a6c,r0=>PTR_DAT_8c135a6c   = 8c5f2000
+                                                                                                = 8c6e1000
+        8c01b2ba 12 23           mov.l      r1=>DAT_8c5a0000,@r3=>PTR_P2CHARBIN_ADDR
+        8c01b2bc 01 13           mov.l      r0=>DAT_8c5f2000,@(0x4,r3)=>PTR_P2SUPFILE_ADDR
+        8c01b2be 22 51           mov.l      @(0x8,r2)=>PTR_DAT_8c135a70,r1=>PTR_DAT_8c135a70   = 8c5f6000
+                                                                                                = 8c6e5000
+        8c01b2c0 23 50           mov.l      @(0xc,r2)=>PTR_DAT_8c135a74,r0=>PTR_DAT_8c135a74   = 8c674000
+                                                                                                = 8c763000
+        8c01b2c2 12 13           mov.l      r1=>DAT_8c5f6000,@(0x8,r3)=>PTR_P2APVFILE_ADDR
+        8c01b2c4 03 13           mov.l      r0=>DAT_8c674000,@(0xc,r3)=>PTR_P2CHARBIN_ADDR
+        8c01b2c6 24 51           mov.l      @(0x10,r2)=>PTR_DAT_8c135a78,r1=>PTR_DAT_8c135a78  = 8c68d000
+                                                                                                = 8c77c000
+        8c01b2c8 25 50           mov.l      @(0x14,r2)=>PTR_DAT_8c135a7c,r0=>PTR_DAT_8c135a7c  = 8cb26000
+        8c01b2ca 1c 74           add        #0x1c,param_1
+        8c01b2cc 14 13           mov.l      r1=>DAT_8c68d000,@(0x10,r3)=>PTR_P2ACS_FILEADDR
+        8c01b2ce d2 34           cmp/hs     r13,param_1
+        8c01b2d0 05 13           mov.l      r0=>DAT_8cb26000,@(0x14,r3)=>PTR_P3textureFILE_AD
+        8c01b2d2 26 51           mov.l      @(0x18,r2)=>PTR_DAT_8c135a80,r1=>PTR_DAT_8c135a80  = 8cb26000
+        8c01b2d4 16 13           mov.l      r1=>DAT_8cb26000,@(0x18,r3)=>PTR_P3textureFILE_AD
+        8c01b2d6 d7 8b           bf         LAB_8c01b288
+        8c01b2d8 29 dd           mov.l      PTR_PTR_DAT_8c01b380,r13                           = 8c135abc
+        8c01b2da e3 64           mov        r14,param_1
+                             LAB_8c01b2dc                                    XREF[1]:     8c01b32e(j)  
+        8c01b2dc 43 6a           mov        param_1,r10
+        8c01b2de 08 4a           shll2      r10
+        8c01b2e0 53 63           mov        r5,r3
+        8c01b2e2 43 62           mov        param_1,r2
+        8c01b2e4 00 4a           shll       r10
+        8c01b2e6 08 42           shll2      r2
+        8c01b2e8 70 73           add        #0x70,r3
+        8c01b2ea dc 3a           add        r13,r10
+        8c01b2ec 3c 32           add        r3,r2
+        8c01b2ee a2 63           mov.l      @r10=>PTR_DAT_8c135abc,r3=>PTR_DAT_8c135abc        = 8c77e000
+                                                                                                = 8c438000
+        8c01b2f0 32 22           mov.l      r3=>DAT_8c77e000,@r2=>DAT_8c1fb100
+        8c01b2f2 43 62           mov        param_1,r2
+        8c01b2f4 53 63           mov        r5,r3
+        8c01b2f6 6b 22           or         r6,r2
+        8c01b2f8 a1 51           mov.l      @(0x4,r10)=>PTR_DAT_8c135ac0,r1=>PTR_DAT_8c135ac0  = 8c9ee000
+                                                                                                = 8c4a9000
+        8c01b2fa 70 73           add        #0x70,r3
+        8c01b2fc 08 42           shll2      r2
+        8c01b2fe 01 74           add        #0x1,param_1
+        8c01b300 3c 32           add        r3,r2
+        8c01b302 43 6a           mov        param_1,r10
+        8c01b304 12 22           mov.l      r1=>DAT_8c9ee000,@r2=>DAT_8c1fb108
+        8c01b306 08 4a           shll2      r10
+        8c01b308 53 62           mov        r5,r2
+        8c01b30a 43 63           mov        param_1,r3
+        8c01b30c 00 4a           shll       r10
+        8c01b30e 08 43           shll2      r3
+        8c01b310 70 72           add        #0x70,r2
+        8c01b312 dc 3a           add        r13,r10
+        8c01b314 2c 33           add        r2,r3
+        8c01b316 a2 62           mov.l      @r10=>PTR_DAT_8c135ac4,r2=>PTR_DAT_8c135abc        = 8c8b6000
+                                                                                                = 8c438000
+                                                                                                = 8c77e000
+        8c01b318 22 23           mov.l      r2=>DAT_8c8b6000,@r3=>DAT_8c1fb104
+        8c01b31a 43 63           mov        param_1,r3
+        8c01b31c 53 62           mov        r5,r2
+        8c01b31e 6b 23           or         r6,r3
+        8c01b320 a1 51           mov.l      @(0x4,r10)=>PTR_DAT_8c135ac8,r1=>PTR_DAT_8c135ac0  = 8c9ee000
+                                                                                                = 8c4a9000
+        8c01b322 70 72           add        #0x70,r2
+        8c01b324 08 43           shll2      r3
+        8c01b326 01 74           add        #0x1,param_1
+        8c01b328 2c 33           add        r2,r3
+        8c01b32a 63 34           cmp/ge     r6,param_1
+        8c01b32c 12 23           mov.l      r1=>DAT_8c9ee000,@r3=>DAT_8c1fb10c
+        8c01b32e d5 8b           bf         LAB_8c01b2dc
+        8c01b330 14 d6           mov.l      PTR_PTR_stage_chr_file_mem1???_8c01b384,r6         = 8c135acc
+        8c01b332 e3 64           mov        r14,param_1
+                             LAB_8c01b334                                    XREF[1]:     8c01b35e(j)  
+        8c01b334 43 63           mov        param_1,r3
+        8c01b336 1e 92           mov.w      DAT_8c01b376,r2                                    = 0080h
+        8c01b338 6c 33           add        r6,r3
+        8c01b33a 32 61           mov.l      @r3=>->stage_chr_file_mem1???,r1=>->stage_chr_fil  = 8c438000
+                                                                                                = 8ce07000
+        8c01b33c 5c 32           add        r5,r2
+        8c01b33e 31 50           mov.l      @(0x4,r3)=>PTR_DAT_8c135ad0,r0=>PTR_DAT_8c135ad0   = 8c4a9000
+                                                                                                = 8cb26000
+        8c01b340 4c 32           add        param_1,r2
+        8c01b342 08 74           add        #0x8,param_1
+        8c01b344 17 93           mov.w      DAT_8c01b376,r3                                    = 0080h
+        8c01b346 12 22           mov.l      r1=>stage_chr_file_mem1???,@r2=>DAT_8c1fb110
+        8c01b348 01 12           mov.l      r0=>DAT_8c4a9000,@(0x4,r2)=>DAT_8c1fb114
+        8c01b34a 43 62           mov        param_1,r2
+        8c01b34c 6c 32           add        r6,r2
+        8c01b34e 5c 33           add        r5,r3
+        8c01b350 21 50           mov.l      @(0x4,r2)=>PTR_DAT_8c135ad8,r0=>PTR_DAT_8c135ad8   = 8c4a9000
+                                                                                                = 8c503000
+        8c01b352 22 61           mov.l      @r2=>->stage_chr_file_mem1???,r1=>->stage_chr_fil  = 8c438000
+                                                                                                = 8c4b1000
+        8c01b354 4c 33           add        param_1,r3
+        8c01b356 08 74           add        #0x8,param_1
+        8c01b358 72 34           cmp/hs     r7,param_1
+        8c01b35a 12 23           mov.l      r1=>stage_chr_file_mem1???,@r3=>DAT_8c1fb118
+        8c01b35c 01 13           mov.l      r0=>DAT_8c4a9000,@(0x4,r3)=>DAT_8c1fb11c
+        8c01b35e e9 8b           bf         LAB_8c01b334
+        8c01b360 09 d3           mov.l      PTR_PTR_DAT_8c01b388,r3                            = 8c135adc
+        8c01b362 09 90           mov.w      DAT_8c01b378,r0                                    = 0090h
+        8c01b364 32 62           mov.l      @r3=>PTR_DAT_8c135adc,r2                           = 8ce07000
+        8c01b366 26 05           mov.l      r2=>DAT_8ce07000,@(r0,r5)=>DAT_8c1fb120
+        8c01b368 04 70           add        #0x4,r0
+        8c01b36a 08 d2           mov.l      PTR_PTR_DAT_8c01b38c,r2                            = 8c135ae0
+        8c01b36c 22 61           mov.l      @r2=>PTR_DAT_8c135ae0,r1                           = 8cb26000
+        8c01b36e 16 05           mov.l      r1=>DAT_8cb26000,@(r0,r5)=>DAT_8c1fb124
+        8c01b370 e0 2c           mov.b      r14,@r12=>DAT_8c1fb128
+        8c01b372 86 a0           bra        LAB_8c01b482
+        8c01b374 b3 60           _mov       r11,r0
+                             DAT_8c01b376                                    XREF[2]:     FUN_8c01b02c:8c01b336(R), 
+                                                                                          FUN_8c01b02c:8c01b344(R)  
+        8c01b376 80 00           undefined2 0080h
+                             DAT_8c01b378                                    XREF[1]:     FUN_8c01b02c:8c01b362(R)  
+        8c01b378 90 00           undefined2 0090h
+        8c01b37a 00              ??         00h
+        8c01b37b 00              ??         00h
+                             PTR_PTR_DAT_8c01b37c                            XREF[1]:     FUN_8c01b02c:8c01b284(R)  
+        8c01b37c 4c 5a 13 8c     addr       PTR_DAT_8c135a4c                                   = 8c4b1000
+                             PTR_PTR_DAT_8c01b380                            XREF[1]:     FUN_8c01b02c:8c01b2d8(R)  
+        8c01b380 bc 5a 13 8c     addr       PTR_DAT_8c135abc                                   = 8c77e000
+                             PTR_PTR_stage_chr_file_mem1???_8c01b384         XREF[1]:     FUN_8c01b02c:8c01b330(R)  
+        8c01b384 cc 5a 13 8c     addr       PTR_stage_chr_file_mem1???_8c135acc                = 8c438000
+                             PTR_PTR_DAT_8c01b388                            XREF[1]:     FUN_8c01b02c:8c01b360(R)  
+        8c01b388 dc 5a 13 8c     addr       PTR_DAT_8c135adc                                   = 8ce07000
+                             PTR_PTR_DAT_8c01b38c                            XREF[1]:     FUN_8c01b02c:8c01b36a(R)  
+        8c01b38c e0 5a 13 8c     addr       PTR_DAT_8c135ae0                                   = 8cb26000
+                             LAB_8c01b390                                    XREF[1]:     8c01b05e(j)  
+        8c01b390 58 da           mov.l      PTR_PTR_DAT_8c01b4f4,r10                           = 8c135ae4
+        8c01b392 e3 64           mov        r14,param_1
+                             LAB_8c01b394                                    XREF[1]:     8c01b3e2(j)  
+        8c01b394 43 63           mov        param_1,r3
+        8c01b396 ac 33           add        r10,r3
+        8c01b398 32 61           mov.l      @r3=>PTR_DAT_8c135ae4,r1=>PTR_DAT_8c135b1c         = 8c4b1000
+                                                                                                = 8c68f000
+        8c01b39a 53 62           mov        r5,r2
+        8c01b39c 4c 32           add        param_1,r2
+        8c01b39e 31 50           mov.l      @(0x4,r3)=>PTR_DAT_8c135ae8,r0=>PTR_DAT_8c135b20   = 8c503000
+                                                                                                = 8c6e1000
+        8c01b3a0 12 22           mov.l      r1=>DAT_8c4b1000,@r2=>P1CHARBIN_MEMORYADDRESS???
+        8c01b3a2 1c 74           add        #0x1c,param_1
+        8c01b3a4 01 12           mov.l      r0=>DAT_8c503000,@(0x4,r2)=>PTR_P1SUPFILE_ADDR
+        8c01b3a6 32 51           mov.l      @(0x8,r3)=>PTR_DAT_8c135aec,r1=>PTR_DAT_8c135b24   = 8c507000
+                                                                                                = 8c6e5000
+        8c01b3a8 33 50           mov.l      @(0xc,r3)=>PTR_DAT_8c135af0,r0=>PTR_DAT_8c135b28   = 8c585000
+                                                                                                = 8c763000
+        8c01b3aa 12 12           mov.l      r1=>DAT_8c507000,@(0x8,r2)=>PTR_P1APVFILE_ADDR
+        8c01b3ac 03 12           mov.l      r0=>DAT_8c585000,@(0xc,r2)=>PTR_P1CHARBIN_ADDR
+        8c01b3ae 34 51           mov.l      @(0x10,r3)=>PTR_DAT_8c135af4,r1=>PTR_DAT_8c135b2c  = 8c59e000
+                                                                                                = 8c77c000
+        8c01b3b0 35 50           mov.l      @(0x14,r3)=>PTR_DAT_8c135af8,r0=>PTR_DAT_8c135b30  = 8cd4d000
+        8c01b3b2 14 12           mov.l      r1=>DAT_8c59e000,@(0x10,r2)=>PTR_P1ACS_FILEADDR
+        8c01b3b4 05 12           mov.l      r0=>DAT_8cd4d000,@(0x14,r2)=>PTR_P3textureFILE_ADDR
+        8c01b3b6 36 51           mov.l      @(0x18,r3)=>PTR_DAT_8c135afc,r1=>PTR_DAT_8c135b34  = 8cd4d000
+        8c01b3b8 53 63           mov        r5,r3
+        8c01b3ba 4c 33           add        param_1,r3
+        8c01b3bc 16 12           mov.l      r1=>DAT_8cd4d000,@(0x18,r2)=>PTR_P3textureFILE_AD
+        8c01b3be 43 62           mov        param_1,r2
+        8c01b3c0 ac 32           add        r10,r2
+        8c01b3c2 22 61           mov.l      @r2=>PTR_DAT_8c135b00,r1=>PTR_DAT_8c135b00         = 8c5a0000
+                                                                                                = 8c77e000
+        8c01b3c4 21 50           mov.l      @(0x4,r2)=>PTR_DAT_8c135b04,r0=>PTR_DAT_8c135b04   = 8c5f2000
+                                                                                                = 8c7d0000
+        8c01b3c6 12 23           mov.l      r1=>DAT_8c5a0000,@r3=>PTR_P2CHARBIN_ADDR
+        8c01b3c8 01 13           mov.l      r0=>DAT_8c5f2000,@(0x4,r3)=>PTR_P2SUPFILE_ADDR
+        8c01b3ca 22 51           mov.l      @(0x8,r2)=>PTR_DAT_8c135b08,r1=>PTR_DAT_8c135b08   = 8c5f6000
+                                                                                                = 8c7d4000
+        8c01b3cc 23 50           mov.l      @(0xc,r2)=>PTR_DAT_8c135b0c,r0=>PTR_DAT_8c135b0c   = 8c674000
+                                                                                                = 8c852000
+        8c01b3ce 12 13           mov.l      r1=>DAT_8c5f6000,@(0x8,r3)=>PTR_P2APVFILE_ADDR
+        8c01b3d0 03 13           mov.l      r0=>DAT_8c674000,@(0xc,r3)=>PTR_P2CHARBIN_ADDR
+        8c01b3d2 24 51           mov.l      @(0x10,r2)=>PTR_DAT_8c135b10,r1=>PTR_DAT_8c135b10  = 8c68d000
+                                                                                                = 8c86b000
+        8c01b3d4 25 50           mov.l      @(0x14,r2)=>PTR_DAT_8c135b14,r0=>PTR_DAT_8c135b14  = 8cd4d000
+        8c01b3d6 1c 74           add        #0x1c,param_1
+        8c01b3d8 14 13           mov.l      r1=>DAT_8c68d000,@(0x10,r3)=>PTR_P2ACS_FILEADDR
+        8c01b3da d2 34           cmp/hs     r13,param_1
+        8c01b3dc 05 13           mov.l      r0=>DAT_8cd4d000,@(0x14,r3)=>PTR_P3textureFILE_AD
+        8c01b3de 26 51           mov.l      @(0x18,r2)=>PTR_DAT_8c135b18,r1=>PTR_DAT_8c135b18  = 8cd4d000
+        8c01b3e0 16 13           mov.l      r1=>DAT_8cd4d000,@(0x18,r3)=>PTR_P3textureFILE_AD
+        8c01b3e2 d7 8b           bf         LAB_8c01b394
+        8c01b3e4 44 dd           mov.l      PTR_PTR_DAT_8c01b4f8,r13                           = 8c135b54
+        8c01b3e6 e3 64           mov        r14,param_1
+                             LAB_8c01b3e8                                    XREF[1]:     8c01b43a(j)  
+        8c01b3e8 43 6a           mov        param_1,r10
+        8c01b3ea 08 4a           shll2      r10
+        8c01b3ec 53 63           mov        r5,r3
+        8c01b3ee 43 62           mov        param_1,r2
+        8c01b3f0 00 4a           shll       r10
+        8c01b3f2 08 42           shll2      r2
+        8c01b3f4 70 73           add        #0x70,r3
+        8c01b3f6 dc 3a           add        r13,r10
+        8c01b3f8 3c 32           add        r3,r2
+        8c01b3fa a2 63           mov.l      @r10=>PTR_DAT_8c135b54,r3=>PTR_DAT_8c135b54        = 8c86d000
+                                                                                                = 8c438000
+        8c01b3fc 32 22           mov.l      r3=>DAT_8c86d000,@r2=>DAT_8c1fb100
+        8c01b3fe 43 62           mov        param_1,r2
+        8c01b400 53 63           mov        r5,r3
+        8c01b402 6b 22           or         r6,r2
+        8c01b404 a1 51           mov.l      @(0x4,r10)=>PTR_DAT_8c135b58,r1=>PTR_DAT_8c135b58  = 8c9a5000
+                                                                                                = 8c4a9000
+        8c01b406 70 73           add        #0x70,r3
+        8c01b408 08 42           shll2      r2
+        8c01b40a 01 74           add        #0x1,param_1
+        8c01b40c 3c 32           add        r3,r2
+        8c01b40e 43 6a           mov        param_1,r10
+        8c01b410 12 22           mov.l      r1=>DAT_8c9a5000,@r2=>DAT_8c1fb108
+        8c01b412 08 4a           shll2      r10
+        8c01b414 53 62           mov        r5,r2
+        8c01b416 43 63           mov        param_1,r3
+        8c01b418 00 4a           shll       r10
+        8c01b41a 08 43           shll2      r3
+        8c01b41c 70 72           add        #0x70,r2
+        8c01b41e dc 3a           add        r13,r10
+        8c01b420 2c 33           add        r2,r3
+        8c01b422 a2 62           mov.l      @r10=>PTR_DAT_8c135b5c,r2=>PTR_DAT_8c135b54        = 8cadd000
+                                                                                                = 8c438000
+                                                                                                = 8c86d000
+        8c01b424 22 23           mov.l      r2=>DAT_8cadd000,@r3=>DAT_8c1fb104
+        8c01b426 43 63           mov        param_1,r3
+        8c01b428 53 62           mov        r5,r2
+        8c01b42a 6b 23           or         r6,r3
+        8c01b42c a1 51           mov.l      @(0x4,r10)=>PTR_DAT_8c135b60,r1=>PTR_DAT_8c135b58  = 8cc15000
+                                                                                                = 8c4a9000
+                                                                                                = 8c9a5000
+        8c01b42e 70 72           add        #0x70,r2
+        8c01b430 08 43           shll2      r3
+        8c01b432 01 74           add        #0x1,param_1
+        8c01b434 2c 33           add        r2,r3
+        8c01b436 63 34           cmp/ge     r6,param_1
+        8c01b438 12 23           mov.l      r1=>DAT_8cc15000,@r3=>DAT_8c1fb10c
+        8c01b43a d5 8b           bf         LAB_8c01b3e8
+        8c01b43c e3 64           mov        r14,param_1
+        8c01b43e 2f de           mov.l      PTR_PTR_stage_chr_file_mem1???_8c01b4fc,r14        = 8c135b64
+                             LAB_8c01b440                                    XREF[1]:     8c01b46a(j)  
+        8c01b440 43 63           mov        param_1,r3
+        8c01b442 55 92           mov.w      DAT_8c01b4f0,r2                                    = 0080h
+        8c01b444 ec 33           add        r14,r3
+        8c01b446 32 61           mov.l      @r3=>->stage_chr_file_mem1???,r1=>->stage_chr_fil  = 8c438000
+                                                                                                = 8ce07000
+        8c01b448 5c 32           add        r5,r2
+        8c01b44a 31 50           mov.l      @(0x4,r3)=>PTR_DAT_8c135b68,r0=>PTR_DAT_8c135b68   = 8c4a9000
+                                                                                                = 8cd4d000
+        8c01b44c 4c 32           add        param_1,r2
+        8c01b44e 08 74           add        #0x8,param_1
+        8c01b450 4e 93           mov.w      DAT_8c01b4f0,r3                                    = 0080h
+        8c01b452 12 22           mov.l      r1=>stage_chr_file_mem1???,@r2=>DAT_8c1fb110
+        8c01b454 01 12           mov.l      r0=>DAT_8c4a9000,@(0x4,r2)=>DAT_8c1fb114
+        8c01b456 43 62           mov        param_1,r2
+        8c01b458 ec 32           add        r14,r2
+        8c01b45a 5c 33           add        r5,r3
+        8c01b45c 21 50           mov.l      @(0x4,r2)=>PTR_DAT_8c135b70,r0=>PTR_DAT_8c135b70   = 8c4a9000
+                                                                                                = FFFFFFFFh
+        8c01b45e 22 61           mov.l      @r2=>->stage_chr_file_mem1???,r1=>->stage_chr_fil  = 8c438000
+                                                                                                = FEFF1A03h
+        8c01b460 4c 33           add        param_1,r3
+        8c01b462 08 74           add        #0x8,param_1
+        8c01b464 72 34           cmp/hs     r7,param_1
+        8c01b466 12 23           mov.l      r1=>stage_chr_file_mem1???,@r3=>DAT_8c1fb118
+        8c01b468 01 13           mov.l      r0=>DAT_8c4a9000,@(0x4,r3)=>DAT_8c1fb11c
+        8c01b46a e9 8b           bf         LAB_8c01b440
+        8c01b46c 24 d3           mov.l      PTR_PTR_DAT_8c01b500,r3                            = 8c135b74
+        8c01b46e 40 90           mov.w      DAT_8c01b4f2,r0                                    = 0090h
+        8c01b470 32 62           mov.l      @r3=>PTR_DAT_8c135b74,r2                           = 8ce07000
+        8c01b472 26 05           mov.l      r2=>DAT_8ce07000,@(r0,r5)=>DAT_8c1fb120
+        8c01b474 04 70           add        #0x4,r0
+        8c01b476 23 d2           mov.l      PTR_PTR_DAT_8c01b504,r2                            = 8c135b78
+        8c01b478 22 61           mov.l      @r2=>PTR_DAT_8c135b78,r1                           = 8cd4d000
+        8c01b47a 16 05           mov.l      r1=>DAT_8cd4d000,@(r0,r5)=>DAT_8c1fb124
+        8c01b47c b0 2c           mov.b      r11,@r12=>DAT_8c1fb128
+        8c01b47e 63 60           mov        r6,r0
+        8c01b480 09 00           nop
+                             LAB_8c01b482                                    XREF[3]:     8c01b154(j), 8c01b266(j), 
+                                                                                          8c01b372(j)  
+        8c01b482 c1 80           mov.b      r0,@(0x1,r12)=>DAT_8c1fb129
+                             LAB_8c01b484                                    XREF[1]:     8c01b062(j)  
+        8c01b484 f6 6a           mov.l      @r15+=>local_14,r10
+        8c01b486 f6 6b           mov.l      @r15+=>local_10,r11
+        8c01b488 f6 6c           mov.l      @r15+=>local_c,r12
+        8c01b48a f6 6d           mov.l      @r15+=>local_8,r13
+        8c01b48c 0b 00           rts
+        8c01b48e f6 6e           _mov.l     @r15+,r14
