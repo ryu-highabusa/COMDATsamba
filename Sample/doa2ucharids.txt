@@ -23,8 +23,8 @@
 16 = "COAYANE"
 17 = "PDOG"
 18 = "BAYMAN"
-1a = "AYAME"
 19 = "COHAYATE"
+1a = "AYAME"
 1b = "HADAKASUMI"
 1c = "COKASUMI"
 1d = 
