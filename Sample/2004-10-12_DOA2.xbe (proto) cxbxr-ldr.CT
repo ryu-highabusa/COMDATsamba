@@ -119,6 +119,7 @@
     <CheatEntry>
       <ID>14</ID>
       <Description>"Kasumi Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -127,6 +128,7 @@
     <CheatEntry>
       <ID>15</ID>
       <Description>"Genfu Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -135,6 +137,7 @@
     <CheatEntry>
       <ID>16</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -152,6 +155,7 @@
     <CheatEntry>
       <ID>18</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -160,6 +164,7 @@
     <CheatEntry>
       <ID>19</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -168,6 +173,7 @@
     <CheatEntry>
       <ID>20</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -176,6 +182,7 @@
     <CheatEntry>
       <ID>21</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -184,6 +191,7 @@
     <CheatEntry>
       <ID>22</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -192,6 +200,7 @@
     <CheatEntry>
       <ID>23</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -200,6 +209,7 @@
     <CheatEntry>
       <ID>24</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -208,6 +218,7 @@
     <CheatEntry>
       <ID>25</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -216,6 +227,7 @@
     <CheatEntry>
       <ID>26</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -224,6 +236,7 @@
     <CheatEntry>
       <ID>27</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -232,6 +245,7 @@
     <CheatEntry>
       <ID>28</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -240,6 +254,7 @@
     <CheatEntry>
       <ID>29</ID>
       <Description>"Character Select Slot (20 bytes)"</Description>
+      <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>44</ByteLength>
@@ -349,6 +364,105 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>000c3b2a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"unknown1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00878be8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"unknown2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00878BE9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"unknown3"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00876812</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"hayate costume filename first slot "</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>006dc810</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"DAT_00df1154"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00df1154</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"DAT_00873d32"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00873d32</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"DAT_00878c08"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00878c08</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>57</ID>
+      <Description>"DAT_006ddc04"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>006ddc04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>53</ID>
+      <Description>"default cursor maybe?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>006dcc10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"COS. texture size float"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>003c2e7c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"BYTE_00df09dc"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00df09dc</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>58</ID>
+      <Description>"DAT_00674400"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00674400</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"DAT_00def158 (doa3/doax savefile flag?)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>00def158</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
