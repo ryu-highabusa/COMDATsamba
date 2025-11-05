@@ -1,0 +1,229 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __cdecl FUN_0011e660(int param_1)
+             undefined         AL:1           <RETURN>
+             int               Stack[0x4]:4   param_1                                 XREF[2]:     0011e663(R), 
+                                                                                                   0011e738(R)  
+             undefined4        Stack[-0x4]:4  local_4                                 XREF[3]:     0011e6df(W), 
+                                                                                                   0011e795(R), 
+                                                                                                   0011e7b1(W)  
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[8]:     0011e66b(W), 
+                                                                                                   0011e675(W), 
+                                                                                                   0011e791(R), 
+                                                                                                   0011e7a0(W), 
+                                                                                                   0011e7bc(R), 
+                                                                                                   0011e7d0(*), 
+                                                                                                   0011e7d9(*), 
+                                                                                                   0011e7f4(*)  
+                             FUN_0011e660                                    XREF[6]:     00098764(c), 
+                                                                                          FUN_00120410:00120422(c), 
+                                                                                          FUN_00120810:00120822(c), 
+                                                                                          FUN_00120a10:00120a20(c), 
+                                                                                          FUN_00120d60:00120d72(c), 
+                                                                                          FUN_001210a0:001210b2(c)  
+        0011e660 83 ec 08        SUB        ESP,0x8
+        0011e663 83 7c 24        CMP        dword ptr [ESP + param_1],21
+                 0c 15
+        0011e668 53              PUSH       EBX
+        0011e669 56              PUSH       ESI
+        0011e66a 57              PUSH       EDI
+        0011e66b c7 44 24        MOV        dword ptr [ESP + local_8],0x0
+                 0c 00 00 
+                 00 00
+        0011e673 75 67           JNZ        LAB_0011e6dc
+        0011e675 c7 44 24        MOV        dword ptr [ESP + local_8],18
+                 0c 12 00 
+                 00 00
+        0011e67d 33 ff           XOR        EDI,EDI
+        0011e67f be 10 cc        MOV        ESI,BYTE_006dcc10                                  = 5h
+                 6d 00
+                             LAB_0011e684                                    XREF[1]:     0011e6d5(j)  
+        0011e684 8a 16           MOV        DL,byte ptr [ESI]=>BYTE_006dcc10                   = 5h
+                                                                                                = 15h
+        0011e686 33 c9           XOR        ECX,ECX
+        0011e688 b8 f0 c5        MOV        EAX,CharacterSelectSlotVersus03_Tina               = 1h
+                 6d 00
+        0011e68d 8d 49 00        LEA        ECX,[ECX]
+                             LAB_0011e690                                    XREF[1]:     0011e6b1(j)  
+        0011e690 3a 50 d8        CMP        DL,byte ptr [EAX + -0x28]=>CharacterSelectSlotVer  = 5h
+                                                                                                = Dh
+        0011e693 74 30           JZ         LAB_0011e6c5
+        0011e695 3a 50 ec        CMP        DL,byte ptr [EAX + -0x14]=>CharacterSelectSlotVer  = 6h
+        0011e698 74 1b           JZ         LAB_0011e6b5
+        0011e69a 3a 10           CMP        DL,byte ptr [EAX]=>CharacterSelectSlotVersus03_Tina = 1h
+        0011e69c 74 1a           JZ         LAB_0011e6b8
+        0011e69e 3a 50 14        CMP        DL,byte ptr [EAX + 0x14]=>CharacterSelectSlotVers
+        0011e6a1 74 1a           JZ         LAB_0011e6bd
+        0011e6a3 3a 50 28        CMP        DL,byte ptr [EAX + 0x28]=>CharacterSelectSlotVers  = 2h
+        0011e6a6 74 1a           JZ         LAB_0011e6c2
+        0011e6a8 83 c1 05        ADD        ECX,0x5
+        0011e6ab 83 c0 64        ADD        EAX,0x64
+        0011e6ae 83 f9 14        CMP        ECX,0x14
+        0011e6b1 72 dd           JC         LAB_0011e690
+        0011e6b3 eb 10           JMP        LAB_0011e6c5
+                             LAB_0011e6b5                                    XREF[1]:     0011e698(j)  
+        0011e6b5 41              INC        ECX
+        0011e6b6 eb 0d           JMP        LAB_0011e6c5
+                             LAB_0011e6b8                                    XREF[1]:     0011e69c(j)  
+        0011e6b8 83 c1 02        ADD        ECX,0x2
+        0011e6bb eb 08           JMP        LAB_0011e6c5
+                             LAB_0011e6bd                                    XREF[1]:     0011e6a1(j)  
+        0011e6bd 83 c1 03        ADD        ECX,0x3
+        0011e6c0 eb 03           JMP        LAB_0011e6c5
+                             LAB_0011e6c2                                    XREF[1]:     0011e6a6(j)  
+        0011e6c2 83 c1 04        ADD        ECX,0x4
+                             LAB_0011e6c5                                    XREF[5]:     0011e693(j), 0011e6b3(j), 
+                                                                                          0011e6b6(j), 0011e6bb(j), 
+                                                                                          0011e6c0(j)  
+        0011e6c5 88 8f dc        MOV        byte ptr [EDI + DAT_00df09dc],CL
+                 09 df 00
+        0011e6cb 83 c6 0c        ADD        ESI,0xc
+        0011e6ce 47              INC        EDI
+        0011e6cf 81 fe e8        CMP        ESI,DWORD_006dcce8                                 = 1h
+                 cc 6d 00
+        0011e6d5 7c ad           JL         LAB_0011e684
+        0011e6d7 e9 e0 00        JMP        LAB_0011e7bc
+                 00 00
+                             LAB_0011e6dc                                    XREF[1]:     0011e673(j)  
+        0011e6dc 33 c0           XOR        EAX,EAX                                            Zero out EAX register
+        0011e6de 55              PUSH       EBP                                                Save base pointer
+        0011e6df 89 44 24 14     MOV        dword ptr [ESP + local_4],EAX                      Initialize local_4 to 0
+        0011e6e3 bd d0 c5        MOV        EBP,CharacterSelectIconWidescreen                  = 40012h
+                 6d 00
+        0011e6e8 be 3c c4        MOV        ESI,CharacterSelectIconFullscreen                  = 40000h
+                 6d 00
+        0011e6ed 33 ff           XOR        EDI,EDI
+        0011e6ef 90              NOP
+                             LAB_0011e6f0                                    XREF[1]:     0011e7b5(j)  
+        0011e6f0 8a 9f c8        MOV        BL,byte ptr [EDI + CharacterSelectSlotVersus01_Ka  Load character ID into BL from character select slot
+                 c5 6d 00
+        0011e6f6 80 fb 1d        CMP        BL,0x1d                                            Compare character ID with 0x1D (max valid ID)
+        0011e6f9 72 0e           JC         CharacterRestrictionHandler                        Jump if character ID < 0x1D
+        0011e6fb 80 fb ff        CMP        BL,RANDOM                                          Compare character ID with 0xFF (Random??)
+        0011e6fe 74 09           JZ         CharacterRestrictionHandler                        Jump if character ID == 0xFF
+        0011e700 80 fb fe        CMP        BL,LOCKED_CHARACTER                                Compare character ID with 0xFE (Locked???)
+        0011e703 0f 85 9b        JNZ        RestrictedSlotHandler                              Jump if character ID != 0xFE
+                 00 00 00
+                             CharacterRestrictionHandler                     XREF[2]:     0011e6f9(j), 0011e6fe(j)  
+        0011e709 80 fb 14        CMP        BL,CHRISTIE
+        0011e70c 0f 84 92        JZ         RestrictedSlotHandler
+                 00 00 00
+        0011e712 80 fb 0b        CMP        BL,HAYATE
+        0011e715 0f 84 89        JZ         RestrictedSlotHandler
+                 00 00 00
+        0011e71b 80 fb 13        CMP        BL,BRADWONG
+        0011e71e 0f 84 80        JZ         RestrictedSlotHandler
+                 00 00 00
+        0011e724 80 fb 11        CMP        BL,TENGU
+        0011e727 74 0f           JZ         LAB_0011e738
+        0011e729 80 fb 18        CMP        BL,BAYMAN
+        0011e72c 74 0a           JZ         LAB_0011e738
+        0011e72e 80 fb 15        CMP        BL,HITOMI
+        0011e731 74 05           JZ         LAB_0011e738
+        0011e733 80 fb ff        CMP        BL,RANDOM
+        0011e736 75 59           JNZ        LAB_0011e791
+                             LAB_0011e738                                    XREF[3]:     0011e727(j), 0011e72c(j), 
+                                                                                          0011e731(j)  
+        0011e738 8b 4c 24 1c     MOV        ECX,dword ptr [ESP + param_1]
+        0011e73c 85 c9           TEST       ECX,ECX
+        0011e73e 74 64           JZ         RestrictedSlotHandler
+        0011e740 8a cb           MOV        CL,BL
+        0011e742 e8 c9 fe        CALL       FUN_0011e610                                       undefined4 FUN_0011e610(char param_1)
+                 ff ff
+        0011e747 85 c0           TEST       EAX,EAX
+        0011e749 75 1c           JNZ        LAB_0011e767
+        0011e74b c6 87 38        MOV        byte ptr [EDI + BYTE_006dc438],LOCKED_CHARACTER    = 5h
+                 c4 6d 00 fe
+        0011e752 c7 46 04        MOV        dword ptr [ESI + 0x4]=>CharacterSelectIconWidescr  = 40012h
+                 1b 00 04 00
+        0011e759 c7 06 09        MOV        dword ptr [ESI]=>CharacterSelectIconFullscreen,LA  = 40000h
+                 00 04 00
+        0011e75f 89 46 08        MOV        dword ptr [ESI + 0x8]=>DWORD_006dc444,EAX          = 40041h
+        0011e762 88 46 fd        MOV        byte ptr [ESI + -0x3]=>BYTE_006dc439,AL            = 1h
+        0011e765 eb 27           JMP        LAB_0011e78e
+                             LAB_0011e767                                    XREF[1]:     0011e749(j)  
+        0011e767 8b 45 00        MOV        EAX,dword ptr [EBP]=>CharacterSelectIconWidescreen = 40012h
+        0011e76a 8b 8f cc        MOV        ECX,dword ptr [EDI + CharacterSelectIconFullscreen] = 40000h
+                 c5 6d 00
+        0011e770 8b 97 d4        MOV        EDX,dword ptr [EDI + CharacterSelectIconName]      = 40041h
+                 c5 6d 00
+        0011e776 89 46 04        MOV        dword ptr [ESI + 0x4]=>CharacterSelectIconWidescr  = 40012h
+        0011e779 8b 87 d8        MOV        EAX,dword ptr [EDI + CharacterSelectIconMartialArt] = 4005Eh
+                 c5 6d 00
+        0011e77f 88 9f 38        MOV        byte ptr [EDI + BYTE_006dc438],BL                  = 5h
+                 c4 6d 00
+        0011e785 89 0e           MOV        dword ptr [ESI]=>CharacterSelectIconFullscreen,EC  = 40000h
+        0011e787 89 56 08        MOV        dword ptr [ESI + 0x8]=>DWORD_006dc444,EDX=>LAB_00  = 40041h
+        0011e78a c6 46 fd 01     MOV        byte ptr [ESI + -0x3]=>BYTE_006dc439,0x1           = 1h
+                             LAB_0011e78e                                    XREF[1]:     0011e765(j)  
+        0011e78e 89 46 0c        MOV        dword ptr [ESI + 0xc]=>DWORD_006dc448,EAX=>LAB_00  = 4005Eh
+                             LAB_0011e791                                    XREF[1]:     0011e736(j)  
+        0011e791 8b 4c 24 10     MOV        ECX,dword ptr [ESP + local_8]
+        0011e795 8b 44 24 14     MOV        EAX,dword ptr [ESP + local_4]
+        0011e799 88 81 dc        MOV        byte ptr [ECX + DAT_00df09dc],AL
+                 09 df 00
+        0011e79f 41              INC        ECX
+        0011e7a0 89 4c 24 10     MOV        dword ptr [ESP + local_8],ECX
+                             RestrictedSlotHandler                           XREF[5]:     0011e703(j), 0011e70c(j), 
+                                                                                          0011e715(j), 0011e71e(j), 
+                                                                                          0011e73e(j)  
+        0011e7a4 40              INC        EAX
+        0011e7a5 83 c5 14        ADD        EBP,0x14
+        0011e7a8 83 c7 14        ADD        EDI,0x14
+        0011e7ab 83 c6 14        ADD        ESI,0x14
+        0011e7ae 83 f8 14        CMP        EAX,0x14
+        0011e7b1 89 44 24 14     MOV        dword ptr [ESP + local_4],EAX
+        0011e7b5 0f 82 35        JC         LAB_0011e6f0
+                 ff ff ff
+        0011e7bb 5d              POP        EBP
+                             LAB_0011e7bc                                    XREF[1]:     0011e6d7(j)  
+        0011e7bc 8b 4c 24 0c     MOV        ECX,dword ptr [ESP + local_8]
+        0011e7c0 5f              POP        EDI
+        0011e7c1 5e              POP        ESI
+        0011e7c2 89 0d a8        MOV        dword ptr [CharacterSelectSlotCount],ECX           = 14
+                 c9 6d 00
+        0011e7c8 33 d2           XOR        EDX,EDX
+        0011e7ca 5b              POP        EBX
+        0011e7cb eb 03           JMP        LAB_0011e7d0
+        0011e7cd 8d 49 00        LEA        ECX,[ECX]
+                             LAB_0011e7d0                                    XREF[2]:     0011e7cb(j), 0011e815(j)  
+        0011e7d0 8b 0c 24        MOV        ECX,dword ptr [ESP]=>local_8
+        0011e7d3 33 c0           XOR        EAX,EAX
+        0011e7d5 85 c9           TEST       ECX,ECX
+        0011e7d7 7e 31           JLE        LAB_0011e80a
+        0011e7d9 8d a4 24        LEA        ESP=>local_8,[ESP]
+                 00 00 00 00
+                             LAB_0011e7e0                                    XREF[1]:     0011e7fc(j)  
+        0011e7e0 0f b6 88        MOVZX      ECX,byte ptr [EAX + DAT_00df09dc]
+                 dc 09 df 00
+        0011e7e7 8d 0c 89        LEA        ECX,[ECX + ECX*0x4]
+        0011e7ea 0f b6 0c        MOVZX      ECX,byte ptr [ECX*0x4 + 0x6dc438]=>BYTE_006dc49c   = 5h
+                 8d 38 c4                                                                       = Dh
+                 6d 00
+        0011e7f2 3b d1           CMP        EDX,ECX
+        0011e7f4 8b 0c 24        MOV        ECX,dword ptr [ESP]=>local_8
+        0011e7f7 74 07           JZ         LAB_0011e800
+        0011e7f9 40              INC        EAX
+        0011e7fa 3b c1           CMP        EAX,ECX
+        0011e7fc 7c e2           JL         LAB_0011e7e0
+        0011e7fe eb 0a           JMP        LAB_0011e80a
+                             LAB_0011e800                                    XREF[1]:     0011e7f7(j)  
+        0011e800 3b c1           CMP        EAX,ECX
+        0011e802 88 82 90        MOV        byte ptr [EDX + DAT_00df0490],AL
+                 04 df 00
+        0011e808 7c 07           JL         LAB_0011e811
+                             LAB_0011e80a                                    XREF[2]:     0011e7d7(j), 0011e7fe(j)  
+        0011e80a c6 82 90        MOV        byte ptr [EDX + DAT_00df0490],0x0=>DAT_00df0491
+                 04 df 00 00
+                             LAB_0011e811                                    XREF[1]:     0011e808(j)  
+        0011e811 42              INC        EDX
+        0011e812 83 fa 1d        CMP        EDX,0x1d
+        0011e815 7c b9           JL         LAB_0011e7d0
+        0011e817 83 c4 08        ADD        ESP,0x8
+        0011e81a c3              RET
+        0011e81b cc              INT3
+        0011e81c cc              INT3
+        0011e81d cc              INT3
+        0011e81e cc              INT3
+        0011e81f cc              INT3
