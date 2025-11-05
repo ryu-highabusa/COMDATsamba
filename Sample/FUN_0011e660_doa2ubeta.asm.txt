@@ -23,7 +23,7 @@
                                                                                           FUN_00120d60:00120d72(c), 
                                                                                           FUN_001210a0:001210b2(c)  
         0011e660 83 ec 08        SUB        ESP,0x8
-        0011e663 83 7c 24        CMP        dword ptr [ESP + param_1],21
+        0011e663 83 7c 24        CMP        dword ptr [ESP + param_1],BOOSTERDISC_MODE
                  0c 15
         0011e668 53              PUSH       EBX
         0011e669 56              PUSH       ESI
@@ -76,7 +76,7 @@
                              LAB_0011e6c5                                    XREF[5]:     0011e693(j), 0011e6b3(j), 
                                                                                           0011e6b6(j), 0011e6bb(j), 
                                                                                           0011e6c0(j)  
-        0011e6c5 88 8f dc        MOV        byte ptr [EDI + DAT_00df09dc],CL
+        0011e6c5 88 8f dc        MOV        byte ptr [EDI + BYTE_00df09dc],CL
                  09 df 00
         0011e6cb 83 c6 0c        ADD        ESI,0xc
         0011e6ce 47              INC        EDI
@@ -136,9 +136,9 @@
         0011e74b c6 87 38        MOV        byte ptr [EDI + BYTE_006dc438],LOCKED_CHARACTER    = 5h
                  c4 6d 00 fe
         0011e752 c7 46 04        MOV        dword ptr [ESI + 0x4]=>CharacterSelectIconWidescr  = 40012h
-                 1b 00 04 00
-        0011e759 c7 06 09        MOV        dword ptr [ESI]=>CharacterSelectIconFullscreen,LA  = 40000h
-                 00 04 00
+                 1b 00 04 00                                                                    = 10h
+        0011e759 c7 06 09        MOV        dword ptr [ESI]=>CharacterSelectIconFullscreen,DA  = 40000h
+                 00 04 00                                                                       = 30h    0
         0011e75f 89 46 08        MOV        dword ptr [ESI + 0x8]=>DWORD_006dc444,EAX          = 40041h
         0011e762 88 46 fd        MOV        byte ptr [ESI + -0x3]=>BYTE_006dc439,AL            = 1h
         0011e765 eb 27           JMP        LAB_0011e78e
@@ -149,19 +149,23 @@
         0011e770 8b 97 d4        MOV        EDX,dword ptr [EDI + CharacterSelectIconName]      = 40041h
                  c5 6d 00
         0011e776 89 46 04        MOV        dword ptr [ESI + 0x4]=>CharacterSelectIconWidescr  = 40012h
+                                                                                                = 0Fh
         0011e779 8b 87 d8        MOV        EAX,dword ptr [EDI + CharacterSelectIconMartialArt] = 4005Eh
                  c5 6d 00
         0011e77f 88 9f 38        MOV        byte ptr [EDI + BYTE_006dc438],BL                  = 5h
                  c4 6d 00
         0011e785 89 0e           MOV        dword ptr [ESI]=>CharacterSelectIconFullscreen,EC  = 40000h
-        0011e787 89 56 08        MOV        dword ptr [ESI + 0x8]=>DWORD_006dc444,EDX=>LAB_00  = 40041h
+                                                                                                = 94h
+        0011e787 89 56 08        MOV        dword ptr [ESI + 0x8]=>DWORD_006dc444,EDX=>DAT_00  = 40041h
+                                                                                                = 0Fh
         0011e78a c6 46 fd 01     MOV        byte ptr [ESI + -0x3]=>BYTE_006dc439,0x1           = 1h
                              LAB_0011e78e                                    XREF[1]:     0011e765(j)  
-        0011e78e 89 46 0c        MOV        dword ptr [ESI + 0xc]=>DWORD_006dc448,EAX=>LAB_00  = 4005Eh
+        0011e78e 89 46 0c        MOV        dword ptr [ESI + 0xc]=>DWORD_006dc448,EAX=>DAT_00  = 4005Eh
+                                                                                                = 59h    Y
                              LAB_0011e791                                    XREF[1]:     0011e736(j)  
         0011e791 8b 4c 24 10     MOV        ECX,dword ptr [ESP + local_8]
         0011e795 8b 44 24 14     MOV        EAX,dword ptr [ESP + local_4]
-        0011e799 88 81 dc        MOV        byte ptr [ECX + DAT_00df09dc],AL
+        0011e799 88 81 dc        MOV        byte ptr [ECX + BYTE_00df09dc],AL
                  09 df 00
         0011e79f 41              INC        ECX
         0011e7a0 89 4c 24 10     MOV        dword ptr [ESP + local_8],ECX
@@ -195,7 +199,7 @@
         0011e7d9 8d a4 24        LEA        ESP=>local_8,[ESP]
                  00 00 00 00
                              LAB_0011e7e0                                    XREF[1]:     0011e7fc(j)  
-        0011e7e0 0f b6 88        MOVZX      ECX,byte ptr [EAX + DAT_00df09dc]
+        0011e7e0 0f b6 88        MOVZX      ECX,byte ptr [EAX + BYTE_00df09dc]
                  dc 09 df 00
         0011e7e7 8d 0c 89        LEA        ECX,[ECX + ECX*0x4]
         0011e7ea 0f b6 0c        MOVZX      ECX,byte ptr [ECX*0x4 + 0x6dc438]=>BYTE_006dc49c   = 5h
