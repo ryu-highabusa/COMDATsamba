@@ -1462,6 +1462,23 @@
       <VariableType>Byte</VariableType>
       <Address>182CE4EDF</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"Christie Com1st Action Table Pointer"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>1820ff5ec</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>195</ID>
+      <Description>"Christie Com Table Length"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>1820ff615</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
