@@ -256,7 +256,7 @@
       <Description>"Display Flags"</Description>
       <Options moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
-      <Address>0</Address>
+    
       <CheatEntries>
         <CheatEntry>
           <ID>122</ID>
