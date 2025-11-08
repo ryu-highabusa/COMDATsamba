@@ -653,8 +653,8 @@ local ADDR = {
   }
 }
 
--- ───── Name maps / formatters (extend freely) ───────────────────────────────
-local MANCOM = { [0] = "COMPUTER", [1] = "HUMAN" }
+-- ───── Name maps / formatters ───────────────────────────────
+local MANCOM = { [0] = "Computer", [1] = "Human" }
 
 local ACT_STATE = {
   [0x00] = "0x0 - NEUTRAL",
@@ -676,7 +676,7 @@ local ACT_STATE = {
   [0x10] = "0x10 - THROW MISS",
 }
 
--- Optional: map character ids if you want pretty names
+-- map character ids --
 local CHAR_NAME = {
   [0x00] = "Zack",
   [0x01] = "Tina",
@@ -725,6 +725,15 @@ local function read_u8(addr)
   local t = readBytes(addr, 1, true)
   return t and t[1] or nil
 end
+
+-- helpers
+local function write_u8(addr, v) writeBytes(addr, v &amp; 0xFF) end
+local function read_u8_safe(addr) local t=readBytes(addr,1,true); return t and t[1] or 0 end
+local function flip_mancom(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
+
+-- pretty strings/colors
+local function manStr(v) return (v==1) and "Human" or "Computer" end
+local function manColor(v) return (v==1) and 0x00A000 or 0x808080 end  -- BGR in C
 
 -- CT uses “2 Byte Big Endian”; assemble big-endian manually
 local function read_u16_be(addr)
@@ -814,6 +823,39 @@ t.OnTimer = function()
     end
   end
 end
+
+-- UI: buttons under headers
+local btnP1 = createButton(form)
+btnP1.Left, btnP1.Top, btnP1.Width, btnP1.Height = 280, 36, 130, 22
+btnP1.OnClick = function()
+  flip_mancom(ADDR.P1.MAN_COM)
+  -- refresh caption immediately after write
+  local v = read_u8_safe(ADDR.P1.MAN_COM)
+  btnP1.Caption   = ("P1: %s (toggle)"):format(manStr(v))
+  btnP1.Font.Color = manColor(v)
+end
+
+local btnP2 = createButton(form)
+btnP2.Left, btnP2.Top, btnP2.Width, btnP2.Height = 500, 36, 130, 22
+btnP2.OnClick = function()
+  flip_mancom(ADDR.P2.MAN_COM)
+  local v = read_u8_safe(ADDR.P2.MAN_COM)
+  btnP2.Caption   = ("P2: %s (toggle)"):format(manStr(v))
+  btnP2.Font.Color = manColor(v)
+end
+
+-- updater for button captions/colors
+local function updateMancomButtons()
+  local v1 = read_u8_safe(ADDR.P1.MAN_COM)
+  local v2 = read_u8_safe(ADDR.P2.MAN_COM)
+  btnP1.Caption    = ("P1: %s (toggle)"):format(manStr(v1))
+  btnP1.Font.Color = manColor(v1)
+  btnP2.Caption    = ("P2: %s (toggle)"):format(manStr(v2))
+  btnP2.Font.Color = manColor(v2)
+end
+
+-- call once now
+updateMancomButtons()
 
 form.OnClose = function()
   t.destroy()
