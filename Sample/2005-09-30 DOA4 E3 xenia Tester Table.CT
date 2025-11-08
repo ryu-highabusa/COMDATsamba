@@ -707,13 +707,12 @@ local CHAR_NAME = {
 
 -- colors (BGR in CE)
 local COLOR = {
-  text   = 0xEAEAEA,
-  p1     = 0xDCDCDC,
-  p2     = 0xDCDCDC,
-  neutral= 0x808080,  -- ACT_STATE 0
-  attack = 0x00A000,  -- 03
-  stun   = 0x0000FF,  -- red-ish (for stun-lock)
-  stunH  = 0xFF0000,  -- green-ish (since Holds are avaialble to the player)
+  text     = 0xEAEAEA,
+  p1       = 0xDCDCDC,
+  p2       = 0xDCDCDC,
+  neutral  = 0x808080,  -- ACT_STATE 0
+  critical = 0x00A000, -- green-ish (since Holds are avaialble to the player)
+  stun     = 0x0000FF,  -- red-ish (for stun-lock)
 }
 
 -- which ACT_STATE values count as "stun" for coloring
@@ -749,7 +748,7 @@ local function fmtActState(v)
 end
 
 local function colorForState(v)
-  if v == 0x08 then return COLOR.attack end
+  if v == 0x08 then return COLOR.critical end
   if v == 0x00 then return COLOR.neutral end
   if STUN_STATES[v] then return COLOR.stun end
   return COLOR.text
