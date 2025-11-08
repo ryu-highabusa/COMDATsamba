@@ -256,7 +256,6 @@
       <Description>"Display Flags"</Description>
       <Options moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
-    
       <CheatEntries>
         <CheatEntry>
           <ID>122</ID>
@@ -626,4 +625,83 @@
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
+  <LuaScript>-- Cheat Engine Lua script: display ACT_STATE names for multiple addresses
+
+local addresses = {
+  "0x182CE4E47",   -- ACT_STATE_P1
+  "0x182CE4EDF"    -- ACT_STATE_P2
+}
+
+-- ACT_STATE → description
+local ACT_STATE_NAMES = {
+  [0x00] = "NEUTRAL",
+  [0x01] = "AIR",
+  [0x02] = "AIR ATTACK",
+  [0x03] = "ATTACK",
+  [0x04] = "THROW",
+  [0x05] = "HOLD",
+  [0x06] = "HOLD SUCCESS",
+  [0x07] = "Block Stun (Hold Unavailable)",
+  [0x08] = "Critical Stun (Hold Available)",
+  [0x09] = "Hit Stun (Hold Unavailable)",
+  [0x0A] = "BEING THROWN",
+  [0x0B] = "BEING HELD",
+  [0x0C] = "GROUND STATE (Wake-Up-Kick Available)",
+  [0x0D] = "SPECIAL MOVE (Taunts/Flips)",
+  [0x0E] = "DOWN ATTACK",
+  [0x0F] = "Down Attack Stun",
+  [0x10] = "THROW MISS",
+}
+
+local function addrToNumber(a)
+  return tonumber(a) or getAddressSafe(a)
+end
+
+-- always read a single unsigned byte reliably
+local function read_u8(addr)
+  local t = readBytes(addr, 1, true)   -- returnAsTable=true
+  if t and t[1] ~= nil then return t[1] end
+  return nil
+end
+
+-- UI
+local form = createForm(false)
+form.Caption = "ACT_STATE Monitor"
+form.Width = 520
+form.Height = 30 + (#addresses * 28)
+form.Position = "poScreenCenter"
+
+local rows = {}
+for i, a in ipairs(addresses) do
+  local lbl = createLabel(form)
+  lbl.Left, lbl.Top, lbl.Width, lbl.Height = 10, 10 + (i-1)*26, 500, 24
+  rows[i] = { label = lbl, addr = addrToNumber(a), addr_str = a }
+end
+
+local t = createTimer(form)
+t.Interval = 150
+t.OnTimer = function()
+  for _, r in ipairs(rows) do
+    if r.addr then
+      local id = read_u8(r.addr)
+      if id ~= nil then
+        local name = ACT_STATE_NAMES[id] or "&lt;unknown&gt;"
+        r.label.Caption = string.format("%s: 0x%X (%d) — %s",
+          string.format("0x%X", r.addr), id, id, name)
+      else
+        r.label.Caption = r.addr_str .. ": &lt;read failed&gt;"
+      end
+    else
+      r.label.Caption = r.addr_str .. ": &lt;invalid address&gt;"
+    end
+  end
+end
+
+form.OnClose = function()
+  t.destroy()
+end
+
+form.show()
+
+</LuaScript>
 </CheatTable>
