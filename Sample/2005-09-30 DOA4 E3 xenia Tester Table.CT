@@ -629,6 +629,85 @@
 -- Uses your CT addresses; reads byte + 2-byte BIG-ENDIAN values.
 -- Shows a two-column panel: Field | P1 | P2, updates ~6x/sec.
 
+-- ───────────────── Display flag addresses ─────────────────
+-- (add the FIX_DISPLAY address when you find it)
+ADDR.DISPLAY = {
+  STAGE      = "0x182CE4DE0",
+  CHAR_P1    = "0x182CE4E30",
+  CHAR_P2    = "0x182CE4EC8",
+  FIX_UI     = "0x182CE4EC9", --put real address later
+}
+
+-- ─────────────── generic flag helpers (0/1) ───────────────
+local function read_flag(addr)  if not addr then return nil end; local t=readBytes(addr,1,true); return t and t[1] or nil end
+local function write_flag(addr,v) if addr then writeBytes(addr, (v and 1 or 0)) end end
+local function toggle_flag(addr) local v=read_flag(addr) or 0; write_flag(addr, (v==0) and 1 or 0) end
+local function flag_str(v) return (v==1) and "ON" or "OFF" end
+
+-- ─────────────── UI: “Display Flags” row ───────────────
+-- section label
+local lblDisp = createLabel(form)
+lblDisp.Caption = "Display Flags"
+lblDisp.Left, lblDisp.Top, lblDisp.Width = 12, 64, 260
+lblDisp.Font.Style = "fsBold"
+
+-- buttons (one line)
+local btnStage = createButton(form)
+btnStage.Left, btnStage.Top, btnStage.Width, btnStage.Height = 280, 60, 90, 22
+btnStage.Caption = "Stage: …"
+btnStage.OnClick = function() toggle_flag(ADDR.DISPLAY.STAGE) end
+
+local btnP1Disp = createButton(form)
+btnP1Disp.Left, btnP1Disp.Top, btnP1Disp.Width, btnP1Disp.Height = 375, 60, 110, 22
+btnP1Disp.Caption = "P1 Model: …"
+btnP1Disp.OnClick = function() toggle_flag(ADDR.DISPLAY.CHAR_P1) end
+
+local btnP2Disp = createButton(form)
+btnP2Disp.Left, btnP2Disp.Top, btnP2Disp.Width, btnP2Disp.Height = 490, 60, 110, 22
+btnP2Disp.Caption = "P2 Model: …"
+btnP2Disp.OnClick = function() toggle_flag(ADDR.DISPLAY.CHAR_P2) end
+
+local btnFixUI = createButton(form)
+btnFixUI.Left, btnFixUI.Top, btnFixUI.Width, btnFixUI.Height = 605, 60, 90, 22
+btnFixUI.Caption = "Fix UI: …"
+btnFixUI.Enabled = (ADDR.DISPLAY.FIX_UI ~= nil)  -- stays disabled until you set the address
+btnFixUI.OnClick = function() toggle_flag(ADDR.DISPLAY.FIX_UI) end
+
+-- make a little extra space for the flags row
+form.Height = form.Height + 30
+
+-- live updater for the four flag buttons
+local function updateDisplayButtons()
+  local s  = read_flag(ADDR.DISPLAY.STAGE)
+  local p1 = read_flag(ADDR.DISPLAY.CHAR_P1)
+  local p2 = read_flag(ADDR.DISPLAY.CHAR_P2)
+  local fu = (ADDR.DISPLAY.FIX_UI ~= nil) and read_flag(ADDR.DISPLAY.FIX_UI) or nil
+
+  btnStage.Caption = ("Stage: %s"):format(s and flag_str(s) or "N/A")
+  btnP1Disp.Caption = ("P1 Model: %s"):format(p1 and flag_str(p1) or "N/A")
+  btnP2Disp.Caption = ("P2 Model: %s"):format(p2 and flag_str(p2) or "N/A")
+
+  if fu == nil then
+    btnFixUI.Caption = "Fix UI: N/A"
+    btnFixUI.Enabled = false
+  else
+    btnFixUI.Caption = ("Fix UI: %s"):format(flag_str(fu))
+    btnFixUI.Enabled = true
+  end
+end
+
+-- call once now, and again every tick
+updateDisplayButtons()
+
+-- add to your existing timer body (at the end is fine):
+local prevOnTimer = t.OnTimer
+t.OnTimer = function(...)
+  if prevOnTimer then prevOnTimer(...) end   -- keep your current table updates
+  updateMancomButtons()                      -- you already have this
+  updateDisplayButtons()
+end
+
+
 -- ───── Address book (from your CT) ──────────────────────────────────────────
 local ADDR = {
   P1 = {
