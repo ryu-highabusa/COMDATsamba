@@ -35,13 +35,13 @@
 	}
 
 	-- ───── Name maps / formatters ───────────────────────────────
-	local MANCOM = { [0] = "Computer", [1] = "Human" }
-	local STAGE_DISP = { [0] = "OFF", [1] = "ON" }
-	local CHAR_DISP_P1 = { [0] = "OFF", [1] = "ON" }
-	local CHAR_DISP_P2 = { [0] = "OFF", [1] = "ON" }
-	local FIX_DISP = { [0] = "ON", [1] = "OFF" }
-	local GAME_RULE = { [0] = "OFF", [1] = "ON" }
-	local TIMER_ONOFF = { [0] = "ON", [1] = "OFF" } 
+--	local MANCOM = { [0] = "Computer", [1] = "Human" }
+--	local STAGE_DISP = { [0] = "OFF", [1] = "ON" }
+--	local CHAR_DISP_P1 = { [0] = "OFF", [1] = "ON" }
+--	local CHAR_DISP_P2 = { [0] = "OFF", [1] = "ON" }
+--	local FIX_DISP = { [0] = "ON", [1] = "OFF" }
+--	local GAME_RULE = { [0] = "OFF", [1] = "ON" }
+--	local TIMER_ONOFF = { [0] = "ON", [1] = "OFF" } 
 
 	-- map action state flags --
 	local ACT_STATE = {
@@ -117,12 +117,23 @@
 	-- helpers
 	local function write_u8(addr, v) writeBytes(addr, v & 0xFF) end
 	local function read_u8_safe(addr) local t=readBytes(addr,1,true); return t and t[1] or 0 end
-	local function flip_mancom(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
-	local function flip_stagedisp(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
-	local function flip_chardisp(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
-	local function flip_fixdisp(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
-	local function flip_gamerule(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
-	local function flip_timer(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
+	local function toggle_flag(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
+--	local function flip_mancom(addr) write_u8(addr, (read_u8_safe(addr)==0) and 1 or 0) end
+	local function toggle(addr, mask) local b = read_u8_safe(addr)
+		if mask and mask ~= 0 then
+			write_u8(addr, b ~ mask)        -- flip bit(s)
+		else
+			write_u8(addr, (b==0) and 1 or 0) -- flip whole byte
+		end
+	end
+
+-- caption helper (choose label set + optional invert)
+	local function as_onoff(v, names, invert)
+		names = names or {"OFF","ON"}
+		local i = (v ~= 0) and 2 or 1
+		if invert then i = (i==1) and 2 or 1 end
+		return names[i]
+	end
 
 	-- pretty strings/colors
 	local function manStr(v) return (v==1) and "Human" or "Computer" end
