@@ -15,3 +15,10 @@
  E - DOWN ATTACK
  F - Down Attack Stun
 10 - THROW MISS
+
+ 0 Neutral	6 Hold_Success		 C Ground_State
+ 1 Air		7 Block_Stun (No Hold)	 D Special_Move (Taunts)
+ 2 Air_Attack	8 Critical_Stun (Hold)	 E Down_Attack
+ 3 Attack	9 Hit_Stun (No Hold)	 F Down_Attack_Stun
+ 4 Throw	A Being_Thrown		10 Throw_Miss
+ 5 Hold		B Being_Held		
