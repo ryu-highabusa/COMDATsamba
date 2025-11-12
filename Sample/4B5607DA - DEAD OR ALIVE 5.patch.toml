@@ -1,0 +1,13 @@
+title_name = "Dead or Alive 5" # DOA5
+title_id = "4B5607DA"  
+hash = "B00E3FD1F2393598" # default.xex
+
+[[patch]]
+    name = "Tag Stage Test"
+    desc = "Add Tag Flag to Scramble Possibly"
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be32]]
+        address = 0x82104d90
+        value = 0x01010101
