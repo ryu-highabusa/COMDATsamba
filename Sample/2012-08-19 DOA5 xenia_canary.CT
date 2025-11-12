@@ -95,7 +95,7 @@
     <CheatEntry>
       <ID>18</ID>
       <Description>"Player_1"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -190,7 +190,7 @@
     <CheatEntry>
       <ID>28</ID>
       <Description>"ACT_STATE_P1"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -233,7 +233,7 @@
     <CheatEntry>
       <ID>37</ID>
       <Description>"ACT_STATE_P2"</Description>
-      <Options moManualExpandCollapse="1"/>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -283,6 +283,7 @@
     <CheatEntry>
       <ID>52</ID>
       <Description>"STAGE DISP ??"</Description>
+      <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -369,32 +370,36 @@
       <Description>"p1 ?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182C7F8A7</Address>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182C7F8A6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>54</ID>
       <Description>"p2?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182C7F8AB</Address>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182C7F8Aa</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>55</ID>
       <Description>"p1 tag partner ?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182C7F8AF</Address>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182C7F8Ae</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>56</ID>
       <Description>"p2 tag partner"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>182C7F8B3</Address>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182C7F8B2</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>57</ID>
@@ -434,6 +439,74 @@
       <VariableType>Custom</VariableType>
       <CustomType>2 Byte Big Endian</CustomType>
       <Address>183f82404</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
+      <Description>"Hit_Point_P1 (fake)"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182D5F6D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182df49d0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>67</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182DF49D2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"Hit_Point_P2"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182D5F700</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"HP_TAG_PARTNER_P1"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182DF49D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>65</ID>
+      <Description>"HP_TAG_PARTNER_P2"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182DF49D6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>69</ID>
+      <Description>"WORD_83f824d0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183F824D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>68</ID>
+      <Description>"WORD_83f824d2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183f824d2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>70</ID>
+      <Description>"DAT_83f824b6"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183f824b6</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
