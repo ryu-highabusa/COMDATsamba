@@ -1,0 +1,40 @@
+endian big
+goto 8
+get MAGIC short
+if MAGIC != 0x789C
+cleanexit
+endif
+goto 0
+get NAME basename
+string NAME + .ext
+get TSIZE long
+set REM TSIZE
+append
+for
+get ZSIZE long
+savepos OFFSET
+if ZSIZE > 0x8000
+math ZSIZE - 0x8000
+if REM > 16383
+clog MEMORY_FILE2 OFFSET ZSIZE 16384
+math REM - 16384
+else
+clog MEMORY_FILE2 OFFSET ZSIZE REM
+math REM - REM
+endif
+else
+log MEMORY_FILE2 OFFSET ZSIZE
+math REM - ZSIZE
+endif
+math offset + ZSIZE
+math offset - 4
+math offset x= 16
+goto offset
+get null long
+if REM == 0
+append
+log name 0 TSIZE MEMORY_FILE2
+cleanexit
+endif
+next
+
