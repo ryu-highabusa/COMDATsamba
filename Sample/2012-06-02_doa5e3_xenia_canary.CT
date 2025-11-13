@@ -2728,7 +2728,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>390</ID>
-      <Description>"FrameDataDISPoption???_83e6c55c"</Description>
+      <Description>"MoveListMoveData_Flag"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
