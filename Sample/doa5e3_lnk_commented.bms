@@ -1,0 +1,48 @@
+# .lnk/.bin extractor (annotated)
+# Reads big-endian index from common.bin; names from offsets; then extracts files.
+
+endian BIG
+
+# Open both sibling files (we only read from fd=1 here).
+open FDSE "common.lnk" 0	# fd 0 (not used by the rest of this script)
+open FDSE "common.bin" 1	# fd 1 = the index container we parse
+
+# --- HEADER ---
+goto 0x08 1                  # at 0x08: number of files (u32 BE)
+get files long 1
+
+# --- NAME POINTER TABLE (3 x u32 per entry) ---
+goto 0x24 1	# table starts at 0x24
+savepos offset 1	# cursor over the 12-byte records
+
+
+for i = 0 < files
+goto offset 1
+get noff long 1	# name offset within common.bin
+get arcnum long 1	# archive index (unused in this script)
+get id long 1	# entry id (1-based in later usage)
+savepos offset 1
+goto noff 1
+get name string 1
+putarray 0 i name
+next i
+getarray name 0 0
+putarray 0 files name
+goto 0xC
+get files long
+get unk01 longlong
+get unk02 longlong
+for i = 0 < files
+get offset longlong
+get zsize longlong
+get size longlong
+get arc longlong
+set id i
+math id + 1
+getarray name 0 id
+if zsize == size
+log name offset size
+else
+clog name offset zsize size
+endif
+next i
