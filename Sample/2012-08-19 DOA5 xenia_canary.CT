@@ -695,9 +695,54 @@
       <VariableType>Byte</VariableType>
       <Address>183f8245d</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"POSE_STA_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183f829b4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"POSE_STA_P2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183f83044</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"Act_State?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183f8299a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"Act_State?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183f8302a</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>99</ID>
+      <Description>"PauseGameLogicFlagMaybe???"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182db25eb</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>100</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>183f830d4</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>	-- === DOA4 two-player live HUD (Cheat Engine Lua) ============================
+  <LuaScript>-- === DOA4 two-player live HUD (Cheat Engine Lua) ============================
 	-- Uses your CT addresses; reads byte + 2-byte BIG-ENDIAN values.
 	-- Shows a two-column panel: Field | P1 | P2, updates ~6x/sec.
 
