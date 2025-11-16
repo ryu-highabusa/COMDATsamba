@@ -2313,6 +2313,15 @@
       <VariableType>Byte</VariableType>
       <Address>182d5812b</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>290</ID>
+      <Description>"menu or game flag ?"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>184093924</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <LuaScript>-- === DOA4 two-player live HUD (Cheat Engine Lua) ============================
