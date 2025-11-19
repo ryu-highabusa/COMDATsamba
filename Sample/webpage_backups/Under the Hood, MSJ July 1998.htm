@@ -1,0 +1,357 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+	<head><script src="//archive.org/includes/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app241.us.archive.org';v.server_ms=335;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=Hk4-lkW3" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.microsoft.com/msj/0798/hood0798.aspx","20121018103541","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1350556541");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Under the Hood, MSJ July 1998</title>
+<meta name="Description" content="What's ahead for 64-bit computing? Matt Pietrek tackles that question this month."/>
+	<meta http-equiv="PICS-Label" content="(PICS-1.1 &quot;http://www.rsac.org/ratingsv01.html&quot; l comment &quot;RSACi North America Server&quot; by &quot;inet@microsoft.com&quot; r (n 0 s 0 v 0 l 0))">
+	<meta name="Robots" content="all"/>
+	<meta name="MS.LOCALE" content="en-us"/>
+	<link type="text/css" rel="Stylesheet" href="/web/20121018103541cs_/http://www.microsoft.com/msj/css/msdnmag.css"/>
+	<link type="text/css" rel="Stylesheet" href="/web/20121018103541cs_/http://www.microsoft.com/msj/css/msdn.css"/>
+	<script language="javascript" src="/web/20121018103541js_/http://www.microsoft.com/msj/js/msdnmag.js"></script>
+	<script type="text/javascript" language="Javascript" src="/web/20121018103541js_/http://www.microsoft.com/msj/mnp_utility.mspx/menujs?mnpshell=%2fmsj%2f0798%2fconfig_issue.xml&amp;clicktrax=False"></script>
+<link type="text/css" rel="Stylesheet" href="/web/20121018103541cs_/http://www.microsoft.com/library/mnp/2/aspx/css.aspx?locale=en-us&amp;name=QuickSearch&amp;name=Menu&amp;static=Page"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"><link rel="stylesheet" type="text/css" href="/web/20121018103541cs_/http://www.microsoft.com/library/toolbar/3.0/css.aspx?c=/msj/0798/config_issue.xml"/><script language="JavaScript">var doImage=doImage;var TType=TType;
+function mhHover(tbl,idx,cls){var t,d;if(document.getElementById)t=document.getElementById(tbl);else t=document.all(tbl);if(t==null)return;if(t.getElementsByTagName)d=t.getElementsByTagName("TD");else d=t.all.tags("TD");if(d==null)return;if(d.length<=idx)return;d[idx].className=cls;}
+function footerjs(doc){if(doImage==null){var tt=TType==null?"PV":TType;doc.write('<layer visibility="hide"><div style="display:none"><img src="https://web.archive.org/web/20121018103541/http://c.microsoft.com/trans_pixel.asp?source=www&TYPE=' + tt + '&p=msj_0798&URI=%2fmsj%2f0798%2fhood0798.aspx&GUID=1F4FC18C-F71E-47FB-8FC9-612F8EE59C61&lc=en-us" width=0 height=0 hspace=0 vspace=0 border=0 alt=""/></div></layer>');}}</script><meta name="WT.sp" content="_msj_"/><script language="JavaScript" src="https://web.archive.org/web/20121018103541js_/http://js.microsoft.com/library/svy/broker.js"></script>
+	</head>
+	<body leftmargin="0" topmargin="0" rightmargin="5" bgcolor="#ffffff"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;" toolbar-mode="auto">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;height:0;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20121018103541/http%3A//www.microsoft.com/msj/0798/hood0798.aspx"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;" nav="async">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.microsoft.com/msj/0798/hood0798.aspx" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20121018103541" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20121018103541*/http://www.microsoft.com/msj/0798/hood0798.aspx" title="See a list of every capture for this URL">17 captures</a>
+          <div class="r" title="Timespan for captures of this URL">16 Dec 2003 - 19 May 2024</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="750" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">Sep</td>
+            <td class="c" id="displayMonthEl" title="You are here: 10:35:41 Oct 18, 2012">OCT</td>
+            <td class="f" nowrap="nowrap">Nov</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><span class="ta"></span></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 10:35:41 Oct 18, 2012">18</td>
+            <td class="f" nowrap="nowrap"><span class="ta"></span></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2011</td>
+            <td class="c" id="displayYearEl" title="You are here: 10:35:41 Oct 18, 2012">2012</td>
+            <td class="f" nowrap="nowrap">2013</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="https://help.archive.org/help/category/the-wayback-machine/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20121018103541/http://web.archive.org/screenshot/http://www.microsoft.com/msj/0798/hood0798.aspx"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20121018103541/http://www.microsoft.com/msj/0798/hood0798.aspx" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20121018103541/http://www.microsoft.com/msj/0798/hood0798.aspx" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/webwidecrawl);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/webwidecrawl" target="_new"><span class="wm-title">Internet Archive</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  The Internet Archive discovers and captures web pages through many different web crawls.
+
+At any given time several distinct crawls are running, some for months, and some every day or longer.
+
+View the web archive through the <a href="http://archive.org/web/web.php">Wayback Machine</a>.
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/wikipediaoutlinks00003)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/wikipediaoutlinks00003" target="_new"><span class="wm-title">Wikipedia Outlinks February 2012</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  Crawl of outlinks from wikipedia.org started February, 2012. These files are currently not publicly accessible.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center;padding:2px 0;" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="https://web-static.archive.org/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20121018103541/http://www.microsoft.com/msj/0798/hood0798.aspx</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(750,27,25,2,"web","http://www.microsoft.com/msj/0798/hood0798.aspx","20121018103541",1996,"https://web-static.archive.org/_static/",["https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3","https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+		
+		<!--NOINDEX_START--><script language="Javascript">
+				if (self.name == "MNPMainFrame") top.location.href = self.location.href;
+			</script><div id="msviMasthead"><table cellpadding="0" cellspacing="0" width="100%" border="0"><tr><td width="100%"><table cellpadding="0" cellspacing="0" width="100%" height="22" border="0"><tr><td id="msviRegionIdGraphic" bgcolor="#"></td><td width="100%" bgcolor="#3568CC"><img src="/web/20121018103541im_/http://www.microsoft.com/library/toolbar/3.0/gradient.aspx?a=&amp;b=3568CC&amp;w=250&amp;h=22&amp;d=ltr&amp;c=RkWooiSyZq0Yx5DIezuYpFhZ%2ffA%3d" width="250" height="22" alt="*" title=""></td></tr></table></td><td id="msviGlobalToolbar" bgcolor="#3568CC" height="22" nowrap="" dir="ltr" align="left"><table cellpadding="0" cellspacing="0" border="0"><tr><td class="msviPPSpace"></td></tr></table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" border="0"><tr valign="top"><td width="100%"><table cellpadding="0" cellspacing="0" width="100%" height="42" border="0" style="height:expression(parentElement.parentElement.parentElement.parentElement.offsetHeight)"><tr valign="top"><td id="msviBrandBanner" bgcolor="FFFFFF"><a href="https://web.archive.org/web/20121018103541/http://msdn.microsoft.com/"><img src="/web/20121018103541im_/http://www.microsoft.com/library/toolbar/3.0/images/banners/msdn_masthead_ltr.gif" width="225" height="42" alt="MSDN" title="" border="0"></a></td><td width="100%" bgcolor="#6799FF"><img src="/web/20121018103541im_/http://www.microsoft.com/library/toolbar/3.0/gradient.aspx?a=FFFFFF&amp;b=6799FF&amp;w=250&amp;h=42&amp;d=ltr&amp;c=87hrt6fb9uyj4Xgg%2f0ZD3dLE36E%3d" width="250" height="42" alt="*" title=""></td></tr></table></td><td id="msviGlobalSearch" bgcolor="#6799FF">Results by Bing<br><form id="msviSearchForm" action="/web/20121018103541/http://www.microsoft.com/library/toolbar/3.0/search.aspx" target="_top"><input type="hidden" name="View" value="en-us"><input type="hidden" name="charset" value="iso-8859-1"><nobr><div style="height: 18px"><input name="qu" id="msviSearchBox" maxlength="255"><input id="msviGoButton" type="submit" value="Go"></div></nobr></form></td></tr></table><div id="msviLocalToolbar"><table cellpadding="0" cellspacing="0" width="100%" height="19" border="0"><tr><td nowrap id="msviHomePageLink"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/default.aspx">MSDN Home</a></td><td><span class="ltsep">|</span></td><td class="lt0" nowrap onmouseover="mhHover('msviLocalToolbar', 2, 'lt1')" onmouseout="mhHover('msviLocalToolbar', 2, 'lt0')"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/developercenters/">Developer Centers</a></td><td><span class="ltsep">|</span></td><td class="lt0" nowrap onmouseover="mhHover('msviLocalToolbar', 4, 'lt1')" onmouseout="mhHover('msviLocalToolbar', 4, 'lt0')"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/library/default.asp">Library</a></td><td><span class="ltsep">|</span></td><td class="lt0" nowrap onmouseover="mhHover('msviLocalToolbar', 6, 'lt1')" onmouseout="mhHover('msviLocalToolbar', 6, 'lt0')"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/downloads/">Downloads</a></td><td><span class="ltsep">|</span></td><td class="lt0" nowrap onmouseover="mhHover('msviLocalToolbar', 8, 'lt1')" onmouseout="mhHover('msviLocalToolbar', 8, 'lt0')"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/code/">Code Center</a></td><td><span class="ltsep">|</span></td><td class="lt0" nowrap onmouseover="mhHover('msviLocalToolbar', 10, 'lt1')" onmouseout="mhHover('msviLocalToolbar', 10, 'lt0')"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/subscriptions/">Subscriptions</a></td><td><span class="ltsep">|</span></td><td class="lt0" nowrap onmouseover="mhHover('msviLocalToolbar', 12, 'lt1')" onmouseout="mhHover('msviLocalToolbar', 12, 'lt0')"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/worldwide.aspx">MSDN Worldwide</a></td><td width="100%"></td></tr></table></div></div>
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" dir="LTR">
+				<tr valign="top">
+		<td height="100%" style="overflow-x: hidden" width="181">
+  <table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td class="mnpQuickSearch" style="background: #CCCCCC; color: #000000" dir="LTR"><form style="margin: 0px" action="https://web.archive.org/web/20121018103541/http://msdn.microsoft.com/msdn-online/shared/components/mscomsearch30.aspx"><nobr><font color="#000000">Search for</font><br><input class="mnpSearchBox" type="text" id="qu" name="qu" maxlength="255" style="width: 165px"><br><table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top: 2px"><tr><td width="100%" class="mnpQuickSearch" style="padding: 0px"><select class="mnpSearchScopes" style="width: 137px" name="SearchScope"><option value="1">All of MSDN</option><option value="2">All Library</option><option value="3">Code &amp; Downloads</option><option value="7" selected>MSDN Magazine</option><option value="5">Support &amp; KB</option></select></td><td><input class="mnpSearchButton" type="submit" value="Go"><br></td></tr></table><a href="https://web.archive.org/web/20121018103541/http://search.microsoft.com/search/search.aspx?View=msdn&amp;st=a" style="color: #000000" onmouseover="style.color='#0033CC';" onmouseout="style.color='#000000';">Advanced Search</a></nobr></form></td></tr></table>
+  <div id="mnpMenuTop" class="mnpMenuTop" style="overflow-x: hidden; width: 181px" url="/msj/0798/hood0798.aspx" dir="LTR" parent="/msj/0798/default.aspx"><div class="mnpInherit"><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/msj/default.aspx">MSJ Home</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuRow" style="border-color: #999999; width: 153px; overflow-x: hidden" menu="m7b12dfe2ed779ed5baf2385ba7efa6b6"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/msj/0798/default.aspx">July 1998</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/msdnmag/find/default.aspx">Search</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden" menu="m3fd9abd6d4e6b1d47da1677743a69def"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/msj/code.aspx">Source Code</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden" menu="m0e5c80cdf8bdd73274e5171bd96f4ed9"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/msj/backissues.aspx">Back Issues</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/msdnmag/Subscribe.aspx">Subscribe</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/msdnmag/service.aspx">Reader Services</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/msdnmag/write.aspx">Write to Us</a></div><div class="mnpMenuBorder" style="width: 180px"></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/msdnmag/default.aspx">MSDN Magazine</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="/web/20121018103541/http://www.microsoft.com/mind/default.asp">MIND Archive</a></div><div class="mnpMenuRow" style="border-color: #F1F1F1; background: #F1F1F1; width: 153px; overflow-x: hidden"><img width="4" height="7" border="0" alt="*" title="" class="mnpMenuArrow" src="/web/20121018103541im_/http://www.microsoft.com/library/mnp/2/gif/arrowLTR.gif" style="left: 166px; visibility: hidden"><a href="https://web.archive.org/web/20121018103541/http://msdn.microsoft.com/newsgroups/topic.aspx?url=/msdn-files/028/201/133/topic.xml">Magazine Newsgroup</a></div><div class="mnpMenuBorder" style="width: 180px; margin-bottom: 0px"></div></div></div>
+  <div class="mnpAds" style="width: 181px; height: 100%; padding-bottom: 20px; background: #F1F1F1; border-style: solid; border-color: #999999; border-width: 0px 1px 0px 0px">
+    <center><script type="text/javascript" src="/web/20121018103541js_/http://www.microsoft.com/msj/0798/hood0798.aspx"></script></center>
+  </div>
+</td>
+          <td width="100%" dir="LTR">
+        <!--NOINDEX_STOP-->
+
+<table class="downleveleyebrow" width="100%" height="24px"><tr><td>
+<span id="ctl00_eb" style="COLOR: #003399;width: 100%;height: 24px;padding-top:4px;padding-left:14px;"><a href="isapi/gomsdn.asp?TARGET=/">MSDN Home</a>&nbsp;&gt;&nbsp;<a href="/web/20121018103541/http://www.microsoft.com/msj/">MSJ</a>&nbsp;&gt;&nbsp;<a href="/web/20121018103541/http://www.microsoft.com/msj/0798/default.aspx">July 1998</a></span>
+
+</td></tr></table>
+
+	<!----------------->
+	<!--BEGIN_CONTENT-->
+	<!----------------->
+
+<!--TOOLBAR_START-->
+
+<!--TOOLBAR_EXEMPT-->
+
+<!--TOOLBAR_END-->
+<script type="text/javascript">
+<!--
+
+// -->
+</script>
+<center><font size="3" color="000080" face="verdana, arial, helv"><b><a href="/web/20121018103541/http://www.microsoft.com/msj/0798/default.aspx" alt="home"> July 1998</b></a></font></center><p>
+<center><a href="/web/20121018103541/http://www.microsoft.com/msj/default.asp"><img border="0" src="/web/20121018103541im_/http://www.microsoft.com/msj/images/msjheader02.gif" width="399" height="33" alt="Microsoft Systems Journal Homepage"></a></center>
+<hr color="000080" width="300">
+
+<center><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/logos/hoodlogo.gif" width="244" height="77" border="0" alt="Under the Hood"></center>
+<p>
+<center><font size="2">Code for this article: <a href="https://web.archive.org/web/20121018103541/http://download.microsoft.com/download/0/6/7/0678184e-905e-4783-9511-d4dca1f492b4/July98hood.exe">July98hood.exe</a> (19KB)</font></center>
+<center>
+<table width="380">
+<tr><td>
+<center><font size="2"><i>Matt Pietrek does advanced research for the NuMega Labs of Compuware Corporation, and is the author of several books. 
+His Web site at <a href="https://web.archive.org/web/20121018103541/http://www.wheaty.net/">http://www.wheaty.net</a> has a FAQ page 
+and information on previous columns and articles.</i></font></center>
+</td></tr>
+</table>
+</center>
+
+
+
+</center>
+&nbsp;
+<center>
+<table width="380">
+<tr><td>
+<font size="4" color="800080" face="verdana, arial, helv"><b> About the time you read this,</b></font><font size="2">  the Win32 API will 
+	reach its fifth anniversary in the public eye. Most 
+	new development is Win32-based (although there's still some 16-bit Windows-based development going on), and most programmers are near the end of its learning curve. Although new language features and OS extensions keep programmers busy, the tectonic plates of Windows-based development haven't shifted recently.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Did you just feel a tremor? The landscape of Windows-based development will be changing soon, and there will be new fundamental concepts to master. I'm of course referring to the 64-bit version of the Windows API. Why do we need a 64-bit version of Windows NT</font><font size="1">®</font><font size="2">? In the corporate enterprise world, the 4GB limits of 32 bits are just too confining, especially when you look at industrial strength databases like Oracle, DB2, or Microsoft SQL Server</font><font size="1">&#153;</font><font size="2">.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Microsoft is a relatively late arrival to the 64-bit party. The DEC Alpha chip is 64-bit, and there are 64-bit versions of Unix that run on the Alpha. Under Windows NT 4.0 and Windows NT 5.0, the top 32 bits of the address space aren't used (at least not without special help). Intel's Merced chip will be a native 64-bit processor that also supports the <i>x</i>86 instruction set. Many people believe that the availability of <i>x</i>86 and 64-bit instructions on a single chip will make Merced a huge commercial success, accelerating the adoption of 64-bit capable chips and programs.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">If you read my article, &quot;<a href="/web/20121018103541/http://www.microsoft.com/msj/1197/nt5dll.aspx">A Programmer's Perspective on New System DLL Features in Windows NT 5.0, Part 1</a>&quot; (<i>MSJ</i>, November 1997), you may recall that I described a set of APIs (currently implemented only on the DEC Alpha) that let Win32 programs use memory addresses greater than 4GB. <a name="fig1" target="_self" href="javascript:OpenUrl('hoodtextfigs.htm#fig1');"><b>Figure 1</b></a>  lists the VLM APIs. The semantics of these APIs are the same as the original non-VLM versions. They just happen to work with memory addresses above 4GB.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">As you can see, the VLM APIs don't constitute true 64-bit computing. Sure, you can allocate and use this memory if it's physically present, meaning that virtual memory doesn't work with these addresses. But 99.44 percent of the Win32 API can't work with addresses above 4GB, so it's just you and your 64-bit pointers. Think of it as frontier territory with no newspapers, running water, or phone lines.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Clearly, true 64-bit computing will require a significant new version of Windows. It's still too early for me to talk about the specifics, although no doubt you'll be reading about things such as the 64-bit address space in due time. But I can go over the fundamentals now, independent of things like new APIs and executable formats.
+</font><p>
+<center><font size="4" color="000080" face="verdana, arial, helvetica"><b> Data Types </b></font></center>
+
+<font size="2">
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The first and most obvious consideration about a shift to 64-bit computing is that of data types. I'll use C/C++ as my reference language because Microsoft's operating systems continue to be written in C++. Sure, Java and Visual Basic</font><font size="1">®</font><font size="2"> are becoming increasingly powerful, but C++ is still the lingua franca of Windows-based programming.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Before getting into Windows-specific types, let's drop back a bit and do a quick review of the C++ type system. For storing integral types, C++ has four basic types: char, short int, int, and long int. The short int and long int types can also be referred to as just short and long. These four integral types are implicitly signed. The unsigned modifier gives you another four types: unsigned char, unsigned short, unsigned int, and unsigned long. The unsigned form occupies the same number of bits as the signed form.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The C++ language has been implemented on many processors. A few rules on the integral C types do make it easier (but not easy!) to write portable code. The size of a character is considered to be 1 byte and, by tradition, 1 byte is 8 bits.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">C++ also has relational rules for integral types that allow the language to be tailored to a particular CPU. A short is always bigger than or equal in size to a char. An int is guaranteed to be the same size or bigger than a short. The long must be larger than or the same size as an integer. For a more precise definition, see the ANSI C++ standard, section 3.6.1.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Another informal rule is that an int is traditionally the native size that the machine does integer operations most efficiently with. For example, on the 286 and earlier Intel CPUs, the native size was 16 bits. On the 80386 and later, it's 32 bits. For the DEC Alpha, it's 64 bits. See &quot;<a href="hoodside.htm">Does Size Matter?</a>&quot; (accompanying this article in this month's magazine) for more details on the native size on the <i>x</i>86 architecture.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Now let's consider the C++ integral types and their relationship to pointers. C++ doesn't guarantee a relationship. On many machines, the tradition is that the size of a pointer is the size of an int. This assumption has even crept somewhat into Windows. It's entirely conceivable that you could create a CPU with a 48-bit address space, but that only works with integral data in 16-bit chunks. Not likely, but possible, and the C++ standard allows for this. In general, it's a bad idea to cast pointers to integral types and vice versa. However, it's easier to preach this virtue than to practice it.
+<br><img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4"> Under 16-bit Windows and MS-DOS</font><font size="1">®</font><font size="2">, the short and int data types are both 16 bits and functionally equivalent. A long is 32 bits. Pointers? Don't get me started! There are near pointers, far pointers, and just plain pointers. Near pointers are 16 bits, far pointers are 32 bits. Forget to specify near or far? In this case the pointer size depends on the memory model (small, medium, compact, large, and huge). What a mess!
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Under Win32 things changed slightly, but at least the hassle of near versus far pointers is removed. A short is still 16 bits. The int and long types are both 32 bits. Pointers are also 32 bits. The only real change is that the int type went from 16 to 32 bits. <a name="fig2" target="_self" href="javascript:OpenUrl('hoodtextfigs.htm#fig2');"><b>Figure 2</b></a> summarizes all of these details for both 16 and 32-bit Windows. Beyond standard C++ types, the Microsoft</font><font size="1">®</font><font size="2"> Win32 compiler lets you specify the exact size of an integral type ( __int8, __int16, __int32, and __int64), although these are obviously not ANSI-standard.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">While I've been talking about shorts, ints, and longs, a typical Windows program often doesn't directly use the C++ types. In <a name="fig3" target="_self" href="javascript:OpenUrl('hoodtextfigs.htm#fig3');"><b>Figure 3</b></a>, you'll see a portion of the WINDEF.H system header. This section declares a series of typedefs to insulate you from the underlying C++ types, which might change from one CPU to the next. After providing Windows equivalents for longs, ints, chars, and shorts, the remaining typedefs create pointers to these basic types.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The DWORD and LONG types are the most commonly used Windows types in situations where a C++ int or 
+long would otherwise be used. BYTEs are used for 1-byte 
+integers while SHORTs are used for 2-byte integers. A DWORD is the de facto choice when you want to use as big an integer as possible.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">As an aside, notice that most of the Windows pointer types have both P and LP forms (for example, PWORD and LPWORD). I try to use the P form, if available. The P stands for pointer, while LP means a long pointer (AKA a far pointer.) Since Win32 finally released 16-bit programmers from the insanity of near and far pointers, I try to avoid the anachronisms of 16-bit coding in my Win32 programs.
+<br>
+</font><p>
+<center><font size="4" color="000080" face="verdana, arial, helvetica"><b> Livin' Large</b></font></center>
+<font size="2">
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">With all this discussion of the Windows integer types fresh in your head, picture yourself as the lead architect for a 64-bit version of Windows NT. You have choices to make. How big is an int?  How big is a long? How big is a pointer? Remember, you need to take advantage of the chip's 64-bit capabilities, but hopefully not break Win32 code that makes assumptions about type sizes.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The size of a pointer is a nonissue. It simply must be 64 bits. The size of an int and long is still up for grabs, though. If you ponder a while, and remember the C++ type size constraints, there are three scenarios to consider.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">To make things easier, I'll first introduce some acronyms that will help keep the potential data models straight. If a data type is 64 bits, its first character will be included in the data model acronym. A &quot;64&quot; tacked on to the end of the acronym reinforces the 64-bit model. In this notation, ILP64 means ints, longs, and pointers are 64 bits, LP64 means that longs and pointers are 64 bits, while ints remain 32 bits. The P64 model has pointers as 64 bits, leaving ints and longs as 32 bits.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The first option that comes to mind is what I call the testosterone model, or ILP64. You've got 64 bits, so use 'em all! Make everything 64-bit: ints, longs, DWORDs, the whole enchilada. The primary problem with this model is data bloat. For the most part, the majority of current integer operations wouldn't come anywhere near to using the full 64 available bits. Expanding ints and longs to 64 bits would mean that the upper 32 bits of most values would be wasted, always containing the value 0.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Beyond the sheer size increase, there are other problems with an all-64-bit model. Consider the slowdown that would come about when using DCOM or other technologies using RPC to transfer data over a wire. Speaking of RPC in an all-64-bit world, your IDL code would need to be redone to use explicitly sized types.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The second scenario for a 64-bit type model is LP64. That is, leave the int as 32 bits, while using 64 bits for longs and pointers. This is the model that 64-bit Unix implementations use. For Unix, LP64 is a good choice from the portability perspective, since most Unix APIs use int parameters, rather than longs.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Windows, on the other hand, uses lots of types that ultimately resolve down to a long, and hence would be 64 bits in this model. For this reason, an LP64-based Windows implementation would have many of the same problems as the ILP64 model. In addition, code that currently gets away with assuming that ints and longs are equivalent would break under LP64.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The final data model to consider is P64. In this schema, only pointers are widened to 64 bits, while ints and longs remain the same as under Win32. The fact that ints and longs remain the same size as the Win32 data model means that vast amounts of code wouldn't need to change. In theory, correctly written Win32-based code should be simply recompiled with a 64-bit compiler to run under this data model. Of course, as I'll show later, there are various places that would need to be cleaned up.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">The biggest hurdle to using the P64 model is code that assumes that ints and longs are the same size as a pointer. Almost everyone of us is guilty of coercing a pointer into a DWORD because it makes things easier in some piece of code. Another issue with the P64 data model is that if you truly wanted a 64-bit integer, you'd have to use an explicit 64-bit type, rather than using int, long, DWORD, or LONG.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">I can now tell you that the 64-bit version of Windows will use the P64 model. In addition, the 64-bit version of Windows will be built from the same sources as the Win32 version. Since the Windows code will compile to both 32- and 64-bit versions, you can infer that there won't be a new programming model or hundreds of new APIs to learn.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Knowing the data model, what kind of problems will crop up when moving Win32 code to Win64? An obvious place to begin looking is the system header files. Find those places where an API or structure assumes that a pointer fits into 32 bits and you've got a potential problem area.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Some problem areas are easy to spot, while others involving polymorphic data can be subtle. An example of polymorphic data would be an API with a parameter that is interpreted as either an integer or a pointer, based upon the value of other parameters. Let's take a look at some of these problem areas.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Many APIs in Windows take parameter sets that consist of a pointer to a memory region, followed by a length para-meter. Three such APIs are VirtualAlloc, VirtualLock, and MapViewOfFile. In each case, the length of the region is passed as a DWORD parameter. Obviously, under a P64 model, that DWORD won't cut it. This parameter should really be a type that's somehow correlated to the size of a pointer on the system the code is being compiled for. Future system header files will include a typedef that correlates to the size required to store a pointer on the target system.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">An example of an API that assumes that pointers and integers are the same size is InterlockedCompareExchange. Both the value to be compared and the exchange value are specified as PVOIDs. In real use, I'd bet that this API is used most often with DWORDs or LONGs that the user has cast to a PVOID to prevent compiler errors.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Yet another API that has problems if ints and longs aren't the same size as pointers is RaiseException. The last parameter is an array of DWORD arguments to pass to the exception handler. Consider this parameter array in the case of an EXCEPTION_ACCESS_VIOLATION. The second element of the array is supposed to specify the virtual address of the inaccessible data. In a 64-bit world, this 64-bit address can't squeeze into a 32-bit DWORD.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Moving into polymorphic data types, consider those 
+classic APIs, GetWindowLong and GetClassLong. Their very name implies that they return a long. Now, consider calling GetWindowLong with the GWL_WNDPROC or GWL_HIN-STANCE options. Or think about GetClassLong with the GCL_HMODULE or GCL_WNDPROC options. These values are all pointers or pointer typedefs, so they wouldn't fit into a 32-bit long.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Even more subtle is SendDlgItemMessage. This API returns a LONG, and is just a fancy version of SendMessage. The values that SendMessage returns may be integers or pointers. Looking at SendMessage, it returns an LRESULT, which equates to a LONG. In a 64-bit world, the LRESULT type could be changed to represent a 64-bit value to avoid portability problems. Send-DlgItemMessage doesn't get off so easy. It explicitly returns a LONG, and under the P64 model, it wouldn't be able to return pointers correctly.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">Speaking of LRESULTs, they're just one of a variety of Windows typedefs that abstract you from the underlying C++ types, but that need to be reexamined in a 64-bit world. Another example is the HMODULE. It's well known that an HMODULE is really a pointer to the beginning of an EXE or DLL module mapped into a process address space (at least on Windows NT and Windows 95). In a 64-bit world, an HMODULE will have to be 64 bits to prevent lots of code from breaking. The WPARAM and LPARAM types are classic polymorphic types. How many times have you seen cases where an LPARAM needs to be cast to a pointer? These types will also presumably need to be 64 bits to prevent massive code breakage in a P64 model.
+<br>
+<img src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/indent.gif" width="10" height="4">In the past, the system header files have used typedefs and conditionally defined types to keep API and structure definitions as portable as possible. In keeping with tradition, you can probably expect the system header files to be cleaned up or extended so that existing code will have to change as little as possible. There will probably also be a few new APIs for those places where header file trickery doesn't cut it. It's reasonable to assume that they'll want to make it easy to compile for both Win32 and Win64 with a minimum of hassle.                                            
+<br>
+<img align="right" src="/web/20121018103541im_/http://www.microsoft.com/msj/images/dingbats/end.gif" width="12" height="12">
+<p>
+<i>Have a question about programming in Windows? Send it to Matt at <a>mpietrek@tiac.com</a>.<br></i></font>
+<p>
+</td></tr></table></center>
+<!--Footer-->
+
+<center>
+<table>
+<tr><td width="380">
+<center><font size="2" color="#000000"><i>From the July 1998 issue of <a href="/web/20121018103541/http://www.microsoft.com/msj/default.asp">Microsoft Systems Journal</a>.
+ Get it at your local newsstand, or better yet, </i><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/msdnmag/subscribe.asp"><i>subscribe</i></a>.</font>
+</center>
+
+</td></tr>
+</table>
+</center>
+<center>
+<table>
+<tr><td width="380">
+<hr width="80%">
+<center><font size="1"><i><a href="/web/20121018103541/http://www.microsoft.com/misc/info/cpyright.htm">© 1998 Microsoft Corporation. All rights reserved.<br> Terms of Use</a>.
+</i>
+</font>
+</center>
+</td>
+</tr>
+</table>
+</center>
+
+
+	<!----------------->
+	<!--END_CONTENT-->
+	<!----------------->
+		
+					</td>
+		
+				</tr>
+			</table>
+		<!--NOINDEX_START-->
+<br clear="all" style="line-height: 1px; overflow: hidden"><table id="msviFooter" width="100%" cellpadding="0" cellspacing="0"><tr valign="bottom"><td id="msviFooter2" style="filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#669AFF', gradientType='1')"><div id="msviLocalFooter"><nobr><a href="https://web.archive.org/web/20121018103541/http://go.microsoft.com/?linkid=317027" target="_top">Manage Your Profile</a> |</nobr><wbr></wbr><nobr><a href="/web/20121018103541/http://www.microsoft.com/legal/" target="_parent">Legal</a> |</nobr><wbr></wbr><nobr><a href="https://web.archive.org/web/20121018103541/http://go.microsoft.com/?linkid=2028439" target="_parent">Contact us</a> |</nobr><wbr></wbr><nobr><a href="/web/20121018103541/http://www.microsoft.com/isapi/gomsdn.asp?TARGET=/flash/" target="_parent">MSDN Flash Newsletter</a></nobr></div><div id="msviGlobalFooter"><span dir="ltr">&#169; 2012 Microsoft Corporation. All rights reserved.&nbsp;</span><nobr><a href="https://web.archive.org/web/20121018103541/http://support.microsoft.com/contactus/?ws=mscom" target="_parent">Contact Us</a> |</nobr><wbr></wbr><nobr><a href="https://web.archive.org/web/20121018103541/http://go.microsoft.com/?linkid=4412892" target="_parent">Terms of Use</a> |</nobr><wbr></wbr><nobr><a href="https://web.archive.org/web/20121018103541/http://go.microsoft.com/?linkid=4412893" target="_parent">Trademarks</a> |</nobr><wbr></wbr><nobr><a href="https://web.archive.org/web/20121018103541/http://go.microsoft.com/?linkid=4412894" target="_parent">Privacy Statement</a></nobr></div></td><td bgcolor="#669AFF" width="105"><img src="/web/20121018103541im_/http://www.microsoft.com/library/toolbar/3.0/text.aspx?text=TQ%3d%3d&amp;fore=FFFFFF&amp;b=669AFF&amp;font=Microsoft+Logo+95%2c+13pt&amp;w=105&amp;h=29&amp;a=0&amp;l=0&amp;v=0&amp;c=eAdQAhJgwJihw2DKZGDGx4FnKIM%3d" width="105" height="29" alt="Microsoft" title="" border="0"/></td></tr></table><div style="display:none"><script type="text/javascript">var gDomain="m.webtrends.com";var gDcsId="dcsjwb9vb00000c932fd0rjc7_5p3t";var gFpc="WT_FPC";if(document.cookie.indexOf(gFpc+"=")==-1){document.write("<SCR"+"IPT TYPE='text/javascript' SRC='"+"http"+(window.location.protocol.indexOf('https:')==0?'s':'')+"://"+gDomain+"/"+gDcsId+"/wtid.js"+"'><\/SCR"+"IPT>");}</script><script src="https://web.archive.org/web/20121018103541js_/http://js.microsoft.com/library/mnp/2/wt/js/wt.js" type="text/javascript"></script><noscript><img border="0" name="DCSIMG" width="1" height="1" src="https://web.archive.org/web/20121018103541im_/http://m.webtrends.com/dcsjwb9vb00000c932fd0rjc7_5p3t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No"/></noscript></div><layer visibility="hide"><div style="display:none"><img alt="" width="0" height="0" border="0" hspace="0" vspace="0" src="https://web.archive.org/web/20121018103541im_/http://c.microsoft.com/trans_pixel.asp?source=www&amp;TYPE=PV&amp;p=msj_0798&amp;URI=%2fmsj%2f0798%2fhood0798.aspx&amp;GUID=1F4FC18C-F71E-47FB-8FC9-612F8EE59C61&amp;lc=en-us"></div></layer>
+	</body>
+</html><!--
+     FILE ARCHIVED ON 10:35:41 Oct 18, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:19:10 Nov 19, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.711
+  exclusion.robots: 0.078
+  exclusion.robots.policy: 0.064
+  esindex: 0.009
+  cdx.remote: 7.845
+  LoadShardBlock: 141.424 (3)
+  PetaboxLoader3.datanode: 187.702 (4)
+  PetaboxLoader3.resolve: 64.007 (2)
+  load_resource: 155.27
+  nav: 0.227 (6)
+-->
