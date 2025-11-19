@@ -315,6 +315,14 @@
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
+          <ID>242</ID>
+          <Description>"MY_DISTANCE_IS_MAXIMUM"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>182000ee4</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>122</ID>
           <Description>"split_screen_flag???"</Description>
           <ShowAsSigned>0</ShowAsSigned>
