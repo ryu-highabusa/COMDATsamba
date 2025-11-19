@@ -1,0 +1,23 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>Check Session IFrame
+
+<iframe id="check-session-iframe" src="check-session-iframe_data/check-session-iframe.htm"></iframe>
+<script>
+  const issuer = "https://auth.riotgames.com"
+  const iframeSrc = `${issuer}/check-session-iframe`;
+  const iframeEl = document.querySelector('#check-session-iframe');
+  window.addEventListener('message', (event) => {
+    const data = event.data;
+    if (typeof data !== 'string') {
+      return;
+    }
+    if (new URL(event.origin).origin === issuer) {
+      // to whomever our parent is
+      const message = `XSSO::${data}`;
+      window.parent.postMessage(message, '*');
+    } else {
+      // to the child iframe that know exists, in the issuer domain
+      iframeEl.contentWindow.postMessage(data, issuer);
+    }
+  })
+</script></body></html>

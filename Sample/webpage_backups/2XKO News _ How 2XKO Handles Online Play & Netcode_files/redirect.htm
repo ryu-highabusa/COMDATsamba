@@ -1,0 +1,12 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><h3>Auth Error</h3>
+
+<table>
+  <tbody><tr><td>iss</td><td>https://auth.riotgames.com</td></tr>
+  <tr><td>state</td><td>886ef6fd0fb240ceb506e9697f</td></tr>
+  <tr><td>error</td><td>login_required</td></tr>
+  <tr><td>error_description</td><td>Login required</td></tr>
+</tbody></table>
+
+  <!-- if we have enough information, also emit error to the parent window for visibility -->
+  <script>window.parent.postMessage('XSSO::login_required Login required', '*')</script></body></html>
