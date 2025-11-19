@@ -2800,6 +2800,13 @@
       <ZeroTerminate>1</ZeroTerminate>
       <Address>1F8D89A81</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>398</ID>
+      <Description>"No description (stage data start?????)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1820f24c8</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
