@@ -25,7 +25,7 @@
 |`UpsideDownHead_P1`|`0054fc30`|`0054fc10`|``|``|`8c1fbfea`|``|``|``|``|``|``|``|``|`830201c2`|		
 |`DOWN_DIR_P1`|`0054fc31`|`0054fc11`|``|``|``|``|``|``|``|``|``|``|``|``|		
 |`ATK_POINT_P1`|`0054fc32`|`0054fc12`|``|``|``|``|``|``|``|``|``|``|``|``|		
-|`ATK_STA_P1`|`0054fc33`|`0054fc13`|``|``|``|``|``|``|``|``|``|``|``|``| `0=NEUTRAL`, `1=AIR`, `2=AIR_ATTACK`, `3=ATTACK`, `4=THROW`, `5=HOLD`, `6=HOLD_SUCCESS`, `7=Block_Stun(Hold_Disabled)`, `8=Critical_Stun(Hold_Enabled)`, `9=Hit_Stun(Hold_Disabled)`, `10=BEING_THROWN`, `11=BEING_HELD`, `12=GROUND_STATE (Wake-Up-Kick_Enabled)`, `13=SPECIAL_MOVE(Taunts/Flips)`, `14=DOWN_ATTACK`, `15=Down_Attack_Stun`, `16=THROW_MISS` 
+|`ATK_STA_P1`|`0054fc33`|`0054fc13`|``|``|``|``|``|``|``|``|``|``|``|``| `0=NEUTRAL`, `1=AIR`, `2=AIR_ATTACK`, `3=ATTACK`, `4=THROW`, `5=HOLD`, `6=HOLD_SUCCESS`, `7=Block_Stun(Hold_Disabled)`, `8=Critical_Stun(Hold_Enabled)`, `9=Hit_Stun(Hold_Disabled)`, `10=BEING_THROWN`, `11=BEING_HELD`, `12=GROUND_STATE`, `13=SPECIAL_MOVE`, `14=DOWN_ATTACK`, `15=Down_Attack_Stun`, `16=THROW_MISS` 
 |`ANIM_FLIP_P1`|`0054fc34`|`0054fc14`|``|``|`8c1fbfee`|``|``|``|``|`0059cf92`|``|``|``|`830201c6`| `0=Left_Foot_Forward`, `1=Right_Foot_Forward`  
 |`ANIM_FLAG_P1`|`0054fc35`|`0054fc15`|``|``|``|``|``|``|``|``|``|``|``|``|		
 |`ANIM_REQ_P1`|`0054fc36`|`0054fc16`|``|``|``|``|``|``|``|``|``|``|``|``|		
