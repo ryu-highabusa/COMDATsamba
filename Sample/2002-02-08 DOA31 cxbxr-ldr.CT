@@ -4,60 +4,70 @@
     <CheatEntry>
       <ID>0</ID>
       <Description>"Music Volume"</Description>
+      <LastState Value="81" RealAddress="002D3E9C"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+2C3E9C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
       <Description>"Music Volume"</Description>
+      <LastState Value="81" RealAddress="0059D094"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D094</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
       <Description>"Music Volume"</Description>
+      <LastState Value="0" RealAddress="009B3809"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3809</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>33</ID>
       <Description>"P1 Combo Counter"</Description>
+      <LastState Value="1" RealAddress="004DF9DB"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9DB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>34</ID>
       <Description>"P1 Combo Counter"</Description>
+      <LastState Value="1" RealAddress="0059CFB5"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CFB5</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>35</ID>
       <Description>"P1 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="005A8570"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+598570</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>36</ID>
       <Description>"P1 Combo Counter"</Description>
+      <LastState Value="1" RealAddress="009B261D"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A261D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>37</ID>
       <Description>"P1 Combo Counter"</Description>
+      <LastState Value="1" RealAddress="009B27B5"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A27B5</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>38</ID>
       <Description>"P1 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="009B3794"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3794</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>11</ID>
       <Description>"P1_BUTTON_INPUT??"</Description>
+      <LastState Value="0000" RealAddress="009B37CD"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -66,6 +76,7 @@
     <CheatEntry>
       <ID>10</ID>
       <Description>"P1_DPAD_input??"</Description>
+      <LastState Value="0000" RealAddress="009B37CC"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -74,96 +85,112 @@
     <CheatEntry>
       <ID>13</ID>
       <Description>"P1_HP"</Description>
+      <LastState Value="240" RealAddress="004DA308"/>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA308</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>14</ID>
       <Description>"P1_HP"</Description>
+      <LastState Value="240" RealAddress="004DF9D0"/>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9D0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
       <Description>"P1_HP"</Description>
+      <LastState Value="240" RealAddress="0059CF78"/>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF78</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>40</ID>
       <Description>"P2 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="004DF9FB"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9FB</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>41</ID>
       <Description>"P2 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="0059D01D"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D01D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>42</ID>
       <Description>"P2 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="005A8580"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+598580</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>44</ID>
       <Description>"P2 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="009B2685"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2685</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>45</ID>
       <Description>"P2 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="009B281D"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A281D</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>46</ID>
       <Description>"P2 Combo Counter"</Description>
+      <LastState Value="0" RealAddress="009B3798"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3798</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>16</ID>
       <Description>"P2_HP"</Description>
+      <LastState Value="129" RealAddress="004DA30A"/>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA30A</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>17</ID>
       <Description>"P2_HP"</Description>
+      <LastState Value="129" RealAddress="004DF9F0"/>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9F0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>18</ID>
       <Description>"P2_HP"</Description>
+      <LastState Value="129" RealAddress="0059CFE0"/>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+58CFE0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
       <Description>"S.E. Volume"</Description>
+      <LastState Value="80" RealAddress="002D3EA0"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+2C3EA0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
       <Description>"S.E. Volume"</Description>
+      <LastState Value="80" RealAddress="0059D095"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D095</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
       <Description>"S.E. Volume"</Description>
+      <LastState Value="0" RealAddress="009B3800"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3800</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>8</ID>
       <Description>"Sound Test"</Description>
+      <LastState Value="0" RealAddress="00C59145"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+C49145</Address>
@@ -171,6 +198,7 @@
     <CheatEntry>
       <ID>9</ID>
       <Description>"Sound Text"</Description>
+      <LastState RealAddress="009B3812"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>String</VariableType>
       <Length>10</Length>
@@ -182,24 +210,28 @@
     <CheatEntry>
       <ID>12</ID>
       <Description>"Timer"</Description>
+      <LastState Value="67" RealAddress="0059CF43"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF43</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"Voice Volume"</Description>
+      <LastState Value="80" RealAddress="0059D096"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D096</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
       <Description>"Voice Volume"</Description>
+      <LastState Value="0" RealAddress="009B395C"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A395C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>47</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="0059CFB4"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -208,6 +240,7 @@
     <CheatEntry>
       <ID>125</ID>
       <Description>"Character_P1"</Description>
+      <LastState Value="06" RealAddress="0059CF59"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -216,6 +249,7 @@
     <CheatEntry>
       <ID>48</ID>
       <Description>"Character_P2"</Description>
+      <LastState Value="02" RealAddress="0059CFC1"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -224,6 +258,7 @@
     <CheatEntry>
       <ID>49</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="00C59867"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -232,6 +267,7 @@
     <CheatEntry>
       <ID>50</ID>
       <Description>"load_file_flag?"</Description>
+      <LastState Value="1" RealAddress="0059CFAA"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>0059CFAA</Address>
@@ -239,6 +275,7 @@
     <CheatEntry>
       <ID>51</ID>
       <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="0059CF84"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>0059CF84</Address>
@@ -246,6 +283,7 @@
     <CheatEntry>
       <ID>52</ID>
       <Description>"No description"</Description>
+      <LastState Value="02" RealAddress="005A8D90"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -254,6 +292,7 @@
     <CheatEntry>
       <ID>53</ID>
       <Description>"CHRDISP_P2"</Description>
+      <LastState Value="01" RealAddress="0059D012"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -262,6 +301,7 @@
     <CheatEntry>
       <ID>54</ID>
       <Description>"Stage_display"</Description>
+      <LastState Value="01" RealAddress="0059CF34"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -270,6 +310,7 @@
     <CheatEntry>
       <ID>55</ID>
       <Description>"FixDisp"</Description>
+      <LastState Value="00" RealAddress="005B1339"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -278,6 +319,7 @@
     <CheatEntry>
       <ID>56</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="005B135F"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -286,6 +328,7 @@
     <CheatEntry>
       <ID>57</ID>
       <Description>"No description"</Description>
+      <LastState Value="07" RealAddress="00596ADC"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -294,6 +337,7 @@
     <CheatEntry>
       <ID>58</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="005B135C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -302,6 +346,7 @@
     <CheatEntry>
       <ID>59</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="00C59861"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -310,6 +355,7 @@
     <CheatEntry>
       <ID>60</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="005B133A"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -318,6 +364,7 @@
     <CheatEntry>
       <ID>61</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="00C59150"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -326,6 +373,7 @@
     <CheatEntry>
       <ID>62</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="009B33B8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -334,6 +382,7 @@
     <CheatEntry>
       <ID>63</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="009B2E88"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -342,6 +391,7 @@
     <CheatEntry>
       <ID>64</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="00A3FCF1"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -350,6 +400,7 @@
     <CheatEntry>
       <ID>65</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="003F80A6"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -358,6 +409,7 @@
     <CheatEntry>
       <ID>66</ID>
       <Description>"No description"</Description>
+      <LastState Value="01" RealAddress="003F802E"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -366,6 +418,7 @@
     <CheatEntry>
       <ID>67</ID>
       <Description>"No description"</Description>
+      <LastState Value="01" RealAddress="003F806A"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -374,6 +427,7 @@
     <CheatEntry>
       <ID>68</ID>
       <Description>"No description"</Description>
+      <LastState Value="01" RealAddress="003F7ACA"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -382,6 +436,7 @@
     <CheatEntry>
       <ID>69</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="003F7B06"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -390,6 +445,7 @@
     <CheatEntry>
       <ID>70</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="0059CFB1"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -398,6 +454,7 @@
     <CheatEntry>
       <ID>71</ID>
       <Description>"hit??"</Description>
+      <LastState Value="00" RealAddress="0059CFF3"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -406,6 +463,7 @@
     <CheatEntry>
       <ID>72</ID>
       <Description>"hit2???"</Description>
+      <LastState Value="00" RealAddress="0059CF8B"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -414,6 +472,7 @@
     <CheatEntry>
       <ID>73</ID>
       <Description>"P2_ACTCODE???"</Description>
+      <LastState Value="0102" RealAddress="0059CFEE"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -422,6 +481,7 @@
     <CheatEntry>
       <ID>75</ID>
       <Description>"No description"</Description>
+      <LastState Value="1E" RealAddress="00079A00"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -430,6 +490,7 @@
     <CheatEntry>
       <ID>76</ID>
       <Description>"No description"</Description>
+      <LastState Value="30" RealAddress="00079A00"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>00079A00</Address>
@@ -437,6 +498,7 @@
     <CheatEntry>
       <ID>77</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000" RealAddress="0059CF7A"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -445,6 +507,7 @@
     <CheatEntry>
       <ID>78</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="0059CF7E"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -453,6 +516,7 @@
     <CheatEntry>
       <ID>79</ID>
       <Description>"No description"</Description>
+      <LastState Value="240" RealAddress="005A27E0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>5a27e0</Address>
@@ -460,6 +524,7 @@
     <CheatEntry>
       <ID>80</ID>
       <Description>"No description"</Description>
+      <LastState Value="00" RealAddress="0059CFB8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -468,6 +533,7 @@
     <CheatEntry>
       <ID>81</ID>
       <Description>"Combo Limit"</Description>
+      <LastState Value="30" RealAddress="000B8633"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>b8633</Address>
@@ -475,6 +541,7 @@
     <CheatEntry>
       <ID>82</ID>
       <Description>"storymode_cutscene_actordatastart_maybe?"</Description>
+      <LastState Value="05" RealAddress="002DDDC4"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -483,6 +550,7 @@
     <CheatEntry>
       <ID>83</ID>
       <Description>"No description"</Description>
+      <LastState Value="0C" RealAddress="002DE1FC"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -491,6 +559,7 @@
     <CheatEntry>
       <ID>84</ID>
       <Description>"No description"</Description>
+      <LastState Value="4E" RealAddress="002DC83C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -499,6 +568,7 @@
     <CheatEntry>
       <ID>85</ID>
       <Description>"STAGE-ID_0"</Description>
+      <LastState Value="3F" RealAddress="004DB961"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CB961</Address>
@@ -506,6 +576,7 @@
     <CheatEntry>
       <ID>86</ID>
       <Description>"STAGE-ID_1"</Description>
+      <LastState Value="40" RealAddress="004DC5E1"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CC5E1</Address>
@@ -513,6 +584,7 @@
     <CheatEntry>
       <ID>87</ID>
       <Description>"STAGE-ID_2"</Description>
+      <LastState Value="40" RealAddress="004DD261"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CD261</Address>
@@ -520,6 +592,7 @@
     <CheatEntry>
       <ID>88</ID>
       <Description>"STAGE-ID_3"</Description>
+      <LastState Value="40" RealAddress="004DDEE1"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CDEE1</Address>
@@ -527,6 +600,7 @@
     <CheatEntry>
       <ID>89</ID>
       <Description>"STAGE-ID_4"</Description>
+      <LastState Value="40" RealAddress="004DEB61"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CEB61</Address>
@@ -534,6 +608,7 @@
     <CheatEntry>
       <ID>90</ID>
       <Description>"STAGE-ID_5***"</Description>
+      <LastState Value="35" RealAddress="005A2608"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+592608</Address>
@@ -541,6 +616,7 @@
     <CheatEntry>
       <ID>91</ID>
       <Description>"STAGE-ID_6*"</Description>
+      <LastState Value="3F" RealAddress="005A8A80"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+598A80</Address>
@@ -548,6 +624,7 @@
     <CheatEntry>
       <ID>92</ID>
       <Description>"STAGE-ID_7*"</Description>
+      <LastState Value="3F" RealAddress="009B2B74"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2B74</Address>
@@ -555,6 +632,7 @@
     <CheatEntry>
       <ID>93</ID>
       <Description>"STAGE-ID_8*"</Description>
+      <LastState Value="00" RealAddress="009B78A6"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A78A6</Address>
@@ -562,6 +640,7 @@
     <CheatEntry>
       <ID>94</ID>
       <Description>"STAGE-ID_9*"</Description>
+      <LastState Value="37" RealAddress="009B7BB4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A7BB4</Address>
@@ -569,6 +648,7 @@
     <CheatEntry>
       <ID>95</ID>
       <Description>"STAGE-ID_A*"</Description>
+      <LastState Value="3F" RealAddress="009BF679"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9AF679</Address>
@@ -576,6 +656,7 @@
     <CheatEntry>
       <ID>96</ID>
       <Description>"STAGE-ID_B"</Description>
+      <LastState Value="3F" RealAddress="009BF68D"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9AF68D</Address>
@@ -583,6 +664,7 @@
     <CheatEntry>
       <ID>97</ID>
       <Description>"No description"</Description>
+      <LastState Value="10000" RealAddress="009B2CF8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>009B2CF8</Address>
@@ -590,6 +672,7 @@
     <CheatEntry>
       <ID>98</ID>
       <Description>"bass costumes"</Description>
+      <LastState Value="00" RealAddress="0029C6D0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -598,6 +681,7 @@
     <CheatEntry>
       <ID>99</ID>
       <Description>"bass costume alt slots"</Description>
+      <LastState Value="01" RealAddress="0021E1AC"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -606,6 +690,7 @@
     <CheatEntry>
       <ID>100</ID>
       <Description>"No description"</Description>
+      <LastState Value="07070707" RealAddress="005B3174"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -614,6 +699,7 @@
     <CheatEntry>
       <ID>101</ID>
       <Description>"COSTUMES_UNLOCKED_ZACK"</Description>
+      <LastState Value="02" RealAddress="0059FB16"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -622,6 +708,7 @@
     <CheatEntry>
       <ID>102</ID>
       <Description>"No description"</Description>
+      <LastState Value="2C74" RealAddress="000CD9E4"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -630,6 +717,7 @@
     <CheatEntry>
       <ID>103</ID>
       <Description>"No description"</Description>
+      <LastState Value="-1.533181071" RealAddress="0059C5B4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>0059C5B4</Address>
@@ -637,6 +725,7 @@
     <CheatEntry>
       <ID>104</ID>
       <Description>"No description"</Description>
+      <LastState Value="02" RealAddress="005A28FC"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -645,6 +734,7 @@
     <CheatEntry>
       <ID>105</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="00588838"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+578838</Address>
@@ -652,6 +742,7 @@
     <CheatEntry>
       <ID>106</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="004DF9D4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9D4</Address>
@@ -659,6 +750,7 @@
     <CheatEntry>
       <ID>107</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="0058438C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+57438C</Address>
@@ -666,6 +758,7 @@
     <CheatEntry>
       <ID>108</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="005843CA"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5743CA</Address>
@@ -673,6 +766,7 @@
     <CheatEntry>
       <ID>109</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="00584A6A"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+574A6A</Address>
@@ -680,6 +774,7 @@
     <CheatEntry>
       <ID>110</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="00584A76"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+574A76</Address>
@@ -687,6 +782,7 @@
     <CheatEntry>
       <ID>111</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="0058509C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+57509C</Address>
@@ -694,6 +790,7 @@
     <CheatEntry>
       <ID>112</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="00588838"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+578838</Address>
@@ -701,6 +798,7 @@
     <CheatEntry>
       <ID>113</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="0059CF44"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF44</Address>
@@ -708,6 +806,7 @@
     <CheatEntry>
       <ID>114</ID>
       <Description>"Character_P1"</Description>
+      <LastState Value="06" RealAddress="0059CF59"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF59</Address>
@@ -715,6 +814,7 @@
     <CheatEntry>
       <ID>115</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="005B20B3"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5A20B3</Address>
@@ -722,6 +822,7 @@
     <CheatEntry>
       <ID>116</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="005B20B5"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5A20B5</Address>
@@ -729,6 +830,7 @@
     <CheatEntry>
       <ID>117</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="005B20CB"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5A20CB</Address>
@@ -736,6 +838,7 @@
     <CheatEntry>
       <ID>118</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="005B20CE"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5A20CE</Address>
@@ -743,6 +846,7 @@
     <CheatEntry>
       <ID>119</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="005CBE58"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5BBE58</Address>
@@ -750,6 +854,7 @@
     <CheatEntry>
       <ID>120</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="009B3040"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3040</Address>
@@ -757,6 +862,7 @@
     <CheatEntry>
       <ID>121</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="009B3714"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3714</Address>
@@ -764,6 +870,7 @@
     <CheatEntry>
       <ID>122</ID>
       <Description>"No description**"</Description>
+      <LastState Value="06" RealAddress="009B7918"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A7918</Address>
@@ -771,6 +878,7 @@
     <CheatEntry>
       <ID>123</ID>
       <Description>"No description"</Description>
+      <LastState Value="06" RealAddress="009B79E4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A79E4</Address>
@@ -778,12 +886,14 @@
     <CheatEntry>
       <ID>124</ID>
       <Description>"Distance"</Description>
+      <LastState Value="0.9030019641" RealAddress="00598C74"/>
       <VariableType>Float</VariableType>
       <Address>"cxbxr-ldr.exe"+588C74</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>126</ID>
       <Description>"03 to Skip Federal Warning"</Description>
+      <LastState Value="09" RealAddress="00021188"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -792,6 +902,7 @@
     <CheatEntry>
       <ID>127</ID>
       <Description>"C3 to skip intro movies"</Description>
+      <LastState Value="0F" RealAddress="0008AD80"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -800,6 +911,7 @@
     <CheatEntry>
       <ID>128</ID>
       <Description>"Random Select Value"</Description>
+      <LastState Value="FF" RealAddress="0029CB0A"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -808,6 +920,7 @@
     <CheatEntry>
       <ID>129</ID>
       <Description>"Unlock Random/Ein &gt; Change 2c74 to 09eb"</Description>
+      <LastState Value="2C74" RealAddress="000CD9E4"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -816,6 +929,7 @@
     <CheatEntry>
       <ID>130</ID>
       <Description>"P2_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DA3A9"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA3A9</Address>
@@ -823,6 +937,7 @@
     <CheatEntry>
       <ID>131</ID>
       <Description>"P2_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DF9F8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9F8</Address>
@@ -830,6 +945,7 @@
     <CheatEntry>
       <ID>132</ID>
       <Description>"P2_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="0059CFF3"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CFF3</Address>
@@ -837,6 +953,7 @@
     <CheatEntry>
       <ID>133</ID>
       <Description>"P2_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="005CBCE9"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5BBCE9</Address>
@@ -844,6 +961,7 @@
     <CheatEntry>
       <ID>134</ID>
       <Description>"P2_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="009B265B"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A265B</Address>
@@ -851,6 +969,7 @@
     <CheatEntry>
       <ID>135</ID>
       <Description>"P2_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="009B27F3"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A27F3</Address>
@@ -858,6 +977,7 @@
     <CheatEntry>
       <ID>136</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DA174"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA174</Address>
@@ -865,6 +985,7 @@
     <CheatEntry>
       <ID>137</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DA188"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA188</Address>
@@ -872,6 +993,7 @@
     <CheatEntry>
       <ID>138</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DA3A8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA3A8</Address>
@@ -879,6 +1001,7 @@
     <CheatEntry>
       <ID>139</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DA5AC"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA5AC</Address>
@@ -886,6 +1009,7 @@
     <CheatEntry>
       <ID>140</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="004DF9D8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9D8</Address>
@@ -893,6 +1017,7 @@
     <CheatEntry>
       <ID>141</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="0059CF8B"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF8B</Address>
@@ -900,6 +1025,7 @@
     <CheatEntry>
       <ID>142</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="005CBCE8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5BBCE8</Address>
@@ -907,6 +1033,7 @@
     <CheatEntry>
       <ID>143</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="009B25F3"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25F3</Address>
@@ -914,6 +1041,7 @@
     <CheatEntry>
       <ID>144</ID>
       <Description>"P1_ACTSTATE"</Description>
+      <LastState Value="00" RealAddress="009B278B"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A278B</Address>
@@ -921,6 +1049,7 @@
     <CheatEntry>
       <ID>145</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="FFFF" RealAddress="004DA18C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA18C</Address>
@@ -928,6 +1057,7 @@
     <CheatEntry>
       <ID>146</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="FFFF" RealAddress="004DA2E8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA2E8</Address>
@@ -935,6 +1065,7 @@
     <CheatEntry>
       <ID>147</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="004DA354"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA354</Address>
@@ -942,6 +1073,7 @@
     <CheatEntry>
       <ID>148</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="FFFF" RealAddress="004DA35C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA35C</Address>
@@ -949,6 +1081,7 @@
     <CheatEntry>
       <ID>149</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="004DA368"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA368</Address>
@@ -956,6 +1089,7 @@
     <CheatEntry>
       <ID>150</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="004DF9D2"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+4CF9D2</Address>
@@ -963,6 +1097,7 @@
     <CheatEntry>
       <ID>151</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="005850A8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+5750A8</Address>
@@ -970,6 +1105,7 @@
     <CheatEntry>
       <ID>152</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="0059CF86"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF86</Address>
@@ -977,6 +1113,7 @@
     <CheatEntry>
       <ID>153</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="005CB64C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+5BB64C</Address>
@@ -984,6 +1121,7 @@
     <CheatEntry>
       <ID>154</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="009B25B8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25B8</Address>
@@ -991,6 +1129,7 @@
     <CheatEntry>
       <ID>155</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="009B25EE"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25EE</Address>
@@ -998,6 +1137,7 @@
     <CheatEntry>
       <ID>156</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="FFFF" RealAddress="009B25F0"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A25F0</Address>
@@ -1005,6 +1145,7 @@
     <CheatEntry>
       <ID>157</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="0000" RealAddress="009B2786"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2786</Address>
@@ -1012,6 +1153,7 @@
     <CheatEntry>
       <ID>158</ID>
       <Description>"ACTCODE_P1"</Description>
+      <LastState Value="FFFF" RealAddress="009B2788"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>"cxbxr-ldr.exe"+9A2788</Address>
@@ -1019,6 +1161,7 @@
     <CheatEntry>
       <ID>159</ID>
       <Description>"No description"</Description>
+      <LastState Value="09" RealAddress="002D33E9"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1027,6 +1170,7 @@
     <CheatEntry>
       <ID>160</ID>
       <Description>"No description"</Description>
+      <LastState Value="12" RealAddress="0059CF00"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>59CF00</Address>
@@ -1034,6 +1178,7 @@
     <CheatEntry>
       <ID>161</ID>
       <Description>"000cd7d5 (total costume slot limit?)"</Description>
+      <LastState Value="09" RealAddress="000CD7D5"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1042,6 +1187,7 @@
     <CheatEntry>
       <ID>169</ID>
       <Description>"000cd7ed (7d)"</Description>
+      <LastState Value="7D" RealAddress="000CD7ED"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1050,6 +1196,7 @@
     <CheatEntry>
       <ID>171</ID>
       <Description>"000cdc4c (07)"</Description>
+      <LastState Value="07" RealAddress="000CDC4E"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1058,6 +1205,7 @@
     <CheatEntry>
       <ID>167</ID>
       <Description>"00086b6c (07) (hdd costume slot limit)"</Description>
+      <LastState Value="07" RealAddress="00086B6C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1066,6 +1214,7 @@
     <CheatEntry>
       <ID>168</ID>
       <Description>"00086b7f"</Description>
+      <LastState Value="06" RealAddress="00086B81"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1074,12 +1223,14 @@
     <CheatEntry>
       <ID>162</ID>
       <Description>"p1 costume menu position"</Description>
+      <LastState Value="0" RealAddress="009B79D0"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A79D0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>163</ID>
       <Description>"find out what writes to this address"</Description>
+      <LastState Value="68" RealAddress="009B79E5"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>009B79E5</Address>
@@ -1087,6 +1238,7 @@
     <CheatEntry>
       <ID>164</ID>
       <Description>"xboxkrnl.exe_AvGetSavedDataAddress_005b3174"</Description>
+      <LastState Value="07 07 07 07" RealAddress="005B3174"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -1096,6 +1248,7 @@
     <CheatEntry>
       <ID>165</ID>
       <Description>"No description"</Description>
+      <LastState Value="0A" RealAddress="0040499C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1104,6 +1257,7 @@
     <CheatEntry>
       <ID>166</ID>
       <Description>"ULONG_005b2110"</Description>
+      <LastState Value="00000000" RealAddress="005B2110"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -1112,6 +1266,7 @@
     <CheatEntry>
       <ID>188</ID>
       <Description>"DAT_00c7e5c0 (hdd_read flag?)"</Description>
+      <LastState Value="0" RealAddress="00C7E5C0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>00c7e5c0</Address>
@@ -1119,6 +1274,7 @@
     <CheatEntry>
       <ID>170</ID>
       <Description>"0029cb0b random select on/off flag"</Description>
+      <LastState Value="0" RealAddress="0029CB0B"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>0029cb0b</Address>
@@ -1126,6 +1282,7 @@
     <CheatEntry>
       <ID>172</ID>
       <Description>"DAT_0029ca60__charsel_kasumi??"</Description>
+      <LastState Value="05" RealAddress="0029CA60"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1134,6 +1291,7 @@
     <CheatEntry>
       <ID>173</ID>
       <Description>"default char sel characters"</Description>
+      <LastState Value="5" RealAddress="0029CB18"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>0029cb18</Address>
@@ -1141,6 +1299,7 @@
     <CheatEntry>
       <ID>174</ID>
       <Description>"DAT_009b76b0"</Description>
+      <LastState Value="00" RealAddress="009B76B0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1149,6 +1308,7 @@
     <CheatEntry>
       <ID>175</ID>
       <Description>"000cdc4e (07) dlc number???"</Description>
+      <LastState Value="07" RealAddress="000CDC4E"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1157,6 +1317,7 @@
     <CheatEntry>
       <ID>176</ID>
       <Description>"DAT_005b2140"</Description>
+      <LastState Value="7A 61 63 30 34 2E 63 61 74 00" RealAddress="005B2140"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -1166,6 +1327,7 @@
     <CheatEntry>
       <ID>177</ID>
       <Description>"DAT_005b314c"</Description>
+      <LastState Value="FFFF" RealAddress="005B314C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -1174,6 +1336,7 @@
     <CheatEntry>
       <ID>178</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="00" RealAddress="004DA12C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA12C</Address>
@@ -1181,6 +1344,7 @@
     <CheatEntry>
       <ID>179</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="10" RealAddress="004DA1DA"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA1DA</Address>
@@ -1188,6 +1352,7 @@
     <CheatEntry>
       <ID>180</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="10" RealAddress="004DA25C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+4CA25C</Address>
@@ -1195,6 +1360,7 @@
     <CheatEntry>
       <ID>181</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="00" RealAddress="00591F54"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+581F54</Address>
@@ -1202,6 +1368,7 @@
     <CheatEntry>
       <ID>182</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="00" RealAddress="00591F56"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+581F56</Address>
@@ -1209,6 +1376,7 @@
     <CheatEntry>
       <ID>183</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="00" RealAddress="00596A8C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+586A8C</Address>
@@ -1216,6 +1384,7 @@
     <CheatEntry>
       <ID>184</ID>
       <Description>"Button Input"</Description>
+      <LastState Value="00" RealAddress="00596A8E"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+586A8E</Address>
@@ -1223,6 +1392,7 @@
     <CheatEntry>
       <ID>185</ID>
       <Description>"DAT_0059cf5b"</Description>
+      <LastState Value="0" RealAddress="0059CF5B"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>0059cf5b</Address>
@@ -1230,6 +1400,7 @@
     <CheatEntry>
       <ID>186</ID>
       <Description>"ULONG_007fe2d4"</Description>
+      <LastState Value="0" RealAddress="007FE2D4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>007fe2d4</Address>
@@ -1237,6 +1408,7 @@
     <CheatEntry>
       <ID>187</ID>
       <Description>"ULONG_007fe2d8"</Description>
+      <LastState Value="00001700" RealAddress="007FE2D8"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -1245,6 +1417,7 @@
     <CheatEntry>
       <ID>189</ID>
       <Description>"DAT_002d4c46"</Description>
+      <LastState Value="0000" RealAddress="002D4C46"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -1253,90 +1426,105 @@
     <CheatEntry>
       <ID>190</ID>
       <Description>"Options_Music_Volume_002d3e9c"</Description>
+      <LastState Value="81" RealAddress="002D3E9C"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+2C3E9C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>191</ID>
       <Description>"Options_Music_Volume"</Description>
+      <LastState Value="81" RealAddress="0059D094"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D094</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>192</ID>
       <Description>"Options_Music_Volume"</Description>
+      <LastState Value="0" RealAddress="009B3809"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3809</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>193</ID>
       <Description>"Options_SE_Volume"</Description>
+      <LastState Value="80" RealAddress="002D3EA0"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+2C3EA0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>194</ID>
       <Description>"Options_SE_Volume"</Description>
+      <LastState Value="80" RealAddress="0059D095"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D095</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>195</ID>
       <Description>"Options_SE_Volume"</Description>
+      <LastState Value="0" RealAddress="009B3800"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A3800</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>196</ID>
       <Description>"Options_Voice_Volume"</Description>
+      <LastState Value="80" RealAddress="0059D096"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D096</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>197</ID>
       <Description>"Options_Voice_Volume"</Description>
+      <LastState Value="0" RealAddress="009B395C"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A395C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>198</ID>
       <Description>"Options_SoundTest"</Description>
+      <LastState Value="0" RealAddress="00C59145"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+C49145</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>199</ID>
       <Description>"Settings_Game_MatchPoint_0059d0c6"</Description>
+      <LastState Value="1" RealAddress="0059D0C6"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D0C6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>200</ID>
       <Description>"Settings_Game_MatchPoint_0059d0ca"</Description>
+      <LastState Value="1" RealAddress="0059D0CA"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58D0CA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>201</ID>
       <Description>"No description"</Description>
+      <LastState Value="1" RealAddress="0059FFAE"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58FFAE</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>202</ID>
       <Description>"Settings_Controller_AnalogButton_005a0b41"</Description>
+      <LastState Value="0" RealAddress="005A0B41"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+590B41</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>203</ID>
       <Description>"Settings_Controller_AnalogButton"</Description>
+      <LastState Value="0" RealAddress="00C670E0"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+C570E0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>204</ID>
       <Description>"DAT_002ff9a8"</Description>
+      <LastState Value="0" RealAddress="002FF9A8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>002ff9a8</Address>
@@ -1344,6 +1532,7 @@
     <CheatEntry>
       <ID>205</ID>
       <Description>"DAT_002ff898"</Description>
+      <LastState Value="0" RealAddress="002FF898"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>002ff898</Address>
@@ -1351,6 +1540,7 @@
     <CheatEntry>
       <ID>206</ID>
       <Description>"DAT_002ff899"</Description>
+      <LastState Value="1" RealAddress="002FF899"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>002ff899</Address>
@@ -1358,24 +1548,28 @@
     <CheatEntry>
       <ID>207</ID>
       <Description>"Pause Menu Cursor POS"</Description>
+      <LastState Value="0" RealAddress="005C93BA"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+5B93BA</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>208</ID>
       <Description>"Sparring_Menu_Cursor_XPOS"</Description>
+      <LastState Value="0" RealAddress="00C58DF8"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+C48DF8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>209</ID>
       <Description>"Sparring_Menu_Cursor_XPOS_00c58e1c"</Description>
+      <LastState Value="0" RealAddress="00C58E1C"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+C48E1C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>210</ID>
       <Description>"DAT_00304641"</Description>
+      <LastState Value="0" RealAddress="00304641"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>00304641</Address>
@@ -1383,6 +1577,7 @@
     <CheatEntry>
       <ID>211</ID>
       <Description>"DAT_0040a2d0"</Description>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00" RealAddress="0040A2D0"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
@@ -1392,6 +1587,7 @@
     <CheatEntry>
       <ID>212</ID>
       <Description>"DAT_009b7c0c"</Description>
+      <LastState Value="0000" RealAddress="009B7C0C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -1400,6 +1596,7 @@
     <CheatEntry>
       <ID>213</ID>
       <Description>"Mode Select "</Description>
+      <LastState Value="13" RealAddress="003046C8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+2F46C8</Address>
@@ -1407,6 +1604,7 @@
     <CheatEntry>
       <ID>214</ID>
       <Description>"Mode Select "</Description>
+      <LastState Value="01" RealAddress="009B7B98"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A7B98</Address>
@@ -1414,6 +1612,7 @@
     <CheatEntry>
       <ID>215</ID>
       <Description>"Mode Select *"</Description>
+      <LastState Value="01" RealAddress="009B7B9C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A7B9C</Address>
@@ -1421,6 +1620,7 @@
     <CheatEntry>
       <ID>216</ID>
       <Description>"Mode Select "</Description>
+      <LastState Value="01" RealAddress="009B7C82"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+9A7C82</Address>
@@ -1428,6 +1628,7 @@
     <CheatEntry>
       <ID>217</ID>
       <Description>"Mode Select "</Description>
+      <LastState Value="01" RealAddress="00C6B980"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+C5B980</Address>
@@ -1435,6 +1636,7 @@
     <CheatEntry>
       <ID>218</ID>
       <Description>"CurrentGameMode_009b7b8d"</Description>
+      <LastState Value="0A" RealAddress="009B7B8D"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1443,6 +1645,7 @@
     <CheatEntry>
       <ID>219</ID>
       <Description>"DAT_00c59865"</Description>
+      <LastState Value="00" RealAddress="00C59865"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1451,6 +1654,7 @@
     <CheatEntry>
       <ID>220</ID>
       <Description>"ULONG_00c590fc"</Description>
+      <LastState Value="1" RealAddress="00C590FC"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>00c590fc</Address>
@@ -1458,6 +1662,7 @@
     <CheatEntry>
       <ID>221</ID>
       <Description>"DAT_009b7baa"</Description>
+      <LastState Value="2" RealAddress="009B7BAA"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>009b7baa</Address>
@@ -1465,6 +1670,7 @@
     <CheatEntry>
       <ID>222</ID>
       <Description>"ULONG_00c59444"</Description>
+      <LastState Value="0000FFFF" RealAddress="00C59444"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -1473,6 +1679,7 @@
     <CheatEntry>
       <ID>223</ID>
       <Description>"ULONG_005a855c"</Description>
+      <LastState Value="FFFFFFFF" RealAddress="005A855C"/>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -1481,6 +1688,7 @@
     <CheatEntry>
       <ID>309</ID>
       <Description>"Timer_Seconds"</Description>
+      <LastState Value="67" Activated="1" RealAddress="0059CF43"/>
       <VariableType>Byte</VariableType>
       <Address>"cxbxr-ldr.exe"+58CF43</Address>
     </CheatEntry>
@@ -1488,11 +1696,13 @@
       <ID>307</ID>
       <Description>"Player_1 Stats"</Description>
       <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>224</ID>
           <Description>"MAN_COM_P1 ????"</Description>
+          <LastState Value="1" RealAddress="0059CF58"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CF58</Address>
@@ -1500,6 +1710,7 @@
         <CheatEntry>
           <ID>225</ID>
           <Description>"Character_P1"</Description>
+          <LastState Value="6" RealAddress="0059CF59"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CF59</Address>
@@ -1507,6 +1718,7 @@
         <CheatEntry>
           <ID>226</ID>
           <Description>"Char_Color_P1"</Description>
+          <LastState Value="68" RealAddress="0059CF5A"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CF5A</Address>
@@ -1514,6 +1726,7 @@
         <CheatEntry>
           <ID>227</ID>
           <Description>"tag partner flag? "</Description>
+          <LastState Value="0" RealAddress="0059CF5B"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CF5B</Address>
@@ -1521,6 +1734,7 @@
         <CheatEntry>
           <ID>228</ID>
           <Description>"XPOS_P1"</Description>
+          <LastState Value="1.975480199" RealAddress="0059CF5C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CF5C</Address>
@@ -1528,6 +1742,7 @@
         <CheatEntry>
           <ID>229</ID>
           <Description>"YPOS_P1"</Description>
+          <LastState Value="1.024999976" RealAddress="0059CF60"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CF60</Address>
@@ -1535,6 +1750,7 @@
         <CheatEntry>
           <ID>230</ID>
           <Description>"ZPOS_P1"</Description>
+          <LastState Value="-2.354465961" RealAddress="0059CF64"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CF64</Address>
@@ -1542,6 +1758,7 @@
         <CheatEntry>
           <ID>231</ID>
           <Description>"ANIME_SPD_P1"</Description>
+          <LastState Value="1" RealAddress="0059CF68"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CF68</Address>
@@ -1549,6 +1766,7 @@
         <CheatEntry>
           <ID>232</ID>
           <Description>"DIRECT_P1"</Description>
+          <LastState Value="16081" RealAddress="0059CF6C"/>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF6C</Address>
@@ -1556,6 +1774,7 @@
         <CheatEntry>
           <ID>237</ID>
           <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CF6E"/>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF6E</Address>
@@ -1563,6 +1782,7 @@
         <CheatEntry>
           <ID>233</ID>
           <Description>"ATK_DIR_P1"</Description>
+          <LastState Value="16081" RealAddress="0059CF70"/>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>0059CF70</Address>
@@ -1570,6 +1790,7 @@
         <CheatEntry>
           <ID>236</ID>
           <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CF72"/>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF72</Address>
@@ -1577,6 +1798,7 @@
         <CheatEntry>
           <ID>234</ID>
           <Description>"BODY_DIR_P1"</Description>
+          <LastState Value="16081" RealAddress="0059CF74"/>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF74</Address>
@@ -1584,6 +1806,7 @@
         <CheatEntry>
           <ID>238</ID>
           <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CF76"/>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF76</Address>
@@ -1591,6 +1814,7 @@
         <CheatEntry>
           <ID>235</ID>
           <Description>"HIT_POINT_P1"</Description>
+          <LastState Value="240" RealAddress="0059CF78"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF78</Address>
@@ -1598,6 +1822,7 @@
         <CheatEntry>
           <ID>239</ID>
           <Description>"DAMAGE_P1"</Description>
+          <LastState Value="0" RealAddress="0059CF7A"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF7A</Address>
@@ -1605,6 +1830,7 @@
         <CheatEntry>
           <ID>240</ID>
           <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CF7C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF7C</Address>
@@ -1612,6 +1838,7 @@
         <CheatEntry>
           <ID>241</ID>
           <Description>"LAST_DMG_P1"</Description>
+          <LastState Value="0" RealAddress="0059CF7E"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF7E</Address>
@@ -1619,6 +1846,7 @@
         <CheatEntry>
           <ID>242</ID>
           <Description>"DMG_DISP_P1"</Description>
+          <LastState Value="0" RealAddress="0059CF80"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF80</Address>
@@ -1626,6 +1854,7 @@
         <CheatEntry>
           <ID>243</ID>
           <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CF82"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF82</Address>
@@ -1633,6 +1862,7 @@
         <CheatEntry>
           <ID>244</ID>
           <Description>"ANIME_P1"</Description>
+          <LastState Value="0" RealAddress="0059CF84"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF84</Address>
@@ -1640,6 +1870,7 @@
         <CheatEntry>
           <ID>245</ID>
           <Description>"ACT_CODE_P1"</Description>
+          <LastState Value="0000" RealAddress="0059CF86"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
@@ -1648,6 +1879,7 @@
         <CheatEntry>
           <ID>246</ID>
           <Description>"ACT_REQ_P1"</Description>
+          <LastState Value="FFFF" RealAddress="0059CF88"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
@@ -1656,6 +1888,7 @@
         <CheatEntry>
           <ID>247</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF8A"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1664,6 +1897,7 @@
         <CheatEntry>
           <ID>248</ID>
           <Description>"ACTSTATE_P1"</Description>
+          <LastState Value="00" RealAddress="0059CF8B"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1672,6 +1906,7 @@
         <CheatEntry>
           <ID>249</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF8C"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1680,6 +1915,7 @@
         <CheatEntry>
           <ID>250</ID>
           <Description>""</Description>
+          <LastState Value="01" RealAddress="0059CF8D"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1688,6 +1924,7 @@
         <CheatEntry>
           <ID>251</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF8E"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1696,6 +1933,7 @@
         <CheatEntry>
           <ID>252</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF8F"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1704,6 +1942,7 @@
         <CheatEntry>
           <ID>253</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF90"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1712,6 +1951,7 @@
         <CheatEntry>
           <ID>254</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF91"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1720,6 +1960,7 @@
         <CheatEntry>
           <ID>255</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF92"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1728,6 +1969,7 @@
         <CheatEntry>
           <ID>256</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF93"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1736,6 +1978,7 @@
         <CheatEntry>
           <ID>257</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF94"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1744,6 +1987,7 @@
         <CheatEntry>
           <ID>258</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF95"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1752,6 +1996,7 @@
         <CheatEntry>
           <ID>259</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF96"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1760,6 +2005,7 @@
         <CheatEntry>
           <ID>260</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF97"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1768,6 +2014,7 @@
         <CheatEntry>
           <ID>261</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF98"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1776,6 +2023,7 @@
         <CheatEntry>
           <ID>262</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF99"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1784,6 +2032,7 @@
         <CheatEntry>
           <ID>263</ID>
           <Description>""</Description>
+          <LastState Value="03" RealAddress="0059CF9A"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1792,6 +2041,7 @@
         <CheatEntry>
           <ID>264</ID>
           <Description>""</Description>
+          <LastState Value="02" RealAddress="0059CF9B"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1800,6 +2050,7 @@
         <CheatEntry>
           <ID>265</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF9C"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1808,6 +2059,7 @@
         <CheatEntry>
           <ID>266</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF9D"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1816,6 +2068,7 @@
         <CheatEntry>
           <ID>267</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CF9E"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1824,6 +2077,7 @@
         <CheatEntry>
           <ID>268</ID>
           <Description>""</Description>
+          <LastState Value="01" RealAddress="0059CF9F"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1832,6 +2086,7 @@
         <CheatEntry>
           <ID>269</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFA0"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1840,6 +2095,7 @@
         <CheatEntry>
           <ID>270</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFA1"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1848,6 +2104,7 @@
         <CheatEntry>
           <ID>271</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFA2"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1856,6 +2113,7 @@
         <CheatEntry>
           <ID>272</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFA3"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1864,6 +2122,7 @@
         <CheatEntry>
           <ID>273</ID>
           <Description>""</Description>
+          <LastState Value="0002" RealAddress="0059CFA4"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
@@ -1872,6 +2131,7 @@
         <CheatEntry>
           <ID>274</ID>
           <Description>""</Description>
+          <LastState Value="008C" RealAddress="0059CFA6"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
@@ -1880,6 +2140,7 @@
         <CheatEntry>
           <ID>275</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFA8"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1888,6 +2149,7 @@
         <CheatEntry>
           <ID>276</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFA9"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1896,6 +2158,7 @@
         <CheatEntry>
           <ID>277</ID>
           <Description>"CHAR_DISP_P1"</Description>
+          <LastState Value="01" RealAddress="0059CFAA"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1904,6 +2167,7 @@
         <CheatEntry>
           <ID>278</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFAB"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1912,6 +2176,7 @@
         <CheatEntry>
           <ID>279</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFAC"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1920,6 +2185,7 @@
         <CheatEntry>
           <ID>280</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFAD"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1928,6 +2194,7 @@
         <CheatEntry>
           <ID>281</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFAE"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1936,6 +2203,7 @@
         <CheatEntry>
           <ID>282</ID>
           <Description>""</Description>
+          <LastState Value="02" RealAddress="0059CFAF"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1944,6 +2212,7 @@
         <CheatEntry>
           <ID>283</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB0"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1952,6 +2221,7 @@
         <CheatEntry>
           <ID>284</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB1"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1960,6 +2230,7 @@
         <CheatEntry>
           <ID>285</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB2"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1968,6 +2239,7 @@
         <CheatEntry>
           <ID>286</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB3"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1976,6 +2248,7 @@
         <CheatEntry>
           <ID>287</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB4"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1984,6 +2257,7 @@
         <CheatEntry>
           <ID>288</ID>
           <Description>"Combo_Counter_P1"</Description>
+          <LastState Value="01" RealAddress="0059CFB5"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1992,6 +2266,7 @@
         <CheatEntry>
           <ID>289</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB6"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2000,6 +2275,7 @@
         <CheatEntry>
           <ID>290</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB7"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2008,6 +2284,7 @@
         <CheatEntry>
           <ID>291</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFB8"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2016,6 +2293,7 @@
         <CheatEntry>
           <ID>292</ID>
           <Description>""</Description>
+          <LastState Value="FF" RealAddress="0059CFB9"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2024,6 +2302,7 @@
         <CheatEntry>
           <ID>293</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFBA"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2032,6 +2311,7 @@
         <CheatEntry>
           <ID>294</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFBB"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2040,6 +2320,7 @@
         <CheatEntry>
           <ID>295</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFBC"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2048,6 +2329,7 @@
         <CheatEntry>
           <ID>296</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFBD"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2056,6 +2338,7 @@
         <CheatEntry>
           <ID>297</ID>
           <Description>""</Description>
+          <LastState Value="02" RealAddress="0059CFBE"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2064,6 +2347,7 @@
         <CheatEntry>
           <ID>298</ID>
           <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFBF"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -2072,70 +2356,665 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>308</ID>
+      <ID>310</ID>
       <Description>"Player_2 Stats"</Description>
       <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>299</ID>
-          <Description>"MAN_COM_P2"</Description>
-          <ShowAsHex>1</ShowAsHex>
+          <ID>311</ID>
+          <Description>"MAN_COM_P2 ????"</Description>
+          <LastState Value="1" RealAddress="0059CFC0"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CFC0</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>300</ID>
+          <ID>312</ID>
           <Description>"Character_P2"</Description>
-          <ShowAsHex>1</ShowAsHex>
+          <LastState Value="2" RealAddress="0059CFC1"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CFC1</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>301</ID>
-          <Description>"Costume_P2"</Description>
-          <ShowAsHex>1</ShowAsHex>
+          <ID>313</ID>
+          <Description>"Char_Color_P2"</Description>
+          <LastState Value="0" RealAddress="0059CFC2"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CFC2</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>302</ID>
-          <Description>""</Description>
-          <ShowAsHex>1</ShowAsHex>
+          <ID>314</ID>
+          <Description>"tag partner flag? "</Description>
+          <LastState Value="1" RealAddress="0059CFC3"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
           <Address>cxbxr-ldr.exe+58CFC3</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>303</ID>
+          <ID>315</ID>
           <Description>"XPOS_P2"</Description>
+          <LastState Value="1.809880853" RealAddress="0059CFC4"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CFC4</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>304</ID>
+          <ID>316</ID>
           <Description>"YPOS_P2"</Description>
+          <LastState Value="1.024999976" RealAddress="0059CFC8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CFC8</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>305</ID>
+          <ID>317</ID>
           <Description>"ZPOS_P2"</Description>
+          <LastState Value="-3.242153645" RealAddress="0059CFCC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CFCC</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>306</ID>
+          <ID>318</ID>
           <Description>"ANIME_SPD_P2"</Description>
+          <LastState Value="1" RealAddress="0059CFD0"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>cxbxr-ldr.exe+58CFD0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>319</ID>
+          <Description>"DIRECT_P2"</Description>
+          <LastState Value="16123" RealAddress="0059CFD4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>320</ID>
+          <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CFD6"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFD6</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>321</ID>
+          <Description>"ATK_DIR_P2"</Description>
+          <LastState Value="16123" RealAddress="0059CFD8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFD8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>322</ID>
+          <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CFDA"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFDA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>323</ID>
+          <Description>"BODY_DIR_P2"</Description>
+          <LastState Value="16123" RealAddress="0059CFDC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFDC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>324</ID>
+          <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CFDE"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFDE</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>325</ID>
+          <Description>"HIT_POINT_P2"</Description>
+          <LastState Value="129" RealAddress="0059CFE0"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFE0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>326</ID>
+          <Description>"DAMAGE_P2"</Description>
+          <LastState Value="0" RealAddress="0059CFE2"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFE2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>327</ID>
+          <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CFE4"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFE4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>328</ID>
+          <Description>"LAST_DMG_P2"</Description>
+          <LastState Value="6" RealAddress="0059CFE6"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFE6</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>329</ID>
+          <Description>"DMG_DISP_P2"</Description>
+          <LastState Value="0" RealAddress="0059CFE8"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>330</ID>
+          <Description>""</Description>
+          <LastState Value="0" RealAddress="0059CFEA"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFEA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>331</ID>
+          <Description>"ANIME_P2"</Description>
+          <LastState Value="263" RealAddress="0059CFEC"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFEC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>332</ID>
+          <Description>"ACT_CODE_P2"</Description>
+          <LastState Value="0102" RealAddress="0059CFEE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFEE</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>333</ID>
+          <Description>"ACT_REQ_P2"</Description>
+          <LastState Value="FFFF" RealAddress="0059CFF0"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>334</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFF2"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>335</ID>
+          <Description>"ACTSTATE_P2"</Description>
+          <LastState Value="00" RealAddress="0059CFF3"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF3</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>336</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFF4"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>337</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFF5"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF5</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>338</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFF6"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF6</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>339</ID>
+          <Description>""</Description>
+          <LastState Value="01" RealAddress="0059CFF7"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF7</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>340</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFF8"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>341</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFF9"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFF9</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>342</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFFA"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFFA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>343</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFFB"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFFB</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>344</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFFC"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFFC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>345</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFFD"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFFD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>346</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFFE"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFFE</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>347</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059CFFF"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58CFFF</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>348</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D000</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>349</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D001"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D001</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>350</ID>
+          <Description>""</Description>
+          <LastState Value="03" RealAddress="0059D002"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D002</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>351</ID>
+          <Description>""</Description>
+          <LastState Value="02" RealAddress="0059D003"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D003</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>352</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D004"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D004</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>353</ID>
+          <Description>""</Description>
+          <LastState Value="08" RealAddress="0059D005"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D005</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>354</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D006"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D006</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>355</ID>
+          <Description>""</Description>
+          <LastState Value="01" RealAddress="0059D007"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D007</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>356</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D008"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D008</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>357</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D009"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D009</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>358</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D00A"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D00A</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>359</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D00B"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D00B</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>360</ID>
+          <Description>""</Description>
+          <LastState Value="0002" RealAddress="0059D00C"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58D00C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>361</ID>
+          <Description>""</Description>
+          <LastState Value="008C" RealAddress="0059D00E"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>cxbxr-ldr.exe+58D00E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>362</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D010"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D010</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>363</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D011"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D011</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>364</ID>
+          <Description>"CHAR_DISP_P2"</Description>
+          <LastState Value="01" RealAddress="0059D012"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D012</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>365</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D013"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D013</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>366</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D014"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D014</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>367</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D015"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D015</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>368</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D016"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D016</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>369</ID>
+          <Description>""</Description>
+          <LastState Value="02" RealAddress="0059D017"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D017</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>370</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D018"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D018</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>371</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D019"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D019</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>372</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D01A"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D01A</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>373</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D01B"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D01B</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>374</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D01C"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D01C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>375</ID>
+          <Description>"Combo_Counter_P2"</Description>
+          <LastState Value="00" RealAddress="0059D01D"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D01D</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>376</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D01E"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D01E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>377</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D01F"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D01F</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>378</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D020"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D020</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>379</ID>
+          <Description>""</Description>
+          <LastState Value="FF" RealAddress="0059D021"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D021</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>380</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D022"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D022</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>381</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D023"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D023</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>382</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D024"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D024</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>383</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D025"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D025</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>384</ID>
+          <Description>""</Description>
+          <LastState Value="01" RealAddress="0059D026"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D026</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>385</ID>
+          <Description>""</Description>
+          <LastState Value="00" RealAddress="0059D027"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>cxbxr-ldr.exe+58D027</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
