@@ -25,7 +25,7 @@
 |	`0x16`	|	22	|		|		|		|	`BOSS`	|		|	`DEMI HUMAN`	|	`COAYANE`	|	 `RTM`	|		|	`RTM`	|		|
 |	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	?? `23` ??	|		|	?? 23 ??	|		|
 |	`0x18`	|	24	|		|		|		|		|	`BAYMAN` <sub>(SAMBO)</sub>	|	`BAYMAN`	|	`BAYMAN`	|	`BAYMAN`	|		|	`BAYMAN`	|		|
-|	`0x19`	|	25	|		|		|		|		|		|		|		|	`COHAYATE`	|		|	`RAIDOU`	|		|
+|	`0x19`	|	25	|		|		|		|		|		|		|	`COHAYATE`	|		|		|	`RAIDOU`	|		|
 |	`0x1a`	|	26	|		|		|		|		|		|		|		|		|	`GENRA`	|		|
 |	`0x1b`	|	27	|		|		|		|		|		|		|		|		|	`KASUMI_A`	|		|
 |	`0x1c`	|	28	|		|		|		|		|		|		|		|		|	`SHIDEN`	|		|
