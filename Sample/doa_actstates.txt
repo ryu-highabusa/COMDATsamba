@@ -22,3 +22,10 @@
  3 Attack	9 Hit_Stun (No Hold)	 F Down_Attack_Stun
  4 Throw	A Being_Thrown		10 Throw_Miss
  5 Hold		B Being_Held		
+ 
+0x0_Neutral		0x6_Hold_Success		0xC Ground_State
+0x1_Air			0x7_Block_Stun(No_Hold)	0xD Special_Move(Taunts)
+0x2_Air_Attack	0x8_Critical_Stun(Hold)	0xE Down_Attack
+0x3_Attack		0x9_Hit_Stun(No_Hold)	0xF Down_Attack_Stun
+0x4_Throw		0xA_Being_Thrown		0x10 Throw_Miss
+0x5_Hold		0xB_Being_Held			
