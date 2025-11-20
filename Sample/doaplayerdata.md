@@ -16,7 +16,7 @@
 |`LAST_DMG_P1`|`0054fc24`|`0054fc04`|`0c254518`|``|`8c1fbfda`|``|``|``|``|`0059cf7e`|``|``|``|`830201b2`|		
 |`DMG_DISP_P1`|`0054fc26`|`0054fc06`|`0c25451a`|``|`8c1fbfdc`|``|``|``|``|`0059cf80`|``|``|``|`830201b4`|	Damage Display (i.e. flashing bar)	
 |`ANIME_P1`|`0054fc28`|`0054fc08`|`0c254520`|``|`8c1fbfe0`|``|``|``|``|`0059cf84`|``|``|`82ce4e40`|`830201b8`|	Animation Number	
-|`ACT_CODE_P1`|`0054fc2a`|`0054fc0a`|`0c254522`|``|`8c1fbfe2`|``|`8c2376e6`|``|`0045e4a6`|`0059cf86`|``|``|`82ce4e42`|`830201ba`|"""Move ID"""
+|`ACT_CODE_P1`|`0054fc2a`|`0054fc0a`|`0c254522`|``|`8c1fbfe2`|``|`8c2376e6`|``|`0045e4a6`|`0059cf86`|``|``|`82ce4e42`|`830201ba`|AKA `Move ID`
 |`ACT_FLAG_P1`|`0054fc2b`|`0054fc0b`|`0c254524`|``|`8c1fbfe4`|``|``|``|``|``|``|``|`82ce4e44`|`830201bc`|		
 |`ACT_REQ_P1`|`0054fc2c`|`0054fc0c`|``|``|``|``|``|``|``|`0059cf88`|``|``|`82ce4e46`|`830201be`|		
 |`ACT_STA_P1`|`0054fc2d`|`0054fc0d`|``|``|`8c1fbfe7`|``|``|``|``|`0059cf8b`|``|``|`82ce4e47`|`830201bf`|		
@@ -26,7 +26,7 @@
 |`DOWN_DIR_P1`|`0054fc31`|`0054fc11`|``|``|``|``|``|``|``|``|``|``|``|``|		
 |`ATK_POINT_P1`|`0054fc32`|`0054fc12`|``|``|``|``|``|``|``|``|``|``|``|``|		
 |`ATK_STA_P1`|`0054fc33`|`0054fc13`|``|``|``|``|``|``|``|``|``|``|``|``|	`0=NEUTRAL`, `1=AIR`, `2=AIR_ATTACK`, `3=ATTACK`, `4=THROW`, `5=HOLD`, `6=HOLD_SUCCESS`, `7=Block_Stun (Hold_Disabled)`, `8=Critical_Stun (Hold_Enabled)`, `9=Hit_Stun (Hold_Disabled)`, `10=BEING_THROWN`, `11=BEING_HELD`, `12=GROUND_STATE (Wake-Up-Kick_Enabled)`, `13=SPECIAL_MOVE (Taunts/Flips)`, `14=DOWN_ATTACK`, `15=Down_Attack_Stun`, `16=THROW_MISS`	
-|`ANIM_FLIP_P1`|`0054fc34`|`0054fc14`|``|``|`8c1fbfee`|``|``|``|``|`0059cf92`|``|``|``|`830201c6`|	`0=LEFT_FOOT_FORWARD`, `1=RIGHT_FOOT_FORWARD` 	
+|`ANIM_FLIP_P1`|`0054fc34`|`0054fc14`|``|``|`8c1fbfee`|``|``|``|``|`0059cf92`|``|``|``|`830201c6`| `0=Left_Foot_Forward`, `1=Right_Foot_Forward`  
 |`ANIM_FLAG_P1`|`0054fc35`|`0054fc15`|``|``|``|``|``|``|``|``|``|``|``|``|		
 |`ANIM_REQ_P1`|`0054fc36`|`0054fc16`|``|``|``|``|``|``|``|``|``|``|``|``|		
 |`HIT_ATK_P1`|`0054fc37`|`0054fc17`|``|``|``|``|``|``|``|``|``|``|``|``|		
