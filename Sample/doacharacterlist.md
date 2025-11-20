@@ -14,10 +14,10 @@
 |	`0xb`	|	11	|	`RAIDOU`	|	`RAIDOU`	|		|	`RAIDOU`	|		|	`HAYATE` <sub>(NINJA)</sub>	|	`-HAYATE`	|	`HAYATE`	|		|	`HAYATE`	|		|
 |	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|		|
 |	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|		|
-|	`0xe`	|	14	|		|		|		|	`WAKA BASS`	|		|	`HITOMI` <sub>(KO-RYU)</sub>	|	`ELIOT`	|		|	`ELIOT`	|		|
-|	`0xf`	|	15	|		|		|		|	`INDIA`	|		|	`K-1`	|	`LA MARIPOSA`	|		|	`LA MARIPOSA`	|		|
-|	`0x10`	|	16	|		|		|		|	`LORAN`	|		|	`PRO WRESTLER`	|	`ALPHA152`	|		|	`ALPHA152`	|		|
-|	`0x11`	|	17	|		|		|		|	`TENGU`	|	`BANKOTU`	|	`TENGU`	|	`TENGU`	|		|	`TENGU`	|		|
+|	`0xe`	|	14	|		|		|		|	`WAKA BASS`	|		|	`HITOMI` <sub>(KO-RYU)</sub>	|	`WAKABASS`	|	`ELIOT`	|		|	`ELIOT`	|		|
+|	`0xf`	|	15	|		|		|		|	`INDIA`	|		|	`K-1`	|	`LISA`	|	`LA MARIPOSA`	|		|	`LA MARIPOSA`	|		|
+|	`0x10`	|	16	|		|		|		|	`LORAN`	|		|	`PRO WRESTLER`	|	`LORAN`	|	`ALPHA152`	|		|	`ALPHA152`	|		|
+|	`0x11`	|	17	|		|		|		|	`TENGU`	|	`BANKOTU`	|	`TENGU`	|	`TENGU`	|	`TENGU`	|		|	`TENGU`	|		|
 |	`0x12`	|	18	|		|		|		|	`CoTINA`	|		|	`GENRA` <sub>(BOSNIN)</sub>	|	`CoTINA`	|	`SPARTAN-458`	|		|	`SPARTAN-458`	|		|
 |	`0x13`	|	19	|		|		|		|	`BERSERK`	|		|	`BRAD WONG` <sub>(SUI-KEN)</sub>	|	`-BRAD WONG`	|	`BRAD WONG`	|		|	`BRAD WONG`	|		|
 |	`0x14`	|	20	|		|		|		|	`RIVAL`	|		|	`CHRISTIE` <sub>(GO-KEI)</sub>	|	`-CHRISTIE`	|	`CHRISTIE`	|		|	`CHRISTIE`	|		|
