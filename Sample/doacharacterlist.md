@@ -8,28 +8,28 @@
 |	`0x5`	|	5	|	`KASUMI`	|	KASUMI	|		|	KASUMI	|	KASUMI	|	KASUMI	|	KASUMI	|		|	KASUMI	|		|
 |	`0x6`	|	6	|	`GEN-FU` <sub>(FAN-FU)</sub>	|	GEN-FU	|		|	GEN-FU	|	GEN-FU	|	GEN FU	|	GEN FU	|		|	GEN FU	|		|
 |	`0x7`	|	7	|	?? `CHAMPION` ??	|	??	|		|	HELENA (HIKA-KEN)	|	HELENA	|	HELENA	|	HELENA	|		|	HELENA	|		|
-|	`0x8`	|	8	|	`BAYMAN` <sub>(GATSBY)</sub>	|	BAYMAN	|		|	LEON (BAYMAN)	|	LEON	|	LEON	|	LEON	|		|	LEON	|		|
+|	`0x8`	|	8	|	`BAYMAN` <sub>(GATSBY)</sub>	|	BAYMAN	|		|	`LEON` <sub>(BAYMAN)</sub>	|	LEON	|	LEON	|	LEON	|		|	LEON	|		|
 |	`0x9`	|	9	|	?? `BLANK` ??	|	??	|		|	BASS	|	BASS	|	BASS	|	BASS	|		|	BASS	|		|
 |	`0xa`	|	10	|	?? `RAIDOU` ??	|	??	|		|	HELENA MAM	|		|	HAKKYOKU-KEN	|	KOKORO	|		|	KOKORO	|		|
-|	`0xb`	|	11	|	`RAIDOU`	|	RAIDOU	|		|	RAIDOU	|		|	HAYATE (NINJA)	|	HAYATE	|		|	HAYATE	|		|
+|	`0xb`	|	11	|	`RAIDOU`	|	RAIDOU	|		|	RAIDOU	|		|	`HAYATE` <sub>(NINJA)</sub>	|	HAYATE	|		|	HAYATE	|		|
 |	`0xc`	|	12	|	`LEI-FANG`	|	LEI-FANG	|		|	LEI-FANG	|	LEI-FANG	|	LEI-FANG	|	LEI-FANG	|		|	LEI-FANG	|		|
 |	`0xd`	|	13	|		|	`AYANE`	|		|	AYANE	|	AYANE	|	AYANE	|	AYANE	|		|	AYANE	|		|
-|	`0xe`	|	14	|		|		|		|	WAKA BASS	|		|	HITOMI (KO-RYU)	|	ELIOT	|		|	ELIOT	|		|
-|	`0xf`	|	15	|		|		|		|	INDIA	|		|	K-1	|	LA MARIPOSA	|		|	LA MARIPOSA	|		|
-|	`0x10`	|	16	|		|		|		|	LORAN	|		|	PRO WRESTLER	|	ALPHA152	|		|	ALPHA152	|		|
-|	`0x11`	|	17	|		|		|		|	TENGU	|	BANKOTU	|	TENGU	|	TENGU	|		|	TENGU	|		|
-|	`0x12`	|	18	|		|		|		|	CoTINA	|		|	GENRA (BOSNIN)	|	SPARTAN-458	|		|	SPARTAN-458	|		|
-|	`0x13`	|	19	|		|		|		|	BERSERK	|		|	BRAD WONG (SUI-KEN)	|	BRAD WONG	|		|	BRAD WONG	|		|
-|	`0x14`	|	20	|		|		|		|	RIVAL	|		|	CHRISTIE (GO-KEI)	|	CHRISTIE	|		|	CHRISTIE	|		|
+|	`0xe`	|	14	|		|		|		|	WAKA BASS	|		|	`HITOMI` <sub>(KO-RYU)</sub>	|	ELIOT	|		|	ELIOT	|		|
+|	`0xf`	|	15	|		|		|		|	INDIA	|		|	`K-1`	|	`LA MARIPOSA`	|		|	LA MARIPOSA	|		|
+|	`0x10`	|	16	|		|		|		|	LORAN	|		|	`PRO WRESTLER`	|	ALPHA152	|		|	ALPHA152	|		|
+|	`0x11`	|	17	|		|		|		|	TENGU	|	BANKOTU	|	`TENGU`	|	TENGU	|		|	TENGU	|		|
+|	`0x12`	|	18	|		|		|		|	CoTINA	|		|	`GENRA` <sub>(BOSNIN)</sub>	|	SPARTAN-458	|		|	SPARTAN-458	|		|
+|	`0x13`	|	19	|		|		|		|	BERSERK	|		|	`BRAD WONG` <sub>(SUI-KEN)</sub>	|	BRAD WONG	|		|	BRAD WONG	|		|
+|	`0x14`	|	20	|		|		|		|	RIVAL	|		|	`CHRISTIE` <sub>(GO-KEI)</sub>	|	CHRISTIE	|		|	CHRISTIE	|		|
 |	`0x15`	|	21	|		|		|		|	GENRA	|		|	TEKONDO	|	HITOMI	|		|	HITOMI	|		|
 |	`0x16`	|	22	|		|		|		|	BOSS	|		|	DEMI HUMAN	|	?? RTM ??	|		|	?? RTM ??	|		|
 |	`0x17`	|	23	|		|		|		|		|		|	CHIN	|	?? 23 ??	|		|	?? 23 ??	|		|
-|	`0x18`	|	24	|		|		|		|		|	BAYMAN (SAMBO)	|	BAYMAN	|	BAYMAN	|		|	BAYMAN	|		|
-|	`0x19`	|	25	|		|		|		|		|		|		|		|		|	RAIDOU	|		|
-|	`0x1a`	|	26	|		|		|		|		|		|		|		|		|	GENRA	|		|
-|	`0x1b`	|	27	|		|		|		|		|		|		|		|		|	KASUMI_A	|		|
-|	`0x1c`	|	28	|		|		|		|		|		|		|		|		|	SHIDEN	|		|
-|	`0x1d`	|	29	|		|		|		|		|		|		|		|		|	RIG	|		|
-|	`0x1e`	|	30	|		|		|		|		|		|		|		|		|	MILA	|		|
-|	`0x1f`	|	31	|		|		|		|		|		|		|		|		|	AKIRA	|		|
-|	`0x20`	|	32	|		|		|		|		|		|		|		|		|	SARAH	|		|
+|	`0x18`	|	24	|		|		|		|		|	`BAYMAN` <sub>(SAMBO)</sub>	|	`BAYMAN`	|	`BAYMAN`	|		|	`BAYMAN`	|		|
+|	`0x19`	|	25	|		|		|		|		|		|		|		|		|	`RAIDOU`	|		|
+|	`0x1a`	|	26	|		|		|		|		|		|		|		|		|	`GENRA`	|		|
+|	`0x1b`	|	27	|		|		|		|		|		|		|		|		|	`KASUMI_A`	|		|
+|	`0x1c`	|	28	|		|		|		|		|		|		|		|		|	`SHIDEN`	|		|
+|	`0x1d`	|	29	|		|		|		|		|		|		|		|		|	`RIG`	|		|
+|	`0x1e`	|	30	|		|		|		|		|		|		|		|		|	`MILA`	|		|
+|	`0x1f`	|	31	|		|		|		|		|		|		|		|		|	`AKIRA`	|		|
+|	`0x20`	|	32	|		|		|		|		|		|		|		|		|	`SARAH`	|		|
