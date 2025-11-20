@@ -10,10 +10,10 @@
 |	`0x7`	|	7	|	?? `CHAMPION` ??	|	??	|		|	`HELENA` <sub>(HIKA-KEN)</sub>	|	`HELENA`	|	`HELENA`	|	`HELENA`	|	`HELENA`	|		|	`HELENA`	|		|
 |	`0x8`	|	8	|	`BAYMAN` <sub>(GATSBY)</sub>	|	`BAYMAN`	|		|	`LEON` <sub>(BAYMAN)</sub>	|	`LEON`	|	`LEON`	|	`LEON`	|	`LEON`	|		|	`LEON`	|		|
 |	`0x9`	|	9	|	?? `BLANK` ??	|	??	|		|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|		|	`BASS`	|		|
-|	`0xa`	|	10	|	?? `RAIDOU` ??	|	??	|		|	`HELENA MAM`	|		|	`HAKKYOKU-KEN`	|	`HELENA ?à?à`	|	`KOKORO`	|		|	`KOKORO`	|		|
-|	`0xb`	|	11	|	`RAIDOU`	|	`RAIDOU`	|		|	`RAIDOU`	|		|	`HAYATE` <sub>(NINJA)</sub>	|	`HAYATE`	|		|	`HAYATE`	|		|
-|	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|		|
-|	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|		|
+|	`0xa`	|	10	|	?? `RAIDOU` ??	|	??	|		|	`HELENA MAM`	|		|	`HAKKYOKU-KEN`	|	`HELENA MAMA`	|	`KOKORO`	|		|	`KOKORO`	|		|
+|	`0xb`	|	11	|	`RAIDOU`	|	`RAIDOU`	|		|	`RAIDOU`	|		|	`HAYATE` <sub>(NINJA)</sub>	|	`-HAYATE`	|	`HAYATE`	|		|	`HAYATE`	|		|
+|	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|		|
+|	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|		|
 |	`0xe`	|	14	|		|		|		|	`WAKA BASS`	|		|	`HITOMI` <sub>(KO-RYU)</sub>	|	`ELIOT`	|		|	`ELIOT`	|		|
 |	`0xf`	|	15	|		|		|		|	`INDIA`	|		|	`K-1`	|	`LA MARIPOSA`	|		|	`LA MARIPOSA`	|		|
 |	`0x10`	|	16	|		|		|		|	`LORAN`	|		|	`PRO WRESTLER`	|	`ALPHA152`	|		|	`ALPHA152`	|		|
