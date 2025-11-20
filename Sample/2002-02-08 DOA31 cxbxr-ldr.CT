@@ -1479,6 +1479,12 @@
       <Address>005a855c</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>309</ID>
+      <Description>"Timer_Seconds"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>"cxbxr-ldr.exe"+58CF43</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>307</ID>
       <Description>"Player_1 Stats"</Description>
       <Options moManualExpandCollapse="1"/>
@@ -1591,7 +1597,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>239</ID>
-          <Description>""</Description>
+          <Description>"DAMAGE_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF7A</Address>
@@ -1605,14 +1611,14 @@
         </CheatEntry>
         <CheatEntry>
           <ID>241</ID>
-          <Description>""</Description>
+          <Description>"LAST_DMG_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF7E</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>242</ID>
-          <Description>""</Description>
+          <Description>"DMG_DISP_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF80</Address>
@@ -1626,14 +1632,14 @@
         </CheatEntry>
         <CheatEntry>
           <ID>244</ID>
-          <Description>""</Description>
+          <Description>"ANIME_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
           <Address>cxbxr-ldr.exe+58CF84</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>245</ID>
-          <Description>""</Description>
+          <Description>"ACT_CODE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
@@ -1641,7 +1647,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>246</ID>
-          <Description>""</Description>
+          <Description>"ACT_REQ_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
@@ -1657,7 +1663,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>248</ID>
-          <Description>""</Description>
+          <Description>"ACTSTATE_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
