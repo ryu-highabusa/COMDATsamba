@@ -21,9 +21,9 @@
 |	`0x12`	|	18	|		|		|		|	`CoTINA`	|		|	`GENRA` <sub>(BOSNIN)</sub>	|	`CoTINA`	|	`SPARTAN-458`	|		|	`SPARTAN-458`	|		|
 |	`0x13`	|	19	|		|		|		|	`BERSERK`	|		|	`BRAD WONG` <sub>(SUI-KEN)</sub>	|	`-BRAD WONG`	|	`BRAD WONG`	|		|	`BRAD WONG`	|		|
 |	`0x14`	|	20	|		|		|		|	`RIVAL`	|		|	`CHRISTIE` <sub>(GO-KEI)</sub>	|	`-CHRISTIE`	|	`CHRISTIE`	|		|	`CHRISTIE`	|		|
-|	`0x15`	|	21	|		|		|		|	`GENRA`	|		|	`TEKONDO`	|	`HITOMI`	|		|	`HITOMI`	|	`HITOMI`	|		|
-|	`0x16`	|	22	|		|		|		|	`BOSS`	|		|	`DEMI HUMAN`	|	 `RTM`	|		|	`RTM`	|		|
-|	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	?? `23` ??	|		|	?? 23 ??	|		|
+|	`0x15`	|	21	|		|		|		|	`GENRA`	|		|	`TEKONDO`	|	`HITOMI`	|	`HITOMI`	|		|	`HITOMI`	|	`HITOMI`	|		|
+|	`0x16`	|	22	|		|		|		|	`BOSS`	|		|	`DEMI HUMAN`	|	`COAYANE`	|	 `RTM`	|		|	`RTM`	|		|
+|	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	?? `23` ??	|		|	?? 23 ??	|		|
 |	`0x18`	|	24	|		|		|		|		|	`BAYMAN` <sub>(SAMBO)</sub>	|	`BAYMAN`	|	`BAYMAN`	|		|	`BAYMAN`	|		|
 |	`0x19`	|	25	|		|		|		|		|		|		|		|		|	`RAIDOU`	|		|
 |	`0x1a`	|	26	|		|		|		|		|		|		|		|		|	`GENRA`	|		|
