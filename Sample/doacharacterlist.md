@@ -1,7 +1,7 @@
 |	`HEX`	|	`DECIMAL`	|	`DOA1 Arcade`	|	`DOA1 PSX`	|	`DOA++`	|	`DOA2`	|	`DOA2LE/H`	|	`DOA3`	|	`DOA2U`	|	`DOA4`	|	`DOA DIM`	|	`DOA5 E3`	|	`DOA5`	|	`DOA6`	|
 |	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|
 |	`0x0`	|	0	|	`ZACK` <sub>(KELLY)</sub></sub>	|	`ZACK`	|		|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|		|	`ZACK`	|		|
-|	`0x1`	|	1	|	`TINA`	|	`TINA`	|		|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|		|	`TINA`	|		|
+|	`0x1`	|	1	|	`TINA`	|	`TINA`	|		|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|		|	`TINA`	|		|
 |	`0x2`	|	2	|	`JANN-LEE` <sub>(LOO/LU)</sub>	|	`JANN-LEE`	|		|	`JANN-LEE`	|	`JANN-LEE`	|	`JANN LEE`	|	`JANN LEE`	|	`JANN LEE`	|		|	`JANN LEE`	|		|
 |	`0x3`	|	3	|	?? `TINA` ??	|	??	|		|	`EIN` <sub>(KARATE)</sub>	|	`EIN`	|	`EIN`	|	`EIN`	|	`EIN`	|		|	`EIN`	|		|
 |	`0x4`	|	4	|	`HAYABUSA` <sub>(KAMUI)</sub>	|	`HAYABUSA`	|		|	`HAYABUSA`	|	`HAYABUSA`	|	`HAYABUSA`	|	`HAYABUSA`	|	`HAYABUSA`	|		|	`HAYABUSA`	|		|
@@ -26,9 +26,9 @@
 |	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	?? `23` ??	|		|	?? 23 ??	|		|
 |	`0x18`	|	24	|		|		|		|		|	`BAYMAN` <sub>(SAMBO)</sub>	|	`BAYMAN`	|	`BAYMAN`	|	`BAYMAN`	|		|	`BAYMAN`	|		|
 |	`0x19`	|	25	|		|		|		|		|		|		|	`COHAYATE`	|		|		|	`RAIDOU`	|		|
-|	`0x1a`	|	26	|		|		|		|		|		|		|		|		|	`GENRA`	|		|
-|	`0x1b`	|	27	|		|		|		|		|		|		|		|		|	`KASUMI_A`	|		|
-|	`0x1c`	|	28	|		|		|		|		|		|		|		|		|	`SHIDEN`	|		|
+|	`0x1a`	|	26	|		|		|		|		|		|		|	`AYAME`	|		|		|	`GENRA`	|		|
+|	`0x1b`	|	27	|		|		|		|		|		|		|	`HADAKASUMI`	|		|		|	`KASUMI_A`	|		|
+|	`0x1c`	|	28	|		|		|		|		|		|		|	`COKASUMI`	|		|		|	`SHIDEN`	|		|
 |	`0x1d`	|	29	|		|		|		|		|		|		|		|		|	`RIG`	|		|
 |	`0x1e`	|	30	|		|		|		|		|		|		|		|		|	`MILA`	|		|
 |	`0x1f`	|	31	|		|		|		|		|		|		|		|		|	`AKIRA`	|		|
