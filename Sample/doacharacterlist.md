@@ -3,14 +3,14 @@
 |	`0x0`	|	0	|	`ZACK` <sub>(KELLY)</sub></sub>	|	`ZACK`	|		|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|		|	`ZACK`	|		|
 |	`0x1`	|	1	|	`TINA`	|	`TINA`	|		|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|		|	`TINA`	|		|
 |	`0x2`	|	2	|	`JANN-LEE` <sub>(LOO/LU)</sub>	|	`JANN-LEE`	|		|	`JANN-LEE`	|	`JANN-LEE`	|	`JANN LEE`	|	`JANN LEE`	|	`JANN LEE`	|		|	`JANN LEE`	|		|
-|	`0x3`	|	3	|	?? `TINA` ??	|	??	|		|	`EIN` <sub>(KARATE)</sub>	|	`EIN`	|	`EIN`	|	`EIN`	|	`EIN`	|		|	`EIN`	|		|
+|	`0x3`	|	3	|	`??TINA??`	|	`.`	|		|	`EIN` <sub>(KARATE)</sub>	|	`EIN`	|	`EIN`	|	`EIN`	|	`EIN`	|		|	`EIN`	|		|
 |	`0x4`	|	4	|	`HAYABUSA` <sub>(KAMUI)</sub>	|	`HAYABUSA`	|		|	`HAYABUSA`	|	`HAYABUSA`	|	`HAYABUSA`	|	`HAYABUSA`	|	`HAYABUSA`	|		|	`HAYABUSA`	|		|
 |	`0x5`	|	5	|	`KASUMI`	|	`KASUMI`	|		|	`KASUMI`	|	`KASUMI`	|	`KASUMI`	|	`KASUMI`	|	`KASUMI`	|		|	`KASUMI`	|		|
 |	`0x6`	|	6	|	`GEN-FU` <sub>(FAN-FU)</sub>	|	`GEN-FU`	|		|	`GEN-FU`	|	`GEN-FU`	|	`GEN FU`	|	`GEN FU`	|	`GEN FU`	|		|	`GEN FU`	|		|
-|	`0x7`	|	7	|	?? `CHAMPION` ??	|	??	|		|	`HELENA` <sub>(HIKA-KEN)</sub>	|	`HELENA`	|	`HELENA`	|	`HELENA`	|	`HELENA`	|		|	`HELENA`	|		|
+|	`0x7`	|	7	|	`??CHAMPION??`	|	`.`	|		|	`HELENA` <sub>(HIKA-KEN)</sub>	|	`HELENA`	|	`HELENA`	|	`HELENA`	|	`HELENA`	|		|	`HELENA`	|		|
 |	`0x8`	|	8	|	`BAYMAN` <sub>(GATSBY)</sub>	|	`BAYMAN`	|		|	`LEON` <sub>(BAYMAN)</sub>	|	`LEON`	|	`LEON`	|	`LEON`	|	`LEON`	|		|	`LEON`	|		|
-|	`0x9`	|	9	|	?? `BLANK` ??	|	??	|		|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|		|	`BASS`	|		|
-|	`0xa`	|	10	|	?? `RAIDOU` ??	|	??	|		|	`HELENA MAM`	|		|	`HAKKYOKU-KEN`	|	`HELENA MAMA`	|	`KOKORO`	|		|	`KOKORO`	|		|
+|	`0x9`	|	9	|	`??BLANK??`	|	`.`	|		|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|		|	`BASS`	|		|
+|	`0xa`	|	10	|	`??RAIDOU??`	|	`.`	|		|	`HELENA MAM`	|		|	`HAKKYOKU-KEN`	|	`HELENA MAMA`	|	`KOKORO`	|		|	`KOKORO`	|		|
 |	`0xb`	|	11	|	`RAIDOU`	|	`RAIDOU`	|		|	`RAIDOU`	|		|	`HAYATE` <sub>(NINJA)</sub>	|	`-HAYATE`	|	`HAYATE`	|		|	`HAYATE`	|		|
 |	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|		|
 |	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|		|
@@ -23,7 +23,7 @@
 |	`0x14`	|	20	|		|		|		|	`RIVAL`	|		|	`CHRISTIE` <sub>(GO-KEI)</sub>	|	`-CHRISTIE`	|	`CHRISTIE`	|		|	`CHRISTIE`	|		|
 |	`0x15`	|	21	|		|		|		|	`GENRA`	|		|	`TEKONDO`	|	`HITOMI`	|	`HITOMI`	|		|	`HITOMI`	|	`HITOMI`	|		|
 |	`0x16`	|	22	|		|		|		|	`BOSS`	|		|	`DEMI HUMAN`	|	`COAYANE`	|	 `RTM`	|		|	`RTM`	|		|
-|	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	?? `23` ??	|		|	?? 23 ??	|		|
+|	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	`23`	|		|	`23`	|		|
 |	`0x18`	|	24	|		|		|		|		|	`BAYMAN` <sub>(SAMBO)</sub>	|	`BAYMAN`	|	`BAYMAN`	|	`BAYMAN`	|		|	`BAYMAN`	|		|
 |	`0x19`	|	25	|		|		|		|		|		|		|	`COHAYATE`	|		|		|	`RAIDOU`	|		|
 |	`0x1a`	|	26	|		|		|		|		|		|		|	`AYAME`	|		|		|	`GENRA`	|		|
