@@ -1495,63 +1495,63 @@
           <Description>"MAN_COM_P1 ????"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
-          <Address>0059CF58</Address>
+          <Address>cxbxr-ldr.exe+58CF58</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>225</ID>
           <Description>"Character_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
-          <Address>0059CF59</Address>
+          <Address>cxbxr-ldr.exe+58CF59</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>226</ID>
           <Description>"Char_Color_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
-          <Address>0059CF5A</Address>
+          <Address>cxbxr-ldr.exe+58CF5A</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>227</ID>
           <Description>"tag partner flag? "</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
-          <Address>0059CF5B</Address>
+          <Address>cxbxr-ldr.exe+58CF5B</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>228</ID>
           <Description>"XPOS_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
-          <Address>0059CF5C</Address>
+          <Address>cxbxr-ldr.exe+58CF5C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>229</ID>
           <Description>"YPOS_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
-          <Address>0059CF60</Address>
+          <Address>cxbxr-ldr.exe+58CF60</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>230</ID>
           <Description>"ZPOS_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
-          <Address>0059CF64</Address>
+          <Address>cxbxr-ldr.exe+58CF64</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>231</ID>
           <Description>"ANIME_SPD_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
-          <Address>0059CF68</Address>
+          <Address>cxbxr-ldr.exe+58CF68</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>232</ID>
           <Description>"DIRECT_P1"</Description>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
-          <Address>0059CF6C</Address>
+          <Address>cxbxr-ldr.exe+58CF6C</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>237</ID>
@@ -1579,7 +1579,7 @@
           <Description>"BODY_DIR_P1"</Description>
           <ShowAsSigned>1</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
-          <Address>0059CF74</Address>
+          <Address>cxbxr-ldr.exe+58CF74</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>238</ID>
@@ -1593,7 +1593,7 @@
           <Description>"HIT_POINT_P1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>2 Bytes</VariableType>
-          <Address>0059CF78</Address>
+          <Address>cxbxr-ldr.exe+58CF78</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>239</ID>
