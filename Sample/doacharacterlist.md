@@ -1,9 +1,9 @@
-|	HEX	|	DECIMAL	|	DOA1 Arcade	|	DOA1 PSX	|	DOA++	|	DOA2	|	DOA2LE/H	|	DOA3	|	DOA4	|	DOA DIM	|	DOA5 E3	|	DOA6	|
+|	`HEX`	|	`DECIMAL`	|	`DOA1 Arcade`	|	`DOA1 PSX`	|	`DOA++`	|	`DOA2`	|	`DOA2LE/H`	|	`DOA3`	|	`DOA4`	|	`DOA DIM`	|	`DOA5 E3`	|	`DOA6`	|
 |	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|	-----	|
-|	`0x0`	|	0	|	`ZACK` <sub>(KELLY)</sub></sub>	|	ZACK	|		|	ZACK	|	ZACK	|	ZACK	|	ZACK	|		|	ZACK	|		|
-|	`0x1`	|	1	|	`TINA`	|	TINA	|		|	TINA	|	TINA	|	TINA	|	TINA	|		|	TINA	|		|
-|	`0x2`	|	2	|	`JANN-LEE` <sub>(LOO/LU)</sub>	|	JANN-LEE	|		|	JANN-LEE	|	JANN-LEE	|	JANN LEE	|	JANN LEE	|		|	JANN LEE	|		|
-|	`0x3`	|	3	|	?? `TINA` ??	|	??	|		|	EIN (KARATE)	|	EIN	|	EIN	|	EIN	|		|	EIN	|		|
+|	`0x0`	|	0	|	`ZACK` <sub>(KELLY)</sub></sub>	|	`ZACK`	|		|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|		|	`ZACK`	|		|
+|	`0x1`	|	1	|	`TINA`	|	`TINA`	|		|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|		|	`TINA`	|		|
+|	`0x2`	|	2	|	`JANN-LEE` <sub>(LOO/LU)</sub>	|	`JANN-LEE`	|		|	`JANN-LEE`	|	`JANN-LEE`	|	`JANN LEE`	|	`JANN LEE`	|		|	`JANN LEE`	|		|
+|	`0x3`	|	3	|	?? `TINA` ??	|	??	|		|	`EIN` (KARATE)	|	`EIN`	|	`EIN`	|	`EIN`	|		|	`EIN`	|		|
 |	`0x4`	|	4	|	`HAYABUSA` <sub>(KAMUI)</sub>	|	HAYABUSA	|		|	HAYABUSA	|	HAYABUSA	|	HAYABUSA	|	HAYABUSA	|		|	HAYABUSA	|		|
 |	`0x5`	|	5	|	`KASUMI`	|	KASUMI	|		|	KASUMI	|	KASUMI	|	KASUMI	|	KASUMI	|		|	KASUMI	|		|
 |	`0x6`	|	6	|	`GEN-FU` <sub>(FAN-FU)</sub>	|	GEN-FU	|		|	GEN-FU	|	GEN-FU	|	GEN FU	|	GEN FU	|		|	GEN FU	|		|
