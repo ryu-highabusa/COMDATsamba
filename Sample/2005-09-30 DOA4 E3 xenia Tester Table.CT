@@ -442,7 +442,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>186</ID>
-          <Description>"ACT_FLAG_P1"</Description>
+          <Description>"ACT_REQ_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
@@ -451,7 +451,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>191</ID>
-          <Description>"ACT_FLAG_P2"</Description>
+          <Description>"ACT_REQ_P2"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
@@ -460,7 +460,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>187</ID>
-          <Description>"ACT_REQ_P1"</Description>
+          <Description>"ACT_FLAG_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -468,7 +468,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>192</ID>
-          <Description>"ACT_REQ_P2"</Description>
+          <Description>"ACT_FLAG_P2"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -798,8 +798,8 @@ local ADDR = {
     HIT_POINT = "0x182CE4E34",
     ANIME     = "0x182CE4E40",
     ACT_CODE  = "0x182CE4E42",
-    ACT_FLAG  = "0x182CE4E44",
-    ACT_REQ   = "0x182CE4E46",
+    ACT_REQ   = "0x182CE4E44",
+    ACT_FLAG  = "0x182CE4E46",
     ACT_STATE = "0x182CE4E47",
   },
   P2 = {
@@ -808,8 +808,8 @@ local ADDR = {
     HIT_POINT = "0x182CE4ECC",
     ANIME     = "0x182CE4ED8",
     ACT_CODE  = "0x182CE4EDA",
-    ACT_FLAG  = "0x182CE4EDC",
-    ACT_REQ   = "0x182CE4EDE",
+    ACT_REQ   = "0x182CE4EDC",
+    ACT_FLAG  = "0x182CE4EDE",
     ACT_STATE = "0x182CE4EDF",
   }
 }
@@ -911,8 +911,8 @@ local function fmtChar(v)   return string.format("%s%s", hex8(v), CHAR_NAME[v] a
 local function fmtHP(v)     return tostring(v or 0) end
 local function fmtAnime(v)  return hex16(v) end
 local function fmtActCode(v)return hex16(v) end
-local function fmtActFlag(v)return hex16(v) end
-local function fmtActReq(v) return hex8(v) end
+local function fmtActFlag(v)return hex8(v) end
+local function fmtActReq(v) return hex16(v) end
 local function fmtActState(v)
   return string.format("%s", ACT_STATE[v] or (hex8(v).." - &lt;unknown&gt;"))
 end
@@ -931,8 +931,8 @@ local fields = {
   { key="HIT_POINT", label="HIT_POINT",                  read=read_u16_be, fmt=fmtHP     },
   { key="ANIME",     label="ANIME",                      read=read_u16_be, fmt=fmtAnime  },
   { key="ACT_CODE",  label="ACT_CODE",                   read=read_u16_be, fmt=fmtActCode},
-  { key="ACT_FLAG",  label="ACT_FLAG",                   read=read_u16_be, fmt=fmtActFlag},
-  { key="ACT_REQ",   label="ACT_REQ",                    read=read_u8,     fmt=fmtActReq },
+  { key="ACT_FLAG",  label="ACT_FLAG",                   read=read_u8,     fmt=fmtActFlag},
+  { key="ACT_REQ",   label="ACT_REQ",                    read=read_u16_be, fmt=fmtActReq },
   { key="ACT_STATE", label="ACT_STATE",                  read=read_u8,     fmt=fmtActState},
 }
 
