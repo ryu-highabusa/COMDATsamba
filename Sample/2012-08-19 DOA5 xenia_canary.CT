@@ -1724,7 +1724,7 @@
       <CheatEntries>
         <CheatEntry>
           <ID>213</ID>
-          <Description>"No description"</Description>
+          <Description>"MAN_COM_P1"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
