@@ -111,6 +111,14 @@
       <Address>182DADA42</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>293</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>2 Byte Big Endian</CustomType>
+      <Address>182d66f60</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>291</ID>
       <Description>"titlescreenplaylist_counter??"</Description>
       <ShowAsHex>1</ShowAsHex>
