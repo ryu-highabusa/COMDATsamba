@@ -111,6 +111,15 @@
       <Address>182DADA42</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>291</ID>
+      <Description>"titlescreenplaylist_counter??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183f5a110</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>11</ID>
       <Description>"TitleScreen_StagePlaylist"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -118,6 +127,14 @@
       <VariableType>Array of byte</VariableType>
       <ByteLength>24</ByteLength>
       <Address>182105910</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>292</ID>
+      <Description>"BYTE_82d59830_stageloadrelatedflag??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>182d59830</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>18</ID>
@@ -1781,7 +1798,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>219</ID>
-          <Description>"chrsel scale ?? or zoom ?? (increasing brings char closer to screen)"</Description>
+          <Description>"xpos_p1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>Float Big Endian</CustomType>
@@ -1789,7 +1806,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>220</ID>
-          <Description>"chrsel pos y"</Description>
+          <Description>"ypos_p1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>Float Big Endian</CustomType>
@@ -1797,7 +1814,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>221</ID>
-          <Description>"chrsel pos x ?"</Description>
+          <Description>"zpos_p1"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>Float Big Endian</CustomType>
@@ -1805,7 +1822,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>222</ID>
-          <Description>"DAT_83f823bc"</Description>
+          <Description>"anime_speed"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>Float Big Endian</CustomType>
