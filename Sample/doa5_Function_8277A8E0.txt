@@ -1,0 +1,268 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined __stdcall Function_8277A8E0(void)
+                               assume linkreg = 0x0
+             undefined         <UNASSIGNED>   <RETURN>
+                                             Function_8277A8E0                               XREF[2]:     821c4e08(*), 8277b83c(c)  
+        8277a8e0 7d 88 02 a6     mfspr      r12,LR
+        8277a8e4 48 3a 0a ad     bl         FUN_82b1b390                                     undefined FUN_82b1b390(void)
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
+        8277a8e8 94 21 ff 50     stwu       r1,-0xb0(r1)
+        8277a8ec 3d 60 83 e2     lis        r11,-0x7c1e
+        8277a8f0 39 40 00 3e     li         r10,0x3e
+        8277a8f4 3a cb b8 d8     subi       r22,r11,0x4728
+        8277a8f8 7c 79 1b 78     or         r25,r3,r3
+        8277a8fc 39 20 00 00     li         r9,0x0
+        8277a900 39 76 ff ff     subi       r11,r22,0x1
+        8277a904 7d 49 03 a6     mtspr      CTR,r10
+                                             LAB_8277a908                                    XREF[1]:     8277a90c(j)  
+        8277a908 9d 2b 00 01     stbu       r9,0x1(r11)=>BYTE_83e1b8d8
+        8277a90c 42 00 ff fc     bdnz       LAB_8277a908
+        8277a910 89 79 00 84     lbz        r11,0x84(r25)                                    mode byte from ctx
+        8277a914 3b 60 00 00     li         r27,0x0                                          outer index (tag/single list index)
+        8277a918 3d 40 82 0d     lis        r10,-0x7df3
+        8277a91c 2b 0b 00 00     cmplwi     cr6,r11,0x0                                      mode == 0 ?
+        8277a920 3b 00 00 00     li         r24,0x0                                          r24 = count of stages flagged
+        8277a924 3a e0 00 01     li         r23,0x1                                          constant 1 (written into BYTE_83e1b8d8)
+        8277a928 3f 80 84 09     lis        r28,0xFFFF8409
+        8277a92c 57 6b 10 3a     rlwinm     r11,r27,0x2,0x0,0x1d                             r11 = r27 * 4 (index into ddw arrays)
+        8277a930 3b 4a af 88     subi       r26,r10,0x5078                                   r26 = base for stagelist tables
+        8277a934 41 9a 01 98     beq        cr6,LAB_8277aacc                                 if mode == 0 → singles path
+                                                                                             else → tag path continues
+                                             LAB_8277a938                                    XREF[1]:     8277aa14(j)  
+        8277a938 39 5a 00 48     addi       r10=>stagelist_tag???,r26,0x48                   r10 = &stagelist_tag[0]
+        8277a93c 80 b9 00 80     lwz        r5,0x80(r25)                                     ctx->rule/playlist
+        8277a940 88 99 00 84     lbz        r4,0x84(r25)                                     mode byte
+        8277a944 7f ab 50 2e     lwzx       r29,r11,r10=>stagelist_tag???                    r29 = stagelist_tag[r27]
+        8277a948 7f a3 eb 78     or         r3,r29,r29                                       r3 = stage_id
+        8277a94c 4b ff d8 d5     bl         Function_82778220                                bool IsStageAllowed(stage_id, mode, ctx->rule)
+        8277a950 7c 69 07 74     extsb      r9,r3
+        8277a954 2f 09 00 00     cmpwi      cr6,r9,0x0
+        8277a958 41 9a 00 a8     beq        cr6,LAB_8277aa00                                 if not allowed → next tag stage
+        8277a95c 7f a3 eb 78     or         r3,r29,r29
+        8277a960 88 99 00 84     lbz        r4,0x84(r25)
+        8277a964 4b ff d8 3d     bl         FUN_827781a0_stagesingleortag???                 u8 groupIndex = GetStageGroupIndex(stage_id, mode)
+        8277a968 54 6b 06 3e     rlwinm     r11,r3,0x0,0x18,0x1f                             zero-extend group index
+        8277a96c 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        8277a970 41 9a 00 90     beq        cr6,LAB_8277aa00                                 if groupIndex == 0 → skip
+        8277a974 3b c0 00 00     li         r30,0x0                                          r30 = per-group offset
+                                             LAB_8277a978                                    XREF[1]:     8277a9fc(j)  
+        8277a978 81 7c e7 b4     lwz        r11,-0x184c(r28)=>DWORD_8408e7b4                 global flag DWORD_8408e7b4
+        8277a97c 7f fe ea 14     add        r31,r30,r29                                      r31 = stage_id + offset
+        8277a980 55 6a 07 fe     rlwinm     r10,r11,0x0,0x1f,0x1f                            bit0 of global flag
+        8277a984 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        8277a988 40 9a 00 1c     bne        cr6,LAB_8277a9a4                                 if already initialized → skip init
+                             one-time init for selection helper
+        8277a98c 61 6b 00 01     ori        r11,r11,0x1
+        8277a990 91 7c e7 b4     stw        r11,-0x184c(r28)=>DWORD_8408e7b4
+        8277a994 4b a6 84 cd     bl         Function_821E2E60                                undefined Function_821E2E60(void)
+        8277a998 3d 60 82 be     lis        r11,-0x7d42
+        8277a99c 38 6b ed 60     subi       r3=>Function_82BDED60,r11,0x12a0                 r3 = &Function_82BDED60
+        8277a9a0 48 39 d1 99     bl         Function_82B17B38                                Register callback?
+                                             LAB_8277a9a4                                    XREF[1]:     8277a988(j)  
+        8277a9a4 7f e3 fb 78     or         r3,r31,r31                                       r3 = candidateStageIndex
+        8277a9a8 4b f8 97 21     bl         Function_827040C8                                bool OK = CheckCandidateStage(r31)
+        8277a9ac 7c 6b 07 74     extsb      r11,r3
+        8277a9b0 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8277a9b4 41 9a 00 28     beq        cr6,LAB_8277a9dc                                 if not OK → skip marking
+        8277a9b8 39 60 00 00     li         r11,0x0                                          index = 0
+                                             LAB_8277a9bc                                    XREF[1]:     8277a9cc(j)  
+        8277a9bc 7f 0b f8 40     cmplw      cr6,r11,r31                                      index == candidateStageIndex ?
+        8277a9c0 41 9a 00 14     beq        cr6,LAB_8277a9d4                                 yes → mark that entry
+        8277a9c4 39 6b 00 01     addi       r11,r11,0x1
+        8277a9c8 2b 0b 00 3e     cmplwi     cr6,r11,0x3e
+        8277a9cc 41 98 ff f0     blt        cr6,LAB_8277a9bc                                 loop 0..0x3D
+        8277a9d0 48 00 00 08     b          LAB_8277a9d8                                     not found (shouldn't really happen)
+                                             LAB_8277a9d4                                    XREF[1]:     8277a9c0(j)  
+        8277a9d4 7e eb b1 ae     stbx       r23,r11,r22=>BYTE_83e1b8d8                       BYTE_83e1b8d8[index] = 1
+                                             LAB_8277a9d8                                    XREF[1]:     8277a9d0(j)  
+        8277a9d8 3b 18 00 01     addi       r24,r24,0x1                                      count flagged++
+                             Then advance the per-group offset and see if we still have ro
+                                             LAB_8277a9dc                                    XREF[1]:     8277a9b4(j)  
+        8277a9dc 39 7e 00 01     addi       r11,r30,0x1                                      offset+1
+        8277a9e0 88 99 00 84     lbz        r4,0x84(r25)                                     mode
+        8277a9e4 7f a3 eb 78     or         r3,r29,r29                                       stage_id
+        8277a9e8 55 67 06 3e     rlwinm     r7,r11,0x0,0x18,0x1f                             r7 = offset (u8)
+        8277a9ec 7c fe 3b 78     or         r30,r7,r7                                        r30 = offset
+        8277a9f0 4b ff d7 b1     bl         FUN_827781a0_stagesingleortag???                 groupSize = GetStageGroupIndex(stage_id, mode)
+        8277a9f4 54 6a 06 3e     rlwinm     r10,r3,0x0,0x18,0x1f
+        8277a9f8 7f 07 50 40     cmplw      cr6,r7,r10                                       offset < groupSize ?
+        8277a9fc 41 98 ff 7c     blt        cr6,LAB_8277a978                                 yes → try the next offset
+                             Advance to next tag-list entry
+                                             LAB_8277aa00                                    XREF[2]:     8277a958(j), 8277a970(j)  
+        8277aa00 39 7b 00 01     addi       r11,r27,0x1
+        8277aa04 55 6b 06 3e     rlwinm     r11,r11,0x0,0x18,0x1f                            r27 = (u8)(r27+1)
+        8277aa08 7d 7b 5b 78     or         r27,r11,r11
+        8277aa0c 2b 0b 00 0e     cmplwi     cr6,r11,0xe                                      while r27 < 0xE
+        8277aa10 55 6b 10 3a     rlwinm     r11,r11,0x2,0x0,0x1d                             r11 = r27 * 4
+        8277aa14 41 98 ff 24     blt        cr6,LAB_8277a938                                 → next stagelist_tag entry
+                             If, after all tag stages:
+        8277aa18 2f 18 00 00     cmpwi      cr6,r24,0x0                                      any stages flagged?
+        8277aa1c 40 9a 02 34     bne        cr6,LAB_8277ac50                                 yes → done and exit
+        8277aa20 3b c0 00 00     li         r30,0x0
+        8277aa24 57 cb 10 3a     rlwinm     r11,r30,0x2,0x0,0x1d
+                                             LAB_8277aa28                                    XREF[1]:     8277aac0(j)  
+        8277aa28 39 5a 00 48     addi       r10=>stagelist_tag???,r26,0x48                   = 3Eh
+        8277aa2c 80 b9 00 80     lwz        r5,0x80(r25)
+        8277aa30 88 99 00 84     lbz        r4,0x84(r25)
+        8277aa34 7f eb 50 2e     lwzx       r31,r11,r10=>stagelist_tag???                    = 3Eh
+                                                                                             = 19h
+        8277aa38 7f e3 fb 78     or         r3,r31,r31
+        8277aa3c 4b ff d7 e5     bl         Function_82778220                                bool Function_82778220(int param_1, char param_2)
+        8277aa40 7c 69 07 74     extsb      r9,r3
+        8277aa44 2f 09 00 00     cmpwi      cr6,r9,0x0
+        8277aa48 41 9a 00 64     beq        cr6,LAB_8277aaac
+        8277aa4c 7f e3 fb 78     or         r3,r31,r31
+        8277aa50 88 99 00 84     lbz        r4,0x84(r25)
+        8277aa54 4b ff d7 4d     bl         FUN_827781a0_stagesingleortag???                 undefined FUN_827781a0_stagesingleortag???(int param
+        8277aa58 54 6b 06 3e     rlwinm     r11,r3,0x0,0x18,0x1f
+        8277aa5c 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        8277aa60 41 9a 00 4c     beq        cr6,LAB_8277aaac
+        8277aa64 38 e0 00 00     li         r7,0x0
+                                             LAB_8277aa68                                    XREF[1]:     8277aaa8(j)  
+        8277aa68 7d 47 fa 14     add        r10,r7,r31
+        8277aa6c 39 60 00 00     li         r11,0x0
+                                             LAB_8277aa70                                    XREF[1]:     8277aa80(j)  
+        8277aa70 7f 0b 50 40     cmplw      cr6,r11,r10
+        8277aa74 41 9a 00 14     beq        cr6,LAB_8277aa88
+        8277aa78 39 6b 00 01     addi       r11,r11,0x1
+        8277aa7c 2b 0b 00 3e     cmplwi     cr6,r11,0x3e
+        8277aa80 41 98 ff f0     blt        cr6,LAB_8277aa70
+        8277aa84 48 00 00 08     b          LAB_8277aa8c
+                                             LAB_8277aa88                                    XREF[1]:     8277aa74(j)  
+        8277aa88 7e eb b1 ae     stbx       r23,r11,r22=>BYTE_83e1b8d8
+                                             LAB_8277aa8c                                    XREF[1]:     8277aa84(j)  
+        8277aa8c 39 67 00 01     addi       r11,r7,0x1
+        8277aa90 88 99 00 84     lbz        r4,0x84(r25)
+        8277aa94 7f e3 fb 78     or         r3,r31,r31
+        8277aa98 55 67 06 3e     rlwinm     r7,r11,0x0,0x18,0x1f
+        8277aa9c 4b ff d7 05     bl         FUN_827781a0_stagesingleortag???                 undefined FUN_827781a0_stagesingleortag???(int param
+        8277aaa0 54 6a 06 3e     rlwinm     r10,r3,0x0,0x18,0x1f
+        8277aaa4 7f 07 50 40     cmplw      cr6,r7,r10
+        8277aaa8 41 98 ff c0     blt        cr6,LAB_8277aa68
+                                             LAB_8277aaac                                    XREF[2]:     8277aa48(j), 8277aa60(j)  
+        8277aaac 39 7e 00 01     addi       r11,r30,0x1
+        8277aab0 55 6b 06 3e     rlwinm     r11,r11,0x0,0x18,0x1f
+        8277aab4 7d 7e 5b 78     or         r30,r11,r11
+        8277aab8 2b 0b 00 0e     cmplwi     cr6,r11,0xe
+        8277aabc 55 6b 10 3a     rlwinm     r11,r11,0x2,0x0,0x1d
+        8277aac0 41 98 ff 68     blt        cr6,LAB_8277aa28
+        8277aac4 38 21 00 b0     addi       r1,r1,0xb0
+        8277aac8 48 3a 09 18     b          LAB_82b1b3e0
+                                             LAB_8277aacc                                    XREF[2]:     8277a934(j), 8277aba4(j)  
+        8277aacc 7f ab d0 2e     lwzx       r29,r11,r26=>stagelist_singles???                = 3Eh
+                                                                                             = 1h
+        8277aad0 80 b9 00 80     lwz        r5,0x80(r25)
+        8277aad4 7f a3 eb 78     or         r3,r29,r29
+        8277aad8 88 99 00 84     lbz        r4,0x84(r25)
+        8277aadc 4b ff d7 45     bl         Function_82778220                                bool Function_82778220(int param_1, char param_2)
+        8277aae0 7c 6b 07 74     extsb      r11,r3
+        8277aae4 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8277aae8 41 9a 00 a8     beq        cr6,LAB_8277ab90
+        8277aaec 7f a3 eb 78     or         r3,r29,r29
+        8277aaf0 88 99 00 84     lbz        r4,0x84(r25)
+        8277aaf4 4b ff d6 ad     bl         FUN_827781a0_stagesingleortag???                 undefined FUN_827781a0_stagesingleortag???(int param
+        8277aaf8 54 6b 06 3e     rlwinm     r11,r3,0x0,0x18,0x1f
+        8277aafc 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        8277ab00 41 9a 00 90     beq        cr6,LAB_8277ab90
+        8277ab04 3b c0 00 00     li         r30,0x0
+                                             LAB_8277ab08                                    XREF[1]:     8277ab8c(j)  
+        8277ab08 81 7c e7 b4     lwz        r11,-0x184c(r28)=>DWORD_8408e7b4
+        8277ab0c 7f fe ea 14     add        r31,r30,r29
+        8277ab10 55 6a 07 fe     rlwinm     r10,r11,0x0,0x1f,0x1f
+        8277ab14 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        8277ab18 40 9a 00 1c     bne        cr6,LAB_8277ab34
+        8277ab1c 61 6b 00 01     ori        r11,r11,0x1
+        8277ab20 91 7c e7 b4     stw        r11,-0x184c(r28)=>DWORD_8408e7b4
+        8277ab24 4b a6 83 3d     bl         Function_821E2E60                                undefined Function_821E2E60(void)
+        8277ab28 3d 60 82 be     lis        r11,-0x7d42
+        8277ab2c 38 6b ed 60     subi       r3=>Function_82BDED60,r11,0x12a0
+        8277ab30 48 39 d0 09     bl         Function_82B17B38                                longlong Function_82B17B38(void)
+                                             LAB_8277ab34                                    XREF[1]:     8277ab18(j)  
+        8277ab34 7f e3 fb 78     or         r3,r31,r31
+        8277ab38 4b f8 95 91     bl         Function_827040C8                                ulonglong Function_827040C8(int param_1)
+        8277ab3c 7c 6b 07 74     extsb      r11,r3
+        8277ab40 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8277ab44 41 9a 00 28     beq        cr6,LAB_8277ab6c
+        8277ab48 39 60 00 00     li         r11,0x0
+                                             LAB_8277ab4c                                    XREF[1]:     8277ab5c(j)  
+        8277ab4c 7f 0b f8 40     cmplw      cr6,r11,r31
+        8277ab50 41 9a 00 14     beq        cr6,LAB_8277ab64
+        8277ab54 39 6b 00 01     addi       r11,r11,0x1
+        8277ab58 2b 0b 00 3e     cmplwi     cr6,r11,0x3e
+        8277ab5c 41 98 ff f0     blt        cr6,LAB_8277ab4c
+        8277ab60 48 00 00 08     b          LAB_8277ab68
+                                             LAB_8277ab64                                    XREF[1]:     8277ab50(j)  
+        8277ab64 7e eb b1 ae     stbx       r23,r11,r22=>BYTE_83e1b8d8
+                                             LAB_8277ab68                                    XREF[1]:     8277ab60(j)  
+        8277ab68 3b 18 00 01     addi       r24,r24,0x1
+                                             LAB_8277ab6c                                    XREF[1]:     8277ab44(j)  
+        8277ab6c 39 7e 00 01     addi       r11,r30,0x1
+        8277ab70 88 99 00 84     lbz        r4,0x84(r25)
+        8277ab74 7f a3 eb 78     or         r3,r29,r29
+        8277ab78 55 67 06 3e     rlwinm     r7,r11,0x0,0x18,0x1f
+        8277ab7c 7c fe 3b 78     or         r30,r7,r7
+        8277ab80 4b ff d6 21     bl         FUN_827781a0_stagesingleortag???                 undefined FUN_827781a0_stagesingleortag???(int param
+        8277ab84 54 6a 06 3e     rlwinm     r10,r3,0x0,0x18,0x1f
+        8277ab88 7f 07 50 40     cmplw      cr6,r7,r10
+        8277ab8c 41 98 ff 7c     blt        cr6,LAB_8277ab08
+                                             LAB_8277ab90                                    XREF[2]:     8277aae8(j), 8277ab00(j)  
+        8277ab90 39 7b 00 01     addi       r11,r27,0x1
+        8277ab94 55 6b 06 3e     rlwinm     r11,r11,0x0,0x18,0x1f
+        8277ab98 7d 7b 5b 78     or         r27,r11,r11
+        8277ab9c 2b 0b 00 12     cmplwi     cr6,r11,0x12
+        8277aba0 55 6b 10 3a     rlwinm     r11,r11,0x2,0x0,0x1d
+        8277aba4 41 98 ff 28     blt        cr6,LAB_8277aacc
+        8277aba8 2f 18 00 00     cmpwi      cr6,r24,0x0
+        8277abac 40 9a 00 a4     bne        cr6,LAB_8277ac50
+        8277abb0 3b c0 00 00     li         r30,0x0
+        8277abb4 57 cb 10 3a     rlwinm     r11,r30,0x2,0x0,0x1d
+                                             LAB_8277abb8                                    XREF[1]:     8277ac4c(j)  
+        8277abb8 7f eb d0 2e     lwzx       r31,r11,r26=>stagelist_singles???                = 3Eh
+                                                                                             = 1h
+        8277abbc 80 b9 00 80     lwz        r5,0x80(r25)
+        8277abc0 7f e3 fb 78     or         r3,r31,r31
+        8277abc4 88 99 00 84     lbz        r4,0x84(r25)
+        8277abc8 4b ff d6 59     bl         Function_82778220                                bool Function_82778220(int param_1, char param_2)
+        8277abcc 7c 6b 07 74     extsb      r11,r3
+        8277abd0 2f 0b 00 00     cmpwi      cr6,r11,0x0
+        8277abd4 41 9a 00 64     beq        cr6,LAB_8277ac38
+        8277abd8 7f e3 fb 78     or         r3,r31,r31
+        8277abdc 88 99 00 84     lbz        r4,0x84(r25)
+        8277abe0 4b ff d5 c1     bl         FUN_827781a0_stagesingleortag???                 undefined FUN_827781a0_stagesingleortag???(int param
+        8277abe4 54 6b 06 3e     rlwinm     r11,r3,0x0,0x18,0x1f
+        8277abe8 2b 0b 00 00     cmplwi     cr6,r11,0x0
+        8277abec 41 9a 00 4c     beq        cr6,LAB_8277ac38
+        8277abf0 38 e0 00 00     li         r7,0x0
+                                             LAB_8277abf4                                    XREF[1]:     8277ac34(j)  
+        8277abf4 7d 47 fa 14     add        r10,r7,r31
+        8277abf8 39 60 00 00     li         r11,0x0
+                                             LAB_8277abfc                                    XREF[1]:     8277ac0c(j)  
+        8277abfc 7f 0b 50 40     cmplw      cr6,r11,r10
+        8277ac00 41 9a 00 14     beq        cr6,LAB_8277ac14
+        8277ac04 39 6b 00 01     addi       r11,r11,0x1
+        8277ac08 2b 0b 00 3e     cmplwi     cr6,r11,0x3e
+        8277ac0c 41 98 ff f0     blt        cr6,LAB_8277abfc
+        8277ac10 48 00 00 08     b          LAB_8277ac18
+                                             LAB_8277ac14                                    XREF[1]:     8277ac00(j)  
+        8277ac14 7e eb b1 ae     stbx       r23,r11,r22=>BYTE_83e1b8d8
+                                             LAB_8277ac18                                    XREF[1]:     8277ac10(j)  
+        8277ac18 39 67 00 01     addi       r11,r7,0x1
+        8277ac1c 88 99 00 84     lbz        r4,0x84(r25)
+        8277ac20 7f e3 fb 78     or         r3,r31,r31
+        8277ac24 55 67 06 3e     rlwinm     r7,r11,0x0,0x18,0x1f
+        8277ac28 4b ff d5 79     bl         FUN_827781a0_stagesingleortag???                 undefined FUN_827781a0_stagesingleortag???(int param
+        8277ac2c 54 6a 06 3e     rlwinm     r10,r3,0x0,0x18,0x1f
+        8277ac30 7f 07 50 40     cmplw      cr6,r7,r10
+        8277ac34 41 98 ff c0     blt        cr6,LAB_8277abf4
+                                             LAB_8277ac38                                    XREF[2]:     8277abd4(j), 8277abec(j)  
+        8277ac38 39 7e 00 01     addi       r11,r30,0x1
+        8277ac3c 55 6b 06 3e     rlwinm     r11,r11,0x0,0x18,0x1f
+        8277ac40 7d 7e 5b 78     or         r30,r11,r11
+        8277ac44 2b 0b 00 12     cmplwi     cr6,r11,0x12
+        8277ac48 55 6b 10 3a     rlwinm     r11,r11,0x2,0x0,0x1d
+        8277ac4c 41 98 ff 6c     blt        cr6,LAB_8277abb8
+                                             LAB_8277ac50                                    XREF[2]:     8277aa1c(j), 8277abac(j)  
+        8277ac50 38 21 00 b0     addi       r1,r1,0xb0
+        8277ac54 48 3a 07 8c     b          LAB_82b1b3e0                                     shared epilogue: restore LR & return
