@@ -16,13 +16,13 @@ hash = "7F840B8DEFDB5C5E" # default.xex
 
 [[patch]]
     name = "Increased Max Character Distance"
-    desc = "Increases the maximum distance between characters from 6.0f to 12.0f. Please note this breaks some animations."
+    desc = "Increases the maximum distance between characters from 6.0f to 420.0f. Please note this breaks some animations."
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
-    [[patch.be32]]
+    [[patch.f32]]
         address = 0x822a9df8
-        value = 0x41400000
+        value = 420.0
 
 [[patch]]
     name = "Alpha-152 can now be selected!"
