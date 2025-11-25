@@ -4,7 +4,7 @@
 03 "FUEL" (TOP)
 04 "FUEL" (BOTTOM)
 05 
-06 
+06 "LAB" (unlockable)
 07 deleted
 08 "FLOW"
 09 "PRIMAL"
@@ -30,4 +30,6 @@
 1D "SWEAT"
 1E "DEAD OR ALIVE"
 1F "ARRIVAL"
+20 
+21 "ZACK ISLAND"
 FF "RANDOM"
