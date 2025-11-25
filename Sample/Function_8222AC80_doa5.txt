@@ -1,0 +1,88 @@
+                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined8 __stdcall Function_8222AC80(void)
+                               assume linkreg = 0x0
+             undefined8        r3:8           <RETURN>
+             undefined4        Stack[-0x8]:4  local_8                                 XREF[3]:     8222ac84(W), 
+                                                                                                   8222ad14(R), 
+                                                                                                   8222ad30(R)  
+             undefined8        Stack[-0x10]:8 local_10                                XREF[3]:     8222ac88(W), 
+                                                                                                   8222ad1c(R), 
+                                                                                                   8222ad38(R)  
+             undefined4        Stack[-0x60]:4 local_60                                XREF[1]:     8222ac8c(W)  
+                                             Function_8222AC80                               XREF[83]:    Function_8222B440:8222b530(c), 
+                                                                                                          Function_823118D8:823118fc(c), 
+                                                                                                          Function_8240D4F0:8240d660(c), 
+                                                                                                          Function_8241BF68:8241bf8c(c), 
+                                                                                                          Function_8241BF68:8241bf9c(c), 
+                                                                                                          Function_8241BF68:8241bfb0(c), 
+                                                                                                          Function_8241BF68:8241bfb8(c), 
+                                                                                                          Function_82433F70:82433fd0(c), 
+                                                                                                          Function_82433F70:82433ff0(c), 
+                                                                                                          Function_82435308:82435370(c), 
+                                                                                                          Function_82435308:82435388(c), 
+                                                                                                          FUN_82505ec0:82506278(c), 
+                                                                                                          Function_8253AD00:8253ad98(c), 
+                                                                                                          Function_8253C6D8:8253c788(c), 
+                                                                                                          Function_82541600:82541688(c), 
+                                                                                                          Function_82541600:825416e4(c), 
+                                                                                                          Function_82541C10:82541c84(c), 
+                                                                                                          switchD:82541fd0(c), 
+                                                                                                          Function_82562140:82562294(c), 
+                                                                                                          Function_82562DC0:82562dd4(c), 
+                                                                                                          [more]
+        8222ac80 7d 88 02 a6     mfspr      r12,LR
+        8222ac84 91 81 ff f8     stw        r12,local_8(r1)
+        8222ac88 fb e1 ff f0     std        r31,local_10(r1)
+        8222ac8c 94 21 ff a0     stwu       r1,local_60(r1)
+        8222ac90 3d 20 83 f9     lis        r9,-0x7c07
+        8222ac94 81 69 46 44     lwz        r11,offset DAT_83f94644(r9)
+        8222ac98 55 6a 07 fe     rlwinm     r10,r11,0x0,0x1f,0x1f
+        8222ac9c 2b 0a 00 00     cmplwi     cr6,r10,0x0
+        8222aca0 40 9a 00 84     bne        cr6,LAB_8222ad24
+        8222aca4 3d 00 83 f9     lis        r8,-0x7c07
+        8222aca8 61 6b 00 01     ori        r11,r11,0x1
+        8222acac 3b e8 46 34     addi       r31,r8,0x4634
+        8222acb0 91 69 46 44     stw        r11,offset DAT_83f94644(r9)
+        8222acb4 39 40 ff ff     li         r10,-0x1
+        8222acb8 39 60 00 00     li         r11,0x0
+        8222acbc 91 48 46 34     stw        r10,offset TitleScreenStageDISP_83f94634(r8)
+        8222acc0 39 40 00 ff     li         r10,0xff
+        8222acc4 39 00 00 ff     li         r8,0xff
+        8222acc8 99 7f 00 04     stb        r11,0x4(r31)=>DAT_83f94638
+        8222accc 39 60 00 ff     li         r11,0xff
+        8222acd0 99 5f 00 06     stb        r10,0x6(r31)=>TitleScreenStage?_83f9463a
+        8222acd4 39 20 00 00     li         r9,0x0
+        8222acd8 99 1f 00 07     stb        r8,0x7(r31)=>DAT_83f9463b
+        8222acdc 39 40 00 00     li         r10,0x0
+        8222ace0 99 7f 00 08     stb        r11,0x8(r31)=>DAT_83f9463c
+        8222ace4 39 00 00 00     li         r8,0x0
+        8222ace8 39 60 00 00     li         r11,0x0
+        8222acec 99 3f 00 05     stb        r9,0x5(r31)=>DAT_83f94639
+        8222acf0 99 3f 00 09     stb        r9,0x9(r31)=>DAT_83f9463d
+        8222acf4 3c e0 82 93     lis        r7,-0x7d6d
+        8222acf8 99 5f 00 0a     stb        r10,0xa(r31)=>DAT_83f9463e
+        8222acfc 99 1f 00 0b     stb        r8,0xb(r31)=>StageLoadFlag_83f9463f              1 when reading new stage data
+        8222ad00 38 67 c5 98     subi       r3=>FUN_8292c598,r7,0x3a68
+        8222ad04 99 7f 00 0c     stb        r11,0xc(r31)=>DAT_83f94640
+        8222ad08 48 65 66 31     bl         Function_82881338                                longlong Function_82881338(void)
+        8222ad0c 7f e3 fb 78     or         r3=>TitleScreenStageDISP_83f94634,r31,r31
+        8222ad10 38 21 00 60     addi       r1,r1,0x60
+        8222ad14 81 81 ff f8     lwz        r12,local_8(r1)
+        8222ad18 7d 88 03 a6     mtspr      LR,r12
+        8222ad1c eb e1 ff f0     ld         r31,local_10(r1)
+        8222ad20 4e 80 00 20     blr
+                                             LAB_8222ad24                                    XREF[1]:     8222aca0(j)  
+        8222ad24 3d 60 83 f9     lis        r11,-0x7c07
+        8222ad28 38 6b 46 34     addi       r3=>TitleScreenStageDISP_83f94634,r11,0x4634
+        8222ad2c 38 21 00 60     addi       r1,r1,0x60
+        8222ad30 81 81 ff f8     lwz        r12,local_8(r1)
+        8222ad34 7d 88 03 a6     mtspr      LR,r12
+        8222ad38 eb e1 ff f0     ld         r31,local_10(r1)
+        8222ad3c 4e 80 00 20     blr
+                                             Function_8222AD40                               XREF[2]:     8215cc18(*), 
+                                                                                                          Function_8222AE30:8222aec4(*)  
+        8222ad40 7d 88 02 a6     mfspr      r12,LR
+        8222ad44 48 65 95 45     bl         FUN_82884288                                     undefined FUN_82884288(void)
+                             -- Flow Override: CALL_RETURN (CALL_TERMINATOR)
