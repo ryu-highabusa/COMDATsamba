@@ -128,6 +128,22 @@
       <Address>183f5a110</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>294</ID>
+      <Description>"DWORD_84093918 (if flag==1 → skip init)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>184093918</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>295</ID>
+      <Description>"DAT_83e05690"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183e05690</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>11</ID>
       <Description>"TitleScreen_StagePlaylist"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -143,6 +159,105 @@
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
       <Address>182d59830</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>308</ID>
+      <Description>"DAT_83e1b8d7"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183e1b8d7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>309</ID>
+      <Description>"constant 1 (written into BYTE_83e1b8d8)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>183e1b8d8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>307</ID>
+      <Description>"stage_ID ???"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>296</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>18409390E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>297</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>19409390E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>298</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1B9C36C13</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>299</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1B9C36C17</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>300</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1BA9E2C53</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>301</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1D9C36C13</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>302</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1D9C36C17</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>303</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1DA9E2C53</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>304</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1F9C36C13</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>305</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1F9C36C17</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>306</ID>
+          <Description>"No description"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>Byte</VariableType>
+          <Address>1FA9E2C53</Address>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>18</ID>
