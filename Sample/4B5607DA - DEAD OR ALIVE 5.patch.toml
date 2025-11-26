@@ -3,11 +3,89 @@ title_id = "4B5607DA"
 hash = "B00E3FD1F2393598" # default.xex
 
 [[patch]]
+    name = "Tag Stage Test"
+    desc = "Add Tag Flag to Scramble Possibly"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x82104d90
+        value = 0x01010101
+
+[[patch]]
     name = "255-hit Combo Limit"
     desc = "Increases the combo limit from 30 to 255"
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
     [[patch.be8]]
         address = 0x82406bd7
         value = 0xff
+
+[[patch]]
+    name = "Title Screen Stage Replacement Test"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x82105910
+        value = 0x21212121
+
+[[patch]]
+    name = "stage list change attempt"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be32]]
+#        address = 0x8277b574
+#        value = 0x48000038
+address = 0x827781a8
+value = 0x2f0b0001
+
+[[patch]]
+    name = "stage_id swap"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x820cafd4
+        value = 0x00000001
+    [[patch.be32]]
+        address = 0x820cafd8
+        value = 0x00000013
+    [[patch.be32]]
+        address = 0x820cafdc
+        value = 0x00000018
+    [[patch.be32]]
+        address = 0x820cafe0
+        value = 0x0000000f
+    [[patch.be32]]
+        address = 0x820cafe4
+        value = 0x00000008
+    [[patch.be32]]
+        address = 0x820cafe8
+        value = 0x0000000d
+    [[patch.be32]]
+        address = 0x820cafec
+        value = 0x00000014
+    [[patch.be32]]
+        address = 0x820caff0
+        value = 0x0000000b
+    [[patch.be32]]
+        address = 0x820caff4
+        value = 0x00000003
+    [[patch.be32]]
+        address = 0x820caff8
+        value = 0x0000000a
+    [[patch.be32]]
+        address = 0x820caffc
+        value = 0x00000016
+    [[patch.be32]]
+        address = 0x820cb000
+        value = 0x0000001b
+    [[patch.be32]]
+        address = 0x820cb004
+        value = 0x00000021
