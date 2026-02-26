@@ -2807,6 +2807,45 @@
       <VariableType>4 Bytes</VariableType>
       <Address>1820f24c8</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>399</ID>
+      <Description>"No description"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183E6C9FC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>400</ID>
+      <Description>"No description"</Description>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183F371B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>401</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183e6c6d4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>402</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183b6e714</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>403</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>4 Byte Big Endian</CustomType>
+      <Address>183e6b818</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
 </CheatTable>
