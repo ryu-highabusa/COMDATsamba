@@ -2743,6 +2743,7 @@
     <CheatEntry>
       <ID>392</ID>
       <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
       <VariableType>String</VariableType>
       <Length>12</Length>
       <Unicode>1</Unicode>
@@ -2754,7 +2755,7 @@
       <ID>393</ID>
       <Description>"No description"</Description>
       <VariableType>String</VariableType>
-      <Length>12</Length>
+      <Length>36</Length>
       <Unicode>1</Unicode>
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
@@ -2845,6 +2846,14 @@
       <VariableType>Custom</VariableType>
       <CustomType>4 Byte Big Endian</CustomType>
       <Address>183e6b818</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>404</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Custom</VariableType>
+      <CustomType>Float Big Endian</CustomType>
+      <Address>1820f4f40</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
