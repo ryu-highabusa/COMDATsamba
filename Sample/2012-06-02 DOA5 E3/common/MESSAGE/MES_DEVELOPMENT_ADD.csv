@@ -1,0 +1,6 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_DEVELOPMENT_ADD.BIN,0,string_pack,0,メッセージ追加テスト,,,,,
+MES_DEVELOPMENT_ADD.BIN,0,string_pack,1,このムービーは仮のものです,This movie is not final.,,,,
+MES_DEVELOPMENT_ADD.BIN,0,string_pack,2,@[pad:Ru]試合を中断する　　@[pad:Cancel]ルームから抜ける,,,,,
+MES_DEVELOPMENT_ADD.BIN,0,string_pack,3,試合を中断します。メンバー全員がロビーに戻りますが、よろしいですか？,,,,,
+MES_DEVELOPMENT_ADD.BIN,0,string_pack,4,@[pad:Cancel]ルームから抜ける,,,,,

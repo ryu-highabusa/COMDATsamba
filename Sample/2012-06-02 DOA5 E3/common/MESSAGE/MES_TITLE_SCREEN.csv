@@ -1,0 +1,28 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_TITLE_SCREEN.BIN,0,string_pack,0,@[pad:Ru]体験版を終了する,@[pad:Ru]Quit Demo,@[pad:Ru]Quitter démo,@[pad:Ru]Demo beenden,@[pad:Ru]Esci dalla demo,@[pad:Ru]Salir de la demo
+MES_TITLE_SCREEN.BIN,0,string_pack,1,@[pad:Rl]操作説明,@[pad:Rl]Controls,@[pad:Rl]Commandes,@[pad:Rl]Steuerung,@[pad:Rl]Comandi,@[pad:Rl]Controles
+MES_TITLE_SCREEN.BIN,0,string_pack,2,@[pad:Decide]はい,,,,,
+MES_TITLE_SCREEN.BIN,0,string_pack,3,@[pad:Cancel]いいえ,,,,,
+MES_TITLE_SCREEN.BIN,0,string_pack,4,体験版を終了します。よろしいですか？,Quit the demo?,Quitter la démo ?,Demo beenden?,Uscire dalla demo?,¿Salir de la demo?
+MES_TITLE_SCREEN.BIN,0,string_pack,5,@[pad:Decide]はい　　@[pad:Cancel]いいえ,@[pad:Decide]Yes  @[pad:Cancel]No,@[pad:Decide]Oui  @[pad:Cancel]Non,@[pad:Decide]Ja  @[pad:Cancel]Nein,@[pad:Decide]Sì  @[pad:Cancel]No,@[pad:Decide]Sí  @[pad:Cancel]No
+MES_TITLE_SCREEN.BIN,0,string_pack,6,DEAD OR ALIVE 5,DEAD OR ALIVE 5,DEAD OR ALIVE 5,DEAD OR ALIVE 5,DEAD OR ALIVE 5,DEAD OR ALIVE 5
+MES_TITLE_SCREEN.BIN,0,string_pack,7,PRESS START,PRESS START,APPUYEZ SUR START,DRÜCKE START,PREMI START,PULSA START
+MES_TITLE_SCREEN.BIN,0,string_pack,8,ALPHA DEMO,ALPHA DEMO,DÉMO ALPHA,ALPHA-DEMO,DEMO ALPHA,DEMO ALFA
+MES_TITLE_SCREEN.BIN,0,string_pack,9,BETA VERSION,BETA VERSION,VERSION BÉTA,BETA-VERSION,VERSIONE BETA,VERSIÓN BETA
+MES_TITLE_SCREEN.BIN,0,string_pack,10,Ver. 0.50,Ver. 0.50,Ver. 0.50,Ver. 0.50,Ver. 0.50,Ver. 0.50
+MES_TITLE_SCREEN.BIN,0,string_pack,11,PLAYSTYLE SELECT,SELECT PLAY STYLE,CHOISIR LE STYLE DE JEU,SCHWIERIGKEIT WÄHLEN,SELEZIONE STILE DI GIOCO,SELECCIONAR ESTILO DE JUEGO
+MES_TITLE_SCREEN.BIN,0,string_pack,12,カジュアル,CASUAL,OCCASIONNEL,CASUAL,DILETTANTE,CASUAL
+MES_TITLE_SCREEN.BIN,0,string_pack,13,演出を楽しみたい人にお勧めのプレイスタイルです,Good for people who want to enjoy the action.,Adapté aux joueurs souhaitant profiter de l’action.,"Empfohlen für alle, die entspannt spielen möchten.",Ideale per chi vuole soprattutto godersi l'azione.,Ideal para a los que les encanta la acción.
+MES_TITLE_SCREEN.BIN,0,string_pack,14,プロフェッショナル,PRO,PRO,PRO,PRO,PRO
+MES_TITLE_SCREEN.BIN,0,string_pack,15,真剣勝負をしたい人にお勧めのプレイスタイルです,Good for people who want to put their fighting skills to the test.,Parfait pour les joueurs qui cherchent à mettre leurs aptitudes de combat à l’épreuve.,"Empfohlen für alle, die ihre Kampfkünste unter Beweis stellen möchten.",Ideale per chi vuole mettersi davvero alla prova.,Ideal para a los que les encanta poner a prueba sus habilidades de lucha.
+MES_TITLE_SCREEN.BIN,0,string_pack,16,"プレイスタイルをカジュアルに設定しました。
+設定した内容は、「オプション」でいつでも変更できます",Play style set to casual. You can change this setting in the options menu.,Style de jeu choisi : Occasionnel. Vous pouvez modifier les paramètres dans le menu Options.,"Schwierigkeit ""Casual"" gewählt. Diese Einstellung kannst du im Optionsmenü ändern.",Stile di gioco impostato su Dilettante. Potrai cambiarlo nel menu Opzioni.,Se ha elegido el estilo de juego Casual. Puedes cambiar este ajuste en el menú de opciones.
+MES_TITLE_SCREEN.BIN,0,string_pack,17,"プレイスタイルをプロフェッショナルに設定しました。
+設定した内容は、「オプション」でいつでも変更できます",Play style set to pro. You can change this setting in the options menu.,Style de jeu choisi : Pro. Vous pouvez modifier les paramètres dans le menu Options.,"Schwierigkeit ""Pro"" gewählt. Diese Einstellung kannst du im Optionsmenü ändern.",Stile di gioco impostato su Pro. Potrai cambiarlo nel menu Opzioni.,Se ha elegido el estilo de juego Pro. Puedes cambiar este ajuste en el menú de opciones.
+MES_TITLE_SCREEN.BIN,0,string_pack,18,あなたのプレイスタイルに合わせて設定を変更します,Select an appropriate play style.,,,,
+MES_TITLE_SCREEN.BIN,0,string_pack,19,カメラタイプ,CAMERA TYPE,TYPE DE CAMÉRA,KAMERATYP,TIPO DI TELECAMERA,TIPO DE CÁMARA
+MES_TITLE_SCREEN.BIN,0,string_pack,20,ダイナミック,ACTION,ACTION,ACTION,AZIONE,ACCIÓN
+MES_TITLE_SCREEN.BIN,0,string_pack,21,クラシック,CLASSIC,CLASSIQUE,KLASSISCH,CLASSICA,CLÁSICO
+MES_TITLE_SCREEN.BIN,0,string_pack,22,ヒットエフェクト,HIT EFFECT,EFFET DE COUP,TREFFEREFFEKT,EFFETTI DEI COLPI,EFECTO DE GOLPES
+MES_TITLE_SCREEN.BIN,0,string_pack,23,ON,ON,ACTIVÉ,EIN,SÌ,SÍ
+MES_TITLE_SCREEN.BIN,0,string_pack,24,OFF,OFF,DÉSACTIVÉ,AUS,NO,NO

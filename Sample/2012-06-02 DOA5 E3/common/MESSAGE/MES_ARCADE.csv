@@ -1,0 +1,34 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_ARCADE.BIN,0,string_pack,0,SINGLE MATCH,SOLO MATCH,MATCH SOLO,SOLOSPIEL,PARTITA SOLO,COMBATE EN SOLITARIO
+MES_ARCADE.BIN,0,string_pack,1,キャラクター１人で戦います,A single character enters the battle,Un seul personnage entre dans le combat,Ein einzelner Charakter tritt zum Kampf an,Un personaggio combatte da solo,Un solo personaje entra en la batalla.
+MES_ARCADE.BIN,0,string_pack,2,TAG MATCH,TAG MATCH,MATCH DEUX CONTRE DEUX,PARTNERSPIEL,TAG MATCH,COMBATE EN EQUIPO
+MES_ARCADE.BIN,0,string_pack,3,キャラクター２人でタッグを組んで戦います,Two characters enter the battle as a tag team,Deux personnages entrent dans le combat en équipe,Zwei Charaktere treten gemeinsam als Team an,Due personaggi combattono in squadra,Dos personajes entran en la batalla en equipo.
+MES_ARCADE.BIN,0,string_pack,4,挑戦するコースを選んでください,Select a course to tackle.,Sélectionnez une course.,Wähle einen Kurs aus.,Seleziona un percorso da affrontare.,Selecciona una ruta.
+MES_ARCADE.BIN,0,string_pack,5,,,,,,
+MES_ARCADE.BIN,0,string_pack,6,,,,,,
+MES_ARCADE.BIN,0,string_pack,7,,,,,,
+MES_ARCADE.BIN,0,string_pack,8,,,,,,
+MES_ARCADE.BIN,0,string_pack,9,,,,,,
+MES_ARCADE.BIN,0,string_pack,10,,,,,,
+MES_ARCADE.BIN,0,string_pack,11,,,,,,
+MES_ARCADE.BIN,0,string_pack,12,,,,,,
+MES_ARCADE.BIN,0,string_pack,13,,,,,,
+MES_ARCADE.BIN,0,string_pack,14,,,,,,
+MES_ARCADE.BIN,0,string_pack,15,,,,,,
+MES_ARCADE.BIN,0,string_pack,16,,,,,,
+MES_ARCADE.BIN,0,string_pack,17,,,,,,
+MES_ARCADE.BIN,0,string_pack,18,,,,,,
+MES_ARCADE.BIN,0,string_pack,19,,,,,,
+MES_ARCADE.BIN,0,string_pack,20,,,,,,
+MES_ARCADE.BIN,0,string_pack,21,DIFFICULTY,DIFFICULTY,DIFFICULTÉ,SCHWIERIGKEIT,DIFFICOLTÀ,DIFICULTAD
+MES_ARCADE.BIN,0,string_pack,22,BEST SCORE,HIGH SCORE,MEILLEUR SCORE,HIGHSCORE,RECORD,RÉCORD
+MES_ARCADE.BIN,0,string_pack,23,1st,1st,1er,1,1°,1.º
+MES_ARCADE.BIN,0,string_pack,24,2nd,2nd,2ème,2,2°,2.º
+MES_ARCADE.BIN,0,string_pack,25,3rd,3rd,3ème,3,3°,3.º
+MES_ARCADE.BIN,0,string_pack,26,4th,4th,4ème,4,4°,4.º
+MES_ARCADE.BIN,0,string_pack,27,5th,5th,5ème,5,5°,5.º
+MES_ARCADE.BIN,0,string_pack,28,6th,6th,6ème,6,6°,6.º
+MES_ARCADE.BIN,0,string_pack,29,7th,7th,7ème,7,7°,7.º
+MES_ARCADE.BIN,0,string_pack,30,8th,8th,8ème,8,8°,8.º
+MES_ARCADE.BIN,0,string_pack,31,9th,9th,9ème,9,9°,9.º
+MES_ARCADE.BIN,0,string_pack,32,10th,10th,10ème,10,10°,10.º

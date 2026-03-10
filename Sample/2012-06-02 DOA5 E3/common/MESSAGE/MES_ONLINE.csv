@@ -1,0 +1,194 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_ONLINE.BIN,0,string_pack,0,相手を素早く見つけて対戦します。グレードは変動しません。,Quickly join a match with another opponent. Grade will not change.,MATCH SIMPLE,EINFACHES SPIEL,PARTITA VELOCE,COMBATE RÁPIDO
+MES_ONLINE.BIN,0,string_pack,1,相手を素早く見つけて対戦します。グレードが変動します。,Quickly join a match with another opponent. Grade will change.,PARTIE AVEC CLASSEMENT,RANGSPIEL,PARTITA CLASSIFICATA,COMBATE DE CLASIFICACIÓN
+MES_ONLINE.BIN,0,string_pack,2,最大１６人で、様々なルールで対戦します。グレードは変動しません。,Set various rules and fight with up to 16 people. Grade will not change.,SALLE D'ATTENTE,LOBBY-SPIEL,PARTITA SALA D'ATTESA,COMBATE DE PUNTO DE ENCUENTRO
+MES_ONLINE.BIN,0,string_pack,3,様々なランキングを閲覧します。,View leaderboards.,TABLEAU DES CHAMPIONS,BESTENLISTEN,CLASSIFICHE,MARCADORES
+MES_ONLINE.BIN,0,string_pack,4,登録したファイターを確認します。対戦を申し込んだり、AIと戦うこともできます。,View fighters you have registered. Send them throwdowns or fight their AIs.,LISTE DES COMBATTANTS,KÄMPFERLISTE,ELENCO LOTTATORI,LISTA DE LUCHADORES
+MES_ONLINE.BIN,0,string_pack,5,facebook,FACEBOOK,FACEBOOK,FACEBOOK,FACEBOOK,FACEBOOK
+MES_ONLINE.BIN,0,string_pack,6,@[pad:Decide]決定　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,7,登録済みのファイターです。新規追加は、対戦後のメニューやロビーのサブメニューで行います。,List of registered fighters. New fighters can be registered after a fight or in a lobby.,LISTE DES COMBATTANTS,KÄMPFERLISTE,ELENCO LOTTATORI,LISTA DE LUCHADORES
+MES_ONLINE.BIN,0,string_pack,8,@[pad:Decide]対戦申し込み　　@[pad:Ru]リストから削除　　@[pad:Rl]ゴーストリスト　　@[pad:Cancel]戻る,@[pad:Decide]Throwdown Challenge  @[pad:Ru]Delete  @[pad:Rl]Ghost list  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,9,リストから削除します。よろしいですか?,Delete this entry from the list?,Effacer de la liste ?,Diesen Eintrag aus der Liste entfernen?,Eliminare questa voce dalla lista?,¿Quieres borrar esta entrada de la lista?
+MES_ONLINE.BIN,0,string_pack,10,対戦を申し込みます。よろしいですか?,Challenge this player to a fight?,Affronter cet adversaire ?,DIesen Spieler zum Kampf herausfordern?,Vuoi sfidare questo giocatore in combattimento?,¿Quieres retar a este jugador?
+MES_ONLINE.BIN,0,string_pack,11,YOUR WINS:,YOUR WINS:,VOS VICTOIRES :,DEINE SIEGE:,TUE VITTORIE:,VICTORIAS:
+MES_ONLINE.BIN,0,string_pack,12,YOUR LOSES:,YOUR LOSES:,VOS DÉFAITES :,DEINE NIEDERLAGEN:,TUE SCONFITTE:,DERROTAS:
+MES_ONLINE.BIN,0,string_pack,13,LAST MATCH:,LAST MATCH:,DERNIER MATCH :,LETZTES SPIEL:,ULTIMA PARTITA:,ÚLTIMO COMBATE:
+MES_ONLINE.BIN,0,string_pack,14,参加可能なルームです。,List of all lobbies you can join.,LISTE DES SALLES D'ATTENTE,LOBBY-LISTE,ELENCO SALA D'ATTESA,LISTA DE PUNTOS DE ENCUENTRO
+MES_ONLINE.BIN,0,string_pack,15,@[pad:Decide]参加する　　@[pad:Ru]再検索する　　@[pad:Cancel]戻る,@[pad:Decide]Join  @[pad:Ru]Update  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,16,tournament,TOURNAMENT,TOURNOIS,WETTKAMPF,TORNEO,TORNEO
+MES_ONLINE.BIN,0,string_pack,17,@[pad:Decide]決定　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,18,lobby,LOBBY,SALLE D'ATTENTE,LOBBY,SALA D'ATTESA,PUNTO DE ENCUENTRO
+MES_ONLINE.BIN,0,string_pack,19,@[pad:Decide]準備完了　　@[pad:Ru]サブメニュー　　@[pad:Start]テキストチャット　　@[pad:Cancel]ルームから抜ける,@[pad:Decide]Ready  @[pad:Ru]Submenu  @[pad:Start]Text chat  @[pad:Cancel]Exit lobby,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,20,ロビーから退出します。よろしいですか?,Exit the lobby?,Quitter la salle d'attente ?,Lobby verlassen?,Vuoi uscire dalla sala d'attesa?,¿Salir del punto de encuentro?
+MES_ONLINE.BIN,0,string_pack,21,lobby sub,LOBBY SUB,SALLE D'ATTENTE SECONDAIRE,LOBBY SUB,SALA D'ATTESA SUB,SUBPUNTO DE ENCUENTRO
+MES_ONLINE.BIN,0,string_pack,22,@[pad:Decide]決定　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,23,rule,RULE,RÈGLES,REGEL,REGOLE,REGLA
+MES_ONLINE.BIN,0,string_pack,24,ファイターリストに登録します。よろしいですか?,Register this player in your Fighter List?,Ajouter ce joueur à la liste de combattants ?,Diesen Spieler deinr Kämpferliste hinzufügen?,Vuoi registrare questo lottatore nel tuo Elenco lottatori?,¿Quieres registrar este jugador en tu lista de luchadores?
+MES_ONLINE.BIN,0,string_pack,25,強制退出させます。よろしいですか?,Kick this player out of the lobby?,Éjecter ce joueur de la salle d'attente ?,Diesen Spieler aus der Lobby werfen?,Vuoi espellere questo giocatore dalla lista d'attesa?,¿Quieres expulsar a este jugador del punto de encuentro?
+MES_ONLINE.BIN,0,string_pack,26,ホスト権限を委譲します。よろしいですか?,Do you want to make this player the host?,Faire de ce joueur l’hôte du match ?,Möchtest du diesen Spieler als Host auswählen?,Vuoi impostare questo giocatore come host?,¿Quieres hacer que este jugador sea el anfitrión?
+MES_ONLINE.BIN,0,string_pack,27,準備が完了していない人がいます。ホスト権限で試合を開始しますか?,Some players are not ready. Start the match as the host?,Certains joueurs ne sont pas prêts. Commencer le match en tant qu’hôte ?,Einige Spieler sind nicht bereit. Spiel als Host starten?,Alcuni giocatori non pronti. Vuoi iniziare la partita come host?,Algunos jugadores no están listos. ¿Quieres empezar el combate como anfitrión?
+MES_ONLINE.BIN,0,string_pack,28,search,SEARCH,RECHERCHER,SUCHEN,CERCA,BUSCAR
+MES_ONLINE.BIN,0,string_pack,29,@[pad:Ru]設定のカスタマイズ　　@[pad:Decide]実行　　@[pad:Cancel]戻る,@[pad:Ru]Search criteria  @[pad:Decide]Search  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_ONLINE.BIN,0,string_pack,30,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_ONLINE.BIN,0,string_pack,31,0,0,0,0,0,0
+MES_ONLINE.BIN,0,string_pack,32,1,1,1,1,1,1
+MES_ONLINE.BIN,0,string_pack,33,2,2,2,2,2,2
+MES_ONLINE.BIN,0,string_pack,34,3,3,3,3,3,3
+MES_ONLINE.BIN,0,string_pack,35,4,4,4,4,4,4
+MES_ONLINE.BIN,0,string_pack,36,5,5,5,5,5,5
+MES_ONLINE.BIN,0,string_pack,37,6,6,6,6,6,6
+MES_ONLINE.BIN,0,string_pack,38,7,7,7,7,7,7
+MES_ONLINE.BIN,0,string_pack,39,8,8,8,8,8,8
+MES_ONLINE.BIN,0,string_pack,40,9,9,9,9,9,9
+MES_ONLINE.BIN,0,string_pack,41,10,10,10,10,10,10
+MES_ONLINE.BIN,0,string_pack,42,11,11,11,11,11,11
+MES_ONLINE.BIN,0,string_pack,43,12,12,12,12,12,12
+MES_ONLINE.BIN,0,string_pack,44,13,13,13,13,13,13
+MES_ONLINE.BIN,0,string_pack,45,14,14,14,14,14,14
+MES_ONLINE.BIN,0,string_pack,46,15,15,15,15,15,15
+MES_ONLINE.BIN,0,string_pack,47,16,16,16,16,16,16
+MES_ONLINE.BIN,0,string_pack,48,日本,JAPAN,JAPON,JAPAN,GIAPPONE,JAPÓN
+MES_ONLINE.BIN,0,string_pack,49,アメリカ,AMERICAS,AMÉRIQUES,AMERIKA,AMERICA,AMÉRICA
+MES_ONLINE.BIN,0,string_pack,50,イギリス,UK,RU ,GROSSBRITANNIEN,REGNO UNITO,REINO UNIDO
+MES_ONLINE.BIN,0,string_pack,51,フランス,FRANCE,FRANCE,FRANKREICH,FRANCIA,FRANCIA
+MES_ONLINE.BIN,0,string_pack,52,ドイツ,GERMANY,ALLEMAGNE,DEUTSCHLAND,GERMANIA,ALEMANIA
+MES_ONLINE.BIN,0,string_pack,53,イタリア,ITALY,ITALIE,ITALIEN,ITALIA,ITALIA
+MES_ONLINE.BIN,0,string_pack,54,スペイン,SPAIN,ESPAGNE,SPANIEN,SPAGNA,ESPAÑA
+MES_ONLINE.BIN,0,string_pack,55,台湾,TAIWAN,CHINE,CHINA,CINA,CHINA
+MES_ONLINE.BIN,0,string_pack,56,S+,S+,SS,SS,SS,SS
+MES_ONLINE.BIN,0,string_pack,57,S,S,S+,S+,S+,S+
+MES_ONLINE.BIN,0,string_pack,58,S-,S-,A+,A+,A+,A+
+MES_ONLINE.BIN,0,string_pack,59,A+,A+,A,A,A,A
+MES_ONLINE.BIN,0,string_pack,60,A,A,A-,A-,A-,A-
+MES_ONLINE.BIN,0,string_pack,61,A-,A-,B+,B+,B+,B+
+MES_ONLINE.BIN,0,string_pack,62,B+,B+,B,B,B,B
+MES_ONLINE.BIN,0,string_pack,63,B,B,B-,B-,B-,B-
+MES_ONLINE.BIN,0,string_pack,64,B-,B-,C+,C+,C+,C+
+MES_ONLINE.BIN,0,string_pack,65,C+,C+,C,C,C,C
+MES_ONLINE.BIN,0,string_pack,66,C,C,C-,C-,C-,C-
+MES_ONLINE.BIN,0,string_pack,67,C-,C-,D+,D+,D+,D+
+MES_ONLINE.BIN,0,string_pack,68,D+,D+,D,D,D,D
+MES_ONLINE.BIN,0,string_pack,69,D,D,D-,D-,D-,D-
+MES_ONLINE.BIN,0,string_pack,70,D-,D-,E+,E+,E+,E+
+MES_ONLINE.BIN,0,string_pack,71,E+,E+,E,E,E,E
+MES_ONLINE.BIN,0,string_pack,72,E,E,E-,E-,E-,E-
+MES_ONLINE.BIN,0,string_pack,73,E-,E-,F+,F+,F+,F+
+MES_ONLINE.BIN,0,string_pack,74,F+,F+,F,F,F,F
+MES_ONLINE.BIN,0,string_pack,75,F,F,F-,F-,F-,F-
+MES_ONLINE.BIN,0,string_pack,76,勝ち残り,WINNER-STAYS,GAGNANT RESTE,GEWINNER BLEIBT,CHI VINCE RESTA,EL GANADOR PERMANECE
+MES_ONLINE.BIN,0,string_pack,77,負け残り,LOSER-STAYS,PERDANT RESTE,VERLIERER BLEIBT,CHI PERDE RESTA,NO ELIMINATORIO
+MES_ONLINE.BIN,0,string_pack,78,トーナメント,TOURNAMENT,TOURNOIS,WETTKAMPF,TORNEO,TORNEO
+MES_ONLINE.BIN,0,string_pack,79,チームバトル,TEAM BATTLE,COMBAT PAR ÉQUIPE,TEAMKAMPF,SFIDA A SQUADRE,BATALLA DE EQUIPO
+MES_ONLINE.BIN,0,string_pack,80,組み手,KUMITE,KUMITE,KUMITE,KUMITE,KUMITE
+MES_ONLINE.BIN,0,string_pack,81,シングル,SOLO FIGHT,COMBAT SOLO,SOLOKAMPF,COMBATTIMENTO IN SINGOLO,COMBATE EN SOLITARIO
+MES_ONLINE.BIN,0,string_pack,82,タッグ,TAG FIGHT,COMBAT DEUX CONTRE DEUX,PARTNERKAMPF,COMBATTIMENTO IN COPPIA,COMBATE EN EQUIPO
+MES_ONLINE.BIN,0,string_pack,83,30,30,30,30,30,30
+MES_ONLINE.BIN,0,string_pack,84,40,40,40,40,40,40
+MES_ONLINE.BIN,0,string_pack,85,50,50,50,50,50,50
+MES_ONLINE.BIN,0,string_pack,86,60,60,60,60,60,60
+MES_ONLINE.BIN,0,string_pack,87,99,99,99,99,99,99
+MES_ONLINE.BIN,0,string_pack,88,∞,∞,∞,∞,∞,∞
+MES_ONLINE.BIN,0,string_pack,89,最小,SMALLEST,LE PLUS PETIT,AM KLEINSTEN,MINIMO,MÍNIMO
+MES_ONLINE.BIN,0,string_pack,90,少ない,SMALL,PETIT,KLEIN,PICCOLO,PEQUEÑO
+MES_ONLINE.BIN,0,string_pack,91,普通,NORMAL,NORMAL,NORMAL,NORMALE,NORMAL
+MES_ONLINE.BIN,0,string_pack,92,多い,LARGE,GRAND,GROSS,GRANDE,GRANDE
+MES_ONLINE.BIN,0,string_pack,93,最大,LARGEST,LE PLUS GRAND,AM GRÖSSTEN,MASSIMO,MÁXIMO
+MES_ONLINE.BIN,0,string_pack,94,0.5,0.5,0.5,0.5,0.5,0.5
+MES_ONLINE.BIN,0,string_pack,95,1.0,1.0,1.0,1.0,1.0,1.0
+MES_ONLINE.BIN,0,string_pack,96,1.5,1.5,1.5,1.5,1.5,1.5
+MES_ONLINE.BIN,0,string_pack,97,になりました, is your new Grade., est votre nouveau niveau., ist dein neuer Rang., è il tuo nuovo grado., es tu nuevo grado.
+MES_ONLINE.BIN,0,string_pack,98,GP,GP,PN,PW,PG,PG
+MES_ONLINE.BIN,0,string_pack,99,@[pad:Decide]進む,@[pad:Decide]Next,@[pad:Decide]Suivant,@[pad:Decide]Weiter,@[pad:Decide]Avanti,@[pad:Decide]Siguiente
+MES_ONLINE.BIN,0,string_pack,100,対戦相手を待っています…,Waiting for an opponent...,,,,
+MES_ONLINE.BIN,0,string_pack,101,対戦リクエストを送信中です…,Sending Throwdown Challenge...,,,,
+MES_ONLINE.BIN,0,string_pack,102,@[pad:Decide]対戦する　　@[pad:Ru]再検索する　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,,,,
+MES_ONLINE.BIN,0,string_pack,103,@[pad:Decide]実行　　@[pad:Cancel]戻る,@[pad:Decide]Search  @[pad:Cancel]Back,,,,
+MES_ONLINE.BIN,0,string_pack,104,@[pad:Cancel]戻る,@[pad:Cancel]Back,,,,
+MES_ONLINE.BIN,0,string_pack,105,ルームを検索します,Search lobbies.,,,,
+MES_ONLINE.BIN,0,string_pack,106,ルームを作成します,Create lobby.,,,,
+MES_ONLINE.BIN,0,string_pack,107,勝利に必要な先取ラウンド数を設定します,Set the number of rounds required to win a match.,,,,
+MES_ONLINE.BIN,0,string_pack,108,地域を設定します,Set the region of opponents.,,,,
+MES_ONLINE.BIN,0,string_pack,109,相手の強さの上限を設定します,Set the maximum difficulty of opponents.,,,,
+MES_ONLINE.BIN,0,string_pack,110,相手の強さの下限を設定します,Set the minimum difficulty of opponents.,,,,
+MES_ONLINE.BIN,0,string_pack,111,トーナメントや勝ち残りなどのルールを設定します,Set rules for tournaments and who remains after a match.,,,,
+MES_ONLINE.BIN,0,string_pack,112,シングルかタッグかを設定します,Set solo or tag match.,,,,
+MES_ONLINE.BIN,0,string_pack,113,１ラウンドの制限時間を設定します,Set the amount of time for a single round,,,,
+MES_ONLINE.BIN,0,string_pack,114,最大体力を設定します,Set the maximum health.,,,,
+MES_ONLINE.BIN,0,string_pack,115,デンジャーの有無を設定します,Set Danger Zones on or off.,,,,
+MES_ONLINE.BIN,0,string_pack,116,ルームに参加できる人数を設定します,Set the maximum number of players for a lobby.,,,,
+MES_ONLINE.BIN,0,string_pack,117,選択できないキャラクターを設定します,Limit which characters can be used.,,,,
+MES_ONLINE.BIN,0,string_pack,118,選択できないステージを設定します,Limit which stages can be used.,,,,
+MES_ONLINE.BIN,0,string_pack,119,ルームのフレンド枠を設定します,Make the lobby private.,,,,
+MES_ONLINE.BIN,0,string_pack,120,ルーム名を設定します,Set the lobby name.,,,,
+MES_ONLINE.BIN,0,string_pack,121,ルームが切断されました。検索に戻ります。,Disconnected from the lobby. Returning to search screen.,,,,
+MES_ONLINE.BIN,0,string_pack,122,試合に出るか、観客になるかを切り替えます。,Switch between joining or watching the fights.,,,,
+MES_ONLINE.BIN,0,string_pack,123,すぐに試合を開始します。,Start fight immediately.,,,,
+MES_ONLINE.BIN,0,string_pack,124,カスタマイズ,,,,,
+MES_ONLINE.BIN,0,string_pack,125,ラウンド数や体力などの設定を変更します。,Set fight options such as number of rounds and maximum health.,,,,
+MES_ONLINE.BIN,0,string_pack,126,ファイターリストに登録します。,Register fighter in your Fight List.,,,,
+MES_ONLINE.BIN,0,string_pack,127,ルームから強制で退出させます。,Kick player out of the lobby.,,,,
+MES_ONLINE.BIN,0,string_pack,128,ホストの権限を譲ります。,Transfer host rights.,,,,
+MES_ONLINE.BIN,0,string_pack,129,@[pad:R1]リスト更新,@[pad:R1]Update list,,,,
+MES_ONLINE.BIN,0,string_pack,130,他人からの挑戦状を受けなかった場合、このリストにＡＩとして登録されます。,"If you do not accept a Throwdown from another fighter, their AI will be registered in this list.",,,,
+MES_ONLINE.BIN,0,string_pack,131,@[pad:Decide]選択したＡＩと対戦　　@[pad:Ru]自分のＡＩを配信する　　@[pad:Rl]ファイターリスト,@[pad:Decide]Fight selected AI  @[pad:Ru]Send own AI  @[pad:Rl]Fighter List,,,,
+MES_ONLINE.BIN,0,string_pack,132,@[pad:Rl]画面を閉じる　　@[pad:Ru]サブメニュー　　@[pad:Start]テキストチャット　　@[pad:Select]試合経過画面　　@[pad:Cancel]ルームから抜ける,@[pad:Rl]Ready  @[pad:Ru]Submenu  @[pad:Start]Text chat  @[pad:Select]Fight progress screen  @[pad:Cancel]Exit lobby,,,,
+MES_ONLINE.BIN,0,string_pack,133,@[pad:Rl]画面を閉じる　　@[pad:Start]テキストチャット　　@[pad:Select]ロビー画面　　@[pad:Cancel]ルームから抜ける,@[pad:Rl]Close menu  @[pad:Start]Text chat  @[pad:Select]Lobby  @[pad:Cancel]Exit lobby,,,,
+MES_ONLINE.BIN,0,string_pack,134,@[pad:Rl]試合経過を見る　　@[pad:Start]テキストチャット　　@[pad:Cancel]ルームから抜ける,@[pad:Rl]View fight progress  @[pad:Start]Text chat  @[pad:Cancel]Exit lobby,,,,
+MES_ONLINE.BIN,0,string_pack,135,タッグ結成を申し込みます。,Request a tag team with this player.,,,,
+MES_ONLINE.BIN,0,string_pack,136,SIMPLE MATCH,SIMPLE MATCH,,,,
+MES_ONLINE.BIN,0,string_pack,137,RANK MATCH,RANK MATCH,,,,
+MES_ONLINE.BIN,0,string_pack,138,LOBBY MATCH,LOBBY MATCH,,,,
+MES_ONLINE.BIN,0,string_pack,139,WORLD RANKING,LEADERBOARDS,,,,
+MES_ONLINE.BIN,0,string_pack,140,FIGHTER LIST,FIGHTER LIST,,,,
+MES_ONLINE.BIN,0,string_pack,141,サーチ,SEARCH,,,,
+MES_ONLINE.BIN,0,string_pack,142,クリエイト,CREATE,,,,
+MES_ONLINE.BIN,0,string_pack,143,ラウンド数,ROUNDS,,,,
+MES_ONLINE.BIN,0,string_pack,144,エリア,REGION,,,,
+MES_ONLINE.BIN,0,string_pack,145,相手の強さ,STRENGTH,,,,
+MES_ONLINE.BIN,0,string_pack,146,相手の強さ,STRENGTH,,,,
+MES_ONLINE.BIN,0,string_pack,147,対戦形式,FIGHT TYPE,,,,
+MES_ONLINE.BIN,0,string_pack,148,対戦ルール,FIGHT RULES,,,,
+MES_ONLINE.BIN,0,string_pack,149,制限時間,TIME LIMIT,,,,
+MES_ONLINE.BIN,0,string_pack,150,最大体力,MAX HEALTH,,,,
+MES_ONLINE.BIN,0,string_pack,151,デンジャーダメージ,DANGER ZONE DAMAGE,,,,
+MES_ONLINE.BIN,0,string_pack,152,参加人数,PLAYERS,,,,
+MES_ONLINE.BIN,0,string_pack,153,キャラフィルタ,CHARCTER FILTER,,,,
+MES_ONLINE.BIN,0,string_pack,154,ステージフィルタ,STAGE FILTER,,,,
+MES_ONLINE.BIN,0,string_pack,155,フレンド枠,PRIVATE,,,,
+MES_ONLINE.BIN,0,string_pack,156,試合出場者,FIGHTER,,,,
+MES_ONLINE.BIN,0,string_pack,157,観客席,SPECTATOR,,,,
+MES_ONLINE.BIN,0,string_pack,158,GRADE,GRADE,,,,
+MES_ONLINE.BIN,0,string_pack,159,BATTLE,BATTLE,,,,
+MES_ONLINE.BIN,0,string_pack,160,WIN,WIN,,,,
+MES_ONLINE.BIN,0,string_pack,161,LOSE,LOSE,,,,
+MES_ONLINE.BIN,0,string_pack,162,メインキャラクター,MAIN CHARACTER,,,,
+MES_ONLINE.BIN,0,string_pack,163,エントリーを変更する,CHANGE FIGHTER/SPECATOR,,,,
+MES_ONLINE.BIN,0,string_pack,164,試合を開始する,START FIGHT,,,,
+MES_ONLINE.BIN,0,string_pack,165,ルールを変更する,CHANGE RULES,,,,
+MES_ONLINE.BIN,0,string_pack,166,ファイターリストに登録する,REGISTER IN FIGHTER LIST,,,,
+MES_ONLINE.BIN,0,string_pack,167,タッグの申請,REQUEST TAG TEAM,,,,
+MES_ONLINE.BIN,0,string_pack,168,強制退室させる,KICK OUT,,,,
+MES_ONLINE.BIN,0,string_pack,169,ホストを移譲する,TRANSFER HOST,,,,
+MES_ONLINE.BIN,0,string_pack,170,オンライン道場,ONLINE DOJO,,,,
+MES_ONLINE.BIN,0,string_pack,171,対戦相手を探しています．．．,Searching for opponents...,,,,
+MES_ONLINE.BIN,0,string_pack,172,対戦相手が見つかりませんでした,Unable to find an opponent.,,,,
+MES_ONLINE.BIN,0,string_pack,173,エントリーを変更するには、自分を選択して@[pad:Ru]を押してください。　また他のプレイヤーを選択して@[pad:Ru]を押すと、相手をファイターリストに登録したり、二人だけの会話を楽しむことができます。,Select yourself and press @[pad:Ru] to change your entry. Selecting another player and pressing @[pad:Ru] will allow you to add them to your Fighter List or chat with them.,,,,
+MES_ONLINE.BIN,0,string_pack,174,ネットワークから切断されました,Disconnected from network.,,,,
+MES_ONLINE.BIN,0,string_pack,175,ルームが解散しました,The lobby has disbanded.,,,,
+MES_ONLINE.BIN,0,string_pack,176,ルームに参加できませんでした,Unable to join a lobby.,,,,
+MES_ONLINE.BIN,0,string_pack,177,ネットワークに接続されていません。オンライン機能を利用する場合は、サインインして入りなおす必要があります,You are not currently connected to a network. You must sign in to use online functionality.,,,,
+MES_ONLINE.BIN,0,string_pack,178,あなたのPlayStation®Network のアカウントはチャット制限が設定されているため、チャット機能を利用できません。,Chat is disabled on your PlayStation®Network account due to chat restrictions.,,,,
+MES_ONLINE.BIN,0,string_pack,179,あなたのXbox LIVEのアカウントはチャット制限が設定されているため、チャット機能を利用できません。,Chat is disabled on your Xbox LIVE account due to chat restrictions.,,,,
+MES_ONLINE.BIN,0,string_pack,180,あなたのPlayStation®Network のアカウントはパレンタルロックが設定されているため、オンラインサービスを利用できません。,You cannot use this online service due to the Parental Control settings on your PlayStation®Network account.,,,,
+MES_ONLINE.BIN,0,string_pack,181,あなたのXbox LIVEのアカウントはパレンタルロックが設定されているため、オンラインサービスを利用できません。,You cannot use this online service due to the Family Settings on your Xbox LIVE account.,,,,
+MES_ONLINE.BIN,0,string_pack,182,サインアウトしました。ゲームを中断して、タイトル画面に戻ります。オンライン機能を利用するには、サインインする必要があります。,You have signed out. Exiting the game and returning to the title screen. You must sign in to use any online features.,,,,
+MES_ONLINE.BIN,0,string_pack,183,あなたのXbox LIVEのアカウントはチャット制限がフレンドに限定されています。,Chat is limited to friends only on your Xbox LIVE account.,,,,
+MES_ONLINE.BIN,0,string_pack,184,ネットワーク通信中です。,Connecting...,,,,
+MES_ONLINE.BIN,0,string_pack,185,ロビーの作成に失敗しました。,Failed to create a lobby.,,,,
+MES_ONLINE.BIN,0,string_pack,186,タッグパートナーが離脱しました。,Your tag partner quit.,,,,
+MES_ONLINE.BIN,0,string_pack,187,接続エラーが発生しました。,A connection error has occurred.,,,,
+MES_ONLINE.BIN,0,string_pack,188,サインインしました。ゲームを中断して、タイトル画面に戻ります。,You have signed in. Exiting the game and returning to the title screen.,,,,
+MES_ONLINE.BIN,0,string_pack,189,PlayStation®Storeに接続できません。,Unable to connect to PlayStation®Store.,,,,
+MES_ONLINE.BIN,0,string_pack,190,Xbox LIVE Marketplaceに接続できません。,Unable to connect to Xbox LIVE Marketplace.,,,,
+MES_ONLINE.BIN,0,string_pack,191,ネットワークの接続に失敗しました。,Failed to connect to the network.,,,,
+MES_ONLINE.BIN,0,string_pack,192,ネットワークエラーが発生しました。ゲームを中断して、タイトル画面に戻ります。オンライン機能を利用するには、サインインする必要があります。,A network error has occurred. Exiting the game and returning to the title screen. You must sign in to use any online features.,,,,

@@ -1,0 +1,160 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_SYSTEM.BIN,0,string_pack,0,よろしいですか？,Is this OK?,Confirmer ?,Möchtest du fortfahren?,Vuoi proseguire?,¿Seguro?
+MES_SYSTEM.BIN,0,string_pack,1,@[pad:Decide]はい　　@[pad:Cancel]いいえ,@[pad:Decide]Yes  @[pad:Cancel]No,@[pad:Decide]Oui　　@[pad:Cancel]Non,@[pad:Decide]Ja　　@[pad:Cancel]Nein,@[pad:Decide]Sì　　@[pad:Cancel]No,@[pad:Decide]Sí　　@[pad:Cancel]No
+MES_SYSTEM.BIN,0,string_pack,2,@[pad:Proceed]進む,@[pad:Proceed]Next,@[pad:Proceed]Continuer,@[pad:Proceed]Weiter,@[pad:Proceed]Prosegui,@[pad:Proceed]Continuar
+MES_SYSTEM.BIN,0,string_pack,3,@[pad:Rl]セーブ,@[pad:Rl]Save,@[pad:Rl]Sauvegarder,@[pad:Rl]Speichern,@[pad:Rl]Salva,@[pad:Rl]Guardar
+MES_SYSTEM.BIN,0,string_pack,4,@[pad:Ru]スコアのアップロード,@[pad:Ru]Upload score,@[pad:Ru]Transfert score de karma,@[pad:Ru]Karma-Punkte hochladen,@[pad:Ru]Invia punteggio karma,@[pad:Ru]Cargar puntuación Karma
+MES_SYSTEM.BIN,0,string_pack,5,@[pad:Ru]ランキングの閲覧,@[pad:Ru]View leaderboards,@[pad:Ru]Consulter classement,@[pad:Ru]Bestenlisten anzeigen,@[pad:Ru]Vedi classifiche,@[pad:Ru]Ver marcador
+MES_SYSTEM.BIN,0,string_pack,6,@[pad:Rl]ストレージの変更,@[pad:Rl]Change storage device,@[pad:Rl]Changer de périphérique de stockage,@[pad:Rl]Speichermedium wechseln,@[pad:Rl]Cambia periferica di memorizzazione,@[pad:Rl]Cambiar dispositivo de almacenamiento
+MES_SYSTEM.BIN,0,string_pack,7,@[pad:Decide]決定,@[pad:Decide]OK,@[pad:Decide]Valider,@[pad:Decide]Bestätigen,@[pad:Decide]Conferma,@[pad:Decide]Confirmar
+MES_SYSTEM.BIN,0,string_pack,8,@[pad:Ru]削除,@[pad:Ru]Delete,@[pad:Ru]Supprimer,@[pad:Ru]Löschen,@[pad:Ru]Elimina,@[pad:Ru]Eliminar
+MES_SYSTEM.BIN,0,string_pack,9,@[pad:Ru]RANKING,@[pad:Ru]Leaderboards,@[pad:Ru]CLASSEMENT,@[pad:Ru]RANGLISTE,@[pad:Ru]CLASSIFICA,@[pad:Ru]RANGO
+MES_SYSTEM.BIN,0,string_pack,10,@[pad:Ru]招待メッセージ,@[pad:Ru]Invite,@[pad:Ru] Message d'invitation,@[pad:Ru] Einladungsnachricht,@[pad:Ru] Invita,@[pad:Ru] Mandar invitación
+MES_SYSTEM.BIN,0,string_pack,11,@[pad:Decide]ダウンロード,@[pad:Decide]Download,@[pad:Decide]Télécharger,@[pad:Decide]Herunterladen,@[pad:Decide]Scarica,@[pad:Decide]Descargar
+MES_SYSTEM.BIN,0,string_pack,12,上書きしますか？,Overwrite this data?,Désirez-vous écraser cette sauvegarde ?,Spielstand überschreiben?,Sovrascrivere la partita salvata?,¿Sobrescribir la partida guardada?
+MES_SYSTEM.BIN,0,string_pack,13,削除しますか？,Delete this data?,Désirez-vous vraiment effacer ces données ?,Möchten Sie wirklich löschen?,Sei sicuro di volerla eliminare?,¿Seguro que quiere eliminarlo?
+MES_SYSTEM.BIN,0,string_pack,14,Chapter,Chapter,Chapitre,Kapitel,Capitolo,Capítulo
+MES_SYSTEM.BIN,0,string_pack,15,Ch.,Ch.,Ch.,Kap.,Cap.,Cap.
+MES_SYSTEM.BIN,0,string_pack,16,pts.,pts.,Pts,Pkt.,Pnt.,Pts.
+MES_SYSTEM.BIN,0,string_pack,17,Slot,Slot,Emplacement,Slot,Posizione,Ranura
+MES_SYSTEM.BIN,0,string_pack,18,空きスロット,Slot empty,Emplacement vide,Slot leer,Posizione libera,Ranura vacía
+MES_SYSTEM.BIN,0,string_pack,19,クリアデータ,Completed game,Jeu terminé,Beendetes Spiel,Gioco completato,Partida completada
+MES_SYSTEM.BIN,0,string_pack,20,？？？,？？？,???,???,???,???
+MES_SYSTEM.BIN,0,string_pack,21,はい,Yes,OUI,JA,SÌ,SÍ
+MES_SYSTEM.BIN,0,string_pack,22,いいえ,No,NON,NEIN,NO,NO
+MES_SYSTEM.BIN,0,string_pack,23,@[pad:Rl],@[pad:Rl],@[pad:Rl],@[pad:Rl],@[pad:Rl],@[pad:Rl]
+MES_SYSTEM.BIN,0,string_pack,24,@[pad:Ru],@[pad:Ru],@[pad:Ru],@[pad:Ru],@[pad:Ru],@[pad:Ru]
+MES_SYSTEM.BIN,0,string_pack,25,@[pad:Rr],@[pad:Rr],@[pad:Rr],@[pad:Rr],@[pad:Rr],@[pad:Rr]
+MES_SYSTEM.BIN,0,string_pack,26,@[pad:Rd],@[pad:Rd],@[pad:Rd],@[pad:Rd],@[pad:Rd],@[pad:Rd]
+MES_SYSTEM.BIN,0,string_pack,27,@[pad:Rl]@[symbol:plus]@[pad:Rd],@[pad:Rl]@[symbol:plus]@[pad:Rd],@[pad:Rl]@[symbol:plus]@[pad:Rd],@[pad:Rl]@[symbol:plus]@[pad:Rd],@[pad:Rl]@[symbol:plus]@[pad:Rd],@[pad:Rl]@[symbol:plus]@[pad:Rd]
+MES_SYSTEM.BIN,0,string_pack,28,@[pad:Ru]@[symbol:plus]@[pad:Rr],@[pad:Ru]@[symbol:plus]@[pad:Rr],@[pad:Ru]@[symbol:plus]@[pad:Rr],@[pad:Ru]@[symbol:plus]@[pad:Rr],@[pad:Ru]@[symbol:plus]@[pad:Rr],@[pad:Ru]@[symbol:plus]@[pad:Rr]
+MES_SYSTEM.BIN,0,string_pack,29,@[pad:Rl]@[symbol:plus]@[pad:Ru],@[pad:Rl]@[symbol:plus]@[pad:Ru],@[pad:Rl]@[symbol:plus]@[pad:Ru],@[pad:Rl]@[symbol:plus]@[pad:Ru],@[pad:Rl]@[symbol:plus]@[pad:Ru],@[pad:Rl]@[symbol:plus]@[pad:Ru]
+MES_SYSTEM.BIN,0,string_pack,30,@[pad:Rd]@[symbol:plus]@[pad:Rr],@[pad:Rd]@[symbol:plus]@[pad:Rr],@[pad:Rd]@[symbol:plus]@[pad:Rr],@[pad:Rd]@[symbol:plus]@[pad:Rr],@[pad:Rd]@[symbol:plus]@[pad:Rr],@[pad:Rd]@[symbol:plus]@[pad:Rr]
+MES_SYSTEM.BIN,0,string_pack,31,@[pad:R2],@[pad:R2],@[pad:R2],@[pad:R2],@[pad:R2],@[pad:R2]
+MES_SYSTEM.BIN,0,string_pack,32,@[pad:L2],@[pad:L2],@[pad:L2],@[pad:L2],@[pad:L2],@[pad:L2]
+MES_SYSTEM.BIN,0,string_pack,33,@[pad:R1],@[pad:R1],@[pad:R1],@[pad:R1],@[pad:R1],@[pad:R1]
+MES_SYSTEM.BIN,0,string_pack,34,@[pad:L1],@[pad:L1],@[pad:L1],@[pad:L1],@[pad:L1],@[pad:L1]
+MES_SYSTEM.BIN,0,string_pack,35,@[pad:Start],@[pad:Start],@[pad:Start],@[pad:Start],@[pad:Start],@[pad:Start]
+MES_SYSTEM.BIN,0,string_pack,36,@[pad:Select],@[pad:Select],@[pad:Select],@[pad:Select],@[pad:Select],@[pad:Select]
+MES_SYSTEM.BIN,0,string_pack,37,@[pad:LS],@[pad:LS],@[pad:LS],@[pad:LS],@[pad:LS],@[pad:LS]
+MES_SYSTEM.BIN,0,string_pack,38,@[pad:RS],@[pad:RS],@[pad:RS],@[pad:RS],@[pad:RS],@[pad:RS]
+MES_SYSTEM.BIN,0,string_pack,39,@[symbol:plus],@[symbol:plus],@[symbol:plus],@[symbol:plus],@[symbol:plus],@[symbol:plus]
+MES_SYSTEM.BIN,0,string_pack,40,戻る,Back,Retour,Zurück,Indietro,Atrás
+MES_SYSTEM.BIN,0,string_pack,41,詳細,Details,Infos,Details,Dettagli,Detalles
+MES_SYSTEM.BIN,0,string_pack,42,戻る,Exit,Quitter,Beenden,Esci,Salir
+MES_SYSTEM.BIN,0,string_pack,43,技表,Move List,Techniques,Techniken,Tecniche,Técnicas
+MES_SYSTEM.BIN,0,string_pack,44,使用,Use,Utiliser,Anwenden,Usa,Usar
+MES_SYSTEM.BIN,0,string_pack,45,新しいゲーマーアイコンがプレゼントされました,You have unlocked a new gamer picture.,Vous avez débloqué une nouvelle image du joueur.,Neues Spielerbild freigeschaltet.,Hai sbloccato una nuova immagine del giocatore.,Ha desbloqueado una nueva imagen de jugador.
+MES_SYSTEM.BIN,0,string_pack,46,難易度 %s が解放されました。,The %s difficulty has been unlocked.,Niveau de difficulté %s débloqué !,Die Schwierigkeit %s wurde freigeschaltet.,"La difficoltà ""%s"" è stata sbloccata.",La dificultad %s se ha desbloqueado.
+MES_SYSTEM.BIN,0,string_pack,47,ゲームを開始しますか？,Do you want to begin the game?,Voulez-vous commencer ?,Möchten Sie das Spiel beginnen?,Vuoi iniziare una nuova partita?,¿Quiere empezar la partida?
+MES_SYSTEM.BIN,0,string_pack,48,記録を更新しました。,You achieved a new high score.,Vous avez réalisé un nouveau meilleur score.,Sie haben eine neue Höchstpunktzahl erreicht.,Hai ottenuto un nuovo record.,Ha superado la puntuación más alta.
+MES_SYSTEM.BIN,0,string_pack,49,おめでとうございます。,Congratulations!,Félicitations !,Herzlichen Glückwunsch!,Congratulazioni!,¡Felicidades!
+MES_SYSTEM.BIN,0,string_pack,50,ランクインしました。,You achieved a ranking in the leaderboards.,Ce dernier vous permet de faire partie du classement.,Sie haben einen Rang auf der Bestenliste erreicht.,Hai raggiunto una posizione nelle classifiche.,Ya ha conseguido un rango en el marcador.
+MES_SYSTEM.BIN,0,string_pack,51,ランクインできませんでした。,"Unfortunately, you did not achieve a ranking in the leaderboards.",Mais ce dernier ne vous permet pas de faire partie du classement.,Leider haben Sie keinen Rang auf der Bestenliste erreicht.,Sfortunatamente non hai raggiunto una posizione nelle classifiche.,"Desafortunadamente, no ha conseguido un rango en el marcador."
+MES_SYSTEM.BIN,0,string_pack,52,Karma Challenge ,Karma Challenge ,Défi karma,Karma-Challenge ,Sfida del karma,Reto Karma
+MES_SYSTEM.BIN,0,string_pack,53,Speed Challenge ,Speed Challenge ,Défi vitesse,Geschwindigkeits-Challenge ,Sfida di velocità,Reto velocidad
+MES_SYSTEM.BIN,0,string_pack,54,Weapon Challenge ,Weapon Challenge ,Défi arme,Waffen-Challenge ,Sfida delle armi,Reto arma
+MES_SYSTEM.BIN,0,string_pack,55,Mission Challenge ,Mission Challenge ,Défi mission,Missions-Challenge ,Sfida missione,Reto misión
+MES_SYSTEM.BIN,0,string_pack,56,ダウンロード中です。,Downloading...,Téléchargement...,Daten werden heruntergeladen...,Scaricamento in corso...,Descargando...
+MES_SYSTEM.BIN,0,string_pack,57,ダウンロードに失敗しました。,Download failed.,Échec du téléchargement.,Download fehlgeschlagen.,Scaricamento non completato.,Descarga fallida.
+MES_SYSTEM.BIN,0,string_pack,58,アップロード中です。,Uploading...,Transfert...,Daten werden hochgeladen...,Invio in corso...,Cargando...
+MES_SYSTEM.BIN,0,string_pack,59,アップロードに失敗しました。,Upload failed.,Échec du transfert.,Upload fehlgeschlagen.,Invio fallito.,Carga fallida.
+MES_SYSTEM.BIN,0,string_pack,60,保存しています。本体の電源を切らないでください。,Saving content. Please don't turn off your console.,Enregistrement en cours. Veuillez ne pas éteindre pas votre système.,Inhalt wird gespeichert. Bitte schalten Sie Ihre Konsole nicht aus.,Salvataggio contenuti. Non spegnere il sistema.,Guardando contenido. Por favor no apague el sistema.
+MES_SYSTEM.BIN,0,string_pack,61,@[pad:Decide]セーブ,@[pad:Decide]Save,@[pad:Decide]Sauvegarder,@[pad:Decide]Speichern,@[pad:Decide]Salva,@[pad:Decide]Guardar
+MES_SYSTEM.BIN,0,string_pack,62,@[pad:Decide]ロード,@[pad:Decide]Load,@[pad:Decide]Charger,@[pad:Decide]Laden,@[pad:Decide]Carica,@[pad:Decide]Cargar
+MES_SYSTEM.BIN,0,string_pack,63,クリアデータをセーブせずに終了しますか？,Are you sure you want to continue without saving your completed game?,Désirez-vous réellement poursuivre sans sauvegarder vos données de fin de jeu ?,Möchten Sie wirklich ohne Speichern des beendeten Spiels fortfahren?,Sei sicuro di voler continuare senza salvare la tua partita completata?,¿Seguro que quiere continuar sin guardar la partida completada?
+MES_SYSTEM.BIN,0,string_pack,64,新しい難易度が解放されました。,A new difficulty level has been unlocked.,Vous avez débloqué un nouveau niveau de difficulté.,Eine neue Schwierigkeitsstufe wurde freigeschaltet.,È stato sbloccato un nuovo livello di difficoltà.,Se ha desbloqueado un nuevo nivel de dificultad.
+MES_SYSTEM.BIN,0,string_pack,65,新しいコスチュームが解放されました。,A new costume has been unlocked.,Vous avez débloqué un nouveau costume.,Eine neue Kleidung wurde freigeschaltet.,È stato sbloccato un nuovo costume.,Se ha desbloqueado un nuevo traje.
+MES_SYSTEM.BIN,0,string_pack,66,ランキングを表示するには、Xbox LIVEへの接続が必要です。,"To access the leaderboards, you must sign in to Xbox LIVE.","Pour accéder aux Classements, vous devez vous connecter à Xbox LIVE.","To access the leaderboards, you must sign in to Xbox LIVE.",,
+MES_SYSTEM.BIN,0,string_pack,67,Xbox LIVE マーケットプレースを見るには、Xbox LIVEへの接続が必要です。,You must be signed in to Xbox LIVE to view Xbox LIVE Marketplace.,Vous devez être connecté à Xbox LIVE pour accéder au Marché Xbox LIVE.,"You must be signed in to Xbox LIVE to view the
+Xbox LIVE Marketplace.",,
+MES_SYSTEM.BIN,0,string_pack,68,セーブしたゲームを再開するにはサインインする必要があります。,Please sign in to resume your game.,"Pour reprendre à partir de cette sauvegarde, veuillez-vous connecter.","Melden Sie sich an, um Ihren Spielstand fortzusetzen.",Devi connetterti per continuare la tua partita salvata.,"Para continuar su partida guardada, por favor regístrese."
+MES_SYSTEM.BIN,0,string_pack,69,スコアをアップロードするにはXbox LIVEへの接続が必要です。,You are not signed in to Xbox LIVE. You must be signed in to Xbox LIVE to upload your score.,"Vous n'êtes pas connecté à Xbox LIVE. Pour mettre votre score en ligne, vous devez vous connecter à Xbox LIVE.","You are not signed in to Xbox LIVE.
+To upload your score, you must be signed in to Xbox LIVE.",,
+MES_SYSTEM.BIN,0,string_pack,70,最新のセーブデータをロードします。,Load most recent saved game.,Charger votre sauvegarde la plus récente.,Letzten Spielstand laden.,Carica la partita salvata più recente.,Cargar la partida guardada más reciente.
+MES_SYSTEM.BIN,0,string_pack,71,タイトルに戻ります。,Return to the title screen.,Quitter et revenir à l'écran de départ.,Zum Startbildschirm zurückkehren.,Torna alla schermata iniziale.,Salir a la pantalla inicio.
+MES_SYSTEM.BIN,0,string_pack,72,ゲームを終了するとセーブしていない進行状況は失われます。,"If you quit, you will lose any unsaved progress.","Si vous quittez la partie, vous perdrez toute progression non sauvegardée.","Wenn Sie aufhören, gehen nicht gespeicherte Fortschritte verloren.","Se esci, perderai tutti i progressi non salvati.","Si sale, perderá el progreso que no haya guardado."
+MES_SYSTEM.BIN,0,string_pack,73,@[pad:Decide]はい,@[pad:Decide]Yes,@[pad:Decide]Oui,@[pad:Decide]Ja,@[pad:Decide]Sì,@[pad:Decide]Sí
+MES_SYSTEM.BIN,0,string_pack,74,@[pad:Cancel]いいえ,@[pad:Cancel]No,@[pad:Cancel]Non,@[pad:Cancel]Nein,@[pad:Cancel]No,@[pad:Cancel]No
+MES_SYSTEM.BIN,0,string_pack,75,@[pad:Decide]進む,@[pad:Decide]Next,@[pad:Decide]Oui,@[pad:Decide]Ja,@[pad:Decide]Sì,@[pad:Decide]Sí
+MES_SYSTEM.BIN,0,string_pack,76,@[pad:Cancel]戻る,@[pad:Cancel]Back,@[pad:Cancel]Non,@[pad:Cancel]Nein,@[pad:Cancel]No,@[pad:Cancel]No
+MES_SYSTEM.BIN,0,string_pack,77,@[pad:Ru]コスチュームセレクト @[pad:Proceed]進む,@[pad:Ru]Select costume  @[pad:Ru]Next,@[pad:Ru]Choix costume @[pad:Proceed]Continuer,@[pad:Ru]Kleidung Auswählen @[pad:Proceed]Fortfahren,@[pad:Ru]Seleziona costume @[pad:Proceed]Prosegui,@[pad:Ru]Elegir traje @[pad:Proceed]Continuar
+MES_SYSTEM.BIN,0,string_pack,78,この記録をアップロードしますか？,Upload a record of your results?,Voulez-vous transférer vos résultats ?,Aufzeichnungen Ihrer Ergebnisse hochladen?,Vuoi inviare i tuoi risultati?,¿Desea cargar los resultados obtenidos?
+MES_SYSTEM.BIN,0,string_pack,79,%d 位にランクインしました,You are ranked #%d in the leaderboards.,Votre place au classement : %d.,Ihr Spielerrang auf der Bestenliste ist: %d.,Hai la posizione %d nella classifica.,Has obtenido el puesto %d en la clasificación.
+MES_SYSTEM.BIN,0,string_pack,80,@[pad:L]モード変更,@[pad:L]Change mode,,,,
+MES_SYSTEM.BIN,0,string_pack,81,@[pad:L]スタイル変更 @[pad:Decide]決定,@[pad:L]Change play style  @[pad:L]OK,@[pad:L]Modifier le mode de jeu @[pad:Decide]OK,@[pad:L]Schwierigkeit ändern  @[pad:Decide]OK,@[pad:L]Cambia stile di gioco  @[pad:Decide]OK,@[pad:L]Cambiar estilo de juego  @[pad:Decide]Aceptar
+MES_SYSTEM.BIN,0,string_pack,82,STATUS,STATUS,STATUT,STATUS,STATO,ESTADO
+MES_SYSTEM.BIN,0,string_pack,83,ロビーを作成します,Create a game lobby.,Créez un salon.,Eine Spiellobby erstellen.,Crea una lobby partita.,Crea una sala de juego.
+MES_SYSTEM.BIN,0,string_pack,84,参加できるロビーを検索します,Search for a lobby to join.,Recherchez un salon à rejoindre.,Nach einer Spiellobby suchen.,Cerca una lobby a cui unirti.,Busca una sala a la que unirse.
+MES_SYSTEM.BIN,0,string_pack,85,作成されているロビーにランダムで参加します,Join a randomly selected lobby.,Rejoignez un salon au hasard.,Eine zufällig gewählte Spiellobby betreten.,Unisciti a una lobby casuale.,Unirse a una sala elegida al azar.
+MES_SYSTEM.BIN,0,string_pack,86,最大8人でのマルチプレイ対戦を行います,Versus matches for up to 8 players.,Duels pouvant opposer jusqu'à 8 joueurs.,Partien für bis zu 8 Spieler.,Scontri diretti fino a 8 giocatori.,Un combate con hasta 8 jugadores.
+MES_SYSTEM.BIN,0,string_pack,87,ロビーを作成します,Create a game lobby.,Créez un salon.,Eine Spiellobby erstellen.,Crea una lobby partita.,Crea una sala de juego.
+MES_SYSTEM.BIN,0,string_pack,88,参加できるロビーを検索します,Search for a lobby to join.,Recherchez un salon à rejoindre.,Nach einer Spiellobby suchen.,Cerca una lobby a cui unirti.,Busca una sala a la que unirse.
+MES_SYSTEM.BIN,0,string_pack,89,作成されているロビーにランダムで参加します,Join a randomly selected lobby.,Rejoignez un salon au hasard.,Eine zufällig gewählte Spiellobby betreten.,Unisciti a una lobby casuale.,Unirse a una sala elegida al azar.
+MES_SYSTEM.BIN,0,string_pack,90,あなたのステータスを表示します,Display your current status.,Affichez le statut du personnage.,Den Status des Charakters anzeigen.,Mostra lo stato del personaggio.,Muestra el estado del personaje.
+MES_SYSTEM.BIN,0,string_pack,91,@[pad:Decide]OK,@[pad:Decide]OK,,,,
+MES_SYSTEM.BIN,0,string_pack,92,@[pad:Start]モード切替,@[pad:Start]Change mode,@[pad:Start]Changer de mode,@[pad:Start]Modus ändern,@[pad:Start]Cambia modalità,@[pad:Start]Cambiar modo
+MES_SYSTEM.BIN,0,string_pack,93,@[pad:Llr]選択,@[pad:Llr]Select,@[pad:Llr]Sélectionner,@[pad:Llr]Auswahl,@[pad:Llr]Scegli,@[pad:Llr]Seleccionar
+MES_SYSTEM.BIN,0,string_pack,94,@[pad:Decide]決定,@[pad:Decide]OK,@[pad:Decide]OK,@[pad:Decide]OK,@[pad:Decide]OK,@[pad:Decide]Aceptar
+MES_SYSTEM.BIN,0,string_pack,95,@[pad:Cancel]戻る,@[pad:Cancel]Back,@[pad:Cancel]Retour,@[pad:Cancel]Zurück,@[pad:Cancel]Indietro,@[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,96,@[pad:Select]技表,@[pad:Select]Move List,@[pad:Select]Techniques,@[pad:Select]Techniken,@[pad:Select]Tecniche,@[pad:Select]Técnicas
+MES_SYSTEM.BIN,0,string_pack,97,Mission,Mission,,,,
+MES_SYSTEM.BIN,0,string_pack,98,Stage,Stage,,,,
+MES_SYSTEM.BIN,0,string_pack,99,@[pad:Decide]決定,@[pad:Decide]OK,@[pad:Decide]OK,@[pad:Decide]OK,@[pad:Decide]OK,@[pad:Decide]Aceptar
+MES_SYSTEM.BIN,0,string_pack,100,@[pad:Cancel]戻る,@[pad:Cancel]Back,@[pad:Cancel]Retour,@[pad:Cancel]Zurück,@[pad:Cancel]Indietro,@[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,101,@[pad:Select]戻る,@[pad:Select]Back,@[pad:Select]Retour,@[pad:Select]Zurück,@[pad:Select]Indietro,@[pad:Select]Atrás
+MES_SYSTEM.BIN,0,string_pack,102,/,/,/,/,/,/
+MES_SYSTEM.BIN,0,string_pack,103,-,-,-,-,-,-
+MES_SYSTEM.BIN,0,string_pack,104,@[pad:Ru]ミュート @[pad:Select]ステータス @[pad:R3]チャット範囲切替 @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Ru]Mute  @[pad:Select]Status  @[pad:R3]Chat region  @[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Ru]Muet  @[pad:Select]Statut  @[pad:R3]Changer région chat  @[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Ru]Stumm @[pad:Select]Status  @[pad:R3]Chat-Region wechseln  @[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Ru]Disattiva audio  @[pad:Select]Stato  @[pad:R3]Cambia regione chat  @[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Ru]Silenciar  @[pad:Select]Estado  @[pad:R3]Cambiar región de chat  @[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,105,@[pad:Select]ステータス @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Select]Status  @[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Select]Sélectionner @[pad:Decide]OK @[pad:Cancel]Retour,@[pad:Select]Status @[pad:Decide]OK @[pad:Cancel]Zurück,@[pad:Select]Stato @[pad:Decide]OK @[pad:Cancel]Indietro,@[pad:Select]Estado @[pad:Decide]Aceptar @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,106,@[pad:Rl]リプレイセーブ @[pad:Decide]送る @[pad:Start]終了,@[pad:Rl]Save replay  @[pad:Decide]Next screen  @[pad:Start]Exit,@[pad:Rl]]Sauv. cinématique Ninja @[pad:Decide]Écran suivant @[pad:Start]Quitter ,@[pad:Rl]Ninja-Clip speichern @[pad:Decide]Nächster Bildschirm @[pad:Start]Verlassen,@[pad:Rl]Salva filmato Ninja @[pad:Decide]Schermata seguente @[pad:Start]Abbandona,@[pad:Rl]Guardar vídeo Ninja @[pad:Decide]Siguiente pantalla @[pad:Start]Salir
+MES_SYSTEM.BIN,0,string_pack,107,@[pad:Rl]リプレイセーブ @[pad:Cancel]戻る @[pad:Start]終了,@[pad:Rl]Save replay  @[pad:Cancel]Back  @[pad:Start]Exit,@[pad:Decide]Prochain écran @[pad:Cancel]Retour @[pad:Start]Quitter,@[pad:Decide]Nächster Bildschirm @[pad:Cancel]Zurück @[pad:Start]Verlassen,@[pad:Decide]Schermata seguente @[pad:Cancel]Indietro @[pad:Start]Esci,@[pad:Decide]Siguiente pantalla @[pad:Cancel]Atrás @[pad:Start]Salir
+MES_SYSTEM.BIN,0,string_pack,108,@[pad:Ru]再検索 @[pad:Rl]条件変更 @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Ru]Update  @[pad:Rl]Change critera  @[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Ru]Mise à jour @[pad:Rl]Modifier critères @[pad:Decide]OK @[pad:Cancel]Retour,@[pad:Ru]Aktualisieren @[pad:Rl]Kriterien ändern @[pad:Decide]OK @[pad:Cancel]Zurück,@[pad:Ru]Aggiorna @[pad:Rl]Cambia criteri @[pad:Decide]OK @[pad:Cancel]Indietro,@[pad:Ru]Actualizar @[pad:Rl]Cambiar criterios @[pad:Decide]Aceptar @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,109,@[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK @[pad:Cancel]Retour,@[pad:Decide]OK @[pad:Cancel]Zurück,@[pad:Decide]OK @[pad:Cancel]Indietro,@[pad:Decide]Aceptar @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,110,@[pad:L1]@[pad:R1]50単位移動 @[pad:Rl]プリセット@[pad:Decide]漢字選択 @[pad:Cancel]戻る,@[pad:L1]@[pad:R1]Jump 50 records  @[pad:Rl]Default  @[pad:Decide]Select kanji  @[pad:Cancel]Back,@[pad:L1]@[pad:R1]Passer 50 records  @[pad:Rl]Par défaut  @[pad:Decide]Sélectionner Kanji  @[pad:Cancel]Retour,@[pad:L1]@[pad:R1]50 Einträge überspringen  @[pad:Rl]Standard  @[pad:Decide]Kanji wählen  @[pad:Cancel]Zurück,@[pad:L1]@[pad:R1]Salta 50 record  @[pad:Rl]Predefinita  @[pad:Decide]Scegli kanji  @[pad:Cancel]Indietro,@[pad:L1]@[pad:R1]Pasar 50 récords  @[pad:Rl]Por defecto  @[pad:Decide]Elegir kanji  @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,111,@[pad:Ru]UPLOAD @[pad:Decide]NINJA RECORDS @[pad:Cancel]戻る,@[pad:Ru]Upload  @[pad:Decide]Fight Record  @[pad:Cancel]Back,@[pad:Ru]Télécharger @[pad:Decide]Record de ninja @[pad:Cancel]Retour,@[pad:Ru]Hochladen @[pad:Decide]Ninja-Aufzeichnungen  @[pad:Cancel]Zurück,@[pad:Ru]Invia @[pad:Decide]Record Ninja  @[pad:Cancel]Indietro,@[pad:Ru]Subir　@[pad:Decide]Récords Ninja  @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,112,@[pad:Rl]ランキング @[pad:L1]@[pad:R1]難易度変更 @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Rl]Leaderboards  @[pad:L1]@[pad:R1]Change difficulty  @[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Rl]Classements @[pad:L1]@[pad:R1]Modifier difficulté @[pad:Decide]OK @[pad:Cancel]Retour,@[pad:Rl]Rangliste @[pad:L1]@[pad:R1]Kriterien ändern @[pad:Decide]OK @[pad:Cancel]Zurück,@[pad:Rl]Classifiche @[pad:L1]@[pad:R1]Cambia difficoltà @[pad:Decide]OK @[pad:Cancel]Indietro,@[pad:Rl]Marcadores @[pad:L1]@[pad:R1]Cambiar dificultad @[pad:Decide]Aceptar @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,113,@[pad:L1]@[pad:R1]難易度変更 @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:L1]@[pad:R1]Leaderboards  @[pad:Decide]OK  @[pad:Cancel]Back,@[pad:L1]@[pad:R1]Sélectionner difficulté @[pad:Decide]OK @[pad:Cancel]Retour,@[pad:L1]@[pad:R1]Schwierigkeit wählen @[pad:Decide]OK @[pad:Cancel]Zurück,@[pad:L1]@[pad:R1]Scegli difficoltà @[pad:Decide]OK @[pad:Cancel]Indietro,@[pad:L1]@[pad:R1]Elegir dificultad @[pad:Decide]Aceptar @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,114,@[pad:Start]Shadows of the Worldメニュー @[pad:Select]技表,@[pad:Start]Shadows of the World Menu  @[pad:Select]Move List,@[pad:Start]Menu Contrées ténébreuses @[pad:Select]Techniques,@[pad:Start]Schatten der Welt-Menü @[pad:Select]Techniken,@[pad:Start]Menu Ombre del mondo @[pad:Select]Tecniche,@[pad:Start]Menú Sombras del mundo @[pad:Select]Técnicas
+MES_SYSTEM.BIN,0,string_pack,115,@[pad:Decide]ミュート切替 @[pad:Cancel]戻る,@[pad:Decide]Mute on/off  @[pad:Cancel]Back,@[pad:Decide]Muet OUI/NON  @[pad:Cancel]Retour,@[pad:Decide]Stumm AN/AUS  @[pad:Cancel]Zurück,@[pad:Decide]Attiva/disattiva audio  @[pad:Cancel]Indietro,@[pad:Decide]Silenciar: SÍ/NO  @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,116,@[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK @[pad:Cancel]Retour,@[pad:Decide]OK @[pad:Cancel]Zurück,@[pad:Decide]OK @[pad:Cancel]Indietro,@[pad:Decide]Aceptar @[pad:Cancel]Atrás
+MES_SYSTEM.BIN,0,string_pack,117,@[pad:Rl]DOWNLOAD @[pad:Decide]NINJA RECORDS @[pad:Cancel]戻る,@[pad:Rl]Download  @[pad:Decide]Fight Record  @[pad:Cancel]Back,@[pad:Rl]TÉLÉCHARGEMENT @[pad:Decide]RECORDS DE NINJA　@[pad:Cancel]RETOUR,@[pad:Rl]DOWNLOAD  @[pad:Decide]NINJA-AUFZEICHNUNGEN　@[pad:Cancel]Zurück,@[pad:Rl]SCARICA  @[pad:Decide]RECORD NINJA  @[pad:Cancel]INDIETRO,@[pad:Rl]DESCARGAR  @[pad:Decide]RÉCORDS NINJA  @[pad:Cancel]ATRÁS
+MES_SYSTEM.BIN,0,string_pack,118,@[pad:Ru]UPLOAD @[pad:Rl]DOWNLOAD @[pad:Decide]NINJA RECORDS @[pad:Cancel]戻る,@[pad:Ru]Upload  @[pad:Rl]Download  @[pad:Decide]Fight Record  @[pad:Cancel]Back,@[pad:Ru]TRANSFERT @[pad:Rl]TÉLÉCHARGEMENT @[pad:Decide]RECORDS DE NINJA @[pad:Cancel]RETOUR,@[pad:Ru]UPLOAD  @[pad:Rl]DOWNLOAD  @[pad:Decide]NINJA-AUFZEICHNUNGEN  @[pad:Cancel]Zurück,@[pad:Ru]INVIA  @[pad:Rl]SCARICA  @[pad:Decide]RECORD NINJA  @[pad:Cancel]INDIETRO,@[pad:Ru]SUBIR  @[pad:Rl]DESCARGAR  @[pad:Decide]RÉCORDS NINJA  @[pad:Cancel]ATRÁS
+MES_SYSTEM.BIN,0,string_pack,119,@[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,,,,
+MES_SYSTEM.BIN,0,string_pack,120,@[pad:Rl]ランキング @[pad:L1]@[pad:R1]切替 @[pad:Cancel]戻る,@[pad:Rl]Leaderboards  @[pad:L1]@[pad:R1]Change  @[pad:Cancel]Back,,,,
+MES_SYSTEM.BIN,0,string_pack,121,@[pad:Ru]試聴 @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Ru]Sample  @[pad:Decide]OK  @[pad:Cancel]Back,,,,
+MES_SYSTEM.BIN,0,string_pack,122,@[pad:Select]技表 @[pad:Start]ロビーへ,@[pad:Select]Move List  @[pad:Start]Lobby,,,,
+MES_SYSTEM.BIN,0,string_pack,123,@[pad:Ru]ミュート @[pad:Select]ステータス @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:Ru]Mute  @[pad:Select]Status  @[pad:Decide]OK  @[pad:Cancel]Back,,,,
+MES_SYSTEM.BIN,0,string_pack,124,はい,Yes,Oui,Ja,Sì,Sí
+MES_SYSTEM.BIN,0,string_pack,125,いいえ,No,Non,Nein,No,No
+MES_SYSTEM.BIN,0,string_pack,126,OK,OK,OK,OK,OK,Aceptar
+MES_SYSTEM.BIN,0,string_pack,127,ネットワークから切断されました,Disconnected from network.,Déconnecté du réseau.,Vom Netzwerk getrennt.,Scollegato dalla rete.,Te has desconectado de la red.
+MES_SYSTEM.BIN,0,string_pack,128,ロビーが解散しました,The lobby has disbanded.,Le salon a été supprimé.,Die Lobby wurde aufgelöst.,La lobby è stata sciolta.,La sala se ha desbandado.
+MES_SYSTEM.BIN,0,string_pack,129,ロビーが見つかりませんでした,Unable to find a lobby.,Aucun salon trouvé.,Es konnte keine Lobby gefunden werden.,Impossibile trovare una lobby.,No es posible encontrar una sala.
+MES_SYSTEM.BIN,0,string_pack,130,ロビーに参加できませんでした,Unable to join a lobby.,Impossible de rejoindre un salon.,Betreten einer Lobby nicht möglich.,Impossibile unirsi a una lobby.,No es posible unirse a la sala.
+MES_SYSTEM.BIN,0,string_pack,131,セーブに失敗しました,Save failed.,Échec de la sauvegarde.,Speichern fehlgeschlagen.,Salvataggio fallito.,Error al guardar.
+MES_SYSTEM.BIN,0,string_pack,132,ロードに失敗しました,Load failed.,Échec du chargement.,Laden fehlgeschlagen.,Caricamento fallito.,Error al cargar.
+MES_SYSTEM.BIN,0,string_pack,133,セーブデータを削除しますか？,Are you sure you want to delete the save data?,Voulez-vous vraiment effacer ces données ?,Wollen Sie diese Speicherdaten löschen?,Sei sicuro di voler eliminare i dati salvataggio?,¿Seguro que quieres eliminar estos datos?
+MES_SYSTEM.BIN,0,string_pack,134,リプレイデータがいっぱいです,Fight replays are full.,Le cinéma ninja est complet.,Das Ninja Cinema ist voll.,Il Cinema Ninja è al completo.,El Cine Ninja está completo.
+MES_SYSTEM.BIN,0,string_pack,135,ゲームデータが破損しています,The game data is damaged.,Données du jeu corrompues.,Die Spieldaten sind beschädigt.,I dati del gioco sono danneggiati.,Los datos del juego están dañados.
+MES_SYSTEM.BIN,0,string_pack,136,ダウンロードコンテンツを読み込めませんでした,Unable to read the downloadable content.,Lecture du contenu téléchargeable impossible.,Inhalte zum Herunterladen konnten nicht gelesen werden.,Impossibile leggere il contenuto scaricabile.,No es posible leer el contenido descargable.
+MES_SYSTEM.BIN,0,string_pack,137,"パートナーが離脱しました。
+メニューに戻ります。",Your partner quit. You will be returned to the game menu.,Votre partenaire a quitté la partie.,Ihr Partner hat das Spiel verlassen.,Il tuo partner è uscito.,Tu compañero ha abandonado la partida.
+MES_SYSTEM.BIN,0,string_pack,138,"リプレイデータを保存しました。
+リプレイはメインメニューの『NINJA CINEMA』で観賞できます。",Saved fight replay. Select Fight Replay on the main menu to watch it.,Cinématique ninja sauvegardée.,Ninja Cinema-Clip gespeichert.,Filmato Cinema Ninja salvato.,Se ha guardado el vídeo de Cine Ninja.
+MES_SYSTEM.BIN,0,string_pack,139,リプレイデータの保存に失敗しました,Unable to save the Ninja Cinema Clip.,Sauvegarde de la cinématique ninja impossible.,Ninja Cinema-Clip konnte nicht gespeichert werden.,Impossibile salvare il Filmato Cinema Ninja,No se ha podido guardar el vídeo de Cine Ninja.
+MES_SYSTEM.BIN,0,string_pack,140,"ネットワークに接続されていません
+オンライン機能を利用する場合は、
+サインインして入りなおす必要があります",You are not currently connected to a network. You must sign in to use online functionality.,Vous n'êtes connecté à aucun réseau. Vous devez vous inscrire pour utiliser le mode en ligne.,"Sie sind zurzeit nicht mit einem Netzwerk verbunden. Sie müssen sich anmelden, um Online-Funktionen zu nutzen.",Al momento non sei connesso a una rete. Devi connetterti per usare le funzionalità online.,No estás conectado a ninguna red. Debes iniciar sesión para usar los servicios online.
+MES_SYSTEM.BIN,0,string_pack,141,"あなたのPlayStation®Network のアカウントはチャット制限が設定されているため、
+チャット機能を利用できません。",Chat is disabled on your PlayStation®Network account due to chat restrictions.,Chat désactivé sur votre compte PlayStation®Network du fait de vos restrictions de chat.,"«Chat» ist in ihrem PlayStation®Network Account nicht zugelassen, aufgrund von «Chat»-Einschränkungen.",I permessi per la chat non sono attivi sul tuo account PlayStation®Network.,El chat está deshabilitado en tu cuenta de PlayStation®Network debido a restricciones del chat.
+MES_SYSTEM.BIN,0,string_pack,142,戻る場合は@[pad:Cancel]を押してください。,Press @[pad:Cancel] to return.,Appuyez sur @[pad:Cancel] pour retourner.,"Drücken Sie @[pad:Cancel], um zurückzugehen.",Premi @[pad:Cancel] per tornare.,Pulsa @[pad:Cancel] para volver.
+MES_SYSTEM.BIN,0,string_pack,143,"あなたのPlayStation®Network のアカウントはパレンタルロックが設定されているため、
+オンラインサービスを利用できません。",You cannot use this online service due to the Parental Control settings on your PlayStation®Network account.,Les paramètres de contrôle parental de votre compte PlayStation®Network ne vous permettent pas d'utiliser ce service en ligne.,"Aufgrund der Sicherheitseinstellungen auf Ihrem PlayStation®Network Account, können Sie nicht auf diesen Online-Service zugreifen.",Questo servizio non può essere usato perché le impostazioni del filtro contenuti sul tuo account PlayStation®Network non lo consentono.,No puedes usar los servicios online debido a la configuración parental de tu cuenta de PlayStation®Network.
+MES_SYSTEM.BIN,0,string_pack,144,検索中,SEARCHING...,RECHERCHE,SUCHT ...,RICERCA IN CORSO,BUSCANDO
+MES_SYSTEM.BIN,0,string_pack,145,マッチング中,MATCHING...,RÉSULTATS,SUCHT SPIELER ...,ABBINAMENTO IN CORSO,ANALIZANDO COINCIDENCIAS
+MES_SYSTEM.BIN,0,string_pack,146,NOW SAVING,SAVING...,SAUVEGARDE EN COURS...,SPEICHERT ...,SALVATAGGIO IN CORSO...,GUARDANDO
+MES_SYSTEM.BIN,0,string_pack,147,NOW LOADING,LOADING...,CHARGEMENT EN COURS...,LÄDT ...,CARICAMENTO IN CORSO...,CARGANDO
+MES_SYSTEM.BIN,0,string_pack,148,@[pad:Cancel]キャンセル,@[pad:Cancel]Cancel,@[pad:Cancel]ANNULER,@[pad:Cancel]ABBRECHEN,@[pad:Cancel]ANNULLA,@[pad:Cancel]CANCELAR
+MES_SYSTEM.BIN,0,string_pack,149,@[pad:L]スタイル変更 @[pad:Decide]決定 @[pad:Cancel]戻る,@[pad:L]Change play style  @[pad:Decide]OK  @[pad:Cancel]Back,,,,
+MES_SYSTEM.BIN,0,string_pack,150,ランキング登録、協力プレイには、サインインする必要があります。,You must sign in to register on the leaderboards and play co-op.,,,,

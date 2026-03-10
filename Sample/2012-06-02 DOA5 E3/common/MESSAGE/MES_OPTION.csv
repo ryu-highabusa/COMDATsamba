@@ -1,0 +1,250 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_OPTION.BIN,0,string_pack,0,ON,ON,ACTIVÉ,EIN,SÌ,SÍ
+MES_OPTION.BIN,0,string_pack,1,OFF,OFF,DÉSACTIVÉ,AUS,NO,NO
+MES_OPTION.BIN,0,string_pack,2,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,3,デジタルインストの表示を1P2Pで個々に設定します,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,4,1P,P1,J1,S1,G1,J1
+MES_OPTION.BIN,0,string_pack,5,2P,P2,J2,S2,G2,J2
+MES_OPTION.BIN,0,string_pack,6,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,7,ゲームの機能に関する設定です,Change game settings.,Modifier les paramètres de jeu.,Ändere Spieleinstellungen.,Modifica le impostazioni di gioco.,Cambia los parámetros del juego.
+MES_OPTION.BIN,0,string_pack,8,技データの表示,MOVE DATA,DÉPLACER LES DONNÉES,MOVE-DATEN,DATI MOSSE,DATOS MOVIMIENTO
+MES_OPTION.BIN,0,string_pack,9,画面に表示する技情報タイプを選択します,Set the type of move info that appears on the screen.,Paramétrer les infos des coups qui apparaissent à l'écran.,Lege die anzuzeigende Move-Info fest. ,Imposta il tipo di informazioni sulle mosse da visualizzare sullo schermo.,Selecciona el tipo de información para un movimiento que aparece en la pantalla.
+MES_OPTION.BIN,0,string_pack,10,スキルインフォ,MOVE DETAILS,DÉTAILS COUPS,MOVE-DETAILS,DETTAGLI MOSSA,DETALLES DE MOVIMIENTOS
+MES_OPTION.BIN,0,string_pack,11,デジタルインストの表示を 1P/2P で個々に設定します,Set Move List display for P1 and P2.,Configurer l'affichage de la liste des coups pour le J1 et le J2.,Move-Listen-Anzeige für S1 und S2 festlegen.,Mostra l'elenco mosse per G1 e G2.,Configura cómo aparecerá la lista de movimientos para el J1 y el J2.
+MES_OPTION.BIN,0,string_pack,12,カメラタイプ,CAMERA TYPE,TYPE DE CAMÉRA,KAMERATYP,TIPO DI TELECAMERA,TIPO DE CÁMARA
+MES_OPTION.BIN,0,string_pack,13,状況ごとにカメラワークをダイナミックに変化させるか選択します,Set whether to use dramatic camerawork based on gameplay conditions.,Définir l'utilisation des mouvements de caméra dynamiques en fonction des conditions de jeu.,"Lege fest, ob spielabhängig dramatische Kameraeinstellungen gezeigt werden sollen.",Imposta se usare la visuale drammatica secondo le condizioni di gioco.,Establece si la cámara cambia en función de lo que suceda en el combate.
+MES_OPTION.BIN,0,string_pack,14,ダイナミック,ACTION,ACTION,ACTION,AZIONE,ACCIÓN
+MES_OPTION.BIN,0,string_pack,15,クラシック,CLASSIC,CLASSIQUE,KLASSISCH,CLASSICA,CLÁSICO
+MES_OPTION.BIN,0,string_pack,16,ヒットエフェクト,HIT EFFECT,EFFET DE COUP,TREFFEREFFEKT,EFFETTI DEI COLPI,EFECTO DE GOLPES
+MES_OPTION.BIN,0,string_pack,17,ヒットエフェクトを表示するかどうか設定します,Turn hit effects on or off.,Activer/désactiver les effets des coups.,Treffereffekte an- oder ausschalten.,Attiva e disattiva gli effetti d'impatto.,Activa o desactiva los efectos de los golpes.
+MES_OPTION.BIN,0,string_pack,18,汚れの表現,DIRT,SALETÉ,SCHMUTZ,SPORCIZIA,SUCIEDAD
+MES_OPTION.BIN,0,string_pack,19,バトル中のキャラクターに汚れが付くかどうか選択します,Set whether the character gets dirty during a fight.,Choisissez si le personnage se salit durant le combat.,"Legt fest, ob Charaktere sich im Kampf schmutzig machen.",Imposta se il personaggio si sporca durante il combattimento.,Elige si el personaje se ensucia durante un combate.
+MES_OPTION.BIN,0,string_pack,20,汗の表現,SWEAT,SUEUR,SCHWEISS,SUDORE,SUDOR
+MES_OPTION.BIN,0,string_pack,21,バトル中のキャラクターが汗をかくかどうか選択します,Set whether the character sweats during a fight.,Choisissez si le personnage transpire durant le combat.,"Legt fest, ob Charaktere im Kampf schwitzen.",Imposta se il personaggio suda durante il combattimento.,Elige si el personaje suda durante un combate.
+MES_OPTION.BIN,0,string_pack,22,画面表示物の設定,FIGHT SCREEN INFO,,,,
+MES_OPTION.BIN,0,string_pack,23,バトル画面に表示する情報を設定します,Set what information appears on the screen during a fight.,,,,
+MES_OPTION.BIN,0,string_pack,24,デジタルインスト,MOVE LIST,LISTE DE COUPS,MOVE-LISTE,ELENCO MOSSE,LISTA DE MOVIMIENTOS
+MES_OPTION.BIN,0,string_pack,25,左サイドON,LEFT,,,,
+MES_OPTION.BIN,0,string_pack,26,右サイドON,RIGHT,,,,
+MES_OPTION.BIN,0,string_pack,27,両サイドON,BOTH,,,,
+MES_OPTION.BIN,0,string_pack,28,スキルインフォ,MOVE DETAILS,DÉTAILS COUPS,MOVE-DETAILS,DETTAGLI MOSSA,DETALLES DE MOVIMIENTOS
+MES_OPTION.BIN,0,string_pack,29,技表記,MOVE LIST ICONS,ICÔNES DES COUPS,MOVE-LISTEN-SYMBOLE,ICONE ELENCO MOSSE,ICONOS DE MOVIM.
+MES_OPTION.BIN,0,string_pack,30,技の表示をボタンマークにするか技マークにするか設定できます,Set move display to button icons or move icons.,Définir l'emplacement de l'affichage des coups : icônes touches ou icônes coups. (Ceci ne peut être modifié dans la version démo.),"Lege fest, ob Moves durch Tasten- oder Move-Symbole angezeigt werden. (Option nicht in der Demo-Version verfügbar.)",Visualizza le mosse con icone comando o icone mossa. (Impossibile impostare nella demo.),Elige si se verán iconos de botones o de movimientos en la lista de movimientos. (Esta opción no se puede ajustar en la demo.)
+MES_OPTION.BIN,0,string_pack,31,ジャッジメッセージ,FIGHT MESSAGES,MESSAGES DE COMBAT,KAMPFNACHRICHTEN,MESSAGGI COMBATTIMENTO,MENSAJES DEL COMBATE
+MES_OPTION.BIN,0,string_pack,32,バトルの開始や終了時のメッセージを表示するかどうか選択します,Set the display of messages at the start and end of a fight.,Ajustez l’affichage des messages au départ et à la fin de chaque combat.,Legt die Anzeige von Nachrichten am Anfang und Ende eines Kampfes fest.,Imposta i messaggi visualizzati all'inizio e alla fine dell'incontro.,Elige si se muestran los mensajes al principio y al final de un combate.
+MES_OPTION.BIN,0,string_pack,33,チュートリアルメッセージ,TUTORIALS,DIDACTICIELS,TUTORIALS,TUTORIAL,TUTORIALES
+MES_OPTION.BIN,0,string_pack,34,遊び方の説明を表示するかどうか選択します,Set the display of in-game tutorial messages.,Configurer l'affichage des didacticiels en jeu.,Lege die Anzeige von Tutorial-Nachrichten im Spiel fest.,Imposta la visualizzazione dei messaggi del tutorial nel gioco.,Configura si quieres ver los mensajes de tutorial durante el juego.
+MES_OPTION.BIN,0,string_pack,35,操作ガイドを表示するかどうか選択します,Set the displapy of in-game help messages.,Configurer l'affichage des messages d'aide en jeu.,Lege die Anzeige von Hilfenachrichten im Spiel fest.,Imposta la visualizzazione dei messaggi di aiuto nel gioco.,Configura si quieres ver los mensajes de ayuda durante el juego.
+MES_OPTION.BIN,0,string_pack,36,ランダムフィルター,RANDOM FILTER,FILTRE ALÉATOIRE,ZUFALLSFILTER,FILTRO CASUALE,FILTRO ALEATORIO
+MES_OPTION.BIN,0,string_pack,37,ランダム決定時に選出されたくないものを設定できます,Set items which should not be chosen during random selection.,Définir les paramètres à ne pas inclure lors de la sélection aléatoire. (Ceci ne peut être modifié dans la version démo.),"Bestimme Gegenstände, die bei einer Zufallsauswahl nicht gewählt werden sollen. (Option nicht in der Demo-Version verfügbar.)",Imposta le voci da non scegliere nella selezione casuale. (Impossibile impostare nella demo.),Establece qué parámetros no se deben elegir en una selección aleatoria. (Esta opción no se puede ajustar en la demo.)
+MES_OPTION.BIN,0,string_pack,38,キャラリスト,CHARACTERS,PERSONNAGES,CHARAKTERE,PERSONAGGI,PERSONAJES
+MES_OPTION.BIN,0,string_pack,39,ステージリスト,STAGES,NIVEAUX,STAGES,LIVELLI,FASES
+MES_OPTION.BIN,0,string_pack,40,コントローラ設定,CONTROLLER,MANETTE,CONTROLLER,CONTROLLER,MANDO
+MES_OPTION.BIN,0,string_pack,41,コントローラの設定を変更します,Change controller settings.,Modifier les paramètres de la manette.,Ändere die Controller-Einstellungen.,Cambia le impostazioni del controller.,Cambia los parámetros del mando.
+MES_OPTION.BIN,0,string_pack,42,A TYPE,TYPE A,TYPE A,TYP A,TIPO A,TIPO A
+MES_OPTION.BIN,0,string_pack,43,B TYPE,TYPE B,TYPE B,TYP B,TIPO B,TIPO B
+MES_OPTION.BIN,0,string_pack,44,C TYPE,TYPE C,TYPE C,TYP C,TIPO C,TIPO C
+MES_OPTION.BIN,0,string_pack,45,D TYPE,TYPE D,TYPE D,TYP D,TIPO D,TIPO D
+MES_OPTION.BIN,0,string_pack,46,フリー設定,CUSTOM,PERSONNALISÉ,SELBSTDEFINIERT,PERSONALIZZATO,PERSONALIZADO
+MES_OPTION.BIN,0,string_pack,47,ボタン配置のタイプを選んでください,Please choose a control scheme.,Sélectionner un type de commande.,Wähle eine Steuerungsart.,Seleziona uno schema di comando.,Elige un sistema de control.
+MES_OPTION.BIN,0,string_pack,48,パンチ,PUNCH,COUP DE POING,SCHLAG,PUGNO,PUÑETAZO
+MES_OPTION.BIN,0,string_pack,49,キック,KICK,COUP DE PIED,TRITT,CALCIO,PATADA
+MES_OPTION.BIN,0,string_pack,50,ホールド,HOLD,PRISE,GRIFF,PRESA,LLAVE
+MES_OPTION.BIN,0,string_pack,51,投げ,THROW,PROJECTION,WURF,PROIEZIONE,DERRIBO
+MES_OPTION.BIN,0,string_pack,52,H+P+K,H+P+K,H+P+K,H+P+K,H+P+K,H+P+K
+MES_OPTION.BIN,0,string_pack,53,H+K,H+K,H+K,H+K,H+K,H+K
+MES_OPTION.BIN,0,string_pack,54,P+K,P+K,P+K,P+K,P+K,P+K
+MES_OPTION.BIN,0,string_pack,55,挑発,TAUNT,PROVOCATION,PROVOKATION,PROVOCA,PROVOCAR
+MES_OPTION.BIN,0,string_pack,56,移動,MOVE,DÉPLACEMENT,MOVE,MOVIMENTO,MOVER
+MES_OPTION.BIN,0,string_pack,57,カーソル移動,MOVE CURSOR,DÉPLACER LE POINTEUR,MOVE-CURSOR,MUOVI IL CURSORE,MOVER EL CURSOR
+MES_OPTION.BIN,0,string_pack,58,メニュー,MENUS,MENUS,MENÜS,MENU,MENÚS
+MES_OPTION.BIN,0,string_pack,59,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,60,決定,OK,OK,OK,OK,ACEPTAR
+MES_OPTION.BIN,0,string_pack,61,リセットする,RESET,RÉINITIALISER,ZURÜCKSETZEN,REIMPOSTA,RESTABLECER
+MES_OPTION.BIN,0,string_pack,62,技を選んで割り当てたいボタンを押してください。もう一度同じボタンを押すと、未使用にできます。,"Select a move, then press a button to assign or unassign it.",Sélectionner un coup puis appuyer sur une touche pour l'assigner ou la désassigner.,"Wähle einen Move und drücke eine Taste, um ihn ihr zuzuweisen oder zu entfernen.","Seleziona una mossa, quindi premi un tasto per assegnarla o rimuoverla.",Selecciona un movimiento y pulsa un botón para asignarlo o  anular la asignación.
+MES_OPTION.BIN,0,string_pack,63,そのボタンは割り当てられません。,You cannot assign a move to that button.,Vous ne pouvez pas assigner de coup à cette touche.,Dieser Taste kannst du keinen Move zuweisen.,Impossibile assegnare una mossa a questo tasto.,No puedes asignar un movimiento a ese botón.
+MES_OPTION.BIN,0,string_pack,64,"設定を変えるとチュートリアルメッセージが表示されなくなります。
+よろしいですか？","If you change this setting, tutorial messages will not display. Is this OK?","Si vous modifiez ces paramètres, les messages de didacticiel ne seront plus affichés. Confirmer ?","Wenn du diese Einstellung änderst, werden keine Tutorial-Nachrichten angezeigt. Möchtest du fortfahren?","Cambiando questa impostazione, non verranno visualizzati i messaggi del tutorial. Vuoi proseguire?","Si cambias este ajuste, no se mostrarán los mensajes de tutorial. ¿Seguro?"
+MES_OPTION.BIN,0,string_pack,65,ホールド択数,HOLD SYSTEM,SYSTÈME DE PRISES,GRIFFSYSTEM,SISTEMA DI PRESE,SISTEMA DE SUJECIÓN
+MES_OPTION.BIN,0,string_pack,66,中段パンチと中段キックを同じコマンドでホールドできるかどうかを設定します（オフラインでのみ有効になります）,Set whether to use the same command for holding mid punches and mid kicks. (Only used offline.),Choisissez si vous souhaitez utiliser les mêmes commandes pour les prises de coups de poing et coups de pied à mi-hauteur. (Uniquement hors ligne.),"Legt fest, ob Griffe gegen mittlere Schläge und Tritte mit der gleichen Eingabe ausgeführt werden. (Nur offline gültig.)",Imposta se utilizzare lo stesso comando per le prese su pugni e calci medi. (Disponibile solo offline).,Elige si quieres usar el mismo comando para sujetar puñetazos medios y patadas medias (solo se usa sin conexión).
+MES_OPTION.BIN,0,string_pack,67,３択,3-POINT HOLD,3- POINT DE PRISE,3-PUNKT-GRIFF,PRESA 3 PUNTI,SUJECIÓN DE 3 PUNTOS
+MES_OPTION.BIN,0,string_pack,68,中段パンチと中段キックともに←Hでホールドできます,Use ←H to hold both mid punches and mid kicks.,Utilisez ←H pour réaliser des prises de coups de poing ou coups de pied à mi-hauteur.,"Benutze ←H, um Griffe gegen mittlere Schläge und mittlere Tritte auszuführen.",Usa ←H per le prese su pugni e calci medi.,Usa ←H para sujetar tanto puñetazos medios como patadas medias.
+MES_OPTION.BIN,0,string_pack,69,４択,4-POINT HOLD,4- POINT DE PRISE,4-PUNKT-GRIFF,PRESA 4 PUNTI,SUJECIÓN DE 4 PUNTOS
+MES_OPTION.BIN,0,string_pack,70,中段パンチは←Hで、中段キックは→Hでホールドできます,Use ←H to hold mid punches and →H to hold mid kicks.,Utilisez ←H pour réaliser des prises de coups de poing à mi-hauteur ou →H pour les prises de coups de pied à mi-hauteur.,"Benutze ←H, um Griffe gegen mittlere Schläge auszuführen, und →H, um Griffe gegen mittlere Tritte auszuführen.",Usa ←H per le prese su pugni medi →H per i calci medi.,Usa ←H para sujetar puñetazos medios y →H para sujetar patadas medias.
+MES_OPTION.BIN,0,string_pack,71,ホールド入力方式,HOLD INPUT,RÉALISATION DE PRISE,GRIFF-EINGABE,COMANDI PRESA,DIFICULTAD DE LLAVES
+MES_OPTION.BIN,0,string_pack,72,ホールド技の出しやすさを設定できます,Set how easily holds can be performed.,Ajustez le niveau de difficulté de réalisation des prises.,"Legt fest, wie einfach Griffe ausgeführt werden können.",Mostra quant'è facile eseguire una presa.,Elige la dificultad con la que se pueden hacer las llaves.
+MES_OPTION.BIN,0,string_pack,73,カジュアル,CASUAL,OCCASIONNEL,CASUAL,DILETTANTE,CASUAL
+MES_OPTION.BIN,0,string_pack,74,プロフェッショナル,PRO,PRO,PRO,PRO,PRO
+MES_OPTION.BIN,0,string_pack,75,サイドステップ操作,SIDE STEP CONTROL,COMMANDES D’ESQUIVE,SIDESTEP-STEUERUNG,COMANDI PASSO LATERALE,CONTROL DE MOVIMIENTO LATERAL
+MES_OPTION.BIN,0,string_pack,76,サイドステップの入力方法を選択します,Select how to perform a side step.,Choisissez comment réaliser une esquive.,Legt die Eingabe für Sidesteps fest.,Imposta come eseguire un passo laterale.,Elige cómo hacer un paso lateral.
+MES_OPTION.BIN,0,string_pack,77,↑H+P+K／↓H+P+K,↑H+P+K/↓H+P+K,↑H+P+K/↓H+P+K,↑H+P+K/↓H+P+K,↑H+P+K/↓H+P+K,↑H+P+K/↓H+P+K
+MES_OPTION.BIN,0,string_pack,78,↑↑／↓↓,↑↑／↓↓,↑↑/↓↓,↑↑/↓↓,↑↑/↓↓,↑↑/↓↓
+MES_OPTION.BIN,0,string_pack,79,↑／↓,↑／↓,↑/↓,↑/↓,↑/↓,↑/↓
+MES_OPTION.BIN,0,string_pack,80,画面の明るさ,BRIGHTNESS,LUMINOSITÉ,HELLIGKEIT,LUMINOSITÀ,BRILLO
+MES_OPTION.BIN,0,string_pack,81,左のロゴが見え、右のロゴは見えないように明るさを調整すると、本ゲームの映像をより綺麗にお楽しみいただけます。,"For the best visuals, please adjust the brightness setting until only the left logo is visible.","Pour un affichage optimal, ajustez la luminosité de l’écran jusqu’à ce que le logo situé à gauche disparaisse.","Stelle für die optimale Grafik die Helligkeit so ein, dass nur das linke Logo sichtbar ist.","Per una resa ottimale, regola la luminosità finché non è visibile solo il logo di sinistra.","Para obtener los mejores resultados, ajusta el brillo hasta que solo se vea el logotipo de la izquierda."
+MES_OPTION.BIN,0,string_pack,82,BGM音量,MUSIC,MUSIQUE,MUSIK,MUSICA,MÚSICA
+MES_OPTION.BIN,0,string_pack,83,音楽のボリュームを設定します,Sets the music volume,Définissez le volume audio,Musiklautstärke einstellen,Volume della musica,Ajusta el volumen de la música.
+MES_OPTION.BIN,0,string_pack,84,SE音量,SOUND EFFECTS,EFFECTS SONORES,SOUND-EFFEKTE,EFFETTI AUDIO,EFECTOS DE SONIDO
+MES_OPTION.BIN,0,string_pack,85,効果音のボリュームを設定します,Sets the sound-effect volume,Définissez le volume des effets sonores,Effektlautstärke einstellen,Volume degli effetti sonori,Ajusta el volumen de los efectos de sonido.
+MES_OPTION.BIN,0,string_pack,86,ボイス音量,VOICES,VOIX,SPRACHE,DOPPIAGGIO,VOCES
+MES_OPTION.BIN,0,string_pack,87,キャラクターの声のボリュームを設定します,Sets the character's voice volume,Définissez le volume des voix,Sprachlautstärke einstellen,Volume delle voci dei personaggi,Ajusta el volumen de las voces de los personajes.
+MES_OPTION.BIN,0,string_pack,88,システムボイス,SYSTEM VOICE,VOIX SYSTÈME,SYSTEMSPRACHE,VOCE DI SISTEMA,VOZ DEL SISTEMA
+MES_OPTION.BIN,0,string_pack,89,システムボイスのキャラクターを選択します,Select a character for the system voice.,Choisissez un personnage pour la voix système.,Charakter für die Systemsprache auswählen.,Seleziona un personaggio per la voce di sistema.,Selecciona un personaje para la voz de sistema.
+MES_OPTION.BIN,0,string_pack,90,挑戦状,THROWDOWNS,DUELS,THROWDOWNS,VINCA IL MIGLIORE,DUELOS
+MES_OPTION.BIN,0,string_pack,91,他のプレイヤーからの挑戦状を受けるかどうか選択します,Set whether to accept throwdown challenges from other players.,Choisissez si le personnage accepte des duels durant le combat.,"Legt fest, ob du Throwdown-Herausforderungen anderer Spieler annimmst.",Imposta se accettare sfide Vinca il migliore da altri giocatori.,Elige si quieres aceptar retos de duelos de otros personajes.
+MES_OPTION.BIN,0,string_pack,92,常に受ける,ACCEPT,ACCEPTER,ANNEHMEN,ACCETTA,ACEPTAR
+MES_OPTION.BIN,0,string_pack,93,確認する,CHECK,VÉRIFIER,PRÜFEN,CONTROLLA,COMPROBAR
+MES_OPTION.BIN,0,string_pack,94,受けない,DECLINE,DÉCLINER,ABLEHNEN,RIFIUTA,RECHAZAR
+MES_OPTION.BIN,0,string_pack,95,すべて,ALL,TOUT,ALLE,TUTTE,TODOS
+MES_OPTION.BIN,0,string_pack,96,プレイヤーのみ,ONLY PLAYERS,JOUEURS UNIQUEMENT,NUR SPIELER,SOLO GIOCATORI,SOLO JUGADORES
+MES_OPTION.BIN,0,string_pack,97,ゴーストのみ,ONLY GHOSTS,FANTÔMES UNIQUEMENT,NUR GEISTER,SOLO FANTASMI,SOLO FANTASMAS
+MES_OPTION.BIN,0,string_pack,98,ゴースト,GHOSTS,,,,
+MES_OPTION.BIN,0,string_pack,99,プレイヤーのゴーストを受信するかどうか選択します,Set whether to download other players' ghost data.,,,,
+MES_OPTION.BIN,0,string_pack,100,受信する,DOWNLOAD,,,,
+MES_OPTION.BIN,0,string_pack,101,受信しない,DO NOT DOWNLOAD,,,,
+MES_OPTION.BIN,0,string_pack,102,ルーム検索結果,LOBBY SEARCH RESULTS,RÉSULTATS RECHERCHE DE SALLES D'ATTENTE,LOBBY-SUCHERGEBNISSE,RISULTATI RICERCA SALA D'ATTESA,RESULTADOS DE BÚSQUEDA DE PUNTOS DE ENCUENTRO
+MES_OPTION.BIN,0,string_pack,103,ルーム検索結果の一覧を表示するかどうか選択します,Set the display of lobby search results.,Ajustez l’affichage des résultats de recherche de salles d'attente.,Legt die Anzeige für Lobby-Suchergebnisse fest.,Imposta la visualizzazione dei risultati ricerca sala d'attesa.,Elige cómo se muestran los resultados de búsqueda de los puntos de encuentro.
+MES_OPTION.BIN,0,string_pack,104,表示する,ON,ACTIVÉ,EIN,SÌ,SÍ
+MES_OPTION.BIN,0,string_pack,105,表示しない,OFF,DÉSACTIVÉ,AUS,NO,NO
+MES_OPTION.BIN,0,string_pack,106,Youtube,YouTube,YouTube,YouTube,YouTube,YouTube
+MES_OPTION.BIN,0,string_pack,107,Youtubeのアカウント情報を設定します,Set YouTube account settings.,Ajustez vos paramètres de compte YouTube.,Legt YouTube-Kontoeinstellungen fest.,Impostazioni dell'account di YouTube.,Configura los ajustes de la cuenta de YouTube.
+MES_OPTION.BIN,0,string_pack,108,Facebook,FACEBOOK,FACEBOOK,FACEBOOK,FACEBOOK,FACEBOOK
+MES_OPTION.BIN,0,string_pack,109,Facebookのアカウント情報を設定します,Set Facebook account settings.,Ajustez vos paramètres de compte Facebook.,Legt Facebook-Kontoeinstellungen fest.,Impostazioni dell'account di Facebook.,Configura los ajustes de la cuenta de Facebook.
+MES_OPTION.BIN,0,string_pack,110,メニュー言語,MENUS,MENUS,MENÜS,MENU,MENÚS
+MES_OPTION.BIN,0,string_pack,111,メニューの言語を選択できます,Set the language used in menus.,Définir la langue des menus.,Stellt die Sprache der Menüs ein.,Imposta la lingua dei menu.,Elige el idioma de los menús.
+MES_OPTION.BIN,0,string_pack,112,日本語,JAPANESE,JAPONAIS,JAPANISCH,GIAPPONESE,JAPONÉS
+MES_OPTION.BIN,0,string_pack,113,英語,ENGLISH,ANGLAIS,ENGLISCH,INGLESE,INGLÉS
+MES_OPTION.BIN,0,string_pack,114,フランス語,FRENCH,FRANÇAIS,FRANZÖSISCH,FRANCESE,FRANCÉS
+MES_OPTION.BIN,0,string_pack,115,ドイツ語,GERMAN,ALLEMAND,DEUTSCH,TEDESCO,ALEMÁN
+MES_OPTION.BIN,0,string_pack,116,イタリア語,ITALIAN,ITALIEN,ITALIENISCH,ITALIANO,ITALIANO
+MES_OPTION.BIN,0,string_pack,117,スペイン語,SPANISH,ESPAGNOL,SPANISCH,SPAGNOLO,ESPAÑOL
+MES_OPTION.BIN,0,string_pack,118,中,CHINESE,CHINOIS,CHINESISCH,CINESE,CHINO
+MES_OPTION.BIN,0,string_pack,119,ボイス言語,VOICE,VOIX,SPRACHE,VOCI,VOCES
+MES_OPTION.BIN,0,string_pack,120,ボイスの言語を設定します,Set the language for voices.,Configurer la langue des dialogues.,Lege die Sprache der Sprecher fest.,Imposta la lingua del doppiaggio.,Configura el idioma de las voces.
+MES_OPTION.BIN,0,string_pack,121,字幕言語,SUBTITLES,SOUS-TITRES,UNTERTITEL,SOTTOTITOLI,SUBTÍTULOS
+MES_OPTION.BIN,0,string_pack,122,字幕の言語を設定します,Set the language for subtitles.,Configurer la langue des sous-titres. (Ceci ne peut être modifié dans la version démo.),Sprache für Untertitel einstellen. (Option nicht in der Demo-Version verfügbar.),Imposta la lingua dei sottotitoli. (Impossibile impostare nella demo.),Configura el idioma de los subtítulos. (Esta opción no se puede ajustar en la demo.)
+MES_OPTION.BIN,0,string_pack,123,インストール,INSTALL,INSTALLER,INSTALLIEREN,INSTALLA,INSTALAR
+MES_OPTION.BIN,0,string_pack,124,ゲームデータをハードディスクにインストールします,Install game data on the hard drive.,Installez les données du jeu sur le disque dur.,Installiert Spieldaten auf der Festplatte.,Installa dati di gioco sul disco fisso.,Instala los datos del juego en el disco duro.
+MES_OPTION.BIN,0,string_pack,125,COM難易度,A.I. DIFFICULTY,DIFFICULTÉ DE L’IA,K.-I.-SCHWIERIGKEIT,DIFFICOLTÀ COM,DIFICULTAD DEL RIVAL
+MES_OPTION.BIN,0,string_pack,126,コンピュータの強さを設定します,Select the difficulty level of computer opponents.,Sélectionnez le niveau de difficulté des adversaires.,Schwierigkeitsgrad der Computergegner auswählen.,Seleziona il livello di difficoltà degli avversari controllati dal computer.,Selecciona el nivel de dificultad de los rivales controlados por la máquina.
+MES_OPTION.BIN,0,string_pack,127,イージー,EASY,FACILE,EINFACH,FACILE,FÁCIL
+MES_OPTION.BIN,0,string_pack,128,ノーマル,NORMAL,NORMAL,NORMAL,NORMALE,NORMAL
+MES_OPTION.BIN,0,string_pack,129,ハード,HARD,DIFFICILE,SCHWER,DIFFICILE,DIFÍCIL
+MES_OPTION.BIN,0,string_pack,130,トゥルーファイター,TRUE FIGHTER,GUERRIER ULTIME,WAHRER KÄMPFER,MAESTRO,MAESTRO
+MES_OPTION.BIN,0,string_pack,131,ラウンド数（SINGLE）,SOLO ROUNDS,MANCHES SOLO,SOLO-RUNDEN,ROUND SINGOLI,RONDAS 1J
+MES_OPTION.BIN,0,string_pack,132,勝利に必要な先取ラウンド数を設定します（シングル対戦用）,Set the number of rounds needed to win a solo match.,Définir le nombre de rounds à gagner pour remporter la victoire.,Lege die Rundenzahl für einen Sieg in einer Solo-Partie fest.,Imposta il numero di round necessari per vincere un match in singolo.,Configura el número de rondas necesarias para ganar un combate en solitario.
+MES_OPTION.BIN,0,string_pack,133,1,1,1,1,1,1
+MES_OPTION.BIN,0,string_pack,134,2,2,2,2,2,2
+MES_OPTION.BIN,0,string_pack,135,3,3,3,3,3,3
+MES_OPTION.BIN,0,string_pack,136,4,4,4,4,4,4
+MES_OPTION.BIN,0,string_pack,137,5,5,5,5,5,5
+MES_OPTION.BIN,0,string_pack,138,ラウンド数（TAG）,TAG ROUNDS,MANCHES EN MODE DUO,TEAM-RUNDEN,ROUND COPPIA,RONDAS EN EQUIPO
+MES_OPTION.BIN,0,string_pack,139,タッグ対戦時のラウンド数を設定します,Set the number of rounds for a tag match.,Définir le nombre de rounds en mode duo.,Lege die Rundenzahl für ein Teamspiel fest.,Imposta il numero di round per un match in coppia.,Configura el número de rondas para un combate en grupo.
+MES_OPTION.BIN,0,string_pack,140,最大体力,MAX HEALTH,SANTÉ MAX,MAX. GESUNDHEIT,SALUTE MAX,SALUD MÁXIMA
+MES_OPTION.BIN,0,string_pack,141,体力の最大値を設定します,Set the maximum amount of health.,Définir la santé maximum.,Lege die maximale Gesundheit fest.,Imposta il valore massimo di salute.,Configura la cantidad máxima de salud.
+MES_OPTION.BIN,0,string_pack,142,最小,SMALLEST,LE PLUS PETIT,AM KLEINSTEN,MINIMO,EL MENOR
+MES_OPTION.BIN,0,string_pack,143,小,SMALL,PETIT,KLEIN,PICCOLO,PEQUEÑO
+MES_OPTION.BIN,0,string_pack,144,普通,NORMAL,NORMAL,NORMAL,NORMALE,NORMAL
+MES_OPTION.BIN,0,string_pack,145,大,LARGE,GRAND,GROSS,GRANDE,GRANDE
+MES_OPTION.BIN,0,string_pack,146,最大,LARGEST,LE PLUS GRAND,AM GRÖSSTEN,MASSIMO,EL MAYOR
+MES_OPTION.BIN,0,string_pack,147,制限時間,TIME LIMIT,DURÉE,ZEITLIMIT,LIMITE DI TEMPO,LÍMITE DE TIEMPO
+MES_OPTION.BIN,0,string_pack,148,制限時間を設定します,Set the time limit.,Définir la durée.,Legt das Zeitlimit fest.,Imposta il limite di tempo.,Elige el límite de tiempo.
+MES_OPTION.BIN,0,string_pack,149,30,30,30,30,30,30
+MES_OPTION.BIN,0,string_pack,150,45,45,45,45,45,45
+MES_OPTION.BIN,0,string_pack,151,60,60,60,60,60,60
+MES_OPTION.BIN,0,string_pack,152,99,99,99,99,99,99
+MES_OPTION.BIN,0,string_pack,153,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,154,デジタルインスト,MOVE LIST,LISTE DE COUPS,MOVE-LISTE,ELENCO MOSSE,LISTA DE MOVIMIENTOS
+MES_OPTION.BIN,0,string_pack,155,スキルインフォ,MOVE DETAILS,DÉTAILS COUPS,MOVE-DETAILS,DETTAGLI MOSSA,DETALLES DE MOVIMIENTOS
+MES_OPTION.BIN,0,string_pack,156,OFF,OFF,DÉSACTIVÉ,AUS,NO,NO
+MES_OPTION.BIN,0,string_pack,157,@[pad:Decide]決定　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK  @[pad:Cancel]Retour,@[pad:Decide]OK  @[pad:Cancel]Zurück,@[pad:Decide]OK  @[pad:Cancel]Indietro,@[pad:Decide]Aceptar  @[pad:Cancel]Atrás
+MES_OPTION.BIN,0,string_pack,158,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,159,1,1,1,1,1,1
+MES_OPTION.BIN,0,string_pack,160,2,2,2,2,2,2
+MES_OPTION.BIN,0,string_pack,161,3,3,3,3,3,3
+MES_OPTION.BIN,0,string_pack,162,4,4,4,4,4,4
+MES_OPTION.BIN,0,string_pack,163,5,5,5,5,5,5
+MES_OPTION.BIN,0,string_pack,164,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,165,30,30,30,30,30,30
+MES_OPTION.BIN,0,string_pack,166,40,40,40,40,40,40
+MES_OPTION.BIN,0,string_pack,167,50,50,50,50,50,50
+MES_OPTION.BIN,0,string_pack,168,60,60,60,60,60,60
+MES_OPTION.BIN,0,string_pack,169,99,99,99,99,99,99
+MES_OPTION.BIN,0,string_pack,170,∞,∞,∞,∞,∞,∞
+MES_OPTION.BIN,0,string_pack,171,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,172,最小,SMALLEST,LE PLUS PETIT,AM KLEINSTEN,MINIMO,MÍNIMO
+MES_OPTION.BIN,0,string_pack,173,小,SMALL,PETIT,KLEIN,PICCOLO,PEQUEÑO
+MES_OPTION.BIN,0,string_pack,174,普通,NORMAL,NORMAL,NORMAL,NORMALE,NORMAL
+MES_OPTION.BIN,0,string_pack,175,大,LARGE,GRAND,GROSS,GRANDE,GRANDE
+MES_OPTION.BIN,0,string_pack,176,最大,LARGEST,LE PLUS GRAND,AM GRÖSSTEN,MASSIMO,MÁXIMO
+MES_OPTION.BIN,0,string_pack,177,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,178,0.5,0.5,0.5,0.5,0.5,0.5
+MES_OPTION.BIN,0,string_pack,179,1.0,1.0,1.0,1.0,1.0,1.0
+MES_OPTION.BIN,0,string_pack,180,1.5,1.5,1.5,1.5,1.5,1.5
+MES_OPTION.BIN,0,string_pack,181,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,182,日本,JAPAN,JAPON,JAPAN,GIAPPONE,JAPÓN
+MES_OPTION.BIN,0,string_pack,183,アメリカ,AMERICAS,AMÉRIQUES,AMERIKA,AMERICA,AMÉRICA
+MES_OPTION.BIN,0,string_pack,184,イギリス,UK,RU ,GROSSBRITANNIEN,REGNO UNITO,REINO UNIDO
+MES_OPTION.BIN,0,string_pack,185,フランス,FRANCE,FRANCE,FRANKREICH,FRANCIA,FRANCIA
+MES_OPTION.BIN,0,string_pack,186,ドイツ,GERMANY,ALLEMAGNE,DEUTSCHLAND,GERMANIA,ALEMANIA
+MES_OPTION.BIN,0,string_pack,187,イタリア語,ITALY,ITALIE,ITALIEN,ITALIA,ITALIA
+MES_OPTION.BIN,0,string_pack,188,スペイン,SPAIN,ESPAGNE,SPANIEN,SPAGNA,ESPAÑA
+MES_OPTION.BIN,0,string_pack,189,台湾,TAIWAN,TAÏWAN,TAIWAN,TAIWAN,TAIWÁN
+MES_OPTION.BIN,0,string_pack,190,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,191,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,192,2,2,2,2,2,2
+MES_OPTION.BIN,0,string_pack,193,3,3,3,3,3,3
+MES_OPTION.BIN,0,string_pack,194,4,4,4,4,4,4
+MES_OPTION.BIN,0,string_pack,195,5,5,5,5,5,5
+MES_OPTION.BIN,0,string_pack,196,6,6,6,6,6,6
+MES_OPTION.BIN,0,string_pack,197,7,7,7,7,7,7
+MES_OPTION.BIN,0,string_pack,198,8,8,8,8,8,8
+MES_OPTION.BIN,0,string_pack,199,9,9,9,9,9,9
+MES_OPTION.BIN,0,string_pack,200,10,10,10,10,10,10
+MES_OPTION.BIN,0,string_pack,201,11,11,11,11,11,11
+MES_OPTION.BIN,0,string_pack,202,12,12,12,12,12,12
+MES_OPTION.BIN,0,string_pack,203,13,13,13,13,13,13
+MES_OPTION.BIN,0,string_pack,204,14,14,14,14,14,14
+MES_OPTION.BIN,0,string_pack,205,15,15,15,15,15,15
+MES_OPTION.BIN,0,string_pack,206,16,16,16,16,16,16
+MES_OPTION.BIN,0,string_pack,207,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,208,近い,CLOSE,FERMER,NAH,CHIUDI,CERCA
+MES_OPTION.BIN,0,string_pack,209,強い,STRONG,PUISSANT,STARK,FORTE,FUERTE
+MES_OPTION.BIN,0,string_pack,210,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,211,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,212,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,213,勝ち残り,WINNER-STAYS,GAGNANT RESTE,GEWINNER BLEIBT,CHI VINCE RESTA,EL GANADOR PERMANECE
+MES_OPTION.BIN,0,string_pack,214,負け残り,LOSER-STAYS,PERDANT RESTE,VERLIERER BLEIBT,CHI PERDE RESTA,NO ELIMINATORIO
+MES_OPTION.BIN,0,string_pack,215,トーナメント,TOURNAMENT,TOURNOIS,WETTKAMPF,TORNEO,TORNEO
+MES_OPTION.BIN,0,string_pack,216,チームバトル,TEAM BATTLE,COMBAT PAR ÉQUIPE,TEAMKAMPF,SFIDA A SQUADRE,BATALLA DE EQUIPO
+MES_OPTION.BIN,0,string_pack,217,サバイバル,SURVIVAL,SURVIE,SURVIVAL,SOPRAVVIVENZA,SUPERVIVENCIA
+MES_OPTION.BIN,0,string_pack,218,組み手,KUMITE,KUMITE,KUMITE,KUMITE,KUMITE
+MES_OPTION.BIN,0,string_pack,219,１ｏｎ１,1 ON 1,1 CONTRE 1,1 ON 1,1 CONTRO 1,UNO CONTRA UNO
+MES_OPTION.BIN,0,string_pack,220,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,221,シングル,SOLO FIGHT,COMBAT SOLO,SOLOKAMPF,COMBATTIMENTO IN SINGOLO,COMBATE EN SOLITARIO
+MES_OPTION.BIN,0,string_pack,222,タッグ,TAG FIGHT,COMBAT DEUX CONTRE DEUX,PARTNERKAMPF,COMBATTIMENTO IN COPPIA,COMBATE EN EQUIPO
+MES_OPTION.BIN,0,string_pack,223,なし,NONE,AUCUN,KEINE,NESSUNO,NINGUNA
+MES_OPTION.BIN,0,string_pack,224,1,1,1,1,1,1
+MES_OPTION.BIN,0,string_pack,225,2,2,2,2,2,2
+MES_OPTION.BIN,0,string_pack,226,3,3,3,3,3,3
+MES_OPTION.BIN,0,string_pack,227,4,4,4,4,4,4
+MES_OPTION.BIN,0,string_pack,228,5,5,5,5,5,5
+MES_OPTION.BIN,0,string_pack,229,6,6,6,6,6,6
+MES_OPTION.BIN,0,string_pack,230,7,7,7,7,7,7
+MES_OPTION.BIN,0,string_pack,231,8,8,8,8,8,8
+MES_OPTION.BIN,0,string_pack,232,9,9,9,9,9,9
+MES_OPTION.BIN,0,string_pack,233,10,10,10,10,10,10
+MES_OPTION.BIN,0,string_pack,234,11,11,11,11,11,11
+MES_OPTION.BIN,0,string_pack,235,12,12,12,12,12,12
+MES_OPTION.BIN,0,string_pack,236,13,13,13,13,13,13
+MES_OPTION.BIN,0,string_pack,237,14,14,14,14,14,14
+MES_OPTION.BIN,0,string_pack,238,15,15,15,15,15,15
+MES_OPTION.BIN,0,string_pack,239,-,-,-,-,-,-
+MES_OPTION.BIN,0,string_pack,240,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,241,2,2,2,2,2,2
+MES_OPTION.BIN,0,string_pack,242,3,3,3,3,3,3
+MES_OPTION.BIN,0,string_pack,243,4,4,4,4,4,4
+MES_OPTION.BIN,0,string_pack,244,5,5,5,5,5,5
+MES_OPTION.BIN,0,string_pack,245,不問,ANY,N'IMPORTE,ALLE,QUALSIASI,CUALQUIERA
+MES_OPTION.BIN,0,string_pack,246,ホストが左,HOST ON LEFT,HÔTE À GAUCHE,HOST LINKS,HOST SULLA SINISTRA,ANFITRIÓN A LA IZQUIERDA
+MES_OPTION.BIN,0,string_pack,247,ホストが右,HOST ON RIGHT,HÔTE À DROITE,HOST RECHTS,HOST SULLA DESTRA,ANFITRIÓN A LA DERECHA

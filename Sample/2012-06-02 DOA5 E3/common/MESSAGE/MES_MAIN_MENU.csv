@@ -1,0 +1,77 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_MAIN_MENU.BIN,0,string_pack,0,FIGHTING,FIGHT,COMBAT,KAMPF,COMBATTI,LUCHAR
+MES_MAIN_MENU.BIN,0,string_pack,1,プレイヤーまたはコンピュータ相手に戦います,Fight against another player or the computer.,Affrontez un adversaire ou l'IA.,Kämpfe gegen einen anderen Spieler oder den Computer.,Combatti contro un altro giocatore o il computer.,Lucha contra otro jugador o la máquina.
+MES_MAIN_MENU.BIN,0,string_pack,2,STORY,STORY,HISTOIRE,GESCHICHTE,STORIA,HISTORIA
+MES_MAIN_MENU.BIN,0,string_pack,3,『DEAD OR ALIVE 5』の物語が楽しめます,Experience the story of Dead or Alive 5.,Découvrir l'histoire de Dead or Alive 5. (Non disponible dans la démo.),Erlebe die Geschichte von Dead or Alive 5. (In der Demo nicht verfügbar.),Segui la storia di Dead or Alive 5. (Non disponibile nella demo.),Sumérgete en la historia de Dead or Alive 5. (No disponible en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,4,ONLINE,ONLINE,EN LIGNE,ONLINE,ONLINE,ONLINE
+MES_MAIN_MENU.BIN,0,string_pack,5,オンラインで他の人と楽しむモードです,Play with other people online.,Jouer en ligne avec d'autres joueurs. (Non disponible dans la démo.),Spiele mit anderen Spielern online. (In der Demo nicht verfügbar.),Gioca con altre persone online. (Non disponibile nella demo.),Juega con más personas a través de Internet. (No disponible en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,6,EXTRA,EXTRAS,BONUS,EXTRAS,EXTRA,EXTRAS
+MES_MAIN_MENU.BIN,0,string_pack,7,観戦や戦績閲覧など、バトル以外のモードです,Non-fighting modes such as Spectator and Fight Record.,Modes sans combat comme les modes Spectateur et Record combat. (Non disponible dans la démo.),"Kampflose Modi wie ""Zuschauer"" und ""Kampfaufzeichnungen"". (In der Demo nicht verfügbar.)",Modalità senza combattimento come Spettatore e Record. (Non disponibile nella demo.),"Modos no relativos a luchas, como Espectador y Registro de combates. (No disponible en la demo.)"
+MES_MAIN_MENU.BIN,0,string_pack,8,OPTION,OPTIONS,OPTIONS,OPTIONEN,OPZIONI,OPCIONES
+MES_MAIN_MENU.BIN,0,string_pack,9,各種設定をします,Adjust various settings for the game.,Ajuster différents paramètres de jeu.,Ändere diverse Einstellungen des Spiels.,Regola le varie impostazioni del gioco.,Ajusta varios parámetros del juego.
+MES_MAIN_MENU.BIN,0,string_pack,10,VERSUS,VERSUS,VERSUS,GEGNER,VERSUS,VERSUS
+MES_MAIN_MENU.BIN,0,string_pack,11,好きなキャラクターを選んで対戦できます,Choose a favorite character and fight an opponent.,Choisir un personnage et combattre l'adversaire.,Wähle einen Charakter und tritt gegen einen Gegner an.,Scegli il tuo personaggio preferito e affronta un avversario.,Elige tu personaje favorito y lucha contra un rival.
+MES_MAIN_MENU.BIN,0,string_pack,12,ARCADE,ARCADE,ARCADE,ARCADE,ARCADE,ARCADE
+MES_MAIN_MENU.BIN,0,string_pack,13,ゲームクリアのスコアを競います,Try to finish the game with the highest score.,Tenter de terminer le jeu en obtenant le score le plus élevé possible. (Non disponible dans la démo.),"Versuche, das Spiel mit der höchstmöglichen Punktzahl zu beenden. (In der Demo nicht verfügbar.)",Cerca di terminare la partita con il punteggio massimo. (Non disponibile nella demo.),Intenta acabar el juego con la máxima puntuación. (No disponible en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,14,TIME ATTACK,TIME ATTACK,CONTRE-LA-MONTRE,TIME ATTACK,ATTACCO A TEMPO,CONTRARRELOJ
+MES_MAIN_MENU.BIN,0,string_pack,15,ゲームクリアのタイムを競います,Try to finish the game with the fastest time.,Tenter de terminer le jeu le plus rapidement possible. (Non disponible dans la démo.),"Versuche, das Spiel so schnell wie möglich zu beenden. (In der Demo nicht verfügbar.)",Cerca di terminare la partita nel minor tempo possibile. (Non disponibile nella demo.),Intenta acabar el juego lo más rápido posible. (No disponible en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,16,SURVIVAL,SURVIVAL ,SURVIE  ,SURVIVAL ,SOPRAVVIVENZA ,SUPERVIVENCIA  
+MES_MAIN_MENU.BIN,0,string_pack,17,次々に襲いかかる敵を何人倒せるか競います,Fight a stream of opponents to see how many you can defeat.,Affronter une vague continue d'adversaires et tenir le plus longtemps possible. (Non disponible dans la démo.),Besiege so viele Gegner wie möglich hintereinander. (In der Demo nicht verfügbar.),Lotta contro un'ondata di nemici per vedere quanti riesci a sconfiggerne. (Non disponibile nella demo.),Derrota a todos los rivales que puedas sin perder. (No disponible en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,18,TRAINING,TRAINING,ENTRAÎNEMENT,TRAINING,ALLENAMENTO,ENTRENAMIENTO
+MES_MAIN_MENU.BIN,0,string_pack,19,自由に技やコンボを練習、研究できます,Practice moves and combos to perfect your fighting.,S'entraîner à réaliser des coups et des combos afin de perfectionner ses techniques de combat. (Non disponible dans la démo.),"Übe Moves und Combos, um dein Können zu perfektionieren. (In der Demo nicht verfügbar.)",Allenati con mosse e combo per perfezionare la tua tecnica. (Non disponibile nella demo.),Practica movimientos y combos para perfeccionar tu estilo de combate. (No disponible en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,20,REPLAY,FIGHT VIEWER,VISIONNEUR DE COMBAT,KAMPFWIEDERGABE,VEDI COMBATTIMENTO,SALA DE CINE
+MES_MAIN_MENU.BIN,0,string_pack,21,保存したリプレイの再生やアップロードができます,Playback or upload saved replays.,Visionnez ou mettez en ligne les ralentis sauvegardés.,Gespeicherte Videos ansehen oder hochladen.,Riproduci o carica i replay salvati.,Reproduce o sube repeticiones guardadas.
+MES_MAIN_MENU.BIN,0,string_pack,22,ALBUM,ALBUM,ALBUM,ALBUM,ALBUM,ÁLBUM
+MES_MAIN_MENU.BIN,0,string_pack,23,撮影した写真を閲覧できます,View saved photos.,Visionnez les photos sauvegardées.,Gespeicherte Fotos ansehen.,Visualizza le foto salvate.,Ve fotos guardadas.
+MES_MAIN_MENU.BIN,0,string_pack,24,FIGHT LOG,FIGHT RECORD,RECORD DE COMBAT,KAMPFSTATISTIK,RECORD COMBATTIMENTO,REGISTRO DE LUCHAS
+MES_MAIN_MENU.BIN,0,string_pack,25,プレイヤーの戦績を閲覧できます,View player fight record.,Affichez les records de combat du joueur.,Kampfstatistik des Spielers anzeigen.,Visualizza il record combattimento del giocatore.,Consulta el registro de luchas del jugador.
+MES_MAIN_MENU.BIN,0,string_pack,26,GAME SETTING,GAME SETTINGS,PARAMÈTRES DE JEU,SPIELEINSTELLUNGEN,IMPOSTAZIONI DI GIOCO,AJUSTES DEL JUEGO
+MES_MAIN_MENU.BIN,0,string_pack,27,ゲームの機能に関する設定です,Change game settings.,Modifier les paramètres de jeu.,Ändere Spiel-Einstellungen.,Modifica le impostazioni di gioco.,Cambia los parámetros del juego.
+MES_MAIN_MENU.BIN,0,string_pack,28,CONTROL SETTING,CONTROLS,COMMANDES,STEUERUNG,COMANDI,CONTROLES
+MES_MAIN_MENU.BIN,0,string_pack,29,操作方法に関する設定です,Control settings and button assignments.,Modifiez la configuration des commandes.,Steuerungseinstellungen und Befehlszuweisungen.,Modifica impostazioni e assegnazioni dei comandi.,Asigna botones y configura los controles.
+MES_MAIN_MENU.BIN,0,string_pack,30,BATTLE SETTING,FIGHT SETTINGS,PARAMÈTRES DE COMBAT,KAMPFEINSTELLUNGEN,IMPOSTAZIONI COMB.,AJUSTES DE COMBATE
+MES_MAIN_MENU.BIN,0,string_pack,31,バトルに関する設定です,Change fight settings.,Modifier les paramètres de combat. (Ceci ne peut être modifié dans la version démo.),Ändere Kampf-Einstellungen. (Option nicht in der Demo-Version verfügbar.),Cambia le impostazioni di combattimento. (Impossibile impostare nella demo.),Cambia los parámetros de los combates. (Esta opción no se puede ajustar en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,32,LANGUAGE,LANGUAGE,LANGUE,SPRACHE,LINGUA,IDIOMA
+MES_MAIN_MENU.BIN,0,string_pack,33,言語に関する設定です,Change language settings.,Modifier la langue.,Spracheinstellungen ändern.,Cambia le impostazioni della lingua.,Cambia los parámetros del idioma.
+MES_MAIN_MENU.BIN,0,string_pack,34,SCREEN SETTING,SCREEN,ÉCRAN,BILDSCHIRM,SCHERMO,PANTALLA
+MES_MAIN_MENU.BIN,0,string_pack,35,画面に関する設定です,Change screen settings.,Modifier les paramètres d'affichage. (Ceci ne peut être modifié dans la version démo.),Ändere Bildschirm-Einstellungen.(Option nicht in der Demo-Version verfügbar.),Cambia le impostazioni video.(Impossibile impostare nella demo.),Cambia los parámetros de la pantalla.(Esta opción no se puede ajustar en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,36,SOUND SETTING,SOUND,SON,AUDIO,AUDIO,SONIDO
+MES_MAIN_MENU.BIN,0,string_pack,37,サウンドに関する設定です,Change sound settings.,Modifier les paramètres audio. (Ceci ne peut être modifié dans la version démo.),Ändere Sound-Einstellungen.(Option nicht in der Demo-Version verfügbar.),Cambia le impostazioni audio.(Impossibile impostare nella demo.),Cambia los parámetros de audio.(Esta opción no se puede ajustar en la demo.)
+MES_MAIN_MENU.BIN,0,string_pack,38,@[pad:Decide]決定,,,,,
+MES_MAIN_MENU.BIN,0,string_pack,39,@[pad:Cancel]戻る,,,,,
+MES_MAIN_MENU.BIN,0,string_pack,40,@[pad:Decide]決定　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK　　@[pad:Cancel]Retour,@[pad:Decide]OK　　@[pad:Cancel]Zurück,@[pad:Decide]OK　　@[pad:Cancel]Indietro,@[pad:Decide]Aceptar　　@[pad:Cancel]Atrás
+MES_MAIN_MENU.BIN,0,string_pack,41,WATCH,SPECTATOR,,,,
+MES_MAIN_MENU.BIN,0,string_pack,42,COM同士の対戦や保存したリプレイを観戦できます,Watch saved replays or fights between two AI players.,,,,
+MES_MAIN_MENU.BIN,0,string_pack,43,MISSION,MISSION,,,,
+MES_MAIN_MENU.BIN,0,string_pack,44,称号の一覧とその獲得条件を見ることができます,View all titles and how to get them.,,,,
+MES_MAIN_MENU.BIN,0,string_pack,45,ONLINE SETTING,ONLINE,,,,
+MES_MAIN_MENU.BIN,0,string_pack,46,オンラインに関する設定です,Change online settings.,,,,
+MES_MAIN_MENU.BIN,0,string_pack,47,INSTALL,INSTALL,INSTALLER,INSTALLIEREN,INSTALLA,INSTALAR
+MES_MAIN_MENU.BIN,0,string_pack,48,ゲームデータをインストールします,Install game data.,Installer les données du jeu.,Spieldaten installieren.,Installa i dati del gioco.,Instala los datos del juego.
+MES_MAIN_MENU.BIN,0,string_pack,49,インストールしています…,Installing...,INSTALLATION EN COURS...,INSTALLIERT ...,INSTALLAZIONE IN CORSO...,INSTALANDO...
+MES_MAIN_MENU.BIN,0,string_pack,50,"インストールを行います。
+よろしいですか？",Install game data?,Les données du jeu vont être installées. Confirmer ?,Spieldaten werden installiert. Möchten Sie fortfahren?,Verranno installati i dati del gioco. Vuoi proseguire?,Se instalarán los datos del juego. ¿Quieres continuar?
+MES_MAIN_MENU.BIN,0,string_pack,51,インストールが終了しました。,Installation complete.,Installation terminée.,Installation abgeschlossen.,Installazione completata.,Se ha completado la instalación.
+MES_MAIN_MENU.BIN,0,string_pack,52,インストールがキャンセルされました。,Installation cancelled.,Installation annulée.,Installation abgebrochen.,Installazione annullata.,Instalación cancelada.
+MES_MAIN_MENU.BIN,0,string_pack,53,すでにインストール済みです。,Game data is already installed.,Le jeu a déjà été installé.,Das Spiel wurde bereits installiert.,Sono già presenti dati del gioco installati.,El juego ya se ha instalado.
+MES_MAIN_MENU.BIN,0,string_pack,54,"インストール中にエラーが発生しました。
+データを削除してください。",An error occurred during installation. Please delete the data.,"Une erreur est survenue lors de l'installation.
+Veuillez supprimer les données du jeu.","Bei der Installation ist ein Fehler aufgetreten.
+Bitte löschen Sie die Spieldaten.",Errore durante l'installazione. Elimina i dati del gioco.,"Se ha producido un error durante la instalación.
+Borra los datos del juego."
+MES_MAIN_MENU.BIN,0,string_pack,55,グレード,GRADE,,,,
+MES_MAIN_MENU.BIN,0,string_pack,56,GP,GP,,,,
+MES_MAIN_MENU.BIN,0,string_pack,57,メインキャラクター,MAIN CHARACTER,,,,
+MES_MAIN_MENU.BIN,0,string_pack,58,今日の戦績,TODAY'S RESULTS,,,,
+MES_MAIN_MENU.BIN,0,string_pack,59,通算戦績,OVERALL RESULTS,,,,
+MES_MAIN_MENU.BIN,0,string_pack,60,総プレイ時間,TOTAL PLAY TIME,,,,
+MES_MAIN_MENU.BIN,0,string_pack,61,オンラインプレイ時間,ONLINE PLAY TIME,,,,
+MES_MAIN_MENU.BIN,0,string_pack,62,試合数,FIGHTS,,,,
+MES_MAIN_MENU.BIN,0,string_pack,63,勝利数,WINS,,,,
+MES_MAIN_MENU.BIN,0,string_pack,64,GP増減,GP CHANGE,,,,
+MES_MAIN_MENU.BIN,0,string_pack,65,獲得した称号,TITLES OBTAINED,,,,
+MES_MAIN_MENU.BIN,0,string_pack,66,@[pad:Rl]戦績を表示する,@[pad:Rl]Show fight results,,,,
+MES_MAIN_MENU.BIN,0,string_pack,67,@[pad:Ru]戦績をFacebookに投稿する　　@[pad:Rl]戦績を隠す,@[pad:Ru]Post fight results to Facebook  @[pad:Rl]Hide fight results,,,,
+MES_MAIN_MENU.BIN,0,string_pack,68,戦績をFacebookに投稿してもよろしいですか？,Post your fight results to Facebook?,,,,
+MES_MAIN_MENU.BIN,0,string_pack,69,戦績を投稿しました。,Posted fight results.,,,,
+MES_MAIN_MENU.BIN,0,string_pack,70,戦績を投稿できませんでした。,Unable to post fight results.,,,,

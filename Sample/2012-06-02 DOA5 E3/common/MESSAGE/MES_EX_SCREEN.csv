@@ -1,0 +1,34 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_EX_SCREEN.BIN,0,string_pack,0,"DEAD OR ALIVE 5体験版α.ver をプレイしていただき、ありがとうございます。
+
+製品版をよりよいものにするため、ゲーム内容に関するご意見をお待ちしております。
+詳細は DEAD OR ALIVE 5 公式HPにアクセスしてください。","Thanks for playing the Dead or Alive 5 Alpha Demo.
+
+We want your feedback on how to make the final game better!
+For details, please visit the official Dead or Alive website.","Merci d'avoir joué à la version démo alpha de Dead or Alive 5.
+
+Faites-nous parvenir vos commentaires pour améliorer la version finale du jeu !
+Pour de plus amples informations, veuillez visiter le site internet officiel de Dead or Alive.","Danke, dass du die Alpha-Demo von Dead or Alive 5 spielst.
+
+Wir möchten deine Meinung dazu hören, wie wir das fertige Spiel verbessern können!
+Nähere Informationen findest du auf der offiziellen Website von Dead or Alive.","Grazie per aver giocato alla demo alpha di Dead or Alive 5.
+
+Aspettiamo i vostri commenti per migliorare la versione finale!
+Per informazioni, consultare il sito ufficiale di Dead or Alive.","Gracias por jugar a la demo de la versión alfa de Dead or Alive 5.
+
+¡Nos encantaría oír tu opinión sobre cómo hacer que la versión final sea mejor!
+Para más detalles, visita el sitio web oficial de Dead or Alive."
+MES_EX_SCREEN.BIN,0,string_pack,1,"本ソフトウェアはαバージョンの体験版となっており、製品版とは仕様が異なることがあります。
+また予期せぬ不具合が発生した場合でも交換などは致しかねますので、ご了承ください。","This software is a demo of the alpha version which is still in development.
+Some gameplay will differ from the retail version.
+No exchanges possible for unforseen malfunctions.","Ce logiciel est une démo de la version alpha en cours de développement.
+Des sections du gameplay diffèrent de la version complète du jeu.
+Aucun échange n'est possible en cas de mal fonctionnement.","Diese Software stellt eine Demo der noch in der Entwicklung befindlichen Alpha-Version dar.
+Das Spiel kann über Unterschiede zum fertigen Produkt verfügen.
+Im Falle von unvorhersehbaren Fehlfunktionen ist kein Umtausch möglich.","Questo software è una demo della versione alpha, ancora in corso di sviluppo.
+Alcune funzionalità potrebbero differire rispetto al prodotto in vendita.
+Non si assumono responsabilità per eventuali malfunzionamenti.","Este software es una demo de una versión alfa que aún está en desarrollo.
+Algunas funciones serán diferentes de la versión final.
+No se cambiará el software si se detectan errores no previstos."
+MES_EX_SCREEN.BIN,0,string_pack,2,右のロゴが見え、左のロゴは見えないようにテレビの明るさを調整していただくと、本ゲームの映像をより綺麗にお楽しみいただくことができます。,"For the best visuals, please adjust the brightness setting on your television until only the right logo is visible.","Pour de meilleurs effets visuels, réglez la luminosité de votre télévision jusqu'à ce que seul le logo de droite soit visible.","Die Grafik ist optimal, wenn du die Helligkeit deines Bildschirms so einstellst, dass nur das rechte Logo sichtbar ist.","Per una grafica migliore, regola la luminosità del televisore finché non è visibile solo il logo di destra.","Para obtener los mejores resultados, ajusta el brillo de tu televisor hasta que solo se vea el logotipo de la derecha."
+MES_EX_SCREEN.BIN,0,string_pack,3,@[pad:Decide]進む,@[pad:Decide]Proceed,@[pad:Decide]Continuer,@[pad:Decide]Weiter,@[pad:Decide]Prosegui,@[pad:Decide]Continuar

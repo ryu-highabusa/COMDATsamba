@@ -1,0 +1,35 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_PAUSE_MENU.BIN,0,string_pack,0,ゲームを続ける,CONTINUE,CONTINUER,FORTSETZEN,CONTINUA,CONTINUAR
+MES_PAUSE_MENU.BIN,0,string_pack,1,メニューを終了してゲームを再開します,Close the menu and resume the current game.,Fermer le menu et reprendre la partie.,Menü schließen und weiterspielen.,Chiudi il menu e riprendi la partita.,Cierra el menú y continúa la partida.
+MES_PAUSE_MENU.BIN,0,string_pack,2,キャラクターを選択する,CHANGE CHARACTER,CHANGER DE PERSONNAGE,CHARAKTER WECHSELN,CAMBIA PERSONAGGIO,CAMBIAR PERSONAJE
+MES_PAUSE_MENU.BIN,0,string_pack,3,ゲームを終了してキャラクターセレクト画面に戻ります,Return to the Character Select Screen.,Revenir à l'écran Choix personnages.,Zum Charakterwahl-Bildschirm zurückkehren.,Torna alla schermata di selezione del personaggio.,Vuelve a la pantalla Seleccionar personaje.
+MES_PAUSE_MENU.BIN,0,string_pack,4,画面に表示する技情報タイプを選択します,Set the type of move info that appears on the screen.,Paramétrer les infos des coups qui apparaissent à l'écran.,Lege die anzuzeigende Move-Info fest. ,Imposta il tipo di informazioni sulle mosse da visualizzare sullo schermo.,Selecciona el tipo de información para un movimiento que aparece en la pantalla.
+MES_PAUSE_MENU.BIN,0,string_pack,5,画面に表示する技情報タイプを選択します,Set the type of move info that appears on the screen.,Paramétrer les infos des coups qui apparaissent à l'écran.,Lege die anzuzeigende Move-Info fest. ,Imposta il tipo di informazioni sulle mosse da visualizzare sullo schermo.,Selecciona el tipo de información para un movimiento que aparece en la pantalla.
+MES_PAUSE_MENU.BIN,0,string_pack,6,画面に表示する技情報タイプを選択します,Set the type of move info that appears on the screen.,Paramétrer les infos des coups qui apparaissent à l'écran.,Lege die anzuzeigende Move-Info fest. ,Imposta il tipo di informazioni sulle mosse da visualizzare sullo schermo.,Selecciona el tipo de información para un movimiento que aparece en la pantalla.
+MES_PAUSE_MENU.BIN,0,string_pack,7,ゲームを終了する,QUIT,QUITTER,BEENDEN,ESCI,SALIR
+MES_PAUSE_MENU.BIN,0,string_pack,8,ゲームを終了してタイトルへ戻ります,End the current game and return to the Title Screen.,Quitter la partie en cours et revenir à l'écran-titre.,Spiel beenden und zurück zum Titel-Bildschirm,Termina la partita e torna ai titoli.,Termina la partida y vuelve a la pantalla del título.
+MES_PAUSE_MENU.BIN,0,string_pack,9,コントローラ設定,CONTROLLER,MANETTE,CONTROLLER,CONTROLLER,MANDO
+MES_PAUSE_MENU.BIN,0,string_pack,10,コントローラの設定を変更します,Change controller settings.,Modifier les paramètres de la manette.,Ändere die Controller-Einstellungen.,Cambia le impostazioni del controller.,Cambia los parámetros del mando.
+MES_PAUSE_MENU.BIN,0,string_pack,11,@[pad:Decide]決定,,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,12,@[pad:Cancel]戻る,,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,13,はい,,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,14,いいえ,,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,15,@[pad:Decide]決定　　　@[pad:Cancel]戻る,@[pad:Decide]OK  @[pad:Cancel]Back,@[pad:Decide]OK　　@[pad:Cancel]Retour,@[pad:Decide]OK　　@[pad:Cancel]Zurück,@[pad:Decide]OK　　@[pad:Cancel]Indietro,@[pad:Decide]Aceptar　　@[pad:Cancel]Atrás
+MES_PAUSE_MENU.BIN,0,string_pack,16,コマンドリストを見る,VIEW MOVE LIST,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,17,キャラクターの技表を表示します,Display a list of the current character's moves.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,18,エピソードを選択する,CHANGE EPISODE,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,19,ゲームを終了してエピソード選択画面に戻ります,Return to the episode select screen.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,20,その他の設定,OTHER SETTINGS,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,21,各種設定を変更します,Adjust various settings for the game.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,22,コースを選択する,SELECT COURSE,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,23,ゲームを終了してコースセレクト画面に戻ります,End the current game and return to the course select screen.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,24,写真を撮る,TAKE PHOTO,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,25,写真撮影モードになります,Switch to photo mode.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,26,観戦する,WATCH FIGHT,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,27,写真撮影モードを終了します,Exit photo mode.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,28,リプレイを選択する,SELECT REPLAY,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,29,リプレイ再生を終了してリプレイ選択画面に戻ります,Stop the replay and return to the replay select screen.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,30,はじめから見る,START,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,31,ムービーをもう一度最初から再生します,Play the replay from the beginning.,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,32,スキップする,SKIP,,,,
+MES_PAUSE_MENU.BIN,0,string_pack,33,再生中のムービーをスキップします,Skip the currently playing movie.,,,,

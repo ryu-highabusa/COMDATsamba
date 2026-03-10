@@ -1,0 +1,14 @@
+﻿file,child_index,child_name,index,JP,EN,FR,DE,IT,ES
+MES_VS_MODE_MENU.BIN,0,string_pack,0,@[pad:Ru]ノーデンジャー,@[pad:Ru]No Danger Zones,@[pad:Ru]Pas de zone dangereuse,@[pad:Ru]Keine Gefahrenzonen,@[pad:Ru]No zone pericolose,@[pad:Ru]Sin zonas de peligro
+MES_VS_MODE_MENU.BIN,0,string_pack,1,@[pad:Decide]決定,,,,,
+MES_VS_MODE_MENU.BIN,0,string_pack,2,@[pad:Cancel]戻る,,,,,
+MES_VS_MODE_MENU.BIN,0,string_pack,3,エントリーするサイドを選択してください,Choose side,Choix côté,Seite wählen,Scegli un lato,Elegir lado
+MES_VS_MODE_MENU.BIN,0,string_pack,4,好きなキャラクターを選んで対戦できます,Choose a favorite character and fight an opponent.,Choisir un personnage et combattre un adversaire.,Wähle einen Charakter und tritt gegen einen Gegner an.,Scegli il tuo personaggio preferito e affronta un avversario.,Elige tu personaje favorito y lucha contra un rival.
+MES_VS_MODE_MENU.BIN,0,string_pack,5,@[pad:Decide]決定　　@[pad:Cancel]戻る,@[pad:Decide]OK　　@[pad:Cancel]Back,@[pad:Decide]OK　　@[pad:Cancel]Retour,@[pad:Decide]OK　　@[pad:Cancel]Zurück,@[pad:Decide]OK　　@[pad:Cancel]Indietro,@[pad:Decide]Aceptar　　@[pad:Cancel]Atrás
+MES_VS_MODE_MENU.BIN,0,string_pack,6,体験版ではプレイできません,Not available in the demo.,Non disponible dans la démo.,In der Demo nicht verfügbar.,Non disponibile nella demo.,No disponible en la demo.
+MES_VS_MODE_MENU.BIN,0,string_pack,7,PLAYER 1,PLAYER 1,JOUEUR 1,SPIELER 1,GIOCATORE 1,JUGADOR 1
+MES_VS_MODE_MENU.BIN,0,string_pack,8,PLAYER 2,PLAYER 2,JOUEUR 2,SPIELER 2,GIOCATORE 2,JUGADOR 2
+MES_VS_MODE_MENU.BIN,0,string_pack,9,PLAYER 3,PLAYER 3,JOUEUR 3,SPIELER 3,GIOCATORE 3,JUGADOR 3
+MES_VS_MODE_MENU.BIN,0,string_pack,10,PLAYER 4,PLAYER 4,JOUEUR 4,SPIELER 4,GIOCATORE 4,JUGADOR 4
+MES_VS_MODE_MENU.BIN,0,string_pack,11,NO　ENTRY,NO ENTRY,AUCUNE ENTRÉE,KEIN EINTRAG,DIVIETO D'ACCESSO,NO PASAR
+MES_VS_MODE_MENU.BIN,0,string_pack,12,VS,VS,VS,VS,VS,VS.
