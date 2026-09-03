@@ -1,0 +1,29 @@
+                             stagelist_single                                    XREF[5]: FUN_000cced0:000c7025(R), 
+                                                                                          FUN_000cced0:000c7030(*), 
+                                                                                          FUN_000cced0:000c70d3(R), 
+                                                                                          FUN_000cced0:000c715d(R), 
+                                                                                          FUN_000cced0:000ca07b(*)  
+        00692ba4 30              db         30h                                                             YOZAKURA 
+        00692ba5 35              db         35h                                                             GREAT WALL 
+        00692ba6 00              db         0h                                                              WHITE STORM 
+        00692ba7 0c              db         Ch                                                              DEMON'S CHURCH 
+        00692ba8 34              db         34h                                                             SAFARI 
+        00692ba9 32              db         32h                                                             SHRINE
+        00692baa 0f              db         Fh                                                              AERIAL GARDEN 
+        00692bab 39              db         39h                                                             SUSPENSION BRIDGE
+        00692bac 13              db         13h                                                             KOKU AN 
+        00692bad 1f              db         1Fh                                                             PRAIRIE 
+        00692bae 29              db         29h                                                             BURAIZENIN 
+        00692baf 15              db         15h                                                             DRAGON HILL
+        00692bb0 08              db         8h                                                              CRIMSON 
+        00692bb1 31              db         31h                                                             ISLAND 
+        00692bb2 0a              db         Ah                                                              GREAT OPERA 
+        00692bb3 09              db         9h                                                              DANGERZONE 
+        00692bb4 38              db         38h                                                             CYCLOTRON
+        00692bb5 33              db         33h                                                             RAY HOUSE 
+        00692bb6 37              db         37h                                                             DOWNTOWN
+        00692bb7 36              db         36h                                                             AQUARIUM
+        00692bb8 ff              db         FFh
+        00692bb9 00              db         0h
+        00692bba 00              db         0h
+        00692bbb 00              db         0h
