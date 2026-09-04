@@ -90,21 +90,21 @@ uint cond_act_set(uint param_1,byte param_2)
     }
     break;
   case 2:
-    bVar4 = *(byte *)(DAT_005645c0 + 0x2d);
+    bVar4 = *(byte *)(g_current_player + 0x2d);
     ac = uVar27 & 0xfffffff8 | (uint)(1 < bVar4) << 2 | (uint)(bVar4 == 1) << 1 | (uint)(bVar4 == 0)
     ;
     bVar4 = (byte)ac & 1 | 1 < bVar4;
     goto joined_r0x0002d7a4;
   case 3:
-    (&DAT_00564638)[DAT_005645b6] = 1;
-    *(undefined2 *)(&DAT_0056463c + (uint)DAT_005645b6 * 2) = g14;
-    *(undefined4 *)(&g_comact_cursor_by_player_ + (uint)DAT_005645b6 * 4) =
+    (&DAT_00564638)[g_ai_player_loop_index] = 1;
+    *(undefined2 *)(&DAT_0056463c + (uint)g_ai_player_loop_index * 2) = g14;
+    *(undefined4 *)(&g_comact_cursor_by_player + (uint)g_ai_player_loop_index * 4) =
          *(undefined4 *)
-          ((&g_comact_group_table_by_character)[*(byte *)(DAT_005645c0 + 1)] + (param_1 & 0xff) * 4)
-    ;
-    (&DAT_00564776)[DAT_005645b6] = (char)param_1;
-    (&DAT_00564778)[DAT_005645b6] = (undefined1)g14;
-    (&DAT_00564650)[DAT_005645b6] = (undefined1)g14;
+          ((&g_comact_group_table_by_character)[*(byte *)(g_current_player + 1)] +
+          (param_1 & 0xff) * 4);
+    (&g_comact_group_number_by_player)[g_ai_player_loop_index] = (char)param_1;
+    (&DAT_00564778)[g_ai_player_loop_index] = (undefined1)g14;
+    (&DAT_00564650)[g_ai_player_loop_index] = (undefined1)g14;
     auVar14._8_4_ = 0x2d6ac;
     auVar14._0_8_ = uVar7;
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar14;
@@ -112,16 +112,16 @@ uint cond_act_set(uint param_1,byte param_2)
     auVar12._4_4_ = 0;
     auVar12._0_4_ = fp;
     FUN_0002aef0();
-    uVar28 = (uint)DAT_005645be;
+    uVar28 = (uint)g_cond_act_result;
     break;
   case 4:
-    bVar4 = (&DAT_005645e4)[DAT_005645b6];
+    bVar4 = (&DAT_005645e4)[g_ai_player_loop_index];
     ac = uVar27 & 0xfffffff8 | (uint)(1 < bVar4) << 2 | (uint)(bVar4 == 1) << 1 | (uint)(bVar4 == 0)
     ;
     bVar4 = (byte)ac & 1 | 1 < bVar4;
     goto joined_r0x0002d7a4;
   case 5:
-    bVar4 = *(byte *)(DAT_005645c4 + 0x43);
+    bVar4 = *(byte *)(g_opponent_player + 0x43);
     ac = uVar27 & 0xfffffff8 | (uint)(1 < bVar4) << 2 | (uint)(bVar4 == 1) << 1 | (uint)(bVar4 == 0)
     ;
     bVar4 = (byte)ac & 1 | 1 < bVar4;
@@ -131,7 +131,8 @@ joined_r0x0002d7a4:
   case 6:
     auVar15._20_4_ =
          *(ushort **)
-          ((&g_cond_branch_table_by_character)[*(byte *)(DAT_005645c0 + 1)] + (param_1 & 0xff) * 4);
+          ((&g_cond_branch_table_by_character)[*(byte *)(g_current_player + 1)] +
+          (param_1 & 0xff) * 4);
     auVar15._0_20_ = auVar9;
     auVar15._24_40_ = auVar11._24_40_;
     auVar17._12_52_ = auVar15._12_52_;
@@ -203,7 +204,7 @@ joined_r0x0002d7a4:
     uVar28 = cond_act_set((uint)bVar4,bVar3);
     break;
   case 7:
-    iVar29 = *(int *)((&PTR_PTR_WORD_000b53a0_ZACK_000b5b70)[*(byte *)(DAT_005645c0 + 1)] +
+    iVar29 = *(int *)((&g_order_action_table_by_character)[*(byte *)(g_current_player + 1)] +
                      (param_1 & 0xff) * 4);
     auVar26._8_4_ = 0x2d770;
     auVar26._0_8_ = uVar7;
@@ -215,7 +216,7 @@ joined_r0x0002d7a4:
     uVar28 = order_act_set(param_1 & 0xff,iVar29);
     break;
   case 8:
-    bVar4 = *(byte *)(DAT_005645c4 + 0x4d);
+    bVar4 = *(byte *)(g_opponent_player + 0x4d);
     uVar1 = uVar27 & 0xfffffff8 | (uint)(4 < bVar4) << 2 | (uint)(bVar4 == 4) << 1;
     ac = uVar1 | bVar4 < 4;
     if ((((byte)(uVar1 >> 1) & 1) != 1) &&
@@ -228,7 +229,7 @@ joined_r0x0002d7a4:
     }
     goto switchD_0002d57c_caseD_0;
   case 9:
-    bVar4 = *(byte *)(DAT_005645c4 + 0x4d);
+    bVar4 = *(byte *)(g_opponent_player + 0x4d);
     uVar1 = uVar27 & 0xfffffff8 | (uint)(5 < bVar4) << 2 | (uint)(bVar4 == 5) << 1;
     ac = uVar1 | bVar4 < 5;
     if ((((byte)(uVar1 >> 1) & 1) != 1) &&
