@@ -184,7 +184,14 @@
 </script>
 </cheat>
 
-
+<cheat desc="Debug Mode (P1 press HOLD+START)">
+<script state="run">
+<action>maincpu.md@4a24=09ffed2c</action>
+<action>maincpu.md@4a28=09000028</action>
+<action>maincpu.md@4a2c=0a000000</action>
+<action>maincpu.md@2f5c=09001ac8</action>
+</script>
+</cheat>
 </mamecheat>
 
 
