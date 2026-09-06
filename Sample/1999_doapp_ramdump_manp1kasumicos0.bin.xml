@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="1999_doapp_ramdump_manp1kasumicos0.bin" EXE_PATH="/C:/Users/CS2/Downloads/mame0289b_x64/ram.bin" EXE_FORMAT="Raw Binary" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 11.4.1" TIMESTAMP="Sun Sep 06 11:43:43 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 11.4.1" TIMESTAMP="Sun Sep 06 13:29:22 MDT 2026" />
     <PROCESSOR NAME="MIPS" LANGUAGE_PROVIDER="MIPS:LE:32:default:default" ENDIAN="little" />
     <DATATYPES />
     <MEMORY_MAP>
@@ -3203,7 +3203,7 @@
         <CODE_BLOCK START="000c3f6c" END="000c6127" />
         <CODE_BLOCK START="000c6178" END="000c647b" />
         <CODE_BLOCK START="000c6494" END="000cc10f" />
-        <CODE_BLOCK START="000cc118" END="000cd5af" />
+        <CODE_BLOCK START="000cc118" END="000cd5db" />
         <CODE_BLOCK START="000cd650" END="000cdb4b" />
         <CODE_BLOCK START="000cdd28" END="000cf52b" />
         <CODE_BLOCK START="000cf560" END="000d0003" />
@@ -3553,10 +3553,22 @@
         <DEFINED_DATA ADDRESS="000106fc" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x16" />
         <DEFINED_DATA ADDRESS="00010714" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x16" />
         <DEFINED_DATA ADDRESS="0001072c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x16" />
+        <DEFINED_DATA ADDRESS="00010744" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x5" />
+        <DEFINED_DATA ADDRESS="0001074c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x5" />
         <DEFINED_DATA ADDRESS="00010754" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
         <DEFINED_DATA ADDRESS="0001075c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
-        <DEFINED_DATA ADDRESS="0001078c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
-        <DEFINED_DATA ADDRESS="00010794" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
+        <DEFINED_DATA ADDRESS="00010764" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00010768" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0001076c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x5" />
+        <DEFINED_DATA ADDRESS="00010774" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x5" />
+        <DEFINED_DATA ADDRESS="0001077c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x5" />
+        <DEFINED_DATA ADDRESS="00010784" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="0001078c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00010794" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="0001079c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="000107a0" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="000107a4" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="000107ac" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
         <DEFINED_DATA ADDRESS="000107b4" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x19" />
         <DEFINED_DATA ADDRESS="00010950" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00010954" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -6652,29 +6664,49 @@
         <DEFINED_DATA ADDRESS="00098208" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0009820c" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00098210" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="00098214" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
-        <DEFINED_DATA ADDRESS="0009821c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x9" />
-        <DEFINED_DATA ADDRESS="00098228" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x7" />
-        <DEFINED_DATA ADDRESS="00098238" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x7" />
-        <DEFINED_DATA ADDRESS="00098240" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x7" />
-        <DEFINED_DATA ADDRESS="00098248" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x7" />
-        <DEFINED_DATA ADDRESS="00098250" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x9" />
-        <DEFINED_DATA ADDRESS="00098260" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x9" />
+        <DEFINED_DATA ADDRESS="00098214" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="0009821c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xc" />
+        <DEFINED_DATA ADDRESS="00098228" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098230" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098238" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098240" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098248" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098250" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x10" />
+        <DEFINED_DATA ADDRESS="00098260" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xc" />
+        <DEFINED_DATA ADDRESS="0009826c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098274" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
         <DEFINED_DATA ADDRESS="0009827c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x13" />
-        <DEFINED_DATA ADDRESS="00098290" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x13" />
+        <DEFINED_DATA ADDRESS="00098290" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x14" />
         <DEFINED_DATA ADDRESS="000982a4" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="000982ac" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000982b0" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
-        <DEFINED_DATA ADDRESS="000982bc" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xb" />
-        <DEFINED_DATA ADDRESS="000982d4" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x9" />
-        <DEFINED_DATA ADDRESS="000982e0" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x9" />
-        <DEFINED_DATA ADDRESS="000982ec" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xe" />
-        <DEFINED_DATA ADDRESS="000982fc" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xe" />
-        <DEFINED_DATA ADDRESS="00098314" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
-        <DEFINED_DATA ADDRESS="0009832c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
-        <DEFINED_DATA ADDRESS="00098358" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xe" />
-        <DEFINED_DATA ADDRESS="00098368" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xb" />
-        <DEFINED_DATA ADDRESS="0009837c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x6" />
-        <DEFINED_DATA ADDRESS="00098384" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x13" />
+        <DEFINED_DATA ADDRESS="000982b8" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="000982bc" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xc" />
+        <DEFINED_DATA ADDRESS="000982c8" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="000982cc" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="000982d4" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xc" />
+        <DEFINED_DATA ADDRESS="000982e0" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xc" />
+        <DEFINED_DATA ADDRESS="000982ec" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x10" />
+        <DEFINED_DATA ADDRESS="000982fc" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x10" />
+        <DEFINED_DATA ADDRESS="0009830c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098310" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098314" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="0009831c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098324" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="0009832c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098334" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098338" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0009833c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098340" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098348" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098350" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098354" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098358" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x10" />
+        <DEFINED_DATA ADDRESS="00098368" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0xc" />
+        <DEFINED_DATA ADDRESS="00098374" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00098378" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0009837c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
+        <DEFINED_DATA ADDRESS="00098384" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x14" />
         <DEFINED_DATA ADDRESS="00098398" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0009839c" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000983a0" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -17224,6 +17256,8 @@
 0x3_Attack	0x9_Hit_Stun(No_Hold)	0xf_Down_Attack_Stun
 0x4_Throw	0xa_Being_Thrown	0x10_Throw_Miss
 0x5_Hold	0xb_Being_Held			</COMMENT>
+        <COMMENT ADDRESS="0009637a" TYPE="repeatable">0=Left_Foot_Forward, 1=Right_Foot_Forward</COMMENT>
+        <COMMENT ADDRESS="00096380" TYPE="repeatable">1=Standing_Guard, 2=Crouch_Guard</COMMENT>
     </COMMENTS>
     <PROPERTIES>
         <PROPERTY NAME="Analyzers.Decompiler Parameter ID" TYPE="bool" VALUE="y" />
@@ -17236,7 +17270,7 @@
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;279&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables - One Time&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2119&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Function&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1368&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1120&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1131&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;16414&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Decompiler Switch Analysis&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10805&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Demangler GNU&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;11&amp;quot; /&amp;gt;
@@ -17246,9 +17280,9 @@
     &amp;lt;STATE NAME=&amp;quot;External Entry References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Function Start Search&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;165&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Function Start Search delayed - One Time&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;4&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;MIPS Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;13263&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;MIPS Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;13268&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;MIPS Symbol&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;MIPS UnAlligned Instruction Fix&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;244&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;MIPS UnAlligned Instruction Fix&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;245&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Non-Returning Functions - Discovered&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;262&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2208&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;226&amp;quot; /&amp;gt;
@@ -18421,6 +18455,7 @@
         <SYMBOL ADDRESS="00096370" NAME="ACT_REQ_P1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00096373" NAME="ACT_STA_P1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009637a" NAME="ANIME_FLIP_P1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00096380" NAME="GUARD_STA_P1_maybe" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009638f" NAME="PLYR_DISP_P1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000963a0" NAME="MANCOM_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000963a1" NAME="CHAR_NUM_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -18428,7 +18463,7 @@
         <SYMBOL ADDRESS="000963a3" NAME="WIN_POINT_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000963c0" NAME="HIT_POINT_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000963d3" NAME="ACT_STA_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="000963da" NAME="ANIME_FLIP" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000963da" NAME="ANIME_FLIP_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000963ef" NAME="PLYR_DISP_P2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00097e2c" NAME="switchdataD_80097e2c" NAMESPACE="switchD_8009be14::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00097e64" NAME="switchdataD_80097e64" NAMESPACE="switchD_8009d8b8::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
