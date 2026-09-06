@@ -7,7 +7,7 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>3</ByteLength>
-      <Address>1B253107380</Address>
+      <Address>1B20378B380</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>2</ID>
@@ -15,7 +15,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1B253107380</Address>
+      <Address>1B20378B380</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
@@ -23,7 +23,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1B253107381</Address>
+      <Address>1B20378B381</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>4</ID>
@@ -31,7 +31,7 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1B253107382</Address>
+      <Address>1B20378B382</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>5</ID>
@@ -39,63 +39,122 @@
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>1B253107383</Address>
+      <Address>1B20378B383</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>6</ID>
       <Description>"xpos"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B253107384</Address>
+      <Address>1B20378B384</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>7</ID>
       <Description>"ypos"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B253107388</Address>
+      <Address>1B20378B388</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>8</ID>
       <Description>"zpos"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B25310738C</Address>
+      <Address>1B20378B38C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>9</ID>
       <Description>"anime_speed"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B253107390</Address>
+      <Address>1B20378B390</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>10</ID>
       <Description>"DIRECT_P1"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B253107394</Address>
+      <Address>1B20378B394</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>11</ID>
       <Description>"ATK_DIR_P1"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B253107398</Address>
+      <Address>1B20378B398</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>12</ID>
       <Description>"BODY_DIR_P1"</Description>
       <ShowAsSigned>1</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>1B25310739C</Address>
+      <Address>1B20378B39C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>13</ID>
       <Description>"HIT_POINT_P1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>Byte</VariableType>
-      <Address>1B2531073A0</Address>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3A0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"DAMAGE_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3A2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"LAST_DMG_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"DMG_DISP_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3A6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"ANIME_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3A8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"ACT_CODE_P1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3AA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"ACT_FLAG_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3AC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"ACT_REQ_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3AE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"ACT_STA_P1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>1B20378B3B0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>1</ID>
@@ -103,7 +162,7 @@
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>3</ByteLength>
-      <Address>1B2531073E0</Address>
+      <Address>1B20378B3E0</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
