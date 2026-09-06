@@ -791,7 +791,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>107</ID>
-          <Description>"GUARD_STA_P1"</Description>
+          <Description>"GUARD_STA"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -903,7 +903,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>121</ID>
-          <Description>"PLYR_DISP_P1"</Description>
+          <Description>"PLYR_DISP"</Description>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Byte</VariableType>
@@ -1035,7 +1035,7 @@
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>BaseRef</Name>
-      <Address>22375AA8040</Address>
+      <Address>22375DB9040</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
   <LuaScript>local function autoFindBaseAddress()
@@ -1046,7 +1046,7 @@
     local scanResults = AOBScan("d8 34 01 80 20 35 01 80 68 35 01 80 b0 35 01 80 30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46 00 00 00 00 00 00 00 00")
 
     if not scanResults or scanResults.Count == 0 then
-        print("Orientation bytes not found! Make sure MAME is running and attached.")
+        print("Orientation bytes not found! Make sure MAME is running 'Dead Or Alive ++ (Japan/USA/Export) [doapp]' and attached.")
         if scanResults then scanResults.destroy() end
         return
     end
