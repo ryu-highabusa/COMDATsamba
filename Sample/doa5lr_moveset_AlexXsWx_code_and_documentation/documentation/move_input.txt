@@ -1,0 +1,38 @@
+                                                                             start reading from this end
+                                                                                      V
+Hayabusa 666P = 65 21 27 40 09 00 00 04 0A 00 40 09 00 00 04 19 00 40 0B 01 00 02 00 02
+
+Break down of Hayabusa 666P (start reading from the end):
+Note: this is a rough explanation, e.g. there are _many_ commands for checking button state and I don't know what is the difference between them
+
+    65 21      // move id = 0x2165 = 8549
+            27 // success, apply move with id ...
+    40         // 6
+            09 // was button ... down
+    00 00      // nothing pressed
+            04 // check buttons past state
+    0A         // 0xA frames
+            00 // allow for up to ...
+    40         // 6
+            09 // was button ... down
+    00 00      // nothing pressed
+            04 // check buttons past state
+    19         // 0x19 frames
+            00 // allow for up to ...
+    40         // 6
+            0B // was button ... down
+    01         // 1 frame
+            00 // allow for up to ...
+    02 00      // P
+            02 // is button ... down
+
+            ^^
+            ||
+    ^^ ^^   ++--- command
+    || ||
+    ++ ++-------- args
+
+Rig   6P = 50 1F  27   00 00  04   02  00   40  09   06  00   02 00  02
+Rig (6)P = 50 1F  27   40 00  04                     01  00   02 00  02
+
+Rig 44K = 75 1F  27   80  09   00 00  04   0A  00   80  09   06  00   04 00  02
