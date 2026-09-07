@@ -1,0 +1,23 @@
+        821125c8 82 10 fa 7c     addr       COMMAND-LIST_ZACK                                0x0 ZACK
+        821125cc 82 10 fb c0     addr       COMMAND-LIST_TINA                                0x1 TINA
+        821125d0 82 10 fd 9c     addr       COMMAND-LIST_JANNLEE                             0x2 JANN LEE
+        821125d4 82 10 ff 0c     addr       COMMAND-LIST_EIN                                 0x3 EIN
+        821125d8 82 11 00 6c     addr       COMMAND-LIST_HAYABUSA                            0x4 HAYABUSA
+        821125dc 82 11 02 48     addr       COMMAND-LIST_KASUMI                              0x5 KASUMI
+        821125e0 82 11 03 6c     addr       COMMAND-LIST_GENFU                               0x6 GEN FU
+        821125e4 82 11 04 f0     addr       COMMAND-LIST_HELENA                              0x7 HELENA
+        821125e8 82 11 06 40     addr       COMMAND-LIST_LEON                                0x8 LEON
+        821125ec 82 11 07 78     addr       COMMAND-LIST_BASS                                0x9 BASS
+        821125f0 82 11 09 10     addr       COMMAND-LIST_LEIFANG                             LEI-FANG
+        821125f4 82 11 0a b0     addr       COMMAND-LIST_AYANE                               AYANE
+        821125f8 82 11 0b a4     addr       COMMAND-LIST_TENGU                               TENGU
+        821125fc 82 11 0d 10     addr       COMMAND-LIST_BAYMAN                              BAYMAN
+        82112600 82 11 0e b8     addr       COMMAND-LIST_HITOMI                              HITOMI
+        82112604 82 b6 bd 30     addr       COMMAND-LIST_HAYATE                              HAYATE
+        82112608 82 b6 d4 30     addr       COMMAND-LIST_BRADWONG                            BRADWONG
+        8211260c 82 b6 e4 10     addr       COMMAND-LIST_CHRISTIE                            CHRISTIE
+        82112610 82 11 15 70     addr       PTR_PTR_u__82111570                              = 82b6e430
+        82112614 82 11 16 b4     addr       PTR_PTR_u__821116b4                              = 82b6f3f0
+        82112618 82 11 18 28     addr       PTR_PTR_u__82111828                              = 82b70230
+        8211261c 82 11 19 c8     addr       PTR_PTR_u_Hitenjin_821119c8                      = 82b712b0
+        82112620 82 11 1a c0     addr       PTR_PTR_u__82111ac0                              = 82b724b0
