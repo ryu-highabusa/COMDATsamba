@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <style> html { background-color: rgb(53, 54, 58); } </style>
+    <script src="src/tools/tools.js"></script>
+    <script src="src/tools/fsTools.js"></script>
+</head>
+<body>
+    <div id = "modes"></div>
+    <script>
+        (function(){
+            const modes = document.getElementById("modes");
+            [
+                {
+                    name: "parse bins",
+                    scriptPaths: [
+                        "src/parsers/movesetBin/data/doa5lr_handmade_descriptions.js",
+                        "src/parsers/movesetBin/InputParser.js",
+                        "src/parsers/movesetBin/compiled/__parseMovesetBin.compiled.js",
+                    ],
+                },
+                {
+                    name: "parse game exe",
+                    scriptPaths: ["src/parsers/parseGameStrings.js"],
+                },
+                {
+                    name: "parse hexworkshop bookmarks",
+                    scriptPaths: ["src/parsers/parseHwBookmark.js"],
+                },
+                {
+                    name: "parse procmon xml",
+                    scriptPaths: [
+                        "src/parsers/parseProcmonXML.js",
+                        "src/parsers/parseDoaFs.js",
+                    ],
+                },
+                {
+                    name: "parse replays",
+                    scriptPaths: ["src/parsers/parseReplay.js"],
+                },
+                {
+                    name: "extract bins using txt",
+                    scriptPaths: [
+                        "src/parsers/parseAllBinsTxt.js",
+                        "src/parsers/parseDoaFs.js",
+                    ],
+                }
+            ].forEach(({ name, scriptPaths }) => {
+                const btn = document.createElement("input");
+                btn.setAttribute("type", "button");
+                btn.setAttribute("value", `${name} mode`);
+                modes.appendChild(btn);
+                btn.addEventListener("click", async event => {
+                    modes.parentNode.removeChild(modes);
+                    for (const scriptPath of scriptPaths) {
+                        await loadScript(scriptPath);
+                    }
+                });
+            });
+
+            return;
+
+            // tools
+
+            async function loadScript(path) {
+                console.debug("loading script", path);
+                return new Promise((fulfill, reject) => {
+                    const newScriptElement = document.createElement("script");
+                    newScriptElement.setAttribute("src", path);
+                    newScriptElement.onerror = (error) => {
+                        reject(new Error("Failed to load script " + path));
+                    };
+                    newScriptElement.onload = () => {
+                        console.debug("done loading script");
+                        fulfill();
+                    }
+                    document.head.appendChild(newScriptElement);
+                })
+            }
+        }());
+    </script>
+</body>
+</html>
