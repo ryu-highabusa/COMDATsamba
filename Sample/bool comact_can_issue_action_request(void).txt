@@ -1,0 +1,14 @@
+bool comact_can_issue_action_request(void)
+{
+    uint8_t state = g_current_player->action_state;
+
+    if (state == ACT_STATE_NEUTRAL)
+        return true;
+
+    if ((state == ACT_STATE_BLOCK_STUN ||
+         state == ACT_STATE_HIT_STUN) &&
+        g_current_player->action_cancel == 1)
+        return true;
+
+    return false;
+}
