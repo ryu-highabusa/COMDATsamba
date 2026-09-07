@@ -1,0 +1,365 @@
+UINT16 	 CMD_SIT[] = {			 
+	(UINT16)   0x0A  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_FRONT[] = {		 
+	(UINT16)   0x01  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0040  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_BACK[] = {			 
+	(UINT16)   0x02  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0080  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIT_FRONT[] = {		 
+	(UINT16)   0x0B  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0040 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIT_BACK[] = {		 
+	(UINT16)   0x0C  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0080 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_DASH_FRONT[] = {		 
+	(UINT16)   0x03  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0040  			  ,	(UINT16)  0x13 		  , 
+		(UINT16)   0x0200 | 0x0000  			  ,	(UINT16)  0x13 		  , 
+		(UINT16)   16  				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0040  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_DASH_BACK[] = {		 
+	(UINT16)   0x04  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0080  			  ,	(UINT16)  0x13 		  , 
+		(UINT16)   0x0200 | 0x0000  			  ,	(UINT16)  0x13 		  , 
+		(UINT16)   10 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0080  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_LO_DASH_F1[] = {		 
+	(UINT16)   0x10  			  ,	(UINT16)  0xFFFF 		  , 
+
+		(UINT16)   (0x0040 | 0x0010 )  			  ,	(UINT16)  0x15 	  , 
+		(UINT16)   0x0200 | 0x0000  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   16  				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   (0x0040 | 0x0010 )  			  ,	(UINT16)  0x15 	  , 
+};
+UINT16 	 CMD_LO_DASH_B1[] = {		 
+	(UINT16)   0x11  			  ,	(UINT16)  0xFFFF 		  , 
+
+		(UINT16)   (0x0080 | 0x0010 )  			  ,	(UINT16)  0x15 	  , 
+		(UINT16)   0x0200 | 0x0000  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   10 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   (0x0080 | 0x0010 )  			  ,	(UINT16)  0x15 	  , 
+};
+UINT16 	 CMD_LO_DASH_F2[] = {		 
+	(UINT16)   0x10  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0010  			  ,	(UINT16)  0x10 		  , 	 
+		(UINT16)   (0x0080 | 0x0010 )  		  ,	(UINT16)   (0x0040 | 0x0010 )  			  ,	(UINT16)  0x14 		  , 
+		(UINT16)   0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   16  				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   (0x0040 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_LO_DASH_B2[] = {		 
+	(UINT16)   0x11  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0010  			  ,	(UINT16)  0x10 		  , 	 
+		(UINT16)   (0x0040 | 0x0010 )  		  ,	(UINT16)   (0x0080 | 0x0010 )  			  ,	(UINT16)  0x14 		  , 
+		(UINT16)   0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   16  				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   (0x0080 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_RUN[] = {			 
+	(UINT16)   0x05  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x03  			  ,	(UINT16)  0x21 		  , 
+		(UINT16)   10  				  ,	(UINT16)   0x0040  			  ,	(UINT16)  0x12 		  , 
+};
+
+UINT16 	 CMD_TURN[] = {			 
+	(UINT16)   0x12  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0080  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)  0x31 	  , 
+};
+UINT16 	 CMD_SIT_TURN[] = {		 
+	(UINT16)   0x13  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0080 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)  0x31 	  , 
+};
+ 
+ 
+ 
+ 
+UINT16 	 CMD_LO_JUMP_F[] = {		 
+	(UINT16)   0x14  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0040 | 0x0020 )  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_LO_JUMP_F2[] = {		 
+	(UINT16)   0x14  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   (0x0040 | 0x0020 )  			  ,	(UINT16)  0x11 		  , 
+};
+UINT16 	 CMD_LO_JUMP_O[] = {		 
+	(UINT16)   0x15  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0020  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_LO_JUMP_B[] = {		 
+	(UINT16)   0x16  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)  0x2A 		  , 		 
+		(UINT16)   (0x0080 | 0x0020 )  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_LO_JUMP_B2[] = {		 
+	(UINT16)   0x16  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)  0x2A 		  , 		 
+		(UINT16)   (0x0080 | 0x0020 )  			  ,	(UINT16)  0x11 		  , 
+};
+ 
+ 
+ 
+UINT16 	 CMD_SIDE_UP_H[] = {		 
+	(UINT16)   0x1E  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x02  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_UP_H_FR[] = {		 
+	(UINT16)   0x1E  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x00  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_UP_H_BK[] = {		 
+	(UINT16)   0x1E  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x01  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0020  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_SIDE_UP_F[] = {		 
+	(UINT16)   0x1F  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x02  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_UP_F_FR[] = {		 
+	(UINT16)   0x1F  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x00  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_UP_F_BK[] = {		 
+	(UINT16)   0x1F  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x01  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0020  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_SIDE_DOWN_H[] = {		 
+	(UINT16)   0x20  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x02  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_DOWN_H_FR[] = {	 
+	(UINT16)   0x20  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x00  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_DOWN_H_BK[] = {	 
+	(UINT16)   0x20  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x01  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0020  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_SIDE_DOWN_F[] = {		 
+	(UINT16)   0x21  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x02  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_DOWN_F_FR[] = {	 
+	(UINT16)   0x21  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x00  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIDE_DOWN_F_BK[] = {	 
+	(UINT16)   0x21  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x01  				  ,	(UINT16)  0x32 	  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0020  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_NORM_UP_H[] = {		 
+	(UINT16)   0x1A  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_NORM_UP_F[] = {		 
+	(UINT16)   0x1B  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_NORM_DOWN_H[] = {		 
+	(UINT16)   0x1C  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_NORM_DOWN_F[] = {		 
+	(UINT16)   0x1D  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	 CMD_REAR_UP_H[] = {		 
+	(UINT16)   0x22  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0040  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_REAR_UP_F[] = {		 
+	(UINT16)   0x23  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0080  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_REAR_DOWN_H[] = {		 
+	(UINT16)   0x24  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0080  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_REAR_DOWN_F[] = {		 
+	(UINT16)   0x25  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0040  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIT_UP_H[] = {		 
+	(UINT16)   0x26  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIT_UP_F[] = {		 
+	(UINT16)   0x27  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_SIT_DOWN_H[] = {		 
+	(UINT16)   0x28  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_DOWN_F[] = {		 
+	(UINT16)   0x29  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+
+UINT16 	CMD_SIT_SIDE_UP_H[] = {		 
+	(UINT16)   0x2A  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x1E  			  ,	(UINT16)  0x29 	  , 
+		(UINT16)  0x2B 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_SIDE_UP_F[] = {		 
+	(UINT16)   0x2B  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x1F  			  ,	(UINT16)  0x29 	  , 
+		(UINT16)  0x2B 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_SIDE_DOWN_H[] = { 	 
+	(UINT16)   0x2C  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x20  			  ,	(UINT16)  0x29 	  , 
+		(UINT16)  0x2B 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_SIDE_DOWN_F[] = { 	 
+	(UINT16)   0x2D  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x21  			  ,	(UINT16)  0x29 	  , 
+		(UINT16)  0x2B 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_REAR_UP_H[] = {		 
+	(UINT16)   0x2E  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0040 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_REAR_UP_F[] = {		 
+	(UINT16)   0x2F  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0080 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_REAR_DOWN_H[] = { 	 
+	(UINT16)   0x30  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0080 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	CMD_SIT_REAR_DOWN_F[] = { 	 
+	(UINT16)   0x31  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | (0x0040 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+ 
+ 
+ 
+UINT16 	 CMD_GRASP_HI[] = {		 
+	(UINT16)   0x40  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_GRASP_MD1[] = {		 
+	(UINT16)   0x41  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0000  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   2 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   (0x0080 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   6 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_GRASP_MD2[] = {		 
+	(UINT16)   0x41  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0000  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   2 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   (0x0040 | 0x0010 )  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   6 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_GRASP_LO[] = {		 
+	(UINT16)   0x42  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_GRASP_TRN_HI[] = {		 
+	(UINT16)   0x43  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_GRASP_TRN_LO[] = {		 
+	(UINT16)   0x44  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0200 | 0x0100 | 0x0010  			  ,	(UINT16)  0x10 		  , 
+		(UINT16)   1 				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001  			  ,	(UINT16)  0x10 		  , 
+};
+ 
+ 
+ 
+UINT16 	 CMD_THROW_NML_SLIP[] = {	 
+	(UINT16)   0x4F  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x4D  			  ,	(UINT16)  0x22 		  , 
+		(UINT16)   10  				  ,	(UINT16)  0x00 		  , 
+		(UINT16)   0x0001 | 0x0002  			  ,	(UINT16)  0x11 		  , 
+};
+
+ 
+ 
+ 
+UINT16 	 CMD_STAND_P[] = {		 
+	(UINT16)   0x53  			  ,	(UINT16)  0xFFFF 		  , 
+		(UINT16)   0x0002  			  ,	(UINT16)  0x10 		  , 
+};
+UINT16 	 CMD_MID_P[] = {		 
+	(UINT16)   0x54  			  ,	(UINT16)  0xFFFF 		  , 
