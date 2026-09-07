@@ -1,7 +1,7 @@
-# Title name: DEAD OR ALIVE 4
-# -------------------- ACHIEVEMENTS --------------------
+# DEAD OR ALIVE 4
+## -------------------- ACHIEVEMENTS --------------------
 
-
+###
 | ID | Title                           | Description                                                                       | Gamerscore |
 |---:|:--------------------------------|:----------------------------------------------------------------------------------|-----------:|
 | 6  | Completed Story Mode            | Completed Story Mode once.                                                        | 5          |
