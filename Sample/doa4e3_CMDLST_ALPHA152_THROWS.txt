@@ -1,0 +1,229 @@
+                             CMDLST_ALPHA152_THROWS                          XREF[1]:     821119d8(*)  
+        82b71e50 82 0f fd 80     addr       u_Kasumi-Gaeshi_820ffd80                         = u"Kasumi-Gaeshi"
+        82b71e54 82 0f fd 78     addr       u__820ffd78                                      = u"霞返し"
+        82b71e58 00 00 00 00     ulong      0h
+        82b71e5c 82 02 b9 54     addr       u_F+P_8202b954                                   = u"F+P"
+        82b71e60 00 00 00 00     ulong      0h
+        82b71e64 82 11 19 48     addr       USHORT_82111948                                  = FFFFh
+        82b71e68 00 00 00 00     ulong      0h
+        82b71e6c 00 00 00 00     ulong      0h
+        82b71e70 00 00 00 00     ulong      0h
+        82b71e74 00 00 00 00     ulong      0h
+        82b71e78 00 00 00 00     ulong      0h
+        82b71e7c 00 00 00 00     ulong      0h
+        82b71e80 82 10 a4 a8     addr       u_Kumoi-Zakura_8210a4a8                          = u"Kumoi-Zakura"
+        82b71e84 82 10 a4 a0     addr       u__8210a4a0                                      = u"雲居桜"
+        82b71e88 00 00 00 36     ulong      36h
+        82b71e8c 82 02 b9 54     addr       u_F+P_8202b954                                   = u"F+P"
+        82b71e90 00 00 00 00     ulong      0h
+        82b71e94 82 11 19 4c     addr       USHORT_8211194c                                  = FFFFh
+        82b71e98 00 00 00 00     ulong      0h
+        82b71e9c 00 00 00 00     ulong      0h
+        82b71ea0 00 00 00 00     ulong      0h
+        82b71ea4 00 00 00 00     ulong      0h
+        82b71ea8 00 00 00 00     ulong      0h
+        82b71eac 00 00 00 00     ulong      0h
+        82b71eb0 82 10 a4 88     addr       u_Kobore-Ume_8210a488                            = u"Kobore-Ume"
+        82b71eb4 82 10 a4 80     addr       u__8210a480                                      = u"零れ梅"
+        82b71eb8 00 00 00 37     ulong      37h
+        82b71ebc 82 02 b9 54     addr       u_F+P_8202b954                                   = u"F+P"
+        82b71ec0 00 00 00 00     ulong      0h
+        82b71ec4 82 11 19 50     addr       USHORT_82111950                                  = FFFFh
+        82b71ec8 00 00 00 00     ulong      0h
+        82b71ecc 00 00 00 00     ulong      0h
+        82b71ed0 00 00 00 00     ulong      0h
+        82b71ed4 00 00 00 00     ulong      0h
+        82b71ed8 00 00 00 00     ulong      0h
+        82b71edc 00 00 00 00     ulong      0h
+        82b71ee0 82 10 a4 f0     addr       u_Ryuto-Enbu_8210a4f0                            = u"Ryuto-Enbu"
+        82b71ee4 82 10 a4 e4     addr       u__8210a4e4                                      = u"竜灯円舞"
+        82b71ee8 00 00 00 00     ulong      0h
+        82b71eec 82 0f ee 4c     addr       u_6F+P_820fee4c                                  = u"6F+P"
+        82b71ef0 00 00 00 00     ulong      0h
+        82b71ef4 82 11 19 54     addr       USHORT_82111954                                  = FFFFh
+        82b71ef8 00 00 00 00     ulong      0h
+        82b71efc 00 00 00 00     ulong      0h
+        82b71f00 00 00 00 00     ulong      0h
+        82b71f04 00 00 00 00     ulong      0h
+        82b71f08 00 00 00 00     ulong      0h
+        82b71f0c 00 00 00 00     ulong      0h
+        82b71f10 82 10 a4 1c     addr       u_Oboro-Gake_8210a41c                            = u"Oboro-Gake"
+        82b71f14 82 10 a4 14     addr       u__8210a414                                      = u"朧駆け"
+        82b71f18 00 00 00 39     ulong      39h
+        82b71f1c 82 02 b9 54     addr       u_F+P_8202b954                                   = u"F+P"
+        82b71f20 00 00 00 00     ulong      0h
+        82b71f24 82 11 19 58     addr       USHORT_82111958                                  = FFFFh
+        82b71f28 00 00 00 00     ulong      0h
+        82b71f2c 00 00 00 00     ulong      0h
+        82b71f30 00 00 00 00     ulong      0h
+        82b71f34 00 00 00 00     ulong      0h
+        82b71f38 00 00 00 00     ulong      0h
+        82b71f3c 00 00 00 00     ulong      0h
+        82b71f40 82 10 a4 cc     addr       u_Taka-Azusa_8210a4cc                            = u"Taka-Azusa"
+        82b71f44 82 10 a4 c4     addr       u__8210a4c4                                      = u"鷹梓"
+        82b71f48 00 00 00 03     ulong      3h
+        82b71f4c 82 0f ee 4c     addr       u_6F+P_820fee4c                                  = u"6F+P"
+        82b71f50 00 00 00 00     ulong      0h
+        82b71f54 82 11 19 5c     addr       USHORT_8211195c                                  = FFFFh
+        82b71f58 00 00 00 00     ulong      0h
+        82b71f5c 00 00 00 00     ulong      0h
+        82b71f60 00 00 00 00     ulong      0h
+        82b71f64 00 00 00 00     ulong      0h
+        82b71f68 00 00 00 00     ulong      0h
+        82b71f6c 00 00 00 00     ulong      0h
+        82b71f70 82 10 a3 fc     addr       u_Tenro-Kyaku_8210a3fc                           = u"Tenro-Kyaku"
+        82b71f74 82 10 a3 f4     addr       u__8210a3f4                                      = u"天瀧脚"
+        82b71f78 00 00 00 00     ulong      0h
+        82b71f7c 82 10 eb d0     addr       u_4F+P_8210ebd0                                  = u"4F+P"
+        82b71f80 00 00 00 00     ulong      0h
+        82b71f84 82 11 19 60     addr       USHORT_82111960                                  = FFFFh
+        82b71f88 00 00 00 00     ulong      0h
+        82b71f8c 00 00 00 00     ulong      0h
+        82b71f90 00 00 00 00     ulong      0h
+        82b71f94 00 00 00 00     ulong      0h
+        82b71f98 00 00 00 00     ulong      0h
+        82b71f9c 00 00 00 00     ulong      0h
+        82b71fa0 82 10 a3 d4     addr       u_Adachi-Shizuka_8210a3d4                        = u"Adachi-Shizuka"
+        82b71fa4 82 10 a3 cc     addr       u__8210a3cc                                      = u"安達静"
+        82b71fa8 00 00 00 03     ulong      3h
+        82b71fac 82 10 eb d0     addr       u_4F+P_8210ebd0                                  = u"4F+P"
+        82b71fb0 00 00 00 00     ulong      0h
+        82b71fb4 82 11 19 64     addr       USHORT_82111964                                  = FFFFh
+        82b71fb8 00 00 00 00     ulong      0h
+        82b71fbc 00 00 00 00     ulong      0h
+        82b71fc0 00 00 00 00     ulong      0h
+        82b71fc4 00 00 00 00     ulong      0h
+        82b71fc8 00 00 00 00     ulong      0h
+        82b71fcc 00 00 00 00     ulong      0h
+        82b71fd0 82 10 a3 a8     addr       u_Hien-Saka-Otoshi_8210a3a8                      = u"Hien-Saka-Otoshi"
+        82b71fd4 82 10 a3 9c     addr       u__8210a39c                                      = u"飛燕逆落"
+        82b71fd8 00 00 00 16     ulong      16h
+        82b71fdc 82 10 a3 88     addr       u_8F+P.F+P_8210a388                              = u"8F+P.F+P"
+        82b71fe0 00 00 00 00     ulong      0h
+        82b71fe4 82 11 19 68     addr       USHORT_82111968                                  = FFFFh
+        82b71fe8 00 00 00 00     ulong      0h
+        82b71fec 00 00 00 00     ulong      0h
+        82b71ff0 00 00 00 00     ulong      0h
+        82b71ff4 00 00 00 00     ulong      0h
+        82b71ff8 00 00 00 00     ulong      0h
+        82b71ffc 00 00 00 00     ulong      0h
+        82b72000 82 10 a4 64     addr       u_Ibara-Otoshi_8210a464                          = u"Ibara-Otoshi"
+        82b72004 82 10 a4 58     addr       u__8210a458                                      = u"茨落とし"
+        82b72008 00 00 00 16     ulong      16h
+        82b7200c 82 0f fd 60     addr       u_66F+P.2F+P_820ffd60                            = u"66F+P.2F+P"
+        82b72010 00 00 00 00     ulong      0h
+        82b72014 82 11 19 6c     addr       USHORT_8211196c                                  = FFFFh
+        82b72018 00 00 00 00     ulong      0h
+        82b7201c 00 00 00 00     ulong      0h
+        82b72020 00 00 00 00     ulong      0h
+        82b72024 00 00 00 00     ulong      0h
+        82b72028 00 00 00 00     ulong      0h
+        82b7202c 00 00 00 00     ulong      0h
+        82b72030 82 10 a4 3c     addr       u_Ibara-Kudaki_8210a43c                          = u"Ibara-Kudaki"
+        82b72034 82 10 a4 34     addr       u__8210a434                                      = u"茨砕き"
+        82b72038 00 00 00 2a     ulong      2Ah
+        82b7203c 82 0f fd 60     addr       u_66F+P.2F+P_820ffd60                            = u"66F+P.2F+P"
+        82b72040 00 00 00 00     ulong      0h
+        82b72044 82 11 19 70     addr       USHORT_82111970                                  = FFFFh
+        82b72048 00 00 00 00     ulong      0h
+        82b7204c 00 00 00 00     ulong      0h
+        82b72050 00 00 00 00     ulong      0h
+        82b72054 00 00 00 00     ulong      0h
+        82b72058 00 00 00 00     ulong      0h
+        82b7205c 00 00 00 00     ulong      0h
+        82b72060 82 10 a3 70     addr       u_Oboro_8210a370                                 = u"Oboro"
+        82b72064 82 10 a3 6c     addr       u__8210a36c                                      = u"朧"
+        82b72068 00 00 00 00     ulong      0h
+        82b7206c 82 10 eb 1c     addr       u_33F+P_8210eb1c                                 = u"33F+P"
+        82b72070 00 00 00 00     ulong      0h
+        82b72074 82 11 19 74     addr       USHORT_82111974                                  = FFFFh
+        82b72078 00 00 00 00     ulong      0h
+        82b7207c 00 00 00 00     ulong      0h
+        82b72080 00 00 00 00     ulong      0h
+        82b72084 00 00 00 00     ulong      0h
+        82b72088 00 00 00 00     ulong      0h
+        82b7208c 00 00 00 00     ulong      0h
+        82b72090 82 10 a3 44     addr       u_Rogaku-Shu_8210a344                            = u"Rogaku-Shu"
+        82b72094 82 10 a3 3c     addr       u__8210a33c                                      = u"狼顎蹴"
+        82b72098 00 00 00 00     ulong      0h
+        82b7209c 82 10 c7 f4     addr       u_hF+P_8210c7f4                                  = u"hF+P"
+        82b720a0 00 00 00 00     ulong      0h
+        82b720a4 82 11 19 78     addr       USHORT_82111978                                  = FFFFh
+        82b720a8 00 00 00 00     ulong      0h
+        82b720ac 00 00 00 00     ulong      0h
+        82b720b0 00 00 00 00     ulong      0h
+        82b720b4 00 00 00 00     ulong      0h
+        82b720b8 00 00 00 00     ulong      0h
+        82b720bc 00 00 00 00     ulong      0h
+        82b720c0 82 10 a3 1c     addr       u_Tsuzumi-Guruma_8210a31c                        = u"Tsuzumi-Guruma"
+        82b720c4 82 10 a3 14     addr       u__8210a314                                      = u"鼓車"
+        82b720c8 00 00 00 00     ulong      0h
+        82b720cc 82 10 ea d8     addr       u_HF+P_8210ead8                                  = u"HF+P"
+        82b720d0 00 00 00 00     ulong      0h
+        82b720d4 82 11 19 7c     addr       USHORT_8211197c                                  = FFFFh
+        82b720d8 00 00 00 00     ulong      0h
+        82b720dc 00 00 00 00     ulong      0h
+        82b720e0 00 00 00 00     ulong      0h
+        82b720e4 00 00 00 00     ulong      0h
+        82b720e8 00 00 00 00     ulong      0h
+        82b720ec 00 00 00 00     ulong      0h
+        82b720f0 82 10 a3 04     addr       u_Byakko_8210a304                                = u"Byakko"
+        82b720f4 82 10 a2 fc     addr       u__8210a2fc                                      = u"白虹"
+        82b720f8 00 00 00 04     ulong      4h
+        82b720fc 82 02 b9 54     addr       u_F+P_8202b954                                   = u"F+P"
+        82b72100 00 00 00 00     ulong      0h
+        82b72104 82 11 19 80     addr       USHORT_82111980                                  = FFFFh
+        82b72108 00 00 00 00     ulong      0h
+        82b7210c 00 00 00 00     ulong      0h
+        82b72110 00 00 00 00     ulong      0h
+        82b72114 00 00 00 00     ulong      0h
+        82b72118 00 00 00 00     ulong      0h
+        82b7211c 00 00 00 00     ulong      0h
+        82b72120 82 10 a2 e8     addr       u_Ura-Hien_8210a2e8                              = u"Ura-Hien"
+        82b72124 82 10 a2 e0     addr       u__8210a2e0                                      = u"裏飛燕"
+        82b72128 00 00 00 04     ulong      4h
+        82b7212c 82 0f ed d4     addr       u_8F+P_820fedd4                                  = u"8F+P"
+        82b72130 00 00 00 00     ulong      0h
+        82b72134 82 11 19 84     addr       USHORT_82111984                                  = FFFFh
+        82b72138 00 00 00 00     ulong      0h
+        82b7213c 00 00 00 00     ulong      0h
+        82b72140 00 00 00 00     ulong      0h
+        82b72144 00 00 00 00     ulong      0h
+        82b72148 00 00 00 00     ulong      0h
+        82b7214c 00 00 00 00     ulong      0h
+        82b72150 82 10 a2 c8     addr       u_Hishu-Enbu_8210a2c8                            = u"Hishu-Enbu"
+        82b72154 82 10 a2 bc     addr       u__8210a2bc                                      = u"飛襲円舞"
+        82b72158 00 00 00 04     ulong      4h
+        82b7215c 82 0f ee 4c     addr       u_6F+P_820fee4c                                  = u"6F+P"
+        82b72160 00 00 00 00     ulong      0h
+        82b72164 82 11 19 88     addr       USHORT_82111988                                  = FFFFh
+        82b72168 00 00 00 00     ulong      0h
+        82b7216c 00 00 00 00     ulong      0h
+        82b72170 00 00 00 00     ulong      0h
+        82b72174 00 00 00 00     ulong      0h
+        82b72178 00 00 00 00     ulong      0h
+        82b7217c 00 00 00 00     ulong      0h
+        82b72180 82 10 a2 90     addr       u_Niji-Shibuki_8210a290                          = u"Niji-Shibuki"
+        82b72184 82 10 a2 88     addr       u__8210a288                                      = u"虹飛沫"
+        82b72188 00 00 00 15     ulong      15h
+        82b7218c 82 10 ea 00     addr       u_2F+P_8210ea00                                  = u"2F+P"
+        82b72190 00 00 00 00     ulong      0h
+        82b72194 82 11 19 8c     addr       USHORT_8211198c                                  = FFFFh
+        82b72198 00 00 00 00     ulong      0h
+        82b7219c 00 00 00 00     ulong      0h
+        82b721a0 00 00 00 00     ulong      0h
+        82b721a4 00 00 00 00     ulong      0h
+        82b721a8 00 00 00 00     ulong      0h
+        82b721ac 00 00 00 00     ulong      0h
+        82b721b0 82 10 a2 74     addr       u_Hien-Shu_8210a274                              = u"Hien-Shu"
+        82b721b4 82 10 a2 6c     addr       u__8210a26c                                      = u"飛燕襲"
+        82b721b8 00 00 00 15     ulong      15h
+        82b721bc 82 10 e9 c4     addr       u_1F+P_8210e9c4                                  = u"1F+P"
+        82b721c0 00 00 00 00     ulong      0h
+        82b721c4 82 11 19 90     addr       USHORT_82111990                                  = FFFFh
+        82b721c8 00 00 00 00     ulong      0h
+        82b721cc 00 00 00 00     ulong      0h
+        82b721d0 00 00 00 00     ulong      0h
+        82b721d4 00 00 00 00     ulong      0h
+        82b721d8 00 00 00 00     ulong      0h
+        82b721dc 00 00 00 00     ulong      0h
