@@ -1,5 +1,5 @@
-# i> 00003E34 Title name: DEAD OR ALIVE 4
-# i> 00003E34 -------------------- ACHIEVEMENTS --------------------
+# Title name: DEAD OR ALIVE 4
+# -------------------- ACHIEVEMENTS --------------------
 
 
 | ID | Title                           | Description                                                                       | Gamerscore |
