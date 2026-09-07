@@ -1,0 +1,285 @@
+                             COSTUMES_0x00_ZACK                              XREF[1]:     82c24888(*)  
+        82c246e8 00              db         0h                                               zac00.tpr (puff vest, denim jeans)
+        82c246e9 01              db         1h                                               zac01.tpr (topless, green shorts
+        82c246ea 02              db         2h                                               zac02.tpr (alien)
+        82c246eb 04              db         4h                                               zac04.tpr (island vacation zack)
+                             COSTUMES_0x01_TINA                              XREF[1]:     82c2488c(*)  
+        82c246ec 00              db         0h                                               tin00.tpr (american bikini cowbo
+        82c246ed 03              db         3h                                               tin03.tpr (leather leotard with 
+        82c246ee 01              db         1h                                               tin01.tpr (black cat outfit)
+        82c246ef 02              db         2h                                               tin02.tpr (white cat outfit)
+        82c246f0 04              db         4h                                               tin04.tpr (red vest with a blue 
+        82c246f1 00              db         0h
+        82c246f2 00              db         0h
+        82c246f3 00              db         0h
+                             COSTUMES_0x02_JANNLEE                           XREF[1]:     82c24890(*)  
+        82c246f4 00              db         0h                                               jan00.tpr (black and gold kungfu
+        82c246f5 01              db         1h                                               jan01.tpr (topless, red pants w/
+        82c246f6 02              db         2h                                               jan02.tpr (bruce lee's yellow ju
+        82c246f7 03              db         3h                                               jan03.tpr (formal white blazer w
+                             COSTUMES_0x03_EIN                               XREF[1]:     82c24894(*)  
+        82c246f8 02              db         2h                                               ein02.tpr (karate gi)
+        82c246f9 03              db         3h                                               ein03.tpr (fishnet top, blue jea
+        82c246fa 01              db         1h                                               ein01.tpr (white silk shirt)
+        82c246fb 00              db         0h                                               ein00.tpr (red pants, topless)
+                             COSTUMES_0x04_HAYABUSA                          XREF[1]:     82c24898(*)  
+        82c246fc 00              db         0h                                               ryu00.tpr ("legendary black falc
+        82c246fd 01              db         1h                                               ryu01.tpr (black shinobi shōzoku
+        82c246fe 03              db         3h                                               ryu03.tpr (dragon muscle bodysuit)
+        82c246ff 02              db         2h                                               ryu02.tpr (blue shinobi shōzoku,
+                             COSTUMES_0x05_KASUMI                            XREF[1]:     82c2489c(*)  
+        82c24700 00              db         0h                                               kas00.tpr (classic blue tunic)
+        82c24701 11              db         11h                                                +11
+        82c24702 18              db         18h                                                +18
+        82c24703 0a              db         Ah                                                 +0A
+        82c24704 05              db         5h                                               kas05.tpr (classic white/pink tu
+        82c24705 16              db         16h
+        82c24706 1d              db         1Dh
+        82c24707 0f              db         Fh
+        82c24708 04              db         4h                                               kas04.tpr (white top, red bottom
+        82c24709 15              db         15h
+        82c2470a 1c              db         1Ch
+        82c2470b 0e              db         Eh
+        82c2470c 06              db         6h                                               kas06.tpr (classic black tunic A
+        82c2470d 17              db         17h
+        82c2470e 1e              db         1Eh
+        82c2470f 10              db         10h
+        82c24710 01              db         1h                                               kas01.tpr (white schoolgirl outf
+        82c24711 12              db         12h
+        82c24712 19              db         19h
+        82c24713 0b              db         Bh
+        82c24714 03              db         3h                                               kas03.tpr (blue schoolgirl outfit)
+        82c24715 14              db         14h
+        82c24716 1b              db         1Bh
+        82c24717 0d              db         Dh
+        82c24718 02              db         2h                                               kas02.tpr (pink sweater vest wit
+        82c24719 13              db         13h
+        82c2471a 1a              db         1Ah
+        82c2471b 0c              db         Ch
+                             COSTUMES_0x06_GENFU                             XREF[1]:     82c248a0(*)  
+        82c2471c 00              db         0h                                               gen00.tpr (classic zebra kungu o
+        82c2471d 01              db         1h                                               gen01.tpr (blue yin-ying kungfu 
+        82c2471e 03              db         3h                                               gen03.tpr (clean white kungfu tu
+        82c2471f 02              db         2h                                               gen02.tpr (summer vacation outfit)
+                             **************************************************************
+                             * hel03.tpr (white opera story outfit) exists,               *
+                             * hel04.tpr is missing                                       *
+                             **************************************************************
+                             COSTUMES_0x07_HELENA                            XREF[1]:     82c248a4(*)  
+        82c24720 05              db         5h                                               hel05.tpr (black+blue catsuit)
+        82c24721 01              db         1h                                               hel01.tpr (red-and-gold, puff sl
+        82c24722 02              db         2h                                               hel02.tpr (blue leather leotard)
+        82c24723 00              db         0h                                               hel00.tpr (black+red catsuit)
+        82c24724 06              db         6h                                               hel06.tpr (white chiton)
+        82c24725 00              db         0h
+        82c24726 00              db         0h
+        82c24727 00              db         0h
+                             COSTUMES_0x08_LEON                              XREF[1]:     82c248a8(*)  
+        82c24728 02              db         2h                                               leo02.tpr (army camo shirt, turb
+        82c24729 01              db         1h                                               leo01.tpr (camo-toga leon w/ tur
+        82c2472a 00              db         0h                                               leo00.tpr (rambo leon)
+        82c2472b 03              db         3h                                               leo03.tpr (roman gladiator leon)
+                             COSTUMES_0x09_BASS                              XREF[1]:     82c248ac(*)  
+        82c2472c 00              db         0h                                               bas00.tpr (biker bass)
+        82c2472d 01              db         1h                                               bas01.tpr (red+white striped pan
+        82c2472e 02              db         2h                                               bas02.tpr (cowboy bass)
+        82c2472f 03              db         3h                                               bas03.tpr (viking bass)
+                             **************************************************************
+                             * hak01.tpr = deleted                                        *
+                             * hak02.tpr = deleted                                        *
+                             * hak03.tpr = blue kimono                                    *
+                             * hak08.tpr = pink kimono                                    *
+                             * hak09.tpr = deleted                                        *
+                             * hak12.tpr = summer schoolgirl outfit MINUS SHOES (used ... *
+                             **************************************************************
+                             COSTUMES_0x0A_KOKORO                            XREF[1]:     82c248b0(*)  
+        82c24730 00              db         0h                                               hak00.tpr (pink+white tunic)
+        82c24731 04              db         4h                                               hak04.tpr (blue+white tunic)
+        82c24732 06              db         6h                                               hak06.tpr (winter schoolgirl out
+        82c24733 05              db         5h                                               hak05.tpr (summer schoolgirl out
+        82c24734 07              db         7h                                               hak07.tpr (white blouse w/ grey 
+        82c24735 0a              db         Ah                                               hak10.tpr (white croptop w/ gold
+        82c24736 0b              db         Bh                                               hak11.tpr (black croptop w/ deni
+        82c24737 00              db         0h
+                             COSTUMES_0x0B_HAYATE                            XREF[1]:     82c248b4(*)  
+        82c24738 00              db         0h                                               hyt00.tpr (white-and-blue shinob
+        82c24739 03              db         3h                                               hyt03.tpr (purple ninja outfit w
+        82c2473a 02              db         2h                                               hyt02.tpr (red shinobi shōzoku w
+        82c2473b 01              db         1h                                               hyt01.tpr (white ninja outfit w/
+                             **************************************************************
+                             * boy01.tpr = deleted                                        *
+                             **************************************************************
+                             COSTUMES_0x0E_ELIOT                             XREF[1]:     82c248c0(*)  
+        82c2473c 00              db         0h                                               boy00.tpr (white+blue kungfu tun
+        82c2473d 03              db         3h                                               boy03.tpr (red hoodie)
+        82c2473e 04              db         4h                                               boy04.tpr (blue kungfu tunic)
+        82c2473f 02              db         2h                                               boy02.tpr (gray vest w/ binder)
+                             **************************************************************
+                             * lei00.tpr = deleted                                        *
+                             * lei03.tpr = deleted                                        *
+                             * lei04.tpr = deleted                                        *
+                             * lei07.tpr = deleted                                        *
+                             * lei08.tpr = deleted                                        *
+                             * lei09.tpr = deleted                                        *
+                             **************************************************************
+                             COSTUMES_0x0C_LEIFANG                           XREF[1]:     82c248b8(*)  
+        82c24740 06              db         6h                                               lei06.tpr (red qípáo dress)
+        82c24741 0f              db         Fh
+        82c24742 13              db         13h
+        82c24743 06              db         6h
+        82c24744 18              db         18h
+        82c24745 1c              db         1Ch
+        82c24746 20              db         20h
+        82c24747 24              db         24h
+        82c24748 28              db         28h
+        82c24749 2c              db         2Ch
+        82c2474a 0b              db         Bh                                               lei11.tpr (white qípáo dress)
+        82c2474b 11              db         11h
+        82c2474c 15              db         15h
+        82c2474d 0b              db         Bh
+        82c2474e 1a              db         1Ah
+        82c2474f 1e              db         1Eh
+        82c24750 22              db         22h
+        82c24751 26              db         26h
+        82c24752 2a              db         2Ah
+        82c24753 2e              db         2Eh
+        82c24754 01              db         1h                                               lei01.tpr (red top, white pants 
+        82c24755 0d              db         Dh
+        82c24756 0d              db         Dh
+        82c24757 01              db         1h
+        82c24758 0d              db         Dh
+        82c24759 0d              db         Dh
+        82c2475a 0d              db         Dh
+        82c2475b 0d              db         Dh
+        82c2475c 0d              db         Dh
+        82c2475d 0d              db         Dh
+        82c2475e 0a              db         Ah                                               lei10.tpr (blue qípáo dress)
+        82c2475f 10              db         10h
+        82c24760 14              db         14h
+        82c24761 0a              db         Ah
+        82c24762 19              db         19h
+        82c24763 1d              db         1Dh
+        82c24764 21              db         21h
+        82c24765 25              db         25h
+        82c24766 29              db         29h
+        82c24767 2d              db         2Dh
+        82c24768 0c              db         Ch                                               lei12.tpr (black qípáo dress)
+        82c24769 12              db         12h
+        82c2476a 16              db         16h
+        82c2476b 0c              db         Ch
+        82c2476c 1b              db         1Bh
+        82c2476d 1f              db         1Fh
+        82c2476e 23              db         23h
+        82c2476f 27              db         27h
+        82c24770 2b              db         2Bh
+        82c24771 2f              db         2Fh
+        82c24772 05              db         5h                                               lei05.tpr (green-and-teal turtle
+        82c24773 0e              db         Eh
+        82c24774 0e              db         Eh
+        82c24775 05              db         5h
+        82c24776 0e              db         Eh
+        82c24777 0e              db         Eh
+        82c24778 0e              db         Eh
+        82c24779 0e              db         Eh
+        82c2477a 0e              db         Eh
+        82c2477b 0e              db         Eh
+        82c2477c 02              db         2h                                               lei02.tpr (orange-and-red turtle
+        82c2477d 17              db         17h
+        82c2477e 17              db         17h
+        82c2477f 02              db         2h
+        82c24780 17              db         17h
+        82c24781 17              db         17h
+        82c24782 17              db         17h
+        82c24783 17              db         17h
+        82c24784 17              db         17h
+        82c24785 17              db         17h
+        82c24786 00              db         0h
+        82c24787 00              db         0h
+                             COSTUMES_0x0D_AYANE                             XREF[1]:     82c248bc(*)  
+        82c24788 00              db         0h                                               aya00.tpr (purple shinobi shōzoku)
+        82c24789 02              db         2h                                               aya02.tpr (floral pattern minidr
+        82c2478a 04              db         4h                                               aya04.tpr (schoolgirl)
+        82c2478b 01              db         1h                                               aya01.tpr (black-and-purple armo
+        82c2478c 03              db         3h                                               aya03.tpr (blue track jacket, ca
+        82c2478d 05              db         5h                                               aya05.tpr ("toreko")
+        82c2478e 00              db         0h
+        82c2478f 00              db         0h
+                             COSTUMES_0x0F_LAMARIPOSA                        XREF[1]:     82c248c4(*)  
+        82c24790 00              db         0h                                               lis00.tpr (silver bikini)
+        82c24791 05              db         5h
+        82c24792 05              db         5h
+        82c24793 00              db         0h
+        82c24794 04              db         4h                                               lis04.tpr (white-and-orange leot
+        82c24795 09              db         9h
+        82c24796 09              db         9h
+        82c24797 04              db         4h
+        82c24798 02              db         2h                                               lis02.tpr (white-and-green leota
+        82c24799 07              db         7h
+        82c2479a 07              db         7h
+        82c2479b 02              db         2h
+        82c2479c 08              db         8h                                               lis03.tpr (white catsuit, maskle
+        82c2479d 03              db         3h
+        82c2479e 03              db         3h
+        82c2479f 08              db         8h
+        82c247a0 01              db         1h                                               lis01.tpr (Último Dragón parody)
+        82c247a1 06              db         6h
+        82c247a2 06              db         6h
+        82c247a3 01              db         1h
+                             COSTUMES_0x10_ALPHA152                          XREF[1]:     82c248c8(*)  
+        82c247a4 01              db         1h                                               alp01.tpr
+        82c247a5 01              db         1h                                               alp01.tpr
+        82c247a6 00              db         0h
+        82c247a7 00              db         0h
+                             COSTUMES_0x11_TENGU                             XREF[1]:     82c248cc(*)  
+        82c247a8 00              db         0h                                               tng00.tpr (brown)
+        82c247a9 02              db         2h                                               tng02.tpr (purple)
+        82c247aa 00              db         0h
+        82c247ab 00              db         0h
+                             COSTUMES_0x12_SPARTAN458                        XREF[1]:     82c248d0(*)  
+        82c247ac 00              db         0h                                               spa00.tpr (green)
+        82c247ad 01              db         1h                                               spa01.tpr (red)
+        82c247ae 02              db         2h                                               spa02.tpr (blue)
+        82c247af 03              db         3h                                               spa03.tpr (silver)
+        82c247b0 04              db         4h                                               spa04.tpr (gold)
+        82c247b1 05              db         5h                                               spa05.tpr (white)
+        82c247b2 06              db         6h                                               spa06.tpr (black)
+        82c247b3 00              db         0h
+                             **************************************************************
+                             * bra00.tpr = deleted                                        *
+                             **************************************************************
+                             COSTUMES_0x13_BRADWONG                          XREF[1]:     82c248d4(*)  
+        82c247b4 03              db         3h                                               bra03.tpr (untucked white dress 
+        82c247b5 01              db         1h                                               bra01.tpr (tattered blue tunic, 
+        82c247b6 02              db         2h                                               bra02.tpr (fancy white tunic)
+        82c247b7 00              db         0h
+                             **************************************************************
+                             * cri02.tpr = deleted                                        *
+                             * cri03.tpr = deleted                                        *
+                             * cri05.tpr = topless w/ plain leather jacket (unused??)     *
+                             **************************************************************
+                             COSTUMES_0x14_CHRISTIE                          XREF[1]:     82c248d8(*)  
+        82c247b8 00              db         0h                                               cri00.tpr (topless w/ blue-flame
+        82c247b9 06              db         6h                                               cri06.tpr (classic white+navy ca
+        82c247ba 01              db         1h                                               cri01.tpr (croptop w/ red-flame 
+        82c247bb 04              db         4h                                               cri04.tpr (BDSM christie)
+                             **************************************************************
+                             * kor04.tpr = deleted                                        *
+                             **************************************************************
+                             COSTUMES_0x15_HITOMI                            XREF[1]:     82c248dc(*)  
+        82c247bc 03              db         3h                                               kor03.tpr (denim jacket)
+        82c247bd 01              db         1h                                               kor01.tpr (leather crop top with
+        82c247be 08              db         8h                                               kor08.tpr (black tank top with a
+        82c247bf 00              db         0h                                               kor00.tpr (green jacket, leg-war
+        82c247c0 09              db         9h                                               kor09.tpr (blue jacket, leg-warm
+        82c247c1 02              db         2h                                               kor02.tpr (black lolita dress)
+        82c247c2 05              db         5h                                               kor05.tpr (red lolita dress)
+        82c247c3 07              db         7h                                               kor07.tpr (blue lolita dress)
+        82c247c4 06              db         6h                                               kor06.tpr (blue lolita dress)
+        82c247c5 06              db         6h
+        82c247c6 07              db         7h
+        82c247c7 00              db         0h
+                             COSTUMES_0x18_BAYMAN                            XREF[1]:     82c248e8(*)  
+        82c247c8 00              db         0h                                               bay00.tpr (futuristic army outfit)
+        82c247c9 01              db         1h                                               bay01.tpr (orange vest, red beret)
+        82c247ca 02              db         2h                                               bay02.tpr (scuba steve)
+        82c247cb 00              db         0h
