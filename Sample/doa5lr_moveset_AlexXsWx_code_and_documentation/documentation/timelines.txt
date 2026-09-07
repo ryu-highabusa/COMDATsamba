@@ -1,0 +1,218 @@
+Understanding event timelines (from moveset bin):
+
+Rig's moves:
+
+input:      8p        // voice: "ha"
+frame data: 15 (3) 18
+
+input:      7p        // voice: "soreeeaa", no whiff sound
+frame data: 25 (3) 20
+
+input:      3p        // voice: "hu"
+frame data: 14 (2) 23
+
+input:      66p       // voice: "sha"
+frame data: 14 (3) 23
+
+                                                                 from which frame...                which voice line to play                                                           from which frame active frames start
+                                                                      vv                       ??          vv                                                                          vv
+8p:  00 00 [06 04]  01 00 02 00 0A 00  22 00 61 00 2D 00 5B 00  01 00<0C 00>35 00 04 00  01 00<0E>00 03 00[17 30]                                      03 00[5D 00]A4 00 <16>00  01 00 [10 00]                                21 00<02 00>1A 00  01 00 [13 00] 05 00 1B 00 FF FF 
+7p:  00 00 [10 04]  01 00 02 00 0A 00  22 00 61 00 2D 00 5B 00  01 00<05 00>                         03 00[3E 30]                                                  A4 00 <17>00  01 00 [1A 00]  21 00<03 00>1A 00 35 00 03 00                    01 00 [1D 00] 05 00 1B 00 FF FF 
+3p:  00 00 [38 04]  01 00 02 00 0A 00  22 00 61 00 2D 00 5B 00  01 00<0C 00>35 00 04 00  01 00<0D>00 03 00[0E 30]                                      03 00[5D 00]A4 00 <16>00  01 00 [0F 00]                                21 00<02 00>1A 00  01 00 [11 00] 05 00 1B 00 FF FF 
+66p: 00 00 [56 04]  01 00 02 00 0A 00  22 00 61 00 2D 00 5B 00  01 00<08 00>                         03 00[37 30] A4 00<16>00  01 00<0D 00>0A 00 00 00 03 00[5D 00]              01 00 [0F 00]                    35 00 03 00 21 00<02 00>1A 00  01 00 [12 00] 05 00 1B 00 FF FF 
+            ^^^^^                                                                                                       ??     ^^^^^^^^^^^^^^^^^^^^^^^                    ??                                                                            ^^                       
+           anim id                                                                                                             from frame 0xD flip stance                                                                                            from which frame recovery starts
+
+BND P:
+         doesn't match, expected "68 06"
+           vvvvv
+    00 00 [10 04]  01 00 02 00 0A 00  3B 00 10 00 25 00 14 00  22 00 61 00 2D 00 5B 00
+    01 00<05 00>
+                03 00 3E 30        // voice line "soreeeaaa"
+                A4 00 17 00        // face animation
+    01 00<1A 00>                   // actual frame data is 23 (3) 20; this seems to be 2 frames too early
+                21 00 03 00 1A 00  // start active frames, left hand
+                35 00 03 00        // camera shake
+    01 00<1D 00>05 00 1B 00        // start recovery
+    FF FF 
+
+24k:
+    00 00 [B4 05]  01 00 02 00 0A 00  22 00 65 00 2D 00 33 00
+    01 00<05 00>
+                03 00 3C 30 // voice line "soryA"
+                A4 00 17 00 // face animation
+    01 00<0E 00>
+                A0 00 05 00 04 24 38 05 23 F0 10 68 16 61 96 38 21 D0 E8 44 00 00 00 00 // start particle effect
+                            09 00 00 00 00 00 00 00                                     // left leg
+    01 00<14 00>03 00 35 00       // whoosh sound
+    01 00<16 00>0A 00 00 00       // invert stance
+    01 00[1A 00]21 00 05 00 1A 00 // start active frames, right leg
+    01 00<1C 00>35 00 03 00       // camera shake
+    01 00[1D 00]05 00 1B 00       // recovery from
+    FF FF
+
+66k:
+    00 00 [0A 05]  01 00 02 00 0A 00  22 00 39 00 2D 00 33 00
+    01 00<09 00>A0 00 05 00 04 24 38 05 23 F0 10 68 16 61 96 38 21 D0 E8 44 00 00 00 00 // start particle effect
+                            09 00 00 00 00 00 00 00                                     // left leg
+    01 00<0F 00>
+                03 00 2F 30       // voice line "urEE"
+                03 00 35 00       // whoosh sound
+                A4 00 17 00       // face animation
+    01 00<14 00>21 00 05 00 1A 00 // start active frames, right leg
+    01 00<17 00>
+                05 00 1B 00       // start recovery
+                0A 00 00 00       // invert stance
+    FF FF
+
+2H+K:
+    00 00 [96 05]  01 00 02 00 0A 00  22 00 65 00 2D 00 33 00
+    01 00<0A 00>
+                03 00 0C 30             // voice line "UUre"
+                A4 00 17 00             // face animation
+    01 00<0F 00>03 00 35 00             // whoosh sound
+    01 00<11 00>21 00 05 00 1A 00       // start active frames, right leg
+    01 00<12 00>A0 00 05 00 04 24 38 05 23 F0 10 68 16 61 96 38 21 D0 E8 44 00 00 00 00 // start particle effect
+                            09 00 00 00 00 00 00 00                                     // left leg
+    01 00<13 00>05 00 1B 00             // start recovery
+    FF FF
+
+1H+K:
+    00 00 [A0 05]  01 00 02 00 0A 00  22 00 39 00 2D 00 33 00
+    01 00<0A 00>A0 00 05 00 04 24 38 05 23 F0 10 68 16 61 96 38 21 D0 E8 44 00 00 00 00 // start particle effect
+                            03 00 00 00 00 00 00 00                                     // right leg
+    01 00<10 00>
+                03 00 3D 30       // voice line "sOre"
+                A4 00 17 00       // face animation
+    01 00<18 00>21 00 06 00 1A 00 // start active frames, left leg
+    01 00<1A 00>05 00 1B 00       // start recovery
+    FF FF 
+
+6H+K:
+    00 00 [78 05]  01 00 02 00 0A 00  22 00 65 00 2D 00 33 00
+    01 00<02 00>
+                03 00 2B 30 // voice line "aa-AA"
+                A4 00 16 00 // face animation
+    01 00<04 00>A0 00 04 00 04 24 78 04 23 F0 10 68 16 61 96 38 3C 74 3A 0A  // start particle effect
+                            09 00 00 00 00 00 00 00                          // left leg
+    01 00<0C 00>A0 00 04 00 04 24 78 04 23 F0 10 68 16 61 96 38 3C 74 3A 0A  // start particle effect
+                            03 00 00 00 00 00 00 00                          // right leg
+                03 00 31 00                           // "tap" sound (indicating jump?)
+                1F 00 03 00               24 00 01 00 // status = "jump (evade lows)"
+    01 00<10 00>03 00 35 00                           // whoosh sound
+                21 00 05 00 1A 00                     // start active frames, right leg
+    01 00<12 00>05 00 1B 00                           // start recovery
+    01 00<18 00>
+                03 00 35 00                           // whoosh sound
+                48 00                                 // increase current move ids
+                21 00 06 00 1A 00                     // start active frames, left leg
+    01 00<1A 00>05 00 1B 00                           // start recovery
+    01 00<1E 00>24 00 02 00                           // status = "jump"
+    01 00<26 00>
+                1F 00 00 00  51 00 02 00  24 00 03 00 // status = "standing"
+    FF FF 
+
+BND 6H+K:
+    00 00 [2C 06] 01 00 02 00 0A 00  33 00 22 00 65 00 2D 00 33 00
+                  3B 00 02 00 25 00 04 00                         // ???
+    01 00<0C 00>03 00 38 30 // voice line "shh"
+    01 00<0E 00>1F 00 03 00 24 00 01 00 // status = "jump (evade lows)"
+    01 00<11 00>
+                03 00 35 00       // whoosh sound
+                21 00 0E 00 1A 00 // start active frames, left ???
+    01 00<13 00>05 00 1B 00       // start recovery
+    01 00<17 00>03 00 38 30       // voice line "shh"
+    01 00<1A 00>24 00 02 00       // status = "jump"
+    01 00<1C 00>03 00 35 00       // whoosh sound
+                48 00             // increase current move id
+                21 00 0E 00 1A 00 // start active frames, left ???
+    01 00<1D 00>
+                51 00 02 00  1F 00 00 00  24 00 03 00 // status = "standing"
+    01 00<1E 00>05 00 1B 00                           // start recovery
+    01 00<23 00>39 00 // start followup interval
+    01 00<29 00>0F 00 // ???
+    FF FF 
+
+BND 8K:
+    00 00 [6E 05]  01 00 02 00 0A 00  22 00 65 00 2D 00 33 00
+                   3B 00 02 00 25 00 04 00                   // ???
+                   33 00                                     // ???
+    01 00<08 00>
+                1F 00 03 00 24 00 01 00 // status = "jump (evade lows)"
+                03 00 31 00             // "tap" sound (indicating jump?)
+    01 00<09 00>A0 00 05 00 04 24 38 05 23 F0 10 68 16 61 96 38 21 D0 E8 44 00 00 00 00 // start particle effect
+                            09 00 00 00 00 00 00 00                                     // left leg
+    01 00<0A 00>03 00 30 30       // voice line "uurYA"
+                A4 00 17 00       // face animation
+    01 00<14 00>03 00 35 00       // whoosh sound
+    01 00<19 00>21 00 07 00 1A 00 // start active frames, right foot?
+                24 00 02 00       // status "jump"
+    01 00<1C 00>05 00 1B 00       // start recovery
+    01 00<1F 00>
+                1F 00 00 00  51 00 02 00  24 00 03 00 // status = "standing"
+    FF FF 
+
+p+k:
+    00 00 [3C 05]  01 00 02 00 0A 00  22 00 64 00 2D 00 5B 00
+    01 00<0F 00>
+                03 00 30 30 // voice line "uurYA" 
+                A4 00 17 00 // face animation
+    01 00<11 00>0A 00 00 00 // invert stance
+                A0 00 04 00 A2 21 50 04 A2 A0 20 20 1A 0C 72 46 1B 41 21 CF // start trail effect
+                            0B 00 00 00 00 00 00 00                         // left hand?
+                A0 00 04 00 A2 21 50 04 A2 A0 20 20 1A 0C 72 46 1B 41 21 CF // start trail effect
+                            05 00 00 00 00 00 00 00                         // right hand?
+    01 00<15 00>
+                35 00 03 00       // camera shake
+                21 00 04 00 1A 00 // start active frames, both hands?
+    01 00<16 00>A1 00 04 00 A2 21 50 04 A2 A0 20 20 1A 0C 72 46 1B 41 21 CF // stop effect?
+    01 00<17 00>39 00             // start followup interval
+    01 00<18 00>05 00 1B 00       // start recovery
+    01 00<23 00>3A 00             // end followup interval
+    FF FF
+
+Akira P+K:
+    00 00  [14 05]  01 00 02 00 0A 00  22 00 08 00 2D 00 32 00
+    01 00<0E 00>
+                03 00 1A 30 // sound
+                A4 00 16 00 // face anim
+    01 00<12 00>
+                03 00 5D 00 // sound
+    01 00<15 00>
+                21 00 03 00 1A 00 // start active frame, left hand
+                51 00 01 00       // change status?
+                35 00 02 00       // camera shake
+    01 00<17 00>
+                39 00       // start followup interval
+                05 00 1B 00 // start recovery
+    01 00<19 00>
+                3A 00       // end followup interval
+    FF FF 
+
+
+Discovered commands and their meaning:
+
+00 00 XX XX 01 00 02 00 0A 00 = which anim it is (could 01 mean index of hurtbox group to use?..)
+22 00 61 00 2D 00 5B 00 = ??? (BND P)
+22 00 61 00 2D 00 5B 00 = ??? (8P, 7P, 3P, 66P)
+22 00 65 00 2D 00 33 00 = ??? (24k, 2H+K, 6H+K, bnd 8k)
+22 00 39 00 2D 00 33 00 = ??? (66k, 1H+K)
+22 00 65 00 2D 00 33 00 = ??? (BND 6H+K)
+22 00 64 00 2D 00 5B 00 = ??? (p+k)
+3B 00 02 00 25 00 04 00 = ???
+3B 00 10 00 25 00 14 00 = ???
+33 00 = ???
+01 00 XX XX = starting from which frame
+03 00 XX XX = which sound to play
+05 00 1B 00 = start recovery frames
+0A 00 XX XX = (XX == 00 00 = invert stance / leading leg), 
+21 00 XX XX 1A 00 = start active frames (XX == 02 00, 03 00, 04 00, 05 00, 06 00, 07 00); 2 = right hand?, 3 = left hand?, 4 = both hands? 5 = right leg? 6 = left leg? 7 = right foot?
+35 00 XX XX = ??? (XX XX == 03 00, 04 00) 3 = camera shake
+A0 00 XX XX YYYY{XXXX} ZZ{8} = start effect, XX XX = dwords in YYYY (effect id?), ZZ = bone/socket id?
+A1 00 XX XX YYYY{XXXX}       = stop effect,  XX XX = dwords in YYYY (effect id?)
+A4 00 XX XX = face animation (XX XX == 16 00, 17 00)
+48 00 = increase current move id
+1F 00 ...
+24 00 XX XX = change jumping sub-status?
+39 00 = start followup interval
+3A 00 = end followup interval
