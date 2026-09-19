@@ -595,26 +595,26 @@ void FUN_000148f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint 
   auVar107._4_4_ = pauVar1 + 0x1c;
   auVar107._0_4_ = pauVar1 + 0x1a;
   FUN_00008250(1);
-  CharSelSlot_Hayabusa_00557a91 = NAME_HAYABUSA;
-  CharSelSlot_Kasumi_00557a92 = NAME_KASUMI;
-  CharSelSlot_Bayman_00557a93 = NAME_BAYMAN;
-  CharSelSlot_Jannlee_00557a94 = NAME_JANNLEE;
-  CharSelSlot_Leifang_00557a95 = NAME_LEIFANG;
-  CharSelSlot_Genfu_00557a96 = NAME_GENFU;
-  CharSelSlot_Tina_00557a97 = NAME_TINA;
-  CharSelSlot_Zack_00557a90 = (DOA1_NAME_ID)g14;
+  CharSelSlot1_Hayabusa_00557a91 = NAME_HAYABUSA;
+  CharSelSlot2_Kasumi = NAME_KASUMI;
+  CharSelSlot3_Bayman_00557a93 = NAME_BAYMAN;
+  CharSelSlot4_Jannlee_00557a94 = NAME_JANNLEE;
+  CharSelSlot5_Leifang_00557a95 = NAME_LEIFANG;
+  CharSelSlot6_Genfu_00557a96 = NAME_GENFU;
+  CharSelSlot7_Tina_00557a97 = NAME_TINA;
+  CharSelSlot0_Zack_00557a90 = (DOA1_NAME_ID)g14;
   iVar146 = 8;
   if (SettingsUnlisted_UnlockRaidou_00557a84 == 1) {
     iVar146 = 9;
-    CharSelSlot_Raidou_00557a98 = NAME_RAIDOU;
+    CharSelSlot8_Raidou_00557a98 = NAME_RAIDOU;
   }
   g13 = 0xff;
-  (&CharSelSlot_Zack_00557a90)[iVar146] = ~NAME_ZACK;
+  (&CharSelSlot0_Zack_00557a90)[iVar146] = ~NAME_ZACK;
   CharSel_numberofslots____00557bf4 = (DOA1_NAME_ID)g14;
-  DVar6 = CharSelSlot_Zack_00557a90;
+  DVar6 = CharSelSlot0_Zack_00557a90;
   while (ac = ac & 0xfffffff8, DVar6 != ~NAME_ZACK) {
     CharSel_numberofslots____00557bf4 = CharSel_numberofslots____00557bf4 + NAME_TINA;
-    DVar6 = (&CharSelSlot_Zack_00557a90)[CharSel_numberofslots____00557bf4];
+    DVar6 = (&CharSelSlot0_Zack_00557a90)[CharSel_numberofslots____00557bf4];
   }
   if (CharSel_numberofslots____00557bf4 < NAME_UNKNOWN_09) {
     DAT_00557bf5 = 0xf;
@@ -677,7 +677,7 @@ LAB_00014d80:
          (uint)(g_player1.controller_type == MAN) << 1 | (uint)(g_player1.controller_type == COM);
     fp = pauVar2;
     if (((byte)ac & 1 | MAN < g_player1.controller_type) != 1) {
-      g_player1.character_id = (&CharSelSlot_Zack_00557a90)[DAT_00557c08];
+      g_player1.character_id = (&CharSelSlot0_Zack_00557a90)[DAT_00557c08];
       wVar4 = (&WORD_00090a90)[g_player1.character_id];
       fp = pauVar1 + 0x1c;
       auVar109._12_52_ = auVar107._12_52_;
@@ -694,7 +694,7 @@ LAB_00014d80:
     ac = ac & 0xfffffff8 | (uint)(MAN < g_player2.controller_type) << 2 |
          (uint)(g_player2.controller_type == MAN) << 1 | (uint)(g_player2.controller_type == COM);
     if (((byte)ac & 1 | MAN < g_player2.controller_type) != 1) {
-      g_player2.character_id = (&CharSelSlot_Zack_00557a90)[DAT_00557c0c];
+      g_player2.character_id = (&CharSelSlot0_Zack_00557a90)[DAT_00557c0c];
       wVar4 = (&WORD_00090a90)[g_player2.character_id];
       pauVar1 = (undefined1 (*) [64])(auVar107._4_4_ + 0x3fU & 0xffffffc0);
       auVar110._12_52_ = auVar107._12_52_;
@@ -719,7 +719,7 @@ LAB_00014d80:
       auVar116._16_4_ = &DAT_00555640;
       auVar116._0_16_ = auVar111._0_16_;
       auVar116._20_44_ = auVar111._20_44_;
-      g_player2.character_id = (&CharSelSlot_Zack_00557a90)[DAT_00557c0c];
+      g_player2.character_id = (&CharSelSlot0_Zack_00557a90)[DAT_00557c0c];
       wVar4 = (&WORD_00090a90)[g_player1.character_id];
       auVar118._12_52_ = auVar116._12_52_;
       auVar118._8_4_ = 0x15064;
@@ -771,7 +771,7 @@ LAB_00014d80:
       }
     }
     else {
-      g_player1.character_id = (&CharSelSlot_Zack_00557a90)[DAT_00557c08];
+      g_player1.character_id = (&CharSelSlot0_Zack_00557a90)[DAT_00557c08];
       auVar111._16_4_ = &DAT_00555640;
       wVar4 = (&WORD_00090a90)[g_player1.character_id];
       auVar113._12_52_ = auVar111._12_52_;
@@ -884,7 +884,7 @@ LAB_00014d80:
   auVar125._8_56_ = auVar126._8_56_;
   auVar125._4_4_ = uVar3 + 0x80;
   auVar125._0_4_ = uVar3 + 0x40;
-  FUN_00008220(&LAB_000646f0,8);
+  Task_RegisterOrReplace(&LAB_000646f0,8);
   auVar128._12_52_ = auVar125._12_52_;
   auVar128._0_8_ = auVar125._0_8_;
   auVar128._8_4_ = 0x151e8;
@@ -892,7 +892,7 @@ LAB_00014d80:
   auVar127._8_56_ = auVar128._8_56_;
   auVar127._4_4_ = uVar3 + 0xc0;
   auVar127._0_4_ = uVar3 + 0x80;
-  FUN_00008220(&LAB_0007d200,0xc);
+  Task_RegisterOrReplace(&LAB_0007d200,0xc);
   auVar130._12_52_ = auVar127._12_52_;
   auVar130._0_8_ = auVar127._0_8_;
   auVar130._8_4_ = 0x151ec;
@@ -929,15 +929,15 @@ LAB_00014d80:
   FUN_00013cc0();
   g_player1.animation_id = (&ANIME_CharacterSelectIdleStanceValues_00090ab0)[g_player1.character_id]
   ;
-  g_player1.animation_flag = (DOA1_NAME_ID)g14;
-  g_player1.hit_attack = '\x01';
+  g_player1.animation_flip = (DOA1_NAME_ID)g14;
+  g_player1.animation_request = '\x01';
   g_player2.animation_id = (&ANIME_CharacterSelectIdleStanceValues_00090ab0)[g_player2.character_id]
   ;
   DAT_00557a78 = 0x3f333333;
-  g_player2.hit_attack = '\x01';
-  g_player2.animation_flag = '\x01';
-  g_player1.danger_flag = '\x01';
-  g_player2.danger_flag = '\x01';
+  g_player2.animation_request = '\x01';
+  g_player2.animation_flip = '\x01';
+  g_player1.player_display = '\x01';
+  g_player2.player_display = '\x01';
   DAT_00557c20 = 1;
   DAT_00557c21 = 1;
   StageNumber = STAGE_LCASTLE;
@@ -949,7 +949,7 @@ LAB_00014d80:
   if (((byte)ac & 1) != 1) {
     auVar135._16_4_ = 0xfe;
     do {
-      Camera_Angle_005555ac = 0xfe;
+      Camera_Angle = 0xfe;
       pauVar1 = (undefined1 (*) [64])(auVar135._4_4_ + 0x3fU & 0xffffffc0);
       auVar137._12_52_ = auVar135._12_52_;
       auVar137._0_8_ = auVar135._0_8_;
@@ -992,7 +992,7 @@ LAB_00014d80:
       auVar25._24_4_ = 0xc;
       auVar25._28_36_ = auVar13._28_36_;
       auVar24._24_40_ = auVar25._24_40_;
-      auVar24._20_4_ = &CharSelSlot_Hayabusa_00557a91;
+      auVar24._20_4_ = &CharSelSlot1_Hayabusa_00557a91;
       do {
         iVar146 = auVar24._24_4_;
         bVar5 = *auVar24._20_4_;
@@ -1032,7 +1032,7 @@ LAB_00014d80:
       auVar31._0_24_ = auVar30._0_24_;
       auVar31._24_4_ = 0xc;
       auVar30._24_40_ = auVar31._24_40_;
-      auVar30._20_4_ = &CharSelSlot_Zack_00557a90;
+      auVar30._20_4_ = &CharSelSlot0_Zack_00557a90;
       do {
         iVar146 = auVar30._24_4_;
         bVar5 = *auVar30._20_4_;
@@ -1072,7 +1072,7 @@ LAB_00014d80:
     auVar13._0_24_ = auVar12._0_24_;
     auVar13._24_4_ = 0xc;
     auVar12._24_40_ = auVar13._24_40_;
-    auVar12._20_4_ = &CharSelSlot_Hayabusa_00557a91;
+    auVar12._20_4_ = &CharSelSlot1_Hayabusa_00557a91;
     do {
       iVar146 = auVar12._24_4_;
       bVar5 = *auVar12._20_4_;
@@ -1112,7 +1112,7 @@ LAB_00014d80:
     auVar19._0_24_ = auVar18._0_24_;
     auVar19._24_4_ = 8;
     auVar18._24_40_ = auVar19._24_40_;
-    auVar18._20_4_ = &CharSelSlot_Zack_00557a90;
+    auVar18._20_4_ = &CharSelSlot0_Zack_00557a90;
     do {
       iVar146 = auVar18._24_4_;
       bVar5 = *auVar18._20_4_;
