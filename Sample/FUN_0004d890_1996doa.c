@@ -2,9 +2,9 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_0004d890(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
-                 undefined4 param_5,uint param_6,undefined4 param_7,undefined4 param_8,
-                 undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined4 param_12)
+void Motion_TaskMain(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+                    undefined4 param_5,uint param_6,undefined4 param_7,undefined4 param_8,
+                    undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined4 param_12)
 
 {
   uint uVar1;
@@ -42,10 +42,10 @@ void FUN_0004d890(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   undefined1 (*pauVar32) [64];
   undefined4 unaff_r3;
   undefined1 in_register_00000018 [40];
+  undefined4 uVar33;
   undefined4 extraout_g1;
   undefined4 extraout_g1_00;
-  undefined4 extraout_g1_01;
-  int iVar33;
+  int iVar34;
   undefined1 auStackX_0 [64];
   undefined1 auStack_40 [999936];
   
@@ -73,11 +73,12 @@ void FUN_0004d890(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     *fp = auVar5;
     pauVar30 = pauVar29 + 1;
     FUN_00008250(1);
-    iVar33 = (int)(char)textdisplay_WHY____0056ac70;
-    ac = ac & 0xfffffff8 | (uint)(1 < iVar33) << 2 | (uint)(iVar33 == 1) << 1 | (uint)(iVar33 < 1);
+    iVar34 = (int)(char)textdisplay_WHY____0056ac70;
+    ac = ac & 0xfffffff8 | (uint)(1 < iVar34) << 2 | (uint)(iVar34 == 1) << 1 | (uint)(iVar34 < 1);
     pauVar26 = fp;
     pauVar27 = pauVar29;
-    if (((byte)ac & 1 | 1 < iVar33) != 1) {
+    if (((byte)ac & 1 | 1 < iVar34) != 1) {
+      uVar33 = 10;
       pauVar26 = pauVar29 + 1;
       auVar6._4_4_ = pauVar29 + 1;
       auVar6._0_4_ = fp;
@@ -87,7 +88,7 @@ void FUN_0004d890(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
       auVar6._20_4_ = &DAT_0056adea;
       auVar6._24_40_ = in_register_00000018;
       *pauVar29 = auVar6;
-      FUN_00008870(2,10);
+      Debug_SetTextPosition(2,10);
       auVar7._4_4_ = pauVar26;
       auVar7._0_4_ = pauVar29;
       auVar7._8_4_ = 0x4d8e0;
@@ -97,8 +98,8 @@ void FUN_0004d890(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
       auVar7._24_40_ = in_register_00000018;
       pauVar29[1] = auVar7;
       pauVar30 = pauVar29 + 3;
-      FUN_0008e740(s_WHY____0004d880,extraout_g1,param_3,param_4,iVar33,param_6,param_7,param_8,
-                   param_9,param_10,param_11,param_12);
+      FUN_0008e740(s_WHY____0004d880,uVar33,param_3,param_4,iVar34,param_6,param_7,param_8,param_9,
+                   param_10,param_11,param_12);
       pauVar27 = pauVar29 + 2;
     }
     fp = pauVar27;
@@ -181,7 +182,7 @@ LAB_0004d988:
           auVar19._24_40_ = in_register_00000018;
           *pauVar27 = auVar19;
           pauVar28 = pauVar27 + 2;
-          FUN_00041b00(0,extraout_g1_00,param_3,param_4);
+          FUN_00041b00(0,extraout_g1,param_3,param_4);
           fp = pauVar27 + 1;
         }
         else {
@@ -194,7 +195,7 @@ LAB_0004d988:
           auVar14._20_4_ = &DAT_0056adea;
           auVar14._24_40_ = in_register_00000018;
           *pauVar27 = auVar14;
-          FUN_00041b00(0,extraout_g1_00,param_3,param_4);
+          FUN_00041b00(0,extraout_g1,param_3,param_4);
           pauVar28 = pauVar27 + 2;
           auVar15._4_4_ = pauVar26;
           auVar15._0_4_ = pauVar27;
@@ -204,7 +205,7 @@ LAB_0004d988:
           auVar15._20_4_ = &DAT_0056adea;
           auVar15._24_40_ = in_register_00000018;
           pauVar27[1] = auVar15;
-          FUN_00041b00(1,extraout_g1_01,param_3,param_4);
+          FUN_00041b00(1,extraout_g1_00,param_3,param_4);
           ac = ac & 0xfffffff8 | (uint)(DAT_0054fcfe != '\0') << 2 |
                (uint)(DAT_0054fcfe == '\0') << 1;
           if (DAT_0054fcfe != '\0') {
@@ -299,9 +300,9 @@ LAB_0004d988:
           fp = pauVar30;
         }
         else {
-          ac = ac & 0xfffffff8 | (uint)(2 < GameMode_0054fcb3) << 2 |
-               (uint)(GameMode_0054fcb3 == 2) << 1 | (uint)(GameMode_0054fcb3 < 2);
-          if (((byte)ac & 1 | 2 < GameMode_0054fcb3) != 1) {
+          ac = ac & 0xfffffff8 | (uint)(MODE_CHARSEL < GameMode) << 2 |
+               (uint)(GameMode == MODE_CHARSEL) << 1 | (uint)(GameMode < MODE_CHARSEL);
+          if (((byte)ac & 1 | MODE_CHARSEL < GameMode) != 1) {
             auVar11._4_4_ = pauVar30;
             auVar11._0_4_ = pauVar26;
             auVar11._8_4_ = 0x4d968;
@@ -325,9 +326,9 @@ joined_r0x0004d970:
         }
         goto LAB_0004d988;
       }
-      uVar1 = uVar2 & 0xfffffff8 | (uint)(2 < GameMode_0054fcb3) << 2 |
-              (uint)(GameMode_0054fcb3 == 2) << 1;
-      ac = uVar1 | GameMode_0054fcb3 < 2;
+      uVar1 = uVar2 & 0xfffffff8 | (uint)(MODE_CHARSEL < GameMode) << 2 |
+              (uint)(GameMode == MODE_CHARSEL) << 1;
+      ac = uVar1 | GameMode < MODE_CHARSEL;
       if (((byte)(uVar1 >> 1) & 1) == 1) {
         auVar9._4_4_ = pauVar30;
         auVar9._0_4_ = pauVar26;
