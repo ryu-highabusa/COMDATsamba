@@ -1,5 +1,5 @@
 
-void Player_SetActCodeU8_maybe(uint8_t param_1,uint param_2)
+void Player_SetActCodemaybe(DOA_COMMON_ACTCODE param_1,uint param_2)
 
 {
   byte bVar1;
@@ -15,10 +15,10 @@ void Player_SetActCodeU8_maybe(uint8_t param_1,uint param_2)
     uVar2 = param_2 ^ 1;
   }
   (&g_player1)[param_2].action_state =
-       (&g_character_act_record_table_candidate)[(&g_player1)[uVar2].character_id]
+       g_character_act_record_tables[(&g_player1)[uVar2].character_id]
        [(uint)(&g_player1)[param_2].action_code * 8 + 3];
   (&g_player1)[param_2].animation_request = '\x01';
-  FUN_00024d50(param_2);
+  Player_ApplyActCodeCombatMetadatamaybe(param_2);
   return;
 }
 
