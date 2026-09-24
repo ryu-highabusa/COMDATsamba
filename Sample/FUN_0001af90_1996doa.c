@@ -18,12 +18,12 @@ void FUN_0001af90(void)
     auVar1._8_4_ = 0x1afac;
     auVar1._12_52_ = in_register_0000000c;
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar1;
-    FUN_00008220(&LAB_0007d200,0xc);
+    Task_RegisterOrReplace(&LAB_0007d200,0xc);
     auStackX_0._4_4_ = auStackX_0;
     auStackX_0._0_4_ = fp;
     auStackX_0._8_4_ = 0x1afbc;
     auStackX_0._12_52_ = in_register_0000000c;
-    FUN_00008220(Debug_AnimationViewerMain,9);
+    Task_RegisterOrReplace(Motion_TaskMain,9);
     DAT_00557c62 = '\x01';
     fp = auStack_40;
   }
