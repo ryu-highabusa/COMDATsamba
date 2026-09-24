@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-undefined4 FUN_0003ea90(void)
+undefined4 Player_CheckBodyCollision_candidate(void)
 
 {
   uint uVar1;
