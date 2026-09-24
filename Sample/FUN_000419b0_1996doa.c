@@ -38,7 +38,7 @@ void FUN_000419b0_kasumicostumecheckmaybe(int param_1,int param_2)
     bVar2 = (&g_player1)[param_1].costume_id;
     ac = uVar4 & 0xfffffff8 | (uint)(2 < bVar2) << 2 | (uint)(bVar2 == 2) << 1 | (uint)(bVar2 < 2);
     if (((byte)ac & 1 | 2 < bVar2) != 1) {
-      *(dword **)(&DAT_00565dc8 + iVar1) = &DWORD_000bc0b0;
+      *(dword **)(&DAT_00565dc8 + iVar1) = &g_kasumi_costume2_part_map_candidate;
       fp = unaff_pfp;
       return;
     }
