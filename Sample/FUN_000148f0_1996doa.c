@@ -276,7 +276,7 @@ void FUN_000148f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint 
   auVar48._8_56_ = auStack_240._8_56_;
   auVar48._4_4_ = auStack_280;
   auVar48._0_4_ = auStack_240;
-  FUN_000094f0(0xa0100b);
+  Sound_Request(BGM_SELECT);
   auStack_280._12_52_ = auVar48._12_52_;
   auStack_280._0_8_ = auVar48._0_8_;
   auStack_280._8_4_ = 0x14984;
@@ -616,19 +616,19 @@ void FUN_000148f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint 
     CharSel_numberofslots____00557bf4 = CharSel_numberofslots____00557bf4 + NAME_TINA;
     DVar6 = (&CharSelSlot0_Zack_00557a90)[CharSel_numberofslots____00557bf4];
   }
-  if (CharSel_numberofslots____00557bf4 < NAME_UNKNOWN_09) {
+  if (CharSel_numberofslots____00557bf4 < NAME_unknown_09) {
     DAT_00557bf5 = 0xf;
     DAT_00557a88 = 4;
     DAT_00557bf6 = 0xf;
     g13 = 4;
   }
-  else if (CharSel_numberofslots____00557bf4 == NAME_UNKNOWN_09) {
+  else if (CharSel_numberofslots____00557bf4 == NAME_unknown_09) {
     DAT_00557bf5 = 0xf;
     DAT_00557a88 = 4;
     DAT_00557bf6 = 0xb;
     g13 = 5;
   }
-  else if (CharSel_numberofslots____00557bf4 == NAME_UNKNOWN_0a) {
+  else if (CharSel_numberofslots____00557bf4 == NAME_unknown_0a) {
     DAT_00557bf5 = 0xb;
     DAT_00557a88 = 5;
     DAT_00557bf6 = 0xb;
