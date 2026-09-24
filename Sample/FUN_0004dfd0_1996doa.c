@@ -56,7 +56,7 @@ void FUN_0004dfd0(void)
     auVar3._28_4_ = unaff_r7;
     auVar3._32_32_ = in_register_00000020;
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar3;
-    FUN_000419b0(0,uVar17 & 0xff);
+    FUN_000419b0_kasumicostumecheckmaybe(0,uVar17 & 0xff);
     auStackX_0._4_4_ = auStackX_0;
     auStackX_0._0_4_ = fp;
     auStackX_0._8_4_ = 0x4e00c;
@@ -67,7 +67,7 @@ void FUN_0004dfd0(void)
     auStackX_0._28_4_ = unaff_r7;
     auStackX_0._32_32_ = in_register_00000020;
     pauVar14 = (undefined1 (*) [64])auStack_80;
-    FUN_000419b0(1,(uint)g_player2.character_id);
+    FUN_000419b0_kasumicostumecheckmaybe(1,(uint)g_player2.character_id);
     unaff_pfp = (undefined1 (*) [64])register0x00000004;
     fp = &auStack_40;
   }
@@ -89,7 +89,7 @@ void FUN_0004dfd0(void)
     auVar4._28_4_ = unaff_r7;
     auVar4._32_32_ = in_register_00000020;
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar4;
-    FUN_000419b0(0,uVar17 & 0xff);
+    FUN_000419b0_kasumicostumecheckmaybe(0,uVar17 & 0xff);
     uVar17 = (uint)g_player2.character_id;
     auVar5._4_4_ = pauVar14;
     auVar5._0_4_ = fp;
@@ -102,7 +102,7 @@ void FUN_0004dfd0(void)
     auVar5._32_32_ = in_register_00000020;
     *pauVar14 = auVar5;
     pauVar15 = pauVar14 + 2;
-    FUN_000419b0(1,uVar17);
+    FUN_000419b0_kasumicostumecheckmaybe(1,uVar17);
     unaff_pfp = pauVar14;
     fp = pauVar14 + 1;
   }
