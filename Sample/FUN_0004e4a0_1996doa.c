@@ -114,8 +114,8 @@ void Motion_Initialize(uint16_t anime_id)
      (g_debug_anime_id_cached = g_external_anime_id,
      (int)g_external_anime_id < (int)uVar2 || (int)uVar2 < (int)g_external_anime_id)) {
     DAT_00589f50 = *(undefined **)
-                    (((CONCAT22(in_register_00000042,anime_id) + iVar48) * 0x10000 >> 0x10) * 4 +
-                    *(int *)(&DAT_000d8000 + uVar58 * 4));
+                    (g_anime_pointer_bank_table[uVar58] +
+                    ((CONCAT22(in_register_00000042,anime_id) + iVar48) * 0x10000 >> 0x10) * 4);
   }
   else {
     DAT_00589f50 = &g_external_anime_data;
@@ -355,7 +355,7 @@ LAB_0004e6a4:
     uVar58 = ac & 0xfffffff8;
     ac = uVar58 | 2;
     fp = pauVar3;
-    if ((ButtonPress_P1_0054fcd5 & KICK) == NONE) break;
+    if ((ButtonPress_P1_0054fcd5 & button_kick) == button_none) break;
 LAB_0004e72c:
     uVar2 = auVar26._4_4_ + 0x3f;
     pauVar3 = (undefined1 (*) [64])(uVar2 & 0xffffffc0);
@@ -368,9 +368,9 @@ LAB_0004e72c:
     auVar26._0_4_ = fp;
     FUN_00008250(1);
     uVar53 = ButtonPress_P1 & 3;
-    bVar1 = (ButtonPress_P1 & HOLD+PUNCH) != NONE;
-    uVar58 = ac & 0xfffffff8 | (uint)bVar1 << 2 | (uint)((ButtonPress_P1 & HOLD+PUNCH) == NONE) << 1
-    ;
+    bVar1 = (ButtonPress_P1 & button_HP) != button_none;
+    uVar58 = ac & 0xfffffff8 | (uint)bVar1 << 2 |
+             (uint)((ButtonPress_P1 & button_HP) == button_none) << 1;
     if (bVar1) break;
   }
   ac = uVar58;
@@ -425,9 +425,9 @@ LAB_0004e72c:
   auVar39._8_56_ = auVar40._8_56_;
   auVar39._4_4_ = pauVar3 + 7;
   auVar39._0_4_ = pauVar3 + 5;
-  auVar13 = auVar39._0_26_;
   FUN_0008e740(s__0004e470,extraout_g1_02,uVar56,uVar57,uVar53,puVar59,puVar60,puVar62,in_g8,in_g9,
                in_g10,in_g11);
+  auVar13 = auVar39._0_26_;
 LAB_0004e870:
   DAT_005555ee = auVar13._20_2_;
   DAT_005555f0 = auVar13._16_2_;
