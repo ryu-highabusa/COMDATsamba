@@ -177,8 +177,8 @@ void FUN_0001c620(void)
   DAT_00557eb8 = g14;
   DAT_0055561a = 0x28;
   DAT_00557d80 = 0x3c;
-  Camera_Angle = Game-Over Zoom Out Animated;
-  StageNumber = STAGE_GAMEOVER-SCREEN;
+  Camera_Angle = camera_gameoverAnim;
+  StageNumber = STAGE_GAMEOVERSCREEN;
   auVar24._12_52_ = auVar21._12_52_;
   auVar24._0_8_ = auVar21._0_8_;
   auVar24._8_4_ = 0x1c7dc;
@@ -186,7 +186,7 @@ void FUN_0001c620(void)
   auVar23._8_56_ = auVar24._8_56_;
   auVar23._4_4_ = uVar1 + 0x80;
   auVar23._0_4_ = uVar1 + 0x40;
-  FUN_000094f0(0xa0100e);
+  Sound_Request(BGM_NAME);
   auVar26._12_52_ = auVar23._12_52_;
   auVar26._0_8_ = auVar23._0_8_;
   auVar26._8_4_ = 0x1c7ec;
@@ -194,7 +194,7 @@ void FUN_0001c620(void)
   auVar25._8_56_ = auVar26._8_56_;
   auVar25._4_4_ = uVar1 + 0xc0;
   auVar25._0_4_ = uVar1 + 0x80;
-  FUN_00008220(&LAB_000646f0,8);
+  Task_RegisterOrReplace(&LAB_000646f0,8);
   auVar28._12_52_ = auVar25._12_52_;
   auVar28._0_8_ = auVar25._0_8_;
   auVar28._8_4_ = 0x1c7fc;
@@ -202,7 +202,7 @@ void FUN_0001c620(void)
   auVar27._8_56_ = auVar28._8_56_;
   auVar27._4_4_ = uVar1 + 0x140;
   auVar27._0_4_ = uVar1 + 0xc0;
-  FUN_00008220(&LAB_00064710,10);
+  Task_RegisterOrReplace(&LAB_00064710,10);
   StageLoadFlag = 1;
   DAT_005555e0 = g14._0_1_;
   auVar29._20_44_ = auVar27._20_44_;
@@ -233,7 +233,7 @@ void FUN_0001c620(void)
   *(undefined1 (*) [64])(uVar44 & 0xffffffc0) = auVar33;
   auVar32._8_56_ = auVar33._8_56_;
   auVar32._0_8_ = CONCAT44(pauVar2 + 1,uVar44) & 0xffffffffffffffc0;
-  FUN_00008220(Debug_AnimationViewerMain,9);
+  Task_RegisterOrReplace(Motion_TaskMain,9);
   fp = pauVar2 + 2;
   auVar35._12_52_ = auVar32._12_52_;
   auVar35._0_8_ = auVar32._0_8_;
@@ -242,7 +242,7 @@ void FUN_0001c620(void)
   auVar34._8_56_ = auVar35._8_56_;
   auVar34._4_4_ = pauVar2 + 3;
   auVar34._0_4_ = pauVar2 + 1;
-  FUN_00008220(&LAB_0007d200,0xc);
+  Task_RegisterOrReplace(&LAB_0007d200,0xc);
   auVar36._40_24_ = auVar34._40_24_;
   auVar36._0_36_ = auVar34._0_36_;
   auVar36._36_4_ = auVar19._36_4_ + -1;
