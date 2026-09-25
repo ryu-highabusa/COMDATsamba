@@ -2,12 +2,12 @@
 undefined4 FUN_00025b20(uint param_1)
 
 {
-  char cVar1;
+  DOA_ACTSTATE DVar1;
   byte bVar2;
   undefined4 unaff_pfp;
   undefined4 uVar3;
   word *pwVar4;
-  DOA_COMMON_ACTCODE DVar5;
+  DOA_ACTCODE_COMMON DVar5;
   uint uVar6;
   
   uVar3 = 0;
@@ -35,10 +35,11 @@ undefined4 FUN_00025b20(uint param_1)
   }
   bVar2 = (byte)pwVar4[1];
 LAB_00025c50:
-  cVar1 = (&DAT_000956f0)[(uint)bVar2 * 2];
-  uVar6 = ac & 0xfffffff8 | (uint)(cVar1 != '\0') << 2 | (uint)(cVar1 == '\0') << 1;
-  if (cVar1 == '\0') {
-    bVar2 = (&DAT_000956f1)[(uint)bVar2 * 2];
+  DVar1 = DOA_ACTION_TRANSITION_ARRAY_000956f0[bVar2].next_state;
+  uVar6 = ac & 0xfffffff8 | (uint)(DVar1 != STATE_NEUTRAL) << 2 |
+          (uint)(DVar1 == STATE_NEUTRAL) << 1;
+  if (DVar1 == STATE_NEUTRAL) {
+    bVar2 = DOA_ACTION_TRANSITION_ARRAY_000956f0[bVar2].next_action_code;
     uVar6 = ac & 0xfffffff8 | (uint)(bVar2 != 0) << 2 | (uint)(bVar2 == 0) << 1;
     if ((((byte)(uVar6 >> 1) & 1) == 1) ||
        (ac = ac & 0xfffffff8 | (uint)(10 < bVar2) << 2 | (uint)(bVar2 == 10) << 1 |
