@@ -2,14 +2,14 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_000303d0(void)
+void Battle_ResolveInteractionPriority(void)
 
 {
   float10 fVar1;
   float10 fVar2;
   uint uVar3;
   DOA_ACTSTATE DVar4;
-  DOA_COMMON_ACTCODE DVar5;
+  DOA_ACTCODE_COMMON DVar5;
   byte bVar6;
   undefined4 unaff_pfp;
   undefined4 uVar7;
