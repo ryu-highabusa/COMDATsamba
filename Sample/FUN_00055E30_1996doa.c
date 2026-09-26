@@ -1,8 +1,15 @@
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
+/* Updates the special motion-debug scene each frame.
+   
+   Updates camera/presentation helpers and rebuilds character model resources when a selected
+   character changes.
+   
+   START_P2 affects the alternating presentation flag at 0x0058BC0D. Its exact visual purpose
+   remains unconfirmed. */
 
-void FUN_00055e30(void)
+void MotionDebug_UpdateSceneOverlay(void)
 
 {
   undefined1 *puVar1;
@@ -61,7 +68,7 @@ LAB_00055e54:
       auVar3._8_56_ = auVar4._8_56_;
       auVar3._4_4_ = auStack_40;
       auVar3._0_4_ = fp;
-      FUN_00051cc0();
+      nullsub_00051cc0();
       fp = (undefined1 *)register0x00000004;
     }
     uVar31 = auVar3._4_4_ + 0x3f;
@@ -72,14 +79,14 @@ LAB_00055e54:
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar6;
     auVar5._8_56_ = auVar6._8_56_;
     auVar5._0_8_ = CONCAT44(uVar31,fp) & 0xffffffc0ffffffff;
-    FUN_00051b70();
+    nullsub_00051b70();
     auVar8._12_52_ = auVar5._12_52_;
     auVar8._0_8_ = auVar5._0_8_;
     auVar8._8_4_ = 0x55e6c;
     *(undefined1 (*) [64])(uVar31 & 0xffffffc0) = auVar8;
     auVar7._8_56_ = auVar8._8_56_;
     auVar7._0_8_ = CONCAT44(uVar30 + 0x40,uVar31) & 0xffffffffffffffc0;
-    FUN_00051c00();
+    nullsub_00051c00();
     auVar9._12_52_ = auVar7._12_52_;
     auVar9._0_8_ = auVar7._0_8_;
     auVar9._8_4_ = 0x55e70;
@@ -87,11 +94,11 @@ LAB_00055e54:
     auVar3._8_56_ = auVar9._8_56_;
     auVar3._4_4_ = (undefined1 *)(uVar30 + 0xc0);
     auVar3._0_4_ = uVar30 + 0x40;
-    FUN_00051ac0();
+    nullsub_00051ac0();
     fp = (undefined1 *)(uVar30 + 0x80);
   }
   else {
-    if (_DAT_00588302 == 2) {
+    if (DAT_00588302 == 2) {
       g13 = 0xfa;
       if (Camera_Angle == ~camera_loadintoreplay) goto LAB_00055e54;
     }
@@ -109,7 +116,7 @@ LAB_00055e54:
         auVar3._8_56_ = auVar10._8_56_;
         auVar3._4_4_ = auStack_40;
         auVar3._0_4_ = fp;
-        FUN_00051cc0();
+        nullsub_00051cc0();
         fp = (undefined1 *)register0x00000004;
       }
       uVar31 = auVar3._4_4_ + 0x3f;
@@ -121,11 +128,11 @@ LAB_00055e54:
       auVar3._8_56_ = auVar11._8_56_;
       auVar3._4_4_ = puVar1 + 0x40;
       auVar3._0_4_ = fp;
-      FUN_00051b60();
-      ac = ac & 0xfffffff8 | (uint)(4 < _DAT_00588302) << 2 | (uint)(_DAT_00588302 == 4) << 1 |
-           (uint)(_DAT_00588302 < 4);
+      nullsub_00051b60();
+      ac = ac & 0xfffffff8 | (uint)(4 < DAT_00588302) << 2 | (uint)(DAT_00588302 == 4) << 1 |
+           (uint)(DAT_00588302 < 4);
       fp = puVar1;
-      if (((byte)ac & 1 | 4 < _DAT_00588302) != 1) {
+      if (((byte)ac & 1 | 4 < DAT_00588302) != 1) {
         fp = puVar1 + 0x40;
         auVar12._12_52_ = auVar3._12_52_;
         auVar12._0_8_ = auVar3._0_8_;
@@ -133,7 +140,7 @@ LAB_00055e54:
         *(undefined1 (*) [64])(uVar31 & 0xffffffc0) = auVar12;
         auVar3._8_56_ = auVar12._8_56_;
         auVar3._0_8_ = CONCAT44(puVar1 + 0x80,uVar31) & 0xffffffffffffffc0;
-        FUN_00051b10();
+        nullsub_00051b10();
       }
     }
   }
@@ -169,7 +176,7 @@ LAB_00055e54:
     auVar17._8_56_ = auVar18._8_56_;
     auVar17._4_4_ = uVar32 + 0x80;
     auVar17._0_4_ = uVar32 + 0x40;
-    FUN_000419b0_kasumicostumecheckmaybe(0,uVar31 & 0xff);
+    Player_InitializeCharacterModelResources(0,uVar31 & 0xff);
     uVar31 = (uint)g_player2.character_id;
     fp = (undefined1 *)(uVar32 + 0xc0);
     auVar20._12_52_ = auVar17._12_52_;
@@ -179,7 +186,7 @@ LAB_00055e54:
     auVar19._8_56_ = auVar20._8_56_;
     auVar19._4_4_ = uVar32 + 0x100;
     auVar19._0_4_ = uVar32 + 0x80;
-    FUN_000419b0_kasumicostumecheckmaybe(1,uVar31);
+    Player_InitializeCharacterModelResources(1,uVar31);
   }
   uVar30 = (uint)g_player2.character_id;
   uVar32 = (uint)CHAR_NUM_P2_00589e03;
@@ -210,7 +217,7 @@ LAB_00055e54:
     auVar25._8_56_ = auVar26._8_56_;
     auVar25._4_4_ = uVar32 + 0x80;
     auVar25._0_4_ = uVar32 + 0x40;
-    FUN_000419b0_kasumicostumecheckmaybe(0,uVar31 & 0xff);
+    Player_InitializeCharacterModelResources(0,uVar31 & 0xff);
     uVar31 = (uint)g_player2.character_id;
     fp = (undefined1 *)(uVar32 + 0xc0);
     auVar27._12_52_ = auVar25._12_52_;
@@ -220,7 +227,7 @@ LAB_00055e54:
     auVar19._8_56_ = auVar27._8_56_;
     auVar19._4_4_ = uVar32 + 0x100;
     auVar19._0_4_ = uVar32 + 0x80;
-    FUN_000419b0_kasumicostumecheckmaybe(1,uVar31);
+    Player_InitializeCharacterModelResources(1,uVar31);
   }
   uVar31 = ac & 0xfffffff8;
   ac = uVar31 | 2;
