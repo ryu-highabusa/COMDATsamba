@@ -183,7 +183,7 @@ LAB_00041c2c:
         auVar15._8_56_ = auVar19._8_56_;
         auVar15._4_4_ = puVar4 + 0x40;
         auVar15._0_4_ = fp;
-        FUN_00041d50(param_1);
+        ActionState_ApplyPendingEvents_candidate(param_1);
         uVar9 = ac;
         sVar42 = (&DAT_0056ac34)[param_1];
         uVar1 = ac & 0xfffffff8 | (uint)(0 < sVar42) << 2 | (uint)(sVar42 == 0) << 1;
@@ -237,7 +237,7 @@ LAB_00041c2c:
               auVar15._8_56_ = auVar23._8_56_;
               auVar15._4_4_ = auStack_40;
               auVar15._0_4_ = fp;
-              FUN_00051b80();
+              nullsub_00051b80();
               fp = (undefined1 (*) [64])register0x00000004;
               uVar1 = ac;
               goto LAB_00041cf0;
@@ -305,7 +305,7 @@ LAB_00041cf0:
   auVar29._0_8_ = CONCAT44(uVar2 + 0x80,uVar1) & 0xffffffffffffffc0;
   FUN_0004ad80(auVar32._16_4_);
   uVar1 = ac;
-  uVar13 = g_motion_debug_render_mode;
+  uVar13 = g_motion_debug_mode;
   if (DAT_0054fcfe != '\0') {
     fp = (undefined1 (*) [64])uVar2;
     ac = ac & 0xfffffff8 | (uint)(DAT_0054fcfe != '\0') << 2 | (uint)(DAT_0054fcfe == '\0') << 1;
@@ -337,9 +337,9 @@ LAB_00041cf0:
     auVar33 = auVar32;
     if (((byte)ac & 1 | (byte)(uVar1 >> 2) & 1) != 1) {
       DVar7 = (&g_player1)[auVar32._16_4_].action_state;
-      ac = uVar9 & 0xfffffff8 | (uint)(STATE_SPECIALMOVE < DVar7) << 2 |
-           (uint)(DVar7 == STATE_SPECIALMOVE) << 1 | (uint)(DVar7 < STATE_SPECIALMOVE);
-      if (((byte)ac & 1 | STATE_SPECIALMOVE < DVar7) != 1) {
+      ac = uVar9 & 0xfffffff8 | (uint)(0xD_SPECIALMOVE < DVar7) << 2 |
+           (uint)(DVar7 == 0xD_SPECIALMOVE) << 1 | (uint)(DVar7 < 0xD_SPECIALMOVE);
+      if (((byte)ac & 1 | 0xD_SPECIALMOVE < DVar7) != 1) {
         bVar12 = (&g_player1)[auVar32._16_4_].action_code + CMD_NML_UP_H_K;
         uVar1 = uVar9 & 0xfffffff8 | (uint)(9 < bVar12) << 2 | (uint)(bVar12 == 9) << 1;
         ac = uVar1 | bVar12 < 9;
@@ -373,7 +373,7 @@ LAB_00041ec8:
   FUN_00044720(auVar32._16_4_);
   iVar43 = auVar35._16_4_;
   uVar39 = extraout_g1_00;
-  if ((byte)((&g_player1)[auVar32._16_4_].character_id - NAME_HAYABUSA) < 2) {
+  if ((byte)((&g_player1)[auVar32._16_4_].character_id - name_ryu) < 2) {
     uVar8 = (&g_player1)[auVar32._16_4_].animation_id;
     if (uVar8 == 0xa28) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
