@@ -12,7 +12,7 @@ undefined4 FUN_00025b20(uint param_1)
   
   uVar3 = 0;
   uVar6 = param_1;
-  if ((&g_player1)[param_1].action_flag == '\x01') {
+  if ((&g_player1)[param_1].action_flag == 0x1) {
     uVar6 = param_1 ^ 1;
   }
   if (1 < (byte)((&g_player1)[param_1].action_state - 0x7_BLOCKSTUN)) {
