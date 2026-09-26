@@ -18,7 +18,7 @@ undefined4 FUN_00025b20(uint param_1)
   if (1 < (byte)((&g_player1)[param_1].action_state - STATE_BLOCKSTUN)) {
     if (((&g_player1)[param_1].action_state != STATE_HITSTUN) &&
        ((&g_player1)[param_1].action_state != STATE_DOWNATTACKSTUN)) {
-      bVar2 = g_character_act_record_tables[(&g_player1)[uVar6].character_id]
+      bVar2 = g_move_def_table_by_character[(&g_player1)[uVar6].character_id]
               [(uint)(&g_player1)[param_1].action_code * 8 + 2];
       goto LAB_00025c50;
     }
