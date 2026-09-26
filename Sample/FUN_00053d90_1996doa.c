@@ -5,7 +5,7 @@
    
    selector = player_index + resource_set[player_index] * 3; */
 
-void Player_ConfigureCostumeAuxResources_candidate(int param_1)
+void Player_SetupChiData_candidate(int param_1)
 
 {
   undefined4 uVar1;
