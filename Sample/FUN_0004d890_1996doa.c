@@ -59,7 +59,7 @@ void Motion_TaskMain(undefined4 param_1,undefined4 param_2,undefined4 param_3,un
   _DAT_00589ddc = param_3;
   *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar4;
   pauVar29 = (undefined1 (*) [64])auStack_40;
-  FUN_00055d80();
+  MotionTask_InitializeScene();
   pauVar26 = fp;
   fp = (undefined1 (*) [64])register0x00000004;
   do {
@@ -73,7 +73,7 @@ void Motion_TaskMain(undefined4 param_1,undefined4 param_2,undefined4 param_3,un
     *fp = auVar5;
     pauVar30 = pauVar29 + 1;
     FUN_00008250(1);
-    iVar34 = (int)(char)textdisplay_WHY____0056ac70;
+    iVar34 = (int)(char)g_motion_debug_mode;
     ac = ac & 0xfffffff8 | (uint)(1 < iVar34) << 2 | (uint)(iVar34 == 1) << 1 | (uint)(iVar34 < 1);
     pauVar26 = fp;
     pauVar27 = pauVar29;
@@ -104,10 +104,9 @@ void Motion_TaskMain(undefined4 param_1,undefined4 param_2,undefined4 param_3,un
     }
     fp = pauVar27;
     uVar2 = ac;
-    ac = ac & 0xfffffff8 | (uint)('\0' < (char)textdisplay_WHY____0056ac70) << 2 |
-         (uint)((char)textdisplay_WHY____0056ac70 == '\0') << 1 |
-         (uint)((char)textdisplay_WHY____0056ac70 < '\0');
-    if (((byte)ac & 1 | '\0' < (char)textdisplay_WHY____0056ac70) == 1) {
+    ac = ac & 0xfffffff8 | (uint)('\0' < (char)g_motion_debug_mode) << 2 |
+         (uint)(g_motion_debug_mode == '\0') << 1 | (uint)((char)g_motion_debug_mode < '\0');
+    if (((byte)ac & 1 | '\0' < (char)g_motion_debug_mode) == 1) {
       auVar12._4_4_ = pauVar30;
       auVar12._0_4_ = pauVar26;
       auVar12._8_4_ = 0x4d988;
@@ -117,7 +116,7 @@ void Motion_TaskMain(undefined4 param_1,undefined4 param_2,undefined4 param_3,un
       auVar12._24_40_ = in_register_00000018;
       *fp = auVar12;
       pauVar27 = pauVar30 + 1;
-      FUN_00055e30();
+      MotionDebug_UpdateSceneOverlay();
       pauVar26 = fp;
       fp = pauVar30;
 LAB_0004d988:
@@ -129,7 +128,7 @@ LAB_0004d988:
       auVar13._20_4_ = &DAT_0056adea;
       auVar13._24_40_ = in_register_00000018;
       *fp = auVar13;
-      FUN_0004dfd0();
+      MotionScene_UpdatePlayerProjection();
       uVar1 = ac;
       uVar2 = ac & 0xfffffff8 | (uint)(3 < DAT_0054fcfd) << 2 | (uint)(DAT_0054fcfd == 3) << 1;
       ac = uVar2 | DAT_0054fcfd < 3;
@@ -169,10 +168,9 @@ LAB_0004d988:
         DAT_00589da2 = ReplayLength_____005555ec;
       }
       else {
-        ac = uVar1 & 0xfffffff8 | (uint)('\0' < (char)textdisplay_WHY____0056ac70) << 2 |
-             (uint)((char)textdisplay_WHY____0056ac70 == '\0') << 1 |
-             (uint)((char)textdisplay_WHY____0056ac70 < '\0');
-        if (((byte)ac & 1 | '\0' < (char)textdisplay_WHY____0056ac70) == 1) {
+        ac = uVar1 & 0xfffffff8 | (uint)('\0' < (char)g_motion_debug_mode) << 2 |
+             (uint)(g_motion_debug_mode == '\0') << 1 | (uint)((char)g_motion_debug_mode < '\0');
+        if (((byte)ac & 1 | '\0' < (char)g_motion_debug_mode) == 1) {
           auVar19._4_4_ = pauVar27;
           auVar19._0_4_ = fp;
           auVar19._8_4_ = 0x4d9dc;
@@ -265,7 +263,7 @@ LAB_0004d988:
       auVar23._20_4_ = &DAT_0056adea;
       auVar23._24_40_ = in_register_00000018;
       *fp = auVar23;
-      FUN_0004ff60(0);
+      Player_RenderModelParts(0);
       auVar24._4_4_ = pauVar28;
       auVar24._0_4_ = fp;
       auVar24._8_4_ = 0x4da48;
@@ -275,7 +273,7 @@ LAB_0004d988:
       auVar24._24_40_ = in_register_00000018;
       *pauVar28 = auVar24;
       pauVar32 = pauVar28 + 2;
-      FUN_0004ff60(1);
+      Player_RenderModelParts(1);
       fp = pauVar28 + 1;
     }
     else {
@@ -294,7 +292,7 @@ LAB_0004d988:
           auVar10._20_4_ = &DAT_0056adea;
           auVar10._24_40_ = in_register_00000018;
           *fp = auVar10;
-          FUN_00055940();
+          Battle_UpdatePlayerSetup();
           pauVar26 = fp;
           pauVar27 = pauVar30 + 1;
           fp = pauVar30;
@@ -362,7 +360,7 @@ LAB_0004d928:
       auVar8._24_40_ = in_register_00000018;
       *fp = auVar8;
       pauVar32 = pauVar30 + 1;
-      FUN_00055940();
+      Battle_UpdatePlayerSetup();
       pauVar28 = fp;
       fp = pauVar30;
     }
@@ -375,7 +373,7 @@ LAB_0004d928:
     auVar25._24_40_ = in_register_00000018;
     *fp = auVar25;
     pauVar29 = pauVar32 + 1;
-    FUN_0004de70();
+    MotionDebug_SnapshotPlayersAndDrawAnimeId();
     pauVar26 = fp;
     fp = pauVar32;
   } while( true );
