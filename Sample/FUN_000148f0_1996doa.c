@@ -610,37 +610,37 @@ void FUN_000148f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint 
   }
   g13 = 0xff;
   (&CharSelSlot0_Zack_00557a90)[iVar146] = 0xff;
-  CharSel_numberofslots____00557bf4 = (byte)g14;
+  g_charselect_slot_count = (byte)g14;
   uVar6 = CharSelSlot0_Zack_00557a90;
   while (ac = ac & 0xfffffff8, uVar6 != 0xff) {
-    CharSel_numberofslots____00557bf4 = CharSel_numberofslots____00557bf4 + 1;
-    uVar6 = (&CharSelSlot0_Zack_00557a90)[CharSel_numberofslots____00557bf4];
+    g_charselect_slot_count = g_charselect_slot_count + 1;
+    uVar6 = (&CharSelSlot0_Zack_00557a90)[g_charselect_slot_count];
   }
-  if (CharSel_numberofslots____00557bf4 < 9) {
+  if (g_charselect_slot_count < 9) {
     DAT_00557bf5 = 0xf;
     DAT_00557a88 = 4;
     DAT_00557bf6 = 0xf;
     g13 = 4;
   }
-  else if (CharSel_numberofslots____00557bf4 == 9) {
+  else if (g_charselect_slot_count == 9) {
     DAT_00557bf5 = 0xf;
     DAT_00557a88 = 4;
     DAT_00557bf6 = 0xb;
     g13 = 5;
   }
-  else if (CharSel_numberofslots____00557bf4 == 10) {
+  else if (g_charselect_slot_count == 10) {
     DAT_00557bf5 = 0xb;
     DAT_00557a88 = 5;
     DAT_00557bf6 = 0xb;
     g13 = 5;
   }
   else {
-    if (CharSel_numberofslots____00557bf4 == 0xb) {
+    if (g_charselect_slot_count == 11) {
       DAT_00557bf5 = 0xb;
       g13._0_1_ = 5;
     }
     else {
-      if (CharSel_numberofslots____00557bf4 < 0xc) goto LAB_00014d80;
+      if (g_charselect_slot_count < 12) goto LAB_00014d80;
       DAT_00557bf5 = 7;
       g13._0_1_ = 6;
     }
