@@ -304,8 +304,8 @@ undefined4 FUN_0004cec0(int param_1)
   else {
     ac = ac & 0xfffffff8 | (uint)(DAT_00589dda < '\x02');
     if ((((byte)ac & 1 | '\x02' < DAT_00589dda) != 1) &&
-       (ac = uVar3 & 0xfffffff8 | (uint)((char)g_motion_debug_render_mode < '\0'),
-       ((byte)ac & 1 | '\0' < (char)g_motion_debug_render_mode) != 1)) {
+       (ac = uVar3 & 0xfffffff8 | (uint)((char)g_motion_debug_mode < '\0'),
+       ((byte)ac & 1 | '\0' < (char)g_motion_debug_mode) != 1)) {
       auVar12._20_4_ = 0;
       auVar12._0_20_ = auVar8;
       auVar41._24_40_ = auVar18._24_40_;
@@ -410,9 +410,9 @@ undefined4 FUN_0004cec0(int param_1)
     ac = uVar1 | param_1 < 0;
     if (((byte)(uVar1 >> 1) & 1) != 1) {
       DVar6 = (&g_player1)[param_1].character_id;
-      ac = uVar3 & 0xfffffff8 | (uint)(NAME_KASUMI < DVar6) << 2 | (uint)(DVar6 == NAME_KASUMI) << 1
-           | (uint)(DVar6 < NAME_KASUMI);
-      if (((byte)ac & 1 | NAME_KASUMI < DVar6) != 1) {
+      ac = uVar3 & 0xfffffff8 | (uint)(name_kasumi < DVar6) << 2 | (uint)(DVar6 == name_kasumi) << 1
+           | (uint)(DVar6 < name_kasumi);
+      if (((byte)ac & 1 | name_kasumi < DVar6) != 1) {
         uVar70 = *(undefined4 *)(&DAT_005528e8 + param_1 * 0x3c);
         auVar54._12_52_ = auVar34._12_52_;
         auVar54._0_8_ = auVar34._0_8_;
