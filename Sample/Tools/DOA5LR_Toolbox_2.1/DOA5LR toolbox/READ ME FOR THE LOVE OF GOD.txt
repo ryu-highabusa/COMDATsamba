@@ -1,0 +1,11 @@
+Extract all the contents of the .ZIP
+archive somewhere before running any file.
+
+Make sure you always use the
+newest toolbox version available.
+
+You need to download and install AutoHotkey
+on your computer in order to run .AHK files
+https://autohotkey.com
+and Cheat Engine to run addresses.ct
+http://cheatengine.org
