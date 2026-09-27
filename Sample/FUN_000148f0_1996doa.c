@@ -119,18 +119,18 @@ void CharacterSelect_RunScene(void)
   uint uVar143;
   undefined4 uVar144;
   undefined4 uVar145;
-  int iVar146;
+  int roster_terminator_index;
   uint in_g5;
-  dword dVar147;
-  undefined4 uVar148;
+  dword dVar146;
+  undefined4 uVar147;
   ushort *in_g6;
-  undefined4 uVar149;
+  undefined4 uVar148;
   uint in_g7;
   undefined4 in_g8;
   undefined4 in_g9;
   undefined4 in_g10;
   undefined4 in_g11;
-  undefined8 uVar150;
+  undefined8 uVar149;
   undefined1 auStackX_0 [64];
   undefined1 auStack_40 [64];
   undefined1 auStack_80 [64];
@@ -291,7 +291,7 @@ void CharacterSelect_RunScene(void)
   auVar49._4_4_ = auStack_2c0;
   auVar49._0_4_ = auStack_280;
   FUN_000085f0((undefined2 *)&DAT_01002000);
-  dVar147 = DWORD_000006a8;
+  dVar146 = DWORD_000006a8;
   auVar50._20_44_ = auVar49._20_44_;
   auVar50._0_16_ = auVar49._0_16_;
   auVar50._16_4_ = PTR_ARRAY_00090c40;
@@ -322,7 +322,7 @@ void CharacterSelect_RunScene(void)
     auVar53._8_56_ = auVar54._8_56_;
     auVar53._4_4_ = pauVar1 + 1;
     auVar53._0_4_ = fp;
-    uVar150 = FUN_00008d10(puVar140);
+    uVar149 = FUN_00008d10(puVar140);
     auVar51._24_40_ = auVar53._24_40_;
     auVar51._0_20_ = auVar53._0_20_;
     auVar51._20_4_ = *auVar52._16_4_;
@@ -339,7 +339,7 @@ void CharacterSelect_RunScene(void)
   *(undefined1 (*) [64])(uVar143 & 0xffffffc0) = auVar56;
   auVar55._8_56_ = auVar56._8_56_;
   auVar55._0_8_ = CONCAT44(pauVar1 + 1,uVar143) & 0xffffffffffffffc0;
-  uVar150 = FUN_00013940((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,
+  uVar149 = FUN_00013940((int)uVar149,(int)((ulonglong)uVar149 >> 0x20),in_g2,in_g3,uVar144,dVar146,
                          in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar58._12_52_ = auVar55._12_52_;
   auVar58._0_8_ = auVar55._0_8_;
@@ -348,7 +348,7 @@ void CharacterSelect_RunScene(void)
   auVar57._8_56_ = auVar58._8_56_;
   auVar57._4_4_ = pauVar1 + 2;
   auVar57._0_4_ = pauVar1 + 1;
-  FUN_00013b00((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,in_g6,
+  FUN_00013b00((int)uVar149,(int)((ulonglong)uVar149 >> 0x20),in_g2,in_g3,uVar144,dVar146,in_g6,
                in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar60._12_52_ = auVar57._12_52_;
   auVar60._0_8_ = auVar57._0_8_;
@@ -373,7 +373,7 @@ void CharacterSelect_RunScene(void)
   auVar63._8_56_ = auVar64._8_56_;
   auVar63._4_4_ = pauVar1 + 5;
   auVar63._0_4_ = pauVar1 + 4;
-  FUN_00039240((int *)&DAT_00555660,0x15,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,
+  FUN_00039240((int *)&DAT_00555660,0x15,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,
                in_g11);
   auVar66._12_52_ = auVar63._12_52_;
   auVar66._0_8_ = auVar63._0_8_;
@@ -390,7 +390,7 @@ void CharacterSelect_RunScene(void)
   auVar67._8_56_ = auVar68._8_56_;
   auVar67._4_4_ = pauVar1 + 7;
   auVar67._0_4_ = pauVar1 + 6;
-  uVar150 = FUN_00039240((int *)&DAT_0055566c,0x15,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,
+  uVar149 = FUN_00039240((int *)&DAT_0055566c,0x15,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,
                          in_g9,in_g10,in_g11);
   auVar70._12_52_ = auVar67._12_52_;
   auVar70._0_8_ = auVar67._0_8_;
@@ -399,7 +399,7 @@ void CharacterSelect_RunScene(void)
   auVar69._8_56_ = auVar70._8_56_;
   auVar69._4_4_ = pauVar1 + 8;
   auVar69._0_4_ = pauVar1 + 7;
-  FUN_000148c0((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,in_g6,
+  FUN_000148c0((int)uVar149,(int)((ulonglong)uVar149 >> 0x20),in_g2,in_g3,uVar144,dVar146,in_g6,
                in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar72._12_52_ = auVar69._12_52_;
   auVar72._0_8_ = auVar69._0_8_;
@@ -416,7 +416,7 @@ void CharacterSelect_RunScene(void)
   auVar73._8_56_ = auVar74._8_56_;
   auVar73._4_4_ = pauVar1 + 10;
   auVar73._0_4_ = pauVar1 + 9;
-  FUN_00013790(0,extraout_g1,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(0,extraout_g1,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar76._12_52_ = auVar73._12_52_;
   auVar76._0_8_ = auVar73._0_8_;
   auVar76._8_4_ = 0x14a28;
@@ -424,7 +424,7 @@ void CharacterSelect_RunScene(void)
   auVar75._8_56_ = auVar76._8_56_;
   auVar75._4_4_ = pauVar1 + 0xb;
   auVar75._0_4_ = pauVar1 + 10;
-  FUN_00013790(1,extraout_g1_00,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(1,extraout_g1_00,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar78._12_52_ = auVar75._12_52_;
   auVar78._0_8_ = auVar75._0_8_;
   auVar78._8_4_ = 0x14a30;
@@ -432,7 +432,7 @@ void CharacterSelect_RunScene(void)
   auVar77._8_56_ = auVar78._8_56_;
   auVar77._4_4_ = pauVar1 + 0xc;
   auVar77._0_4_ = pauVar1 + 0xb;
-  FUN_00013790(2,extraout_g1_01,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(2,extraout_g1_01,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar80._12_52_ = auVar77._12_52_;
   auVar80._0_8_ = auVar77._0_8_;
   auVar80._8_4_ = 0x14a38;
@@ -440,7 +440,7 @@ void CharacterSelect_RunScene(void)
   auVar79._8_56_ = auVar80._8_56_;
   auVar79._4_4_ = pauVar1 + 0xd;
   auVar79._0_4_ = pauVar1 + 0xc;
-  FUN_00013790(4,extraout_g1_02,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(4,extraout_g1_02,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar82._12_52_ = auVar79._12_52_;
   auVar82._0_8_ = auVar79._0_8_;
   auVar82._8_4_ = 0x14a40;
@@ -448,7 +448,7 @@ void CharacterSelect_RunScene(void)
   auVar81._8_56_ = auVar82._8_56_;
   auVar81._4_4_ = pauVar1 + 0xe;
   auVar81._0_4_ = pauVar1 + 0xd;
-  FUN_00013790(5,extraout_g1_03,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(5,extraout_g1_03,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar84._12_52_ = auVar81._12_52_;
   auVar84._0_8_ = auVar81._0_8_;
   auVar84._8_4_ = 0x14a48;
@@ -456,7 +456,7 @@ void CharacterSelect_RunScene(void)
   auVar83._8_56_ = auVar84._8_56_;
   auVar83._4_4_ = pauVar1 + 0xf;
   auVar83._0_4_ = pauVar1 + 0xe;
-  FUN_00013790(6,extraout_g1_04,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(6,extraout_g1_04,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar86._12_52_ = auVar83._12_52_;
   auVar86._0_8_ = auVar83._0_8_;
   auVar86._8_4_ = 0x14a50;
@@ -464,7 +464,7 @@ void CharacterSelect_RunScene(void)
   auVar85._8_56_ = auVar86._8_56_;
   auVar85._4_4_ = pauVar1 + 0x10;
   auVar85._0_4_ = pauVar1 + 0xf;
-  FUN_00013790(8,extraout_g1_05,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
+  FUN_00013790(8,extraout_g1_05,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar88._12_52_ = auVar85._12_52_;
   auVar88._0_8_ = auVar85._0_8_;
   auVar88._8_4_ = 0x14a58;
@@ -472,7 +472,7 @@ void CharacterSelect_RunScene(void)
   auVar87._8_56_ = auVar88._8_56_;
   auVar87._4_4_ = pauVar1 + 0x11;
   auVar87._0_4_ = pauVar1 + 0x10;
-  FUN_00013790(0xc,extraout_g1_06,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11)
+  FUN_00013790(0xc,extraout_g1_06,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11)
   ;
   auVar90._12_52_ = auVar87._12_52_;
   auVar90._0_8_ = auVar87._0_8_;
@@ -481,7 +481,7 @@ void CharacterSelect_RunScene(void)
   auVar89._8_56_ = auVar90._8_56_;
   auVar89._4_4_ = pauVar1 + 0x12;
   auVar89._0_4_ = pauVar1 + 0x11;
-  FUN_00013790(0xb,extraout_g1_07,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11)
+  FUN_00013790(0xb,extraout_g1_07,in_g2,in_g3,uVar144,dVar146,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11)
   ;
   auVar92._12_52_ = auVar89._12_52_;
   auVar92._0_8_ = auVar89._0_8_;
@@ -490,7 +490,7 @@ void CharacterSelect_RunScene(void)
   auVar91._8_56_ = auVar92._8_56_;
   auVar91._4_4_ = pauVar1 + 0x13;
   auVar91._0_4_ = pauVar1 + 0x12;
-  uVar150 = FUN_00008250(1);
+  uVar149 = FUN_00008250(1);
   auVar94._12_52_ = auVar91._12_52_;
   auVar94._0_8_ = auVar91._0_8_;
   auVar94._8_4_ = 0x14a6c;
@@ -498,7 +498,7 @@ void CharacterSelect_RunScene(void)
   auVar93._8_56_ = auVar94._8_56_;
   auVar93._4_4_ = pauVar1 + 0x14;
   auVar93._0_4_ = pauVar1 + 0x13;
-  FUN_00015310((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,in_g6,
+  FUN_00015310((int)uVar149,(int)((ulonglong)uVar149 >> 0x20),in_g2,in_g3,uVar144,dVar146,in_g6,
                in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar96._12_52_ = auVar93._12_52_;
   auVar96._0_8_ = auVar93._0_8_;
@@ -511,8 +511,8 @@ void CharacterSelect_RunScene(void)
   uVar141 = 1;
   uVar144 = 0;
   uVar145 = 0xb;
-  uVar148 = 1;
-  uVar149 = 0xa5;
+  uVar147 = 1;
+  uVar148 = 0xa5;
   auVar98._12_52_ = auVar95._12_52_;
   auVar98._0_8_ = auVar95._0_8_;
   auVar98._8_4_ = 0x14a9c;
@@ -559,7 +559,7 @@ void CharacterSelect_RunScene(void)
   auVar99._8_56_ = auVar100._8_56_;
   auVar99._4_4_ = pauVar1 + 0x17;
   auVar99._0_4_ = pauVar1 + 0x16;
-  FUN_00039240((int *)&DAT_00555640,0x11,uVar141,uVar144,uVar145,uVar148,uVar149,in_g7,in_g8,in_g9,
+  FUN_00039240((int *)&DAT_00555640,0x11,uVar141,uVar144,uVar145,uVar147,uVar148,in_g7,in_g8,in_g9,
                in_g10,in_g11);
   auVar102._12_52_ = auVar99._12_52_;
   auVar102._0_8_ = auVar99._0_8_;
@@ -568,7 +568,7 @@ void CharacterSelect_RunScene(void)
   auVar101._8_56_ = auVar102._8_56_;
   auVar101._4_4_ = pauVar1 + 0x18;
   auVar101._0_4_ = pauVar1 + 0x17;
-  FUN_00039240((int *)&DAT_0055564c,0x11,uVar141,uVar144,uVar145,uVar148,uVar149,in_g7,in_g8,in_g9,
+  FUN_00039240((int *)&DAT_0055564c,0x11,uVar141,uVar144,uVar145,uVar147,uVar148,in_g7,in_g8,in_g9,
                in_g10,in_g11);
   auVar104._12_52_ = auVar101._12_52_;
   auVar104._0_8_ = auVar101._0_8_;
@@ -603,13 +603,13 @@ void CharacterSelect_RunScene(void)
   g_charselect_slot7 = name_genfu;
   g_charselect_slot8 = name_tina;
   g_charselect_slot1 = (byte)g14;
-  iVar146 = 8;
+  roster_terminator_index = 8;
   if (SettingsUnlisted_UnlockRaidou == 1) {
-    iVar146 = 9;
+    roster_terminator_index = 9;
     g_charselect_slot9 = name_raidou;
   }
   g13 = 0xff;
-  (&g_charselect_slot1)[iVar146] = 0xff;
+  (&g_charselect_slot1)[roster_terminator_index] = 0xff;
   g_charselect_slot_count = (byte)g14;
   uVar6 = g_charselect_slot1;
   while (ac = ac & 0xfffffff8, uVar6 != 0xff) {
@@ -991,7 +991,7 @@ LAB_00014d80:
       auVar24._24_40_ = auVar25._24_40_;
       auVar24._20_4_ = &g_charselect_slot2;
       do {
-        iVar146 = auVar24._24_4_;
+        roster_terminator_index = auVar24._24_4_;
         bVar5 = *auVar24._20_4_;
         pauVar1 = (undefined1 (*) [64])(auVar24._4_4_ + 0x3fU & 0xffffffc0);
         auVar27._12_52_ = auVar24._12_52_;
@@ -1001,7 +1001,7 @@ LAB_00014d80:
         auVar26._8_56_ = auVar27._8_56_;
         auVar26._4_4_ = pauVar1 + 1;
         auVar26._0_4_ = fp;
-        CharacterSelect_DrawSlot_candidate((uint)bVar5,0,iVar146,0x1d,puVar142);
+        CharacterSelect_DrawSlot_candidate((uint)bVar5,0,roster_terminator_index,0x1d,puVar142);
         puVar142 = (undefined2 *)(uint)g_charselect_top_row_count;
         auVar28._24_40_ = auVar26._24_40_;
         auVar28._0_20_ = auVar26._0_20_;
@@ -1013,7 +1013,7 @@ LAB_00014d80:
              (uint)(puVar142 == auVar29._16_4_) << 1 | (uint)((int)auVar29._16_4_ < (int)puVar142);
         auVar24._28_36_ = auVar26._28_36_;
         auVar24._0_24_ = auVar29._0_24_;
-        auVar24._24_4_ = iVar146 + 10;
+        auVar24._24_4_ = roster_terminator_index + 10;
         fp = pauVar1;
       } while (((byte)ac & 1) == 1);
     }
@@ -1031,7 +1031,7 @@ LAB_00014d80:
       auVar30._24_40_ = auVar31._24_40_;
       auVar30._20_4_ = &g_charselect_slot1;
       do {
-        iVar146 = auVar30._24_4_;
+        roster_terminator_index = auVar30._24_4_;
         bVar5 = *auVar30._20_4_;
         pauVar1 = (undefined1 (*) [64])(auVar30._4_4_ + 0x3fU & 0xffffffc0);
         auVar33._12_52_ = auVar30._12_52_;
@@ -1041,7 +1041,7 @@ LAB_00014d80:
         auVar32._8_56_ = auVar33._8_56_;
         auVar32._4_4_ = pauVar1 + 1;
         auVar32._0_4_ = fp;
-        CharacterSelect_DrawSlot_candidate((uint)bVar5,0,iVar146,0x25,puVar142);
+        CharacterSelect_DrawSlot_candidate((uint)bVar5,0,roster_terminator_index,0x25,puVar142);
         puVar142 = (undefined2 *)(uint)g_charselect_bottom_row_count;
         auVar34._24_40_ = auVar32._24_40_;
         auVar34._0_20_ = auVar32._0_20_;
@@ -1053,7 +1053,7 @@ LAB_00014d80:
              (uint)(puVar142 == auVar35._16_4_) << 1 | (uint)((int)auVar35._16_4_ < (int)puVar142);
         auVar30._28_36_ = auVar32._28_36_;
         auVar30._0_24_ = auVar35._0_24_;
-        auVar30._24_4_ = iVar146 + 10;
+        auVar30._24_4_ = roster_terminator_index + 10;
         fp = pauVar1;
       } while (((byte)ac & 1) == 1);
     }
@@ -1071,7 +1071,7 @@ LAB_00014d80:
     auVar12._24_40_ = auVar13._24_40_;
     auVar12._20_4_ = &g_charselect_slot2;
     do {
-      iVar146 = auVar12._24_4_;
+      roster_terminator_index = auVar12._24_4_;
       bVar5 = *auVar12._20_4_;
       pauVar1 = (undefined1 (*) [64])(auVar12._4_4_ + 0x3fU & 0xffffffc0);
       auVar15._12_52_ = auVar12._12_52_;
@@ -1081,7 +1081,7 @@ LAB_00014d80:
       auVar14._8_56_ = auVar15._8_56_;
       auVar14._4_4_ = pauVar1 + 1;
       auVar14._0_4_ = fp;
-      CharacterSelect_DrawSlot_candidate((uint)bVar5,0,iVar146,0x1d,puVar142);
+      CharacterSelect_DrawSlot_candidate((uint)bVar5,0,roster_terminator_index,0x1d,puVar142);
       puVar142 = (undefined2 *)(uint)g_charselect_top_row_count;
       auVar16._24_40_ = auVar14._24_40_;
       auVar16._0_20_ = auVar14._0_20_;
@@ -1093,7 +1093,7 @@ LAB_00014d80:
            (uint)(puVar142 == auVar17._16_4_) << 1 | (uint)((int)auVar17._16_4_ < (int)puVar142);
       auVar12._28_36_ = auVar14._28_36_;
       auVar12._0_24_ = auVar17._0_24_;
-      auVar12._24_4_ = iVar146 + 10;
+      auVar12._24_4_ = roster_terminator_index + 10;
       fp = pauVar1;
     } while (((byte)ac & 1) == 1);
   }
@@ -1111,7 +1111,7 @@ LAB_00014d80:
     auVar18._24_40_ = auVar19._24_40_;
     auVar18._20_4_ = &g_charselect_slot1;
     do {
-      iVar146 = auVar18._24_4_;
+      roster_terminator_index = auVar18._24_4_;
       bVar5 = *auVar18._20_4_;
       pauVar1 = (undefined1 (*) [64])(auVar18._4_4_ + 0x3fU & 0xffffffc0);
       auVar21._12_52_ = auVar18._12_52_;
@@ -1121,7 +1121,7 @@ LAB_00014d80:
       auVar20._8_56_ = auVar21._8_56_;
       auVar20._4_4_ = pauVar1 + 1;
       auVar20._0_4_ = fp;
-      CharacterSelect_DrawSlot_candidate((uint)bVar5,0,iVar146,0x25,puVar142);
+      CharacterSelect_DrawSlot_candidate((uint)bVar5,0,roster_terminator_index,0x25,puVar142);
       puVar142 = (undefined2 *)(uint)g_charselect_bottom_row_count;
       auVar22._24_40_ = auVar20._24_40_;
       auVar22._0_20_ = auVar20._0_20_;
@@ -1133,7 +1133,7 @@ LAB_00014d80:
            (uint)(puVar142 == auVar23._16_4_) << 1 | (uint)((int)auVar23._16_4_ < (int)puVar142);
       auVar18._28_36_ = auVar20._28_36_;
       auVar18._0_24_ = auVar23._0_24_;
-      auVar18._24_4_ = iVar146 + 10;
+      auVar18._24_4_ = roster_terminator_index + 10;
       fp = pauVar1;
     } while (((byte)ac & 1) == 1);
   }
