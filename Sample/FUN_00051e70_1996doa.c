@@ -17,10 +17,10 @@ undefined4 FUN_00051e70(int param_1)
       ac = uVar1;
       return 1;
     }
-    if (((((&g_player1)[param_1].action_state == STATE_NEUTRAL) &&
+    if (((((&g_player1)[param_1].action_state == 0x0_NEUTRAL) &&
          ((&g_player1)[param_1].action_code < CMD_TURN)) &&
         ((&g_player1)[param_1].action_code != CMD_RUN)) ||
-       (((&g_player1)[param_1].action_state == STATE_SPECIALMOVE &&
+       (((&g_player1)[param_1].action_state == 0xD_SPECIALMOVE &&
         ((byte)((&g_player1)[param_1].action_code - CMD_TURN) < 2)))) {
       uVar4 = 0;
     }
@@ -37,7 +37,7 @@ undefined4 FUN_00051e70(int param_1)
       fp = unaff_pfp;
       return 1;
     }
-    if (g_motion_debug_render_mode == '\0') {
+    if (g_motion_debug_mode == '\0') {
       uVar1 = ac & 0xfffffff8 | (uint)(DAT_0054fcfd != '\0') << 2 |
               (uint)(DAT_0054fcfd == '\0') << 1;
       if (((byte)(uVar1 >> 1) & 1) == 1) {
@@ -45,10 +45,10 @@ undefined4 FUN_00051e70(int param_1)
         ac = uVar1;
         return 1;
       }
-      if (((((&g_player1)[param_1].action_state == STATE_NEUTRAL) &&
+      if (((((&g_player1)[param_1].action_state == 0x0_NEUTRAL) &&
            ((&g_player1)[param_1].action_code < CMD_TURN)) &&
           ((&g_player1)[param_1].action_code != CMD_RUN)) ||
-         (((&g_player1)[param_1].action_state == STATE_SPECIALMOVE &&
+         (((&g_player1)[param_1].action_state == 0xD_SPECIALMOVE &&
           ((byte)((&g_player1)[param_1].action_code - CMD_TURN) < 2)))) {
         uVar4 = 0;
       }
