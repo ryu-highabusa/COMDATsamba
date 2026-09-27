@@ -1,0 +1,558 @@
+=========================================================
+=========================================================
+USEFUL LINKS
+=========================================================
+=========================================================
+
+FreeStepDodge main thread > http://www.freestepdodge.com/threads/doa5lr-toolbox.6559/
+AutoHotkey thread > https://autohotkey.com/boards/viewtopic.php?&t=24155
+SFxT Mods thread > http://w11.zetaboards.com/SFxT_Mods/topic/30053628/1/
+DeadOrAutohotkey bot video > https://www.youtube.com/watch?v=_QypmRf5Yzo
+Character Unlocker video > https://www.youtube.com/watch?v=gYgg6FHCek4
+Download link > http://www.mediafire.com/file/t5nmmfzsi1x51x1
+
+
+
+
+=========================================================
+=========================================================
+CHANGELOG
+=========================================================
+=========================================================
+
+2018-02-08 | version 2.1
+- (BUSABOT) auto-hold trigger distance increased from 1.90 to 2.10
+- (BUSABOT) auto-guard input slowed down to prevent accidental 7H holds in case of extreme lag
+- (CHARACTER UNLOCKER, CHEAT TABLE) updated character addresses
+
+2017-08-30 | version 2.0
+- (ALL TOOLS) the toolbox now uses array of bytes signature scanning, which means that from now on, there will be no need to update it every time a small patch gets released. The toolbox should work in multiple game versions (as long as they're reasonably recent) without the need to modify anything
+- (ALL TOOLS) address variables now written in glorious CamelCase
+- (BUSABOT) the bot will no longer attempt to punish side steps, as it barely ever worked especially online
+- (BUSABOT) added rule to attempt holding hold-resistant moves during stun
+- (BUSABOT) added move-specific counters to every Mai "special cancellable" strike
+- (BUSABOT) added a followup after roof 6T on a backturned opponent
+- (CHEAT TABLE) added COM VS COM mode + COM levels changer, PX_BattlePhase, P1_SlowmoKOMovementBlock, P1_GroundAttackAllowed
+- (CHEAT TABLE) Stage Unlocker is now easier and can be used online (as long as both players are hacking the same stage ID)
+- (CHEAT TABLE) strengthened KO Timer AOB signature (confirmed working on the ancient 1.02 game version and the latest 1.10)
+- (CHEAT TABLE) now looks prettier with colours
+
+2017-06-14 | version 1.8
+- (ALL TOOLS) added compatibility with Steam Ver.1.10 (Gust Mashup Swimwear Set)
+- (FRAME COUNTER) renamed true air state to Airborne
+- (CHEAT TABLE) renamed trueairstate to Airborne
+
+2017-05-20 | version 1.7
+- (ALL TOOLS) added compatibility with Steam Ver.1.10
+- (ALL TOOLS) updated classMemory.ahk to 2.7
+- (BUSABOT) fixed P2 side hotkeys to actually be F2
+- (FRAME COUNTER) added true air state display
+- (CHEAT TABLE) added trueairstate addresses
+
+2017-04-22 | version 1.6
+- (ALL TOOLS) added compatibility with Steam Ver.1.09B (Shrine Maiden Costume Set)
+- (CHEAT TABLE) fixed the first checkbox of the Stage Unlocker which sometimes didn't work
+
+2017-03-16 | version 1.5
+- (ALL TOOLS) added compatibility with Steam Ver.1.09B
+- (BUSABOT) fixed the auto-hold script to properly respect move-specific exceptions
+- (BUSABOT) added a move-specific counter for Mai
+- (CHEAT TABLE) added P2_LauncherHeight/P2_Reach/P2_XAxis/P2_YAxis, and documentation for each
+
+2017-02-14 | version 1.4
+- (ALL TOOLS) added compatibility with Steam Ver.1.09A (Alluring Mandarin Dress Set)
+- (BUSABOT) changed hotkeys to control player 1 to F1/Ctrl+F1 and player 2 to F2/Ctrl+F2
+- (BUSABOT) added some move-specific counters for Tina and Mila
+- (CHEAT TABLE) added stage manipulation which allows you to play story-only stages. You can find a long list of stages in documentation.txt
+- (CHEAT TABLE) added post-KO Timer manipulation which allows you to keep beating your dead opponent
+- (CHEAT TABLE) added various other addresses: accurate P1_LauncherHeight/P1_Reach, character coordinates P1_XAxis/P1_YAxis
+
+2017-01-17 | version 1.3
+- (ALL TOOLS) added compatibility with Steam Ver.1.09A
+- (BUSABOT) implemented new functions to punish hold resistant strikes
+- (BUSABOT) implemented new functions to deal with several character-specific moves such as projectiles, unblockable strikes, feints and more
+- (BUSABOT) auto-hold triggering distance increased
+- (BUSABOT) auto-throw attempts will only occur during the active frames of an hold
+- (BUSABOT) auto-Izuna Drop function optimized to stop itself as soon as possible in case of a dropped followup
+- (BUSABOT) C.ahk has been removed and most of its contents were migrated to B.ahk
+- (BUSABOT) auto-guard function removed because it is no longer necessary, it was intrusive and not well-executed
+- (BUSABOT) anti-back turned function improved to only switch position during idle status and not during strings or throw animations
+- (BUSABOT) auto-Tech Roll functions improved. It will no longer try to Tech Roll every single time your character is Airborne, now it properly detects when it's being caught in juggles/throws/holds. It also correctly detects facing up/facing down statuses while on the ground
+- (BUSABOT) anti-throw function changed to perform 7K instead of 3H+K because it's better
+- (BUSABOT) anti-sidestep attempts will only occur during the first 3 frames
+- (BUSABOT) added a combo followup for The Tiger Show's Danger Zone
+- (BUSABOT) added F3 and F4 hotkeys to control the Player 2 side of the bot
+
+2016-12-15 | version 1.2
+- (ALL TOOLS) added compatibility with Steam Ver.1.09 (AQUAPLUS Mashup Set)
+
+2016-11-15 | version 1.1
+- (ALL TOOLS) added compatibility with Steam Ver.1.09
+- (ALL TOOLS) code fixes: process priority reduced from High to AboveNormal, modified the administrator rights checker code to be more automated, moved the game process variable to addresses.ahk and renamed it from "doa5lr" to the more generic "TargetProcess"
+- (CHARACTER UNLOCKER) fixed the checkboxes to work properly
+
+2016-10-22 | version 1.0
+- merged all my DOA5LR tools into one archive for easier updates. I will no longer include older versions of the various scripts because DOA5LR is now free on Steam
+- (ALL TOOLS) added compatibility with Steam Ver.1.08A
+- (BUSABOT) made combos.ahk more easily customizable
+- (FRAME COUNTER) renewed interface
+- (FRAME COUNTER) added raw frame advantage and true startup display
+- (FRAME COUNTER) removed Speedhack function because having files named "RemoteDLLInjector32.exe" and "speedhack.dll" bundled within was sp00ky and didn't work consistently. If you need a Speedhack replacement, download Cheat Engine and use it with hotkeys, it's a much better experience
+- (CHARACTER UNLOCKER) new tool!
+
+
+
+
+=========================================================
+=========================================================
+GENERAL INFORMATION
+=========================================================
+=========================================================
+
+Every tool is open source and contributions are welcome.
+
+Special thanks to AutoHotkey user RHCP for his great classMemory.ahk, a memory reading/writing wrapper which has made my life infinitely easier https://github.com/Kalamity/classMemory
+
+This is the frame data information I have compiled and used to decide which behaviour to use against Throws and Offensive Holds for the BusaBot (basically, the rule goes 11 frames or higher of startup = most likely an OH):
+http://www.freestepdodge.com/threads/frame-data-of-all-throws.5936/
+
+I don't use the default AutoHotkey Sleep function because this is more precise and doesn't waste CPU cycles:
+DllCall("Sleep",UInt,123)
+1 frame in a 60 FPS game is about 16,67 ms long but the minimum sleep I like to set is at least 20. 1000 milliseconds divided by 50 frames per second = 20, I chose to sleep longer for more input leniency, just in case of frame drops that slow down the game.
+
+The Send commands use scan codes instead of "regular" keys for compatibility reasons. More information can be found inside combos.ahk (in a nutshell, we have to take into account that English "WASD" = "ZQSD" in a French layout).
+
+The bot uses both WASD and Arrow Keys for movement because Arrows always have priority over WASD, which is good to override less important inputs.
+
+The variable names I have given to the addresses + the comments should be pretty straightforward if you know a little about fighting games.
+
+DeadOrAutohotkey (BusaBot) needs multiple AutoHotkey scripts to run at the same time because this way it is easier to make use of only specific parts of the bot. Some people do that, e.g. they only launch the auto-hold (A) part of the bot but not the rest.
+
+
+
+
+=========================================================
+=========================================================
+BUSABOT WEAKNESSES & POSSIBLE IMPROVEMENTS
+=========================================================
+=========================================================
+
+1) Imperfect move distance detection. This is because the reactions are based on the Distance between the two characters, not on hitboxes, and the Reach value of a move only shows during active frames (which is too late) so it can't be used either.
+2) Doesn't react to "Combo Throw followups", in case the bot gets caught into them.
+3) I couldn't find a way to distinguish a Throw from an OH with the Move Details screen closed. As a workaround, I made the bot react in a certain way against slow Throws and in another way for fast Throws because OH's tend to be slower. But maybe there's an address somewhere that I haven't found yet which may tell us if it's OH or not.
+4) It doesn't Tech Roll crumple stuns and Rachel's 41236T > 8P.
+5) High latency online makes the instant reactions of the bot virtually useless. Finding an address that tells me by how much an online match is currently delayed by would help a lot, but I've yet to find it. I was only able to find the frame delay values of training mode's lag simulation.
+
+
+
+
+=========================================================
+=========================================================
+HOW TO FIND ADDRESSES ON CHEAT ENGINE
+=========================================================
+=========================================================
+
+If you're familiar with AOB signature scans, that's what the toolbox uses from version 2.0 to auto-update its addresses. Ticking the "<- CHECK THIS PLEASE" checkbox will execute the related script.
+
+But still, here's the older (no AOB) method I used every time to quickly update the entire Cheat Table if it stopped working after a patch:
+1) open the outdated addresses.ct with the game attached
+2) manually find the new P1_ComboCounter address (easiest one to find), keep it in the "Found:" list SELECTED
+3) right click the old P1_ComboCounter > Recalculate new addresses > Change to address > Change
+If it worked, all the addresses should be realigned. Now copy them to addresses.ahk. This should be enough to restore the correct functionality of the entire toolbox.
+
+I will still explain how I manually found every single address I needed the first time, and discuss more details, for science.
+
+They are all static addresses (green ones in CE), so no pointers were necessary.
+But, just in case you need read the memory of a pointer, this is how it's done in AHK:
+some_name := TargetProcess.read(0x01E2DF44 + TargetProcess.BaseAddress, "UInt", 0x10, 0x10, 0x0, 0x0, 0x20)
+
+Some of these values are shared by multiple addresses. In those cases, I ignored the ones that change late and picked the ones that update sooner (you can play frame-by-frame using CE's Speedhack set at something like 0.02 to spot the small differences), and made sure they were player-side-specific, because some were not.
+
+None of these values require the Move Details screen to be open while playing; they will still update while it's hidden. Keep in mind that the in-game Move Details display is delayed by 1 frame.
+
+So this is how I found each. Completing Cheat Engine's "Tutorial-i386.exe" Step 2 is probably enough to learn how to find these addresses yourself:
+
+_DESCRIPTION:	P1_Airborne
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Hidden value that updates with 1 frame of delay. The Jump Status field shown in-game is only true for Throws/OH, this one is for Strikes. When a character gets hit in the air, it will count as a Juggle.
+0	= on the ground
+1	= in the air
+Some examples of Hayabusa moves that have some air frames in them (tested on Ver.1.10):
+wr4K	= from frame 9 to frame 69
+214P	= 10~19
+9K	= 15~30
+7K	= 15~25
+9P	= 19~27
+6K	= 22~36
+8K	= 23~37
+H+K	= 24~34
+7P	= 11~18 + 1~5 (7P actually has 2 in 1 animations)
+66K	= 26~32 + 1~8
+236P+K	= 41~52
+236P+KP	= 5~32
+236P+KK	= 5~24
+There's a mistake in the detection of Brad Wong 66P+K Airborne status; it's actually Airborne from frame 1, not 10 like the address displays.
+
+_DESCRIPTION:	P1_ComboCounter
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Pretty straightforward, it's from the text that says "3-HIT COMBO!". Do a 3-hit-combo and scan 3. Do a 5-hits-combo and Next Scan 5 etc. etc. It's 0 when the opponent can move normally.
+
+_DESCRIPTION:	P1_CurrentHealth
+_VALUE TYPE:	2 Bytes
+_VALUE EXPLANATION:
+Default in Free Training is 300. Receive punch that does e.g. 10 damage > Next Scan "Decreased value by 10" to find it.
+
+_DESCRIPTION:	P1_CurrentMove
+_VALUE TYPE:	4 Bytes
+_VALUE EXPLANATION:
+This is a value that changes according to the current animation playing on your character. It's only reliable with generic/common animations and not character specific ones because those numbers are shared with other characters.
+0 = idle animation (WARNING: not true for all characters such as Jann Lee who has the most complex idle animations in the game)
+8803 = breakable object
+8804 = breakable object back turned
+8922 = rope stages wall push back turned
+9152,9153 = universal sidesteps
+9218 = wall bounce
+9219 = wall bounce back turned
+9252 = wall bounce with bigger bounce
+9253 = wall bounce with bigger bounce back turned
+|
+Mai-specific animations:
+214P+K variants	= 1330,1335
+214P variants	= 1003,1081,1320,1325
+236K variants	= 1004,1340,1345
+236P variants	= 1310,1315
+
+_DESCRIPTION:	P1_CurrentMoveFrame
+_VALUE TYPE:	2 Bytes
+_VALUE EXPLANATION:
+It's a value that starts from 1 every time an animation starts and keeps increasing by 1 each frame. Good to tell the current frame of a move, this is a vital address for both the FrameCounter and the BusaBot. Also very useful to better analyse moves labelled as 0(0)0 in the Move Details window. It caps at 65535 if you stand still for about 18 minutes with the same animation.
+
+_DESCRIPTION:	P1_Direction
+_VALUE TYPE:	4 Bytes
+_VALUE EXPLANATION:
+0 = left side, facing right
+1 = right side, facing left
+65792 = right side, facing right (back turned)
+65793 = left side, facing left (back turned)
+
+_DESCRIPTION:	P1_GroundAttackAllowed
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+0 = no
+1 = yes universal 8H+K/2K/2P etc. ground-hitting attacks are allowed
+
+_DESCRIPTION:	P1_HighMidLowGround
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+1 = high attack
+2 = medium attack. Some unique attacks that land in more than one position simultaneously such as Leifang's P+K and Gen Fu's 2P+K (midK+highP) are also listed as "2" 
+3 = low attack
+4 = ground attack
+255 = some unique attacks that land in more than one position simultaneously such as Bayman's 3P+KT which is high + ground
+
+_DESCRIPTION:	P1_LauncherHeight
+_VALUE TYPE:	Float
+_VALUE EXPLANATION:
+Shows how high you launched your opponent. Can also be found in the Move Details page 2, but the number is rounded to just 2 decimals there.
+
+_DESCRIPTION:	P1_MoveType
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Compared to P1_MoveTypeDetailed, this one updates 1 frame faster.
+0 = movement, idle animation
+2 = strikes
+3 = strikes (I don't know what the difference is)
+4 = inflicting throw animation
+5 = whiffed holds
+6 = inflicting hold animation
+7 = blockstun
+8 = critical stun, guard break
+9 = normal hit hitstun, air juggle
+10 = receiving throw animation
+11 = receiving hold animation
+12 = down status
+13 = movement based commands with no damage such as sidesteps, attacks charging, taunts, character select poses 
+14 = down-only strike (8P+K, 2P, 2K, 3P, 3K)
+15 = receiving down-only strike
+16 = whiffed throws, whiffed offensive holds
+
+_DESCRIPTION:	P1_MoveTypeDetailed
+_VALUE TYPE:	4 Bytes
+_VALUE EXPLANATION:
+^same as the above P1_MoveType, except they only apply to the startup frames for this value. Here some MoveTypeDetailed specific examples:
+2 = strike startup frames
+65538 = strike active frames
+131074 = strike recovery frames
+3 = strike startup frames
+65539 = strike active frames
+131075 = strike recovery frames
+65541 = hold active frames
+131077 = hold recovery frames
+16 = throw/Offensive Hold startup frames
+65552 = throw/OH active frames
+131088 = throw/OH recovery frames
+65536 = happens AFTER the last few frames of Mai 236P projectile for whatever reason
+131072 = happens AFTER after the above explained 65536 status frames, when no buttons are pressed so it's cancellable... go figure
+
+_DESCRIPTION:	P1_Reach
+_VALUE TYPE:	Float
+_VALUE EXPLANATION:
+Shows the range of your attacks. Can also be found in the Move Details page 2, but the number is rounded to just 2 decimals there.
+
+_DESCRIPTION:	P1_Stance
+_VALUE TYPE:	2 Bytes
+_VALUE EXPLANATION:
+0 = Standing
+1 = Crouching/Squatting
+256 = ground
+257 = ground 2 (Jann Lee's 4KKP causes it for a few frames)
+512 = rolling on the floor (like when receiving Ein's 236P)
+513 = rolling on the floor 2 (a few frames of Tina's 66P+K)
+768 = air (like when receiving Ein's 4K)
+769 = air 2 (when executing Hayabusa's headbutt 6P+K from Ongyoin or a few frames of Tina's 66P+K)
+
+_DESCRIPTION:	P1_StrikeType
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+0 = High Punch
+1 = High Kick
+2 = Medium Punch
+3 = Medium Kick
+4 = Low Punch
+5 = Low Kick
+255 = not a strike (hold/throw/ground attack)
+
+_DESCRIPTION:	P1_TotalRecovery
+_VALUE TYPE:	2 Bytes
+_VALUE EXPLANATION:
+Can be checked from the Move Details. Value updates instantly when a move starts, not progressively. Make sure it's player-specific. There are several instances where this value is completely wrong, such as strikes that have different on hit/on whiff/on block animations (e.g. Alpha-152's 7K shows 0 recovery, and Mai's 236K shows 0 and 1), so this is not always reliable.
+
+_DESCRIPTION:	P1_TotalStartup
+_VALUE TYPE:	2 Bytes
+_VALUE EXPLANATION:
+Can be checked from the Move Details. Value updates instantly when a move starts, not progressively. Make sure it's player-specific. I'm only aware of 3 cases where the value is reported incorrectly: Leifang 1K (shows as 20 it's actually 17), Mai 236K (shows 1 for both hits), Akira knee (shows as 16 it's actually 18).
+
+_DESCRIPTION:	PX_BattlePhase
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+0 = nothing/black loading?
+1 = character intros + GET READY FIGHT
+2 = battle
+3 = KO phase
+5 = battle over
+7 = first time game boot?
+
+_DESCRIPTION:	PX_Distance
+_VALUE TYPE:	Float
+_VALUE EXPLANATION:
+Not player side specific. Can be checked from the Move Details page 2, but the number is rounded to just 2 decimals there. "Exact Value" scans are not recommended, use ranges or increases/decreases instead since it's Float type.
+
+_DESCRIPTION:	PX_Timer
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Not player side specific. This is the Timer of a match. This is a number that starts from 0, increases by 1 every second, and resets to 0 every time it reaches the current time limit set. If the time is set to unlimited, it resets after reaching 59.
+
+_DESCRIPTION:	PX_TotalActiveFrames
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Not player side specific, but it still works fine for what I need. Can be checked from the Move Details. Value changes instantly, not progressively. Correctly detects the active frames of holds.
+
+_DESCRIPTION:	P1_XAxis P1_YAxis
+_VALUE TYPE:	Float
+_VALUE EXPLANATION:
+This is the position of your character in the stage, editing this will teleport you around. This information I gathered is based on Dojo with the default spawn point:
+X=horizontal Y=vertical
+P1 X = -1
+P1 Y = 0
+P2 X = 1
+P2 Y = 0
+Walking up makes the Y go negative for both.
+
+_DESCRIPTION:	PX_KOTimer (freeze me to 100)
+_VALUE TYPE:	4 Bytes
+_VALUE EXPLANATION:
+This is the time you have to wait from one round to another while one of the characters is dead. Starts at 179 when the character(s) of one side dies and decreases by 1 every frame until it reaches 0 and the next round begins. Freeze it to something like 100 to have infinite KO time.
+The "infinite timer toggle" script contains a AOB scan script that toggles the related opcode behavior from dec to inc, thus making the KO Timer infinite or not, and it works in every version.
+Of all the addresses in the CT, this one seems to be the only one that stayed the same for several patches in a row for some reason.
+
+_DESCRIPTION:	P1_SlowmoKOMovementBlock
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Normally, ending a round with a "big" move puts the game in slow motion and stops the winner from moving. Freezing this address to 0 allows the winner to move freely.
+0 = movement allowed
+1 = movement disallowed
+
+_DESCRIPTION:	COM only toggle
+_VALUE TYPE:	(AOB scan)
+_VALUE EXPLANATION:
+Tick this script and start any offline mode match to sit and watch the AI battle each other. Also recommended to freeze all P1A_COMLevel to 7 together with it to make the matches more alive.
+
+_DESCRIPTION:	P1A_COMLevel
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+0 = COM difficulty Level 1
+7 = COM difficulty Level 8
+
+_DESCRIPTION:	change me (STAGE ID)
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+An AOB scan script is included with this one. Simply freezing this address into the desired stage will crash the game, you need to NOP the 3 opcodes that write to the address first. The 3rd opcode can only be triggered when playing online Ranked matches. Here's a list of available stages I tested:
+0	= Empty black stage, light effect, snow effect
+1	= Scramble 1
+2	= Scramble 2
+3	= Fuel 1
+4	= Fuel 2
+5	= Lab - closed capsules (story mode 66, 69)
+6	= Lab - open capsules 
+7	= Lab - destroyed story mode (story mode 70)
+8	= Flow
+9	= Primal
+10	= Sanctuary
+11	= Home 1
+12	= Home 2
+13	= Street 1
+14	= Street 2
+15	= The Show
+16	= The Tiger Show
+17	= Coming Soon
+18*	= crash
+19	= Hot Zone
+20	= The Ends of the Earth
+21	= The Ends of the Earth (story mode 12)
+22	= Depth
+23*	= infinite loading
+24	= Temple of the Dragon
+25	= Sakura
+26	= Fighting Entertainment
+27	= Dojo
+28*	= infinite loading
+29	= Sweat
+30	= Dead or Alive
+31	= Arrival
+32	= Empty black stage 2 with minuscule triangle texture at the center, medium dark, dirt effect
+33	= Zack Island
+34	= Forest
+35	= Sky City Tokyo
+36	= Desert Wasteland
+37	= Lost World
+38	= Aircraft Carrier
+39	= Lorelei 1
+40	= Lorelei 2
+41	= Haunted Lorelei 1
+42	= Haunted Lorelei 2
+43*	= infinite loading
+44*	= infinite loading
+45*	= infinite loading
+46	= Mila bar 1
+47	= Mila bar 2
+48	= Jann Lee/Leifang train
+49	= Helena ship 1
+50	= Mila shower/closet
+51	= Christie bar
+52	= Helena ship 2
+53	= Oil platform (sky)
+54	= Helena ship 3
+55	= Helena ship 4
+56	= Kasumi secret village
+57	= Infiltrating Depth
+58	= Christie bar 2
+59	= Zack helicopter
+60	= Circus (no walls)
+61	= Home (no walls)
+62	= Street (no walls)
+63	= Street 2 (no walls)
+63	= Street 3 (no walls)
+64	= Street 4 (no walls)
+65	= Sanctuary (no walls)
+66	= Lab (no walls)
+67	= Hot Zone (no walls)
+68	= Scramble (skyscrapers)
+69	= Scramble (no walls)
+70	= Oil platform (no walls)
+71	= Oil platform 2 (no walls)
+72	= Oil platform 3 (no walls)
+73	= Oil platform 4 (no walls)
+74*	= crash
+75*	= crash
+76*	= crash
+77*	= crash
+78*	= crash
+250*	= crash
+251*	= crash
+252*	= crash
+253*	= crash
+254*	= crash
+255	= Empty black stage 3, dark effect, Power Blows will crash
+(* means do not attempt)
+
+_DESCRIPTION:	P1A_Character P1_CurrentCharacter
+_VALUE TYPE:	Byte
+_VALUE EXPLANATION:
+Allows you to manipulate character selection and unlock hidden characters. P1A and P2A are for Solo (1vs1), P1A, P2A, P1B and P2B are for Tag (2vs2). The difference between Character and CurrentCharacter is that CurrentCharacter changes during the course of a match if you're playing Tag.
+Here's a list of all the numbers I tested:
+0	= Zack
+1	= Tina
+2	= Jann Lee
+3	= Ein
+4	= Hayabusa
+5	= Kasumi
+6	= Gen Fu
+7	= Helena
+8	= Leon
+9	= Bass/Mr. Strong
+10	= Kokoro
+11	= Hayate
+12	= Leifang
+13	= Ayane
+14	= Eliot
+15	= Lisa/La Mariposa
+16	= Alpha-152
+17*	= headless Kasumi
+18*	= headless Kasumi
+19	= Brad Wong
+20	= Christie
+21	= Hitomi
+22*	= startup screen
+23*	= headless Kasumi
+24	= Bayman
+25*	= headless Kasumi
+26*	= headless Kasumi
+27*	= headless Kasumi
+28*	= headless Kasumi
+29	= Rig
+30	= Mila
+31	= Akira
+32	= Sarah
+33	= Pai
+34*	= headless Kasumi
+35*	= Story Mode final boss Ayane
+36*	= Story Mode final boss Hayate
+37*	= Story Mode final boss Kasumi
+38*	= Story Mode final boss Hayabusa
+39	= Momiji
+40	= Rachel
+41	= Jacky
+42	= Marie Rose
+43	= Phase-4
+44	= Nyotengu
+45	= Honoka
+46	= Raidou
+47	= Naotora
+48	= Mai
+49	= infinite loading
+50	= infinite loading
+51	= infinite loading
+52	= infinite loading
+53	= infinite loading
+247	= infinite loading
+248	= infinite loading
+249	= infinite loading
+250	= crash
+251	= crash
+252	= infinite loading
+253	= random character and costume
+254	= crash
+255	= crash
+(* means special)
