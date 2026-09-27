@@ -30,8 +30,8 @@ undefined4 FUN_0004c660(int param_1,int param_2)
   auVar5._16_4_ = unaff_r4;
   auVar5._0_16_ = auVar3;
   auVar5._20_4_ = param_1;
-  uVar2 = ac & 0xfffffff8 | (uint)((char)g_motion_debug_render_mode < '\0') << 2;
-  ac = uVar2 | '\0' < (char)g_motion_debug_render_mode;
+  uVar2 = ac & 0xfffffff8 | (uint)((char)g_motion_debug_mode < '\0') << 2;
+  ac = uVar2 | '\0' < (char)g_motion_debug_mode;
   auVar5._28_36_ = in_register_00000014._8_36_;
   auVar5._24_4_ = param_2;
   if ((((byte)ac & 1 | (byte)(uVar2 >> 2) & 1) != 1) &&
