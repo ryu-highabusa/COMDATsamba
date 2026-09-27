@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2537</ID>
+      <Description>"DEAD OR ALIVE 5: Last Round"</Description>
+      <Options moHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+      <Color>C08000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+aobscanmodule(One,game.exe,0F B7 46 2C 33 C9 66)
+
+alloc(newmem,$1000)
+alloc(Two,1)
+alloc(Three,1)
+alloc(Four,1)
+alloc(Five,1)
+alloc(Six,1)
+alloc(Seven,1)
+
+registersymbol(One)
+registersymbol(Two)
+registersymbol(Three)
+registersymbol(Four)
+registersymbol(Five)
+registersymbol(Six)
+registersymbol(Seven)
+
+label(codeOne)
+label(codeTwo)
+label(codeThree)
+label(codeFour)
+label(codeFive)
+label(return)
+
+Two:
+  db 0
+
+Three:
+  db 0
+
+Four:
+  db 0
+
+Five:
+  db 0
+
+Six:
+  db 0
+
+Seven:
+  db 0
+
+newmem:
+  cmp ebx,1
+  jne codeOne
+  cmp byte ptr [Two],1
+  je codeTwo
+  cmp byte ptr [Four],1
+  je codeThree
+  cmp byte ptr [Six],1
+  je codeFour
+  jmp codeFive
+
+codeOne:
+  cmp byte ptr [Three],1
+  je codeTwo
+  cmp byte ptr [Five],1
+  je codeThree
+  cmp byte ptr [Seven],1
+  je codeFour
+  jmp codeFive
+
+codeTwo:
+  mov ax,word ptr [esi+2E]
+  mov word ptr [esi+2C],ax
+  jmp codeFive
+
+codeThree:
+  xor ax,ax
+  mov word ptr [esi+2C],ax
+  jmp codeFive
+
+codeFour:
+  cmp word ptr [esi+2C],1
+  jbe codeFive
+  mov word ptr [esi+2C],1
+
+codeFive:
+  movzx eax,word ptr [esi+2C]
+  xor ecx,ecx
+  jmp return
+
+One:
+  jmp newmem
+  nop
+
+return:
+
+[DISABLE]
+
+One:
+  db 0F B7 46 2C 33 C9
+
+unregistersymbol(One)
+unregistersymbol(Two)
+unregistersymbol(Three)
+unregistersymbol(Four)
+unregistersymbol(Five)
+unregistersymbol(Six)
+unregistersymbol(Seven)
+
+dealloc(newmem)
+dealloc(Two)
+dealloc(Three)
+dealloc(Four)
+dealloc(Five)
+dealloc(Six)
+dealloc(Seven)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"==== Player 1 ===="</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <Color>C080FF</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>87</ID>
+              <Description>"Freeze Time"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+aobscanmodule(Eight,game.exe,FF 41 1C 8B 51 1C)
+registersymbol(Eight)
+
+game.exe+312BB5:
+  db 90 90 90
+
+[DISABLE]
+
+Eight:
+  db FF 41 1C
+
+unregistersymbol(Eight)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3</ID>
+              <Description>"Infinite Health"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+Two:
+  db 1
+
+[DISABLE]
+
+Two:
+  db 0
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7</ID>
+              <Description>"Instant Win"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+Five:
+  db 1
+
+[DISABLE]
+
+Five:
+  db 0
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>121</ID>
+              <Description>"Quick Win"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+Seven:
+  db 1
+
+[DISABLE]
+
+Seven:
+  db 0
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"==== Player 2 ===="</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <Color>C080FF</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"Infinite Health"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+Three:
+  db 1
+
+[DISABLE]
+
+Three:
+  db 0
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"Instant Win"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+Four:
+  db 1
+
+[DISABLE]
+
+Four:
+  db 0
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>122</ID>
+              <Description>"Quick Win"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+Six:
+  db 1
+
+[DISABLE]
+
+Six:
+  db 0
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>79</ID>
+          <Description>"== CPU vs CPU ==="</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <Color>C080FF</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2535</ID>
+              <Description>"Player 1"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+{$lua}
+  if not player1 then
+  player1 = {}
+  player1.addr1 = getAddress("game.exe+FD0540")
+  player1.addr2 = getAddress("game.exe+F9D0B4")
+  player1.originalValue = readBytes(player1.addr2,1)
+
+  player1.timer = createTimer(nil,false)
+  player1.timer.Interval = 1000
+  player1.timer.OnTimer = function()
+  writeInteger(player1.addr1,0)
+  writeBytes(player1.addr2,7)
+  end
+  player1.timer.setEnabled(true)
+  end
+{$asm}
+
+[DISABLE]
+
+{$lua}
+  if player1 then
+  writeInteger(player1.addr1,1)
+  writeBytes(player1.addr2,player1.originalValue)
+
+  player1.timer.setEnabled(false)
+  player1.timer.destroy()
+  player1 = nil
+  end
+{$asm}
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2536</ID>
+              <Description>"Player 2"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+{$lua}
+  if not player2 then
+  player2 = {}
+  player2.addr1 = getAddress("game.exe+FD0C08")
+  player2.addr2 = getAddress("game.exe+F9D0B5")
+  player2.originalValue = readBytes(player2.addr2,1)
+
+  player2.timer = createTimer(nil,false)
+  player2.timer.Interval = 1000
+  player2.timer.OnTimer = function()
+  writeInteger(player2.addr1,0)
+  writeBytes(player2.addr2,7)
+  end
+  player2.timer.setEnabled(true)
+  end
+{$asm}
+
+[DISABLE]
+
+{$lua}
+  if player2 then
+  writeInteger(player2.addr1,1)
+  writeBytes(player2.addr2,player2.originalValue)
+
+  player2.timer.setEnabled(false)
+  player2.timer.destroy()
+  player2 = nil
+  end
+{$asm}
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2087</ID>
+              <Description>"⬆The computer players can get stuck sometimes; disable and then re-enable them."</Description>
+              <Color>C0C0C0</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>120</ID>
+          <Description>"==== Extras ====="</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <Color>C080FF</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Score"</Description>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">??:Waiting
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>C08000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>game.exe+FCDE5C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2100</ID>
+              <Description>"Breast Motion"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">*:Waiting
+0:Off
+1:Natural
+2:DOA
+3:OMG
+</DropDownList>
+              <Color>C08000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>game.exe+F744AC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2103</ID>
+              <Description>"Unlock Titles"</Description>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+aobscanmodule(Nine,game.exe,84 04 32 B8 00 00 00 00 0F 95 C0 5E 5D C3 CC CC CC CC 55 8B EC 8A)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  mov byte ptr [edx+esi],FF
+  mov eax,00000000
+  jmp return
+
+Nine:
+  jmp newmem
+  nop 3
+
+return:
+registersymbol(Nine)
+
+[DISABLE]
+
+Nine:
+  db 84 04 32 B8 00 00 00 00
+
+unregistersymbol(Nine)
+dealloc(newmem)
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2104</ID>
+              <Description>"⬆Enable before entering the titles screen."</Description>
+              <Color>C0C0C0</Color>
+              <GroupHeader>1</GroupHeader>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>118</ID>
+              <Description>"Unlock Costumes"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <Color>C08000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+aobscanmodule(Ten,game.exe,0F B6 84 10 C1 78 ?? 01 5D C3 CC)
+aobscanmodule(Eleven,game.exe,0F B6 84 08 D7 78 ?? 01 5D C3 CC)
+
+alloc(newmemOne,$1000)
+alloc(newmemTwo,$1000)
+alloc(Twelve,8)
+alloc(Thirteen,8)
+
+registersymbol(Ten)
+registersymbol(Eleven)
+registersymbol(Twelve)
+registersymbol(Thirteen)
+
+label(codeOne)
+label(codeTwo)
+label(returnOne)
+label(returnTwo)
+
+Twelve:
+readmem(Ten,8)
+
+Thirteen:
+readmem(Eleven,8)
+
+newmemOne:
+
+codeOne:
+  mov byte ptr [eax+edx+game.exe+F778C1],1
+  movzx eax,byte ptr [eax+edx+game.exe+F778C1]
+  jmp returnOne
+
+Ten:
+  jmp newmemOne
+  nop 3
+
+returnOne:
+
+newmemTwo:
+
+codeTwo:
+  mov byte ptr [eax+ecx+game.exe+F778D7],1
+  movzx eax,byte ptr [eax+ecx+game.exe+F778D7]
+  jmp returnTwo
+
+Eleven:
+  jmp newmemTwo
+  nop 3
+
+returnTwo:
+
+[DISABLE]
+
+Ten:
+  readmem(Twelve,8)
+
+Eleven:
+  readmem(Thirteen,8)
+
+unregistersymbol(Ten)
+unregistersymbol(Eleven)
+unregistersymbol(Twelve)
+unregistersymbol(Thirteen)
+
+dealloc(newmemOne)
+dealloc(newmemTwo)
+dealloc(Twelve)
+dealloc(Thirteen)
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2107</ID>
+                  <Description>"This will only unlock the default character costumes."</Description>
+                  <Color>C0C0C0</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2108</ID>
+                  <Description>"Downloadable costumes require extra game files."</Description>
+                  <Color>C0C0C0</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2530</ID>
+              <Description>"Training Completed"</Description>
+              <Options moDeactivateChildrenAsWell="1"/>
+              <Color>C08000</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>115</ID>
+                  <Description>"Tutorial"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <Color>808080</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(Fourteen,game.exe,80 B8 C0 77 ?? 01 00)
+
+alloc(newmem,$1000)
+alloc(Fifteen,7)
+
+registersymbol(Fourteen)
+registersymbol(Fifteen)
+
+label(code)
+label(return)
+
+Fifteen:
+readmem(Fourteen,7)
+
+newmem:
+
+code:
+  mov byte ptr [eax+game.exe+F777C0],1
+  jmp return
+
+Fourteen:
+  jmp newmem
+  nop 2
+
+return:
+
+[DISABLE]
+
+Fourteen:
+  readmem(Fifteen,7)
+
+unregistersymbol(Fourteen)
+unregistersymbol(Fifteen)
+
+dealloc(newmem)
+dealloc(Fifteen)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2541</ID>
+                      <Description>"Enable before entering Tutorial."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>116</ID>
+                  <Description>"Combo Challenge"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <Color>808080</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(Sixteen,game.exe,80 BC 08 20 46 ?? 01 00)
+
+alloc(newmem,$1000)
+alloc(Seventeen,8)
+
+registersymbol(Sixteen)
+registersymbol(Seventeen)
+
+label(code)
+label(return)
+
+Seventeen:
+readmem(Sixteen,8)
+
+newmem:
+
+code:
+  mov byte ptr [eax+ecx+game.exe+F74620],1
+  jmp return
+
+Sixteen:
+  jmp newmem
+  nop 3
+
+return:
+
+[DISABLE]
+
+Sixteen:
+  readmem(Seventeen,8)
+
+unregistersymbol(Sixteen)
+unregistersymbol(Seventeen)
+
+dealloc(newmem)
+dealloc(Seventeen)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2540</ID>
+                      <Description>"Enable before entering Combo Challenge."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2539</ID>
+                      <Description>"Enter the Combo Challenge character select screen, highlight each character, then exit and disable."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2538</ID>
+                      <Description>"To unlock any rewards, such as titles, you must complete one with each character afterward."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>117</ID>
+                  <Description>"Command Training"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <Color>808080</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(Eighteen,game.exe,80 BC 08 20 45 ?? 01 00)
+
+alloc(newmem,$1000)
+alloc(Nineteen,8)
+
+registersymbol(Eighteen)
+registersymbol(Nineteen)
+
+label(code)
+label(return)
+
+Nineteen:
+readmem(Eighteen,8)
+
+newmem:
+
+code:
+  mov byte ptr [eax+ecx+game.exe+F74520],1
+  jmp return
+
+Eighteen:
+  jmp newmem
+  nop 3
+
+return:
+
+[DISABLE]
+
+Eighteen:
+  readmem(Nineteen,8)
+
+unregistersymbol(Eighteen)
+unregistersymbol(Nineteen)
+
+dealloc(newmem)
+dealloc(Nineteen)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2542</ID>
+                      <Description>"Enable before entering Command Training."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2543</ID>
+                      <Description>"Enter the Command Training character select screen, highlight each character, then exit and disable."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2544</ID>
+                      <Description>"To unlock any rewards, such as titles, you must complete one with each character afterward."</Description>
+                      <Color>C0C0C0</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Created by: Outrun
+https://opencheattables.com</Comments>
+</CheatTable>
