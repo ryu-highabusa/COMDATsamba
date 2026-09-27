@@ -2,10 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void CharacterSelect_RunScene
-               (undefined4 param_1,undefined4 param_2,undefined4 param_3,uint param_4,
-               undefined4 param_5,uint param_6,ushort *param_7,uint param_8,undefined4 param_9,
-               undefined4 param_10,undefined4 param_11,undefined4 param_12)
+void CharacterSelect_RunScene(void)
 
 {
   undefined1 (*pauVar1) [64];
@@ -105,6 +102,7 @@ void CharacterSelect_RunScene
   undefined1 auVar137 [64];
   undefined1 auVar138 [64];
   undefined4 *puVar140;
+  undefined4 in_g1;
   undefined4 extraout_g1;
   undefined4 extraout_g1_00;
   undefined4 extraout_g1_01;
@@ -114,15 +112,24 @@ void CharacterSelect_RunScene
   undefined4 extraout_g1_05;
   undefined4 extraout_g1_06;
   undefined4 extraout_g1_07;
+  undefined4 in_g2;
   undefined4 uVar141;
+  uint in_g3;
   undefined2 *puVar142;
   uint uVar143;
   undefined4 uVar144;
   undefined4 uVar145;
   int iVar146;
+  uint in_g5;
   dword dVar147;
   undefined4 uVar148;
+  ushort *in_g6;
   undefined4 uVar149;
+  uint in_g7;
+  undefined4 in_g8;
+  undefined4 in_g9;
+  undefined4 in_g10;
+  undefined4 in_g11;
   undefined8 uVar150;
   undefined1 auStackX_0 [64];
   undefined1 auStack_40 [64];
@@ -201,8 +208,7 @@ void CharacterSelect_RunScene
   auVar37._8_56_ = auVar38._8_56_;
   auVar37._4_4_ = auStackX_0;
   auVar37._0_4_ = fp;
-  FUN_000389f0(0xff,param_2,param_3,param_4,uVar143,param_6,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_000389f0(0xff,in_g1,in_g2,in_g3,uVar143,in_g5,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auStackX_0._12_52_ = auVar37._12_52_;
   auStackX_0._0_8_ = auVar37._0_8_;
   auStackX_0._8_4_ = 0x1490c;
@@ -333,8 +339,8 @@ void CharacterSelect_RunScene
   *(undefined1 (*) [64])(uVar143 & 0xffffffc0) = auVar56;
   auVar55._8_56_ = auVar56._8_56_;
   auVar55._0_8_ = CONCAT44(pauVar1 + 1,uVar143) & 0xffffffffffffffc0;
-  uVar150 = FUN_00013940((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),param_3,param_4,uVar144,
-                         dVar147,param_7,param_8,param_9,param_10,param_11,param_12);
+  uVar150 = FUN_00013940((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,
+                         in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar58._12_52_ = auVar55._12_52_;
   auVar58._0_8_ = auVar55._0_8_;
   auVar58._8_4_ = 0x149d8;
@@ -342,8 +348,8 @@ void CharacterSelect_RunScene
   auVar57._8_56_ = auVar58._8_56_;
   auVar57._4_4_ = pauVar1 + 2;
   auVar57._0_4_ = pauVar1 + 1;
-  FUN_00013b00((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),param_3,param_4,uVar144,dVar147,
-               param_7,param_8,param_9,param_10,param_11,param_12);
+  FUN_00013b00((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,in_g6,
+               in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar60._12_52_ = auVar57._12_52_;
   auVar60._0_8_ = auVar57._0_8_;
   auVar60._8_4_ = 0x149e0;
@@ -367,8 +373,8 @@ void CharacterSelect_RunScene
   auVar63._8_56_ = auVar64._8_56_;
   auVar63._4_4_ = pauVar1 + 5;
   auVar63._0_4_ = pauVar1 + 4;
-  FUN_00039240((int *)&DAT_00555660,0x15,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,
-               param_10,param_11,param_12);
+  FUN_00039240((int *)&DAT_00555660,0x15,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,
+               in_g11);
   auVar66._12_52_ = auVar63._12_52_;
   auVar66._0_8_ = auVar63._0_8_;
   auVar66._8_4_ = 0x149fc;
@@ -384,8 +390,8 @@ void CharacterSelect_RunScene
   auVar67._8_56_ = auVar68._8_56_;
   auVar67._4_4_ = pauVar1 + 7;
   auVar67._0_4_ = pauVar1 + 6;
-  uVar150 = FUN_00039240((int *)&DAT_0055566c,0x15,param_3,param_4,uVar144,dVar147,param_7,param_8,
-                         param_9,param_10,param_11,param_12);
+  uVar150 = FUN_00039240((int *)&DAT_0055566c,0x15,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,
+                         in_g9,in_g10,in_g11);
   auVar70._12_52_ = auVar67._12_52_;
   auVar70._0_8_ = auVar67._0_8_;
   auVar70._8_4_ = 0x14a10;
@@ -393,8 +399,8 @@ void CharacterSelect_RunScene
   auVar69._8_56_ = auVar70._8_56_;
   auVar69._4_4_ = pauVar1 + 8;
   auVar69._0_4_ = pauVar1 + 7;
-  FUN_000148c0((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),param_3,param_4,uVar144,dVar147,
-               param_7,param_8,param_9,param_10,param_11,param_12);
+  FUN_000148c0((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,in_g6,
+               in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar72._12_52_ = auVar69._12_52_;
   auVar72._0_8_ = auVar69._0_8_;
   auVar72._8_4_ = 0x14a18;
@@ -410,8 +416,7 @@ void CharacterSelect_RunScene
   auVar73._8_56_ = auVar74._8_56_;
   auVar73._4_4_ = pauVar1 + 10;
   auVar73._0_4_ = pauVar1 + 9;
-  FUN_00013790(0,extraout_g1,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(0,extraout_g1,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar76._12_52_ = auVar73._12_52_;
   auVar76._0_8_ = auVar73._0_8_;
   auVar76._8_4_ = 0x14a28;
@@ -419,8 +424,7 @@ void CharacterSelect_RunScene
   auVar75._8_56_ = auVar76._8_56_;
   auVar75._4_4_ = pauVar1 + 0xb;
   auVar75._0_4_ = pauVar1 + 10;
-  FUN_00013790(1,extraout_g1_00,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(1,extraout_g1_00,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar78._12_52_ = auVar75._12_52_;
   auVar78._0_8_ = auVar75._0_8_;
   auVar78._8_4_ = 0x14a30;
@@ -428,8 +432,7 @@ void CharacterSelect_RunScene
   auVar77._8_56_ = auVar78._8_56_;
   auVar77._4_4_ = pauVar1 + 0xc;
   auVar77._0_4_ = pauVar1 + 0xb;
-  FUN_00013790(2,extraout_g1_01,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(2,extraout_g1_01,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar80._12_52_ = auVar77._12_52_;
   auVar80._0_8_ = auVar77._0_8_;
   auVar80._8_4_ = 0x14a38;
@@ -437,8 +440,7 @@ void CharacterSelect_RunScene
   auVar79._8_56_ = auVar80._8_56_;
   auVar79._4_4_ = pauVar1 + 0xd;
   auVar79._0_4_ = pauVar1 + 0xc;
-  FUN_00013790(4,extraout_g1_02,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(4,extraout_g1_02,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar82._12_52_ = auVar79._12_52_;
   auVar82._0_8_ = auVar79._0_8_;
   auVar82._8_4_ = 0x14a40;
@@ -446,8 +448,7 @@ void CharacterSelect_RunScene
   auVar81._8_56_ = auVar82._8_56_;
   auVar81._4_4_ = pauVar1 + 0xe;
   auVar81._0_4_ = pauVar1 + 0xd;
-  FUN_00013790(5,extraout_g1_03,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(5,extraout_g1_03,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar84._12_52_ = auVar81._12_52_;
   auVar84._0_8_ = auVar81._0_8_;
   auVar84._8_4_ = 0x14a48;
@@ -455,8 +456,7 @@ void CharacterSelect_RunScene
   auVar83._8_56_ = auVar84._8_56_;
   auVar83._4_4_ = pauVar1 + 0xf;
   auVar83._0_4_ = pauVar1 + 0xe;
-  FUN_00013790(6,extraout_g1_04,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(6,extraout_g1_04,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar86._12_52_ = auVar83._12_52_;
   auVar86._0_8_ = auVar83._0_8_;
   auVar86._8_4_ = 0x14a50;
@@ -464,8 +464,7 @@ void CharacterSelect_RunScene
   auVar85._8_56_ = auVar86._8_56_;
   auVar85._4_4_ = pauVar1 + 0x10;
   auVar85._0_4_ = pauVar1 + 0xf;
-  FUN_00013790(8,extraout_g1_05,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(8,extraout_g1_05,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar88._12_52_ = auVar85._12_52_;
   auVar88._0_8_ = auVar85._0_8_;
   auVar88._8_4_ = 0x14a58;
@@ -473,8 +472,8 @@ void CharacterSelect_RunScene
   auVar87._8_56_ = auVar88._8_56_;
   auVar87._4_4_ = pauVar1 + 0x11;
   auVar87._0_4_ = pauVar1 + 0x10;
-  FUN_00013790(0xc,extraout_g1_06,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(0xc,extraout_g1_06,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11)
+  ;
   auVar90._12_52_ = auVar87._12_52_;
   auVar90._0_8_ = auVar87._0_8_;
   auVar90._8_4_ = 0x14a60;
@@ -482,8 +481,8 @@ void CharacterSelect_RunScene
   auVar89._8_56_ = auVar90._8_56_;
   auVar89._4_4_ = pauVar1 + 0x12;
   auVar89._0_4_ = pauVar1 + 0x11;
-  FUN_00013790(0xb,extraout_g1_07,param_3,param_4,uVar144,dVar147,param_7,param_8,param_9,param_10,
-               param_11,param_12);
+  FUN_00013790(0xb,extraout_g1_07,in_g2,in_g3,uVar144,dVar147,in_g6,in_g7,in_g8,in_g9,in_g10,in_g11)
+  ;
   auVar92._12_52_ = auVar89._12_52_;
   auVar92._0_8_ = auVar89._0_8_;
   auVar92._8_4_ = 0x14a68;
@@ -499,8 +498,8 @@ void CharacterSelect_RunScene
   auVar93._8_56_ = auVar94._8_56_;
   auVar93._4_4_ = pauVar1 + 0x14;
   auVar93._0_4_ = pauVar1 + 0x13;
-  FUN_00015310((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),param_3,param_4,uVar144,dVar147,
-               param_7,param_8,param_9,param_10,param_11,param_12);
+  FUN_00015310((int)uVar150,(int)((ulonglong)uVar150 >> 0x20),in_g2,in_g3,uVar144,dVar147,in_g6,
+               in_g7,in_g8,in_g9,in_g10,in_g11);
   auVar96._12_52_ = auVar93._12_52_;
   auVar96._0_8_ = auVar93._0_8_;
   auVar96._8_4_ = 0x14a74;
@@ -521,8 +520,8 @@ void CharacterSelect_RunScene
   auVar97._8_56_ = auVar98._8_56_;
   auVar97._4_4_ = pauVar1 + 0x16;
   auVar97._0_4_ = pauVar1 + 0x15;
-  FUN_000393d0((int *)&DAT_00555620,auVar51._20_4_ + 0x1000001,1,0,0xb,1,0xa5,param_8,param_9,
-               param_10,param_11,param_12);
+  FUN_000393d0((int *)&DAT_00555620,auVar51._20_4_ + 0x1000001,1,0,0xb,1,0xa5,in_g7,in_g8,in_g9,
+               in_g10,in_g11);
   DAT_00557b70 = g14;
   DAT_00557bac = g14;
   DAT_00557b74 = g14;
@@ -560,8 +559,8 @@ void CharacterSelect_RunScene
   auVar99._8_56_ = auVar100._8_56_;
   auVar99._4_4_ = pauVar1 + 0x17;
   auVar99._0_4_ = pauVar1 + 0x16;
-  FUN_00039240((int *)&DAT_00555640,0x11,uVar141,uVar144,uVar145,uVar148,uVar149,param_8,param_9,
-               param_10,param_11,param_12);
+  FUN_00039240((int *)&DAT_00555640,0x11,uVar141,uVar144,uVar145,uVar148,uVar149,in_g7,in_g8,in_g9,
+               in_g10,in_g11);
   auVar102._12_52_ = auVar99._12_52_;
   auVar102._0_8_ = auVar99._0_8_;
   auVar102._8_4_ = 0x14bac;
@@ -569,8 +568,8 @@ void CharacterSelect_RunScene
   auVar101._8_56_ = auVar102._8_56_;
   auVar101._4_4_ = pauVar1 + 0x18;
   auVar101._0_4_ = pauVar1 + 0x17;
-  FUN_00039240((int *)&DAT_0055564c,0x11,uVar141,uVar144,uVar145,uVar148,uVar149,param_8,param_9,
-               param_10,param_11,param_12);
+  FUN_00039240((int *)&DAT_0055564c,0x11,uVar141,uVar144,uVar145,uVar148,uVar149,in_g7,in_g8,in_g9,
+               in_g10,in_g11);
   auVar104._12_52_ = auVar101._12_52_;
   auVar104._0_8_ = auVar101._0_8_;
   auVar104._8_4_ = 0x14bb8;
@@ -687,8 +686,8 @@ LAB_00014d80:
       auVar107._8_56_ = auVar109._8_56_;
       auVar107._4_4_ = pauVar1 + 0x1d;
       auVar107._0_4_ = pauVar2;
-      FUN_000393d0((int *)&DAT_00555640,0x1000000,1,0,1,0x19,(int)(short)wVar4,0,param_9,param_10,
-                   param_11,param_12);
+      FUN_000393d0((int *)&DAT_00555640,0x1000000,1,0,1,0x19,(int)(short)wVar4,0,in_g8,in_g9,in_g10,
+                   in_g11);
       g13 = 0xfe;
       DAT_00557c06 = 0xfe;
     }
@@ -705,8 +704,8 @@ LAB_00014d80:
       auVar107._8_56_ = auVar110._8_56_;
       auVar107._4_4_ = pauVar1 + 1;
       auVar107._0_4_ = fp;
-      FUN_000393d0((int *)&DAT_0055564c,0x1000000,1,0,0x28,0x19,(int)(short)wVar4,uVar143,param_9,
-                   param_10,param_11,param_12);
+      FUN_000393d0((int *)&DAT_0055564c,0x1000000,1,0,0x28,0x19,(int)(short)wVar4,uVar143,in_g8,
+                   in_g9,in_g10,in_g11);
       g13 = 0xfe;
       DAT_00557c07 = 0xfe;
       fp = pauVar1;
@@ -729,8 +728,8 @@ LAB_00014d80:
       auVar117._8_56_ = auVar118._8_56_;
       auVar117._4_4_ = pauVar1 + 0x1c;
       auVar117._0_4_ = pauVar2;
-      FUN_000393d0((int *)&DAT_00555640,0x1000000,1,0,1,0x19,(int)(short)wVar4,uVar143,param_9,
-                   param_10,param_11,param_12);
+      FUN_000393d0((int *)&DAT_00555640,0x1000000,1,0,1,0x19,(int)(short)wVar4,uVar143,in_g8,in_g9,
+                   in_g10,in_g11);
       wVar4 = (&WORD_00090a90)[g_player2.character_id];
       pauVar2 = pauVar1 + 0x1d;
       auVar119._12_52_ = auVar117._12_52_;
@@ -740,8 +739,8 @@ LAB_00014d80:
       auVar107._8_56_ = auVar119._8_56_;
       auVar107._4_4_ = pauVar1 + 0x1e;
       auVar107._0_4_ = pauVar1 + 0x1c;
-      FUN_000393d0((int *)&DAT_0055564c,0x1000000,1,0,0x28,0x19,(int)(short)wVar4,uVar143,param_9,
-                   param_10,param_11,param_12);
+      FUN_000393d0((int *)&DAT_0055564c,0x1000000,1,0,0x28,0x19,(int)(short)wVar4,uVar143,in_g8,
+                   in_g9,in_g10,in_g11);
       uVar3 = ac;
       g13 = 0xfe;
       uVar143 = ac & 0xfffffff8 | (uint)(g_player1.controller_type == COM) << 2;
@@ -781,8 +780,8 @@ LAB_00014d80:
       auVar112._8_56_ = auVar113._8_56_;
       auVar112._4_4_ = pauVar1 + 0x1c;
       auVar112._0_4_ = pauVar2;
-      FUN_000393d0((int *)&DAT_00555640,0x1000000,1,0,1,0x19,(int)(short)wVar4,uVar143,param_9,
-                   param_10,param_11,param_12);
+      FUN_000393d0((int *)&DAT_00555640,0x1000000,1,0,1,0x19,(int)(short)wVar4,uVar143,in_g8,in_g9,
+                   in_g10,in_g11);
       wVar4 = (&WORD_00090a90)[g_player2.character_id];
       fp = pauVar1 + 0x1d;
       auVar114._12_52_ = auVar112._12_52_;
@@ -792,8 +791,8 @@ LAB_00014d80:
       auVar107._8_56_ = auVar114._8_56_;
       auVar107._4_4_ = pauVar1 + 0x1e;
       auVar107._0_4_ = pauVar1 + 0x1c;
-      FUN_000393d0((int *)&DAT_0055564c,0x1000000,1,0,0x28,0x19,(int)(short)wVar4,uVar143,param_9,
-                   param_10,param_11,param_12);
+      FUN_000393d0((int *)&DAT_0055564c,0x1000000,1,0,0x28,0x19,(int)(short)wVar4,uVar143,in_g8,
+                   in_g9,in_g10,in_g11);
       uVar3 = ac;
       g13 = 0xfe;
       uVar143 = ac & 0xfffffff8 | (uint)(g_player1.controller_type == COM) << 2;
