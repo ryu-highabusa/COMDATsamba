@@ -12,7 +12,7 @@ void FUN_000148f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint 
   uint uVar3;
   word wVar4;
   byte bVar5;
-  DOA1_NAME_ID DVar6;
+  uint8_t uVar6;
   uint uVar7;
   undefined4 unaff_pfp;
   undefined1 auVar9 [20];
@@ -602,45 +602,45 @@ void FUN_000148f0(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint 
   CharSelSlot5_Leifang_00557a95 = name_leifang;
   CharSelSlot6_Genfu_00557a96 = name_genfu;
   CharSelSlot7_Tina_00557a97 = name_tina;
-  CharSelSlot0_Zack_00557a90 = (DOA1_NAME_ID)g14;
+  CharSelSlot0_Zack_00557a90 = (byte)g14;
   iVar146 = 8;
   if (SettingsUnlisted_UnlockRaidou_00557a84 == 1) {
     iVar146 = 9;
     CharSelSlot8_Raidou_00557a98 = name_raidou;
   }
   g13 = 0xff;
-  (&CharSelSlot0_Zack_00557a90)[iVar146] = ~name_zack;
-  CharSel_numberofslots____00557bf4 = (DOA1_NAME_ID)g14;
-  DVar6 = CharSelSlot0_Zack_00557a90;
-  while (ac = ac & 0xfffffff8, DVar6 != ~name_zack) {
-    CharSel_numberofslots____00557bf4 = CharSel_numberofslots____00557bf4 + name_tina;
-    DVar6 = (&CharSelSlot0_Zack_00557a90)[CharSel_numberofslots____00557bf4];
+  (&CharSelSlot0_Zack_00557a90)[iVar146] = 0xff;
+  CharSel_numberofslots____00557bf4 = (byte)g14;
+  uVar6 = CharSelSlot0_Zack_00557a90;
+  while (ac = ac & 0xfffffff8, uVar6 != 0xff) {
+    CharSel_numberofslots____00557bf4 = CharSel_numberofslots____00557bf4 + 1;
+    uVar6 = (&CharSelSlot0_Zack_00557a90)[CharSel_numberofslots____00557bf4];
   }
-  if (CharSel_numberofslots____00557bf4 < name_unknown_09) {
+  if (CharSel_numberofslots____00557bf4 < 9) {
     DAT_00557bf5 = 0xf;
     DAT_00557a88 = 4;
     DAT_00557bf6 = 0xf;
     g13 = 4;
   }
-  else if (CharSel_numberofslots____00557bf4 == name_unknown_09) {
+  else if (CharSel_numberofslots____00557bf4 == 9) {
     DAT_00557bf5 = 0xf;
     DAT_00557a88 = 4;
     DAT_00557bf6 = 0xb;
     g13 = 5;
   }
-  else if (CharSel_numberofslots____00557bf4 == name_unknown_0a) {
+  else if (CharSel_numberofslots____00557bf4 == 10) {
     DAT_00557bf5 = 0xb;
     DAT_00557a88 = 5;
     DAT_00557bf6 = 0xb;
     g13 = 5;
   }
   else {
-    if (CharSel_numberofslots____00557bf4 == name_raidou) {
+    if (CharSel_numberofslots____00557bf4 == 0xb) {
       DAT_00557bf5 = 0xb;
       g13._0_1_ = 5;
     }
     else {
-      if (CharSel_numberofslots____00557bf4 < name_leifang) goto LAB_00014d80;
+      if (CharSel_numberofslots____00557bf4 < 0xc) goto LAB_00014d80;
       DAT_00557bf5 = 7;
       g13._0_1_ = 6;
     }
@@ -654,15 +654,15 @@ LAB_00014d80:
   DAT_00557bfc = g14;
   if ((((DAT_0054fd03 == 0) && (TimeTotal_Minutes_0054fd15 == 0)) &&
       (TimeTotal_Seconds_0054fd16 == 0)) && (TimeTotal_MilliSeconds_0054fd17 == 0)) {
-    DAT_00557c00 = (DOA1_NAME_ID)g14;
-    DAT_00557c01 = (DOA1_NAME_ID)g14;
-    DAT_00557c02 = name_tina;
+    DAT_00557c00 = (byte)g14;
+    DAT_00557c01 = (byte)g14;
+    DAT_00557c02 = 1;
     DAT_00557c04 = 2;
     g13 = 4;
     DAT_00557c05 = 4;
   }
   else {
-    DAT_00557c02 = (DOA1_NAME_ID)g14;
+    DAT_00557c02 = (byte)g14;
   }
   DAT_00557c06 = 0xff;
   uVar143 = (uint)DAT_0054fd03;
@@ -753,9 +753,8 @@ LAB_00014d80:
         uVar143 = (uint)g_player1.character_id;
         ac = uVar3 & 0xfffffff8 | (uint)(g_player2.character_id < uVar143);
         if (((byte)ac & 1 | uVar143 < g_player2.character_id) != 1) {
-          ac = uVar3 & 0xfffffff8 | (uint)(DAT_00557c02 != name_zack) << 2 |
-               (uint)(DAT_00557c02 == name_zack) << 1;
-          if (DAT_00557c02 == name_zack) {
+          ac = uVar3 & 0xfffffff8 | (uint)(DAT_00557c02 != 0) << 2 | (uint)(DAT_00557c02 == 0) << 1;
+          if (DAT_00557c02 == 0) {
             (&DAT_00557bac)[uVar143] = (uint)g_player2.costume_id;
           }
           fp = pauVar1 + 0x1e;
@@ -805,9 +804,8 @@ LAB_00014d80:
         uVar143 = (uint)g_player1.character_id;
         ac = uVar3 & 0xfffffff8 | (uint)(g_player2.character_id < uVar143);
         if (((byte)ac & 1 | uVar143 < g_player2.character_id) != 1) {
-          ac = uVar3 & 0xfffffff8 | (uint)(DAT_00557c02 != name_zack) << 2 |
-               (uint)(DAT_00557c02 == name_zack) << 1;
-          if (DAT_00557c02 == name_zack) {
+          ac = uVar3 & 0xfffffff8 | (uint)(DAT_00557c02 != 0) << 2 | (uint)(DAT_00557c02 == 0) << 1;
+          if (DAT_00557c02 == 0) {
             (&DAT_00557b70)[uVar143] = (uint)g_player1.costume_id;
           }
           auVar115._12_52_ = auVar107._12_52_;
@@ -823,9 +821,8 @@ LAB_00014d80:
       }
     }
   }
-  uVar143 = ac & 0xfffffff8 | (uint)(DAT_00557c02 != name_zack) << 2 |
-            (uint)(DAT_00557c02 == name_zack) << 1;
-  if (DAT_00557c02 == name_zack) {
+  uVar143 = ac & 0xfffffff8 | (uint)(DAT_00557c02 != 0) << 2 | (uint)(DAT_00557c02 == 0) << 1;
+  if (DAT_00557c02 == 0) {
     if (g_player1.controller_type == MAN) {
       (&DAT_00557b70)[g_player1.character_id] = (uint)g_player1.costume_id;
     }
@@ -929,7 +926,7 @@ LAB_00014d80:
   FUN_00013cc0();
   g_player1.animation_id = (&ANIME_CharacterSelectIdleStanceValues_00090ab0)[g_player1.character_id]
   ;
-  g_player1.animation_flip = (DOA1_NAME_ID)g14;
+  g_player1.animation_flip = (byte)g14;
   g_player1.animation_request = '\x01';
   g_player2.animation_id = (&ANIME_CharacterSelectIdleStanceValues_00090ab0)[g_player2.character_id]
   ;
