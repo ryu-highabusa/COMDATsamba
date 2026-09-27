@@ -382,7 +382,7 @@ LAB_0001551c:
           auVar28._0_8_ = auVar25._0_8_;
           auVar28._12_52_ = auVar25._12_52_;
           if (((byte)ac & 1 | (byte)(uVar110 >> 2) & 1) == 1) {
-            g_player2.character_id = (&CharSelSlot0_Zack_00557a90)[DAT_00557c0c];
+            g_player2.character_id = (&g_charselect_slot1)[DAT_00557c0c];
             g_player2.animation_id =
                  (&ANIME_CharacterSelectIdleStanceValues_00090ab0)[g_player2.character_id];
             g_player2.animation_request = '\x01';
@@ -446,7 +446,7 @@ LAB_0001580c:
             uVar1 = ac;
           }
           else {
-            g_player1.character_id = (&CharSelSlot0_Zack_00557a90)[DAT_00557c08];
+            g_player1.character_id = (&g_charselect_slot1)[DAT_00557c08];
             g_player1.animation_id =
                  (&ANIME_CharacterSelectIdleStanceValues_00090ab0)[g_player1.character_id];
             g_player1.animation_request = '\x01';
@@ -566,7 +566,7 @@ switchD_00015878_caseD_3:
           uVar112 = *puVar99;
           if ((int)uVar112 % 2 == 1) {
             uVar110 = (uVar112 + 1) / 2;
-            if (DAT_00557a88 < uVar110 || uVar110 < DAT_00557a88) {
+            if (g_charselect_top_row_count < uVar110 || uVar110 < g_charselect_top_row_count) {
               uVar110 = uVar112 + 2;
               goto LAB_00015ac8;
             }
@@ -574,7 +574,8 @@ switchD_00015878_caseD_3:
           }
           else {
             uVar112 = uVar112 + 2;
-            if ((uint)DAT_00557aa0 < uVar112 / 2 || uVar112 / 2 < (uint)DAT_00557aa0) {
+            if ((uint)g_charselect_bottom_row_count < uVar112 / 2 ||
+                uVar112 / 2 < (uint)g_charselect_bottom_row_count) {
               *puVar99 = uVar112;
             }
             else {
@@ -617,7 +618,7 @@ LAB_000159c8:
           uVar110 = *puVar99;
           if ((int)uVar110 % 2 == 1) {
             if ((uVar110 + 1) / 2 == 1) {
-              uVar110 = (uint)DAT_00557a88 * 2 - 1;
+              uVar110 = (uint)g_charselect_top_row_count * 2 - 1;
             }
             else {
 LAB_0001596c:
@@ -626,7 +627,7 @@ LAB_0001596c:
           }
           else {
             if (uVar110 / 2 != 0) goto LAB_0001596c;
-            uVar110 = (uint)DAT_00557aa0 * 2 - 2;
+            uVar110 = (uint)g_charselect_bottom_row_count * 2 - 2;
           }
 LAB_00015ac8:
           *puVar99 = uVar110;
@@ -666,7 +667,7 @@ LAB_00015ac4:
         *pcVar101 = (byte)g14;
 switchD_00015878_caseD_a:
         uVar110 = auVar25._40_4_;
-        g_player1.unknown_56[iVar105 + -0x55] = (&CharSelSlot0_Zack_00557a90)[*puVar99];
+        g_player1.unknown_56[iVar105 + -0x55] = (&g_charselect_slot1)[*puVar99];
         ac = uVar1 & 0xfffffff8 | (uint)(fp[1][uVar106] == '\0') << 1;
         if (((byte)(ac >> 1) & 1) == 1) {
 LAB_00015b70:
