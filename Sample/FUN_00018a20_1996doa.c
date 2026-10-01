@@ -1,12 +1,18 @@
 
-void FUN_00018a20(void)
+/* Resets both player runtime records for a new round.
+   
+   Initializes spawn positions, facing directions, animation speed, and health, then clears
+   transient action, hit, grapple, and combo state.
+   Spawn spacing is adjusted when Raidou is involved. */
+
+void Battle_ResetBothPlayersForRound(void)
 
 {
   uint uVar1;
   undefined4 unaff_pfp;
   
   uVar1 = ac;
-  if (((g_player1.character_id == NAME_RAIDOU) && (DAT_005555dd == '\0')) &&
+  if (((g_player1.character_id == name_raidou) && (DAT_005555dd == '\0')) &&
      ((g_player1.controller_type == COM || (g_player2._0_2_ != 0xb00)))) {
     g_player1.x_position = -0.74;
   }
@@ -66,10 +72,10 @@ void FUN_00018a20(void)
   g_player1.combo_count = g14._0_1_;
   g_player1.combo_start = g14._0_1_;
   g_player1.cancel_use = g14._0_1_;
-  ac = ac & 0xfffffff8 | (uint)(NAME_RAIDOU < g_player2.character_id) << 2 |
-       (uint)(g_player2.character_id == NAME_RAIDOU) << 1 |
-       (uint)(g_player2.character_id < NAME_RAIDOU);
-  if ((((byte)ac & 1 | NAME_RAIDOU < g_player2.character_id) == 1) ||
+  ac = ac & 0xfffffff8 | (uint)(name_raidou < g_player2.character_id) << 2 |
+       (uint)(g_player2.character_id == name_raidou) << 1 |
+       (uint)(g_player2.character_id < name_raidou);
+  if ((((byte)ac & 1 | name_raidou < g_player2.character_id) == 1) ||
      (ac = uVar1 & 0xfffffff8 | (uint)(DAT_005555dd != '\0') << 2 |
            (uint)(DAT_005555dd == '\0') << 1, DAT_005555dd != '\0')) {
 LAB_00018c64:
