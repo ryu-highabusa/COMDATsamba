@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void Bookkeeping_UpdateCharacterUsage_candidate(int param_1)
+void Bookkeeping_Record1PGameEnd(uint human_player_index)
 
 {
   DOA1_NAME_ID DVar1;
@@ -20,7 +20,7 @@ void Bookkeeping_UpdateCharacterUsage_candidate(int param_1)
   auVar3._20_44_ = in_register_00000008._12_44_;
   auVar3._0_16_ = auVar2._0_16_;
   auVar3._16_4_ = &BYTE_01d00008;
-  DVar1 = (&g_player1)[param_1].character_id;
+  DVar1 = (&g_player1)[human_player_index].character_id;
   auVar4._12_52_ = auVar3._12_52_;
   auVar4._8_4_ = 0x4674;
   auVar4._0_8_ = CONCAT44(auStackX_0,unaff_pfp);
