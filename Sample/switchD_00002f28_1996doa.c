@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void switchD_00002f28::caseD_0(void)
+void switchD_00002f28::caseD_1(void)
 
 {
   uint uVar1;
@@ -36,16 +36,31 @@ void switchD_00002f28::caseD_0(void)
   undefined1 in_register_0000000c [52];
   undefined1 auStackX_0 [1000000];
   
-code_r0x00002f40:
-  auVar6._4_4_ = register0x00000004;
-  auVar6._0_4_ = unaff_pfp;
-  auVar6._8_4_ = 0x2f44;
-  auVar6._12_52_ = in_register_0000000c;
-  *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar6;
-  FUN_00003670();
-  unaff_pfp = fp;
-  pauVar25 = (undefined1 (*) [64])((int)register0x00000004 + 0x40);
-  fp = (undefined1 (*) [64])register0x00000004;
+code_r0x00002f48:
+  uVar1 = ac & 0xfffffff8 | (uint)(0 < (int)DWORD_0054f3b4) << 2 | (uint)(DWORD_0054f3b4 == 0) << 1;
+  ac = uVar1 | (int)DWORD_0054f3b4 < 0;
+  if (((byte)(uVar1 >> 1) & 1) == 1) {
+    auVar8._4_4_ = register0x00000004;
+    auVar8._0_4_ = unaff_pfp;
+    auVar8._8_4_ = 0x2f60;
+    auVar8._12_52_ = in_register_0000000c;
+    *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar8;
+    FUN_00003750();
+    unaff_pfp = fp;
+    pauVar25 = (undefined1 (*) [64])((int)register0x00000004 + 0x40);
+    fp = (undefined1 (*) [64])register0x00000004;
+  }
+  else {
+    auVar7._4_4_ = register0x00000004;
+    auVar7._0_4_ = unaff_pfp;
+    auVar7._8_4_ = 0x2f58;
+    auVar7._12_52_ = in_register_0000000c;
+    *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar7;
+    FUN_00003580();
+    unaff_pfp = fp;
+    pauVar25 = (undefined1 (*) [64])((int)register0x00000004 + 0x40);
+    fp = (undefined1 (*) [64])register0x00000004;
+  }
   goto switchD_00002f28_caseD_5;
   do {
     auVar3._8_4_ = 0x2f0c;
@@ -68,40 +83,21 @@ code_r0x00002f40:
     pauVar26[2] = auVar5;
     register0x00000004 = (BADSPACEBASE *)(pauVar26 + 4);
     FUN_00003010();
-    uVar1 = ac;
     ac = ac & 0xfffffff8 | (uint)(MODE_NAMEFIELD < GameMode) << 2 |
          (uint)(GameMode == MODE_NAMEFIELD) << 1 | (uint)(GameMode < MODE_NAMEFIELD);
     pauVar25 = pauVar26 + 4;
     fp = pauVar27;
     switch(GameMode) {
     case MODE_LOAD:
-      goto code_r0x00002f40;
-    case MODE_FIGHT:
-      uVar1 = uVar1 & 0xfffffff8 | (uint)(0 < (int)DWORD_0054f3b4) << 2 |
-              (uint)(DWORD_0054f3b4 == 0) << 1;
-      ac = uVar1 | (int)DWORD_0054f3b4 < 0;
-      if (((byte)(uVar1 >> 1) & 1) == 1) {
-        fp = pauVar26 + 4;
-        auVar8._4_4_ = pauVar26 + 4;
-        auVar8._0_4_ = unaff_pfp;
-        auVar8._8_4_ = 0x2f60;
-        auVar8._12_52_ = in_register_0000000c;
-        pauVar26[3] = auVar8;
-        FUN_00003750();
-        unaff_pfp = pauVar27;
-        pauVar25 = pauVar26 + 5;
-      }
-      else {
-        fp = pauVar26 + 4;
-        auVar7._4_4_ = pauVar26 + 4;
-        auVar7._0_4_ = unaff_pfp;
-        auVar7._8_4_ = 0x2f58;
-        auVar7._12_52_ = in_register_0000000c;
-        pauVar26[3] = auVar7;
-        FUN_00003580();
-        unaff_pfp = pauVar27;
-        pauVar25 = pauVar26 + 5;
-      }
+      fp = pauVar26 + 4;
+      auVar6._4_4_ = pauVar26 + 4;
+      auVar6._0_4_ = unaff_pfp;
+      auVar6._8_4_ = 0x2f44;
+      auVar6._12_52_ = in_register_0000000c;
+      pauVar26[3] = auVar6;
+      FUN_00003670();
+      unaff_pfp = pauVar27;
+      pauVar25 = pauVar26 + 5;
     default:
 switchD_00002f28_caseD_5:
       pauVar26 = pauVar25;
@@ -198,6 +194,8 @@ switchD_00002f28_caseD_5:
         }
       }
       break;
+    case MODE_FIGHT:
+      goto code_r0x00002f48;
     case MODE_CHARSEL:
       auVar9._4_4_ = pauVar26 + 4;
       auVar9._0_4_ = unaff_pfp;
