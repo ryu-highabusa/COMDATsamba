@@ -3,7 +3,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_000361e0(void)
+void FixDisp_Update(void)
 
 {
   uint uVar1;
@@ -93,8 +93,8 @@ void FUN_000361e0(void)
     ac = ac & 0xfffffff8 | (uint)(DAT_0056570c != 0) << 2 | (uint)(DAT_0056570c == 0) << 1;
     uVar4 = ac;
     if (((byte)(ac >> 1) & 1) != 1) {
-      combocounter_candidate2 = 0;
-      DAT_00565724 = 0;
+      g_comboDisplayLastCountP1 = 0;
+      g_comboDisplayLastCountP2 = 0;
       auVar9._0_24_ = auVar8._0_24_;
       auVar9._32_32_ = auVar7._32_32_;
       auVar9._24_8_ = 0;
@@ -154,8 +154,8 @@ void FUN_000361e0(void)
     uVar4 = ac & 0xfffffff8 | (uint)(4 < DAT_0056570c) << 2 | (uint)(DAT_0056570c == 4) << 1;
     ac = uVar4 | DAT_0056570c < 4;
     if (((byte)(uVar4 >> 1) & 1) != 1) {
-      uVar1 = uVar1 & 0xfffffff8 | (uint)(1 < FIX_DISP) << 2;
-      ac = uVar1 | (uint)(FIX_DISP == 1) << 1 | (uint)(FIX_DISP == 0);
+      uVar1 = uVar1 & 0xfffffff8 | (uint)(1 < FixDisp) << 2;
+      ac = uVar1 | (uint)(FixDisp == 1) << 1 | (uint)(FixDisp == 0);
       DAT_0056567e = (byte)g14;
       if (((byte)ac & 1 | (byte)(uVar1 >> 2) & 1) != 1) {
         auVar11._8_4_ = 0x36328;
@@ -199,8 +199,8 @@ void FUN_000361e0(void)
       auVar13._0_16_ = auVar8._0_16_;
       auVar13._24_40_ = auVar7._24_40_;
       auVar13._16_8_ = 0;
-      combocounter_candidate2 = 0;
-      DAT_00565724 = 0;
+      g_comboDisplayLastCountP1 = 0;
+      g_comboDisplayLastCountP2 = 0;
       auVar14._0_32_ = auVar13._0_32_;
       auVar14._40_24_ = auVar7._40_24_;
       auVar14._32_8_ = 0;
@@ -264,7 +264,7 @@ void FUN_000361e0(void)
     auVar8._8_56_ = auVar18._8_56_;
     auVar8._4_4_ = puVar3 + 0x40;
     auVar8._0_4_ = fp;
-    FUN_000375d0();
+    FixDisp_UpdateComboCounter();
     fp = (undefined1 (*) [64])puVar3;
     uVar1 = ac;
   }
@@ -272,7 +272,7 @@ void FUN_000361e0(void)
   uVar1 = ac;
   auVar20._0_8_ = auVar8._0_8_;
   auVar20._12_52_ = auVar8._12_52_;
-  if (FIX_DISP == 1) {
+  if (FixDisp == 1) {
     ac = ac & 0xfffffff8 | (uint)(DAT_00565698 != 0) << 2 | (uint)(DAT_00565698 == 0) << 1;
     if (DAT_00565698 == 0) {
       DAT_00564f94 = g14;
@@ -341,8 +341,8 @@ void FUN_000361e0(void)
   else {
     ac = ac & 0xfffffff8 | (uint)(DAT_00565698 == 0);
     if ((((byte)ac & 1 | 1 < DAT_00565698) != 1) &&
-       (ac = uVar1 & 0xfffffff8 | (uint)(FIX_DISP != 0) << 2 | (uint)(FIX_DISP == 0) << 1,
-       FIX_DISP == 0)) {
+       (ac = uVar1 & 0xfffffff8 | (uint)(FixDisp != 0) << 2 | (uint)(FixDisp == 0) << 1,
+       FixDisp == 0)) {
       puVar3 = (undefined1 *)(auVar8._4_4_ + 0x3fU & 0xffffffc0);
       auVar26._8_4_ = 0x364e8;
       auVar26._0_8_ = auVar20._0_8_;
@@ -357,7 +357,7 @@ void FUN_000361e0(void)
   }
   uVar1 = ac & 0xfffffff8 | (uint)(DAT_005555e9 == 0) << 2;
   ac = uVar1 | (uint)(DAT_005555e9 == 1) << 1 | (uint)(1 < DAT_005555e9);
-  DAT_00565698 = FIX_DISP;
+  DAT_00565698 = FixDisp;
   if (((byte)ac & 1 | (byte)(uVar1 >> 2) & 1) != 1) {
     puVar3 = (undefined1 *)(auVar8._4_4_ + 0x3fU & 0xffffffc0);
     auVar27._12_52_ = auVar8._12_52_;
@@ -372,9 +372,9 @@ void FUN_000361e0(void)
     fp = (undefined1 (*) [64])puVar3;
   }
   iVar29 = auVar8._4_4_;
-  ac = ac & 0xfffffff8 | (uint)(1 < FIX_DISP_LoadFlag) << 2 | (uint)(FIX_DISP_LoadFlag == 1) << 1 |
-       (uint)(FIX_DISP_LoadFlag == 0);
-  if (((byte)ac & 1 | 1 < FIX_DISP_LoadFlag) != 1) {
+  ac = ac & 0xfffffff8 | (uint)(1 < FixDisp_LoadFlag) << 2 | (uint)(FixDisp_LoadFlag == 1) << 1 |
+       (uint)(FixDisp_LoadFlag == 0);
+  if (((byte)ac & 1 | 1 < FixDisp_LoadFlag) != 1) {
     auVar28._12_52_ = auVar8._12_52_;
     auVar28._0_8_ = auVar8._0_8_;
     auVar28._8_4_ = 0x36524;
@@ -383,7 +383,7 @@ void FUN_000361e0(void)
     auVar8._4_4_ = (undefined1 *)0x0;
     auVar8._0_4_ = fp;
     FUN_00036ad0();
-    FIX_DISP_LoadFlag = (byte)g14;
+    FixDisp_LoadFlag = (byte)g14;
     fp = (undefined1 (*) [64])(iVar29 + 0x3fU & 0xffffffc0);
   }
   g12 = *(undefined4 *)((int)fp + 0x80);
