@@ -25,8 +25,8 @@ void FixDisp_UpdateComboCounter(void)
   int iVar16;
   uint32_t *puVar17;
   uint32_t *puVar18;
-  undefined4 *puVar19;
-  uint *puVar20;
+  uint32_t *puVar19;
+  uint32_t *puVar20;
   uint32_t *puVar21;
   undefined8 in_register_00000038;
   uint32_t uVar22;
@@ -34,13 +34,13 @@ void FixDisp_UpdateComboCounter(void)
   undefined1 auStackX_0 [1000000];
   
   iVar16 = 0;
-  puVar20 = &DAT_00565748;
+  puVar20 = &uint32_t_00565748;
   iVar15 = 0;
-  puVar14 = &g_comboDisplayLastCount;
-  puVar19 = &DAT_00565740;
+  puVar14 = &g_comboDisplayCurrentCountP1;
+  puVar19 = &uint32_t_00565740;
   puVar17 = &DAT_00565738;
-  puVar18 = &DAT_00565730;
-  puVar21 = &DAT_00565728;
+  puVar18 = &g_comboDisplayLastCountP1;
+  puVar21 = &uint32_t_00565728;
   puVar10 = (undefined1 *)register0x00000004;
   uVar1 = ac;
   do {
@@ -165,12 +165,13 @@ void FixDisp_UpdateComboCounter(void)
     puVar18 = puVar18 + 1;
     puVar21 = puVar21 + 1;
     *puVar20 = (uint)g_player1.unknown_56[iVar9];
-    uVar22 = DAT_00565728;
+    uVar22 = uint32_t_00565728;
     puVar20 = puVar20 + 1;
     puVar10 = puVar12;
   } while (((byte)(uVar1 >> 1) & 1 | (byte)(uVar2 >> 2) & 1) == 1);
-  uVar1 = ac & 0xfffffff8 | (uint)(0 < (int)DAT_00565728) << 2 | (uint)(DAT_00565728 == 0) << 1;
-  ac = uVar1 | (int)DAT_00565728 < 0;
+  uVar1 = ac & 0xfffffff8 | (uint)(0 < (int)uint32_t_00565728) << 2 |
+          (uint)(uint32_t_00565728 == 0) << 1;
+  ac = uVar1 | (int)uint32_t_00565728 < 0;
   pauVar13 = (undefined1 (*) [64])puVar12;
   if (((byte)(uVar1 >> 1) & 1) != 1) {
     auVar6._4_4_ = puVar12;
@@ -191,7 +192,7 @@ void FixDisp_UpdateComboCounter(void)
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar6;
     pauVar13 = (undefined1 (*) [64])(puVar12 + 0x40);
     FUN_00037730(0,uVar22);
-    DAT_00565728 = g14;
+    uint32_t_00565728 = g14;
     unaff_pfp = *fp;
     fp = (undefined1 (*) [64])puVar12;
   }
@@ -212,9 +213,10 @@ void FixDisp_UpdateComboCounter(void)
   auVar7._56_8_ = in_register_00000038;
   *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar7;
   FUN_00037920(0);
-  uVar22 = DAT_0056572c;
-  uVar1 = ac & 0xfffffff8 | (uint)(0 < (int)DAT_0056572c) << 2 | (uint)(DAT_0056572c == 0) << 1;
-  ac = uVar1 | (int)DAT_0056572c < 0;
+  uVar22 = uint32_t_0056572c;
+  uVar1 = ac & 0xfffffff8 | (uint)(0 < (int)uint32_t_0056572c) << 2 |
+          (uint)(uint32_t_0056572c == 0) << 1;
+  ac = uVar1 | (int)uint32_t_0056572c < 0;
   if (((byte)(uVar1 >> 1) & 1) != 1) {
     auVar8._4_4_ = pauVar13 + 1;
     auVar8._0_4_ = fp;
@@ -233,7 +235,7 @@ void FixDisp_UpdateComboCounter(void)
     auVar8._56_8_ = in_register_00000038;
     *pauVar13 = auVar8;
     FUN_00037730(1,uVar22);
-    DAT_0056572c = g14;
+    uint32_t_0056572c = g14;
     pauVar13 = pauVar13 + 1;
   }
   fp = pauVar13;
