@@ -59,7 +59,7 @@ LAB_00b29a7e:
                 _DAT_01389658 = _DAT_01389658 | 1;
                 local_8 = 0;
                 FUN_004d1f00((undefined4 *)&DAT_01383d00);
-                _atexit((_func_4879 *)&LAB_00d61370);
+                _atexit(FUN_00d61370);
                 local_8 = 0xffffffff;
               }
               bVar4 = FUN_00a7bd40(0x1383d00);
