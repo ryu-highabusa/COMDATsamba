@@ -15,15 +15,15 @@
 |	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`AYANE`	|
 |	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|	`ELIOT`	|
 |	`0xe`	|	14	|		|		|		|	`WAKA BASS`	|		|	`HITOMI` <sub>(KO-RYU)</sub>	|	`WAKABASS`	|	`ELIOT`	|		|	`ELIOT`	|		|
-|	`0xf`	|	15	|		|		|		|	`INDIA`	|		|	`K-1`	|	`LISA`	|	`LA MARIPOSA`	|		|	`LA MARIPOSA`	|		|
+|	`0xf`	|	15	|		|		|		|	`INDIA`	|		|	`K-1`	|	`LISA`	|	`LA MARIPOSA`	|		|	`LA MARIPOSA`	|	`LA MARIPOSA`	|
 |	`0x10`	|	16	|		|		|		|	`LORAN`	|		|	`PRO WRESTLER`	|	`LORAN`	|	`ALPHA152`	|		|	`ALPHA152`	|		|
-|	`0x11`	|	17	|		|		|		|	`TENGU`	|	`BANKOTU`	|	`TENGU`	|	`TENGU`	|	`TENGU`	|		|	`TENGU`	|		|
+|	`0x11`	|	17	|		|		|		|	`TENGU`	|	`BANKOTU`	|	`TENGU`	|	`TENGU`	|	`TENGU`	|		|	`TENGU`	|	`BRAD WONG`	|
 |	`0x12`	|	18	|		|		|		|	`CoTINA`	|		|	`GENRA` <sub>(BOSNIN)</sub>	|	`CoTINA`	|	`SPARTAN-458`	|		|	`SPARTAN-458`	|		|
-|	`0x13`	|	19	|		|		|		|	`BERSERK`	|		|	`BRAD WONG` <sub>(SUI-KEN)</sub>	|	`-BRAD WONG`	|	`BRAD WONG`	|		|	`BRAD WONG`	|		|
-|	`0x14`	|	20	|		|		|		|	`RIVAL`	|		|	`CHRISTIE` <sub>(GO-KEI)</sub>	|	`-CHRISTIE`	|	`CHRISTIE`	|		|	`CHRISTIE`	|		|
-|	`0x15`	|	21	|		|		|		|	`GENRA`	|		|	`TEKONDO`	|	`HITOMI`	|	`HITOMI`	|		|	`HITOMI`	|		|
-|	`0x16`	|	22	|		|		|		|	`BOSS`	|		|	`DEMI HUMAN`	|	`COAYANE`	|	 `RTM`	|		|	`RTM`	|		|
-|	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	`23`	|		|	`23`	|		|
+|	`0x13`	|	19	|		|		|		|	`BERSERK`	|		|	`BRAD WONG` <sub>(SUI-KEN)</sub>	|	`-BRAD WONG`	|	`BRAD WONG`	|		|	`BRAD WONG`	|	`CHRISTIE`	|
+|	`0x14`	|	20	|		|		|		|	`RIVAL`	|		|	`CHRISTIE` <sub>(GO-KEI)</sub>	|	`-CHRISTIE`	|	`CHRISTIE`	|		|	`CHRISTIE`	|	`HITOMI`	|
+|	`0x15`	|	21	|		|		|		|	`GENRA`	|		|	`TEKONDO`	|	`HITOMI`	|	`HITOMI`	|		|	`HITOMI`	|	`BAYMAN`	|
+|	`0x16`	|	22	|		|		|		|	`BOSS`	|		|	`DEMI HUMAN`	|	`COAYANE`	|	 `RTM`	|		|	`RTM`	|	`RIG`	|
+|	`0x17`	|	23	|		|		|		|		|		|	`CHIN`	|	`PDOG`	|	`23`	|		|	`23`	|	`MILA`	|
 |	`0x18`	|	24	|		|		|		|		|	`BAYMAN` <sub>(SAMBO)</sub>	|	`BAYMAN`	|	`BAYMAN`	|	`BAYMAN`	|		|	`BAYMAN`	|		|
 |	`0x19`	|	25	|		|		|		|		|		|		|	`COHAYATE`	|		|		|	`RAIDOU`	|		|
 |	`0x1a`	|	26	|		|		|		|		|		|		|	`AYAME`	|		|		|	`GENRA`	|		|
