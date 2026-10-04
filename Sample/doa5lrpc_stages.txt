@@ -1,0 +1,83 @@
+                                             doa5lrpc_stage_id_010107f0                      XREF[6]:     FUN_00b24c60:00b24c96(R), 
+                                                                                                          FUN_00b28060:00b280c6(R), 
+                                                                                                          FUN_00b29810:00b29a1d(*), 
+                                                                                                          FUN_00b29810:00b29a33(R), 
+                                                                                                          FUN_00b29810:00b29b79(*), 
+                                                                                                          FUN_00b29810:00b29b93(R)  
+        010107f0 4a 00 00 00     doa5lrpc_stage_id      Oil platform 4 (no walls)
+                                             singlestageliststart                            XREF[5]:     FUN_00b24c60:00b24c96(R), 
+                                                                                                          FUN_00b29810:00b29a33(R), 
+                                                                                                          FUN_00b29810:00b29b62(*), 
+                                                                                                          FUN_00b29810:00b29b93(R), 
+                                                                                                          FUN_00b29810:00b29c2e(*)  
+        010107f4 27 00 00 00     doa5lrpc_stage_id      Lorelei 1
+                                             singlestagelistcontinued                        XREF[2]:     FUN_00b29810:00b29b62(*), 
+                                                                                                          FUN_00b29810:00b29c2e(*)  
+        010107f8 29 00 00 00     doa5lrpc_stage_id      Haunted Lorelei 1
+        010107fc 22 00 00 00     doa5lrpc_stage_id      Forest
+        01010800 25 00 00 00     doa5lrpc_stage_id      Lost World
+        01010804 24 00 00 00     doa5lrpc_stage_id      Desert Wasteland
+        01010808 21 00 00 00     doa5lrpc_stage_id      Zack Island
+        0101080c 01 00 00 00     doa5lrpc_stage_id      Scramble 1
+        01010810 13 00 00 00     doa5lrpc_stage_id      Hot Zone
+        01010814 18 00 00 00     doa5lrpc_stage_id      Temple of the Dragon
+        01010818 0f 00 00 00     doa5lrpc_stage_id      The Show
+        0101081c 08 00 00 00     doa5lrpc_stage_id      Flow
+        01010820 0d 00 00 00     doa5lrpc_stage_id      Street 1
+        01010824 14 00 00 00     doa5lrpc_stage_id      The Ends of the Earth
+        01010828 0b 00 00 00     doa5lrpc_stage_id      Home 1
+        0101082c 03 00 00 00     doa5lrpc_stage_id      Fuel 1
+        01010830 0a 00 00 00     doa5lrpc_stage_id      Sanctuary
+        01010834 16 00 00 00     doa5lrpc_stage_id      Depth
+        01010838 06 00 00 00     doa5lrpc_stage_id      Lab - open capsules 
+        0101083c 1e 00 00 00     doa5lrpc_stage_id      Dead or Alive
+        01010840 1d 00 00 00     doa5lrpc_stage_id      Sweat
+        01010844 1a 00 00 00     doa5lrpc_stage_id      Fighting Entertainment
+        01010848 26 00 00 00     doa5lrpc_stage_id      Aircraft Carrier
+        0101084c 23 00 00 00     doa5lrpc_stage_id      Sky City Tokyo
+        01010850 1b 00 00 00     doa5lrpc_stage_id      Dojo
+                                             doa5lrpc_stage_id_01010854                      XREF[8]:     FUN_00b24c60:00b24c70(R), 
+                                                                                                          FUN_00b24ce0:00b24cf0(R), 
+                                                                                                          FUN_00b24ce0:00b24d02(R), 
+                                                                                                          FUN_00b28060:00b28097(R), 
+                                                                                                          FUN_00b29810:00b29853(*), 
+                                                                                                          FUN_00b29810:00b29864(R), 
+                                                                                                          FUN_00b29810:00b29948(*), 
+                                                                                                          FUN_00b29810:00b29963(R)  
+        01010854 4a 00 00 00     doa5lrpc_stage_id      Oil platform 4 (no walls)
+                                             tagstageliststart                               XREF[7]:     FUN_00b24c60:00b24c70(R), 
+                                                                                                          FUN_00b24ce0:00b24cf0(R), 
+                                                                                                          FUN_00b24ce0:00b24d02(R), 
+                                                                                                          FUN_00b29810:00b29864(R), 
+                                                                                                          FUN_00b29810:00b29931(*), 
+                                                                                                          FUN_00b29810:00b29963(R), 
+                                                                                                          FUN_00b29810:00b299fe(*)  
+        01010858 19 00 00 00     doa5lrpc_stage_id      Sakura
+                                             tagstagelistcontinued                           XREF[2]:     FUN_00b29810:00b29931(*), 
+                                                                                                          FUN_00b29810:00b299fe(*)  
+        0101085c 11 00 00 00     doa5lrpc_stage_id      Coming Soon
+        01010860 06 00 00 00     doa5lrpc_stage_id      Lab - open capsules 
+        01010864 1e 00 00 00     doa5lrpc_stage_id      Dead or Alive
+        01010868 1d 00 00 00     doa5lrpc_stage_id      Sweat
+        0101086c 1a 00 00 00     doa5lrpc_stage_id      Fighting Entertainment
+        01010870 26 00 00 00     doa5lrpc_stage_id      Aircraft Carrier
+        01010874 23 00 00 00     doa5lrpc_stage_id      Sky City Tokyo
+        01010878 1b 00 00 00     doa5lrpc_stage_id      Dojo
+                             **************************************************************
+                             * this groups stages together, the 2 should pair 'sweat'     *
+                             * and 'fighting ent.' in the stage select                    *
+                             **************************************************************
+                                             BYTE_0101087c                                   XREF[1]:     FUN_00b24ce0:00b24d24(R)  
+        0101087c 01              db                     1h
+                                             BYTE_0101087d                                   XREF[1]:     FUN_00b24c60:00b24c83(R)  
+        0101087d 01              db                     1h
+        0101087e 01              db                     1h
+        0101087f 01              db                     1h
+        01010880 02              db                     2h
+        01010881 01              db                     1h
+        01010882 01              db                     1h
+        01010883 01              db                     1h
+        01010884 01              db                     1h
+        01010885 01              db                     1h
+        01010886 00              db                     0h
+        01010887 00              db                     0h
