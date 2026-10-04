@@ -1114,7 +1114,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>138</ID>
-      <Description>"g_damageDisplayLastComboCount"</Description>
+      <Description>"g_previousComboCountP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ed8</Address>
@@ -1149,14 +1149,14 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>143</ID>
-      <Description>"DAT_00557ed4 g_redBarFadeP2"</Description>
+      <Description>"DAT_00557ed4 g_damageRedBarDecayP2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ed4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>144</ID>
-      <Description>"DAT_00557ecc g_redBarFirstP2"</Description>
+      <Description>"DAT_00557ecc g_damageRedBarActiveP2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ecc</Address>
@@ -1177,14 +1177,14 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>147</ID>
-      <Description>"DAT_00557ed0 g_redBarFadeP1"</Description>
+      <Description>"DAT_00557ed0 g_damageRedBarDecayP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>baseref+00557ed0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>148</ID>
-      <Description>"DAT_00557ec8 g_redBarFirstP1"</Description>
+      <Description>"DAT_00557ec8 g_damageRedBarActiveP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>baseref+00557ec8</Address>
