@@ -17,10 +17,10 @@ void FixDisp_ResetDamageAndComboTracking(void)
   auVar1._8_4_ = 0x1ec9c;
   *(undefined1 (*) [64])(fp & 0xffffffc0) = auVar1;
   FUN_0001ece0();
-  g_redBarFirstP1 = g14;
-  g_redBarFirstP2 = g14;
-  g_redBarFadeP1 = g14;
-  g_redBarFadeP2 = g14;
+  g_damageRedBarDisplayP1 = g14;
+  g_damageRedBarDisplayP2 = g14;
+  g_damageRedBarDecayP1 = g14;
+  g_damageRedBarDecayP2 = g14;
   g_damageDisplayLastComboCount = g14;
   uint32_t_00557ee0 = g14;
   uint32_t_00557edc = g14;
