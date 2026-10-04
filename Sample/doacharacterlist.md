@@ -1,4 +1,4 @@
-|	`HEX`	|	`DECIMAL`	|	`DOA1 Arcade`	|	`DOA1 PSX`	|	`DOA++`	|	`DOA2`	|	`DOA2LE/H`	|	`DOA3`	|	`DOA2U`	|	`DOA4`	|	`DOA DIM`	|	`DOA5 E3`	|	`DOA5`	|	`DOA6`	|
+|	`HEX`	|	`DECIMAL`	|	`DOA1 Arcade`	|	`DOA1 PSX`	|	`DOA++`	|	`DOA2`	|	`DOA2LE/H`	|	`DOA3`	|	`DOA2U`	|	`DOA4`	|	`DOA DIM`	|	`DOA5 E3`	|	`DOA5.0`	|	`DOA6`	|
 |	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|	:-----:	|
 |	`0x0`	|	0	|	`ZACK` <sub>(KELLY)</sub></sub>	|	`ZACK`	|		|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|	`ZACK`	|		|	`ZACK`	|	`ZACK`	|
 |	`0x1`	|	1	|	`TINA`	|	`TINA`	|		|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|	`TINA`	|		|	`TINA`	|	`TINA`	|
@@ -10,10 +10,10 @@
 |	`0x7`	|	7	|	`??CHAMPION??`	|	`.`	|		|	`HELENA` <sub>(HIKA-KEN)</sub>	|	`HELENA`	|	`HELENA`	|	`HELENA`	|	`HELENA`	|		|	`HELENA`	|	`BASS`	|
 |	`0x8`	|	8	|	`BAYMAN` <sub>(GATSBY)</sub>	|	`BAYMAN`	|		|	`LEON` <sub>(BAYMAN)</sub>	|	`LEON`	|	`LEON`	|	`LEON`	|	`LEON`	|		|	`LEON`	|		|
 |	`0x9`	|	9	|	`??BLANK??`	|	`.`	|		|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|	`BASS`	|		|	`BASS`	|	`KOKORO`	|
-|	`0xa`	|	10	|	`??RAIDOU??`	|	`.`	|		|	`HELENA MAM`	|		|	`HAKKYOKU-KEN`	|	`HELENA MAMA`	|	`KOKORO`	|		|	`KOKORO`	|		|
-|	`0xb`	|	11	|	`RAIDOU`	|	`RAIDOU`	|		|	`RAIDOU`	|		|	`HAYATE` <sub>(NINJA)</sub>	|	`-HAYATE`	|	`HAYATE`	|		|	`HAYATE`	|		|
-|	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|		|
-|	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|		|
+|	`0xa`	|	10	|	`??RAIDOU??`	|	`.`	|		|	`HELENA MAM`	|		|	`HAKKYOKU-KEN`	|	`HELENA MAMA`	|	`KOKORO`	|		|	`KOKORO`	|	`HAYATE`	|
+|	`0xb`	|	11	|	`RAIDOU`	|	`RAIDOU`	|		|	`RAIDOU`	|		|	`HAYATE` <sub>(NINJA)</sub>	|	`-HAYATE`	|	`HAYATE`	|		|	`HAYATE`	|	`LEI-FANG`	|
+|	`0xc`	|	12	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|	`LEI-FANG`	|		|	`LEI-FANG`	|	`AYANE`	|
+|	`0xd`	|	13	|		|	`AYANE`	|		|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|	`AYANE`	|		|	`AYANE`	|	`ELIOT`	|
 |	`0xe`	|	14	|		|		|		|	`WAKA BASS`	|		|	`HITOMI` <sub>(KO-RYU)</sub>	|	`WAKABASS`	|	`ELIOT`	|		|	`ELIOT`	|		|
 |	`0xf`	|	15	|		|		|		|	`INDIA`	|		|	`K-1`	|	`LISA`	|	`LA MARIPOSA`	|		|	`LA MARIPOSA`	|		|
 |	`0x10`	|	16	|		|		|		|	`LORAN`	|		|	`PRO WRESTLER`	|	`LORAN`	|	`ALPHA152`	|		|	`ALPHA152`	|		|
