@@ -1149,14 +1149,14 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>143</ID>
-      <Description>"DAT_00557ed4"</Description>
+      <Description>"DAT_00557ed4 g_redBarFadeP2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ed4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>144</ID>
-      <Description>"DAT_00557ecc"</Description>
+      <Description>"DAT_00557ecc g_redBarFirstP2"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ecc</Address>
@@ -1177,14 +1177,14 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>147</ID>
-      <Description>"DAT_00557ed0"</Description>
+      <Description>"DAT_00557ed0 g_redBarFadeP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>baseref+00557ed0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>148</ID>
-      <Description>"DAT_00557ec8"</Description>
+      <Description>"DAT_00557ec8 g_redBarFirstP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
       <Address>baseref+00557ec8</Address>
