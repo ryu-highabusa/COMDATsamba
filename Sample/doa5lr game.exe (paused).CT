@@ -512,6 +512,14 @@ unregistersymbol(original_aob3)
     <CheatEntry>
       <ID>127758</ID>
       <Description>"game.exe+DA442C g_selectedStageId"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+DA442C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127763</ID>
+      <Description>"game.exe+DA442C g_selectedStageId"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>game.exe+DA442C</Address>
@@ -541,6 +549,30 @@ unregistersymbol(original_aob3)
       <Description>"g_loadnextStageId"</Description>
       <VariableType>Byte</VariableType>
       <Address>0C56FC84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127764</ID>
+      <Description>"tagstagelist"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>game.exe+C10858</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127765</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>game.exe+724C60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127766</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>12</ByteLength>
+      <Address>game.exe+724CAC</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
