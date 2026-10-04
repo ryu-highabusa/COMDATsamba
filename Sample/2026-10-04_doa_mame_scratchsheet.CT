@@ -1107,14 +1107,14 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>137</ID>
-      <Description>"DAT_00557ee0"</Description>
+      <Description>"DAT_00557ee0 g_previousComboActiveP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ee0</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>138</ID>
-      <Description>"g_previousComboCountP1"</Description>
+      <Description>"DAT_00557ed8 g_previousComboCountP1"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>baseref+00557ed8</Address>
@@ -1209,7 +1209,7 @@ end
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>baseref+BYTE_00557ee8</Address>
+      <Address>baseref+00557ee8</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>159</ID>
@@ -1217,7 +1217,7 @@ end
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>baseref+BYTE_00557ee9</Address>
+      <Address>baseref+00557ee9</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>160</ID>
@@ -1225,7 +1225,7 @@ end
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>baseref+BYTE_00557eea</Address>
+      <Address>baseref+00557eea</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>161</ID>
@@ -1233,7 +1233,64 @@ end
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>baseref+BYTE_00557eeb</Address>
+      <Address>baseref+00557eeb</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>163</ID>
+      <Description>"word_00557eec"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>baseref+00557eec</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"word_00557eee"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>2 Bytes</VariableType>
+      <Address>baseref+00557eee</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>165</ID>
+      <Description>"BYTE_00557ef0"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>baseref+00557ef0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>166</ID>
+      <Description>"BYTE_00557ef1"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>baseref+00557ef1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>167</ID>
+      <Description>"BYTE_00557ef2"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>baseref+00557ef2</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>168</ID>
+      <Description>"BYTE_00557ef3"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>baseref+00557ef3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>169</ID>
+      <Description>"BYTE_00557ef4"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>4</ByteLength>
+      <Address>baseref+00557ef4</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>149</ID>
@@ -1284,6 +1341,13 @@ end
       <VariableType>Array of byte</VariableType>
       <ByteLength>8</ByteLength>
       <Address>baseref+00557ec0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>162</ID>
+      <Description>"TimeCurrentMatch_Seconds_005555a0"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>baseref+005555a0</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
