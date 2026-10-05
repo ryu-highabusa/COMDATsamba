@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 /* Detect combo lifecycle changes for both players.
-   Transfer g_redBarFirst to g_redBarFade when appropriate. */
+   Transfer g_damageDisplayRedBarActive to g_damageDisplayRedBarDecay when appropriate. */
 
 void UpdateHealthBarDamageAnimation(void)
 
@@ -105,7 +105,7 @@ void UpdateHealthBarDamageAnimation(void)
     TimeTotal_Minutes_0054fd15 = BYTE_00557ef1;
     TimeTotal_Seconds_0054fd16 = BYTE_00557ef2;
     TimeTotal_MilliSeconds_0054fd17 = BYTE_00557ef3;
-    BYTE_ARRAY_00557ec0[0] = BYTE_00557ef4;
+    BYTE_ARRAY_00557ec0[0] = BYTE_ARRAY_00557ef4[0];
   }
   uint32_t_00557ef8 = (uint32_t)BYTE_0054fd03;
   uVar22 = ac & 0xfffffff8 | (uint)(BYTE_005555e4 == 0) << 2;
@@ -127,18 +127,19 @@ void UpdateHealthBarDamageAnimation(void)
   BYTE_00557ef0 = BYTE_005555e4;
   if (BYTE_005555e7 == 1) {
     g13 = 1;
-    BYTE_00557eea = 1;
+    g_liveRoundActive = 1;
     BYTE_005555e7 = (byte)g14;
-    BYTE_00557eeb = (byte)g14;
+    g_timeUpPending = (byte)g14;
     DAT_00557efc = _0d_DAT_0054fd77 - 1;
   }
-  uVar18 = ac & 0xfffffff8 | (uint)(BYTE_00557eeb == 1) << 1;
+  uVar18 = ac & 0xfffffff8 | (uint)(g_timeUpPending == 1) << 1;
   if (((byte)(uVar18 >> 1) & 1) == 1) goto LAB_0001f1d4;
   uVar18 = ac & 0xfffffff8 | (uint)(BYTE_0054fcfd != 0) << 2 | (uint)(BYTE_0054fcfd == 0) << 1;
   if ((((byte)(uVar18 >> 1) & 1) == 1) ||
      ((ac = ac & 0xfffffff8 | (uint)(BYTE_0054fcfd == 0), ((byte)ac & 1 | 1 < BYTE_0054fcfd) != 1 &&
-      (ac = uVar22 & 0xfffffff8 | (uint)(1 < BYTE_00557eea) << 2 | (uint)(BYTE_00557eea == 1) << 1 |
-            (uint)(BYTE_00557eea == 0), uVar18 = ac, ((byte)ac & 1 | 1 < BYTE_00557eea) != 1)))) {
+      (ac = uVar22 & 0xfffffff8 | (uint)(1 < g_liveRoundActive) << 2 |
+            (uint)(g_liveRoundActive == 1) << 1 | (uint)(g_liveRoundActive == 0), uVar18 = ac,
+      ((byte)ac & 1 | 1 < g_liveRoundActive) != 1)))) {
     ac = uVar18;
     puVar1 = (undefined1 *)(auVar5._4_4_ + 0x3fU & 0xffffffc0);
     auVar7._12_52_ = auVar5._12_52_;
@@ -153,9 +154,10 @@ void UpdateHealthBarDamageAnimation(void)
   }
   uVar22 = ac;
   iVar16 = auVar5._4_4_;
-  if (BYTE_00557eea == 0) {
+  if (g_liveRoundActive == 0) {
     fp = (undefined1 *)auVar5._0_4_;
-    ac = ac & 0xfffffff8 | (uint)(BYTE_00557eea != 0) << 2 | (uint)(BYTE_00557eea == 0) << 1;
+    ac = ac & 0xfffffff8 | (uint)(g_liveRoundActive != 0) << 2 | (uint)(g_liveRoundActive == 0) << 1
+    ;
     return;
   }
   auVar8._0_8_ = auVar5._0_8_;
@@ -165,7 +167,7 @@ void UpdateHealthBarDamageAnimation(void)
              (uint)(g_player2.currentHealth == 0) << 1;
     if (((byte)(uVar18 >> 1) & 1) == 1) {
       BYTE_0054fd13 = 2;
-      BYTE_005555e3 = 1;
+      g_roundEndTriggered = 1;
       g13 = 0xc;
       SPRT_DAT = doubleknockout;
       auVar12._8_4_ = 0x1f1d4;
@@ -183,11 +185,11 @@ void UpdateHealthBarDamageAnimation(void)
     }
     uVar21 = (ushort)HIT_POINT_CurrentSetting_005555e6;
     BYTE_0054fd13 = 1;
-    BYTE_00557ee8 = (byte)g14;
+    g_greatestEligibleP1 = (byte)g14;
     uVar18 = ac & 0xfffffff8 | (uint)(uVar21 < g_player2.currentHealth) << 2;
     ac = uVar18 | (uint)(uVar21 == g_player2.currentHealth) << 1 |
          (uint)(g_player2.currentHealth < uVar21);
-    BYTE_005555e3 = 1;
+    g_roundEndTriggered = 1;
     if ((((byte)ac & 1 | (byte)(uVar18 >> 2) & 1) == 1) ||
        (ac = uVar22 & 0xfffffff8 | (uint)(MAN < g_player2.controller_type) << 2 |
              (uint)(g_player2.controller_type == MAN) << 1 |
@@ -203,7 +205,7 @@ void UpdateHealthBarDamageAnimation(void)
       auVar5._4_4_ = (undefined1 *)(iVar16 + 0x3fU & 0xffffffc0) + 0x40;
       auVar5._0_4_ = fp;
       Sound_Request(SE_KO);
-      BYTE_00557ee9 = (byte)g14;
+      g_greatestEligibleP2 = (byte)g14;
       fp = (undefined1 *)(iVar16 + 0x3fU & 0xffffffc0);
       uVar18 = ac;
       goto LAB_0001f1d4;
@@ -213,20 +215,20 @@ void UpdateHealthBarDamageAnimation(void)
     ac = uVar22 & 0xfffffff8 | (uint)((int)uVar18 < (int)uVar23) << 2 |
          (uint)(uVar18 == uVar23) << 1 | (uint)((int)uVar23 < (int)uVar18);
     if ((((byte)ac & 1 | (int)uVar18 < (int)uVar23) != 1) &&
-       (ac = uVar22 & 0xfffffff8 | (uint)(1 < BYTE_00557ee9) << 2 | (uint)(BYTE_00557ee9 == 1) << 1
-             | (uint)(BYTE_00557ee9 == 0), ((byte)ac & 1 | 1 < BYTE_00557ee9) != 1))
-    goto LAB_0001f148;
+       (ac = uVar22 & 0xfffffff8 | (uint)(1 < g_greatestEligibleP2) << 2 |
+             (uint)(g_greatestEligibleP2 == 1) << 1 | (uint)(g_greatestEligibleP2 == 0),
+       ((byte)ac & 1 | 1 < g_greatestEligibleP2) != 1)) goto LAB_0001f148;
   }
   else {
     uVar18 = ac & 0xfffffff8;
     if (g_player2.currentHealth != 0) goto LAB_0001f1d4;
     uVar21 = (ushort)HIT_POINT_CurrentSetting_005555e6;
     BYTE_0054fd13 = (byte)g14;
-    BYTE_00557ee9 = (byte)g14;
+    g_greatestEligibleP2 = (byte)g14;
     uVar18 = ac & 0xfffffff8 | (uint)(uVar21 < g_player1.currentHealth) << 2;
     ac = uVar18 | (uint)(uVar21 == g_player1.currentHealth) << 1 |
          (uint)(g_player1.currentHealth < uVar21);
-    BYTE_005555e3 = 1;
+    g_roundEndTriggered = 1;
     if ((((byte)ac & 1 | (byte)(uVar18 >> 2) & 1) == 1) ||
        (ac = uVar22 & 0xfffffff8 | (uint)(MAN < g_player1.controller_type) << 2 |
              (uint)(g_player1.controller_type == MAN) << 1 |
@@ -240,7 +242,7 @@ void UpdateHealthBarDamageAnimation(void)
       auVar5._4_4_ = (undefined1 *)(iVar16 + 0x3fU & 0xffffffc0) + 0x40;
       auVar5._0_4_ = fp;
       Sound_Request(SE_KO);
-      BYTE_00557ee8 = (byte)g14;
+      g_greatestEligibleP1 = (byte)g14;
       fp = (undefined1 *)(iVar16 + 0x3fU & 0xffffffc0);
       uVar18 = ac;
       goto LAB_0001f1d4;
@@ -250,11 +252,11 @@ void UpdateHealthBarDamageAnimation(void)
     ac = uVar22 & 0xfffffff8 | (uint)((int)uVar18 < (int)uVar23) << 2 |
          (uint)(uVar18 == uVar23) << 1 | (uint)((int)uVar23 < (int)uVar18);
     if ((((byte)ac & 1 | (int)uVar18 < (int)uVar23) != 1) &&
-       (uVar22 = uVar22 & 0xfffffff8 | (uint)(1 < BYTE_00557ee8) << 2 |
-                 (uint)(BYTE_00557ee8 == 1) << 1, ac = uVar22 | BYTE_00557ee8 == 0,
+       (uVar22 = uVar22 & 0xfffffff8 | (uint)(1 < g_greatestEligibleP1) << 2 |
+                 (uint)(g_greatestEligibleP1 == 1) << 1, ac = uVar22 | g_greatestEligibleP1 == 0,
        ((byte)(uVar22 >> 1) & 1) == 1)) {
 LAB_0001f148:
-      BYTE_005555e3 = 1;
+      g_roundEndTriggered = 1;
       g13 = 0xf;
       SPRT_DAT = greatest;
       auVar9._8_4_ = 0x1f160;
@@ -270,7 +272,7 @@ LAB_0001f148:
       goto LAB_0001f1d4;
     }
   }
-  BYTE_005555e3 = 1;
+  g_roundEndTriggered = 1;
   g13 = 0xe;
   SPRT_DAT = great;
   auVar10._8_4_ = 0x1f17c;
@@ -289,15 +291,15 @@ LAB_0001f1d4:
   if ((((byte)(uVar22 >> 1) & 1) != 1) &&
      (uVar22 = ac & 0xfffffff8 | (uint)(g_player2.currentHealth == 0) << 1,
      ((byte)(uVar22 >> 1) & 1) != 1)) {
-    ac = ac & 0xfffffff8 | (uint)(BYTE_00557eeb != 0) << 2 | (uint)(BYTE_00557eeb == 0) << 1;
+    ac = ac & 0xfffffff8 | (uint)(g_timeUpPending != 0) << 2 | (uint)(g_timeUpPending == 0) << 1;
     auVar13._0_8_ = auVar5._0_8_;
     auVar13._12_52_ = auVar5._12_52_;
-    if (BYTE_00557eeb != 0) {
+    if (g_timeUpPending != 0) {
       g13 = 7;
       SPRT_DAT = timeup1;
-      BYTE_00557eeb = (byte)g14;
-      BYTE_00557ee8 = (byte)g14;
-      BYTE_00557ee9 = (byte)g14;
+      g_timeUpPending = (byte)g14;
+      g_greatestEligibleP1 = (byte)g14;
+      g_greatestEligibleP2 = (byte)g14;
       TimeCurrentMatch_MilliSeconds_005555a1 = (byte)g14;
       puVar1 = (undefined1 *)(auVar5._4_4_ + 0x3fU & 0xffffffc0);
       auVar14._8_4_ = 0x1f238;
@@ -326,7 +328,7 @@ LAB_0001f1d4:
         ac = uVar22;
       }
       g13 = 1;
-      BYTE_005555e3 = 1;
+      g_roundEndTriggered = 1;
       fp = puVar1;
       uVar22 = ac;
     }
@@ -358,9 +360,9 @@ LAB_0001f1d4:
   uVar22 = ac;
   uVar4 = g_damageDisplayRedBarActiveP2;
   uVar24 = g_damageDisplayRedBarActiveP1;
-  ac = ac & 0xfffffff8 | (uint)(1 < BYTE_005555e3) << 2 | (uint)(BYTE_005555e3 == 1) << 1 |
-       (uint)(BYTE_005555e3 == 0);
-  if (((byte)ac & 1 | 1 < BYTE_005555e3) != 1) {
+  ac = ac & 0xfffffff8 | (uint)(1 < g_roundEndTriggered) << 2 |
+       (uint)(g_roundEndTriggered == 1) << 1 | (uint)(g_roundEndTriggered == 0);
+  if (((byte)ac & 1 | 1 < g_roundEndTriggered) != 1) {
     uVar22 = uVar22 & 0xfffffff8 | (uint)(MODE_CHARSEL < GameMode) << 2 |
              (uint)(GameMode == MODE_CHARSEL) << 1;
     ac = uVar22 | GameMode < MODE_CHARSEL;
@@ -368,7 +370,7 @@ LAB_0001f1d4:
       g13 = 1;
       DAT_005555e9 = 1;
     }
-    BYTE_00557eea = (byte)g14;
+    g_liveRoundActive = (byte)g14;
     WORD_00557eec = (DOA_U16)g14;
     WORD_00557eee = (DOA_U16)g14;
     g_damageDisplayRedBarActiveP1 = g14;
