@@ -7,7 +7,7 @@ void FUN_00016fa0(void)
 {
   undefined1 (*pauVar1) [64];
   undefined1 *puVar2;
-  DOA1_NAME_ID DVar3;
+  DOA1_CHARACTER_ID DVar3;
   undefined8 uVar4;
   undefined1 auVar5 [16];
   undefined1 auVar6 [20];
@@ -141,15 +141,15 @@ void FUN_00016fa0(void)
          (uint)(GameOverFlag____0054fcb4 == 4) << 1 | (uint)(GameOverFlag____0054fcb4 < 4);
     auVar14._12_52_ = auVar12._12_52_;
     if (((byte)ac & 1 | 4 < GameOverFlag____0054fcb4) == 1) {
-      DAT_0054fcfd = g14._0_1_;
+      BYTE_0054fcfd = g14._0_1_;
       TimeCurrentMatch_Seconds_005555a0 = SettingsUnlistedGameMode_Time_0054fd78;
       TimeCurrentMatch_MilliSeconds_005555a1 = g14._0_1_;
       DAT_005555a8 = g14;
-      DAT_005555e3 = g14._0_1_;
+      g_roundEndTriggered = g14._0_1_;
       SPRT_DAT = clear;
-      FIX_DISP = 1;
+      FixDisp = 1;
       DAT_005555e9 = 1;
-      FIX_DISP_LoadFlag = 1;
+      FixDisp_LoadFlag = 1;
       auVar18._8_4_ = 0x170e8;
       auVar18._0_8_ = uVar4;
       auVar18._12_52_ = auVar14._12_52_;
@@ -159,11 +159,11 @@ void FUN_00016fa0(void)
       auVar17._0_4_ = fp;
       FUN_000185c0();
       uVar82 = ac;
-      ac = ac & 0xfffffff8 | (uint)(1 < DAT_005555e4) << 2 | (uint)(DAT_005555e4 == 1) << 1 |
-           (uint)(DAT_005555e4 == 0);
+      ac = ac & 0xfffffff8 | (uint)(1 < BYTE_005555e4) << 2 | (uint)(BYTE_005555e4 == 1) << 1 |
+           (uint)(BYTE_005555e4 == 0);
       auVar20._0_8_ = auVar17._0_8_;
       auVar20._12_52_ = auVar17._12_52_;
-      if (((byte)ac & 1 | 1 < DAT_005555e4) == 1) {
+      if (((byte)ac & 1 | 1 < BYTE_005555e4) == 1) {
         Camera_Angle = camera_introZoom2;
         fp = &auStack_40;
         auStackX_0._8_4_ = 0x172bc;
@@ -475,18 +475,18 @@ void FUN_00016fa0(void)
           auVar56._24_4_ = iVar81 + -1;
         } while (((byte)ac & 1 | (byte)(uVar82 >> 2) & 1) == 1);
       }
-      DAT_005555e4 = g14._0_1_;
-      DAT_005555e7 = 1;
+      BYTE_005555e4 = g14._0_1_;
+      BYTE_005555e7 = 1;
       DAT_00557c44 = 1;
-      DAT_0054fcfd = 1;
+      BYTE_0054fcfd = 1;
       Sound_Request(SE_FIGHT);
       return;
     }
-    DAT_0054fcfd = g14._0_1_;
+    BYTE_0054fcfd = g14._0_1_;
     TimeCurrentMatch_Seconds_005555a0 = SettingsUnlistedGameMode_Time_0054fd78;
     TimeCurrentMatch_MilliSeconds_005555a1 = g14._0_1_;
     DAT_005555a8 = g14;
-    DAT_005555e3 = g14._0_1_;
+    g_roundEndTriggered = g14._0_1_;
     auVar14._8_4_ = 0x17038;
     auVar14._0_8_ = uVar4;
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar14;
@@ -515,16 +515,16 @@ void FUN_00016fa0(void)
     auStack_80._0_8_ = auVar16._0_8_;
     auStack_80._8_4_ = 0x17064;
     FUN_00008250(1);
-    DAT_005555e4 = g14._0_1_;
-    DAT_005555e7 = 1;
+    BYTE_005555e4 = g14._0_1_;
+    BYTE_005555e7 = 1;
     DAT_00557c44 = 1;
-    DAT_0054fcfd = 1;
+    BYTE_0054fcfd = 1;
     fp = &auStack_80;
     return;
   case 1:
-    ac = uVar82 & 0xfffffff8 | (uint)(1 < DAT_005555e3) << 2 | (uint)(DAT_005555e3 == 1) << 1 |
-         (uint)(DAT_005555e3 == 0);
-    if (((byte)ac & 1 | 1 < DAT_005555e3) == 1) {
+    ac = uVar82 & 0xfffffff8 | (uint)(1 < g_roundEndTriggered) << 2 |
+         (uint)(g_roundEndTriggered == 1) << 1 | (uint)(g_roundEndTriggered == 0);
+    if (((byte)ac & 1 | 1 < g_roundEndTriggered) == 1) {
       fp = (undefined1 (*) [64])unaff_pfp;
       return;
     }
@@ -535,11 +535,11 @@ void FUN_00016fa0(void)
       fp = (undefined1 (*) [64])unaff_pfp;
       return;
     }
-    DAT_005555e3 = g14._0_1_;
-    ac = uVar82 & 0xfffffff8 | (uint)(2 < DAT_0054fd13) << 2 | (uint)(DAT_0054fd13 == 2) << 1 |
-         (uint)(DAT_0054fd13 < 2);
-    if (((byte)ac & 1 | 2 < DAT_0054fd13) == 1) {
-      (&g_player1)[DAT_0054fd13].rounds_won = (&g_player1)[DAT_0054fd13].rounds_won + '\x01';
+    g_roundEndTriggered = g14._0_1_;
+    ac = uVar82 & 0xfffffff8 | (uint)(2 < BYTE_0054fd13) << 2 | (uint)(BYTE_0054fd13 == 2) << 1 |
+         (uint)(BYTE_0054fd13 < 2);
+    if (((byte)ac & 1 | 2 < BYTE_0054fd13) == 1) {
+      (&g_player1)[BYTE_0054fd13].rounds_won = (&g_player1)[BYTE_0054fd13].rounds_won + '\x01';
       fp = (undefined1 (*) [64])unaff_pfp;
       DAT_005555e9 = 1;
       DAT_00557c44 = 2;
@@ -552,7 +552,7 @@ void FUN_00016fa0(void)
     ac = uVar84 | (int)uVar85 < (int)uVar87;
     if (((byte)(uVar84 >> 1) & 1) == 1) {
       fp = (undefined1 (*) [64])unaff_pfp;
-      DAT_005555e3 = bVar8;
+      g_roundEndTriggered = bVar8;
       DAT_005555e9 = 1;
       DAT_00557c44 = 2;
       return;
@@ -573,9 +573,8 @@ void FUN_00016fa0(void)
       }
     }
     else {
-      ac = uVar82 & 0xfffffff8 | (uint)(DAT_0054fd11 != '\0') << 2 |
-           (uint)(DAT_0054fd11 == '\0') << 1;
-      if (DAT_0054fd11 == '\0') {
+      ac = uVar82 & 0xfffffff8 | (uint)(BYTE_0054fd11 != 0) << 2 | (uint)(BYTE_0054fd11 == 0) << 1;
+      if (BYTE_0054fd11 == 0) {
         pDVar86 = &g_player1.rounds_won;
         goto LAB_00017430;
       }
@@ -591,7 +590,7 @@ LAB_00017430:
     auVar62._20_44_ = auVar11._20_44_;
     auVar62._16_4_ = 0x78;
     auVar62._0_16_ = auVar5;
-    DAT_0054fcfd = 2;
+    BYTE_0054fcfd = 2;
     do {
       iVar81 = auVar62._16_4_;
       uVar82 = auVar62._4_4_ + 0x3f;
@@ -645,9 +644,9 @@ LAB_00017430:
   auVar70._24_40_ = auVar69._24_40_;
   auVar70._20_4_ = 0;
   auVar70._0_20_ = auVar9;
-  DAT_0054fcfd = 3;
+  BYTE_0054fcfd = 3;
   ReplayLength_____005555ec = 0x78;
-  ac = uVar82 & 0xfffffff8 | (uint)(DAT_0054fd13 == 2) << 1;
+  ac = uVar82 & 0xfffffff8 | (uint)(BYTE_0054fd13 == 2) << 1;
   if ((((byte)(ac >> 1) & 1) == 1) ||
      ((TimeCurrentMatch_Seconds_005555a0 == 0 &&
       (ac = uVar82 & 0xfffffff8, TimeCurrentMatch_MilliSeconds_005555a1 == 0)))) {
@@ -657,7 +656,7 @@ LAB_00017430:
   }
   Camera_Angle = camera_loadintoreplay;
   SPRT_DAT = replay;
-  if (DAT_0054fd13 == 0) {
+  if (BYTE_0054fd13 == 0) {
     if ((ButtonPress_P1 & button_punch) == button_none) {
 LAB_00017598:
       DVar88 = button_none;
@@ -670,27 +669,28 @@ LAB_00017598:
     if ((ButtonPress_P2 & button_punch) == button_none) goto LAB_00017598;
     DVar88 = ButtonPress_P2 >> 2 & button_hold & ButtonPress_P2 & button_hold;
   }
-  uVar87 = (uint)DAT_0054fd13;
+  uVar87 = (uint)BYTE_0054fd13;
   uVar84 = uVar82 & 0xfffffff8 | (uint)(MAN < (&g_player1)[uVar87].controller_type) << 2;
   ac = uVar84 | (&g_player1)[uVar87].controller_type == COM;
   if (((((byte)ac & 1 | (byte)(uVar84 >> 2) & 1) == 1) ||
-      (ac = uVar82 & 0xfffffff8 | (uint)((&DAT_0054fd00)[uVar87] == 0),
-      ((byte)ac & 1 | 1 < (byte)(&DAT_0054fd00)[uVar87]) == 1)) ||
+      (ac = uVar82 & 0xfffffff8 | (uint)((&BYTE_0054fd00)[uVar87] == 0),
+      ((byte)ac & 1 | 1 < (&BYTE_0054fd00)[uVar87]) == 1)) ||
      (ac = uVar82 & 0xfffffff8 | (uint)(DVar88 == button_none),
      ((byte)ac & 1 | button_hold < DVar88) == 1)) {
-    if ((((((&g_player1)[DAT_0054fd13].controller_type == MAN) &&
-          ((&g_player1)[DAT_0054fd13 ^ 1].currentHealth == 0)) &&
+    if ((((((&g_player1)[BYTE_0054fd13].controller_type == MAN) &&
+          ((&g_player1)[BYTE_0054fd13 ^ 1].currentHealth == 0)) &&
          ((TimeCurrentMatch_Seconds_005555a0 != 0 || (TimeCurrentMatch_MilliSeconds_005555a1 != 0)))
-         ) && (((DAT_0055560f == '\0' && ((&g_player1)[DAT_0054fd13].combo_count < 2)) ||
-               ((byte)(DAT_0055560f - 1U) < 2)))) && (uVar82 = (uint)DAT_00555610, 0x99 < uVar82)) {
+         ) && (((BYTE_0055560f == 0 && ((&g_player1)[BYTE_0054fd13].combo_count < 2)) ||
+               ((byte)(BYTE_0055560f - 1) < 2)))) && (uVar82 = (uint)BYTE_00555610, 0x99 < uVar82))
+    {
       auVar70._40_4_ = 1;
       auVar70._44_20_ = auVar67._44_20_;
-      ac = ac & 0xfffffff8 | (uint)(DAT_0055560f != '\0') << 2 | (uint)(DAT_0055560f == '\0') << 1;
-      if (DAT_0055560f != '\0') {
+      ac = ac & 0xfffffff8 | (uint)(BYTE_0055560f != 0) << 2 | (uint)(BYTE_0055560f == 0) << 1;
+      if (BYTE_0055560f != 0) {
         ReplayLength_____005555ec = 0x87;
       }
       else {
-        DVar3 = (&g_player1)[DAT_0054fd13].character_id;
+        DVar3 = (&g_player1)[BYTE_0054fd13].character_id;
         auVar72._12_52_ = auVar70._12_52_;
         auVar72._8_4_ = 0x176d8;
         auVar72._0_8_ = uVar4;
@@ -712,7 +712,7 @@ LAB_00017598:
       if (((TimeCurrentMatch_Seconds_005555a0 != 0) ||
           (ac = ac & 0xfffffff8 | (uint)(TimeCurrentMatch_MilliSeconds_005555a1 == 0) << 1,
           uVar82 = ac, ((byte)(ac >> 1) & 1) != 1)) &&
-         (ac = uVar82, ac = ac & 0xfffffff8, (byte)(DAT_0055560f - 1U) < 2)) {
+         (ac = uVar82, ac = ac & 0xfffffff8, (byte)(BYTE_0055560f - 1) < 2)) {
         ReplayLength_____005555ec = 0x3c;
       }
     }
@@ -720,7 +720,7 @@ LAB_00017598:
   else {
     auVar70._40_4_ = 2;
     auVar70._44_20_ = auVar67._44_20_;
-    (&DAT_0054fd00)[uVar87] = g14._0_1_;
+    (&BYTE_0054fd00)[uVar87] = g14._0_1_;
   }
 LAB_00017738:
   ac = ac & 0xfffffff8 | (uint)(auVar70._16_4_ != 0) << 2 | (uint)(auVar70._16_4_ == 0) << 1;
@@ -814,7 +814,7 @@ LAB_00017830:
         auVar79._0_4_ = puVar2;
         iVar83 = FUN_00017950(auVar78._36_4_);
         if (iVar83 == 1) {
-          if (DAT_0055560f == '\0') {
+          if (BYTE_0055560f == 0) {
             ReplayLength_____005555ec = 0xb4 - auVar70._44_2_;
           }
           else {
@@ -830,13 +830,13 @@ LAB_00017830:
         if (0x12a < ReplayLength_____005555ec) goto LAB_00017830;
       }
       else {
-        if ((DAT_0054fd13 == 0) && (g_player1.controller_type == MAN)) {
+        if ((BYTE_0054fd13 == 0) && (g_player1.controller_type == MAN)) {
           ac = ac & 0xfffffff8 | 2;
           if ((ButtonCoinTestServiceStart_0054fcd4 & START_P1) == off) break;
 LAB_0001789c:
           auVar76._20_4_ = 1;
         }
-        else if ((DAT_0054fd13 == 1) && (g_player2.controller_type == MAN)) {
+        else if ((BYTE_0054fd13 == 1) && (g_player2.controller_type == MAN)) {
           ac = ac & 0xfffffff8 | 2;
           if ((ButtonCoinTestServiceStart_0054fcd4 & START_P2) != off) goto LAB_0001789c;
           break;
@@ -850,11 +850,11 @@ LAB_0001789c:
           if (0x12a < ReplayLength_____005555ec) {
             auVar78._16_4_ = 0;
             auVar78._0_16_ = auVar10._0_16_;
-            DAT_00555611 = g14._0_1_;
+            BYTE_00555611 = g14._0_1_;
             goto LAB_0001791c;
           }
           ReplayLength_____005555ec = ReplayLength_____005555ec + 1;
-          DAT_00555611 = 1;
+          BYTE_00555611 = 1;
         }
         else {
           if (ReplayLength_____005555ec == 0) {
@@ -864,7 +864,7 @@ LAB_0001789c:
           else {
             ReplayLength_____005555ec = ReplayLength_____005555ec - 1;
           }
-          DAT_00555611 = 2;
+          BYTE_00555611 = 2;
         }
         ac = uVar82 & 0xfffffff8;
       }
@@ -874,7 +874,7 @@ LAB_0001791c:
       auVar76 = auVar78;
     } while (((byte)ac & 1 | 0 < iVar81) == 1);
   }
-  DAT_00555611 = g14._0_1_;
+  BYTE_00555611 = g14._0_1_;
   ReplayLength_____005555ec = 299;
   DAT_00557c44 = 4;
   fp = (undefined1 (*) [64])auVar76._0_4_;
