@@ -4,9 +4,9 @@ void FUN_0001ece0(void)
 {
   undefined4 unaff_pfp;
   
-  BYTE_00557ee8 = 1;
-  BYTE_00557ee9 = 1;
-  BYTE_00557eea = (byte)g14;
+  g_greatestEligibleP1 = 1;
+  g_greatestEligibleP2 = 1;
+  g_roundResolutionPending = (byte)g14;
   BYTE_00557eeb = (byte)g14;
   WORD_00557eec = g14;
   g_player1.damageDisplayAmount = g14;
