@@ -1205,7 +1205,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>158</ID>
-      <Description>"BYTE_00557ee8"</Description>
+      <Description>"BYTE_00557ee8 g_greatestEligibleP1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1213,7 +1213,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>159</ID>
-      <Description>"BYTE_00557ee9"</Description>
+      <Description>"BYTE_00557ee9 g_greatestEligibleP2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1221,7 +1221,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>160</ID>
-      <Description>"BYTE_00557eea"</Description>
+      <Description>"BYTE_00557eea g_roundResolutionPending"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1229,7 +1229,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>161</ID>
-      <Description>"BYTE_00557eeb"</Description>
+      <Description>"BYTE_00557eeb g_timeUpPending"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1237,7 +1237,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>163</ID>
-      <Description>"word_00557eec"</Description>
+      <Description>"word_00557eec g_unknownRoundValueP1"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -1245,7 +1245,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>164</ID>
-      <Description>"word_00557eee"</Description>
+      <Description>"word_00557eee g_unknownRoundValueP2"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>2 Bytes</VariableType>
@@ -1253,7 +1253,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>165</ID>
-      <Description>"BYTE_00557ef0"</Description>
+      <Description>"BYTE_00557ef0 g_previous_005555E4"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1261,7 +1261,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>166</ID>
-      <Description>"BYTE_00557ef1"</Description>
+      <Description>"BYTE_00557ef1 g_savedTotalTimeMinutes"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1269,7 +1269,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>167</ID>
-      <Description>"BYTE_00557ef2"</Description>
+      <Description>"BYTE_00557ef2 g_savedTotalTimeSeconds"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1277,7 +1277,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>168</ID>
-      <Description>"BYTE_00557ef3"</Description>
+      <Description>"BYTE_00557ef3 g_savedTotalTimeMilliseconds"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
@@ -1285,7 +1285,7 @@ end
     </CheatEntry>
     <CheatEntry>
       <ID>169</ID>
-      <Description>"BYTE_00557ef4"</Description>
+      <Description>"BYTE_00557ef4 g_saved_00557EC0"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
