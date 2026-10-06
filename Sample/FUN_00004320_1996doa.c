@@ -1,5 +1,5 @@
 
-void FUN_00004320(void)
+void GameConfig_InitializeRuntime_candidate(void)
 
 {
   uint uVar1;
@@ -61,7 +61,7 @@ void FUN_00004320(void)
   BYTE_0054fd85 = g14;
   BYTE_0054fcea = 1;
   BYTE_0054fcfe = g14;
-  DAT_0054fd86 = g14;
+  BYTE_0054fd86 = g14;
   FLOAT_0054fd88 = 1.09;
   g_debug_anime_mode = g14;
   fp = unaff_pfp;
