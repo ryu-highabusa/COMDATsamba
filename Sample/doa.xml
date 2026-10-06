@@ -8,8 +8,8 @@
 
   <cheat desc="Infinite Time">
     <script state="on">
-      <action>maincpu.ppb@5555A0=04</action>
-	  <action>maincpu.ppb@5555A1=14</action>
+      <action>maincpu.ppb@5555A0=1f</action>
+	  <action>maincpu.ppb@5555A1=00</action>
     </script>
     <script state="run">
       <action condition="(maincpu.ppb@5555A0 GT 1) AND (maincpu.ppb@5555A0 LT 04)">maincpu.ppb@5555A0=04</action>
@@ -156,6 +156,43 @@
     </script>
   </cheat>
   
+    <cheat desc="54FCFC">
+      <parameter>
+     <item value="0x00">0x00</item>
+      <item value="0x01">0x01</item>
+      <item value="0x02">0x02</item>
+      <item value="0x03">0x03</item>
+      <item value="0x04">0x04</item>
+      <item value="0x05">0x05</item>
+      <item value="0x06">0x06</item>
+      <item value="0x07">0x07</item>
+      <item value="0x08">0x08</item>
+      <item value="0x09">0x09</item>
+  <item value="0x0A">0x0A</item>
+      <item value="0x0B">0x0B</item>
+     <item value="0x0C">0x0C</item>
+     <item value="0x0D">0x0D</item>
+	<item value="0x0E">E</item>
+	<item value="0x0F">F</item>
+	<item value="0x10">10</item>
+	<item value="0x11">11</item>
+	<item value="0x12">12</item>
+	<item value="0xFF">FF</item>
+    </parameter>
+    <script state="run">
+    <action>:maincpu.pb@0x54FCFC=param</action>
+  </script>
+ </cheat>
+  
+<cheat desc="legal characters??">
+    <script state="run">
+      <action>maincpu.ppb@90d83=01</action>
+	  <action>maincpu.ppb@90d87=01</action>
+	  <action>maincpu.ppb@90d89=01</action>
+	  <action>maincpu.ppb@90d8A=01</action>
+	  <action>maincpu.ppb@90d8B=01</action>
+    </script>
+  </cheat>
 
    <cheat desc="P1 Animation">
     <parameter min="0" max="255" step="1"/>
@@ -176,11 +213,50 @@
       <action>maincpu.ppb@5555ac=param</action>
     </script>
   </cheat>
-   
+  
+      <cheat desc="589de0">
+    <parameter min="0" max="10" step="1"/>
+    <script state="run">
+      <action>maincpu.ppb@589de0=param</action>
+    </script>
+  </cheat>
+  
+    <cheat desc="589de0">
+    <script state="run">
+      <action>maincpu.ppb@589de0=00</action>
+    </script>
+  </cheat>
+  
+  
+      <cheat desc="557a84 raidou char select?">
+    <script state="run">
+      <action>maincpu.ppb@557a84=01</action>
+    </script>
+  </cheat>
+  
   
 <cheat desc="Unlock Raidou">
 <script state="run">
 <action>maincpu.ppb@54fd76=01</action>
+</script>
+</cheat>
+
+      <cheat desc="P1 54fc47">
+    <parameter min="0" max="10" step="1"/>
+    <script state="run">
+      <action>maincpu.ppb@589de0=param</action>
+    </script>
+  </cheat>
+  
+<cheat desc="54f3cc patch to 1">
+<script state="run">
+<action>maincpu.ppb@54f3cc=01</action>
+</script>
+</cheat>
+
+<cheat desc="changing 1.09f to 9.09f">
+<script state="run">
+<action>maincpu.ppb@452c=411170a4</action>
 </script>
 </cheat>
 
@@ -192,7 +268,24 @@
 <action>maincpu.md@2f5c=09001ac8</action>
 </script>
 </cheat>
+
+<cheat desc="anime mode patch attempt 1">
+<script state="run">
+<action>maincpu.md@4538=5c881e01</action>
+<action>maincpu.md@453c=82883000</action>
+<action>maincpu.md@4540=0054fd8c</action>
+<action>maincpu.md@4544=0a000000</action>
+</script>
+</cheat>
+
+<cheat desc="anime mode patch attempt 2">
+<script state="run">
+<action>maincpu.md@4538=5c881e02</action>
+<action>maincpu.md@453c=82883000</action>
+<action>maincpu.md@4540=0054fd8c</action>
+<action>maincpu.md@4544=0a000000</action>
+</script>
+</cheat>
+
 </mamecheat>
-
-
 <!-- Cheat file downloaded from http://www.mamecheat.co.uk, see cheat.txt for list of contributors. -->
