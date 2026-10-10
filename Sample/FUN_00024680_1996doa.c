@@ -1,5 +1,14 @@
 
 /* WARNING: Restarted to delay deadcode elimination for space: register */
+/* 1. Read the selected player’s facing_direction.
+   2. Normalize P2 by subtracting 0x8000—180 degrees.
+   3. Compare that direction with DAT_005555a8
+   4. Either snap the player onto the shared P1/P2 axis or gradually rotate them.
+   5. During gradual adjustment, update both:
+       player->facing_direction;
+       player->body_direction;
+   6. Return 1 while gradual adjustment was applied, or 0 when the direction was snapped/completed.
+    */
 
 undefined4 FUN_00024680(int param_1,int param_2)
 
