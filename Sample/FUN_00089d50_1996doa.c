@@ -1,10 +1,9 @@
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
+/* menu renderer */
 
-void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
-                 undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
-                 undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined4 param_12)
+void ServiceMenu_GameModeSettings_Draw(void)
 
 {
   undefined1 auVar1 [64];
@@ -60,7 +59,17 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   undefined1 auVar50 [64];
   undefined1 auVar51 [64];
   undefined1 auVar52 [64];
+  undefined4 in_g2;
+  undefined4 in_g3;
+  undefined4 in_g4;
   uint uVar53;
+  undefined4 in_g5;
+  undefined4 in_g6;
+  undefined4 in_g7;
+  undefined4 in_g8;
+  undefined4 in_g9;
+  undefined4 in_g10;
+  undefined4 in_g11;
   undefined1 auStackX_0 [64];
   undefined1 auStack_40 [64];
   undefined1 auStack_80 [64];
@@ -238,8 +247,8 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar26._8_56_ = auStack_440._8_56_;
   auVar26._4_4_ = auStack_480;
   auVar26._0_4_ = auStack_440;
-  FUN_0008e740(s__1d_00089360,(uint)SettingsGameMode_VsComSetCount_005bfb62,param_3,param_4,param_5,
-               param_6,param_7,param_8,param_9,param_10,param_11,param_12);
+  FUN_0008e740(s__1d_00089360,(uint)SettingsGameMode_VsComSetCount,in_g2,in_g3,in_g4,in_g5,in_g6,
+               in_g7,in_g8,in_g9,in_g10,in_g11);
   auStack_480._12_52_ = auVar26._12_52_;
   auStack_480._0_8_ = auVar26._0_8_;
   auStack_480._8_4_ = 0x89e48;
@@ -253,8 +262,8 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar28._8_56_ = auStack_4c0._8_56_;
   auVar28._4_4_ = auStack_500;
   auVar28._0_4_ = auStack_4c0;
-  FUN_0008e740(s__1d_00089360,(uint)SettingsGameMode_VsManSetCount_005bfb63,param_3,param_4,param_5,
-               param_6,param_7,param_8,param_9,param_10,param_11,param_12);
+  FUN_0008e740(s__1d_00089360,(uint)SettingsGameMode_VsManSetCount,in_g2,in_g3,in_g4,in_g5,in_g6,
+               in_g7,in_g8,in_g9,in_g10,in_g11);
   auStack_500._12_52_ = auVar28._12_52_;
   auStack_500._0_8_ = auVar28._0_8_;
   auStack_500._8_4_ = 0x89e68;
@@ -268,7 +277,7 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar30._8_56_ = auStack_540._8_56_;
   auVar30._4_4_ = auStack_580;
   auVar30._0_4_ = auStack_540;
-  FUN_0008a060(SettingsGameMode_VsComDifficulty_005bfb64);
+  FUN_0008a060(SettingsGameMode_VsComDifficulty);
   auStack_580._12_52_ = auVar30._12_52_;
   auStack_580._0_8_ = auVar30._0_8_;
   auStack_580._8_4_ = 0x89e80;
@@ -282,7 +291,7 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar32._8_56_ = auStack_5c0._8_56_;
   auVar32._4_4_ = auStack_600;
   auVar32._0_4_ = auStack_5c0;
-  FUN_0008a060(SettingsGameMode_VsComEnergy_005bfb65);
+  FUN_0008a060(SettingsGameMode_VsComEnergy);
   auStack_600._12_52_ = auVar32._12_52_;
   auStack_600._0_8_ = auVar32._0_8_;
   auStack_600._8_4_ = 0x89e98;
@@ -296,7 +305,7 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar34._8_56_ = auStack_640._8_56_;
   auVar34._4_4_ = auStack_680;
   auVar34._0_4_ = auStack_640;
-  FUN_0008a060(SettingsGameMode_VsManEnergy_005bfb66);
+  FUN_0008a060(SettingsGameMode_VsManEnergy);
   auStack_680._12_52_ = auVar34._12_52_;
   auStack_680._0_8_ = auVar34._0_8_;
   auStack_680._8_4_ = 0x89eb0;
@@ -304,12 +313,11 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar35._4_4_ = auStack_6c0;
   auVar35._0_4_ = auStack_680;
   Debug_SetTextPosition(0x30,0x17);
-  ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_DemoSound_005bfb67) << 2 |
-       (uint)(SettingsGameMode_DemoSound_005bfb67 == 1) << 1 |
-       (uint)(SettingsGameMode_DemoSound_005bfb67 == 0);
+  ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_DemoSound) << 2 |
+       (uint)(SettingsGameMode_DemoSound == 1) << 1 | (uint)(SettingsGameMode_DemoSound == 0);
   auStack_6c0._0_8_ = auVar35._0_8_;
   auStack_6c0._12_52_ = auVar35._12_52_;
-  if (((byte)ac & 1 | 1 < SettingsGameMode_DemoSound_005bfb67) == 1) {
+  if (((byte)ac & 1 | 1 < SettingsGameMode_DemoSound) == 1) {
     auStack_6c0._8_4_ = 0x89ed8;
     auVar1._4_56_ = auStack_6c0._8_56_;
     auVar1._0_4_ = auStack_740;
@@ -338,11 +346,10 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   Debug_SetTextPosition(0x2d,0x1a);
   auStack_740._0_8_ = auVar38._0_8_;
   auStack_740._12_52_ = auVar38._12_52_;
-  if (SettingsGameMode_Nation_005bfb68 != 0) {
-    ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_Nation_005bfb68) << 2 |
-         (uint)(SettingsGameMode_Nation_005bfb68 == 1) << 1 |
-         (uint)(SettingsGameMode_Nation_005bfb68 == 0);
-    if (((byte)ac & 1 | 1 < SettingsGameMode_Nation_005bfb68) == 1) {
+  if (SettingsGameMode_Nation != 0) {
+    ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_Nation) << 2 |
+         (uint)(SettingsGameMode_Nation == 1) << 1 | (uint)(SettingsGameMode_Nation == 0);
+    if (((byte)ac & 1 | 1 < SettingsGameMode_Nation) == 1) {
       auStack_740._8_4_ = 0x89f28;
       auVar3._4_56_ = auStack_740._8_56_;
       auVar3._0_4_ = auStack_7c0;
@@ -365,8 +372,8 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     auVar39._0_4_ = auStack_7c0;
     auVar39._60_4_ = 0;
     auVar39 = auVar39 << 0x20;
-    ac = ac & 0xfffffff8 | (uint)(SettingsGameMode_Nation_005bfb68 != 0) << 2 |
-         (uint)(SettingsGameMode_Nation_005bfb68 == 0) << 1;
+    ac = ac & 0xfffffff8 | (uint)(SettingsGameMode_Nation != 0) << 2 |
+         (uint)(SettingsGameMode_Nation == 0) << 1;
     thunk_FUN_00008b0c(s_JAPAN_00089580);
   }
   fp = auStack_780;
@@ -380,12 +387,11 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar41._4_4_ = auStack_7c0;
   auVar41._0_4_ = fp;
   Debug_SetTextPosition(0x30,0x1d);
-  ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_Continue_005bfb69) << 2 |
-       (uint)(SettingsGameMode_Continue_005bfb69 == 1) << 1 |
-       (uint)(SettingsGameMode_Continue_005bfb69 == 0);
+  ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_Continue) << 2 |
+       (uint)(SettingsGameMode_Continue == 1) << 1 | (uint)(SettingsGameMode_Continue == 0);
   auStack_7c0._0_8_ = auVar41._0_8_;
   auStack_7c0._12_52_ = auVar41._12_52_;
-  if (((byte)ac & 1 | 1 < SettingsGameMode_Continue_005bfb69) == 1) {
+  if (((byte)ac & 1 | 1 < SettingsGameMode_Continue) == 1) {
     auStack_7c0._8_4_ = 0x89f5c;
     auVar4._4_56_ = auStack_7c0._8_56_;
     auVar4._0_4_ = auStack_840;
@@ -412,7 +418,7 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar44._4_4_ = auStack_840;
   auVar44._0_4_ = fp;
   Debug_SetTextPosition(0x30,0x20);
-  uVar53 = (uint)SettingsGameMode_VsFinish_005bfb6a;
+  uVar53 = (uint)SettingsGameMode_VsFinish;
   ac = ac & 0xfffffff8 | (uint)(uVar53 != 0) << 2 | (uint)(uVar53 == 0) << 1;
   auStack_840._0_8_ = auVar44._0_8_;
   auStack_840._12_52_ = auVar44._12_52_;
@@ -422,8 +428,8 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     auVar5._0_4_ = auStack_8c0;
     auVar5._60_4_ = 0;
     auVar45 = auVar5 << 0x20;
-    FUN_0008e740(&PTR_DAT_0008967c,(uint)SettingsGameMode_VsFinish_005bfb6a,param_3,param_4,uVar53,
-                 param_6,param_7,param_8,param_9,param_10,param_11,param_12);
+    FUN_0008e740(&PTR_DAT_0008967c,(uint)SettingsGameMode_VsFinish,in_g2,in_g3,uVar53,in_g5,in_g6,
+                 in_g7,in_g8,in_g9,in_g10,in_g11);
   }
   else {
     auStack_840._8_4_ = 0x89f80;
@@ -444,12 +450,11 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar47._4_4_ = auStack_8c0;
   auVar47._0_4_ = fp;
   Debug_SetTextPosition(0x30,0x23);
-  ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_BurstMode_005bfb6b) << 2 |
-       (uint)(SettingsGameMode_BurstMode_005bfb6b == 1) << 1 |
-       (uint)(SettingsGameMode_BurstMode_005bfb6b == 0);
+  ac = ac & 0xfffffff8 | (uint)(1 < SettingsGameMode_BurstMode) << 2 |
+       (uint)(SettingsGameMode_BurstMode == 1) << 1 | (uint)(SettingsGameMode_BurstMode == 0);
   auStack_8c0._0_8_ = auVar47._0_8_;
   auStack_8c0._12_52_ = auVar47._12_52_;
-  if (((byte)ac & 1 | 1 < SettingsGameMode_BurstMode_005bfb6b) == 1) {
+  if (((byte)ac & 1 | 1 < SettingsGameMode_BurstMode) == 1) {
     auStack_8c0._8_4_ = 0x89fcc;
     auVar6._4_56_ = auStack_8c0._8_56_;
     auVar6._0_4_ = auStack_940;
@@ -475,7 +480,7 @@ void FUN_00089d50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   auVar50._8_56_ = auStack_900._8_56_;
   auVar50._4_4_ = auStack_940;
   auVar50._0_4_ = fp;
-  Debug_SetTextPosition(0x16,(uint)DAT_005bfb60 * 3 + 8);
+  Debug_SetTextPosition(0x16,(uint)g_game_mode_settings_cursor * 3 + 8);
   auStack_940._12_52_ = auVar50._12_52_;
   auStack_940._0_8_ = auVar50._0_8_;
   auStack_940._8_4_ = 0x89ff0;
