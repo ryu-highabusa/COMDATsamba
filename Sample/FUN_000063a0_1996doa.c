@@ -1,42 +1,47 @@
 
-void FUN_000063a0(void)
+/* Validates coin settings, resolves the coinage-table index into Chute 1/2 values, then initializes
+   coin bookkeeping/runtime state */
+
+void CoinSystem_InitializeFromSettings(void)
 
 {
   undefined4 unaff_pfp;
   uint uVar1;
   int iVar2;
   
-  iVar2 = (uint)DAT_0054fd30 * 2;
+  iVar2 = (uint)g_configured_game_settings.coinage_preset * 2;
   SettingsCoinMode_Chute1 = (&DAT_00090670)[iVar2];
   SettingsCoinMode_Chute2 = (&BYTE_00090671_ChuteValues_)[iVar2];
-  SettingsCoinMode_CoinCounterType_0054fda0 = DAT_0054fd31;
-  SettingsCoinMode_CoinChuteType = DAT_0054fd32;
-  SettingsCoinMode_StartCredits_0054fced = DAT_0054fd33;
-  SettingsCoinMode_ContinueCredits_0054fce1 = DAT_0054fd34;
-  SettingsCoinMode_VsStartCredits_0054fcec = DAT_0054fd35;
-  SettingsCoinMode_VsContinueCredits_0054fce9 = DAT_0054fd36;
-  if ((uint)(byte)GAME_SETTINGS_VALUES_000906f0._8_1_ < (uint)DAT_0054fd30) {
-    SettingsCoinMode_Chute1 = (&DAT_00090670)[(uint)(byte)GAME_SETTINGS_VALUES_000906c0._8_1_ * 2];
+  SettingsCoinMode_CoinCounterType_0054fda0 = g_configured_game_settings.coin_counter_type;
+  SettingsCoinMode_CoinChuteType = g_configured_game_settings.coin_chute_type;
+  SettingsCoinMode_StartCredits_0054fced = g_configured_game_settings.start_credits;
+  SettingsCoinMode_ContinueCredits_0054fce1 = g_configured_game_settings.continue_credits;
+  SettingsCoinMode_VsStartCredits_0054fcec = g_configured_game_settings.vs_start_credits;
+  SettingsCoinMode_VsContinueCredits_0054fce9 = g_configured_game_settings.vs_continue_credits;
+  if ((uint)k_maximum_game_settings.coinage_preset < (uint)g_configured_game_settings.coinage_preset
+     ) {
+    SettingsCoinMode_Chute1 = (&DAT_00090670)[(uint)k_default_game_settings.coinage_preset * 2];
     SettingsCoinMode_Chute2 =
-         (&BYTE_00090671_ChuteValues_)[(uint)(byte)GAME_SETTINGS_VALUES_000906c0._8_1_ * 2];
+         (&BYTE_00090671_ChuteValues_)[(uint)k_default_game_settings.coinage_preset * 2];
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._9_1_ < DAT_0054fd31) {
-    SettingsCoinMode_CoinCounterType_0054fda0 = GAME_SETTINGS_VALUES_000906c0._9_1_;
+  if (k_maximum_game_settings.coin_counter_type < g_configured_game_settings.coin_counter_type) {
+    SettingsCoinMode_CoinCounterType_0054fda0 = k_default_game_settings.coin_counter_type;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._10_1_ < DAT_0054fd32) {
-    SettingsCoinMode_CoinChuteType = GAME_SETTINGS_VALUES_000906c0._10_1_;
+  if (k_maximum_game_settings.coin_chute_type < g_configured_game_settings.coin_chute_type) {
+    SettingsCoinMode_CoinChuteType = k_default_game_settings.coin_chute_type;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._11_1_ < DAT_0054fd33) {
-    SettingsCoinMode_StartCredits_0054fced = GAME_SETTINGS_VALUES_000906c0._11_1_;
+  if (k_maximum_game_settings.start_credits < g_configured_game_settings.start_credits) {
+    SettingsCoinMode_StartCredits_0054fced = k_default_game_settings.start_credits;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._12_1_ < DAT_0054fd34) {
-    SettingsCoinMode_ContinueCredits_0054fce1 = GAME_SETTINGS_VALUES_000906c0._12_1_;
+  if (k_maximum_game_settings.continue_credits < g_configured_game_settings.continue_credits) {
+    SettingsCoinMode_ContinueCredits_0054fce1 = k_default_game_settings.continue_credits;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._13_1_ < DAT_0054fd35) {
-    SettingsCoinMode_VsStartCredits_0054fcec = GAME_SETTINGS_VALUES_000906c0._13_1_;
+  if (k_maximum_game_settings.vs_start_credits < g_configured_game_settings.vs_start_credits) {
+    SettingsCoinMode_VsStartCredits_0054fcec = k_default_game_settings.vs_start_credits;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._14_1_ < DAT_0054fd36) {
-    SettingsCoinMode_VsContinueCredits_0054fce9 = GAME_SETTINGS_VALUES_000906c0._14_1_;
+  if (k_maximum_game_settings.vs_continue_credits < g_configured_game_settings.vs_continue_credits)
+  {
+    SettingsCoinMode_VsContinueCredits_0054fce9 = k_default_game_settings.vs_continue_credits;
   }
   if (SettingsCoinMode_Chute1 == value_freeplay) {
     DWORD_0054f430 = 1;
