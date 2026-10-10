@@ -1,44 +1,51 @@
 
-void FUN_0008aa10(void)
+/* Copies validated coin settings and resolves the coinage preset into Chute 1/2 values */
+
+void CoinSettings_CopyValidatedAndResolveChutes(void)
 
 {
   uint uVar1;
   undefined4 unaff_pfp;
   
-  SettingsCoinMode_FreePlay_005bfb72 = DAT_0054fd30;
-  SettingsCoinMode_CoinCounterType_0054fda0 = DAT_0054fd31;
-  SettingsCoinMode_CoinChuteType = DAT_0054fd32;
-  SettingsCoinMode_StartCredits_0054fced = DAT_0054fd33;
-  SettingsCoinMode_ContinueCredits_0054fce1 = DAT_0054fd34;
-  SettingsCoinMode_VsStartCredits_0054fcec = DAT_0054fd35;
-  SettingsCoinMode_VsContinueCredits_0054fce9 = DAT_0054fd36;
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._8_1_ < DAT_0054fd30) {
-    SettingsCoinMode_FreePlay_005bfb72 = GAME_SETTINGS_VALUES_000906c0._8_1_;
+  g_menu_coinage_preset = g_configured_game_settings.coinage_preset;
+  SettingsCoinMode_CoinCounterType_0054fda0 = g_configured_game_settings.coin_counter_type;
+  SettingsCoinMode_CoinChuteType = g_configured_game_settings.coin_chute_type;
+  SettingsCoinMode_StartCredits_0054fced = g_configured_game_settings.start_credits;
+  SettingsCoinMode_ContinueCredits_0054fce1 = g_configured_game_settings.continue_credits;
+  SettingsCoinMode_VsStartCredits_0054fcec = g_configured_game_settings.vs_start_credits;
+  SettingsCoinMode_VsContinueCredits_0054fce9 = g_configured_game_settings.vs_continue_credits;
+  if (k_maximum_game_settings.coinage_preset < g_configured_game_settings.coinage_preset) {
+    g_menu_coinage_preset = k_default_game_settings.coinage_preset;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._9_1_ < DAT_0054fd31) {
-    SettingsCoinMode_CoinCounterType_0054fda0 = GAME_SETTINGS_VALUES_000906c0._9_1_;
+  if (k_maximum_game_settings.coin_counter_type < g_configured_game_settings.coin_counter_type) {
+    SettingsCoinMode_CoinCounterType_0054fda0 = k_default_game_settings.coin_counter_type;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._10_1_ < DAT_0054fd32) {
-    SettingsCoinMode_CoinChuteType = GAME_SETTINGS_VALUES_000906c0._10_1_;
+  if (k_maximum_game_settings.coin_chute_type < g_configured_game_settings.coin_chute_type) {
+    SettingsCoinMode_CoinChuteType = k_default_game_settings.coin_chute_type;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._11_1_ < DAT_0054fd33) {
-    SettingsCoinMode_StartCredits_0054fced = GAME_SETTINGS_VALUES_000906c0._11_1_;
+  if (k_maximum_game_settings.start_credits < g_configured_game_settings.start_credits) {
+    SettingsCoinMode_StartCredits_0054fced = k_default_game_settings.start_credits;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._12_1_ < DAT_0054fd34) {
-    SettingsCoinMode_ContinueCredits_0054fce1 = GAME_SETTINGS_VALUES_000906c0._12_1_;
+  if (k_maximum_game_settings.continue_credits < g_configured_game_settings.continue_credits) {
+    SettingsCoinMode_ContinueCredits_0054fce1 = k_default_game_settings.continue_credits;
   }
-  if ((byte)GAME_SETTINGS_VALUES_000906f0._13_1_ < DAT_0054fd35) {
-    SettingsCoinMode_VsStartCredits_0054fcec = GAME_SETTINGS_VALUES_000906c0._13_1_;
+  if (k_maximum_game_settings.vs_start_credits < g_configured_game_settings.vs_start_credits) {
+    SettingsCoinMode_VsStartCredits_0054fcec = k_default_game_settings.vs_start_credits;
   }
-  uVar1 = ac & 0xfffffff8 | (uint)(DAT_0054fd36 < (byte)GAME_SETTINGS_VALUES_000906f0._14_1_) << 2 |
-          (uint)(DAT_0054fd36 == GAME_SETTINGS_VALUES_000906f0._14_1_) << 1;
-  ac = uVar1 | (byte)GAME_SETTINGS_VALUES_000906f0._14_1_ < DAT_0054fd36;
-  if (((byte)(uVar1 >> 1) & 1 | DAT_0054fd36 < (byte)GAME_SETTINGS_VALUES_000906f0._14_1_) != 1) {
-    SettingsCoinMode_VsContinueCredits_0054fce9 = GAME_SETTINGS_VALUES_000906c0._14_1_;
+  uVar1 = ac & 0xfffffff8 |
+          (uint)(g_configured_game_settings.vs_continue_credits <
+                k_maximum_game_settings.vs_continue_credits) << 2 |
+          (uint)(g_configured_game_settings.vs_continue_credits ==
+                k_maximum_game_settings.vs_continue_credits) << 1;
+  ac = uVar1 | k_maximum_game_settings.vs_continue_credits <
+               g_configured_game_settings.vs_continue_credits;
+  if (((byte)(uVar1 >> 1) & 1 |
+      g_configured_game_settings.vs_continue_credits < k_maximum_game_settings.vs_continue_credits)
+      != 1) {
+    SettingsCoinMode_VsContinueCredits_0054fce9 = k_default_game_settings.vs_continue_credits;
   }
-  SettingsCoinMode_Chute1 = (&DAT_00090670)[(uint)SettingsCoinMode_FreePlay_005bfb72 * 2];
-  SettingsCoinMode_Chute2 =
-       (&BYTE_00090671_ChuteValues_)[(uint)SettingsCoinMode_FreePlay_005bfb72 * 2];
+  SettingsCoinMode_Chute1 = (&DAT_00090670)[(uint)g_menu_coinage_preset * 2];
+  SettingsCoinMode_Chute2 = (&BYTE_00090671_ChuteValues_)[(uint)g_menu_coinage_preset * 2];
   fp = unaff_pfp;
   return;
 }
