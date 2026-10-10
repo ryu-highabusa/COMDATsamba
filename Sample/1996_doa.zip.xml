@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="1996_doa.zip" EXE_PATH="/C:/Users/CS2/Downloads/mame0249b_64bit/doa1full2.bin" EXE_FORMAT="Raw Binary" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sat Oct 10 03:31:44 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sat Oct 10 13:43:31 MDT 2026" />
     <PROCESSOR NAME="i960" LANGUAGE_PROVIDER="i960:LE:32:default:default" ENDIAN="little" />
     <DATATYPES>
         <FUNCTION_DEF NAME="caseD_0" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
@@ -10902,7 +10902,6 @@
         <DEFINED_DATA ADDRESS="0000a94a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="0000bf00" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000c67b" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0000e101" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000eaaa" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000eaae" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000eab2" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -14294,13 +14293,13 @@
         <DEFINED_DATA ADDRESS="0008947c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000894c8" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000894cc" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="00089518" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0008951c" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00089518" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0008951c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0008957c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00089580" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
         <DEFINED_DATA ADDRESS="00089588" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x8" />
         <DEFINED_DATA ADDRESS="00089590" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x10" />
-        <DEFINED_DATA ADDRESS="0008967c" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0008967c" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00089b48" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00089b4c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00089bf4" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -15797,32 +15796,159 @@
         <DEFINED_DATA ADDRESS="00090668" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0009066c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00090670" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090671" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090672" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090673" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090674" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090675" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090676" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090677" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090678" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090679" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009067a" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009067b" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009067c" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009067d" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009067e" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009067f" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090680" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090681" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090682" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090683" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090684" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090685" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090686" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090687" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090688" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="00090689" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0009068a" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="00090671" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090672" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090673" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090674" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090675" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090676" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090677" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090678" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090679" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009067a" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009067b" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009067c" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009067d" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009067e" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009067f" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090680" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090681" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090682" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090683" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090684" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090685" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090686" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090687" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090688" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090689" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009068a" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009068b" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009068c" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009068d" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009068e" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009068f" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090690" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090691" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090692" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090693" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090694" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090695" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090696" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090697" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090698" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="00090699" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009069a" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009069b" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009069c" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009069d" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009069e" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="0009069f" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="000906a0" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="000906a1" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="000906a2" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
+        <DEFINED_DATA ADDRESS="000906a3" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1">
+            <DISPLAY_SETTINGS FORMAT="decimal" />
+        </DEFINED_DATA>
         <DEFINED_DATA ADDRESS="000906a4" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="000906a5" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="000906b0" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
@@ -16110,22 +16236,7 @@
         <DEFINED_DATA ADDRESS="00090a4a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="00090a4c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="00090a4e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a50" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a52" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a54" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a56" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a58" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a5a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a5c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a5e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a60" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a62" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a64" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a66" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a68" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a6a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a6c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00090a6e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
+        <DEFINED_DATA ADDRESS="00090a50" DATATYPE="RGB16[16]" DATATYPE_NAMESPACE="/" SIZE="0x20" />
         <DEFINED_DATA ADDRESS="00090a70" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="00090a72" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="00090a74" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
@@ -46528,14 +46639,15 @@
         <DEFINED_DATA ADDRESS="0054fd24" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="0054fd28" DATATYPE="GAME_SETTINGS_VALUES" DATATYPE_NAMESPACE="/" SIZE="0x19" />
         <DEFINED_DATA ADDRESS="0054fd50" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0054fd70" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd71" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd72" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd73" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd74" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd75" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd77" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd78" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd70" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd71" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd72" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd73" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd74" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd75" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd76" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd77" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd78" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fd7c" DATATYPE="float" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0054fd80" DATATYPE="float" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0054fd84" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
@@ -427408,6 +427520,11 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</COMMENT>
         <COMMENT ADDRESS="00005528" TYPE="end-of-line">&quot;Hold Level&quot; / &quot;Hit Grasp Level&quot;</COMMENT>
         <COMMENT ADDRESS="000063a0" TYPE="plate">Validates coin settings, resolves the coinage-table index into Chute 1/2 values, then initializes coin bookkeeping/runtime state</COMMENT>
         <COMMENT ADDRESS="00006c60" TYPE="repeatable">FREEPLAY</COMMENT>
+        <COMMENT ADDRESS="00008610" TYPE="plate">installs fixed 16-color palette twice.</COMMENT>
+        <COMMENT ADDRESS="00008660" TYPE="plate">copies a 128 KiB graphics/data block then, same as above function, installs 16-color palette twice.</COMMENT>
+        <COMMENT ADDRESS="00008664" TYPE="plate">0x01800020 - 0x01800000 = 0x20 bytes
+0x20 / 2 bytes per entry = palette entry 16</COMMENT>
+        <COMMENT ADDRESS="00008698" TYPE="plate">0000ea94 and 0000fa07 are palettes, not pointers</COMMENT>
         <COMMENT ADDRESS="00009460" TYPE="plate">Removes one pending command from the 32-entry sound-command queue, advances the read index modulo 32, decrements the queued-command count, and transmits the command to the sound subsystem.</COMMENT>
         <COMMENT ADDRESS="000094f0" TYPE="plate">Candidate central sound-command submitter</COMMENT>
         <COMMENT ADDRESS="00013d28" TYPE="end-of-line">-1.9250000f</COMMENT>
@@ -428109,6 +428226,7 @@ alternative: GameSettings_LoadServiceMenuBuffer</COMMENT>
         <COMMENT ADDRESS="0008ba84" TYPE="end-of-line">30.00f</COMMENT>
         <COMMENT ADDRESS="0008fda2" TYPE="end-of-line">it&apos;s the same???</COMMENT>
         <COMMENT ADDRESS="000904d4" TYPE="end-of-line">leaderboard data?</COMMENT>
+        <COMMENT ADDRESS="00090850" TYPE="plate">more 16-bit pallettes ??</COMMENT>
         <COMMENT ADDRESS="00090a70" TYPE="end-of-line">0x0 ZACK</COMMENT>
         <COMMENT ADDRESS="00090a72" TYPE="end-of-line">0x1 TINA</COMMENT>
         <COMMENT ADDRESS="00090a74" TYPE="end-of-line">0x2 JANNLEE</COMMENT>
@@ -428753,6 +428871,7 @@ A0 7</COMMENT>
 0x20 P2 START
 0x30 P1+P2 START</COMMENT>
         <COMMENT ADDRESS="0054fce8" TYPE="repeatable">0x0F FREEPLAY</COMMENT>
+        <COMMENT ADDRESS="0054fcea" TYPE="plate">Validated setting selected for the current match</COMMENT>
         <COMMENT ADDRESS="0054fcef" TYPE="end-of-line">0=COMMON, 1=INDIVIDUAL</COMMENT>
         <COMMENT ADDRESS="0054fcf0" TYPE="end-of-line">0x00 1 Coin = 1 Credit
 0x01 1 Coin = 2 Credit
@@ -428794,6 +428913,7 @@ FF CLEAR</COMMENT>
         <COMMENT ADDRESS="0054fd0c" TYPE="end-of-line">10.00f?</COMMENT>
         <COMMENT ADDRESS="0054fd17" TYPE="repeatable">the values don&apos;t match what&apos;s on the screen for some reason????</COMMENT>
         <COMMENT ADDRESS="0054fd71" TYPE="repeatable">0-NORMAL,1-EASY,2-HARD,3-VERYHARD</COMMENT>
+        <COMMENT ADDRESS="0054fd75" TYPE="repeatable">g_effective_vs_session_match_limit</COMMENT>
         <COMMENT ADDRESS="0054fd77" TYPE="end-of-line">60d</COMMENT>
         <COMMENT ADDRESS="0054fd7c" TYPE="plate">Positive X magnitude of the logical ring-out boundary.
 Initialized to 24.0; no other direct writer identified.</COMMENT>
@@ -428940,13 +429060,13 @@ Initialized to 24.0; no other direct writer identified.</COMMENT>
     &amp;lt;STATE NAME=&amp;quot;Apply Data Archives&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;121&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Basic Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;82757&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;CUSTOM_OPTION_CLASS&amp;quot; TYPE=&amp;quot;string&amp;quot; VALUE=&amp;quot;ghidra.app.plugin.core.analysis.StoredAnalyzerTimes&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;125&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;116&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;127&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;117&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;7&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables - One Time&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;108593&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Function&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1718&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;21870&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;371518&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;21879&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;372199&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Decompiler Switch Analysis&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;340231&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Demangler GNU&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Disassemble Entry Points&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
@@ -428956,8 +429076,8 @@ Initialized to 24.0; no other direct writer identified.</COMMENT>
     &amp;lt;STATE NAME=&amp;quot;Non-Returning Functions - Discovered&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2229&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;19739&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Scalar Operand References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;5014&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1714&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;9714&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1717&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;9745&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Subroutine References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;4292&amp;quot; /&amp;gt;
 &amp;lt;/SAVE_STATE&amp;gt;" />
         <PROPERTY NAME="Program Information.Analyzed" TYPE="bool" VALUE="y" />
@@ -442107,6 +442227,12 @@ Initialized to 24.0; no other direct writer identified.</COMMENT>
         <SYMBOL ADDRESS="00005f10" NAME="caseD_c" NAMESPACE="switchD_00005d34::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="000063a0" NAME="CoinSystem_InitializeFromSettings" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00008220" NAME="Task_RegisterOrReplace" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00008430" NAME="TilemapVideo_Initialize" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000085f0" NAME="Tilemap_Clear64x64" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00008610" NAME="DebugText_InstallPalette" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00008660" NAME="Tilemap_CopyGraphicsAndInstallTextPalette" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000086d0" NAME="Tile_Expand1bppTo4bpp8x8_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00008750" NAME="Tile_Expand2bppTo4bpp8x8_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00008870" NAME="Debug_SetTextPosition" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00009460" NAME="Sound_ProcessNextCommand" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000094f0" NAME="Sound_Request" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -443422,6 +443548,7 @@ Initialized to 24.0; no other direct writer identified.</COMMENT>
         <SYMBOL ADDRESS="000906d4" NAME="SettingsGameMode_DemoSound_000906d4" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000906d6" NAME="SettingsGameMode_Nation_000906d6" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000906f0" NAME="k_maximum_game_settings" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00090a50" NAME="k_debug_text_palette" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00090ab0" NAME="ANIME_CharacterSelectIdleStanceValues_00090ab0" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00090ab4" NAME="ANIME_CharacterSelectIdleStanceValues_00090ab4" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00090aba" NAME="ANIME_CharacterSelectIdleStanceValues_00090aba" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -444032,6 +444159,7 @@ Initialized to 24.0; no other direct writer identified.</COMMENT>
         <SYMBOL ADDRESS="0054fce4" NAME="CoinCounter_0054fce4" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fce8" NAME="SettingsCoinMode_Chute1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fce9" NAME="SettingsCoinMode_VsContinueCredits_0054fce9" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fcea" NAME="g_effective_set_count" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fcec" NAME="SettingsCoinMode_VsStartCredits_0054fcec" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fced" NAME="SettingsCoinMode_StartCredits_0054fced" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fcef" NAME="SettingsCoinMode_CoinChuteType" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -444058,14 +444186,14 @@ Initialized to 24.0; no other direct writer identified.</COMMENT>
         <SYMBOL ADDRESS="0054fd74" NAME="g_effective_continue_setting" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd75" NAME="g_effective_vs_finish" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd76" NAME="SettingsUnlisted_UnlockRaidou_0054fd76*" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="0054fd77" NAME="60d_DAT_0054fd77" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="0054fd78" NAME="SettingsUnlistedGameMode_Time_0054fd78" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fd77" NAME="60decimal" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fd78" NAME="SettingsUnlistedGameMode_Time" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd7c" NAME="g_ringBoundaryHalfExtentX" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd80" NAME="g_ringBoundaryHalfExtentZ" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd8c" NAME="g_debug_anime_mode" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd90" NAME="current_game_seconds" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="0054fd98" NAME="Bookkeeping_TotalTime_0054fd98" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="0054fda0" NAME="SettingsCoinMode_CoinCounterType_0054fda0" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fd98" NAME="Bookkeeping_TotalTime" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fda0" NAME="SettingsCoinMode_CoinCounterType" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555a0" NAME="TimeCurrentMatch_Seconds_005555a0" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555a1" NAME="TimeCurrentMatch_MilliSeconds_005555a1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555ac" NAME="Camera_Angle" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -445059,9 +445187,10 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined2 *" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00008430" NAME="FUN_00008430" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00008430" NAME="TilemapVideo_Initialize" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00008430" END="000084df" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00008430(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall TilemapVideo_Initialize(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000084e0" NAME="FUN_000084e0" LIBRARY_FUNCTION="n">
@@ -445074,18 +445203,45 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_00008530(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="000085f0" NAME="FUN_000085f0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="000085f0" NAME="Tilemap_Clear64x64" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="000085f0" END="00008607" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_000085f0(undefined2 * param_1)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Tilemap_Clear64x64(undefined2 * param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined2 *" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00008660" NAME="FUN_00008660" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00008610" NAME="DebugText_InstallPalette" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
+            <ADDRESS_RANGE START="00008610" END="00008653" />
+            <REGULAR_CMT>installs fixed 16-color palette twice.</REGULAR_CMT>
+            <TYPEINFO_CMT>void __stdcall DebugText_InstallPalette(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="00008660" NAME="Tilemap_CopyGraphicsAndInstallTextPalette" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00008660" END="000086c7" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00008660(undefined * param_1, undefined * param_2)</TYPEINFO_CMT>
+            <REGULAR_CMT>copies a 128 KiB graphics/data block then, same as above function, installs 16-color palette twice.</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Tilemap_CopyGraphicsAndInstallTextPalette(undefined * param_1, undefined * param_2)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="000086d0" NAME="Tile_Expand1bppTo4bpp8x8_candidate" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="000086d0" END="0000874b" />
+            <TYPEINFO_CMT>undefined __stdcall Tile_Expand1bppTo4bpp8x8_candidate(byte * param_1, uint * param_2, int param_3, uint param_4, uint param_5)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="byte *" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="uint *" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_5" REGISTER="g4" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="00008750" NAME="Tile_Expand2bppTo4bpp8x8_candidate" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="00008750" END="000087b7" />
+            <TYPEINFO_CMT>undefined __stdcall Tile_Expand2bppTo4bpp8x8_candidate(ushort * param_1, int * param_2, int param_3, uint param_4)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="ushort *" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="int *" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00008870" NAME="Debug_SetTextPosition" LIBRARY_FUNCTION="n">
             <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
@@ -452963,99 +453119,75 @@ Generic resource-slot selection, not confirmed chi-table selection.</REGULAR_CMT
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089370" NAME="GameModeMenu_AdjustVsComSetCount" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089370" END="000893c3" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustVsComSetCount(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, undefined4 param_12)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustVsComSetCount(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
-            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_5" REGISTER="g4" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_6" REGISTER="g5" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_7" REGISTER="g6" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_8" REGISTER="g7" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_9" REGISTER="g8" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_10" REGISTER="g9" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_11" REGISTER="g10" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_12" REGISTER="g11" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000893d0" NAME="GameModeMenu_AdjustVsManSetCount" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="000893d0" END="00089423" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustVsManSetCount(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, undefined4 param_12)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustVsManSetCount(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
-            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_5" REGISTER="g4" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_6" REGISTER="g5" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_7" REGISTER="g6" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_8" REGISTER="g7" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_9" REGISTER="g8" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_10" REGISTER="g9" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_11" REGISTER="g10" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_12" REGISTER="g11" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089430" NAME="GameModeMenu_AdjustVsComDifficulty" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089430" END="00089477" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustVsComDifficulty(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustVsComDifficulty(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089480" NAME="GameModeMenu_AdjustVsComEnergy" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089480" END="000894c7" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustVsComEnergy(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustVsComEnergy(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000894d0" NAME="GameModeMenu_AdjustVsManEnergy" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="000894d0" END="00089517" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustVsManEnergy(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustVsManEnergy(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089520" NAME="GameModeMenu_ToggleDemoSound" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089520" END="0008957b" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_ToggleDemoSound(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_ToggleDemoSound(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000895a0" NAME="GameModeMenu_AdjustNation" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="000895a0" END="0008961f" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustNation(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustNation(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089620" NAME="GameModeMenu_ToggleContinue" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089620" END="0008967b" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_ToggleContinue(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_ToggleContinue(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089680" NAME="GameModeMenu_AdjustVsFinish" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089680" END="000896eb" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_AdjustVsFinish(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, undefined4 param_12)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_AdjustVsFinish(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
-            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_5" REGISTER="g4" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_6" REGISTER="g5" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_7" REGISTER="g6" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_8" REGISTER="g7" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_9" REGISTER="g8" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_10" REGISTER="g9" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_11" REGISTER="g10" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
-            <REGISTER_VAR NAME="param_12" REGISTER="g11" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000896f0" NAME="GameModeMenu_ToggleBurstMode" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="000896f0" END="0008974b" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_ToggleBurstMode(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_ToggleBurstMode(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089750" NAME="GameModeMenu_InitializeSettings" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089750" END="0008995b" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_InitializeSettings(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_InitializeSettings(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089960" NAME="GameModeMenu_Exit" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00089960" END="0008998b" />
-            <TYPEINFO_CMT>undefined __stdcall GameModeMenu_Exit(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall GameModeMenu_Exit(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00089990" NAME="GameModeSettingsMenu_LoadWorkingCopy" LIBRARY_FUNCTION="n">
