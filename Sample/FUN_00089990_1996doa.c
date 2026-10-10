@@ -1,55 +1,57 @@
 
-void FUN_00089990(void)
+/* Copies a validated game-settings set into the 0x5BFB62–0x5BFB6B secondary/menu buffer */
+
+void GameSettings_CopyValidatedToSecondaryBuffer(void)
 
 {
   undefined4 unaff_pfp;
   
-  SettingsGameMode_VsComSetCount_005bfb62 = DAT_0054fd3a;
-  SettingsGameMode_VsManSetCount_005bfb63 = DAT_0054fd3b;
-  SettingsGameMode_VsComDifficulty_005bfb64 = SettingsGameMode_VsComDifficulty_0054fd37;
-  SettingsGameMode_VsComEnergy_005bfb65 = SettingsGameMode_VsComEnergy_0054fd38;
-  SettingsGameMode_VsManEnergy_005bfb66 = SettingsGameMode_VsManEnergy_0054fd39;
-  SettingsGameMode_DemoSound_005bfb67 = SettingsGameMode_DemoSound_0054fd3c;
-  SettingsGameMode_Continue_005bfb69 = DAT_0054fd3d;
-  SettingsGameMode_VsFinish_005bfb6a = DAT_0054fd3f;
-  SettingsGameMode_BurstMode_005bfb6b = DAT_0054fd40;
-  if (GAME_SETTINGS_VALUES_000906f0.vs_com_setcount < DAT_0054fd3a) {
-    SettingsGameMode_VsComSetCount_005bfb62 = GAME_SETTINGS_VALUES_000906c0.vs_com_setcount;
+  SettingsGameMode_VsComSetCount_005bfb62 = g_configured_game_settings.vs_com_setcount;
+  SettingsGameMode_VsManSetCount_005bfb63 = g_configured_game_settings.vs_man_setcount;
+  SettingsGameMode_VsComDifficulty_005bfb64 = g_configured_game_settings.vs_com_difficulty;
+  SettingsGameMode_VsComEnergy_005bfb65 = g_configured_game_settings.vs_com_energy;
+  SettingsGameMode_VsManEnergy_005bfb66 = g_configured_game_settings.vs_man_energy;
+  SettingsGameMode_DemoSound_005bfb67 = g_configured_game_settings.demo_sound;
+  SettingsGameMode_Continue_005bfb69 = g_configured_game_settings.continue_setting;
+  SettingsGameMode_VsFinish_005bfb6a = g_configured_game_settings.vs_finish;
+  SettingsGameMode_BurstMode_005bfb6b = g_configured_game_settings.burst_mode;
+  if (k_maximum_game_settings.vs_com_setcount < g_configured_game_settings.vs_com_setcount) {
+    SettingsGameMode_VsComSetCount_005bfb62 = k_default_game_settings.vs_com_setcount;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.vs_man_setcount < DAT_0054fd3b) {
-    SettingsGameMode_VsManSetCount_005bfb63 = GAME_SETTINGS_VALUES_000906c0.vs_man_setcount;
+  if (k_maximum_game_settings.vs_man_setcount < g_configured_game_settings.vs_man_setcount) {
+    SettingsGameMode_VsManSetCount_005bfb63 = k_default_game_settings.vs_man_setcount;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.vs_com_difficulty < SettingsGameMode_VsComDifficulty_0054fd37) {
-    SettingsGameMode_VsComDifficulty_005bfb64 = GAME_SETTINGS_VALUES_000906c0.vs_com_difficulty;
+  if (k_maximum_game_settings.vs_com_difficulty < g_configured_game_settings.vs_com_difficulty) {
+    SettingsGameMode_VsComDifficulty_005bfb64 = k_default_game_settings.vs_com_difficulty;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.vs_com_energy < SettingsGameMode_VsComEnergy_0054fd38) {
-    SettingsGameMode_VsComEnergy_005bfb65 = GAME_SETTINGS_VALUES_000906c0.vs_com_energy;
+  if (k_maximum_game_settings.vs_com_energy < g_configured_game_settings.vs_com_energy) {
+    SettingsGameMode_VsComEnergy_005bfb65 = k_default_game_settings.vs_com_energy;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.vs_man_energy < SettingsGameMode_VsManEnergy_0054fd39) {
-    SettingsGameMode_VsManEnergy_005bfb66 = GAME_SETTINGS_VALUES_000906c0.vs_man_energy;
+  if (k_maximum_game_settings.vs_man_energy < g_configured_game_settings.vs_man_energy) {
+    SettingsGameMode_VsManEnergy_005bfb66 = k_default_game_settings.vs_man_energy;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.demo_sound < SettingsGameMode_DemoSound_0054fd3c) {
-    SettingsGameMode_DemoSound_005bfb67 = GAME_SETTINGS_VALUES_000906c0.demo_sound;
+  if (k_maximum_game_settings.demo_sound < g_configured_game_settings.demo_sound) {
+    SettingsGameMode_DemoSound_005bfb67 = k_default_game_settings.demo_sound;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.continue_setting < DAT_0054fd3d) {
-    SettingsGameMode_Continue_005bfb69 = GAME_SETTINGS_VALUES_000906c0.continue_setting;
+  if (k_maximum_game_settings.continue_setting < g_configured_game_settings.continue_setting) {
+    SettingsGameMode_Continue_005bfb69 = k_default_game_settings.continue_setting;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.vs_finish < DAT_0054fd3f) {
-    SettingsGameMode_VsFinish_005bfb6a = GAME_SETTINGS_VALUES_000906c0.vs_finish;
+  if (k_maximum_game_settings.vs_finish < g_configured_game_settings.vs_finish) {
+    SettingsGameMode_VsFinish_005bfb6a = k_default_game_settings.vs_finish;
   }
-  if (GAME_SETTINGS_VALUES_000906f0.burst_mode < DAT_0054fd40) {
-    SettingsGameMode_BurstMode_005bfb6b = GAME_SETTINGS_VALUES_000906c0.burst_mode;
+  if (k_maximum_game_settings.burst_mode < g_configured_game_settings.burst_mode) {
+    SettingsGameMode_BurstMode_005bfb6b = k_default_game_settings.burst_mode;
   }
   ac = ac & 0xfffffff8 |
-       (uint)(SettingsGameMode_Nation_0054fd3e < GAME_SETTINGS_VALUES_000906f0.nation) << 2 |
-       (uint)(SettingsGameMode_Nation_0054fd3e == GAME_SETTINGS_VALUES_000906f0.nation) << 1 |
-       (uint)(GAME_SETTINGS_VALUES_000906f0.nation < SettingsGameMode_Nation_0054fd3e);
+       (uint)(g_configured_game_settings.nation < k_maximum_game_settings.nation) << 2 |
+       (uint)(g_configured_game_settings.nation == k_maximum_game_settings.nation) << 1 |
+       (uint)(k_maximum_game_settings.nation < g_configured_game_settings.nation);
   if (((byte)ac & 1) != 1) {
-    SettingsGameMode_Nation_005bfb68 = SettingsGameMode_Nation_0054fd3e;
+    SettingsGameMode_Nation_005bfb68 = g_configured_game_settings.nation;
     fp = unaff_pfp;
     return;
   }
-  SettingsGameMode_Nation_005bfb68 = GAME_SETTINGS_VALUES_000906c0.nation;
+  SettingsGameMode_Nation_005bfb68 = k_default_game_settings.nation;
   fp = unaff_pfp;
   return;
 }
