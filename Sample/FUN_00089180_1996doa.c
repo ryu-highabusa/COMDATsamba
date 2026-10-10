@@ -56,7 +56,7 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     auVar2._8_56_ = auVar3._8_56_;
     auVar2._4_4_ = auStackX_0;
     auVar2._0_4_ = fp;
-    uVar29 = FUN_00089990();
+    uVar29 = GameSettings_CopyValidatedToSecondaryBuffer();
     DAT_005bfb60 = 0xb;
     auStackX_0._12_52_ = auVar2._12_52_;
     auStackX_0._0_8_ = auVar2._0_8_;
