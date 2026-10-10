@@ -3,9 +3,10 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
-                 undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
-                 undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined4 param_12)
+void ServiceMenu_GameModeSettings_Update
+               (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
+               undefined4 param_9,undefined4 param_10,undefined4 param_11,undefined4 param_12)
 
 {
   undefined1 auVar1 [64];
@@ -45,10 +46,10 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
   
   uVar26 = ac;
   uVar29 = CONCAT44(auStackX_0,unaff_pfp);
-  uVar27 = (uint)DAT_005bfaf5;
+  uVar27 = (uint)g_game_mode_settings_init_pending_candidate;
   ac = ac & 0xfffffff8 | (uint)(1 < uVar27) << 2 | (uint)(uVar27 == 1) << 1 | (uint)(uVar27 == 0);
   if (((byte)ac & 1 | 1 < uVar27) != 1) {
-    DAT_005bfaf5 = g14;
+    g_game_mode_settings_init_pending_candidate = g14;
     auVar3._8_4_ = 0x89198;
     auVar3._0_8_ = uVar29;
     auVar3._12_52_ = in_register_0000000c;
@@ -56,13 +57,14 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     auVar2._8_56_ = auVar3._8_56_;
     auVar2._4_4_ = auStackX_0;
     auVar2._0_4_ = fp;
-    uVar29 = GameSettings_CopyValidatedToSecondaryBuffer();
-    DAT_005bfb60 = 0xb;
+    uVar29 = GameModeSettingsMenu_LoadWorkingCopy();
+    g_game_mode_settings_cursor = 0xb;
     auStackX_0._12_52_ = auVar2._12_52_;
     auStackX_0._0_8_ = auVar2._0_8_;
     auStackX_0._8_4_ = 0x891a8;
-    FUN_00089d50((int)uVar29,(int)((ulonglong)uVar29 >> 0x20),0xb,param_4,uVar27,param_6,param_7,
-                 param_8,param_9,param_10,param_11,param_12);
+    ServiceMenu_GameModeSettings_Draw
+              ((int)uVar29,(int)((ulonglong)uVar29 >> 0x20),0xb,param_4,uVar27,param_6,param_7,
+               param_8,param_9,param_10,param_11,param_12);
     fp = auStackX_0;
     return;
   }
@@ -72,7 +74,7 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     ac = uVar26 | 2;
     if (((ButtonPress_P1_0054fcd5 & lever_2) == button_none) ||
        (ac = uVar26, (ButtonCoinTestServiceStart_0054fcd4 & button_service) == off)) {
-      uVar26 = (uint)DAT_005bfb60;
+      uVar26 = (uint)g_game_mode_settings_cursor;
       auVar18._8_4_ = 0x8929c;
       auVar18._0_8_ = uVar29;
       auVar18._12_52_ = in_register_0000000c;
@@ -89,13 +91,14 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
       auVar19._60_4_ = 0;
       auVar19 = auVar19 << 0x20;
       thunk_FUN_00008b0c(s__00089170);
-      ac = ac & 0xfffffff8 | (uint)(10 < DAT_005bfb60) << 2 | (uint)(DAT_005bfb60 == 10) << 1 |
-           (uint)(DAT_005bfb60 < 10);
-      if (10 < DAT_005bfb60) {
-        DAT_005bfb60 = g14;
+      ac = ac & 0xfffffff8 | (uint)(10 < g_game_mode_settings_cursor) << 2 |
+           (uint)(g_game_mode_settings_cursor == 10) << 1 | (uint)(g_game_mode_settings_cursor < 10)
+      ;
+      if (10 < g_game_mode_settings_cursor) {
+        g_game_mode_settings_cursor = g14;
       }
       else {
-        DAT_005bfb60 = DAT_005bfb60 + 1;
+        g_game_mode_settings_cursor = g_game_mode_settings_cursor + 1;
       }
     }
     else {
@@ -104,7 +107,7 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
         fp = (undefined1 *)unaff_pfp;
         return;
       }
-      uVar27 = (uint)DAT_005bfb60;
+      uVar27 = (uint)g_game_mode_settings_cursor;
       auVar21._8_4_ = 0x892fc;
       auVar21._0_8_ = uVar29;
       auVar21._12_52_ = in_register_0000000c;
@@ -122,12 +125,13 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
       auVar1._60_4_ = 0;
       auVar19 = auVar1 << 0x20;
       thunk_FUN_00008b0c(s__00089170);
-      ac = ac & 0xfffffff8 | (uint)(DAT_005bfb60 != 0) << 2 | (uint)(DAT_005bfb60 == 0) << 1;
+      ac = ac & 0xfffffff8 | (uint)(g_game_mode_settings_cursor != 0) << 2 |
+           (uint)(g_game_mode_settings_cursor == 0) << 1;
       if (((byte)(ac >> 1) & 1) == 1) {
-        DAT_005bfb60 = 0xb;
+        g_game_mode_settings_cursor = 0xb;
       }
       else {
-        DAT_005bfb60 = DAT_005bfb60 - 1;
+        g_game_mode_settings_cursor = g_game_mode_settings_cursor - 1;
       }
     }
     auVar22._8_56_ = auVar19._8_56_;
@@ -140,7 +144,7 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     auVar23._0_4_ = auStack_80;
     auVar23._60_4_ = 0;
     auVar23 = auVar23 << 0x20;
-    Debug_SetTextPosition(0x16,(uint)DAT_005bfb60 * 3 + 8);
+    Debug_SetTextPosition(0x16,(uint)g_game_mode_settings_cursor * 3 + 8);
     auVar25._12_52_ = auVar23._12_52_;
     auVar25._0_8_ = auVar23._0_8_;
     auVar25._8_4_ = 0x8935c;
@@ -151,93 +155,96 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     fp = (undefined1 *)auVar24._0_4_;
     return;
   }
-  uVar27 = (uint)DAT_005bfb60;
+  uVar27 = (uint)g_game_mode_settings_cursor;
   uVar26 = uVar26 | (uint)(0xb < uVar27) << 2;
   ac = uVar26 | (uint)(uVar27 == 0xb) << 1;
   ac = ac | uVar27 < 0xb;
   if (((byte)(uVar26 >> 2) & 1) != 1) {
     puVar28 = (&switchD_000891d8::switchdataD_000891dc)[uVar27];
                     /* WARNING: Could not find normalized switch variable to match jumptable */
-    switch(DAT_005bfb60) {
+    switch(g_game_mode_settings_cursor) {
     case 0:
       auVar4._8_4_ = 0x89210;
       auVar4._0_8_ = uVar29;
       auVar4._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar4;
-      FUN_00089370(param_1,param_2,param_3,param_4,puVar28,param_6,param_7,param_8,param_9,param_10,
-                   param_11,param_12);
+      GameModeMenu_AdjustVsComSetCount
+                (param_1,param_2,param_3,param_4,puVar28,param_6,param_7,param_8,param_9,param_10,
+                 param_11,param_12);
       return;
     case 1:
       auVar5._8_4_ = 0x89218;
       auVar5._0_8_ = uVar29;
       auVar5._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar5;
-      FUN_000893d0(param_1,param_2,param_3,param_4,puVar28,param_6,param_7,param_8,param_9,param_10,
-                   param_11,param_12);
+      GameModeMenu_AdjustVsManSetCount
+                (param_1,param_2,param_3,param_4,puVar28,param_6,param_7,param_8,param_9,param_10,
+                 param_11,param_12);
       return;
     case 2:
       auVar6._8_4_ = 0x89220;
       auVar6._0_8_ = uVar29;
       auVar6._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar6;
-      FUN_00089430();
+      GameModeMenu_AdjustVsComDifficulty();
       return;
     case 3:
       auVar7._8_4_ = 0x89228;
       auVar7._0_8_ = uVar29;
       auVar7._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar7;
-      FUN_00089480();
+      GameModeMenu_AdjustVsComEnergy();
       return;
     case 4:
       auVar8._8_4_ = 0x89230;
       auVar8._0_8_ = uVar29;
       auVar8._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar8;
-      FUN_000894d0();
+      GameModeMenu_AdjustVsManEnergy();
       return;
     case 5:
       auVar9._8_4_ = 0x89238;
       auVar9._0_8_ = uVar29;
       auVar9._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar9;
-      FUN_00089520();
+      GameModeMenu_ToggleDemoSound();
       return;
     case 6:
       auVar10._8_4_ = 0x89240;
       auVar10._0_8_ = uVar29;
       auVar10._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar10;
-      FUN_000895a0();
+      GameModeMenu_AdjustNation();
       return;
     case 7:
       auVar11._8_4_ = 0x89248;
       auVar11._0_8_ = uVar29;
       auVar11._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar11;
-      FUN_00089620();
+      GameModeMenu_ToggleContinue();
       return;
     case 8:
       auVar12._8_4_ = 0x89250;
       auVar12._0_8_ = uVar29;
       auVar12._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar12;
-      FUN_00089680(param_1,param_2,param_3,param_4,puVar28,param_6,param_7,param_8,param_9,param_10,
-                   param_11,param_12);
+      GameModeMenu_AdjustVsFinish
+                (param_1,param_2,param_3,param_4,puVar28,param_6,param_7,param_8,param_9,param_10,
+                 param_11,param_12);
       return;
     case 9:
       auVar13._8_4_ = 0x89258;
       auVar13._0_8_ = uVar29;
       auVar13._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar13;
-      FUN_000896f0();
+      GameModeMenu_ToggleBurstMode();
       return;
     case 10:
       auVar14._8_4_ = 0x89260;
       auVar14._0_8_ = uVar29;
       auVar14._12_52_ = in_register_0000000c;
       *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar14;
-      FUN_00089750();
+      GameModeMenu_InitializeSettings();
       return;
     case 0xb:
       auVar16._8_4_ = 0x89268;
@@ -247,7 +254,7 @@ void FUN_00089180(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
       auVar15._8_56_ = auVar16._8_56_;
       auVar15._4_4_ = 0;
       auVar15._0_4_ = fp;
-      FUN_00089960();
+      GameModeMenu_Exit();
       unaff_pfp = auVar15._0_4_;
     }
   }
