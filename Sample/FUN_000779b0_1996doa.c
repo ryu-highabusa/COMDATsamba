@@ -59,7 +59,8 @@ void FUN_000779b0(void)
   *(undefined4 *)(dVar5 + 0xc) = uVar3;
   g13 = &DAT_00804000;
   DAT_00880050 = 0x505;
-  DAT_005a6ed0 = PTR_ARRAY_02099b90[DAT_005a6ee0 + 0xfU & 0x7f];
+  g_runtime_animated_model_descriptor_candidate.texture_point_word_index =
+       DOA_ANIMATED_TEXTURE_POINT_SET_02099b90.word_index_by_frame[DAT_005a6ee0 + 0xfU & 0x7f];
   DAT_00880120 = 0x1212;
   *(undefined4 *)puVar4 = 0xc2300000;
   *(undefined4 *)PTR_DAT_000006a0 = 0xc2300000;
@@ -92,10 +93,10 @@ void FUN_000779b0(void)
   *(undefined4 *)(dVar5 + 8) = uVar2;
   *(undefined4 *)(dVar5 + 0xc) = uVar3;
   DAT_00800010 = 0x101;
-  DAT_00804000 = DAT_005a6ed0;
-  DAT_00804004 = DAT_005a6ed4;
-  DAT_00804008 = DAT_005a6ed8;
-  DAT_0080400c = DAT_005a6edc;
+  DAT_00804000 = g_runtime_animated_model_descriptor_candidate.texture_point_word_index;
+  DAT_00804004 = g_runtime_animated_model_descriptor_candidate.material_header_word_index;
+  DAT_00804008 = g_runtime_animated_model_descriptor_candidate.polygon_word_address;
+  DAT_0080400c = g_runtime_animated_model_descriptor_candidate.polygon_count;
   DAT_00880060 = 0x606;
   fp = unaff_pfp;
   return;
