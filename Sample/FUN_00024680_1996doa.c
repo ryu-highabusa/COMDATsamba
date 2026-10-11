@@ -10,7 +10,7 @@
    6. Return 1 while gradual adjustment was applied, or 0 when the direction was snapped/completed.
     */
 
-uint32_t Player_AlignFacingToInterplayerAxis_candidate(int player_index,int turn_rate_variant)
+uint32_t Player_AlignFacingToInterplayerAxis(int player_index,int turn_rate_variant)
 
 {
   undefined4 unaff_pfp;
@@ -28,14 +28,14 @@ uint32_t Player_AlignFacingToInterplayerAxis_candidate(int player_index,int turn
   if (player_index != 0) {
     normalized_facing_angle = (&g_player1)[player_index].facing_direction + -0x8000;
   }
-  relative_angle_or_correction = normalized_facing_angle - g_p1_to_p2_axis_angle_candidate;
+  relative_angle_or_correction = normalized_facing_angle - g_p1_to_p2_heading_bam16;
   if ((relative_angle_or_correction + 0x5b0 & 0xffff) < 0xb61) {
     relative_angle_or_correction =
          ac & 0xfffffff8 | (uint)(0 < player_index) << 2 | (uint)(player_index == 0) << 1;
     ac = relative_angle_or_correction | player_index < 0;
     if (((byte)(relative_angle_or_correction >> 1) & 1) != 1) {
       g13 = 0xffff;
-      relative_angle_or_correction = g_p1_to_p2_axis_angle_candidate + 0x8000 & 0xffff;
+      relative_angle_or_correction = g_p1_to_p2_heading_bam16 + 0x8000U & 0xffff;
       goto LAB_00024754;
     }
   }
@@ -119,7 +119,7 @@ uint32_t Player_AlignFacingToInterplayerAxis_candidate(int player_index,int turn
       }
       else if ((((&g_player1)[player_index].character_id == CHAR_TINA) &&
                ((&g_player1)[player_index].action_state == 0xD_SPECIALMOVE)) &&
-              ((&g_player1)[player_index].action_code == (CMD_FA_HIT_YAM|CMD_SIT_SIDE_UP_H))) {
+              ((&g_player1)[player_index].action_code == (CMD_SIDE_DOWN_F_LK|0x6a))) {
         if (&DAT_0000d555 <
             (undefined *)((int)&DWORD_0000eaaa + relative_angle_or_correction & 0xffff)) {
           uVar2 = relative_angle_or_correction & 0xffff;
@@ -174,12 +174,12 @@ LAB_00024b48:
          (uint)(player_index < 0);
     if (((byte)ac & 1 | 0 < player_index) != 1) {
       g13 = 0xffff;
-      relative_angle_or_correction = g_p1_to_p2_axis_angle_candidate + 0x8000 & 0xffff;
+      relative_angle_or_correction = g_p1_to_p2_heading_bam16 + 0x8000U & 0xffff;
       goto LAB_00024754;
     }
   }
   g13 = 0xb60;
-  relative_angle_or_correction = g_p1_to_p2_axis_angle_candidate & 0xffff;
+  relative_angle_or_correction = g_p1_to_p2_heading_bam16 & 0xffff;
 LAB_00024754:
   (&g_player1)[player_index].facing_direction = relative_angle_or_correction;
   fp = unaff_pfp;
