@@ -14,3 +14,11 @@
 | `0B` | Raidou | `13000–13551`, stride 69 | `13002 + 69n` | `13552–14103`, stride 69 | `13554 + 69n` |
 | `0C` | Lei Fang | `14104–15103`, stride 125 | `14106 + 125n` | `15104–15663`, stride 70 | `15106 + 70n` |
 
+| Stage ID | Stage | Known resource bank |
+|---:|---|---:|
+| `0x00` | Freeway | `0x20` |
+| `0x01` | Burai Zhen | `0x21` |
+| `0x02` | Hangar | `0x22` |
+| `0x03` | L’s Castle | `0x23` |
+| `0x04` | Danger Zone | `0x24` |
+| `0x05` | DOATEC | `0x25` |
