@@ -507,6 +507,14 @@ unregistersymbol(original_aob3)
           <VariableType>Byte</VariableType>
           <Address>_baseAOB3-6AB</Address>
         </CheatEntry>
+        <CheatEntry>
+          <ID>127769</ID>
+          <Description>"game.exe aob base"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>game.exe</Address>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -573,6 +581,69 @@ unregistersymbol(original_aob3)
       <VariableType>Array of byte</VariableType>
       <ByteLength>12</ByteLength>
       <Address>game.exe+724CAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127767</ID>
+      <Description>"Tag Stage 1"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10858</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127770</ID>
+      <Description>"Tag Stage 2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C1085c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127771</ID>
+      <Description>"Tag Stage 3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10860</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127772</ID>
+      <Description>"Tag Stage 4"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10864</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127773</ID>
+      <Description>"Tag Stage 5"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10868</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127774</ID>
+      <Description>"Tag Stage 6"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C1086c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127775</ID>
+      <Description>"Tag Stage 7"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10870</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127777</ID>
+      <Description>"Tag Stage 8"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10874</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127776</ID>
+      <Description>"Tag Stage 9"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>game.exe+C10878</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
