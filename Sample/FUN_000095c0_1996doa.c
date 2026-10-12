@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_000095c0(uint param_1)
+void Bgm_Request_candidate(uint param_1)
 
 {
   undefined4 unaff_pfp;
