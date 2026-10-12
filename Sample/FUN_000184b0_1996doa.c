@@ -1,5 +1,7 @@
 
-void FUN_000184b0(void)
+/* Reads g_current_stage to select BGM */
+
+void StageMusic_RequestForCurrentStage(void)
 
 {
   uint uVar1;
@@ -16,7 +18,7 @@ void FUN_000184b0(void)
           (uint)(GameOverFlag____0054fcb4 == 4) << 1;
   ac = uVar1 | GameOverFlag____0054fcb4 < 4;
   if (((byte)(uVar1 >> 1) & 1) != 1) {
-    FUN_000095c0((&g_bgm_command_by_stage_id)[StageNumber]);
+    Bgm_Request_candidate((&g_bgm_command_by_stage_id)[g_current_stage]);
     return;
   }
   fp = unaff_pfp;
