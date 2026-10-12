@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="1996_doa.zip" EXE_PATH="/C:/Users/CS2/Downloads/mame0249b_64bit/doa1full2.bin" EXE_FORMAT="Raw Binary" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sun Oct 11 15:17:41 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sun Oct 11 21:33:44 MDT 2026" />
     <PROCESSOR NAME="i960" LANGUAGE_PROVIDER="i960:LE:32:default:default" ENDIAN="little" />
     <DATATYPES>
         <FUNCTION_DEF NAME="caseD_0" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
@@ -774,6 +774,11 @@
         <FUNCTION_DEF NAME="caseD_f" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
             <REGULAR_CMT>Function Signature Data Type</REGULAR_CMT>
         </FUNCTION_DEF>
+        <ENUM NAME="COLORXLAT_PENDING" NAMESPACE="/" SIZE="0x1">
+            <ENUM_ENTRY NAME="COLORXLAT_PENDING_P1" VALUE="0x1" COMMENT="" />
+            <ENUM_ENTRY NAME="COLORXLAT_PENDING_P2" VALUE="0x2" COMMENT="" />
+            <ENUM_ENTRY NAME="COLORXLAT_PENDING_STAGE" VALUE="0x4" COMMENT="" />
+        </ENUM>
         <ENUM NAME="define___STDC_VERSION__" NAMESPACE="/defines" SIZE="0x4">
             <ENUM_ENTRY NAME="__STDC_VERSION__" VALUE="0x30cdc" COMMENT="" />
         </ENUM>
@@ -7816,6 +7821,12 @@
         <TYPE_DEF NAME="int16_t" NAMESPACE="/types.h" DATATYPE="short" DATATYPE_NAMESPACE="/" />
         <TYPE_DEF NAME="int32_t" NAMESPACE="/types.h" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         <TYPE_DEF NAME="int8_t" NAMESPACE="/types.h" DATATYPE="char" DATATYPE_NAMESPACE="/" />
+        <STRUCTURE NAME="STAGE_BACKDROP_RESOURCE_IDS" NAMESPACE="/" SIZE="0x8">
+            <MEMBER OFFSET="0x0" DATATYPE="int16_t" DATATYPE_NAMESPACE="/types.h" NAME="resource0" SIZE="0x2" />
+            <MEMBER OFFSET="0x2" DATATYPE="int16_t" DATATYPE_NAMESPACE="/types.h" NAME="resource1" SIZE="0x2" />
+            <MEMBER OFFSET="0x4" DATATYPE="int16_t" DATATYPE_NAMESPACE="/types.h" NAME="resource2" SIZE="0x2" />
+            <MEMBER OFFSET="0x6" DATATYPE="int16_t" DATATYPE_NAMESPACE="/types.h" NAME="resource3" SIZE="0x2" />
+        </STRUCTURE>
         <FUNCTION_DEF NAME="thunk_FUN_00008b0c" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
             <REGULAR_CMT>Function Signature Data Type</REGULAR_CMT>
             <PARAMETER ORDINAL="0x0" DATATYPE="char *" DATATYPE_NAMESPACE="/" NAME="param_1" SIZE="0x4" />
@@ -13476,54 +13487,13 @@
         <DEFINED_DATA ADDRESS="0007840a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="0007840c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="0007840e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0007a810" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a814" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a818" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a81c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a820" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a824" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a828" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a82c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a830" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a834" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a838" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a83c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a840" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a844" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a848" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a84c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a850" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a854" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a858" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a85c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a860" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a864" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a868" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a86c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a870" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a874" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a878" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a87c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a880" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a884" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a888" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a88c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a890" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a894" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a898" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a89c" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8a0" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8a4" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8a8" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8ac" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8b0" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8b4" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8b8" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8bc" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8c0" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8c4" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8c8" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="0007a8cc" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00078dc4" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00079184" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0007a804" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0007a808" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0007a80c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0007a810" DATATYPE="undefined *[32]" DATATYPE_NAMESPACE="/" SIZE="0x80" />
+        <DEFINED_DATA ADDRESS="0007a890" DATATYPE="pointer[16]" DATATYPE_NAMESPACE="/" SIZE="0x40" />
         <DEFINED_DATA ADDRESS="0007a978" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0007a97c" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0007a980" DATATYPE="undefined *" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -39024,70 +38994,7 @@
         <DEFINED_DATA ADDRESS="000cb144" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000cb148" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000cb14c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="000cb150" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb152" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb154" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb156" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb158" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb15a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb15c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb15e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb160" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb162" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb164" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb166" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb168" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb16a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb16c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb16e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb170" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb172" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb174" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb176" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb178" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb17a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb17c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb17e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb180" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb182" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb184" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb186" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb188" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb18a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb18c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb18e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb190" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb192" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb194" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb196" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb198" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb19a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb19c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb19e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1a0" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1a2" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1a4" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1a6" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1a8" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1aa" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1ac" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1ae" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1b0" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1b2" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1b4" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1b6" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1b8" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1ba" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1bc" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1be" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1c0" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1c2" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1c4" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1c6" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1c8" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1ca" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1cc" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="000cb1ce" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
+        <DEFINED_DATA ADDRESS="000cb150" DATATYPE="STAGE_BACKDROP_RESOURCE_IDS[16]" DATATYPE_NAMESPACE="/" SIZE="0x80" />
         <DEFINED_DATA ADDRESS="000cb1d0" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000cb1d4" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000cb1d8" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -46857,7 +46764,7 @@
         <DEFINED_DATA ADDRESS="0054fd86" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fd88" DATATYPE="float" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0054fd8c" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fd8d" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fd8d" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fd90" DATATYPE="uint32_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0054fd94" DATATYPE="uint32_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0054fd98" DATATYPE="uint32_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x4" />
@@ -46870,7 +46777,7 @@
         <DEFINED_DATA ADDRESS="0054fdb4" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fdb5" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fdb6" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0054fdb7" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="0054fdb7" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fdb8" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="0054fdc0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0054fdc4" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -48910,10 +48817,10 @@
         <DEFINED_DATA ADDRESS="005a6eec" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005a6f00" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005a6f04" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="005a6f08" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="005a6f0a" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="005a6f0b" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="005a6f0c" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005a6f08" DATATYPE="COLORXLAT_PENDING" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005a6f0a" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005a6f0b" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005a6f0c" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005a6f0d" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005a6f10" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005a6f14" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -48961,7 +48868,7 @@
         <DEFINED_DATA ADDRESS="005a7698" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005a769c" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005a769d" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="005a769e" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005a769e" DATATYPE="uint8_t" DATATYPE_NAMESPACE="/stdint.h" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005a76a0" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="005a76a2" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="005a76a4" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
@@ -48997,7 +48904,7 @@
         <DEFINED_DATA ADDRESS="005af704" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005af708" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005af70c" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
-        <DEFINED_DATA ADDRESS="005af710" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005af710" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005af711" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005af720" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="005af722" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
@@ -49047,7 +48954,7 @@
         <DEFINED_DATA ADDRESS="005b975a" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b975b" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b975c" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="005b975e" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005b975e" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b975f" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b9760" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b9761" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
@@ -49101,8 +49008,8 @@
         <DEFINED_DATA ADDRESS="005b9880" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="005b9882" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="005b9886" DATATYPE="undefined2" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="005b9890" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="005b9891" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005b9890" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="005b9891" DATATYPE="byte" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b9892" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="005b9894" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="005b9898" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -367970,6 +367877,8 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</COMMENT>
         <COMMENT ADDRESS="00017f5c" TYPE="end-of-line">0xFF CLEAR</COMMENT>
         <COMMENT ADDRESS="0001802c" TYPE="end-of-line">0xa0100d BGM_CONTINUE</COMMENT>
         <COMMENT ADDRESS="00018090" TYPE="end-of-line">0xFF CLEAR</COMMENT>
+        <COMMENT ADDRESS="00018420" TYPE="plate">writes g_current_stage</COMMENT>
+        <COMMENT ADDRESS="000184b0" TYPE="plate">Reads g_current_stage to select BGM</COMMENT>
         <COMMENT ADDRESS="00018540" TYPE="plate">Chooses and validates the COM or MAN set-count setting for the current game mode</COMMENT>
         <COMMENT ADDRESS="000185c0" TYPE="end-of-line">10.00f</COMMENT>
         <COMMENT ADDRESS="00018a20" TYPE="plate">Resets both player runtime records for a new round.
@@ -368380,11 +368289,15 @@ Generic resource-slot selection, not confirmed chi-table selection.</COMMENT>
         <COMMENT ADDRESS="00064b30" TYPE="end-of-line">-90.00f</COMMENT>
         <COMMENT ADDRESS="00064b8c" TYPE="end-of-line">1024.00f</COMMENT>
         <COMMENT ADDRESS="00064b98" TYPE="end-of-line">2730.00f</COMMENT>
+        <COMMENT ADDRESS="0006f490" TYPE="plate">Reads g_current_stage_id to load/cache the 2D backdrop</COMMENT>
         <COMMENT ADDRESS="000720f0" TYPE="end-of-line">0xa01138 SE_BANG</COMMENT>
         <COMMENT ADDRESS="00074144" TYPE="end-of-line">9.00f</COMMENT>
         <COMMENT ADDRESS="0007757c" TYPE="end-of-line">15.00f</COMMENT>
         <COMMENT ADDRESS="00077b18" TYPE="end-of-line">-44.00f</COMMENT>
         <COMMENT ADDRESS="00077b38" TYPE="end-of-line">-174.00f</COMMENT>
+        <COMMENT ADDRESS="0007a804" TYPE="plate">Dummy color-translation source shared by stages 0x0C&#x2013;0x0F.
+
+Only 12 zero bytes precede the following pointer tables. The normal uploader can read 0x3C0 bytes from this address, overlapping those tables and later code. The solid-screen renderer apparently does not consume the ordinary stage color-translation result.</COMMENT>
         <COMMENT ADDRESS="0007ccd0" TYPE="end-of-line">TEX0BASE</COMMENT>
         <COMMENT ADDRESS="0007cce0" TYPE="end-of-line">TEX1BASE</COMMENT>
         <COMMENT ADDRESS="0007ccf4" TYPE="end-of-line">TEX0BASE</COMMENT>
@@ -369141,6 +369054,8 @@ Mostly zero/0x03 data. Not pointers, not costume selectors, and not confirmed br
         <COMMENT ADDRESS="000c6d38" TYPE="end-of-line">SE_KS_6</COMMENT>
         <COMMENT ADDRESS="000c6d3c" TYPE="end-of-line">SE_KS_6</COMMENT>
         <COMMENT ADDRESS="000c6d40" TYPE="end-of-line">SE_KS_6</COMMENT>
+        <COMMENT ADDRESS="000cb150" TYPE="plate">to array[16] or not to array[16],
+that is the question</COMMENT>
         <COMMENT ADDRESS="000ce890" TYPE="plate">[low confidence] 
 Probable texture-source bank table used only by
 unreferenced FUN_0007cc50 
@@ -369457,13 +369372,13 @@ Contains Danger Zone models
     &amp;lt;STATE NAME=&amp;quot;Apply Data Archives&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;121&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Basic Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;82776&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;CUSTOM_OPTION_CLASS&amp;quot; TYPE=&amp;quot;string&amp;quot; VALUE=&amp;quot;ghidra.app.plugin.core.analysis.StoredAnalyzerTimes&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;129&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;119&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;130&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;121&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;7&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables - One Time&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;108593&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Function&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1722&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;22475&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;388847&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;22514&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;389110&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Decompiler Switch Analysis&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;340231&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Demangler GNU&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Disassemble Entry Points&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
@@ -369473,8 +369388,8 @@ Contains Danger Zone models
     &amp;lt;STATE NAME=&amp;quot;Non-Returning Functions - Discovered&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2229&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;19740&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Scalar Operand References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;5014&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1730&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10065&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1735&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10082&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Subroutine References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;4292&amp;quot; /&amp;gt;
 &amp;lt;/SAVE_STATE&amp;gt;" />
         <PROPERTY NAME="Program Information.Analyzed" TYPE="bool" VALUE="y" />
@@ -382635,6 +382550,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="00008870" NAME="Debug_SetTextPosition" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00009460" NAME="Sound_ProcessNextCommand" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000094f0" NAME="Sound_Request" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000095c0" NAME="Bgm_Request_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0000f478" NAME="SegaCopyrightText_0000f478" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00014080" NAME="switchD" NAMESPACE="switchD_00014080::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00014084" NAME="switchdataD_00014084" NAMESPACE="switchD_00014080::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -382672,6 +382588,8 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="00016fe4" NAME="caseD_5" NAMESPACE="switchD_00016fb4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00017c24" NAME="LAB_00017c24_DRAW" NAMESPACE="FUN_000179a0::" TYPE="local" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00018180" NAME="FUN_00018180_investigatemaybe" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00018420" NAME="Stage_SelectForNextMatch" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000184b0" NAME="StageMusic_RequestForCurrentStage" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00018540" NAME="Match_ApplyConfiguredSetCount" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000185c0" NAME="Battle_ConfigureDangerZoneBounds_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00018a20" NAME="Battle_ResetBothPlayersForRound" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -383465,6 +383383,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="00055e30" NAME="MotionDebug_UpdateSceneOverlay" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00056070" NAME="MotionDebug_PrepareQueryPoint_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00056110" NAME="MotionDebug_SubmitQueryPointAndGetAge_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0005d7c0" NAME="ColorXlat_ProcessPendingUploads_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0005e600" NAME="switchD" NAMESPACE="switchD_0005e600::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0005e604" NAME="switchdataD_0005e604" NAMESPACE="switchD_0005e600::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0005e624" NAME="caseD_0" NAMESPACE="switchD_0005e600::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -383503,6 +383422,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="0006bc8c" NAME="caseD_5" NAMESPACE="switchD_0006bb54::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0006bce4" NAME="caseD_6" NAMESPACE="switchD_0006bb54::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0006bd54" NAME="caseD_7" NAMESPACE="switchD_0006bb54::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
+        <SYMBOL ADDRESS="0006f490" NAME="StageBackdrop_LoadForCurrentStage" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00070140" NAME="FUN_00070140_nameentrymaybe??" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00070a00" NAME="Stage_UpdateDangerZoneSizeLevel_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00070a98" NAME="switchD" NAMESPACE="switchD_00070a98::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -383552,6 +383472,10 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="00078190" NAME="caseD_10" NAMESPACE="switchD_00077bd4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="000781f8" NAME="caseD_11" NAMESPACE="switchD_00077bd4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0007822c" NAME="caseD_12" NAMESPACE="switchD_00077bd4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
+        <SYMBOL ADDRESS="0007a804" NAME="g_solid_screen_colorxlat_dummy" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0007a810" NAME="g_character_colorxlat_sources" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0007a890" NAME="g_stage_colorxlat_sources" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0007a8d0" NAME="Debug_DrawList_0007A8D0_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0007a974" NAME="switchD" NAMESPACE="switchD_0007a974::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0007a978" NAME="switchdataD_0007a978" NAMESPACE="switchD_0007a974::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0007ab80" NAME="caseD_7ab80" NAMESPACE="switchD_0007a974::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -384394,6 +384318,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="000c6550" NAME="DWORD_000c6550*" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000c6c90" NAME="SE_PTR_000c6c90" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000c9f40" NAME="DWORD_000c9f40_tabletoinvestigatemaybe" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000cb150" NAME="g_stage_backdrop_resource_ids" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000ce890" NAME="g_texture_source_bases_A_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000ce8d0" NAME="g_texture_source_bases_B_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000d8000" NAME="g_anime_pointer_bank_table" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -384563,6 +384488,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="0054fce8" NAME="SettingsCoinMode_Chute1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fce9" NAME="SettingsCoinMode_VsContinueCredits_0054fce9" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fcea" NAME="g_effective_set_count" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fceb" NAME="g_vs_com_match_index_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fcec" NAME="SettingsCoinMode_VsStartCredits_0054fcec" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fced" NAME="SettingsCoinMode_StartCredits_0054fced" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fcef" NAME="SettingsCoinMode_CoinChuteType" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -384594,15 +384520,17 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="0054fd7c" NAME="g_ringBoundaryHalfExtentX" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd80" NAME="g_ringBoundaryHalfExtentZ" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd8c" NAME="g_debug_anime_mode" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fd8d" NAME="g_vs_man_stage_order_index_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd90" NAME="current_game_seconds" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fd98" NAME="Bookkeeping_TotalTime" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054fda0" NAME="SettingsCoinMode_CoinCounterType" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054fdb7" NAME="g_colorxlat_update_active_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555a0" NAME="TimeCurrentMatch_Seconds_005555a0" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555a1" NAME="TimeCurrentMatch_MilliSeconds_005555a1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555a4" NAME="g_interplayer_xz_distance" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555a8" NAME="g_p1_to_p2_heading_bam16" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555ac" NAME="Camera_Angle" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="005555de" NAME="StageNumber" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005555de" NAME="g_current_stage" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555df" NAME="StageLoadFlag" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555e5" NAME="ContinueCounter_005555e5" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005555e6" NAME="HIT_POINT_CurrentSetting_005555e6" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -384680,6 +384608,16 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="0058a860" NAME="g_aux_resource_variant_index_by_player" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0058bc0d" NAME="g_motion_debug_ui_toggle" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005a6ed0" NAME="g_runtime_animated_model_descriptor_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005a6f08" NAME="g_colorxlat_pending_mask" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005a6f0a" NAME="g_current_p1_colorxlat_selector" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005a6f0b" NAME="g_current_p2_colorxlat_selector" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005a6f0c" NAME="g_current_stage_colorxlat" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005a769e" NAME="g_current_stage_backdrop" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005af6a0" NAME="g_reuse_current_stage_backdrop" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005af710" NAME="g_stage_backdrop_ready" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005b975e" NAME="g_colorxlat_changed_latch_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005b9890" NAME="g_requested_p1_colorxlat_id" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="005b9891" NAME="g_requested_p2_colorxlat_id" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005bfaf5" NAME="g_game_mode_settings_init_pending_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005bfb50" NAME="g_sound_test_entry_index" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="005bfb50" NAME="SettingsSoundTest_TrackNo." NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="n" />
@@ -385782,9 +385720,9 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="sound_id" REGISTER="g0" DATATYPE="DOA_SOUND_COMMAND" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="000095c0" NAME="FUN_000095c0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="000095c0" NAME="Bgm_Request_candidate" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="000095c0" END="00009607" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_000095c0(uint param_1)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Bgm_Request_candidate(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -386143,14 +386081,16 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_00018280(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00018420" NAME="FUN_00018420" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00018420" NAME="Stage_SelectForNextMatch" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00018420" END="000184a3" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00018420(void)</TYPEINFO_CMT>
+            <REGULAR_CMT>writes g_current_stage</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Stage_SelectForNextMatch(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="000184b0" NAME="FUN_000184b0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="000184b0" NAME="StageMusic_RequestForCurrentStage" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="000184b0" END="000184eb" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_000184b0(void)</TYPEINFO_CMT>
+            <REGULAR_CMT>Reads g_current_stage to select BGM</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall StageMusic_RequestForCurrentStage(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000184f0" NAME="FUN_000184f0" LIBRARY_FUNCTION="n">
@@ -390937,9 +390877,9 @@ Probably an indirect debug callback; first argument is unused.</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="0005d7c0" NAME="FUN_0005d7c0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="0005d7c0" NAME="ColorXlat_ProcessPendingUploads_candidate" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0005d7c0" END="0005da4b" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_0005d7c0(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall ColorXlat_ProcessPendingUploads_candidate(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="0005da50" NAME="FUN_0005da50" LIBRARY_FUNCTION="n">
@@ -391408,9 +391348,10 @@ Generic resource-slot selection, not confirmed chi-table selection.</REGULAR_CMT
                 <STACK_VAR STACK_PTR_OFFSET="0x5ec" NAME="local_5ec" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
             </STACK_FRAME>
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="0006f490" NAME="FUN_0006f490" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="0006f490" NAME="StageBackdrop_LoadForCurrentStage" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0006f490" END="0006f763" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_0006f490(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, undefined4 param_12)</TYPEINFO_CMT>
+            <REGULAR_CMT>Reads g_current_stage_id to load/cache the 2D backdrop</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall StageBackdrop_LoadForCurrentStage(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, undefined4 param_12)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
@@ -392071,6 +392012,11 @@ Generic resource-slot selection, not confirmed chi-table selection.</REGULAR_CMT
         <FUNCTION ENTRY_POINT="00078240" NAME="FUN_00078240" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00078240" END="00078283" />
             <TYPEINFO_CMT>undefined __stdcall FUN_00078240(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="0007a8d0" NAME="Debug_DrawList_0007A8D0_candidate" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="0007a8d0" END="0007a937" />
+            <TYPEINFO_CMT>undefined __stdcall Debug_DrawList_0007A8D0_candidate(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="0007a940" NAME="FUN_0007a940" LIBRARY_FUNCTION="n">
