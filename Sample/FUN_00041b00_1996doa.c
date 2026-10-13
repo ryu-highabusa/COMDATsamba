@@ -109,8 +109,8 @@ void PlayerMotion_UpdateFrame_candidate
       auVar16._12_52_ = auVar15._12_52_;
       if (((iVar43 == 0) && (DAT_0056ac38 == '\0')) ||
          ((&g_player1)[param_1].animation_request == '\x01')) {
-        psVar44 = (short *)(int)(short)(&g_motion_next_command_frame_P1)[param_1];
-        psVar40 = (short *)(int)(short)(&g_motion_frame_counter_P1)[param_1];
+        psVar44 = (short *)(int)(short)g_motion_next_command_frame_P1[param_1];
+        psVar40 = (short *)(int)(short)g_motion_frame_counter_P1[param_1];
         uVar2 = uVar1 | (uint)((int)psVar44 < (int)psVar40) << 2 | (uint)(psVar44 == psVar40) << 1;
         ac = uVar2 | (int)psVar40 < (int)psVar44;
         (&DAT_0056ac44)[param_1] = (undefined1)g14;
@@ -134,12 +134,12 @@ LAB_00041c2c:
                   (uint)(psVar40 == (short *)((int)&DWORD_00000000 + 1U)) << 1;
           ac = uVar2 | psVar40 == (short *)0x0;
           if (((byte)(uVar2 >> 1) & 1) == 1) goto LAB_00041c2c;
-          psVar40 = (short *)(int)(char)(&DAT_0056ac46)[param_1];
+          psVar40 = (short *)(int)(char)g_motion_script_refresh_request_P1[param_1];
           uVar2 = uVar1 | (uint)(1 < (int)psVar40) << 2 |
                   (uint)(psVar40 == (short *)((int)&DWORD_00000000 + 1U)) << 1;
           ac = uVar2 | (int)psVar40 < 1;
           if (((byte)(uVar2 >> 1) & 1) == 1) goto LAB_00041c2c;
-          psVar40 = (short *)(int)(char)(&g_motion_command_decode_pending_P1)[param_1];
+          psVar40 = (short *)(int)(char)g_motion_command_decode_pending_P1[param_1];
           ac = uVar1 | (uint)(1 < (int)psVar40) << 2 |
                (uint)(psVar40 == (short *)((int)&DWORD_00000000 + 1U)) << 1 |
                (uint)((int)psVar40 < 1);
@@ -380,7 +380,7 @@ LAB_00041ec8:
     uVar8 = (&g_player1)[auVar32._16_4_].animation_id;
     if (uVar8 == 0xa28) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
-      if (0x3c < (short)(&g_motion_frame_counter_P1)[auVar32._16_4_]) {
+      if (0x3c < (short)g_motion_frame_counter_P1[auVar32._16_4_]) {
         iVar41 = 0x47ae147b;
       }
       (&DAT_0056ac80)[auVar32._16_4_] = iVar41;
@@ -390,7 +390,7 @@ LAB_00041ec8:
     }
     else if (((uVar8 == 0xa65) || ((ushort)(uVar8 - 0xb88) < 2)) || (uVar8 == 0xb8e)) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
-      if (0x78 < (short)(&g_motion_frame_counter_P1)[auVar32._16_4_]) {
+      if (0x78 < (short)g_motion_frame_counter_P1[auVar32._16_4_]) {
         iVar41 = -0x66666666;
       }
       (&DAT_0056ac80)[auVar32._16_4_] = iVar41;
@@ -401,7 +401,7 @@ LAB_00042024:
     }
     else if (uVar8 == 0x58d) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
-      if (0x62 < (short)(&g_motion_frame_counter_P1)[auVar32._16_4_]) {
+      if (0x62 < (short)g_motion_frame_counter_P1[auVar32._16_4_]) {
         iVar41 = 0x33333333;
       }
       (&DAT_0056ac80)[auVar32._16_4_] = iVar41;
@@ -411,7 +411,7 @@ LAB_00042024:
       piVar3 = (int *)((int)&DAT_0056ac80 + auVar35._36_4_);
       uVar39 = 0x3c;
       iVar41 = *piVar3;
-      if (0x3c < (short)(&g_motion_frame_counter_P1)[iVar43]) {
+      if (0x3c < (short)g_motion_frame_counter_P1[iVar43]) {
         iVar41 = 0x47ae147b;
       }
       *piVar3 = iVar41;
@@ -419,12 +419,12 @@ LAB_00042024:
     }
     else {
       if (*(short *)(auVar35._20_4_ + 0x28) != 0x5b0) goto LAB_00042110;
-      if (((int)(short)(&g_motion_frame_counter_P1)[iVar43] + 0xfffeU & 0xffff) < 0x12) {
+      if (((int)(short)g_motion_frame_counter_P1[iVar43] + 0xfffeU & 0xffff) < 0x12) {
         (&DAT_0056ac80)[iVar43] = 0x9999999a;
         goto LAB_00042110;
       }
       uVar39 = 0x27;
-      if ((short)(&g_motion_frame_counter_P1)[iVar43] < 0x28) {
+      if ((short)g_motion_frame_counter_P1[iVar43] < 0x28) {
         (&DAT_0056ac80)[iVar43] = g14;
         goto LAB_00042110;
       }
