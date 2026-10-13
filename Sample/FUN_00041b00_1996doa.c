@@ -70,6 +70,7 @@ void FUN_00041b00(uint param_1,undefined4 param_2,undefined4 param_3,undefined4 
   undefined1 auVar34 [64];
   undefined1 auVar36 [64];
   
+                    /* marker start */
   uVar10 = CONCAT44(auStackX_0,unaff_pfp);
   auVar11._8_4_ = unaff_retaddr;
   auVar11._0_8_ = uVar10;
@@ -81,7 +82,7 @@ void FUN_00041b00(uint param_1,undefined4 param_2,undefined4 param_3,undefined4 
   auVar14._32_4_ = unaff_r8;
   auVar14._36_4_ = unaff_r9;
   auVar14._40_24_ = in_register_00000028;
-  uVar1 = ac & 0xfffffff8 | (uint)(DAT_0054fcfe != '\0') << 2;
+  uVar1 = ac & 0xfffffff8 | (uint)(BYTE_0054fcfe != 0) << 2;
   auVar15._20_44_ = auVar14._20_44_;
   auVar15._0_16_ = auVar11._0_16_;
   auVar15._16_4_ = param_1;
@@ -107,8 +108,8 @@ void FUN_00041b00(uint param_1,undefined4 param_2,undefined4 param_3,undefined4 
       auVar16._12_52_ = auVar15._12_52_;
       if (((iVar43 == 0) && (DAT_0056ac38 == '\0')) ||
          ((&g_player1)[param_1].animation_request == '\x01')) {
-        psVar44 = (short *)(int)(short)(&DAT_0056ac3c)[param_1];
-        psVar40 = (short *)(int)(short)(&AnimeFrameNo___P1_0056ac40)[param_1];
+        psVar44 = (short *)(int)(short)(&g_motion_next_command_frame_P1_candidate)[param_1];
+        psVar40 = (short *)(int)(short)(&g_motion_frame_counter_P1_candidate)[param_1];
         uVar2 = uVar1 | (uint)((int)psVar44 < (int)psVar40) << 2 | (uint)(psVar44 == psVar40) << 1;
         ac = uVar2 | (int)psVar40 < (int)psVar44;
         (&DAT_0056ac44)[param_1] = (undefined1)g14;
@@ -120,8 +121,9 @@ LAB_00041c2c:
           auVar15._8_56_ = auVar16._8_56_;
           auVar15._4_4_ = auStack_40;
           auVar15._0_4_ = fp;
-          FUN_00042940(param_1,param_2,param_3,param_4,psVar40,psVar44,psVar45,0x54fc00,in_g8,in_g9,
-                       in_g10,in_g11);
+          Motion_ResetPlayerScriptState_candidate
+                    (param_1,param_2,param_3,param_4,psVar40,psVar44,psVar45,0x54fc00,in_g8,in_g9,
+                     in_g10,in_g11);
           param_2 = extraout_g1;
           fp = (undefined1 (*) [64])register0x00000004;
         }
@@ -136,7 +138,7 @@ LAB_00041c2c:
                   (uint)(psVar40 == (short *)((int)&DWORD_00000000 + 1U)) << 1;
           ac = uVar2 | (int)psVar40 < 1;
           if (((byte)(uVar2 >> 1) & 1) == 1) goto LAB_00041c2c;
-          psVar40 = (short *)(int)(char)(&DAT_0056ac48)[param_1];
+          psVar40 = (short *)(int)(char)(&g_motion_command_decode_pending_candidate)[param_1];
           ac = uVar1 | (uint)(1 < (int)psVar40) << 2 |
                (uint)(psVar40 == (short *)((int)&DWORD_00000000 + 1U)) << 1 |
                (uint)((int)psVar40 < 1);
@@ -306,9 +308,9 @@ LAB_00041cf0:
   FUN_0004ad80(auVar32._16_4_);
   uVar1 = ac;
   uVar13 = g_motion_debug_mode;
-  if (DAT_0054fcfe != '\0') {
+  if (BYTE_0054fcfe != 0) {
     fp = (undefined1 (*) [64])uVar2;
-    ac = ac & 0xfffffff8 | (uint)(DAT_0054fcfe != '\0') << 2 | (uint)(DAT_0054fcfe == '\0') << 1;
+    ac = ac & 0xfffffff8 | (uint)(BYTE_0054fcfe != 0) << 2 | (uint)(BYTE_0054fcfe == 0) << 1;
     return;
   }
   auVar31._0_24_ = auVar29._0_24_;
@@ -326,13 +328,13 @@ LAB_00041cf0:
   auVar32._24_40_ = auVar31._24_40_;
   auVar32._20_4_ = &g_player1 + auVar32._16_4_;
   if (((((byte)ac & 1 | (byte)(uVar9 >> 2) & 1) == 1) ||
-      (ac = uVar1 & 0xfffffff8, 1 < (byte)(DAT_0054fcfd - 1))) ||
+      (ac = uVar1 & 0xfffffff8, 1 < (byte)(BYTE_0054fcfd - 1))) ||
      (bVar12 = GameOverFlag____0054fcb4 - 2,
      ac = uVar1 & 0xfffffff8 | (uint)(1 < bVar12) << 2 | (uint)(bVar12 == 1) << 1 |
           (uint)(GameOverFlag____0054fcb4 == 2), 1 >= bVar12)) {
     uVar9 = ac;
-    uVar1 = ac & 0xfffffff8 | (uint)(DAT_0054fcfd < 4) << 2;
-    ac = uVar1 | (uint)(DAT_0054fcfd == 4) << 1 | (uint)(4 < DAT_0054fcfd);
+    uVar1 = ac & 0xfffffff8 | (uint)(BYTE_0054fcfd < 4) << 2;
+    ac = uVar1 | (uint)(BYTE_0054fcfd == 4) << 1 | (uint)(4 < BYTE_0054fcfd);
     fp = pauVar5;
     auVar33 = auVar32;
     if (((byte)ac & 1 | (byte)(uVar1 >> 2) & 1) != 1) {
@@ -373,11 +375,11 @@ LAB_00041ec8:
   FUN_00044720(auVar32._16_4_);
   iVar43 = auVar35._16_4_;
   uVar39 = extraout_g1_00;
-  if ((byte)((&g_player1)[auVar32._16_4_].character_id - name_ryu) < 2) {
+  if ((byte)((&g_player1)[auVar32._16_4_].character_id - CHAR_RYU) < 2) {
     uVar8 = (&g_player1)[auVar32._16_4_].animation_id;
     if (uVar8 == 0xa28) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
-      if (0x3c < (short)(&AnimeFrameNo___P1_0056ac40)[auVar32._16_4_]) {
+      if (0x3c < (short)(&g_motion_frame_counter_P1_candidate)[auVar32._16_4_]) {
         iVar41 = 0x47ae147b;
       }
       (&DAT_0056ac80)[auVar32._16_4_] = iVar41;
@@ -387,7 +389,7 @@ LAB_00041ec8:
     }
     else if (((uVar8 == 0xa65) || ((ushort)(uVar8 - 0xb88) < 2)) || (uVar8 == 0xb8e)) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
-      if (0x78 < (short)(&AnimeFrameNo___P1_0056ac40)[auVar32._16_4_]) {
+      if (0x78 < (short)(&g_motion_frame_counter_P1_candidate)[auVar32._16_4_]) {
         iVar41 = -0x66666666;
       }
       (&DAT_0056ac80)[auVar32._16_4_] = iVar41;
@@ -398,7 +400,7 @@ LAB_00042024:
     }
     else if (uVar8 == 0x58d) {
       iVar41 = (&DAT_0056ac80)[auVar32._16_4_];
-      if (0x62 < (short)(&AnimeFrameNo___P1_0056ac40)[auVar32._16_4_]) {
+      if (0x62 < (short)(&g_motion_frame_counter_P1_candidate)[auVar32._16_4_]) {
         iVar41 = 0x33333333;
       }
       (&DAT_0056ac80)[auVar32._16_4_] = iVar41;
@@ -408,7 +410,7 @@ LAB_00042024:
       piVar3 = (int *)((int)&DAT_0056ac80 + auVar35._36_4_);
       uVar39 = 0x3c;
       iVar41 = *piVar3;
-      if (0x3c < (short)(&AnimeFrameNo___P1_0056ac40)[iVar43]) {
+      if (0x3c < (short)(&g_motion_frame_counter_P1_candidate)[iVar43]) {
         iVar41 = 0x47ae147b;
       }
       *piVar3 = iVar41;
@@ -416,12 +418,12 @@ LAB_00042024:
     }
     else {
       if (*(short *)(auVar35._20_4_ + 0x28) != 0x5b0) goto LAB_00042110;
-      if (((int)(short)(&AnimeFrameNo___P1_0056ac40)[iVar43] + 0xfffeU & 0xffff) < 0x12) {
+      if (((int)(short)(&g_motion_frame_counter_P1_candidate)[iVar43] + 0xfffeU & 0xffff) < 0x12) {
         (&DAT_0056ac80)[iVar43] = 0x9999999a;
         goto LAB_00042110;
       }
       uVar39 = 0x27;
-      if ((short)(&AnimeFrameNo___P1_0056ac40)[iVar43] < 0x28) {
+      if ((short)(&g_motion_frame_counter_P1_candidate)[iVar43] < 0x28) {
         (&DAT_0056ac80)[iVar43] = g14;
         goto LAB_00042110;
       }
