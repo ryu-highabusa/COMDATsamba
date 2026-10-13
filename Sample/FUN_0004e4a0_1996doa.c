@@ -28,7 +28,7 @@ void Motion_Initialize(uint16_t anime_id)
   undefined4 unaff_r7;
   undefined4 unaff_r8;
   undefined4 unaff_r9;
-  uint uVar53;
+  uint uVar60;
   undefined1 in_register_00000028 [24];
   undefined1 auVar14 [64];
   undefined1 auVar15 [64];
@@ -57,20 +57,20 @@ void Motion_Initialize(uint16_t anime_id)
   undefined1 auVar44 [64];
   undefined1 auVar45 [64];
   undefined2 in_register_00000042;
-  undefined4 *puVar54;
-  undefined4 uVar55;
+  undefined4 *puVar61;
+  undefined4 uVar62;
   undefined4 extraout_g1;
   undefined4 extraout_g1_00;
   undefined4 extraout_g1_01;
   undefined4 extraout_g1_02;
   undefined4 in_g2;
-  undefined4 uVar56;
-  undefined4 uVar57;
-  uint uVar58;
-  undefined4 *puVar59;
-  undefined4 *puVar60;
-  undefined4 *puVar61;
-  undefined4 *puVar62;
+  undefined4 uVar63;
+  undefined4 uVar64;
+  uint uVar65;
+  undefined4 *puVar66;
+  undefined4 *puVar67;
+  undefined4 *puVar68;
+  undefined4 *puVar69;
   undefined4 in_g8;
   undefined4 in_g9;
   undefined4 in_g10;
@@ -105,53 +105,53 @@ void Motion_Initialize(uint16_t anime_id)
   auVar14._44_20_ = in_register_00000028._4_20_;
   auVar14._40_4_ = CONCAT22(in_register_00000042,anime_id);
   uVar2 = (uint)anime_id;
-  uVar58 = (uint)(anime_id >> 9);
-  iVar48 = uVar58 * -0x200;
+  uVar65 = (uint)(anime_id >> 9);
+  iVar48 = uVar65 * -0x200;
   if (0x1fff < uVar2) {
-    uVar58 = 0xd;
+    uVar65 = 0xd;
   }
-  if ((g_debug_anime_mode == '\0') ||
-     (g_debug_anime_id_cached = g_external_anime_id,
-     (int)g_external_anime_id < (int)uVar2 || (int)uVar2 < (int)g_external_anime_id)) {
+  if ((g_debug_anime_mode == 0) ||
+     (g_debug_anime_id_cached = g_external_anime_id[0],
+     (int)g_external_anime_id[0] < (int)uVar2 || (int)uVar2 < (int)g_external_anime_id[0])) {
     DAT_00589f50 = *(undefined **)
-                    (g_anime_pointer_bank_table[uVar58] +
+                    (g_anime_pointer_bank_table[uVar65] +
                     ((CONCAT22(in_register_00000042,anime_id) + iVar48) * 0x10000 >> 0x10) * 4);
   }
   else {
     DAT_00589f50 = &g_external_anime_data;
   }
   ac = ac & 0xfffffff8;
-  puVar54 = &DAT_00589e10;
-  puVar60 = &DAT_00589eb0;
   puVar61 = &DAT_00589e10;
+  puVar67 = &DAT_00589eb0;
+  puVar68 = &DAT_00589e10;
   do {
-    puVar60[2] = g14;
-    puVar60[3] = g14;
-    puVar61[2] = g14;
-    puVar61[3] = g14;
-    puVar60[4] = g14;
-    puVar60[5] = g14;
-    puVar61[4] = g14;
-    *puVar60 = g14;
-    puVar61[5] = g14;
-    puVar60[6] = g14;
-    puVar60[1] = g14;
-    puVar60[7] = g14;
-    puVar61[6] = g14;
-    *puVar61 = g14;
-    puVar61[7] = g14;
-    puVar59 = puVar60 + 8;
-    *puVar59 = g14;
-    puVar54 = puVar54 + 10;
-    puVar61[1] = g14;
-    puVar62 = puVar61 + 10;
-    puVar61[8] = g14;
-    puVar60[9] = g14;
-    puVar61[9] = g14;
-    puVar60 = puVar60 + 10;
-    puVar61 = puVar62;
-  } while ((int)puVar54 < 0x589e5d);
-  DAT_0056ac48 = '\x01';
+    puVar67[2] = g14;
+    puVar67[3] = g14;
+    puVar68[2] = g14;
+    puVar68[3] = g14;
+    puVar67[4] = g14;
+    puVar67[5] = g14;
+    puVar68[4] = g14;
+    *puVar67 = g14;
+    puVar68[5] = g14;
+    puVar67[6] = g14;
+    puVar67[1] = g14;
+    puVar67[7] = g14;
+    puVar68[6] = g14;
+    *puVar68 = g14;
+    puVar68[7] = g14;
+    puVar66 = puVar67 + 8;
+    *puVar66 = g14;
+    puVar61 = puVar61 + 10;
+    puVar68[1] = g14;
+    puVar69 = puVar68 + 10;
+    puVar68[8] = g14;
+    puVar67[9] = g14;
+    puVar68[9] = g14;
+    puVar67 = puVar67 + 10;
+    puVar68 = puVar69;
+  } while ((int)puVar61 < 0x589e5d);
+  DAT_0056ac48_motionviewflag_candidate = 1;
   DAT_0056ac94 = 1;
   AnimeFrameNo___P1_0056ac40 = 1;
   DAT_00589f58 = g14;
@@ -183,20 +183,21 @@ void Motion_Initialize(uint16_t anime_id)
   DAT_0056add0 = in_g2;
   do {
     uVar2 = ac;
-    puVar54 = DAT_0056ac28;
-    if (DAT_0056ac18 == '\x01') {
+    puVar61 = DAT_0056ac28;
+    if (DAT_0056ac18 == 1) {
       *auVar19._36_4_ = *auVar19._36_4_;
-      puVar59 = puVar54;
+      puVar66 = puVar61;
     }
-    uVar53 = auVar19._40_4_;
+    uVar60 = auVar19._40_4_;
     psVar52 = auVar19._32_4_;
     psVar51 = auVar19._28_4_;
     iVar50 = auVar19._24_4_;
     puVar49 = auVar19._20_4_;
     iVar48 = auVar19._16_4_;
-    uVar58 = ac | (uint)('\x01' < DAT_0056ac48) << 2 | (uint)(DAT_0056ac48 == '\x01') << 1;
-    ac = uVar58 | DAT_0056ac48 < '\x01';
-    if (((byte)(uVar58 >> 1) & 1) == 1) {
+    uVar65 = ac | (uint)(1 < DAT_0056ac48_motionviewflag_candidate) << 2 |
+             (uint)(DAT_0056ac48_motionviewflag_candidate == 1) << 1;
+    ac = uVar65 | DAT_0056ac48_motionviewflag_candidate < 1;
+    if (((byte)(uVar65 >> 1) & 1) == 1) {
 LAB_0004e6a4:
       uVar2 = auVar19._4_4_ + 0x3fU & 0xffffffc0;
       auVar20._12_52_ = auVar19._12_52_;
@@ -206,18 +207,18 @@ LAB_0004e6a4:
       auVar19._8_56_ = auVar20._8_56_;
       auVar19._4_4_ = uVar2 + 0x40;
       auVar19._0_4_ = fp;
-      FUN_0004ea80();
+      FUN_0004ea80_motionviewer_candidate();
       fp = (undefined1 (*) [64])uVar2;
     }
     else {
-      puVar59 = (undefined4 *)(int)*psVar51;
-      puVar54 = (undefined4 *)(int)DAT_0056ac3c;
-      ac = uVar2 | (uint)((int)puVar59 < (int)puVar54) << 2 | (uint)(puVar59 == puVar54) << 1 |
-           (uint)((int)puVar54 < (int)puVar59);
-      if (((byte)ac & 1 | (int)puVar59 < (int)puVar54) != 1) goto LAB_0004e6a4;
+      puVar66 = (undefined4 *)(int)*psVar51;
+      puVar61 = (undefined4 *)(int)DAT_0056ac3c;
+      ac = uVar2 | (uint)((int)puVar66 < (int)puVar61) << 2 | (uint)(puVar66 == puVar61) << 1 |
+           (uint)((int)puVar61 < (int)puVar66);
+      if (((byte)ac & 1 | (int)puVar66 < (int)puVar61) != 1) goto LAB_0004e6a4;
     }
     iVar46 = auVar19._4_4_;
-    uVar56 = 0xffffffff;
+    uVar63 = 0xffffffff;
     uVar2 = ac & 0xfffffff8 | (uint)(DAT_0056ac4c < -1) << 2 | (uint)(DAT_0056ac4c == -1) << 1;
     ac = uVar2 | -1 < DAT_0056ac4c;
     if (((byte)(uVar2 >> 1) & 1) != 1) {
@@ -257,19 +258,19 @@ LAB_0004e6a4:
       do {
         g14 = 0x4e6ec;
         FUN_0004ea08();
-        puVar59 = (undefined4 *)(*puVar49 - 1);
-        iVar9 = (int)puVar59 * 0x10000;
+        puVar66 = (undefined4 *)(*puVar49 - 1);
+        iVar9 = (int)puVar66 * 0x10000;
         uVar2 = ac & 0xfffffff8 | (uint)(0 < iVar9) << 2;
         ac = uVar2 | (uint)(iVar9 == 0) << 1 | (uint)(iVar9 < 0);
-        *puVar49 = (ushort)puVar59;
+        *puVar49 = (ushort)puVar66;
       } while (((byte)ac & 1 | (byte)(uVar2 >> 2) & 1) == 1);
     }
-    uVar58 = ac;
+    uVar65 = ac;
     auVar22._20_44_ = auVar19._20_44_;
     auVar10._0_16_ = auVar19._0_16_;
     auVar10._16_4_ = iVar48 + 1;
     auVar22._0_20_ = auVar10;
-    uVar57 = 2000;
+    uVar64 = 2000;
     uVar2 = ac & 0xfffffff8 | (uint)(auVar10._16_4_ < 2000) << 2 |
             (uint)(auVar10._16_4_ == 2000) << 1;
     ac = uVar2 | 2000 < auVar10._16_4_;
@@ -291,44 +292,44 @@ LAB_0004e6a4:
       auVar26._8_56_ = auVar27._8_56_;
       auVar26._4_4_ = pauVar3 + 1;
       auVar26._0_4_ = fp;
-      Debug_PrintMotionInitError(uVar53 & 0xffff);
+      Debug_PrintMotionInitError(uVar60 & 0xffff);
       fp = pauVar3;
       goto LAB_0004e72c;
     }
-    uVar58 = uVar58 & 0xfffffff8;
+    uVar65 = uVar65 & 0xfffffff8;
     auVar19._0_24_ = auVar22._0_24_;
     auVar19._24_4_ = iVar50 + 1;
     auVar19._28_36_ = auVar25._28_36_;
     sVar4 = *psVar51;
-    puVar60 = (undefined4 *)(int)sVar4;
+    puVar67 = (undefined4 *)(int)sVar4;
     if ((iVar50 == 2) &&
-       (puVar59 = (undefined4 *)(int)(float10)DAT_0056acf0, DAT_005555f4 = sVar4,
+       (puVar66 = (undefined4 *)(int)(float10)DAT_0056acf0, DAT_005555f4 = sVar4,
        DAT_005555f8 = DAT_0056acf0, (float10)0x3fe0000000000000 <= (float10)DAT_0056acf0)) {
       DAT_005555f8 = 0;
-      puVar59 = (undefined4 *)0xbff00000;
+      puVar66 = (undefined4 *)0xbff00000;
     }
-    ac = uVar58;
-  } while (puVar60 != (undefined4 *)0x0);
+    ac = uVar65;
+  } while (puVar67 != (undefined4 *)0x0);
   auVar41._20_44_ = auVar19._20_44_;
   auVar11._16_4_ = 0;
   auVar11._0_16_ = auVar10._0_16_;
   auVar41._0_20_ = auVar11;
-  ac = uVar58 | (uint)(DAT_00589e14 == 4) << 1;
+  ac = uVar65 | (uint)(DAT_00589e14 == 4) << 1;
   auVar42._0_24_ = auVar41._0_24_;
   auVar42._24_4_ = 0;
   auVar42._28_36_ = auVar25._28_36_;
   auVar43._24_40_ = auVar42._24_40_;
   if ((((byte)(ac >> 1) & 1) == 1) ||
-     (ac = uVar58 | (uint)(DAT_00589e14 < 0x21) << 2 | (uint)(DAT_00589e14 == 0x21) << 1 |
+     (ac = uVar65 | (uint)(DAT_00589e14 < 0x21) << 2 | (uint)(DAT_00589e14 == 0x21) << 1 |
            (uint)(0x21 < DAT_00589e14), ((byte)ac & 1 | DAT_00589e14 < 0x21) != 1)) {
-    uVar58 = ac;
+    uVar65 = ac;
     uVar2 = ac & 0xfffffff8 | (uint)(DAT_00589e18 < -1) << 2;
     ac = uVar2 | (uint)(DAT_00589e18 == -1) << 1 | (uint)(-1 < DAT_00589e18);
     auVar12._20_4_ = DAT_00589e14;
     auVar12._0_20_ = auVar11;
     auVar43._0_24_ = auVar12;
     if (((byte)ac & 1 | (byte)(uVar2 >> 2) & 1) == 1) {
-      ac = uVar58 & 0xfffffff8 | (uint)(5 < DAT_00589e18) << 2 | (uint)(DAT_00589e18 == 5) << 1 |
+      ac = uVar65 & 0xfffffff8 | (uint)(5 < DAT_00589e18) << 2 | (uint)(DAT_00589e18 == 5) << 1 |
            (uint)(DAT_00589e18 < 5);
       if (((byte)ac & 1 | 5 < DAT_00589e18) != 1) {
         auVar43._24_4_ = 1;
@@ -351,9 +352,9 @@ LAB_0004e6a4:
   }
   goto LAB_0004e870;
   while( true ) {
-    uVar53 = (uint)ButtonPress_P1_0054fcd5;
-    uVar58 = ac & 0xfffffff8;
-    ac = uVar58 | 2;
+    uVar60 = (uint)ButtonPress_P1_0054fcd5;
+    uVar65 = ac & 0xfffffff8;
+    ac = uVar65 | 2;
     fp = pauVar3;
     if ((ButtonPress_P1_0054fcd5 & button_kick) == button_none) break;
 LAB_0004e72c:
@@ -367,14 +368,14 @@ LAB_0004e72c:
     auVar26._4_4_ = pauVar3 + 1;
     auVar26._0_4_ = fp;
     FUN_00008250(1);
-    uVar53 = ButtonPress_P1 & 3;
+    uVar60 = ButtonPress_P1 & 3;
     bVar1 = (ButtonPress_P1 & button_HP) != button_none;
-    uVar58 = ac & 0xfffffff8 | (uint)bVar1 << 2 |
+    uVar65 = ac & 0xfffffff8 | (uint)bVar1 << 2 |
              (uint)((ButtonPress_P1 & button_HP) == button_none) << 1;
     if (bVar1) break;
   }
-  ac = uVar58;
-  uVar55 = 5;
+  ac = uVar65;
+  uVar62 = 5;
   auVar30._12_52_ = auVar26._12_52_;
   auVar30._0_8_ = auVar26._0_8_;
   auVar30._8_4_ = 0x4e75c;
@@ -389,7 +390,7 @@ LAB_0004e72c:
   auVar31._8_56_ = auVar32._8_56_;
   auVar31._4_4_ = pauVar3 + 2;
   auVar31._0_4_ = pauVar3 + 1;
-  FUN_0008e740(s__0004e3b0,uVar55,uVar56,uVar57,uVar53,puVar59,puVar60,puVar62,in_g8,in_g9,in_g10,
+  FUN_0008e740(s__0004e3b0,uVar62,uVar63,uVar64,uVar60,puVar66,puVar67,puVar69,in_g8,in_g9,in_g10,
                in_g11);
   auVar34._12_52_ = auVar31._12_52_;
   auVar34._0_8_ = auVar31._0_8_;
@@ -398,7 +399,7 @@ LAB_0004e72c:
   auVar33._8_56_ = auVar34._8_56_;
   auVar33._4_4_ = pauVar3 + 3;
   auVar33._0_4_ = pauVar3 + 2;
-  FUN_0008e740(s__0004e3e0,extraout_g1,uVar56,uVar57,uVar53,puVar59,puVar60,puVar62,in_g8,in_g9,
+  FUN_0008e740(s__0004e3e0,extraout_g1,uVar63,uVar64,uVar60,puVar66,puVar67,puVar69,in_g8,in_g9,
                in_g10,in_g11);
   auVar36._12_52_ = auVar33._12_52_;
   auVar36._0_8_ = auVar33._0_8_;
@@ -407,7 +408,7 @@ LAB_0004e72c:
   auVar35._8_56_ = auVar36._8_56_;
   auVar35._4_4_ = pauVar3 + 4;
   auVar35._0_4_ = pauVar3 + 3;
-  FUN_0008e740(s__0004e410,extraout_g1_00,uVar56,uVar57,uVar53,puVar59,puVar60,puVar62,in_g8,in_g9,
+  FUN_0008e740(s__0004e410,extraout_g1_00,uVar63,uVar64,uVar60,puVar66,puVar67,puVar69,in_g8,in_g9,
                in_g10,in_g11);
   auVar38._12_52_ = auVar35._12_52_;
   auVar38._0_8_ = auVar35._0_8_;
@@ -416,7 +417,7 @@ LAB_0004e72c:
   auVar37._8_56_ = auVar38._8_56_;
   auVar37._4_4_ = pauVar3 + 5;
   auVar37._0_4_ = pauVar3 + 4;
-  FUN_0008e740(s__0004e440,extraout_g1_01,uVar56,uVar57,uVar53,puVar59,puVar60,puVar62,in_g8,in_g9,
+  FUN_0008e740(s__0004e440,extraout_g1_01,uVar63,uVar64,uVar60,puVar66,puVar67,puVar69,in_g8,in_g9,
                in_g10,in_g11);
   auVar40._12_52_ = auVar37._12_52_;
   auVar40._0_8_ = auVar37._0_8_;
@@ -425,7 +426,7 @@ LAB_0004e72c:
   auVar39._8_56_ = auVar40._8_56_;
   auVar39._4_4_ = pauVar3 + 7;
   auVar39._0_4_ = pauVar3 + 5;
-  FUN_0008e740(s__0004e470,extraout_g1_02,uVar56,uVar57,uVar53,puVar59,puVar60,puVar62,in_g8,in_g9,
+  FUN_0008e740(s__0004e470,extraout_g1_02,uVar63,uVar64,uVar60,puVar66,puVar67,puVar69,in_g8,in_g9,
                in_g10,in_g11);
   auVar13 = auVar39._0_26_;
 LAB_0004e870:
