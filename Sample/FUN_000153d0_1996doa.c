@@ -259,7 +259,7 @@ void FUN_000153d0(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
 LAB_000154b8:
   do {
     auVar7._0_44_ = auVar12._0_44_;
-    if (DAT_0054fd03 == 0) {
+    if (BYTE_0054fd03 == 0) {
       if ((g_player1.controller_type == MAN) && (g_player2.controller_type == MAN)) {
         auVar7._44_4_ = 0;
 LAB_0001552c:
@@ -274,7 +274,7 @@ LAB_0001552c:
       }
     }
     else {
-      if (DAT_0054fd03 != 1) {
+      if (BYTE_0054fd03 != 1) {
 LAB_00015528:
         auVar7._44_4_ = 1;
         goto LAB_0001552c;
@@ -319,7 +319,7 @@ LAB_0001551c:
       g12 = &DAT_00557a78 + iVar105;
       auVar93._40_24_ = auVar20._40_24_;
       auVar93._0_36_ = auVar21._0_36_;
-      auVar93._36_4_ = &DAT_0055561e + iVar105;
+      auVar93._36_4_ = (char *)(&BYTE_0055561e + iVar105);
       uVar112 = iVar105 * 0xc;
       *(undefined4 **)(fp[1] + 0x10) = &DAT_00557a70 + iVar105;
       *(int **)(fp[1] + 0x20) = &DAT_00557c18 + iVar105;
@@ -374,11 +374,13 @@ LAB_0001551c:
                        in_g11);
         }
         uVar110 = (uint)g_player1.unknown_56[iVar105 + -0x56];
-        uVar1 = ac & 0xfffffff8 | (uint)((&MANCOM_P1_00557c10)[uVar106] == uVar110) << 1;
+        uVar1 = ac & 0xfffffff8 |
+                (uint)((&g_charselect_last_processed_controller_type_p1)[uVar106] == uVar110) << 1;
         if (((byte)(uVar1 >> 1) & 1) != 1) {
           uVar110 = ac & 0xfffffff8 | (uint)((int)uVar106 < 0) << 2;
           ac = uVar110 | (uint)(uVar106 == 0) << 1 | (uint)(0 < (int)uVar106);
-          (&MANCOM_P1_00557c10)[uVar106] = g_player1.unknown_56[iVar105 + -0x56];
+          (&g_charselect_last_processed_controller_type_p1)[uVar106] =
+               g_player1.unknown_56[iVar105 + -0x56];
           auVar28._0_8_ = auVar25._0_8_;
           auVar28._12_52_ = auVar25._12_52_;
           if (((byte)ac & 1 | (byte)(uVar110 >> 2) & 1) == 1) {
@@ -415,7 +417,7 @@ LAB_0001551c:
 LAB_0001580c:
               g_player2.costume_id = DAT_00557c01;
               uVar110 = (uint)g_player2.character_id;
-              (&DAT_00557bac)[uVar110] = (uint)DAT_00557c01;
+              uint32_t_ARRAY_00557bac[uVar110] = (uint)DAT_00557c01;
               fp = pauVar4;
             }
             else {
@@ -430,7 +432,7 @@ LAB_0001580c:
               *(undefined1 (*) [64])(uVar1 & 0xffffffc0) = auVar33;
               auVar31._8_56_ = auVar33._8_56_;
               auVar31._0_8_ = CONCAT44(pauVar4 + 2,uVar1) & 0xffffffffffffffc0;
-              FUN_000146c0(1);
+              CharacterSelect_ApplyCachedCostumeAndAvoidDuplicate(1);
               fp = pauVar4 + 1;
             }
             pauVar4 = (undefined1 (*) [64])(auVar31._4_4_ + 0x3fU & 0xffffffc0);
@@ -477,7 +479,7 @@ LAB_0001580c:
 LAB_0001573c:
               g_player1.costume_id = DAT_00557c00;
               uVar110 = (uint)g_player1.character_id;
-              (&DAT_00557b70)[uVar110] = (uint)DAT_00557c00;
+              g_costume_selection_cache[uVar110] = (uint)DAT_00557c00;
               fp = pauVar4;
             }
             else {
@@ -492,7 +494,7 @@ LAB_0001573c:
               *(undefined1 (*) [64])(uVar1 & 0xffffffc0) = auVar29;
               auVar27._8_56_ = auVar29._8_56_;
               auVar27._0_8_ = CONCAT44(pauVar4 + 2,uVar1) & 0xffffffffffffffc0;
-              FUN_000146c0(0);
+              CharacterSelect_ApplyCachedCostumeAndAvoidDuplicate(0);
               fp = pauVar4 + 1;
             }
             pauVar4 = (undefined1 (*) [64])(auVar27._4_4_ + 0x3fU & 0xffffffc0);
@@ -517,7 +519,7 @@ LAB_0001573c:
         if (((byte)ac & 1 | 0 < iVar108) == 1) goto LAB_00015e2c;
         ac = uVar1 & 0xfffffff8 | (uint)(*pcVar101 < '\x01');
         if ((((byte)ac & 1 | '\x01' < *pcVar101) == 1) ||
-           (ac = uVar1 & 0xfffffff8, DAT_0054fcfe != '\0')) goto LAB_00015d28;
+           (ac = uVar1 & 0xfffffff8, BYTE_0054fcfe != 0)) goto LAB_00015d28;
         DAT_00557c24 = (byte)*puVar99;
         switch(fp[1][uVar106]) {
         case 1:
@@ -729,7 +731,7 @@ LAB_00015b74:
               if (bVar6 != 1) {
                 g_player1.unknown_56[iVar105 + -0x54] = (byte)g14;
               }
-              *(uint *)((int)&DAT_00557b70 +
+              *(uint *)((int)g_costume_selection_cache +
                        (uint)g_player1.unknown_56[iVar105 + -0x55] * 4 + iVar104) =
                    (uint)g_player1.unknown_56[iVar105 + -0x54];
             }
@@ -757,8 +759,8 @@ LAB_00015b74:
               ac = uVar110;
               g_player1.unknown_56[iVar105 + -0x54] =
                    *(DOA_U8 *)
-                    ((int)&DAT_00557b70 + (uint)g_player1.unknown_56[iVar105 + -0x55] * 4 + iVar104)
-              ;
+                    ((int)g_costume_selection_cache +
+                    (uint)g_player1.unknown_56[iVar105 + -0x55] * 4 + iVar104);
             }
             else {
               fp = pauVar4 + 1;
@@ -768,7 +770,7 @@ LAB_00015b74:
               *(undefined1 (*) [64])(uVar1 & 0xffffffc0) = auVar38;
               auVar35._8_56_ = auVar38._8_56_;
               auVar35._0_8_ = CONCAT44(pauVar4 + 2,uVar1) & 0xffffffffffffffc0;
-              FUN_000146c0(uVar106);
+              CharacterSelect_ApplyCachedCostumeAndAvoidDuplicate(uVar106);
             }
           }
           *pbVar102 = 1;
@@ -994,7 +996,7 @@ LAB_00015e2c:
         ((byte)(uVar106 >> 1) & 1) != 1)))) {
       ac = uVar1;
       uVar106 = ac;
-      uVar110 = (uint)DAT_0054fd03;
+      uVar110 = (uint)BYTE_0054fd03;
       ac = ac & 0xfffffff8 | (uint)(uVar110 == 0);
       if (((((byte)ac & 1 | 1 < uVar110) == 1) ||
           (uVar106 = uVar106 & 0xfffffff8 | (uint)(1 < DAT_00557bf8) << 2 |
@@ -1006,8 +1008,8 @@ LAB_00015e2c:
                 (uint)(DAT_00557bfc == 1) << 1 | (uint)(DAT_00557bfc < 1),
           ((byte)ac & 1 | 1 < DAT_00557bfc) == 1)))) {
         uVar112 = ac;
-        uVar106 = ac & 0xfffffff8 | (uint)(DAT_005555e0 != '\0') << 2 |
-                  (uint)(DAT_005555e0 == '\0') << 1;
+        uVar106 = ac & 0xfffffff8 | (uint)(BYTE_005555e0 != 0) << 2 |
+                  (uint)(BYTE_005555e0 == 0) << 1;
         if ((((byte)(uVar106 >> 1) & 1) != 1) &&
            (ac = ac & 0xfffffff8 | (uint)(1 < StageLoadFlag) << 2 | (uint)(StageLoadFlag == 1) << 1
                  | (uint)(StageLoadFlag == 0), uVar106 = ac, ((byte)ac & 1 | 1 < StageLoadFlag) == 1
@@ -1150,7 +1152,7 @@ LAB_00015e2c:
         uVar106 = ac;
       }
       ac = uVar106;
-      uVar106 = ac & 0xfffffff8 | (uint)(DAT_005555e0 == '\0') << 1;
+      uVar106 = ac & 0xfffffff8 | (uint)(BYTE_005555e0 == 0) << 1;
       if ((((byte)(uVar106 >> 1) & 1) != 1) &&
          (uVar106 = ac & 0xfffffff8 | (uint)(StageLoadFlag == 1) << 1,
          ((byte)(uVar106 >> 1) & 1) != 1)) {
@@ -1190,7 +1192,7 @@ LAB_00015e2c:
         }
       }
       ac = uVar106;
-      uVar112 = (uint)MANCOM_P1_00557c10;
+      uVar112 = (uint)g_charselect_last_processed_controller_type_p1;
       uVar1 = ac & 0xfffffff8;
       uVar106 = uVar1 | (uint)(uVar112 < g_player1.controller_type) << 2;
       ac = uVar106 | g_player1.controller_type < uVar112;
@@ -1207,7 +1209,7 @@ LAB_00015e2c:
       if (((byte)(ac >> 1) & 1 | (byte)(ac >> 2) & 1) != 1) {
         DAT_00557a78 = 0;
       }
-      uVar112 = (uint)MANCOM_P2_00557c11;
+      uVar112 = (uint)g_charselect_last_processed_controller_type_p2;
       uVar106 = ac & 0xfffffff8;
       ac = uVar106 | g_player2.controller_type < uVar112;
       in_g7 = pbVar113;
@@ -1243,10 +1245,10 @@ LAB_00015e2c:
     auVar71._4_4_ = pauVar4 + 1;
     auVar71._0_4_ = fp;
     FUN_00008250(2);
-    ac = ac & 0xfffffff8 | (uint)(DAT_005555e0 != '\0') << 2 | (uint)(DAT_005555e0 == '\0') << 1;
+    ac = ac & 0xfffffff8 | (uint)(BYTE_005555e0 != 0) << 2 | (uint)(BYTE_005555e0 == 0) << 1;
     uVar114 = extraout_g1_06;
     fp = pauVar4;
-    if (DAT_005555e0 == '\0') {
+    if (BYTE_005555e0 == 0) {
       auVar71._16_4_ = 0xfe;
       do {
         Camera_Angle = 0xfe;
@@ -1259,8 +1261,7 @@ LAB_00015e2c:
         auVar71._4_4_ = pauVar4 + 1;
         auVar71._0_4_ = fp;
         FUN_00008250(1);
-        ac = ac & 0xfffffff8 | (uint)(DAT_005555e0 != '\0') << 2 | (uint)(DAT_005555e0 == '\0') << 1
-        ;
+        ac = ac & 0xfffffff8 | (uint)(BYTE_005555e0 != 0) << 2 | (uint)(BYTE_005555e0 == 0) << 1;
         uVar114 = extraout_g1_07;
         fp = pauVar4;
       } while (((byte)(ac >> 1) & 1) == 1);
@@ -1268,7 +1269,7 @@ LAB_00015e2c:
     auVar74._28_36_ = auVar71._28_36_;
     auVar74._0_24_ = auVar71._0_24_;
     auVar74._24_4_ = 0;
-    in_g7 = &MANCOM_P1_00557c10;
+    in_g7 = &g_charselect_last_processed_controller_type_p1;
     uVar112 = 0;
     while( true ) {
       auVar12 = auVar74;
@@ -1291,7 +1292,7 @@ LAB_00015e2c:
         auVar75._20_44_ = auVar74._20_44_;
         auVar75._0_16_ = auVar12._0_16_;
         auVar75._16_4_ = PTR_ARRAY_00090c40;
-        DAT_0054fcff = 1;
+        BYTE_0054fcff = 1;
         DAT_00557c00 = g_player1.costume_id;
         DAT_00557c01 = g_player2.costume_id;
         iVar104 = (int)g13;
@@ -1342,7 +1343,7 @@ LAB_00015e2c:
         auVar83._8_56_ = auVar84._8_56_;
         auVar83._4_4_ = pauVar4 + 3;
         auVar83._0_4_ = pauVar4 + 2;
-        FUN_000085f0((undefined2 *)(auVar75._20_4_ + 0x1002001));
+        Tilemap_Clear64x64((undefined2 *)(auVar75._20_4_ + 0x1002001));
         auVar86._12_52_ = auVar83._12_52_;
         auVar86._0_8_ = auVar83._0_8_;
         auVar86._8_4_ = 0x161c8;
@@ -1350,7 +1351,7 @@ LAB_00015e2c:
         auVar85._8_56_ = auVar86._8_56_;
         auVar85._4_4_ = pauVar4 + 4;
         auVar85._0_4_ = pauVar4 + 3;
-        FUN_000085f0((undefined2 *)((int)&TMAPBASE_01000000 + auVar75._20_4_ + 1));
+        Tilemap_Clear64x64((undefined2 *)((int)&TMAPBASE_01000000 + auVar75._20_4_ + 1));
         auVar88._12_52_ = auVar85._12_52_;
         auVar88._0_8_ = auVar85._0_8_;
         auVar88._8_4_ = 0x161d4;
@@ -1358,7 +1359,7 @@ LAB_00015e2c:
         auVar87._8_56_ = auVar88._8_56_;
         auVar87._4_4_ = pauVar4 + 5;
         auVar87._0_4_ = pauVar4 + 4;
-        FUN_000085f0((undefined2 *)((int)&DAT_01004000 + auVar75._20_4_ + 1));
+        Tilemap_Clear64x64((undefined2 *)((int)&DAT_01004000 + auVar75._20_4_ + 1));
         auVar90._12_52_ = auVar87._12_52_;
         auVar90._0_8_ = auVar87._0_8_;
         auVar90._8_4_ = 0x161dc;
