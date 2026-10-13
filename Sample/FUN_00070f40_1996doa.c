@@ -2,6 +2,7 @@
 /* WARNING (jumptable): Heritage AFTER dead removal. Revisit: 0x00000000 */
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
+/* Higher-level resource-streaming state machine, including backdrop and colorxlat updates */
 
 void FUN_00070f40(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
                  undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8,
@@ -119,10 +120,11 @@ void FUN_00070f40(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
     uVar35 = (uint)g_player2.costume_id;
     uVar26 = (uint)g_player2.character_id;
     uVar27 = (uint)g_current_stage;
-    DAT_005b9890 = *(byte *)((int)&WORD_000c6e70 + uVar36 + (uint)g_player1.costume_id * 0xd);
-    uVar33 = (uint)DAT_005b9890;
-    DAT_005b9891 = *(byte *)((int)&WORD_000c6e70 + uVar26 + uVar35 * 0xd);
-    uVar28 = (uint)DAT_005b9891;
+    g_requested_p1_colorxlat_id =
+         *(byte *)((int)&WORD_000c6e70 + uVar36 + (uint)g_player1.costume_id * 0xd);
+    uVar33 = (uint)g_requested_p1_colorxlat_id;
+    g_requested_p2_colorxlat_id = *(byte *)((int)&WORD_000c6e70 + uVar26 + uVar35 * 0xd);
+    uVar28 = (uint)g_requested_p2_colorxlat_id;
     uVar29 = ac & 0xfffffff8 | (uint)(uVar27 < 0xff) << 2 | (uint)(uVar27 == 0xff) << 1;
     ac = uVar29 | 0xff < uVar27;
     auVar10._0_8_ = auVar8._0_8_;
@@ -205,7 +207,7 @@ void FUN_00070f40(undefined4 param_1,undefined4 param_2,undefined4 param_3,undef
           if ((((DAT_005b975b & 1) != 0) || (DAT_005b9745 == 0xfe)) || (DAT_005b9746 == 0xfe))
           break;
           uVar34 = (uint)DAT_005b9748;
-          uVar32 = (uint)DAT_005b9890;
+          uVar32 = (uint)g_requested_p1_colorxlat_id;
           if (uVar32 < uVar34 || uVar34 < uVar32) {
             if (uVar32 < DAT_005b9749 || DAT_005b9749 < uVar32) {
               uVar34 = (uint)DAT_005a6f1c;
@@ -232,23 +234,23 @@ LAB_000715e0:
                 puVar1 = (undefined1 *)(iVar25 + 0x3fU & 0xffffffc0);
                 if (DAT_005b975a == 0xff) {
                   DAT_005b975b = DAT_005b975b ^ 1;
-                  (&DAT_005b9748)[DAT_005a6f1c] = DAT_005b9890;
+                  (&DAT_005b9748)[DAT_005a6f1c] = g_requested_p1_colorxlat_id;
                   DAT_005b9744 = bVar3;
                   return;
                 }
               }
 LAB_000715e8:
               fp = (undefined1 (*) [64])puVar1;
-              if (g_current_p1_colorxlat_selector != DAT_005b9890) {
-                DAT_005b975e = '\x01';
+              if (g_current_p1_colorxlat_selector != g_requested_p1_colorxlat_id) {
+                g_colorxlat_changed_latch_candidate = 1;
                 g_colorxlat_pending_mask = g_colorxlat_pending_mask | COLORXLAT_PENDING_P1;
               }
-              if (g_current_p2_colorxlat_selector != DAT_005b9891) {
-                DAT_005b975e = '\x01';
+              if (g_current_p2_colorxlat_selector != g_requested_p2_colorxlat_id) {
+                g_colorxlat_changed_latch_candidate = 1;
                 g_colorxlat_pending_mask = g_colorxlat_pending_mask | COLORXLAT_PENDING_P2;
               }
               if (g_current_stage_colorxlat != g_current_stage) {
-                DAT_005b975e = '\x01';
+                g_colorxlat_changed_latch_candidate = 1;
                 g_colorxlat_pending_mask = g_colorxlat_pending_mask | COLORXLAT_PENDING_STAGE;
               }
               uVar29 = ac & 0xfffffff8 | (uint)(DAT_005b975b != 0) << 2 |
@@ -389,7 +391,7 @@ LAB_000715e8:
           goto LAB_000715e8;
         }
         uVar34 = (uint)DAT_005b974a;
-        uVar32 = (uint)DAT_005b9891;
+        uVar32 = (uint)g_requested_p2_colorxlat_id;
         if (uVar32 < uVar34 || uVar34 < uVar32) {
           if (uVar32 < DAT_005b974b || DAT_005b974b < uVar32) {
             uVar34 = (uint)DAT_005a6f1d;
@@ -411,7 +413,7 @@ LAB_000715e8:
               puVar1 = (undefined1 *)(iVar25 + 0x3fU & 0xffffffc0);
               if (DAT_005b975a == 0xff) {
                 DAT_005b975b = DAT_005b975b ^ 2;
-                (&DAT_005b974a)[DAT_005a6f1d] = DAT_005b9891;
+                (&DAT_005b974a)[DAT_005a6f1d] = g_requested_p2_colorxlat_id;
                 DAT_005b9745 = bVar3;
                 return;
               }
@@ -445,9 +447,9 @@ LAB_000715e8:
     }
   }
   uVar29 = ac;
-  if (DAT_005b975e == '\x01') {
+  if (g_colorxlat_changed_latch_candidate == 1) {
     g_colorxlat_update_active_candidate = '\x01';
-    DAT_005b975e = (byte)g14;
+    g_colorxlat_changed_latch_candidate = (byte)g14;
   }
   ac = ac & 0xfffffff8 | (uint)(g_current_stage != STAGE_SCREENSPLASH) << 2 |
        (uint)(g_current_stage == STAGE_SCREENSPLASH) << 1;
