@@ -21,8 +21,7 @@ void FUN_00008340(void)
         puVar7 = puVar6;
         uVar2 = ac;
         *puVar7 = uVar5 << 4 |
-                  uVar5 << 8 |
-                  uVar5 << 0xc | uVar5 << 0x10 | uVar5 << 0x14 | uVar5 << 0x18 | uVar5 << 0x1c |
+                  uVar5 << 8 | uVar5 << 12 | uVar5 << 16 | uVar5 << 20 | uVar5 << 24 | uVar5 << 28 |
                   uVar5;
         puVar6 = puVar7 + 1;
         iVar4 = iVar4 + 1;
