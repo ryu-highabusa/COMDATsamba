@@ -485,7 +485,7 @@ LAB_00003d40:
     *(undefined1 (*) [64])(uVar1 & 0xffffffc0) = auVar23;
     auVar22._8_56_ = auVar23._8_56_;
     auVar22._0_8_ = CONCAT44(fp,uVar1) & 0xffffffffffffffc0;
-    Task_RegisterOrReplace(&LAB_00013770,2);
+    Task_RegisterOrReplace(&CharacterSelect_TaskMain_candidate,2);
     auVar24._12_52_ = auVar22._12_52_;
     auVar24._0_8_ = auVar22._0_8_;
     auVar24._8_4_ = 0x3b78;
