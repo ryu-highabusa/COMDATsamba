@@ -142,10 +142,10 @@ void FUN_00016fa0(void)
     auVar14._12_52_ = auVar12._12_52_;
     if (((byte)ac & 1 | 4 < GameOverFlag____0054fcb4) == 1) {
       BYTE_0054fcfd = g14._0_1_;
-      TimeCurrentMatch_Seconds_005555a0 = SettingsUnlistedGameMode_Time_0054fd78;
+      TimeCurrentMatch_Seconds_005555a0 = SettingsUnlistedGameMode_Time;
       TimeCurrentMatch_MilliSeconds_005555a1 = g14._0_1_;
-      DAT_005555a8 = g14;
-      g_roundEndTriggered = g14._0_1_;
+      g_p1_to_p2_heading_bam16 = (int32_t)g14;
+      BYTE_005555e3 = g14._0_1_;
       SPRT_DAT = clear;
       FixDisp = 1;
       DAT_005555e9 = 1;
@@ -157,7 +157,7 @@ void FUN_00016fa0(void)
       auVar17._8_56_ = auVar18._8_56_;
       auVar17._4_4_ = auStack_40;
       auVar17._0_4_ = fp;
-      FUN_000185c0();
+      Battle_ConfigureDangerZoneBounds_candidate();
       uVar82 = ac;
       ac = ac & 0xfffffff8 | (uint)(1 < BYTE_005555e4) << 2 | (uint)(BYTE_005555e4 == 1) << 1 |
            (uint)(BYTE_005555e4 == 0);
@@ -175,14 +175,15 @@ void FUN_00016fa0(void)
         Battle_ResetBothPlayersForRound();
       }
       else {
-        DAT_005555dc = g14._0_1_;
-        DAT_005555dd = g14._0_1_;
+        g_round_sequence_position_candidate = g14._0_1_;
+        g_total_round_results_candidate = g14._0_1_;
         ac = uVar82 & 0xfffffff8 | (uint)(GameOverFlag____0054fcb4 != 0) << 2 |
              (uint)(GameOverFlag____0054fcb4 == 0) << 1;
         if ((GameOverFlag____0054fcb4 != 0) ||
-           (ac = uVar82 & 0xfffffff8 | (uint)(8 < DAT_0054fceb) << 2 |
-                 (uint)(DAT_0054fceb == 8) << 1 | (uint)(DAT_0054fceb < 8),
-           ((byte)ac & 1 | 8 < DAT_0054fceb) == 1)) {
+           (ac = uVar82 & 0xfffffff8 | (uint)(8 < g_vs_com_match_index_candidate) << 2 |
+                 (uint)(g_vs_com_match_index_candidate == 8) << 1 |
+                 (uint)(g_vs_com_match_index_candidate < 8),
+           ((byte)ac & 1 | 8 < g_vs_com_match_index_candidate) == 1)) {
           Camera_Angle = camera_introZoom1;
           auVar51._20_44_ = auVar17._20_44_;
           auVar51._0_16_ = auVar17._0_16_;
@@ -404,9 +405,9 @@ void FUN_00016fa0(void)
       }
       iVar83 = auVar51._24_4_;
       SPRT_DAT = set_suddendeath;
-      iVar81 = (uint)BYTE_0054fcea * 2 + -1;
-      ac = ac & 0xfffffff8 | (uint)((int)(uint)DAT_005555dc < iVar81);
-      if (((byte)ac & 1 | iVar81 < (int)(uint)DAT_005555dc) != 1) {
+      iVar81 = (uint)g_effective_set_count * 2 + -1;
+      ac = ac & 0xfffffff8 | (uint)((int)(uint)g_round_sequence_position_candidate < iVar81);
+      if (((byte)ac & 1 | iVar81 < (int)(uint)g_round_sequence_position_candidate) != 1) {
         g_player1.pendingDamage = HIT_POINT_CurrentSetting_005555e6 - 0x32;
         TimeCurrentMatch_Seconds_005555a0 = 10;
         g_player2.pendingDamage = g_player1.pendingDamage;
@@ -483,19 +484,19 @@ void FUN_00016fa0(void)
       return;
     }
     BYTE_0054fcfd = g14._0_1_;
-    TimeCurrentMatch_Seconds_005555a0 = SettingsUnlistedGameMode_Time_0054fd78;
+    TimeCurrentMatch_Seconds_005555a0 = SettingsUnlistedGameMode_Time;
     TimeCurrentMatch_MilliSeconds_005555a1 = g14._0_1_;
-    DAT_005555a8 = g14;
-    g_roundEndTriggered = g14._0_1_;
+    g_p1_to_p2_heading_bam16 = (int32_t)g14;
+    BYTE_005555e3 = g14._0_1_;
     auVar14._8_4_ = 0x17038;
     auVar14._0_8_ = uVar4;
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar14;
     auVar13._8_56_ = auVar14._8_56_;
     auVar13._4_4_ = auStackX_0;
     auVar13._0_4_ = fp;
-    FUN_000185c0();
-    DAT_005555dc = g14._0_1_;
-    DAT_005555dd = g14._0_1_;
+    Battle_ConfigureDangerZoneBounds_candidate();
+    g_round_sequence_position_candidate = g14._0_1_;
+    g_total_round_results_candidate = g14._0_1_;
     Camera_Angle = camera_floor1;
     auStackX_0._12_52_ = auVar13._12_52_;
     auStackX_0._0_8_ = auVar13._0_8_;
@@ -510,7 +511,7 @@ void FUN_00016fa0(void)
     auVar16._8_56_ = auStack_40._8_56_;
     auVar16._4_4_ = auStack_80;
     auVar16._0_4_ = auStack_40;
-    FUN_000185c0();
+    Battle_ConfigureDangerZoneBounds_candidate();
     auStack_80._12_52_ = auVar16._12_52_;
     auStack_80._0_8_ = auVar16._0_8_;
     auStack_80._8_4_ = 0x17064;
@@ -522,9 +523,9 @@ void FUN_00016fa0(void)
     fp = &auStack_80;
     return;
   case 1:
-    ac = uVar82 & 0xfffffff8 | (uint)(1 < g_roundEndTriggered) << 2 |
-         (uint)(g_roundEndTriggered == 1) << 1 | (uint)(g_roundEndTriggered == 0);
-    if (((byte)ac & 1 | 1 < g_roundEndTriggered) == 1) {
+    ac = uVar82 & 0xfffffff8 | (uint)(1 < BYTE_005555e3) << 2 | (uint)(BYTE_005555e3 == 1) << 1 |
+         (uint)(BYTE_005555e3 == 0);
+    if (((byte)ac & 1 | 1 < BYTE_005555e3) == 1) {
       fp = (undefined1 (*) [64])unaff_pfp;
       return;
     }
@@ -535,29 +536,31 @@ void FUN_00016fa0(void)
       fp = (undefined1 (*) [64])unaff_pfp;
       return;
     }
-    g_roundEndTriggered = g14._0_1_;
-    ac = uVar82 & 0xfffffff8 | (uint)(2 < BYTE_0054fd13) << 2 | (uint)(BYTE_0054fd13 == 2) << 1 |
-         (uint)(BYTE_0054fd13 < 2);
-    if (((byte)ac & 1 | 2 < BYTE_0054fd13) == 1) {
-      (&g_player1)[BYTE_0054fd13].rounds_won = (&g_player1)[BYTE_0054fd13].rounds_won + '\x01';
+    BYTE_005555e3 = g14._0_1_;
+    ac = uVar82 & 0xfffffff8 | (uint)(2 < g_selectedPlayerSide_candidate) << 2 |
+         (uint)(g_selectedPlayerSide_candidate == 2) << 1 |
+         (uint)(g_selectedPlayerSide_candidate < 2);
+    if (((byte)ac & 1 | 2 < g_selectedPlayerSide_candidate) == 1) {
+      (&g_player1)[g_selectedPlayerSide_candidate].rounds_won =
+           (&g_player1)[g_selectedPlayerSide_candidate].rounds_won + '\x01';
       fp = (undefined1 (*) [64])unaff_pfp;
       DAT_005555e9 = 1;
       DAT_00557c44 = 2;
       return;
     }
-    uVar87 = (uint)BYTE_0054fcea * 2 - 2;
-    uVar85 = (uint)DAT_005555dc;
+    uVar87 = (uint)g_effective_set_count * 2 - 2;
+    uVar85 = (uint)g_round_sequence_position_candidate;
     uVar84 = uVar82 & 0xfffffff8 | (uint)((int)uVar87 < (int)uVar85) << 2 |
              (uint)(uVar87 == uVar85) << 1;
     ac = uVar84 | (int)uVar85 < (int)uVar87;
     if (((byte)(uVar84 >> 1) & 1) == 1) {
       fp = (undefined1 (*) [64])unaff_pfp;
-      g_roundEndTriggered = bVar8;
+      BYTE_005555e3 = bVar8;
       DAT_005555e9 = 1;
       DAT_00557c44 = 2;
       return;
     }
-    uVar84 = (uint)BYTE_0054fcea * 2 - 1;
+    uVar84 = (uint)g_effective_set_count * 2 - 1;
     ac = uVar82 & 0xfffffff8 | (uint)((int)uVar84 < (int)uVar85) << 2 |
          (uint)(uVar84 == uVar85) << 1 | (uint)((int)uVar85 < (int)uVar84);
     if (((byte)ac & 1 | (int)uVar84 < (int)uVar85) == 1) {
@@ -622,7 +625,7 @@ LAB_00017430:
   case 3:
     break;
   case 4:
-    FUN_000179a0();
+    MatchEnd_SetupContinueOrNextMatch();
     return;
   case 5:
     FUN_00018040();
@@ -646,7 +649,7 @@ LAB_00017430:
   auVar70._0_20_ = auVar9;
   BYTE_0054fcfd = 3;
   ReplayLength_____005555ec = 0x78;
-  ac = uVar82 & 0xfffffff8 | (uint)(BYTE_0054fd13 == 2) << 1;
+  ac = uVar82 & 0xfffffff8 | (uint)(g_selectedPlayerSide_candidate == 2) << 1;
   if ((((byte)(ac >> 1) & 1) == 1) ||
      ((TimeCurrentMatch_Seconds_005555a0 == 0 &&
       (ac = uVar82 & 0xfffffff8, TimeCurrentMatch_MilliSeconds_005555a1 == 0)))) {
@@ -656,7 +659,7 @@ LAB_00017430:
   }
   Camera_Angle = camera_loadintoreplay;
   SPRT_DAT = replay;
-  if (BYTE_0054fd13 == 0) {
+  if (g_selectedPlayerSide_candidate == 0) {
     if ((ButtonPress_P1 & button_punch) == button_none) {
 LAB_00017598:
       DVar88 = button_none;
@@ -669,7 +672,7 @@ LAB_00017598:
     if ((ButtonPress_P2 & button_punch) == button_none) goto LAB_00017598;
     DVar88 = ButtonPress_P2 >> 2 & button_hold & ButtonPress_P2 & button_hold;
   }
-  uVar87 = (uint)BYTE_0054fd13;
+  uVar87 = (uint)g_selectedPlayerSide_candidate;
   uVar84 = uVar82 & 0xfffffff8 | (uint)(MAN < (&g_player1)[uVar87].controller_type) << 2;
   ac = uVar84 | (&g_player1)[uVar87].controller_type == COM;
   if (((((byte)ac & 1 | (byte)(uVar84 >> 2) & 1) == 1) ||
@@ -677,10 +680,11 @@ LAB_00017598:
       ((byte)ac & 1 | 1 < (&BYTE_0054fd00)[uVar87]) == 1)) ||
      (ac = uVar82 & 0xfffffff8 | (uint)(DVar88 == button_none),
      ((byte)ac & 1 | button_hold < DVar88) == 1)) {
-    if ((((((&g_player1)[BYTE_0054fd13].controller_type == MAN) &&
-          ((&g_player1)[BYTE_0054fd13 ^ 1].currentHealth == 0)) &&
+    if ((((((&g_player1)[g_selectedPlayerSide_candidate].controller_type == MAN) &&
+          ((&g_player1)[g_selectedPlayerSide_candidate ^ 1].currentHealth == 0)) &&
          ((TimeCurrentMatch_Seconds_005555a0 != 0 || (TimeCurrentMatch_MilliSeconds_005555a1 != 0)))
-         ) && (((BYTE_0055560f == 0 && ((&g_player1)[BYTE_0054fd13].combo_count < 2)) ||
+         ) && (((BYTE_0055560f == 0 &&
+                ((&g_player1)[g_selectedPlayerSide_candidate].combo_count < 2)) ||
                ((byte)(BYTE_0055560f - 1) < 2)))) && (uVar82 = (uint)BYTE_00555610, 0x99 < uVar82))
     {
       auVar70._40_4_ = 1;
@@ -690,7 +694,7 @@ LAB_00017598:
         ReplayLength_____005555ec = 0x87;
       }
       else {
-        DVar3 = (&g_player1)[BYTE_0054fd13].character_id;
+        DVar3 = (&g_player1)[g_selectedPlayerSide_candidate].character_id;
         auVar72._12_52_ = auVar70._12_52_;
         auVar72._8_4_ = 0x176d8;
         auVar72._0_8_ = uVar4;
@@ -830,13 +834,13 @@ LAB_00017830:
         if (0x12a < ReplayLength_____005555ec) goto LAB_00017830;
       }
       else {
-        if ((BYTE_0054fd13 == 0) && (g_player1.controller_type == MAN)) {
+        if ((g_selectedPlayerSide_candidate == 0) && (g_player1.controller_type == MAN)) {
           ac = ac & 0xfffffff8 | 2;
           if ((ButtonCoinTestServiceStart_0054fcd4 & START_P1) == off) break;
 LAB_0001789c:
           auVar76._20_4_ = 1;
         }
-        else if ((BYTE_0054fd13 == 1) && (g_player2.controller_type == MAN)) {
+        else if ((g_selectedPlayerSide_candidate == 1) && (g_player2.controller_type == MAN)) {
           ac = ac & 0xfffffff8 | 2;
           if ((ButtonCoinTestServiceStart_0054fcd4 & START_P2) != off) goto LAB_0001789c;
           break;
