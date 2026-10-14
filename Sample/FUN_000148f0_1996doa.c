@@ -215,7 +215,7 @@ void CharacterSelect_RunScene(void)
   auVar39._8_56_ = auStackX_0._8_56_;
   auVar39._4_4_ = auStack_40;
   auVar39._0_4_ = auStackX_0;
-  FUN_0006f770();
+  StageBackdrop_ReleaseScrollGroups();
   auStack_40._12_52_ = auVar39._12_52_;
   auStack_40._0_8_ = auVar39._0_8_;
   auStack_40._8_4_ = 0x14918;
@@ -834,8 +834,8 @@ LAB_00014d80:
     }
   }
   ac = uVar143;
-  MANCOM_P1_00557c10 = g_player1.controller_type;
-  MANCOM_P2_00557c11 = g_player2.controller_type;
+  g_charselect_last_processed_controller_type_p1 = g_player1.controller_type;
+  g_charselect_last_processed_controller_type_p2 = g_player2.controller_type;
   uVar143 = auVar107._4_4_ + 0x3f;
   uVar3 = uVar143 & 0xffffffc0;
   auVar122._12_52_ = auVar107._12_52_;
