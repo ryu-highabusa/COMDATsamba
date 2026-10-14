@@ -61,19 +61,19 @@ void Debug_UpdateHiddenDisplays
       auVar6._8_56_ = auVar7._8_56_;
       auVar6._4_4_ = auStackX_0;
       auVar6._0_4_ = fp;
-      FUN_000085f0(&TMAPBASE_01000000);
+      Tilemap_Clear64x64(&TMAPBASE_01000000);
       auStackX_0._12_52_ = auVar6._12_52_;
       auStackX_0._0_8_ = auVar6._0_8_;
       auStackX_0._8_4_ = 0x4a84;
       auVar8._8_56_ = auStackX_0._8_56_;
       auVar8._4_4_ = auStack_40;
       auVar8._0_4_ = auStackX_0;
-      FUN_000085f0(&DAT_01004000);
+      Tilemap_Clear64x64(&DAT_01004000);
       auStack_40._12_52_ = auVar8._12_52_;
       auStack_40._0_8_ = auVar8._0_8_;
       auStack_40._8_4_ = 0x4a90;
-      FUN_000085f0((undefined2 *)&DAT_01002000);
-      FUN_000085f0(&DAT_01006000);
+      Tilemap_Clear64x64((undefined2 *)&DAT_01002000);
+      Tilemap_Clear64x64(&DAT_01006000);
       FUN_000062f0();
       do {
                     /* WARNING: Do nothing block with infinite loop */
