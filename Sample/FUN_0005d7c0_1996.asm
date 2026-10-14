@@ -1,9 +1,9 @@
                              **************************************************************
                              *                          FUNCTION                          *
                              **************************************************************
-                               undefined __stdcall FUN_0005d7c0(void)
+                               undefined __stdcall ColorXlat_ProcessPendingUploads_cand
              undefined         <UNASSIGNED>   <RETURN>
-                                             FUN_0005d7c0                                    XREF[1]:     00007818(c)  
+                                             ColorXlat_ProcessPendingUploads_candidate       XREF[1]:     00007818(c)  
         0005d7c0 00 30 b8        ldob                      CHAR_COL_P1_0054fc02,g7
                  80 02 fc 
                  54 00
@@ -16,18 +16,18 @@
         0005d7d8 00 30 b0        ldob                      CHAR_NUM_P2_0054fc59*,g6
                  80 59 fc 
                  54 00
-        0005d7e0 00 30 88        ldob                      DAT_005a6f08,g1
+        0005d7e0 00 30 88        ldob                      g_colorxlat_pending_mask,g1
                  80 08 6f 
                  5a 00
         0005d7e8 01 ce a5 59     shlo                      0x1,g7,g4
         0005d7ec 17 00 a5 59     addo                      g7,g4,g4
-        0005d7f0 14 fd a5        lda                       WORD_000c6e70 (g7) [g4 * 0x4],g4                               = 100h
+        0005d7f0 14 fd a5        lda                       costume_0 (g7) [g4 * 0x4],g4                     = ""
                  8c 70 6e 
                  0c 00
         0005d7f8 15 1c 25 80     ldob                      (g4) [g5 * 0x1],r4
         0005d7fc 01 0e a4 59     shlo                      0x1,g0,g4
         0005d800 10 00 a5 59     addo                      g0,g4,g4
-        0005d804 14 3d a4        lda                       WORD_000c6e70 (g0) [g4 * 0x4],g4                               = 100h
+        0005d804 14 3d a4        lda                       costume_0 (g0) [g4 * 0x4],g4                     = ""
                  8c 70 6e 
                  0c 00
         0005d80c 16 1c ed 80     ldob                      (g4) [g6 * 0x1],g13
@@ -46,7 +46,7 @@
         0005d83c ff 00 98 8c     lda                       0xff,g3
         0005d840 17 01 a5 59     subo                      g7,g4,g4
         0005d844 3f 00 e8 8c     lda                       0x3f,g13
-        0005d848 14 39 a0        lda                       PTR_FLOAT_ARRAY_0007a810 [g4 * 0x4],g4                         = 000577b8
+        0005d848 14 39 a0        lda                       g_character_colorxlat_sources [g4 * 0x4],g4
                  8c 10 a8 
                  07 00
         0005d850 15 1d b5 90     ld                        (g4) [g5 * 0x4],g6
@@ -79,14 +79,14 @@
         0005d8a8 04 28 05 5a     cmpo                      0x4,g4
         0005d8ac 00 a4 94 8c     lda                       0x400 (g2),g2
         0005d8b0 a4 ff ff 13     bge                       LAB_0005d854
-        0005d8b4 00 30 a0        ldob                      DAT_005a6f08,g4
+        0005d8b4 00 30 a0        ldob                      g_colorxlat_pending_mask,g4
                  80 08 6f 
                  5a 00
-        0005d8bc 00 30 20        stob                      r4,DAT_005a6f0a
+        0005d8bc 00 30 20        stob                      r4,g_current_p1_colorxlat_selector               = 00h
                  82 0a 6f 
                  5a 00
         0005d8c4 14 53 a0 58     xor                       g4,0x1,g4
-        0005d8c8 00 30 a0        stob                      g4,DAT_005a6f08
+        0005d8c8 00 30 a0        stob                      g4,g_colorxlat_pending_mask
                  82 08 6f 
                  5a 00
         0005d8d0 64 01 00 08     b                         LAB_0005da34
@@ -101,7 +101,7 @@
         0005d8ec ff 00 98 8c     lda                       0xff,g3
         0005d8f0 10 01 a5 59     subo                      g0,g4,g4
         0005d8f4 3f 00 20 8c     lda                       0x3f,r4
-        0005d8f8 14 39 a0        lda                       PTR_FLOAT_ARRAY_0007a810 [g4 * 0x4],g4                         = 000577b8
+        0005d8f8 14 39 a0        lda                       g_character_colorxlat_sources [g4 * 0x4],g4
                  8c 10 a8 
                  07 00
         0005d900 16 1d b5 90     ld                        (g4) [g6 * 0x4],g6
@@ -134,14 +134,14 @@
         0005d958 04 28 05 5a     cmpo                      0x4,g4
         0005d95c 00 a4 94 8c     lda                       0x400 (g2),g2
         0005d960 a4 ff ff 13     bge                       LAB_0005d904
-        0005d964 00 30 a0        ldob                      DAT_005a6f08,g4
+        0005d964 00 30 a0        ldob                      g_colorxlat_pending_mask,g4
                  80 08 6f 
                  5a 00
-        0005d96c 00 30 e8        stob                      g13,DAT_005a6f0b
+        0005d96c 00 30 e8        stob                      g13,g_current_p2_colorxlat_selector              = 00h
                  82 0b 6f 
                  5a 00
         0005d974 14 93 a0 58     xor                       g4,0x2,g4
-        0005d978 00 30 a0        stob                      g4,DAT_005a6f08
+        0005d978 00 30 a0        stob                      g4,g_colorxlat_pending_mask
                  82 08 6f 
                  5a 00
         0005d980 b4 00 00 08     b                         LAB_0005da34
@@ -157,7 +157,7 @@
         0005d99c 00 00 20 8c     lda                       0x0,r4
         0005d9a0 ff 00 98 8c     lda                       0xff,g3
         0005d9a4 3f 00 e8 8c     lda                       0x3f,g13
-        0005d9a8 14 39 b0        ld                        PTR_WORD_0007a890 [g4 * 0x4],g6                                = 00078284
+        0005d9a8 14 39 b0        ld                        g_stage_colorxlat_sources [g4 * 0x4],g6
                  90 90 a8 
                  07 00
                                              LAB_0005d9b0                                    XREF[1]:     0005da0c(j)  
@@ -189,26 +189,26 @@
         0005da04 04 28 05 5a     cmpo                      0x4,g4
         0005da08 00 a4 94 8c     lda                       0x400 (g2),g2
         0005da0c a4 ff ff 13     bge                       LAB_0005d9b0
-        0005da10 00 30 a0        ldob                      DAT_005a6f08,g4
+        0005da10 00 30 a0        ldob                      g_colorxlat_pending_mask,g4
                  80 08 6f 
                  5a 00
         0005da18 00 30 a8        ldob                      g_current_stage,g5
                  80 de 55 
                  55 00
         0005da20 14 13 a1 58     xor                       g4,0x4,g4
-        0005da24 00 30 a0        stob                      g4,DAT_005a6f08
+        0005da24 00 30 a0        stob                      g4,g_colorxlat_pending_mask
                  82 08 6f 
                  5a 00
-        0005da2c 00 30 a8        stob                      g5,DAT_005a6f0c
+        0005da2c 00 30 a8        stob                      g5,g_current_stage_colorxlat                     = 00h
                  82 0c 6f 
                  5a 00
                                              LAB_0005da34                                    XREF[3]:     0005d8d0(j), 0005d980(j), 
                                                                                                           0005d984(j)  
-        0005da34 00 30 a0        ldob                      DAT_005a6f08,g4
+        0005da34 00 30 a0        ldob                      g_colorxlat_pending_mask,g4
                  80 08 6f 
                  5a 00
         0005da3c 0c 20 05 3d     cmpibne                   0x0,g4,LAB_0005da48
-        0005da40 00 30 f0        stob                      g14,DAT_0054fdb7
+        0005da40 00 30 f0        stob                      g14,g_colorxlat_update_active_candidate          = 00h
                  82 b7 fd 
                  54 00
                                              LAB_0005da48                                    XREF[1]:     0005da3c(j)  
