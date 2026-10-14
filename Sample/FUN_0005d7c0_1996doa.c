@@ -10,7 +10,7 @@
 /* WARNING: Removing unreachable block (ram,0x0005d950) */
 /* WARNING: Removing unreachable block (ram,0x0005d964) */
 
-void FUN_0005d7c0(void)
+void ColorXlat_ProcessPendingUploads_candidate(void)
 
 {
   undefined4 unaff_pfp;
@@ -21,11 +21,13 @@ void FUN_0005d7c0(void)
   byte *pbVar5;
   ushort *puVar6;
   
-  DAT_005a6f0a = *(byte *)((int)&WORD_000c6e70 +
-                          (uint)g_player1.character_id + (uint)g_player1.costume_id * 0xd);
+  g_current_p1_colorxlat_selector =
+       costume_0[(uint)g_player1.character_id + (uint)g_player1.costume_id * 0xd];
   puVar3 = &DAT_01800200;
   bVar2 = 0;
-  pbVar4 = (&PTR_FLOAT_ARRAY_0007a810)[(DAT_005a6f0a / 0x80) * 0xf + (DAT_005a6f0a & 0xf)];
+  pbVar4 = g_character_colorxlat_sources
+           [(g_current_p1_colorxlat_selector / 0x80) * 0xf + (g_current_p1_colorxlat_selector & 0xf)
+           ];
   do {
     bVar1 = 0;
     puVar6 = (ushort *)(puVar3 + 0x18000);
@@ -41,13 +43,14 @@ void FUN_0005d7c0(void)
     bVar2 = bVar2 + 1;
     puVar3 = puVar3 + 0x400;
   } while (bVar2 < 5);
-  DAT_005a6f08 = DAT_005a6f08 ^ 1;
+  g_colorxlat_pending_mask = g_colorxlat_pending_mask ^ COLORXLAT_PENDING_P1;
   g13 = 0x3f;
-  if (DAT_005a6f08 == 0) {
-    DAT_0054fdb7 = g14;
+  if (g_colorxlat_pending_mask == 0) {
+    g_colorxlat_update_active_candidate = g14;
   }
   fp = unaff_pfp;
-  ac = ac & 0xfffffff8 | (uint)(DAT_005a6f08 != 0) << 2 | (uint)(DAT_005a6f08 == 0) << 1;
+  ac = ac & 0xfffffff8 | (uint)(g_colorxlat_pending_mask != 0) << 2 |
+       (uint)(g_colorxlat_pending_mask == 0) << 1;
   return;
 }
 
