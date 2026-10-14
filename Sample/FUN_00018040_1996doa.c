@@ -73,8 +73,8 @@ void FUN_00018040(void)
   }
   g_player1.rounds_won = (byte)g14;
   g_player2.rounds_won = (byte)g14;
-  DAT_005555dc = (byte)g14;
-  DAT_005555dd = (byte)g14;
+  g_round_sequence_position_candidate = (byte)g14;
+  g_total_round_results_candidate = (byte)g14;
   BYTE_0054fcfd = 5;
   SPRT_DAT = clear;
   FixDisp = (byte)g14;
@@ -93,7 +93,7 @@ void FUN_00018040(void)
   *(undefined1 (*) [64])(uVar1 & 0xffffffc0) = auVar10;
   auVar9._8_56_ = auVar10._8_56_;
   auVar9._0_8_ = CONCAT44(uVar2 + 0x40,uVar1) & 0xffffffffffffffc0;
-  FUN_00018420();
+  Stage_SelectForNextMatch();
   auVar12._12_52_ = auVar9._12_52_;
   auVar12._0_8_ = auVar9._0_8_;
   auVar12._8_4_ = 0x180b0;
@@ -192,17 +192,18 @@ void FUN_00018040(void)
   *(undefined1 (*) [64])(uVar1 & 0xffffffc0) = auVar29;
   auVar28._8_56_ = auVar29._8_56_;
   auVar28._0_8_ = CONCAT44(fp,uVar1) & 0xffffffffffffffc0;
-  FUN_000184b0();
+  StageMusic_RequestForCurrentStage();
   auVar30._12_52_ = auVar28._12_52_;
   auVar30._0_8_ = auVar28._0_8_;
   auVar30._8_4_ = 0x18118;
   *(undefined1 (*) [64])((uVar1 & 0xffffffc0) + 0x40) = auVar30;
   Battle_ResetBothPlayersForRound();
   if (GameOverFlag____0054fcb4 == 0) {
-    ac = ac & 0xfffffff8 | (uint)(8 < BYTE_0054fceb) << 2 | (uint)(BYTE_0054fceb == 8) << 1 |
-         (uint)(BYTE_0054fceb < 8);
-    if (8 >= BYTE_0054fceb) {
-      BYTE_005555e2 = BYTE_0054fceb;
+    ac = ac & 0xfffffff8 | (uint)(8 < g_vs_com_match_index_candidate) << 2 |
+         (uint)(g_vs_com_match_index_candidate == 8) << 1 |
+         (uint)(g_vs_com_match_index_candidate < 8);
+    if (8 >= g_vs_com_match_index_candidate) {
+      BYTE_005555e2 = g_vs_com_match_index_candidate;
       BYTE_005555e4 = 1;
       DAT_00557c44 = g14;
       return;
