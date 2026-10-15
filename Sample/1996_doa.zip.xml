@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="1996_doa.zip" EXE_PATH="/C:/Users/CS2/Downloads/mame0249b_64bit/doa1full2.bin" EXE_FORMAT="Raw Binary" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Wed Oct 14 12:13:24 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Wed Oct 14 20:04:15 MDT 2026" />
     <PROCESSOR NAME="i960" LANGUAGE_PROVIDER="i960:LE:32:default:default" ENDIAN="little" />
     <DATATYPES>
         <FUNCTION_DEF NAME="caseD_0" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
@@ -9943,7 +9943,6 @@
         <DEFINED_DATA ADDRESS="00001110" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="00001111" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="00001112" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
-        <DEFINED_DATA ADDRESS="0000111f" DATATYPE="pointer" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000011bc" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="000012ac" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000131c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -367949,6 +367948,11 @@
             <EQUATE NAME="0" VALUE="0x0" />
             <EQUATE NAME="2" VALUE="0x2" />
             <EQUATE NAME="3" VALUE="0x3" />
+            <EQUATE NAME="28" VALUE="0x1c" />
+            <EQUATE NAME="24" VALUE="0x18" />
+            <EQUATE NAME="20" VALUE="0x14" />
+            <EQUATE NAME="16" VALUE="0x10" />
+            <EQUATE NAME="12" VALUE="0xc" />
         </EQUATE_GROUP>
     </EQUATES>
     <COMMENTS>
@@ -368027,12 +368031,19 @@
         <COMMENT ADDRESS="00004a24" TYPE="end-of-line">09FFED2C	call 0x3750</COMMENT>
         <COMMENT ADDRESS="00004a28" TYPE="end-of-line">09000028	call 0x4a50</COMMENT>
         <COMMENT ADDRESS="00004a2c" TYPE="end-of-line">0A000000	ret</COMMENT>
-        <COMMENT ADDRESS="00004a50" TYPE="plate">HOLD+P1_START	DEBUG OVERLAY TOGGLE
-HPK+P1_START	REBOOT
-KICK+P1_START	PAUSE (can advance frame with P1_START)</COMMENT>
+        <COMMENT ADDRESS="00004a50" TYPE="plate">P1 HOLD+START	DEBUG OVERLAY TOGGLE
+P1 HPK+START	REBOOT
+P1 KICK+START	PAUSE (can advance frame with P1_START)</COMMENT>
+        <COMMENT ADDRESS="00004aa4" TYPE="plate">Hold+Start to enable g_debugDisplayState</COMMENT>
+        <COMMENT ADDRESS="00004b30" TYPE="plate">Kick+Start to enable freeze-frame mode</COMMENT>
+        <COMMENT ADDRESS="00004cc0" TYPE="plate">Disables a selected group of scheduled tasks and clears two debug-pause state variables</COMMENT>
         <COMMENT ADDRESS="00005528" TYPE="end-of-line">&quot;Hold Level&quot; / &quot;Hit Grasp Level&quot;</COMMENT>
         <COMMENT ADDRESS="000063a0" TYPE="plate">Validates coin settings, resolves the coinage-table index into Chute 1/2 values, then initializes coin bookkeeping/runtime state</COMMENT>
         <COMMENT ADDRESS="00006c60" TYPE="repeatable">FREEPLAY</COMMENT>
+        <COMMENT ADDRESS="00008320" TYPE="plate">Generic scheduler primitive; clears bit 31 of one 8-byte task entry</COMMENT>
+        <COMMENT ADDRESS="00008340" TYPE="plate">Generates sixteen solid-color 8&#xD7;8 tiles in four tile-GFX pages
+
+TileGraphics_GenerateSolidColorTiles_candidate</COMMENT>
         <COMMENT ADDRESS="00008610" TYPE="plate">installs fixed 16-color palette twice.</COMMENT>
         <COMMENT ADDRESS="00008660" TYPE="plate">copies a 128 KiB graphics/data block then, same as above function, installs 16-color palette twice.</COMMENT>
         <COMMENT ADDRESS="00008664" TYPE="plate">0x01800020 - 0x01800000 = 0x20 bytes
@@ -369627,12 +369638,12 @@ Contains Danger Zone models
     &amp;lt;STATE NAME=&amp;quot;Basic Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;82776&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;CUSTOM_OPTION_CLASS&amp;quot; TYPE=&amp;quot;string&amp;quot; VALUE=&amp;quot;ghidra.app.plugin.core.analysis.StoredAnalyzerTimes&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;130&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;121&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;123&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;7&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables - One Time&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;108593&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Function&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1722&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;22518&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;389110&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;389347&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Decompiler Switch Analysis&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;340231&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Demangler GNU&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Disassemble Entry Points&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
@@ -369642,8 +369653,8 @@ Contains Danger Zone models
     &amp;lt;STATE NAME=&amp;quot;Non-Returning Functions - Discovered&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2229&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;19740&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Scalar Operand References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;5014&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1735&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10082&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1737&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10118&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Subroutine References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;4292&amp;quot; /&amp;gt;
 &amp;lt;/SAVE_STATE&amp;gt;" />
         <PROPERTY NAME="Program Information.Analyzed" TYPE="bool" VALUE="y" />
@@ -382764,6 +382775,8 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="00004650" NAME="Bookkeeping_Record1PGameEnd" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00004a20" NAME="RetailDisabledDebugHook" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00004a50" NAME="Debug_UpdateHiddenDisplays" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00004c80" NAME="DebugPause_ResumeGameplayTasks" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00004cc0" NAME="DebugPause_SuspendGameplayTasks" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00005100" NAME="Debug_DrawPlayerStateOverlay" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00005bd4" NAME="switchD" NAMESPACE="switchD_00005bd4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00005bd8" NAME="switchdataD_00005bd8" NAMESPACE="switchD_00005bd4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -382795,6 +382808,8 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="00005f10" NAME="caseD_c" NAMESPACE="switchD_00005d34::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="000063a0" NAME="CoinSystem_InitializeFromSettings" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00008220" NAME="Task_RegisterOrReplace" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="000082f0" NAME="Task_EnableSlot" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00008320" NAME="Task_DisableSlot" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00008430" NAME="TilemapVideo_Initialize" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000085f0" NAME="Tilemap_Clear64x64" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00008610" NAME="DebugText_InstallPalette" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -382847,6 +382862,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="000179a0" NAME="MatchEnd_SetupContinueOrNextMatch" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00017c24" NAME="LAB_00017c24_DRAW" NAMESPACE="MatchEnd_SetupContinueOrNextMatch::" TYPE="local" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00018180" NAME="FUN_00018180_investigatemaybe" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00018364" NAME="LAB_00018364_legalcharactercompare_candidate" NAMESPACE="FUN_00018280::" TYPE="local" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00018420" NAME="Stage_SelectForNextMatch" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000184b0" NAME="StageMusic_RequestForCurrentStage" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00018540" NAME="Match_ApplyConfiguredSetCount" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -384606,6 +384622,7 @@ Contains Danger Zone models
         <SYMBOL ADDRESS="000dc070" NAME="PTR_ARRAY_000dc070_LEIFANG" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="000dc870" NAME="PTR_ARRAY_000dc870_UNKNOWN" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00500000" NAME="RAMBASE_00500000" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0054b1a0" NAME="g_task_slots" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054f3cc" NAME="g_debugDisplayState" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054f3e6" NAME="g_championDisplayValue_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0054f3e8" NAME="breakthechamptextflag" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -385458,9 +385475,9 @@ Contains Danger Zone models
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00004a50" NAME="Debug_UpdateHiddenDisplays" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00004a50" END="00004c23" />
-            <REGULAR_CMT>HOLD+P1_START	DEBUG OVERLAY TOGGLE
-HPK+P1_START	REBOOT
-KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
+            <REGULAR_CMT>P1 HOLD+START	DEBUG OVERLAY TOGGLE
+P1 HPK+START	REBOOT
+P1 KICK+START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall Debug_UpdateHiddenDisplays(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8, undefined4 param_9, undefined4 param_10, undefined4 param_11, undefined4 param_12)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
@@ -385481,14 +385498,15 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_00004c30(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00004c80" NAME="FUN_00004c80" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00004c80" NAME="DebugPause_ResumeGameplayTasks" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00004c80" END="00004cbf" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00004c80(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall DebugPause_ResumeGameplayTasks(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00004cc0" NAME="FUN_00004cc0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00004cc0" NAME="DebugPause_SuspendGameplayTasks" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00004cc0" END="00004cfb" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00004cc0(void)</TYPEINFO_CMT>
+            <REGULAR_CMT>Disables a selected group of scheduled tasks and clears two debug-pause state variables</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall DebugPause_SuspendGameplayTasks(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00005100" NAME="Debug_DrawPlayerStateOverlay" LIBRARY_FUNCTION="n">
@@ -385813,17 +385831,26 @@ KICK+P1_START	PAUSE (can advance frame with P1_START)</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="000082f0" NAME="FUN_000082f0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="000082f0" NAME="Task_EnableSlot" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="000082f0" END="00008313" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_000082f0(int param_1)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Task_EnableSlot(int param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00008320" NAME="FUN_00008320" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00008320" NAME="Task_DisableSlot" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00008320" END="0000833b" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00008320(int param_1)</TYPEINFO_CMT>
+            <REGULAR_CMT>Generic scheduler primitive; clears bit 31 of one 8-byte task entry</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Task_DisableSlot(int callback_and_active)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
-            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="callback_and_active" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="00008340" NAME="FUN_00008340" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="00008340" END="000083b3" />
+            <REGULAR_CMT>Generates sixteen solid-color 8&#xD7;8 tiles in four tile-GFX pages
+
+TileGraphics_GenerateSolidColorTiles_candidate</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall FUN_00008340(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="000083cc" NAME="FUN_000083cc" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="000083cc" END="0000842f" />
@@ -394817,6 +394844,11 @@ alternative: GameSettings_LoadServiceMenuBuffer</REGULAR_CMT>
         <EQUATE_REFERENCE ADDRESS="0004aa64" OPERAND_INDEX="0x1" NAME="0" VALUE="0x0" />
         <EQUATE_REFERENCE ADDRESS="00042a1c" OPERAND_INDEX="0x0" NAME="2" VALUE="0x2" />
         <EQUATE_REFERENCE ADDRESS="00042a10" OPERAND_INDEX="0x0" NAME="3" VALUE="0x3" />
+        <EQUATE_REFERENCE ADDRESS="00008350" OPERAND_INDEX="0x0" NAME="28" VALUE="0x1c" />
+        <EQUATE_REFERENCE ADDRESS="00008354" OPERAND_INDEX="0x0" NAME="24" VALUE="0x18" />
+        <EQUATE_REFERENCE ADDRESS="0000835c" OPERAND_INDEX="0x0" NAME="20" VALUE="0x14" />
+        <EQUATE_REFERENCE ADDRESS="00008364" OPERAND_INDEX="0x0" NAME="16" VALUE="0x10" />
+        <EQUATE_REFERENCE ADDRESS="0000836c" OPERAND_INDEX="0x0" NAME="12" VALUE="0xc" />
     </MARKUP>
     <EXT_LIBRARY_TABLE />
 </PROGRAM>
