@@ -61,14 +61,14 @@ void FUN_00003580(void)
         auVar6._8_56_ = auStackX_0._8_56_;
         auVar6._4_4_ = auStack_40;
         auVar6._0_4_ = auStackX_0;
-        FUN_000082f0(5);
+        Task_EnableSlot(5);
         auStack_40._12_52_ = auVar6._12_52_;
         auStack_40._0_8_ = auVar6._0_8_;
         auStack_40._8_4_ = 0x360c;
         auVar7._8_56_ = auStack_40._8_56_;
         auVar7._4_4_ = auStack_80;
         auVar7._0_4_ = auStack_40;
-        FUN_000082f0(4);
+        Task_EnableSlot(4);
         fp = auStack_c0;
         auStack_80._12_52_ = auVar7._12_52_;
         auStack_80._0_8_ = auVar7._0_8_;
@@ -76,7 +76,7 @@ void FUN_00003580(void)
         auVar3._8_56_ = auStack_80._8_56_;
         auVar3._4_4_ = auStack_100;
         auVar3._0_4_ = auStack_80;
-        FUN_000082f0(2);
+        Task_EnableSlot(2);
       }
       else {
         fp = auStack_40;
@@ -84,7 +84,7 @@ void FUN_00003580(void)
         auVar3._8_56_ = auStackX_0._8_56_;
         auVar3._4_4_ = auStack_80;
         auVar3._0_4_ = auStackX_0;
-        FUN_00004c30();
+        DebugPause_EnableFullGameplayTaskGroup_candidate();
         DWORD_0054f3c8 = 1;
       }
     }
@@ -120,7 +120,7 @@ void FUN_00003580(void)
     auVar3._8_56_ = auVar10._8_56_;
     auVar3._4_4_ = (undefined1 *)0x0;
     auVar3._0_4_ = uVar1 & 0xffffffc0;
-    Task_RegisterOrReplace(&LAB_00013770,2);
+    Task_RegisterOrReplace(&CharacterSelect_TaskMain_candidate,2);
   }
   fp = (undefined1 *)auVar3._0_4_;
   return;
