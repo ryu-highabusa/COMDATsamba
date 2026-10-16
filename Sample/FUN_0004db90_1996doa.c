@@ -5,7 +5,7 @@
 void FUN_0004db90(int param_1)
 
 {
-  DOA1_NAME_ID DVar1;
+  DOA1_CHARACTER_ID DVar1;
   undefined1 auVar2 [64];
   undefined4 unaff_pfp;
   undefined4 unaff_r3;
@@ -24,7 +24,7 @@ void FUN_0004db90(int param_1)
   auVar2._24_4_ = &g_player1;
   auVar2._28_36_ = in_register_0000001c;
   *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar2;
-  Player_InitSecondaryMotionParts((uint)DVar1,param_1);
+  Character_LoadResources((uint)DVar1,param_1);
   auStackX_0._4_4_ = auStackX_0;
   auStackX_0._0_4_ = fp;
   auStackX_0._8_4_ = 0x4dbd8;
@@ -34,8 +34,8 @@ void FUN_0004db90(int param_1)
   auStackX_0._24_4_ = &g_player1;
   auStackX_0._28_36_ = in_register_0000001c;
   fp = auStack_40;
-  Player_InitCostumeSecondaryParts(param_1);
-  Player_InitializeCharacterModelResources(param_1,(uint)(&g_player1)[param_1].character_id);
+  FighterAccessoryChains_Initialize(param_1);
+  Player_SetupFighter(param_1,(uint)(&g_player1)[param_1].character_id);
   return;
 }
 
