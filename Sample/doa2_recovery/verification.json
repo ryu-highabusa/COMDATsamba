@@ -1,0 +1,47 @@
+[
+  {
+    "build": "doa2",
+    "input_rom": "epr-22207.ic22",
+    "input_sha256": "a871fd5e61132fa8b3524fce84c99a18f4b7e1bc3169af46f831cc2a1858175d",
+    "boot_offset": "0x1c1320",
+    "output_size_hex": "0x1f2800",
+    "output_sha256": "ba070b706d0a1d4ca9b17b2f600e6dea3ae951cf75d8f8df5d20f089565a14d6",
+    "ram_dump_start_offset": "0xC00",
+    "ram_matching_bytes": 2039751,
+    "ram_differing_bytes": 2105,
+    "ram_match_percent": 99.89691,
+    "prefix_checked_until_ram": "0xc0ffe80",
+    "prefix_only_different_ram_address": "0x0C0202B4",
+    "extracted_files": 63
+  },
+  {
+    "build": "doa2a",
+    "input_rom": "epr-22121a.ic22",
+    "input_sha256": "3339f2092b8b01413bd3f17b9c7d69961b593c455bd20a0c18e9d0e0dafe7043",
+    "boot_offset": "0x1c26e0",
+    "output_size_hex": "0x1f3e00",
+    "output_sha256": "98e9d97e4b593d9c203bd968aafbae3142bacf7f56e228e8d4bbce493e2f2225",
+    "ram_dump_start_offset": "0xC00",
+    "ram_matching_bytes": 2045293,
+    "ram_differing_bytes": 2195,
+    "ram_match_percent": 99.8928,
+    "prefix_checked_until_ram": "0xc100780",
+    "prefix_only_different_ram_address": "0x0C0202B4",
+    "extracted_files": 63
+  },
+  {
+    "build": "doa2m",
+    "input_rom": "doa2verm.ic22",
+    "input_sha256": "f5bd479a1111268242841398ce1731ab538f05681f0621e59ef134d931754b8f",
+    "boot_offset": "0x1c6900",
+    "output_size_hex": "0x1f7e00",
+    "output_sha256": "76ead9e8ec4e970c2dd1e75dae532748f509dff50494e9e7dc8ed5dd1875fabf",
+    "ram_dump_start_offset": "0xC00",
+    "ram_matching_bytes": 2061909,
+    "ram_differing_bytes": 1963,
+    "ram_match_percent": 99.90489,
+    "prefix_checked_until_ram": "0xc103380",
+    "prefix_only_different_ram_address": "0x0C0202B4",
+    "extracted_files": 65
+  }
+]
