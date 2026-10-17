@@ -1,5 +1,5 @@
 
-void Player_ApplyActCodeCombatMetadatamaybe(uint param_1)
+void Player_ApplyActionCombatMetadata(uint param_1)
 
 {
   byte bVar1;
@@ -10,7 +10,7 @@ void Player_ApplyActCodeCombatMetadatamaybe(uint param_1)
   undefined *puVar5;
   
   uVar3 = ac;
-  if ((&g_player1)[param_1].action_state == STATE_HOLD) {
+  if ((&g_player1)[param_1].action_state == 0x5_HOLD) {
     bVar2 = (&g_player1)[param_1].action_flag;
     ac = ac & 0xfffffff8 | (uint)(1 < bVar2) << 2 | (uint)(bVar2 == 1) << 1 | (uint)(bVar2 == 0);
     uVar3 = param_1;
@@ -19,23 +19,23 @@ void Player_ApplyActCodeCombatMetadatamaybe(uint param_1)
     }
     (&g_player1)[param_1].attack_height =
          g_hold_metadata_table_by_character[(&g_player1)[param_1].character_id]
-         [(uint)(byte)g_character_act_record_tables[(&g_player1)[uVar3].character_id]
+         [(uint)(byte)g_move_def_table_by_character[(&g_player1)[uVar3].character_id]
                       [(uint)(&g_player1)[param_1].action_code * 8 + 4] * 0xc + 0xb];
     (&g_player1)[param_1].attack_point = (DOA_U8)g14;
     (&g_player1)[param_1].attack_direction = (&g_player1)[param_1].facing_direction;
     fp = unaff_pfp;
     return;
   }
-  bVar2 = (&g_player1)[param_1].action_state - STATE_JUMPATTACK;
+  bVar2 = (&g_player1)[param_1].action_state - 0x2_JUMPATTACK;
   ac = ac & 0xfffffff8 | (uint)(1 < bVar2) << 2 | (uint)(bVar2 == 1) << 1 |
-       (uint)((&g_player1)[param_1].action_state == STATE_JUMPATTACK);
+       (uint)((&g_player1)[param_1].action_state == 0x2_JUMPATTACK);
   if (1 >= bVar2) {
     puVar5 = g_attack_metadata_table_by_character[(&g_player1)[param_1].character_id];
     uVar4 = param_1;
     if ((&g_player1)[param_1].action_flag == '\x01') {
       uVar4 = param_1 ^ 1;
     }
-    bVar2 = g_character_act_record_tables[(&g_player1)[uVar4].character_id]
+    bVar2 = g_move_def_table_by_character[(&g_player1)[uVar4].character_id]
             [(uint)(&g_player1)[param_1].action_code * 8 + 4];
     bVar1 = puVar5[(uint)bVar2 * 0x14 + 0xb];
     (&g_player1)[param_1].attack_point = bVar1 / 4;
