@@ -32,7 +32,7 @@ void Player_ApplyActionCombatMetadata(uint param_1)
   if (1 >= bVar2) {
     puVar5 = g_attack_metadata_table_by_character[(&g_player1)[param_1].character_id];
     uVar4 = param_1;
-    if ((&g_player1)[param_1].action_flag == '\x01') {
+    if ((&g_player1)[param_1].action_flag == 1) {
       uVar4 = param_1 ^ 1;
     }
     bVar2 = g_move_def_table_by_character[(&g_player1)[uVar4].character_id]
