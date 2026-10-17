@@ -10,7 +10,7 @@ void FUN_00024bb0(uint param_1)
   uint uVar5;
   
   uVar5 = param_1 ^ 1;
-  if ((&g_player1)[param_1].action_state == STATE_THROW) {
+  if ((&g_player1)[param_1].action_state == 0x4_THROW) {
     puVar2 = PTR_ARRAY_0009cec0[(&g_player1)[param_1].character_id];
   }
   else {
@@ -23,7 +23,7 @@ void FUN_00024bb0(uint param_1)
     uVar4 = param_1 ^ 1;
   }
   uVar3 = *(undefined4 *)
-           (puVar2 + (uint)(byte)g_character_act_record_tables[(&g_player1)[uVar4].character_id]
+           (puVar2 + (uint)(byte)g_move_def_table_by_character[(&g_player1)[uVar4].character_id]
                                  [(uint)(&g_player1)[param_1].action_code * 8 + 4] * 0xc);
   DAT_008801e0 = 0x1e1e;
   *(DOA_S32 *)PTR_DAT_000006a4 = (&g_player1)[uVar5].facing_direction;
