@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="1996_doa.zip" EXE_PATH="/C:/Users/CS2/Downloads/mame0249b_64bit/doa1full2.bin" EXE_FORMAT="Raw Binary" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Thu Oct 15 22:15:39 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sat Oct 17 10:49:33 MDT 2026" />
     <PROCESSOR NAME="i960" LANGUAGE_PROVIDER="i960:LE:32:default:default" ENDIAN="little" />
     <DATATYPES>
         <FUNCTION_DEF NAME="caseD_0" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
@@ -1455,7 +1455,7 @@
                 <REGULAR_CMT>ACT_REQ</REGULAR_CMT>
             </MEMBER>
             <MEMBER OFFSET="0x2d" DATATYPE="DOA_ACTSTATE" DATATYPE_NAMESPACE="/" NAME="action_state" SIZE="0x1">
-                <REGULAR_CMT>ACT_STA // 0=before-confirmed-contact, 1=contact/confirmation, 2=spent-attack-or-post-hit-recovery</REGULAR_CMT>
+                <REGULAR_CMT>ACT_STA</REGULAR_CMT>
             </MEMBER>
             <MEMBER OFFSET="0x2e" DATATYPE="DOA_U8" DATATYPE_NAMESPACE="/doa_saturn_action_types.h" NAME="pose_state" SIZE="0x1">
                 <REGULAR_CMT>POSE_STA</REGULAR_CMT>
@@ -1473,7 +1473,7 @@
                 <REGULAR_CMT>ATK_POINT</REGULAR_CMT>
             </MEMBER>
             <MEMBER OFFSET="0x33" DATATYPE="DOA_U8" DATATYPE_NAMESPACE="/doa_saturn_action_types.h" NAME="attack_state" SIZE="0x1">
-                <REGULAR_CMT>ATK_STA</REGULAR_CMT>
+                <REGULAR_CMT>ATK_STA // 0=neutral/startup, 1=active, 2=recovery</REGULAR_CMT>
             </MEMBER>
             <MEMBER OFFSET="0x34" DATATYPE="DOA_U8" DATATYPE_NAMESPACE="/doa_saturn_action_types.h" NAME="animation_flip" SIZE="0x1">
                 <REGULAR_CMT>ANIM_FLIP</REGULAR_CMT>
@@ -47155,6 +47155,7 @@
         <DEFINED_DATA ADDRESS="00557f7e" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="00557f7f" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
         <DEFINED_DATA ADDRESS="00557f80" DATATYPE="undefined1" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+        <DEFINED_DATA ADDRESS="00557f82" DATATYPE="undefined[2]" DATATYPE_NAMESPACE="/" SIZE="0x2" />
         <DEFINED_DATA ADDRESS="005624ad" DATATYPE="undefined[6883]" DATATYPE_NAMESPACE="/" SIZE="0x1ae3" />
         <DEFINED_DATA ADDRESS="00563f90" DATATYPE="undefined[256]" DATATYPE_NAMESPACE="/" SIZE="0x100" />
         <DEFINED_DATA ADDRESS="00564094" DATATYPE="undefined[252]" DATATYPE_NAMESPACE="/" SIZE="0xfc" />
@@ -347094,6 +347095,8 @@
             <EQUATE NAME="20" VALUE="0x14" />
             <EQUATE NAME="16" VALUE="0x10" />
             <EQUATE NAME="12" VALUE="0xc" />
+            <EQUATE NAME="0x9_Hit_Stun" VALUE="0x9" />
+            <EQUATE NAME="0xE_Down_Attack" VALUE="0xe" />
         </EQUATE_GROUP>
     </EQUATES>
     <COMMENTS>
@@ -347140,6 +347143,7 @@
         <COMMENT ADDRESS="00002df8" TYPE="end-of-line">Precompute action metadata for character slots 00&#x2013;0C</COMMENT>
         <COMMENT ADDRESS="00002ef0" TYPE="end-of-line">0x2 CHARACTER SELECT</COMMENT>
         <COMMENT ADDRESS="00003570" TYPE="end-of-line">0xa01140 SE_START</COMMENT>
+        <COMMENT ADDRESS="00003580" TYPE="plate">Challenger/frontend countdown and task transition</COMMENT>
         <COMMENT ADDRESS="000035b0" TYPE="end-of-line">0x11 BURST CHALLENGER SCROLL*</COMMENT>
         <COMMENT ADDRESS="000035bc" TYPE="end-of-line">0xa01225 SE_CHALLENG</COMMENT>
         <COMMENT ADDRESS="00003684" TYPE="end-of-line">0x1 NORMAL GAMEPLAY</COMMENT>
@@ -347328,14 +347332,22 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</COMMENT>
         <COMMENT ADDRESS="0001f730" TYPE="end-of-line">0xa0120d SE_RINGOUT</COMMENT>
         <COMMENT ADDRESS="0001f78c" TYPE="end-of-line">0x6 RINGOUT</COMMENT>
         <COMMENT ADDRESS="0001f7a8" TYPE="end-of-line">0xa0120d SE_RINGOUT</COMMENT>
+        <COMMENT ADDRESS="00020040" TYPE="plate">-Resolves simultaneous or competing throw requests.
+-Handles jump state/direction initialization.
+-Aligns facing for some new actions.
+-Converts between standing, crouching, dashing, and stand-up action codes.
+-Restarts animation where required.
+-Clears ACT_REQ to 0xFF after processing.</COMMENT>
         <COMMENT ADDRESS="00020c80" TYPE="end-of-line">39.00f</COMMENT>
         <COMMENT ADDRESS="00020c94" TYPE="end-of-line">40.00f</COMMENT>
+        <COMMENT ADDRESS="00020cb0" TYPE="plate">Processes states 8/9: critical stun and ordinary hit stun</COMMENT>
         <COMMENT ADDRESS="00021030" TYPE="end-of-line">29.00f</COMMENT>
         <COMMENT ADDRESS="00021044" TYPE="end-of-line">30.00f</COMMENT>
         <COMMENT ADDRESS="00021224" TYPE="end-of-line">1.5749999f</COMMENT>
         <COMMENT ADDRESS="00021280" TYPE="end-of-line">1.9000000f</COMMENT>
         <COMMENT ADDRESS="00021eac" TYPE="end-of-line">1.9250000f</COMMENT>
         <COMMENT ADDRESS="00021f38" TYPE="end-of-line">1.9749999f</COMMENT>
+        <COMMENT ADDRESS="00022760" TYPE="plate">Selects and installs the defender&#x2019;s reaction after a hit</COMMENT>
         <COMMENT ADDRESS="000229bc" TYPE="end-of-line">1.9250000f</COMMENT>
         <COMMENT ADDRESS="00023178" TYPE="end-of-line">89128.961f</COMMENT>
         <COMMENT ADDRESS="00023180" TYPE="end-of-line">1.5350000f</COMMENT>
@@ -347364,6 +347376,7 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</COMMENT>
 6. Return 1 while gradual adjustment was applied, or 0 when the direction was snapped/completed.</COMMENT>
         <COMMENT ADDRESS="00024a5c" TYPE="repeatable">0xea = tina&apos;s moonsault press 8H+P+K on grounded opponents </COMMENT>
         <COMMENT ADDRESS="00024b54" TYPE="end-of-line">7.50f</COMMENT>
+        <COMMENT ADDRESS="00024bb0" TYPE="plate">Snaps/alines participants during a throw or hold</COMMENT>
         <COMMENT ADDRESS="00024ee0" TYPE="plate">1-Writes action_code.
 2-Clears action_request to 0xFF.
 3-Selects the appropriate character table.
@@ -347706,6 +347719,7 @@ Generic resource-slot selection, not confirmed chi-table selection.</COMMENT>
         <COMMENT ADDRESS="00070530" TYPE="plate">Initializes/resets stage-resource handles and caches</COMMENT>
         <COMMENT ADDRESS="00070814" TYPE="plate">Copies the active 14x14 environmental field used by fighter accessory-chain simulation. Hangar (2) and DOATEC (5) use the alternate source maps. The meanings of the two floats and byte remain to be established.</COMMENT>
         <COMMENT ADDRESS="00070f40" TYPE="plate">Higher-level resource-streaming state machine, including backdrop and colorxlat updates</COMMENT>
+        <COMMENT ADDRESS="00071ad0" TYPE="plate">Stage update/draw routine containing danger-zone point tests</COMMENT>
         <COMMENT ADDRESS="00071c70" TYPE="plate">dispatches the current stage&#x2019;s draw routine.</COMMENT>
         <COMMENT ADDRESS="000720f0" TYPE="end-of-line">0xa01138 SE_BANG</COMMENT>
         <COMMENT ADDRESS="00074144" TYPE="end-of-line">9.00f</COMMENT>
@@ -362104,6 +362118,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0001fd40" NAME="caseD_7" NAMESPACE="switchD_0001fd0c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0001fd40" NAME="caseD_9" NAMESPACE="switchD_0001fd0c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="0001fd40" NAME="caseD_a" NAMESPACE="switchD_0001fd0c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
+        <SYMBOL ADDRESS="0001ff50" NAME="Battle_ProcessPlayerActionRequests" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0001ff80" NAME="switchD" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0001ff84" NAME="switchdataD_0001ff84" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0001ffc0" NAME="caseD_0" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -362121,6 +362136,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="00020014" NAME="caseD_c" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00020020" NAME="caseD_5" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00020020" NAME="caseD_d" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
+        <SYMBOL ADDRESS="00020040" NAME="Player_ProcessNeutralActionRequest" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00020280" NAME="switchD" NAMESPACE="switchD_00020280::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00020284" NAME="switchdataD_00020284" NAMESPACE="switchD_00020280::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="000202c0" NAME="caseD_5" NAMESPACE="switchD_00020280::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -362138,7 +362154,11 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="000203d0" NAME="caseD_b" NAMESPACE="switchD_00020280::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="000203d0" NAME="caseD_c" NAMESPACE="switchD_00020280::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="000203d0" NAME="caseD_d" NAMESPACE="switchD_00020280::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
+        <SYMBOL ADDRESS="00020750" NAME="Player_ProcessAttackActionRequest" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00020b40" NAME="Player_ProcessBlockStunState" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00020cb0" NAME="Player_ProcessCriticalOrHitStunState" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00021bc0" NAME="Battle_ResolveHitForPlayer_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00022760" NAME="Battle_SelectAndApplyHitReaction" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00022fc0" NAME="Battle_ProcessDangerZoneHits_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00023394" NAME="switchD" NAMESPACE="switchD_00023394::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00023398" NAME="switchdataD_00023398" NAMESPACE="switchD_00023394::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -362288,6 +362308,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="000249d8" NAME="caseD_80" NAMESPACE="switchD_000247a4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="000249d8" NAME="caseD_86" NAMESPACE="switchD_000247a4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="000249d8" NAME="caseD_88" NAMESPACE="switchD_000247a4::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
+        <SYMBOL ADDRESS="00024bb0" NAME="Grapple_ApplyRelativePositioning_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00024d50" NAME="Player_ApplyActionCombatMetadata" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00024ee0" NAME="Player_SetActCode" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00024ee0" NAME="Player_StartActionByCode" NAMESPACE="Player_SetActCode::" TYPE="local" SOURCE_TYPE="USER_DEFINED" PRIMARY="n" />
@@ -362785,6 +362806,8 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0004d890" NAME="Motion_TaskMain" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0004dae0" NAME="Player_UpdateMotionAndRender_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0004db20" NAME="MotionRuntime_ResetPlayerState" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0004db40" NAME="FighterResources_SetupBothPlayers" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0004db90" NAME="FighterResources_SetupPlayer" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0004de70" NAME="MotionDebug_SnapshotPlayersAndDrawAnimeId" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0004dfd0" NAME="MotionScene_UpdatePlayerProjection" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0004e4a0" NAME="Motion_Initialize" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -362850,6 +362873,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0005f394" NAME="caseD_2" NAMESPACE="switchD_0005f208::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0005f3ac" NAME="caseD_3" NAMESPACE="switchD_0005f208::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00062f90" NAME="Player_SelectResourceSlotPointer" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00063160" NAME="Stage_QueryFloorSurface_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0006bb54" NAME="switchD" NAMESPACE="switchD_0006bb54::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0006bb58" NAME="switchdataD_0006bb58" NAMESPACE="switchD_0006bb54::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0006bb74" NAME="caseD_0" NAMESPACE="switchD_0006bb54::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -362888,6 +362912,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0007119c" NAME="caseD_4" NAMESPACE="switchD_00071118::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="0007119c" NAME="caseD_5" NAMESPACE="switchD_00071118::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="00071a90" NAME="g_stage_draw_routines" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00071ad0" NAME="Stage_UpdateAndDraw_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00072500" NAME="Stage_IsPointInDangerZone_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00075c5c" NAME="switchD" NAMESPACE="switchD_00075c5c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00075c60" NAME="switchdataD_00075c60" NAMESPACE="switchD_00075c5c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -363369,7 +363394,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0009c9b0" NAME="DAT_0009c9b0_BAYMAN" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009ca70" NAME="DAT_0009ca70_RAIDOU" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009cb20" NAME="DAT_0009cb20_LEIFANG" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
-        <SYMBOL ADDRESS="0009cbe0" NAME="g_character_combat_record_table_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0009cbe0" NAME="g_attack_property_tables_by_character" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009cc20" NAME="PTR_DAT_0009cc20_ZACK" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="n" />
         <SYMBOL ADDRESS="0009cc20" NAME="combat_records_Zack" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009cc50" NAME="PTR_DAT_0009cc50_TINA" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="n" />
@@ -363388,6 +363413,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0009cd90" NAME="combat_records_Raidou" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009cdc0" NAME="PTR_DAT_0009cdc0_LEIFANG" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="n" />
         <SYMBOL ADDRESS="0009cdc0" NAME="combat_records_Leifang" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="0009cdf0" NAME="g_hit_reaction_actcode_tables_by_character" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009ce30" NAME="DAT_0009ce30_ZACK" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009ce40" NAME="DAT_0009ce40_TINA" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0009ce50" NAME="DAT_0009ce50_JANNLEE" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -364024,7 +364050,9 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="00557edc" NAME="g_damageDisplayCacheComboCountP2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00557ee0" NAME="g_damageDisplayCacheComboFlagP1" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00557ee4" NAME="g_damageDisplayCacheComboFlagP2" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00557f24" NAME="g_attack_actcode_at_contact" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00557f68" NAME="g_auto_facing_adjustment_pending" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00557f82" NAME="g_active_attack_property_index" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00557f90" NAME="g_action_motion_metadata" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00564390" NAME="actcode_buf" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00564590" NAME="sw_buf_ix" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
@@ -364537,6 +364565,7 @@ RAM value          = 0.252135038</COMMENT>
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00003580" NAME="FUN_00003580" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00003580" END="00003663" />
+            <REGULAR_CMT>Challenger/frontend countdown and task transition</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_00003580(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
@@ -366460,10 +366489,10 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_0001fea0(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="0001ff50" NAME="FUN_0001ff50" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="0001ff50" NAME="Battle_ProcessPlayerActionRequests" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0001ff50" END="0001ff83" />
             <ADDRESS_RANGE START="0001ffc0" END="0002003f" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_0001ff50(undefined4 param_1, undefined4 param_2, undefined4 param_3, uint param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Battle_ProcessPlayerActionRequests(undefined4 param_1, undefined4 param_2, undefined4 param_3, uint param_4, undefined4 param_5, undefined4 param_6, undefined4 param_7, undefined4 param_8)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
@@ -366474,10 +366503,16 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <REGISTER_VAR NAME="param_7" REGISTER="g6" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_8" REGISTER="g7" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00020040" NAME="FUN_00020040" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00020040" NAME="Player_ProcessNeutralActionRequest" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00020040" END="00020283" />
             <ADDRESS_RANGE START="000202c0" END="00020587" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00020040(uint param_1)</TYPEINFO_CMT>
+            <REGULAR_CMT>-Resolves simultaneous or competing throw requests.
+-Handles jump state/direction initialization.
+-Aligns facing for some new actions.
+-Converts between standing, crouching, dashing, and stand-up action codes.
+-Restarts animation where required.
+-Clears ACT_REQ to 0xFF after processing.</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Player_ProcessNeutralActionRequest(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -366487,9 +366522,9 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00020750" NAME="FUN_00020750" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00020750" NAME="Player_ProcessAttackActionRequest" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00020750" END="000207e7" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00020750(uint param_1)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Player_ProcessAttackActionRequest(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -366499,15 +366534,16 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00020b40" NAME="FUN_00020b40" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00020b40" NAME="Player_ProcessBlockStunState" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00020b40" END="00020ca3" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00020b40(uint param_1)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Player_ProcessBlockStunState(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00020cb0" NAME="FUN_00020cb0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00020cb0" NAME="Player_ProcessCriticalOrHitStunState" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00020cb0" END="00021053" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00020cb0(uint param_1)</TYPEINFO_CMT>
+            <REGULAR_CMT>Processes states 8/9: critical stun and ordinary hit stun</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Player_ProcessCriticalOrHitStunState(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -366553,9 +366589,10 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00022760" NAME="FUN_00022760" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00022760" NAME="Battle_SelectAndApplyHitReaction" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00022760" END="000229eb" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00022760(uint param_1)</TYPEINFO_CMT>
+            <REGULAR_CMT>Selects and installs the defender&#x2019;s reaction after a hit</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Battle_SelectAndApplyHitReaction(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -366750,9 +366787,10 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <REGISTER_VAR NAME="player_index" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="turn_rate_variant" REGISTER="g1" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00024bb0" NAME="FUN_00024bb0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00024bb0" NAME="Grapple_ApplyRelativePositioning_candidate" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00024bb0" END="00024d47" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00024bb0(uint param_1)</TYPEINFO_CMT>
+            <REGULAR_CMT>Snaps/alines participants during a throw or hold</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Grapple_ApplyRelativePositioning_candidate(uint param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -369890,14 +369928,14 @@ Selects the character resource table, initializes model-part entries, and applie
             <TYPEINFO_CMT>undefined __stdcall MotionRuntime_ResetPlayerState(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="0004db40" NAME="FUN_0004db40" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="0004db40" NAME="FighterResources_SetupBothPlayers" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0004db40" END="0004db8f" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_0004db40(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall FighterResources_SetupBothPlayers(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="0004db90" NAME="FUN_0004db90" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="0004db90" NAME="FighterResources_SetupPlayer" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0004db90" END="0004dbe7" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_0004db90(int param_1)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall FighterResources_SetupPlayer(int param_1)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
@@ -370695,10 +370733,10 @@ Generic resource-slot selection, not confirmed chi-table selection.</REGULAR_CMT
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00063160" NAME="FUN_00063160" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00063160" NAME="Stage_QueryFloorSurface_candidate" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00063160" END="00063313" />
             <REGULAR_CMT>sample floor-slope grid</REGULAR_CMT>
-            <TYPEINFO_CMT>undefined __stdcall FUN_00063160(int param_1, int param_2, undefined4 * param_3, undefined4 * param_4, uint * param_5, undefined4 param_6, undefined4 param_7)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Stage_QueryFloorSurface_candidate(int param_1, int param_2, undefined4 * param_3, undefined4 * param_4, uint * param_5, undefined4 param_6, undefined4 param_7)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="int" DATATYPE_NAMESPACE="/" />
@@ -371169,10 +371207,11 @@ Generic resource-slot selection, not confirmed chi-table selection.</REGULAR_CMT
             <TYPEINFO_CMT>undefined __stdcall FUN_000719f0(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00071ad0" NAME="FUN_00071ad0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00071ad0" NAME="Stage_UpdateAndDraw_candidate" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00071ad0" END="00071d2f" />
             <ADDRESS_RANGE START="00071e10" END="00071fef" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_00071ad0(void)</TYPEINFO_CMT>
+            <REGULAR_CMT>Stage update/draw routine containing danger-zone point tests</REGULAR_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Stage_UpdateAndDraw_candidate(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00071ff0" NAME="FUN_00071ff0" LIBRARY_FUNCTION="n">
@@ -374082,6 +374121,7 @@ alternative: GameSettings_LoadServiceMenuBuffer</REGULAR_CMT>
         <EQUATE_REFERENCE ADDRESS="00070148" OPERAND_INDEX="0x0" NAME="0x04 DANGER ZONE (KASUMI_STAGE)" VALUE="0x4" />
         <EQUATE_REFERENCE ADDRESS="0007015c" OPERAND_INDEX="0xffff" NAME="0x06 NAME ENTRY LETTER FIELD STAGE" VALUE="0x6" />
         <EQUATE_REFERENCE ADDRESS="00025854" OPERAND_INDEX="0xffff" NAME="0x7_Block_Stun" VALUE="0x7" />
+        <EQUATE_REFERENCE ADDRESS="00020bf8" OPERAND_INDEX="0x0" NAME="0x7_Block_Stun" VALUE="0x7" />
         <EQUATE_REFERENCE ADDRESS="00025854" OPERAND_INDEX="0xffff" NAME="0x8_Critical_Stun" VALUE="0x8" />
         <EQUATE_REFERENCE ADDRESS="0002c834" OPERAND_INDEX="0x0" NAME="1.9749999" VALUE="0x3ffccccc" />
         <EQUATE_REFERENCE ADDRESS="00041a34" OPERAND_INDEX="0x1" NAME="NAME_KASUMI" VALUE="0x5" />
@@ -374151,6 +374191,7 @@ alternative: GameSettings_LoadServiceMenuBuffer</REGULAR_CMT>
         <EQUATE_REFERENCE ADDRESS="0004abb4" OPERAND_INDEX="0x0" NAME="1" VALUE="0x1" />
         <EQUATE_REFERENCE ADDRESS="0004abc8" OPERAND_INDEX="0x0" NAME="1" VALUE="0x1" />
         <EQUATE_REFERENCE ADDRESS="0004abe4" OPERAND_INDEX="0x0" NAME="1" VALUE="0x1" />
+        <EQUATE_REFERENCE ADDRESS="00024e30" OPERAND_INDEX="0x0" NAME="1" VALUE="0x1" />
         <EQUATE_REFERENCE ADDRESS="00017dd0" OPERAND_INDEX="0xffff" NAME="0" VALUE="0x0" />
         <EQUATE_REFERENCE ADDRESS="00017da4" OPERAND_INDEX="0x0" NAME="0" VALUE="0x0" />
         <EQUATE_REFERENCE ADDRESS="0004e4d8" OPERAND_INDEX="0x0" NAME="0" VALUE="0x0" />
@@ -374166,6 +374207,8 @@ alternative: GameSettings_LoadServiceMenuBuffer</REGULAR_CMT>
         <EQUATE_REFERENCE ADDRESS="0000835c" OPERAND_INDEX="0x0" NAME="20" VALUE="0x14" />
         <EQUATE_REFERENCE ADDRESS="00008364" OPERAND_INDEX="0x0" NAME="16" VALUE="0x10" />
         <EQUATE_REFERENCE ADDRESS="0000836c" OPERAND_INDEX="0x0" NAME="12" VALUE="0xc" />
+        <EQUATE_REFERENCE ADDRESS="00020f90" OPERAND_INDEX="0x0" NAME="0x9_Hit_Stun" VALUE="0x9" />
+        <EQUATE_REFERENCE ADDRESS="0001ff74" OPERAND_INDEX="0x0" NAME="0xE_Down_Attack" VALUE="0xe" />
     </MARKUP>
     <EXT_LIBRARY_TABLE />
 </PROGRAM>
