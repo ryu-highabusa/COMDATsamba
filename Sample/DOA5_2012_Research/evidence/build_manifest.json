@@ -1,0 +1,191 @@
+[
+  {
+    "build": "2012-02-19",
+    "xml": "2012-02-19_doa5demo_default.xex.xml",
+    "binary": "2012-02-19_doa5demo_default.xex.bytes",
+    "binary_sha256": "ac4ed298c9f3b6258421322a46156c5d90e1206f5d52fa3b553ca103cd860d0f",
+    "xml_sha256": "0058d37fc6f08d28bcf140bb7b536386366702648d9b77f0f497706520210fc7",
+    "binary_size": 32831976,
+    "sections": [
+      {
+        "name": ".rdata",
+        "va": 2181039104,
+        "size": 1256348,
+        "offset": 0
+      },
+      {
+        "name": ".pdata",
+        "va": 2182295552,
+        "size": 96808,
+        "offset": 1256348
+      },
+      {
+        "name": ".text",
+        "va": 2182414336,
+        "size": 5597716,
+        "offset": 1353156
+      },
+      {
+        "name": ".data",
+        "va": 2188050432,
+        "size": 25514108,
+        "offset": 6950872
+      },
+      {
+        "name": ".XBMOVIE",
+        "va": 2213564928,
+        "size": 12,
+        "offset": 32464980
+      },
+      {
+        "name": ".idata",
+        "va": 2213609472,
+        "size": 1136,
+        "offset": 32464992
+      },
+      {
+        "name": ".XBLD",
+        "va": 2213675008,
+        "size": 288,
+        "offset": 32466128
+      },
+      {
+        "name": ".reloc",
+        "va": 2213675520,
+        "size": 365560,
+        "offset": 32466416
+      }
+    ],
+    "xml_function_count": 9023,
+    "xml_functions_at_most_8_bytes": 5135,
+    "pdata_functions": 12101,
+    "matching_functions": 13050,
+    "ascii_strings": 13564
+  },
+  {
+    "build": "2012-06-02",
+    "xml": "2012-06-02_doa5e3_default.xex.xml",
+    "binary": "2012-06-02_doa5e3_default.xex.bytes",
+    "binary_sha256": "bf0088de08d57c87e7d003ef9bb8e3b7439d69b677726851e12f41834921471e",
+    "xml_sha256": "199c9fcb0eb5d2e15fd3438a2a5e459d7d37d69be3692d110735a2e37db1efb1",
+    "binary_size": 33619524,
+    "sections": [
+      {
+        "name": ".rdata",
+        "va": 2181039104,
+        "size": 1415252,
+        "offset": 0
+      },
+      {
+        "name": ".pdata",
+        "va": 2182454784,
+        "size": 157792,
+        "offset": 1415252
+      },
+      {
+        "name": ".text",
+        "va": 2182676480,
+        "size": 7998268,
+        "offset": 1573044
+      },
+      {
+        "name": ".data",
+        "va": 2190737408,
+        "size": 23507256,
+        "offset": 9571312
+      },
+      {
+        "name": ".XBMOVIE",
+        "va": 2214244864,
+        "size": 12,
+        "offset": 33078568
+      },
+      {
+        "name": ".idata",
+        "va": 2214264832,
+        "size": 1148,
+        "offset": 33078580
+      },
+      {
+        "name": ".XBLD",
+        "va": 2214330368,
+        "size": 352,
+        "offset": 33079728
+      },
+      {
+        "name": ".reloc",
+        "va": 2214330880,
+        "size": 539444,
+        "offset": 33080080
+      }
+    ],
+    "xml_function_count": 39098,
+    "xml_functions_at_most_8_bytes": 13775,
+    "pdata_functions": 19724,
+    "matching_functions": 21090,
+    "ascii_strings": 21738
+  },
+  {
+    "build": "2012-08-19",
+    "xml": "2012-08-19_doa5final_default.xex.xml",
+    "binary": "2012-08-19_doa5final_default.xex.bytes",
+    "binary_sha256": "2588c139db81f5c837b5901be6bf925c356ebad7242fb0eaddbc836bf04f9c1f",
+    "xml_sha256": "d52102286c679e72fb02ca2a1fd8e17cfae07bf916f3e9d25867f190e87cd9a6",
+    "binary_size": 34925724,
+    "sections": [
+      {
+        "name": ".rdata",
+        "va": 2181039104,
+        "size": 1739364,
+        "offset": 0
+      },
+      {
+        "name": ".pdata",
+        "va": 2182778880,
+        "size": 216240,
+        "offset": 1739364
+      },
+      {
+        "name": ".text",
+        "va": 2183004160,
+        "size": 10502412,
+        "offset": 1955604
+      },
+      {
+        "name": ".data",
+        "va": 2193555456,
+        "size": 21732892,
+        "offset": 12458016
+      },
+      {
+        "name": ".XBMOVIE",
+        "va": 2215288832,
+        "size": 12,
+        "offset": 34190908
+      },
+      {
+        "name": ".idata",
+        "va": 2215313408,
+        "size": 1380,
+        "offset": 34190920
+      },
+      {
+        "name": ".XBLD",
+        "va": 2215378944,
+        "size": 416,
+        "offset": 34192300
+      },
+      {
+        "name": ".reloc",
+        "va": 2215379456,
+        "size": 733008,
+        "offset": 34192716
+      }
+    ],
+    "xml_function_count": 17054,
+    "xml_functions_at_most_8_bytes": 9190,
+    "pdata_functions": 27030,
+    "matching_functions": 28694,
+    "ascii_strings": 26037
+  }
+]

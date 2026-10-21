@@ -1,0 +1,24 @@
+{
+  "2012-02-19_2012-06-02": {
+    "total": 4778,
+    "normalized_exact": 4149,
+    "fuzzy": 629,
+    "raw_equal": 596
+  },
+  "2012-06-02_2012-08-19": {
+    "total": 11803,
+    "normalized_exact": 9239,
+    "fuzzy": 2564,
+    "raw_equal": 1146
+  },
+  "2012-02-19_2012-08-19": {
+    "total": 4786,
+    "normalized_exact": 4150,
+    "fuzzy": 636,
+    "raw_equal": 606
+  },
+  "three_way_cycle": {
+    "agree": 4548,
+    "conflict": 1
+  }
+}

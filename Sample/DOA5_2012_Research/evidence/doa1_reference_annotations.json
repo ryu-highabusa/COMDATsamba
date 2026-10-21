@@ -1,0 +1,2122 @@
+{
+  "functions": [
+    {
+      "va": 18976,
+      "name": "RetailDisabledDebugHook",
+      "ranges": [
+        [
+          18976,
+          18979
+        ]
+      ]
+    },
+    {
+      "va": 19024,
+      "name": "Debug_UpdateHiddenDisplays",
+      "ranges": [
+        [
+          19024,
+          19491
+        ]
+      ]
+    },
+    {
+      "va": 19504,
+      "name": "DebugPause_EnableFullGameplayTaskGroup_candidate",
+      "ranges": [
+        [
+          19504,
+          19583
+        ]
+      ]
+    },
+    {
+      "va": 19584,
+      "name": "DebugPause_ResumeGameplayTasks",
+      "ranges": [
+        [
+          19584,
+          19647
+        ]
+      ]
+    },
+    {
+      "va": 19648,
+      "name": "DebugPause_SuspendGameplayTasks",
+      "ranges": [
+        [
+          19648,
+          19707
+        ]
+      ]
+    },
+    {
+      "va": 20736,
+      "name": "Debug_DrawPlayerStateOverlay",
+      "ranges": [
+        [
+          20736,
+          21323
+        ]
+      ]
+    },
+    {
+      "va": 34320,
+      "name": "DebugText_InstallPalette",
+      "ranges": [
+        [
+          34320,
+          34387
+        ]
+      ]
+    },
+    {
+      "va": 34928,
+      "name": "Debug_SetTextPosition",
+      "ranges": [
+        [
+          34928,
+          34955
+        ]
+      ]
+    },
+    {
+      "va": 175728,
+      "name": "comact_start_common_group",
+      "ranges": [
+        [
+          175728,
+          175847
+        ]
+      ]
+    },
+    {
+      "va": 185568,
+      "name": "per_act_set",
+      "ranges": [
+        [
+          185568,
+          185691
+        ]
+      ]
+    },
+    {
+      "va": 185696,
+      "name": "cond_act_set",
+      "ranges": [
+        [
+          185696,
+          185727
+        ],
+        [
+          185768,
+          186295
+        ]
+      ]
+    },
+    {
+      "va": 186304,
+      "name": "order_act_set",
+      "ranges": [
+        [
+          186304,
+          186675
+        ]
+      ]
+    },
+    {
+      "va": 187216,
+      "name": "Cpu_EvaluateActionConditions_candidate",
+      "ranges": [
+        [
+          187216,
+          189119
+        ]
+      ]
+    },
+    {
+      "va": 193184,
+      "name": "act_punch_chk",
+      "ranges": [
+        [
+          193184,
+          193251
+        ]
+      ]
+    },
+    {
+      "va": 193264,
+      "name": "act_kick_chk",
+      "ranges": [
+        [
+          193264,
+          193331
+        ]
+      ]
+    },
+    {
+      "va": 193344,
+      "name": "act_psbl_chk",
+      "ranges": [
+        [
+          193344,
+          193419
+        ]
+      ]
+    },
+    {
+      "va": 193424,
+      "name": "demo_act_set",
+      "ranges": [
+        [
+          193424,
+          193755
+        ]
+      ]
+    },
+    {
+      "va": 319088,
+      "name": "MotionDebug_SnapshotPlayersAndDrawAnimeId",
+      "ranges": [
+        [
+          319088,
+          319307
+        ]
+      ]
+    },
+    {
+      "va": 323904,
+      "name": "Debug_PrintMotionInitError",
+      "ranges": [
+        [
+          323904,
+          323991
+        ]
+      ]
+    },
+    {
+      "va": 350752,
+      "name": "MotionDebug_InitializeMode1State",
+      "ranges": [
+        [
+          350752,
+          351315
+        ]
+      ]
+    },
+    {
+      "va": 351792,
+      "name": "MotionDebug_UpdateSceneOverlay",
+      "ranges": [
+        [
+          351792,
+          352207
+        ]
+      ]
+    },
+    {
+      "va": 352368,
+      "name": "MotionDebug_PrepareQueryPoint_candidate",
+      "ranges": [
+        [
+          352368,
+          352515
+        ]
+      ]
+    },
+    {
+      "va": 352528,
+      "name": "MotionDebug_SubmitQueryPointAndGetAge_candidate",
+      "ranges": [
+        [
+          352528,
+          352671
+        ]
+      ]
+    },
+    {
+      "va": 501968,
+      "name": "Debug_DrawList_0007A8D0_candidate",
+      "ranges": [
+        [
+          501968,
+          502071
+        ]
+      ]
+    }
+  ],
+  "symbols": [
+    {
+      "ADDRESS": "00004a20",
+      "NAME": "RetailDisabledDebugHook",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00004a50",
+      "NAME": "Debug_UpdateHiddenDisplays",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00004c30",
+      "NAME": "DebugPause_EnableFullGameplayTaskGroup_candidate",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00004c80",
+      "NAME": "DebugPause_ResumeGameplayTasks",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00004cc0",
+      "NAME": "DebugPause_SuspendGameplayTasks",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00005100",
+      "NAME": "Debug_DrawPlayerStateOverlay",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00008610",
+      "NAME": "DebugText_InstallPalette",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00008870",
+      "NAME": "Debug_SetTextPosition",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0001ec90",
+      "NAME": "FixDisp_ResetDamageAndComboTracking",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002ae70",
+      "NAME": "comact_start_common_group",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b31c",
+      "NAME": "comact_per01_gate_then_request",
+      "NAMESPACE": "switchD_0002af1c::",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b43c",
+      "NAME": "comact_per02_continue_active_action",
+      "NAMESPACE": "switchD_0002af1c::",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b480",
+      "NAME": "comact_commit_action_request",
+      "NAMESPACE": "switchD_0002af1c::",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b534",
+      "NAME": "comact_op06_issue_action_and_end_group",
+      "NAMESPACE": "switchD_0002af1c::",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b5ac",
+      "NAME": "comact_op03_wait_fixed",
+      "NAMESPACE": "switchD_0002af1c::",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b5f8",
+      "NAME": "comact_op04_random_wait",
+      "NAMESPACE": "switchD_0002af1c::",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b970",
+      "NAME": "comact_countdown_tick",
+      "NAMESPACE": "com_act::",
+      "TYPE": "local",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002b9b0",
+      "NAME": "comact_advance_record",
+      "NAMESPACE": "com_act::",
+      "TYPE": "local",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002d4e0",
+      "NAME": "per_act_set",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002d560",
+      "NAME": "cond_act_set",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002d7c0",
+      "NAME": "order_act_set",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002f2a0",
+      "NAME": "act_punch_chk",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002f2f0",
+      "NAME": "act_kick_chk",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002f340",
+      "NAME": "act_psbl_chk",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0002f340",
+      "NAME": "comact_can_issue_action_request",
+      "NAMESPACE": "act_psbl_chk::",
+      "TYPE": "local",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "n"
+    },
+    {
+      "ADDRESS": "0002f390",
+      "NAME": "demo_act_set",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000375d0",
+      "NAME": "FixDisp_UpdateComboCounter",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0004de70",
+      "NAME": "MotionDebug_SnapshotPlayersAndDrawAnimeId",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0004f140",
+      "NAME": "Debug_PrintMotionInitError",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00055a20",
+      "NAME": "MotionDebug_InitializeMode1State",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00055e30",
+      "NAME": "MotionDebug_UpdateSceneOverlay",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00056070",
+      "NAME": "MotionDebug_PrepareQueryPoint_candidate",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00056110",
+      "NAME": "MotionDebug_SubmitQueryPointAndGetAge_candidate",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0007a8d0",
+      "NAME": "Debug_DrawList_0007A8D0_candidate",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00090a50",
+      "NAME": "k_debug_text_palette",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00095750",
+      "NAME": "g_character_act_record_tables",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "n"
+    },
+    {
+      "ADDRESS": "000a1c30",
+      "NAME": "g_common_comact_group_table",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b10",
+      "NAME": "comact_Zack_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b20",
+      "NAME": "comact_Zack_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b30",
+      "NAME": "comact_Zack_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b40",
+      "NAME": "comact_Zack_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b50",
+      "NAME": "comact_Zack_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b70",
+      "NAME": "comact_Zack_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2b90",
+      "NAME": "comact_Zack_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2bb0",
+      "NAME": "comact_groups_Zack",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2bd0",
+      "NAME": "comact_Tina_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2bf0",
+      "NAME": "comact_Tina_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2c10",
+      "NAME": "comact_Tina_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2c30",
+      "NAME": "comact_Tina_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2c50",
+      "NAME": "comact_Tina_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2c70",
+      "NAME": "comact_Tina_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2c90",
+      "NAME": "comact_Tina_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2cb0",
+      "NAME": "comact_Tina_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2cd0",
+      "NAME": "comact_Tina_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2cf0",
+      "NAME": "comact_Tina_group_09",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d10",
+      "NAME": "comact_Tina_group_10",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d20",
+      "NAME": "comact_Tina_group_11",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d30",
+      "NAME": "comact_Tina_group_12",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d40",
+      "NAME": "comact_Tina_group_13",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d50",
+      "NAME": "comact_Tina_group_14",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d60",
+      "NAME": "comact_Tina_group_15",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d80",
+      "NAME": "comact_Tina_group_16",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2d90",
+      "NAME": "comact_Tina_group_17",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2db0",
+      "NAME": "comact_groups_Tina",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e00",
+      "NAME": "comact_JannLee_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e10",
+      "NAME": "comact_JannLee_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e30",
+      "NAME": "comact_JannLee_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e50",
+      "NAME": "comact_JannLee_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e60",
+      "NAME": "comact_JannLee_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e70",
+      "NAME": "comact_JannLee_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e80",
+      "NAME": "comact_JannLee_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2e90",
+      "NAME": "comact_JannLee_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2ea0",
+      "NAME": "comact_JannLee_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2eb0",
+      "NAME": "comact_JannLee_group_09",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2ed0",
+      "NAME": "comact_JannLee_group_10",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2ef0",
+      "NAME": "comact_JannLee_group_11",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2f00",
+      "NAME": "comact_JannLee_group_12",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2f10",
+      "NAME": "comact_JannLee_group_13",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2f30",
+      "NAME": "comact_groups_JannLee",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2f70",
+      "NAME": "comact_Hayabusa_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2f90",
+      "NAME": "comact_Hayabusa_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2fb0",
+      "NAME": "comact_Hayabusa_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2fd0",
+      "NAME": "comact_Hayabusa_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b2ff0",
+      "NAME": "comact_Hayabusa_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3010",
+      "NAME": "comact_Hayabusa_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3030",
+      "NAME": "comact_Hayabusa_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3050",
+      "NAME": "comact_Hayabusa_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3070",
+      "NAME": "comact_Hayabusa_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3090",
+      "NAME": "comact_Hayabusa_group_09",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b30a0",
+      "NAME": "comact_Hayabusa_group_10",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b30b0",
+      "NAME": "comact_Hayabusa_group_11",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b30c0",
+      "NAME": "comact_Hayabusa_group_12",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b30d0",
+      "NAME": "comact_Hayabusa_group_13",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b30e0",
+      "NAME": "comact_Hayabusa_group_14",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3100",
+      "NAME": "comact_Hayabusa_group_15",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3110",
+      "NAME": "comact_Hayabusa_group_16",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3120",
+      "NAME": "comact_Hayabusa_group_17",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3140",
+      "NAME": "comact_groups_Hayabusa",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3190",
+      "NAME": "comact_Kasumi_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b31a0",
+      "NAME": "comact_Kasumi_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b31b0",
+      "NAME": "comact_Kasumi_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b31c0",
+      "NAME": "comact_Kasumi_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b31d0",
+      "NAME": "comact_Kasumi_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b31e0",
+      "NAME": "comact_Kasumi_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b31f0",
+      "NAME": "comact_Kasumi_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3200",
+      "NAME": "comact_Kasumi_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3220",
+      "NAME": "comact_Kasumi_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3240",
+      "NAME": "comact_Kasumi_group_09",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3250",
+      "NAME": "comact_Kasumi_group_10",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3260",
+      "NAME": "comact_Kasumi_group_11",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3270",
+      "NAME": "comact_Kasumi_group_12",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3290",
+      "NAME": "comact_Kasumi_group_13",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b32b0",
+      "NAME": "comact_Kasumi_group_14",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b32d0",
+      "NAME": "comact_Kasumi_group_15",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b32f0",
+      "NAME": "comact_Kasumi_group_16",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3310",
+      "NAME": "comact_Kasumi_group_17",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3330",
+      "NAME": "comact_Kasumi_group_18",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3350",
+      "NAME": "comact_Kasumi_group_19",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3360",
+      "NAME": "comact_Kasumi_group_20",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3370",
+      "NAME": "comact_Kasumi_group_21",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3380",
+      "NAME": "comact_Kasumi_group_22",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3390",
+      "NAME": "comact_Kasumi_group_23",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b33a0",
+      "NAME": "comact_Kasumi_group_24",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b33c0",
+      "NAME": "comact_Kasumi_group_25",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b33d0",
+      "NAME": "comact_Kasumi_group_26",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b33e0",
+      "NAME": "comact_Kasumi_group_27",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b33f0",
+      "NAME": "comact_Kasumi_group_28",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3400",
+      "NAME": "comact_Kasumi_group_29",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3410",
+      "NAME": "comact_Kasumi_group_30",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3430",
+      "NAME": "comact_groups_Kasumi",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b34b0",
+      "NAME": "comact_GenFu_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b34d0",
+      "NAME": "comact_GenFu_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b34f0",
+      "NAME": "comact_GenFu_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3510",
+      "NAME": "comact_GenFu_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3530",
+      "NAME": "comact_GenFu_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3550",
+      "NAME": "comact_GenFu_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3560",
+      "NAME": "comact_GenFu_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3570",
+      "NAME": "comact_GenFu_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3580",
+      "NAME": "comact_GenFu_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3590",
+      "NAME": "comact_GenFu_group_09",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b35b0",
+      "NAME": "comact_GenFu_group_10",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b35c0",
+      "NAME": "comact_GenFu_group_11",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b35d0",
+      "NAME": "comact_GenFu_group_12",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b35e0",
+      "NAME": "comact_GenFu_group_13",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b35f0",
+      "NAME": "comact_GenFu_group_14",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3600",
+      "NAME": "comact_GenFu_group_15",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3610",
+      "NAME": "comact_GenFu_group_16",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3620",
+      "NAME": "comact_GenFu_group_17",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3630",
+      "NAME": "comact_GenFu_group_18",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3640",
+      "NAME": "comact_GenFu_group_19",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3650",
+      "NAME": "comact_GenFu_group_20",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3670",
+      "NAME": "comact_GenFu_group_21",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3680",
+      "NAME": "comact_GenFu_group_22",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3690",
+      "NAME": "comact_groups_GenFu",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b36f0",
+      "NAME": "comact_Bayman_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3700",
+      "NAME": "comact_Bayman_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3710",
+      "NAME": "comact_Bayman_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3720",
+      "NAME": "comact_Bayman_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3740",
+      "NAME": "comact_Bayman_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3750",
+      "NAME": "comact_Bayman_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3770",
+      "NAME": "comact_Bayman_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3780",
+      "NAME": "comact_Bayman_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3790",
+      "NAME": "comact_Bayman_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b37b0",
+      "NAME": "comact_groups_Bayman",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b37e0",
+      "NAME": "comact_Leifang_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b37f0",
+      "NAME": "comact_Leifang_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3800",
+      "NAME": "comact_Leifang_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3810",
+      "NAME": "comact_Leifang_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3820",
+      "NAME": "comact_Leifang_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3830",
+      "NAME": "comact_Leifang_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3840",
+      "NAME": "comact_Leifang_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3850",
+      "NAME": "comact_Leifang_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3870",
+      "NAME": "comact_groups_Leifang",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3890",
+      "NAME": "comact_Raidou_group_00",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b38b0",
+      "NAME": "comact_Raidou_group_01",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b38d0",
+      "NAME": "comact_Raidou_group_02",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b38f0",
+      "NAME": "comact_Raidou_group_03",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3910",
+      "NAME": "comact_Raidou_group_04",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3930",
+      "NAME": "comact_Raidou_group_05",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3950",
+      "NAME": "comact_Raidou_group_06",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3970",
+      "NAME": "comact_Raidou_group_07",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3980",
+      "NAME": "comact_Raidou_group_08",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3990",
+      "NAME": "comact_Raidou_group_09",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b39a0",
+      "NAME": "comact_Raidou_group_10",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b39c0",
+      "NAME": "comact_Raidou_group_11",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b39d0",
+      "NAME": "comact_Raidou_group_12",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b39e0",
+      "NAME": "comact_Raidou_group_13",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b39f0",
+      "NAME": "comact_Raidou_group_14",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a00",
+      "NAME": "comact_Raidou_group_15",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a10",
+      "NAME": "comact_Raidou_group_16",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a20",
+      "NAME": "comact_Raidou_group_17",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a30",
+      "NAME": "comact_Raidou_group_18",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a40",
+      "NAME": "comact_Raidou_group_19",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a60",
+      "NAME": "comact_Raidou_group_20",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3a80",
+      "NAME": "comact_groups_Raidou",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "000b3ae0",
+      "NAME": "g_comact_group_table_by_character",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054f3cc",
+      "NAME": "g_debugDisplayState",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054f3f0",
+      "NAME": "g_debugModeOverride",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc2a",
+      "NAME": "ACT_CODE_P1_0054fc2a",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc2b",
+      "NAME": "ACT_FLAG_P1_0054fc2b",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc2c",
+      "NAME": "ACT_REQ_P1_0054fc2c",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc2d",
+      "NAME": "ACT_STA_P1_0054fc2d",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc41",
+      "NAME": "ACT_CANCEL_P1_0054fc41",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc52",
+      "NAME": "COMBO_FLG_P1_0054fc52",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc53",
+      "NAME": "COMBO_CNT_P1_0054fc53",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc82",
+      "NAME": "ACT_CODE_P2_0054fc82",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc83",
+      "NAME": "ACT_FLAG_P2_0054fc83",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc84",
+      "NAME": "ACT_REQ_P2_0054fc84",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc85",
+      "NAME": "ACT_STA_P2_0054fc85",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fc99",
+      "NAME": "ACT_CANCEL_P2_0054fc99",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fcaa",
+      "NAME": "COMBO_FLG_P2_0054fcaa",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fcab",
+      "NAME": "COMBO_CNT_P2_0054fcab",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fd7c",
+      "NAME": "g_ringBoundaryHalfExtentX",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fd80",
+      "NAME": "g_ringBoundaryHalfExtentZ",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0054fd8c",
+      "NAME": "g_debug_anime_mode",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00555612",
+      "NAME": "g_demo_comact_init_pending_by_player",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00555614",
+      "NAME": "g_demo_comact_group_by_player",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00557ed8",
+      "NAME": "g_damageDisplayCacheComboCountP1",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00557edc",
+      "NAME": "g_damageDisplayCacheComboCountP2",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00557ee0",
+      "NAME": "g_damageDisplayCacheComboFlagP1",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00557ee4",
+      "NAME": "g_damageDisplayCacheComboFlagP2",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00564638",
+      "NAME": "g_comact_active_by_player",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0056463c",
+      "NAME": "g_comact_wait_remaining",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00564640",
+      "NAME": "g_comact_wait_initial",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00564648",
+      "NAME": "g_comact_cursor_by_player",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00564776",
+      "NAME": "g_comact_group_number_by_player",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00564778",
+      "NAME": "g_comact_record_index_by_player",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00565720",
+      "NAME": "g_comboDisplayCurrentCountP1",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00565724",
+      "NAME": "g_comboDisplayCurrentCountP2",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00565730",
+      "NAME": "g_comboDisplayLastCountP1",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00565734",
+      "NAME": "g_comboDisplayLastCountP2",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0056ac70",
+      "NAME": "g_motion_debug_mode",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "00588300",
+      "NAME": "g_debug_anime_id_cached",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    },
+    {
+      "ADDRESS": "0058bc0d",
+      "NAME": "g_motion_debug_ui_toggle",
+      "NAMESPACE": "",
+      "TYPE": "global",
+      "SOURCE_TYPE": "USER_DEFINED",
+      "PRIMARY": "y"
+    }
+  ]
+}

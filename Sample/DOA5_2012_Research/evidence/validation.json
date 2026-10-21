@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "build": "2012-02-19",
+      "section_coverage": "pass",
+      "focused_byte_assertions": "pass",
+      "bookmark_signatures": "pass"
+    },
+    {
+      "build": "2012-06-02",
+      "section_coverage": "pass",
+      "focused_byte_assertions": "pass",
+      "bookmark_signatures": "pass"
+    },
+    {
+      "build": "2012-08-19",
+      "section_coverage": "pass",
+      "focused_byte_assertions": "pass",
+      "bookmark_signatures": "pass"
+    },
+    {
+      "table": "matches_2012-06-02_2012-08-19.tsv",
+      "one_to_one": "pass",
+      "conflict_flag": "pass",
+      "packaged_pipeline_reproduction": "identical"
+    },
+    {
+      "table": "matches_2012-02-19_2012-08-19.tsv",
+      "one_to_one": "pass",
+      "conflict_flag": "pass",
+      "packaged_pipeline_reproduction": "identical"
+    },
+    {
+      "table": "matches_2012-02-19_2012-06-02.tsv",
+      "one_to_one": "pass",
+      "conflict_flag": "pass",
+      "packaged_pipeline_reproduction": "identical"
+    }
+  ],
+  "ghidra_importer": "syntax checked; Ghidra runtime unavailable",
+  "runtime_game_tests": "not performed"
+}

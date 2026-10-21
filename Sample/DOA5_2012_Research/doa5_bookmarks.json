@@ -1,0 +1,163 @@
+{
+  "2012-02-19": [
+    {
+      "address": "822288E0",
+      "expected_hex": "7d8802a6484055459421ff808943000a",
+      "note": "Title playlist advance. Inspected wrap bound 3; playlist at 820DAB30, bytes 01 09 0F. Counter 83C52A28."
+    },
+    {
+      "address": "8225A030",
+      "expected_hex": "7d8802a6483d3de99421ff60687c0001",
+      "note": "Combat eligibility candidate; includes combo flag +87 and counter +88. Related E3 8228B6D8 and final 824068E0, manually compared."
+    },
+    {
+      "address": "8225A278",
+      "expected_hex": "2b0b001e40980020897b00402b0b000c",
+      "note": "Unsigned compare with 30. Gated by combo flag ==1. Caller behavior and patch effects untested."
+    },
+    {
+      "address": "82360668",
+      "expected_hex": "7d8802a6482cd7bd9421ff803d608212",
+      "note": "References DebugCharacterSelect::initialize() at 82360828. Reachability as hidden UI untested; may run during ordinary selection."
+    }
+  ],
+  "2012-06-02": [
+    {
+      "address": "8224C808",
+      "expected_hex": "7d8802a648637a7d9421ff808943000a",
+      "note": "Title playlist advance; wrap bound 3. Table 820F2870: 01 0B 12. Final analogous advance: 823C0930."
+    },
+    {
+      "address": "8224D1D8",
+      "expected_hex": "7d8802a6486370b19421ff803d6083e7",
+      "note": "Title-stage transition update, reviewed counterpart final 823C12C8. Unique normalized fingerprint; data/call identities masked."
+    },
+    {
+      "address": "82248580",
+      "expected_hex": "7d8802a64863bcf99421ff703b200000",
+      "note": "Combat-state predicate candidate, reviewed counterpart final 823BB298 (97.1% sequence similarity). Meaning of complete return condition unresolved."
+    },
+    {
+      "address": "822494C8",
+      "expected_hex": "fbe1fff83d6083e73d2082b2396b2d30",
+      "note": "Round parameters / health setter candidate. Final counterpart 823BC768 (97.4%). Not a proven debug-mode enable function."
+    },
+    {
+      "address": "8228B6D8",
+      "expected_hex": "7d8802a6485f8b999421ff503d6083e7",
+      "note": "Combat eligibility candidate including 30-hit rule; final 824068E0 (86.9%). Player base 83E72D30, stride640, action +64, state +68."
+    },
+    {
+      "address": "8228B97C",
+      "expected_hex": "2b0b001e40980020897900682b0b000c",
+      "note": "Unsigned combo-counter compare with 30, gated by nonzero combo flag. Final compare 82406BD4."
+    },
+    {
+      "address": "8224C278",
+      "expected_hex": "7d8802a6486380119421ff9081630000",
+      "note": "General linked-list cleanup candidate. Reviewed final counterpart 824C8760. Existing stage-select hypothesis does not establish stage-specific behavior."
+    },
+    {
+      "address": "821D6578",
+      "expected_hex": "7d8802a69181fff89421ffa038800000",
+      "note": "Casual/pro event handler candidate. Final 822F41D8 (96%). Event IDs and setting field offsets change."
+    },
+    {
+      "address": "8229AB80",
+      "expected_hex": "3d60829b5489063e390b6f5c3d60820f",
+      "note": "E3 command-category lookup. Remap through 829B6F5C, descriptor pointers at 820F1E80, count pointers at 820F1F18. No accepted final match."
+    },
+    {
+      "address": "82336DF0",
+      "expected_hex": "7d8802a64854d4959421ff8081630100",
+      "note": "Resource-list cleanup/destruction candidate: releases +100 pointers in104-byte records and then container. Existing generic ProcessDataBlock label is weak."
+    },
+    {
+      "address": "826E5AE0",
+      "expected_hex": "7d8802a69181fff89421ffa0546b053f",
+      "note": "Rounds size to1000-byte pages and calls another routine. No filename check visible; existing CheckFileAvailability label is unsupported by this body."
+    }
+  ],
+  "2012-08-19": [
+    {
+      "address": "823C0930",
+      "expected_hex": "7d8802a64875aa759421ff808943000a",
+      "note": "Title playlist advance. Wrap bound17 hexadecimal (=23). Playlist82105910, index83F5A110. E3 analogous advance8224C808."
+    },
+    {
+      "address": "823C12C8",
+      "expected_hex": "7d8802a64875a0e19421ff803d6083f6",
+      "note": "Title-stage transition update. Reviewed E3 counterpart8224D1D8, unique normalized fingerprint."
+    },
+    {
+      "address": "823C1150",
+      "expected_hex": "7d8802a69181fff8fbe1fff09421ffa0",
+      "note": "Current title-stage comparison helper candidate. E3 counterpart8224D060, normalized fingerprint exact."
+    },
+    {
+      "address": "824068E0",
+      "expected_hex": "7d8802a648714ab19421ff503d6083f8",
+      "note": "Combat eligibility candidate, not just combo limit. E3 counterpart8228B6D8. Player base83F823B0 stride690, action+64, state+68."
+    },
+    {
+      "address": "82406BD4",
+      "expected_hex": "2b0b001e40980020897900682b0b000c",
+      "note": "Unsigned compare counter with30. Previous flag test requires nonzero. Branch82406BD8 takes false-return path at82406BF8 when count>=30."
+    },
+    {
+      "address": "82406ACC",
+      "expected_hex": "897900042b0b0007409a007889790068",
+      "note": "Character7/stateD/action1F68 exception. Final adds four checks at record+40,+44,+48,+4C againstFFFF. Precise gameplay meaning untested."
+    },
+    {
+      "address": "82406B4C",
+      "expected_hex": "897800042b0b0011409a007089780068",
+      "note": "Surviving legacy character11/state3/action-range exception. Tengu association inferred from old mapping; no proof of final playable character."
+    },
+    {
+      "address": "823BB298",
+      "expected_hex": "7d8802a6487601019421ff703b200000",
+      "note": "Combat-state predicate candidate. E3 counterpart82248580; states4/6 against opponentA/B and E against C support DOA1 vocabulary comparison."
+    },
+    {
+      "address": "823BC768",
+      "expected_hex": "fbe1fff83d6083f83d2082db396b23b0",
+      "note": "Round parameters / health setter candidate. Writes paired player fields and clamps existing health. E3 counterpart822494C8. Debug enable unproven."
+    },
+    {
+      "address": "822F41D8",
+      "expected_hex": "7d8802a69181fff89421ffa038800000",
+      "note": "Casual/pro event handler candidate; E3 counterpart821D6578. Events2C5/2C6 become2DB/2DC; setting field layout changes."
+    },
+    {
+      "address": "824C8760",
+      "expected_hex": "7d8802a648652c499421ff9081630000",
+      "note": "General list cleanup; E3 counterpart8224C278. Avoid assuming this is the stage unlock function."
+    },
+    {
+      "address": "824CD790",
+      "expected_hex": "3d60820e394bc1e47f035040409a000c",
+      "note": "Resource-size metadata lookup. Uses catalog base820E15F8 and0C-byte descriptor stride. Not itself an identified name decoder."
+    },
+    {
+      "address": "820E44E4",
+      "expected_hex": "82165894000000018216588c82165870",
+      "note": "Catalog record: name pointer82165894(debug_patch0.bin), numeric type1, group pointer8216588C(NO_LINK). File presence/loadability untested."
+    },
+    {
+      "address": "820EA9F0",
+      "expected_hex": "8214ef5c8214ef480000001c8214ef5c",
+      "note": "Catalog group pointer to8214EF5C(stage_debug). Numerous neighboring records share it; does not prove debug mode enabled."
+    },
+    {
+      "address": "824C5EB8",
+      "expected_hex": "7d8802a6486554e59421fe503b400000",
+      "note": "Open/register link-bundle candidate, existing annotation retained provisionally. Searches nine entries in table82CA1630."
+    },
+    {
+      "address": "824C6158",
+      "expected_hex": "7d8802a69181fff8fbe1fff09421ff90",
+      "note": "Known-link registration query candidate. Uses table82CA1630 with8-byte stride; return meaning requires caller review."
+    }
+  ]
+}

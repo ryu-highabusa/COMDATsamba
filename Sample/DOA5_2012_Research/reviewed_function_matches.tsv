@@ -1,0 +1,9 @@
+topic	source_build	source_va	target_build	target_va	normalized_similarity	automatic_method	review_status
+Combo eligibility / 30-hit check	2012-06-02	8228B6D8	2012-08-19	824068E0	0.8691	fuzzy_candidate	manually inspected instructions; behavior names provisional
+Combat-state predicate	2012-06-02	82248580	2012-08-19	823BB298	0.9709	fuzzy_candidate	manually inspected instructions; behavior names provisional
+Round parameters / health setter candidate	2012-06-02	822494C8	2012-08-19	823BC768	0.9744	fuzzy_candidate	manually inspected instructions; behavior names provisional
+Title-stage equality helper	2012-06-02	8224D060	2012-08-19	823C1150	1.0000	unique_normalized_exact	manually inspected instructions; behavior names provisional
+Title-stage transition update	2012-06-02	8224D1D8	2012-08-19	823C12C8	1.0000	unique_normalized_exact	manually inspected instructions; behavior names provisional
+Casual/pro settings event handler	2012-06-02	821D6578	2012-08-19	822F41D8	0.9600	fuzzy_candidate	manually inspected instructions; behavior names provisional
+General list cleanup (old stage-select hypothesis)	2012-06-02	8224C278	2012-08-19	824C8760	1.0000	unique_normalized_exact	manually inspected instructions; behavior names provisional
+Context reset / old stage-select hypothesis	2012-06-02	8224C540	2012-08-19	823C0618	0.7719	fuzzy_candidate	manually inspected instructions; behavior names provisional

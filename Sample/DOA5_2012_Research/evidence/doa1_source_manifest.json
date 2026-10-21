@@ -1,0 +1,7 @@
+{
+  "xml": "1996_doa.zip(20261021-195259).xml",
+  "binary": "1996_doa.zip(5).bytes",
+  "xml_sha256": "6369e94c1c326776edb6b09f5a926511181a998452e7591c1f0a14a86959f849",
+  "binary_sha256": "0966197633d6c0c696d430f374371c9bae5cdd7dbe808ce53f9cc5cc96222a25",
+  "use": "Semantic reference from investigator-applied annotations; no i960/PowerPC signature transfer"
+}
