@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>51001</ID>
+      <Description>"E3 main menu: bypass hard-coded demo locks (experimental)"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>// E3 only. Raw PPC bytes, not host x86 instructions.
+[ENABLE]
+assert(18253DB08,39 63 FF C7 38 60 00 00 2B 0B 00 12 4D 99 00 20)
+assert(18253DB7C,38 60 00 01 4E 80 00 20)
+18253DB7C:
+db 38 60 00 00
+
+[DISABLE]
+assert(18253DB08,39 63 FF C7 38 60 00 00 2B 0B 00 12 4D 99 00 20)
+assert(18253DB7C,38 60 00 00 4E 80 00 20)
+18253DB7C:
+db 38 60 00 01
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51002</ID>
+      <Description>"E3 Time Limit: reconnect loaded submenu (open Game Settings first)"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+if syntaxcheck then return end
+local BASE=0x100000000
+local function ptr(a)
+  return type(a)=='number' and a&gt;=0x10000 and a&lt;=0xFFFFFF00 and a%4==0
+end
+local function u32(a)
+  assert(ptr(a),'Invalid guest pointer')
+  local ok,t=pcall(readBytes,BASE+a,4,true)
+  assert(ok and type(t)=='table' and #t==4,'Unreadable guest memory')
+  return ((t[1]*256+t[2])*256+t[3])*256+t[4]
+end
+local function put32(a,v)
+  assert(ptr(a),'Invalid write address')
+  local t={math.floor(v/0x1000000)%256,math.floor(v/0x10000)%256,
+           math.floor(v/0x100)%256,v%256}
+  assert(writeBytes(BASE+a,t),'Guest write failed')
+  assert(u32(a)==v,'Guest write did not read back correctly')
+end
+local function vec(a,maxCount)
+  local n,cap,p=u32(a+4),u32(a+8),u32(a+12)
+  assert(n&lt;=maxCount and cap&gt;=n,'Unexpected vector size')
+  local r={}
+  if n&gt;0 then assert(ptr(p),'Missing pointer array') end
+  for i=0,n-1 do r[#r+1]=u32(p+4*i) end
+  return r
+end
+local function findSettings()
+  assert(u32(0x82208760)==0x7D8802A6 and u32(0x8252A0BC)==0x38A0005B,
+    'E3 signature mismatch. Check Xenia target and mapping.')
+  local result=nil
+  for _,o in ipairs(vec(0x83F93D08,128)) do
+    if ptr(o) and u32(o)==0x821493F8 and u32(o+4)==0xC then
+      assert(result==nil,'Multiple Game Settings objects')
+      result=o
+    end
+  end
+  assert(result,'Open Game Settings before enabling this entry.')
+  local top,dest=nil,nil
+  for _,c in ipairs(vec(result+0x20,256)) do
+    if ptr(c) then
+      if u32(c)==0x12 then top=c end
+      if u32(c)==0x1F then dest=c end
+    end
+  end
+  assert(top and dest,'Time Limit submenu is not loaded')
+  local row=nil
+  for _,p in ipairs(vec(top+0x28,64)) do
+    if ptr(p) and u32(p+4)==0x53 then row=p end
+  end
+  assert(row and u32(row)==0x12 and u32(row+0x1C)==0 and u32(row+0x20)==2,
+    'Unexpected Time Limit row')
+  local choices=vec(dest+0x28,16)
+  assert(#choices==5,'Expected five Time Limit choices')
+  for i,p in ipairs(choices) do assert(u32(p+4)==0x7C+i,'Unexpected time choice ID') end
+  local link=u32(row+8)
+  assert(ptr(link) and u32(row+12)==link and u32(link)==0x12
+    and u32(link+4)==2 and u32(link+0x18)==0xFFFFFFFF,'Unexpected action link')
+  return result,row,link,dest
+end
+local obj,row,link,dest=findSettings()
+assert(_G.DOA5_E3_TimeLinkTest==nil,'Undo the previous Time Limit test first.')
+local before=u32(link+0x14)
+assert(before==0,'Destination is already connected; nothing was changed.')
+local beforeBack=u32(dest+4)
+assert(beforeBack==0 or beforeBack==link,'Time Limit has an unexpected parent link.')
+local playerOpen=false
+for _,p in ipairs(vec(obj+0x50,8)) do
+  if ptr(p) and u32(p+4)==u32(p+8) and u32(p+4)~=0 then
+    if u32(u32(p+4))==0x12 then playerOpen=true end
+  end
+end
+assert(playerOpen,'Close the choice popup and leave the Game Settings list open.')
+_G.DOA5_E3_TimeLinkTest={obj=obj,row=row,link=link,dest=dest,before=before,beforeBack=beforeBack}
+-- Menu_Connect also sets destination +4 to the source link, for B/Back.
+put32(dest+4,link)
+put32(link+0x14,dest)
+print(string.format('Connected Time Limit: CE %X -&gt; guest %08X. Select Time Limit and press A.',
+  BASE+link+0x14,dest))
+print('The padlock and dash remain. Press B to close the popup, then disable before leaving Game Settings.')
+
+{$asm}
+
+[DISABLE]
+{$lua}
+if syntaxcheck then return end
+local BASE=0x100000000
+local function ptr(a)
+  return type(a)=='number' and a&gt;=0x10000 and a&lt;=0xFFFFFF00 and a%4==0
+end
+local function u32(a)
+  assert(ptr(a),'Invalid guest pointer')
+  local ok,t=pcall(readBytes,BASE+a,4,true)
+  assert(ok and type(t)=='table' and #t==4,'Unreadable guest memory')
+  return ((t[1]*256+t[2])*256+t[3])*256+t[4]
+end
+local function put32(a,v)
+  assert(ptr(a),'Invalid write address')
+  local t={math.floor(v/0x1000000)%256,math.floor(v/0x10000)%256,
+           math.floor(v/0x100)%256,v%256}
+  assert(writeBytes(BASE+a,t),'Guest write failed')
+  assert(u32(a)==v,'Guest write did not read back correctly')
+end
+local function vec(a,maxCount)
+  local n,cap,p=u32(a+4),u32(a+8),u32(a+12)
+  assert(n&lt;=maxCount and cap&gt;=n,'Unexpected vector size')
+  local r={}
+  if n&gt;0 then assert(ptr(p),'Missing pointer array') end
+  for i=0,n-1 do r[#r+1]=u32(p+4*i) end
+  return r
+end
+local function findSettings()
+  assert(u32(0x82208760)==0x7D8802A6 and u32(0x8252A0BC)==0x38A0005B,
+    'E3 signature mismatch. Check Xenia target and mapping.')
+  local result=nil
+  for _,o in ipairs(vec(0x83F93D08,128)) do
+    if ptr(o) and u32(o)==0x821493F8 and u32(o+4)==0xC then
+      assert(result==nil,'Multiple Game Settings objects')
+      result=o
+    end
+  end
+  assert(result,'Open Game Settings before enabling this entry.')
+  local top,dest=nil,nil
+  for _,c in ipairs(vec(result+0x20,256)) do
+    if ptr(c) then
+      if u32(c)==0x12 then top=c end
+      if u32(c)==0x1F then dest=c end
+    end
+  end
+  assert(top and dest,'Time Limit submenu is not loaded')
+  local row=nil
+  for _,p in ipairs(vec(top+0x28,64)) do
+    if ptr(p) and u32(p+4)==0x53 then row=p end
+  end
+  assert(row and u32(row)==0x12 and u32(row+0x1C)==0 and u32(row+0x20)==2,
+    'Unexpected Time Limit row')
+  local choices=vec(dest+0x28,16)
+  assert(#choices==5,'Expected five Time Limit choices')
+  for i,p in ipairs(choices) do assert(u32(p+4)==0x7C+i,'Unexpected time choice ID') end
+  local link=u32(row+8)
+  assert(ptr(link) and u32(row+12)==link and u32(link)==0x12
+    and u32(link+4)==2 and u32(link+0x18)==0xFFFFFFFF,'Unexpected action link')
+  return result,row,link,dest
+end
+local state=_G.DOA5_E3_TimeLinkTest
+if state then
+  -- Do not write back into a freed/reused heap block.
+  local ok,obj,row,link,dest=pcall(findSettings)
+  if ok and obj==state.obj and row==state.row and link==state.link
+      and dest==state.dest and u32(link+0x14)==state.dest then
+    for _,p in ipairs(vec(obj+0x50,8)) do
+      if ptr(p) and (u32(p+4)==dest or u32(p+8)==dest) then
+        error('Press B to close the Time Limit popup before disabling this entry.')
+      end
+    end
+    put32(link+0x14,state.before)
+    if u32(dest+4)==link then put32(dest+4,state.beforeBack) end
+    print('Restored the original Time Limit destination.')
+  else
+    print('Game Settings instance changed; skipped stale heap restore. Reopen the menu to reset it.')
+  end
+  _G.DOA5_E3_TimeLinkTest=nil
+end
+
+{$asm}
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+</CheatTable>
