@@ -7,8 +7,365 @@ hash = "7B21F0D96B224F4C" # default.xex
     name = "title screen stage swap"
     desc = "changes the first stage ID"
     author = "ryu_highabusa"
-    is_enabled = true
+    is_enabled = false
 
     [[patch.be8]]
         address = 0x820f2870
-        value = 0x18
+        value = 0x28
+    [[patch.be8]]
+        address = 0x820f2871
+        value = 0x28
+    [[patch.be8]]
+        address = 0x820f2872
+        value = 0x02
+
+[[patch]]
+    name = "defeat demo reset test"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x82310F7C
+        value = 0x60000000
+
+[[patch]]
+    name = ""
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x82318954
+        value = 0x48000028
+		
+
+[[patch]]
+    name = "Function_8233E818 switch test"
+    desc = "attempt set 0x08 flag to 0x19"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be8]]
+        address = 0x8224c2b7
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x82339387
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x8233956f
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x823395fb
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x82339b09
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x82339ea7
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x8233a4ff
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x8233abeb
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x8233ac67
+        value = 0x0f
+    [[patch.be8]]
+        address = 0x8233f4df
+        value = 0x0f
+
+		[[patch]]
+    name = "MainMenu_IsDemoLocked"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x8253DB7C
+        value = 0x38600000
+		
+		[[patch]]
+    name = "switchD_8255b54c::caseD_8"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x8255B56C
+        value = 0x8255B578
+
+[[patch]]
+    name = "E3 Time Limit row presentation (experimental)"
+    desc = "Removes only the Time Limit padlock and displays its selected choice. CE submenu reconnection is still required."
+    author = ""
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x8252A13C
+        value = 0x60000000
+
+    [[patch.be32]]
+        address = 0x82529B6C
+        value = 0x38A0001F
+
+    [[patch.be32]]
+        address = 0x82529B70
+        value = 0x4BFFFFE8
+
+[[patch]]
+    name = "E3 Training pause preload and basic layout"
+    desc = "Experimental: load pause UI for Training and use container 33."
+    author = ""
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x82506844
+        value = 0x60000000
+
+    [[patch.be32]]
+        address = 0x8255B56C
+        value = 0x8255B590
+		
+		[[patch]]
+    name = "stage test"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be32]] #Scramble
+        address = 0x820c72c0
+        value = 0x00000010
+    [[patch.be32]] #HotZone
+        address = 0x820c72c4
+        value = 0x00000011
+    [[patch.be32]] #Sakura
+        address = 0x820c72c8
+        value = 0x00000012
+    [[patch.be32]] #Flow
+        address = 0x820c72cc
+        value = 0x00000013
+    [[patch.be32]] #TheShow
+        address = 0x820c72d0
+        value = 0x00000014
+    [[patch.be32]] #Sweat
+        address = 0x820c72d4
+        value = 0x00000015
+    [[patch.be32]] #Random
+        address = 0x820c72d8
+        value = 0x00000016
+    [[patch.be32]] #Scramble
+        address = 0x820c72dc
+        value = 0x00000017
+    [[patch.be32]] #HotZone
+        address = 0x820c72e0
+        value = 0x00000018
+    [[patch.be32]] #Sakura
+        address = 0x820c72e4
+        value = 0x00000019
+    [[patch.be32]] #Flow
+        address = 0x820c72e8
+        value = 0x0000001a
+    [[patch.be32]] #TheShow
+        address = 0x820c72ec
+        value = 0x0000001b
+    [[patch.be32]] #Sweat
+        address = 0x820c72f0
+        value = 0x0000001c
+
+[[patch]]
+    name = "character test"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be8]] #Kasumi
+        address = 0x82513e3b
+        value = 0x02
+    [[patch.be8]] #Bayman
+        address = 0x82513e47
+        value = 0x06
+    [[patch.be8]] #Kokoro
+        address = 0x82513e53
+        value = 0x07
+    [[patch.be8]] #Zack
+        address = 0x82513e5f
+        value = 0x09
+    [[patch.be8]] #Leifang
+        address = 0x82513e6b
+        value = 0x0e
+    [[patch.be8]] #Ayane
+        address = 0x82513e77
+        value = 0x0f
+    [[patch.be8]] #Hayabusa
+        address = 0x82513e83
+        value = 0x10
+    [[patch.be8]] #Christie
+        address = 0x82513e8f
+        value = 0x13
+    [[patch.be8]] #Akira
+        address = 0x82513e9b
+        value = 0x1d
+    [[patch.be8]] #Tina
+        address = 0x82513ea7
+        value = 0x03
+    [[patch.be8]] #Hitomi
+        address = 0x82513eb3
+        value = 0x11
+    [[patch.be8]] #Hayate
+        address = 0x82513ebf
+        value = 0x1c
+		
+[[patch]]
+    name = "character test supplement"
+    desc = "old"
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x82513554
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513600
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513F28
+        value = 0x82513F84
+    [[patch.be32]]
+        address = 0x8251413C
+        value = 0x82514198
+
+[[patch]]
+    name = "character test supplement array"
+    desc = "replaces "
+    author = "ryu_highabusa"
+    is_enabled = true
+
+    [[patch.be32]]
+        address = 0x82513538
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x8251353c
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513548
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x8251354c
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513550
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513554
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513568
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x8251356c
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513570
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513574
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513578
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x8251357c
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513588
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x8251358c
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513594
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x82513598
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x8251359c
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x825135a0
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x825135a4
+        value = 0x825135B0
+    [[patch.be32]]
+        address = 0x825135a8
+        value = 0x825135B0
+
+		[[patch]]
+    name = "character_select_demo_limit force brach-not-equal attempt"
+    desc = ""
+    author = "ryu_highabusa"
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x8251a548
+        value = 0x2b000001
+
+[[patch]]
+    name = "E3 Rig ID-1D first-slot probe"
+    desc = "One costume, permitted frontend ID, Kasumi face/name fallback. Experimental."
+    author = ""
+    is_enabled = false
+
+    # First slot requests ID 1D; replaces the user's existing ID-07 remap
+    # Reference dump word: 39600007
+    [[patch.be32]]
+        address = 0x82513E38
+        value = 0x3960001D
+
+    # Allow ID 1D
+    # Reference dump word: 825135B4
+    [[patch.be32]]
+        address = 0x825135A4
+        value = 0x825135B0
+
+    # One costume choice for ID 1D
+    # Reference dump word: 82513674
+    [[patch.be32]]
+        address = 0x82513650
+        value = 0x825135B0
+
+    # Kasumi face fallback for ID 1D
+    # Reference dump word: 825140C0
+    [[patch.be32]]
+        address = 0x82513F78
+        value = 0x82513F84
+
+    # Kasumi name fallback for ID 1D
+    # Reference dump word: 825142D0
+    [[patch.be32]]
+        address = 0x8251418C
+        value = 0x82514198
+
+[[patch]]
+    name = "E3 allow identical character and costume"
+    desc = "Experimental: bypass duplicate-pair rejection during costume confirmation."
+    author = ""
+    is_enabled = true
+
+    [[patch.be32]]
+        address = 0x8251ABC0
+        value = 0x39200000
+		
+[[patch]]
+    name = ""
+    desc = "bVar1 = false;"
+    author = ""
+    is_enabled = false
+
+    [[patch.be32]]
+        address = 0x825135b0
+        value = 0x38600000	
