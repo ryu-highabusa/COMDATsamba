@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="2012-02-19_doa5demo_default.xex" EXE_PATH="/D:/doa2hacking/doa5demo/default.xex" EXE_FORMAT="XEX Loader by Warranty Voider" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Mon Sep 28 12:31:11 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sun Oct 25 15:43:04 MDT 2026" />
     <PROCESSOR NAME="PowerPC" LANGUAGE_PROVIDER="PowerPC:BE:64:VLE-32addr:default" ENDIAN="big" />
     <DATATYPES>
         <TYPE_DEF NAME="size_t" NAMESPACE="/stddef.h" DATATYPE="ulong" DATATYPE_NAMESPACE="/" />
@@ -158164,7 +158164,6 @@
         <PROPERTY NAME="Program Information.Executable MD5" TYPE="string" VALUE="a3f3fc4429d62ff22b12d25284901ffb" />
         <PROPERTY NAME="Program Information.Executable SHA256" TYPE="string" VALUE="33afdd5eee7f7f87c46e300a1f6f9576251796aa66b6769b6cac8aad1127a7c1" />
         <PROPERTY NAME="Program Information.FSRL" TYPE="string" VALUE="file:///D:/doa2hacking/doa5demo/default.xex?MD5=a3f3fc4429d62ff22b12d25284901ffb" />
-        <PROPERTY NAME="Program Information.Preferred Root Namespace Category" TYPE="string" VALUE="" />
         <PROPERTY NAME="Program Information.Should Ask To Analyze" TYPE="bool" VALUE="n" />
     </PROPERTIES>
     <BOOKMARKS>

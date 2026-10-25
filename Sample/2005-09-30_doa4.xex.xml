@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="2005-09-30_doa4.xex" EXE_PATH="/D:/doa2hacking/DOA4 E3 Fri Sep 30 20.22.19 2005/DOA4/doa4.xex" EXE_FORMAT="XEX Loader by Warranty Voider" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Mon Sep 28 12:30:09 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sun Oct 25 15:43:28 MDT 2026" />
     <PROCESSOR NAME="PowerPC" LANGUAGE_PROVIDER="PowerPC:BE:64:VLE-32addr:default" ENDIAN="big" />
     <DATATYPES>
         <TYPE_DEF NAME="__gnuc_va_list" NAMESPACE="/stdarg.h" DATATYPE="void *" DATATYPE_NAMESPACE="/" />
@@ -372842,7 +372842,6 @@ d </COMMENT>
         <PROPERTY NAME="Program Information.Executable MD5" TYPE="string" VALUE="d3f3a9871a94ad066626a16fced2abcd" />
         <PROPERTY NAME="Program Information.Executable SHA256" TYPE="string" VALUE="3559fb2ddb87f4f5f43bcb217265005b4b8e16034359b0ec18557db2b8167970" />
         <PROPERTY NAME="Program Information.FSRL" TYPE="string" VALUE="file:///D:/doa2hacking/DOA4 E3 Fri Sep 30 20.22.19 2005/DOA4/doa4.xex?MD5=d3f3a9871a94ad066626a16fced2abcd" />
-        <PROPERTY NAME="Program Information.Preferred Root Namespace Category" TYPE="string" VALUE="" />
     </PROPERTIES>
     <BOOKMARKS>
         <BOOKMARK ADDRESS="82000aa0" TYPE="Analysis" CATEGORY="Address Table" DESCRIPTION="Address table[131] created" />

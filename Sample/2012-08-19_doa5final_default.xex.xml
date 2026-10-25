@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="2012-08-19_doa5final_default.xex" EXE_PATH="/D:/doa2hacking/DOA5ntsc/default.xex" EXE_FORMAT="XEX Loader by Warranty Voider" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Mon Sep 28 12:25:17 MDT 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Sun Oct 25 15:44:20 MDT 2026" />
     <PROCESSOR NAME="PowerPC" LANGUAGE_PROVIDER="PowerPC:BE:64:A2ALT-32addr:default" ENDIAN="big" />
     <DATATYPES>
         <TYPE_DEF NAME="__gnuc_va_list" NAMESPACE="/stdarg.h" DATATYPE="void *" DATATYPE_NAMESPACE="/" />
