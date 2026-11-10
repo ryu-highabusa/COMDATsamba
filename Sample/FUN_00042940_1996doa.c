@@ -57,16 +57,16 @@ void PlayerMotion_ProcessScriptEvent_candidate
   auVar10._20_4_ = &g_player1 + param_1;
   uVar29 = (uint)(&g_player1)[param_1].animation_request;
   uVar27 = 0xffffffff;
-  g_motion_command_decode_pending_P1[param_1] = (uint8_t)g14;
-  (&DAT_0056adb8)[param_1] = (uint8_t)g14;
-  g_motion_next_command_frame_P1[param_1] = 0xffff;
+  g_motion_command_decode_pending[param_1] = (DOA_U8)g14;
+  (&DAT_0056adb8)[param_1] = (DOA_U8)g14;
+  g_motion_next_command_frame[param_1] = 0xffff;
   uVar1 = ac & 0xfffffff8 | (uint)(uVar29 == 0) << 2 | (uint)(uVar29 == 1) << 1;
   ac = uVar1 | 1 < uVar29;
   auVar11._32_32_ = auVar9._32_32_;
   auVar11._0_28_ = auVar10._0_28_;
   auVar11._28_4_ = 0;
   if (((byte)(uVar1 >> 1) & 1) != 1) {
-    uVar29 = (uint)(char)g_motion_script_refresh_request_P1[param_1];
+    uVar29 = (uint)(char)g_motion_script_refresh_request[param_1];
     ac = uVar2 & 0xfffffff8 | (uint)(1 < (int)uVar29) << 2 | (uint)(uVar29 == 1) << 1 |
          (uint)((int)uVar29 < 1);
     if (((byte)ac & 1 | 1 < (int)uVar29) == 1) goto LAB_00042af0;
@@ -101,7 +101,7 @@ void PlayerMotion_ProcessScriptEvent_candidate
     sVar30 = (&DAT_0056ac94)[param_1];
     param_6 = (short *)(int)sVar30;
     (&DAT_0056ac94)[param_1] = sVar18;
-    (&DAT_0056ac44)[param_1] = 2;
+    (&BYTE_0056ac44)[param_1] = 2;
     uVar27 = 1;
     (&DAT_0056adb8)[param_1] = 1;
     (&DAT_0056adc0)[param_1] = param_7;
@@ -114,9 +114,9 @@ void PlayerMotion_ProcessScriptEvent_candidate
     }
   }
   uVar29 = (uint)(&g_player1)[param_1].action_state;
-  (&g_player1)[param_1].animation_flag = (uint8_t)g14;
+  (&g_player1)[param_1].animation_flag = (DOA_U8)g14;
   ac = ac & 0xfffffff8 | (uint)(uVar29 == 0) << 1 | (uint)(uVar29 != 0);
-  (&DAT_0056ac30)[param_1] = (uint8_t)g14;
+  (&DAT_0056ac30)[param_1] = (DOA_U8)g14;
   if (((byte)ac & 1) != 1) {
     uVar29 = (uint)(&g_player1)[param_1].action_code;
     ac = uVar1 & 0xfffffff8 | (uint)(uVar29 == 0) << 1;
@@ -163,7 +163,7 @@ LAB_00042a58:
     if (((byte)ac & 1) != 1) {
       param_6 = (short *)((int)&DWORD_00000000 + 1);
     }
-    (&DAT_0056ac44)[param_1] = 2;
+    (&BYTE_0056ac44)[param_1] = 2;
     uVar27 = DAT_00555604;
     *param_7 = (short)param_6;
     uVar29 = (uint)(short)param_6;
@@ -202,7 +202,7 @@ LAB_00042af0:
       if ((uVar1 & 0xffff) == 0) {
         sVar18 = 1;
       }
-      (&DAT_0056ac44)[iVar17] = 1;
+      (&BYTE_0056ac44)[iVar17] = 1;
       (&DAT_0056adb8)[iVar17] = 1;
       (&DAT_0056ac94)[iVar17] = sVar18;
       (&DAT_0056ade0)[iVar17] = uVar27;
@@ -239,7 +239,7 @@ LAB_00042af0:
       uVar1 = ac;
       if (((byte)(uVar29 >> 1) & 1) != 1) {
         (&DAT_0056ade0)[iVar17] = (&DAT_0056add0)[iVar17];
-        (&DAT_0056ac44)[iVar17] = 1;
+        (&BYTE_0056ac44)[iVar17] = 1;
         (&DAT_0056adb8)[iVar17] = 1;
       }
     }

@@ -1,5 +1,7 @@
 
-undefined4 FUN_00051e70(int param_1)
+/* head/face eligibility check */
+
+undefined4 FighterHead_ShouldDraw(int param_1)
 
 {
   uint uVar1;
@@ -11,7 +13,7 @@ undefined4 FUN_00051e70(int param_1)
   uVar1 = ac;
   uVar4 = 1;
   if (GameMode == MODE_FIGHT) {
-    uVar1 = ac & 0xfffffff8 | (uint)(DAT_0054fcfd != '\0') << 2 | (uint)(DAT_0054fcfd == '\0') << 1;
+    uVar1 = ac & 0xfffffff8 | (uint)(BYTE_0054fcfd != 0) << 2 | (uint)(BYTE_0054fcfd == 0) << 1;
     if (((byte)(uVar1 >> 1) & 1) == 1) {
       fp = unaff_pfp;
       ac = uVar1;
@@ -32,14 +34,14 @@ undefined4 FUN_00051e70(int param_1)
   else if ((byte)(GameMode - MODE_CHARSEL) < 2) {
     ac = ac & 0xfffffff8 | (uint)(GameMode < MODE_NAMELOAD);
     if ((((byte)ac & 1 | MODE_NAMELOAD < GameMode) != 1) &&
-       (ac = uVar1 & 0xfffffff8 | (uint)(DAT_0055561c != '\0') << 2 |
-             (uint)(DAT_0055561c == '\0') << 1, DAT_0055561c == '\0')) {
+       (ac = uVar1 & 0xfffffff8 | (uint)(g_nameentry_load_state_flag_candidate != '\0') << 2 |
+             (uint)(g_nameentry_load_state_flag_candidate == '\0') << 1,
+       g_nameentry_load_state_flag_candidate == '\0')) {
       fp = unaff_pfp;
       return 1;
     }
     if (g_motion_debug_mode == '\0') {
-      uVar1 = ac & 0xfffffff8 | (uint)(DAT_0054fcfd != '\0') << 2 |
-              (uint)(DAT_0054fcfd == '\0') << 1;
+      uVar1 = ac & 0xfffffff8 | (uint)(BYTE_0054fcfd != 0) << 2 | (uint)(BYTE_0054fcfd == 0) << 1;
       if (((byte)(uVar1 >> 1) & 1) == 1) {
         fp = unaff_pfp;
         ac = uVar1;
