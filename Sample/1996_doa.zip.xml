@@ -322,7 +322,7 @@
 
 ]>
 <PROGRAM NAME="1996_doa.zip" EXE_PATH="/C:/Users/CS2/Downloads/mame0249b_64bit/doa1full2.bin" EXE_FORMAT="Raw Binary" IMAGE_BASE="00000000">
-    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Tue Nov 10 22:02:18 MST 2026" />
+    <INFO_SOURCE USER="CS" TOOL="Ghidra 12.1.4" TIMESTAMP="Wed Nov 11 11:43:06 MST 2026" />
     <PROCESSOR NAME="i960" LANGUAGE_PROVIDER="i960:LE:32:default:default" ENDIAN="little" />
     <DATATYPES>
         <FUNCTION_DEF NAME="caseD_0" NAMESPACE="/_CAPTURED_FROM_doa1full2.bin">
@@ -9997,30 +9997,19 @@
         <DEFINED_DATA ADDRESS="00002818" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000281c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00002820" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x30" />
-        <DEFINED_DATA ADDRESS="00002850" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002852" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002854" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002856" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002858" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000285a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000285c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000285e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002860" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002862" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002864" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002866" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002868" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000286a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000286c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000286e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002870" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002872" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002874" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002876" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="00002878" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000287a" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000287c" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
-        <DEFINED_DATA ADDRESS="0000287e" DATATYPE="word" DATATYPE_NAMESPACE="/" SIZE="0x2" />
+        <DEFINED_DATA ADDRESS="00002850" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002854" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002858" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0000285c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002860" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002864" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002868" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0000286c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002870" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002874" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002878" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="0000287c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+        <DEFINED_DATA ADDRESS="00002880" DATATYPE="string" DATATYPE_NAMESPACE="/" SIZE="0x14" />
         <DEFINED_DATA ADDRESS="00002894" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="00002898" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
         <DEFINED_DATA ADDRESS="0000289c" DATATYPE="dword" DATATYPE_NAMESPACE="/" SIZE="0x4" />
@@ -347097,6 +347086,8 @@
             <EQUATE NAME="12" VALUE="0xc" />
             <EQUATE NAME="0x9_Hit_Stun" VALUE="0x9" />
             <EQUATE NAME="0xE_Down_Attack" VALUE="0xe" />
+            <EQUATE NAME="0x3C" VALUE="0x3c" />
+            <EQUATE NAME="0x1E" VALUE="0x1e" />
         </EQUATE_GROUP>
     </EQUATES>
     <COMMENTS>
@@ -347505,6 +347496,7 @@ Ultimately, this function strips away any attack button inputs to see only where
         <COMMENT ADDRESS="000321dc" TYPE="end-of-line">0.029999999f</COMMENT>
         <COMMENT ADDRESS="000369f8" TYPE="end-of-line">100.00f</COMMENT>
         <COMMENT ADDRESS="0003d698" TYPE="end-of-line">100.00f</COMMENT>
+        <COMMENT ADDRESS="0003ec48" TYPE="plate">model viewer</COMMENT>
         <COMMENT ADDRESS="0003fd50" TYPE="plate">Clamps a signed DOA_ANGLE away from the exclusion interval selected from mode0/mode1/mode2. The two table pointers in each character/part entry correspond to the two processed angle components.</COMMENT>
         <COMMENT ADDRESS="000403ac" TYPE="end-of-line">1.00f</COMMENT>
         <COMMENT ADDRESS="00040438" TYPE="end-of-line">10.00f</COMMENT>
@@ -348814,26 +348806,26 @@ RAM value          = 0.252135038</COMMENT>
         <PROPERTY NAME="Program Information.Analysis Times.Times" TYPE="custom" VALUE="&amp;lt;SAVE_STATE&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;ASCII Strings&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;7803&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Apply Data Archives&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;121&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Basic Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;82785&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Basic Constant Reference Analyzer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;82795&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;CUSTOM_OPTION_CLASS&amp;quot; TYPE=&amp;quot;string&amp;quot; VALUE=&amp;quot;ghidra.app.plugin.core.analysis.StoredAnalyzerTimes&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;136&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;129&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call Convention ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;138&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Call-Fixup Installer&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;140&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;7&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Create Address Tables - One Time&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;108593&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Create Function&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1725&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;22563&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;403147&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Create Function&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1727&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Data Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;22565&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Decompiler Parameter ID&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;405622&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Decompiler Switch Analysis&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;340231&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Demangler GNU&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Disassemble Entry Points&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Embedded Media&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1311&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;External Entry References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;0&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Function Start Search&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2457&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Non-Returning Functions - Discovered&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2230&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Non-Returning Functions - Discovered&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;2231&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Reference&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;19741&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Scalar Operand References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;5014&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1756&amp;quot; /&amp;gt;
-    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10374&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Scalar Operand References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;5015&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Shared Return Calls&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;1768&amp;quot; /&amp;gt;
+    &amp;lt;STATE NAME=&amp;quot;Stack&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;10430&amp;quot; /&amp;gt;
     &amp;lt;STATE NAME=&amp;quot;Subroutine References&amp;quot; TYPE=&amp;quot;long&amp;quot; VALUE=&amp;quot;4293&amp;quot; /&amp;gt;
 &amp;lt;/SAVE_STATE&amp;gt;" />
         <PROPERTY NAME="Program Information.Analyzed" TYPE="bool" VALUE="y" />
@@ -361882,7 +361874,10 @@ RAM value          = 0.252135038</COMMENT>
         <BOOKMARK ADDRESS="00008da0" TYPE="Note" CATEGORY="problem_areas" DESCRIPTION="scroll_allocation_error_cutofftext??" />
         <BOOKMARK ADDRESS="00013b50" TYPE="Note" CATEGORY="problem_areas" DESCRIPTION="WORD_02159094_whatthehellisthis???" />
         <BOOKMARK ADDRESS="0001496c" TYPE="Note" CATEGORY="IMPORTANT" DESCRIPTION="0xa0100b BGM_SELECT" />
+        <BOOKMARK ADDRESS="0001ed80" TYPE="Note" CATEGORY="codecaves" DESCRIPTION="0001ed80" />
+        <BOOKMARK ADDRESS="00025130" TYPE="Note" CATEGORY="codecaves" DESCRIPTION="00025130" />
         <BOOKMARK ADDRESS="00026458" TYPE="Note" CATEGORY="calls" DESCRIPTION="demo_act_set during attract-gameplay initialization" />
+        <BOOKMARK ADDRESS="00026af0" TYPE="Note" CATEGORY="codecaves" DESCRIPTION="00026af0" />
         <BOOKMARK ADDRESS="0207aea0" TYPE="Note" CATEGORY="0207aea0_model_entry" DESCRIPTION="byte offset in textures.bin = value * 2" />
         <BOOKMARK ADDRESS="020c02f0" TYPE="Note" CATEGORY="arrays_to_finish" DESCRIPTION="leftoffhere" />
         <BOOKMARK ADDRESS="06002600" TYPE="Warning" CATEGORY="Unimplemented Pcode" DESCRIPTION="Instruction pcode is unimplemented: syscall" />
@@ -362132,6 +362127,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="0001fd40" NAME="caseD_7" NAMESPACE="switchD_0001fd0c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0001fd40" NAME="caseD_9" NAMESPACE="switchD_0001fd0c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
         <SYMBOL ADDRESS="0001fd40" NAME="caseD_a" NAMESPACE="switchD_0001fd0c::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="n" />
+        <SYMBOL ADDRESS="0001fea0" NAME="Battle_PostProcessPlayerState_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0001ff50" NAME="Battle_ProcessPlayerActionRequests" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="0001ff80" NAME="switchD" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="0001ff84" NAME="switchdataD_0001ff84" NAMESPACE="switchD_0001ff80::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -362184,7 +362180,7 @@ RAM value          = 0.252135038</COMMENT>
         <SYMBOL ADDRESS="000233dc" NAME="caseD_2" NAMESPACE="switchD_00023394::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00023400" NAME="caseD_3" NAMESPACE="switchD_00023394::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00023418" NAME="caseD_4" NAMESPACE="switchD_00023394::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
-        <SYMBOL ADDRESS="00023800" NAME="Battle_FinalizePlayerFrame_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
+        <SYMBOL ADDRESS="00023800" NAME="Battle_ProcessPendingPlayerDamage_candidate" NAMESPACE="" TYPE="global" SOURCE_TYPE="USER_DEFINED" PRIMARY="y" />
         <SYMBOL ADDRESS="00023894" NAME="switchD" NAMESPACE="switchD_00023894::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="00023898" NAME="switchdataD_00023898" NAMESPACE="switchD_00023894::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
         <SYMBOL ADDRESS="000238bc" NAME="caseD_8" NAMESPACE="switchD_00023894::" TYPE="global" SOURCE_TYPE="ANALYSIS" PRIMARY="y" />
@@ -366471,6 +366467,11 @@ Spawn spacing is adjusted when Raidou is involved.</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_0001ece0(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
+        <FUNCTION ENTRY_POINT="0001ed80" NAME="FUN_0001ed80" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="0001ed80" END="0001ed83" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_0001ed80(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
         <FUNCTION ENTRY_POINT="0001ed90" NAME="UpdateHealthBarDamageAnimation" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0001ed90" END="0001f32b" />
             <REGULAR_CMT>Detect combo lifecycle changes for both players.
@@ -366504,9 +366505,9 @@ Transfer g_redBarFirst to g_redBarFade when appropriate.</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_0001fb80(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="0001fea0" NAME="FUN_0001fea0" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="0001fea0" NAME="Battle_PostProcessPlayerState_candidate" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0001fea0" END="0001ff43" />
-            <TYPEINFO_CMT>undefined __stdcall FUN_0001fea0(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>undefined __stdcall Battle_PostProcessPlayerState_candidate(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="0001ff50" NAME="Battle_ProcessPlayerActionRequests" LIBRARY_FUNCTION="n">
@@ -366691,10 +366692,11 @@ Flag 3 means that command has been accepted or is being processed.</REGULAR_CMT>
             <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
-        <FUNCTION ENTRY_POINT="00023800" NAME="Battle_FinalizePlayerFrame_candidate" LIBRARY_FUNCTION="n">
+        <FUNCTION ENTRY_POINT="00023800" NAME="Battle_ProcessPendingPlayerDamage_candidate" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="void" DATATYPE_NAMESPACE="/" SIZE="0x0" />
             <ADDRESS_RANGE START="00023800" END="00023897" />
             <ADDRESS_RANGE START="000238bc" END="00023a2f" />
-            <TYPEINFO_CMT>undefined __stdcall Battle_FinalizePlayerFrame_candidate(void)</TYPEINFO_CMT>
+            <TYPEINFO_CMT>void __stdcall Battle_ProcessPendingPlayerDamage_candidate(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00023a30" NAME="FUN_00023a30" LIBRARY_FUNCTION="n">
@@ -366864,6 +366866,12 @@ Flag 3 means that command has been accepted or is being processed.</REGULAR_CMT>
             <TYPEINFO_CMT>undefined __stdcall FUN_000250a0(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
+        <FUNCTION ENTRY_POINT="00025130" NAME="FUN_00025130" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="undefined4" DATATYPE_NAMESPACE="/" SIZE="0x4" />
+            <ADDRESS_RANGE START="00025130" END="00025137" />
+            <TYPEINFO_CMT>undefined4 __stdcall FUN_00025130(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
         <FUNCTION ENTRY_POINT="00025140" NAME="FUN_00025140" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00025140" END="00025203" />
             <TYPEINFO_CMT>undefined __stdcall FUN_00025140(uint param_1)</TYPEINFO_CMT>
@@ -366991,6 +366999,11 @@ reaction_index = (action_code + 0x78) &amp; 0xFF;</REGULAR_CMT>
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="byte" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="int" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="00026af0" NAME="FUN_00026af0" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="00026af0" END="00026af3" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_00026af0(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00026b00" NAME="FUN_00026b00" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00026b00" END="00026b33" />
@@ -367137,6 +367150,11 @@ reaction_index = (action_code + 0x78) &amp; 0xFF;</REGULAR_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="00028d50" NAME="FUN_00028d50" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="00028d50" END="00028da3" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_00028d50(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00028db0" NAME="FUN_00028db0" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00028db0" END="00028dd3" />
@@ -367426,6 +367444,14 @@ reaction_index = (action_code + 0x78) &amp; 0xFF;</REGULAR_CMT>
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
+        <FUNCTION ENTRY_POINT="0002c6d0" NAME="FUN_0002c6d0" LIBRARY_FUNCTION="n">
+            <RETURN_TYPE DATATYPE="bool" DATATYPE_NAMESPACE="/" SIZE="0x1" />
+            <ADDRESS_RANGE START="0002c6d0" END="0002c6f3" />
+            <ADDRESS_RANGE START="0002c708" END="0002c7c3" />
+            <TYPEINFO_CMT>bool __stdcall FUN_0002c6d0(uint param_1)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
         <FUNCTION ENTRY_POINT="0002c7d0" NAME="FUN_0002c7d0" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0002c7d0" END="0002c987" />
             <ADDRESS_RANGE START="0002c99c" END="0002caab" />
@@ -367465,6 +367491,11 @@ reaction_index = (action_code + 0x78) &amp; 0xFF;</REGULAR_CMT>
             <ADDRESS_RANGE START="0002d060" END="0002d08f" />
             <ADDRESS_RANGE START="0002d0a4" END="0002d183" />
             <TYPEINFO_CMT>undefined __stdcall FUN_0002d060(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="0002d190" NAME="FUN_0002d190" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="0002d190" END="0002d243" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_0002d190(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="0002d250" NAME="FUN_0002d250" LIBRARY_FUNCTION="n">
@@ -367850,6 +367881,14 @@ Ultimately, this function strips away any attack button inputs to see only where
             <ADDRESS_RANGE START="000303d0" END="00030623" />
             <TYPEINFO_CMT>undefined __stdcall Battle_ResolveInteractionPriority(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="00030630" NAME="FUN_00030630" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="00030630" END="0003070b" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_00030630(undefined4 param_1, undefined4 param_2, undefined4 param_3)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="undefined4" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="00030710" NAME="FUN_00030710" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="00030710" END="00030a03" />
@@ -369628,6 +369667,15 @@ Selects the character resource table, initializes model-part entries, and applie
             </STACK_FRAME>
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
+        <FUNCTION ENTRY_POINT="00045740" NAME="FUN_00045740" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="00045740" END="000457c7" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_00045740(int param_1, int param_2, int param_3, int * param_4)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_4" REGISTER="g3" DATATYPE="int *" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
         <FUNCTION ENTRY_POINT="000457d0" NAME="FUN_000457d0" LIBRARY_FUNCTION="n">
             <RETURN_TYPE DATATYPE="uint" DATATYPE_NAMESPACE="/" SIZE="0x4" />
             <ADDRESS_RANGE START="000457d0" END="00045813" />
@@ -369850,12 +369898,24 @@ Selects the character resource table, initializes model-part entries, and applie
         <FUNCTION ENTRY_POINT="0004c9c0" NAME="FUN_0004c9c0" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0004c9c0" END="0004c9f7" />
             <ADDRESS_RANGE START="0004ca00" END="0004cac7" />
-            <ADDRESS_RANGE START="0004cae0" END="0004cbeb" />
             <TYPEINFO_CMT>undefined __stdcall FUN_0004c9c0(int param_1, int param_2, int param_3)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
             <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="int" DATATYPE_NAMESPACE="/" />
             <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="0004cad0" NAME="FUN_0004cad0" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="0004cad0" END="0004cad3" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_0004cad0(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="0004cae0" NAME="FUN_0004cae0" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="0004cae0" END="0004cbeb" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_0004cae0(int param_1, int param_2, uint param_3)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+            <REGISTER_VAR NAME="param_1" REGISTER="g0" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_2" REGISTER="g1" DATATYPE="int" DATATYPE_NAMESPACE="/" />
+            <REGISTER_VAR NAME="param_3" REGISTER="g2" DATATYPE="uint" DATATYPE_NAMESPACE="/" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="0004cbf0" NAME="FUN_0004cbf0" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0004cbf0" END="0004ccd3" />
@@ -369976,6 +370036,11 @@ Selects the character resource table, initializes model-part entries, and applie
         <FUNCTION ENTRY_POINT="0004dcb0" NAME="FUN_0004dcb0" LIBRARY_FUNCTION="n">
             <ADDRESS_RANGE START="0004dcb0" END="0004dda7" />
             <TYPEINFO_CMT>undefined __stdcall FUN_0004dcb0(void)</TYPEINFO_CMT>
+            <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
+        </FUNCTION>
+        <FUNCTION ENTRY_POINT="0004ddb0" NAME="FUN_0004ddb0" LIBRARY_FUNCTION="n">
+            <ADDRESS_RANGE START="0004ddb0" END="0004de5b" />
+            <TYPEINFO_CMT>undefined __stdcall FUN_0004ddb0(void)</TYPEINFO_CMT>
             <STACK_FRAME LOCAL_VAR_SIZE="-0x40" PARAM_OFFSET="0x40" RETURN_ADDR_SIZE="0x0" />
         </FUNCTION>
         <FUNCTION ENTRY_POINT="0004de70" NAME="MotionDebug_SnapshotPlayersAndDrawAnimeId" LIBRARY_FUNCTION="n">
@@ -374243,6 +374308,8 @@ alternative: GameSettings_LoadServiceMenuBuffer</REGULAR_CMT>
         <EQUATE_REFERENCE ADDRESS="0000836c" OPERAND_INDEX="0x0" NAME="12" VALUE="0xc" />
         <EQUATE_REFERENCE ADDRESS="00020f90" OPERAND_INDEX="0x0" NAME="0x9_Hit_Stun" VALUE="0x9" />
         <EQUATE_REFERENCE ADDRESS="0001ff74" OPERAND_INDEX="0x0" NAME="0xE_Down_Attack" VALUE="0xe" />
+        <EQUATE_REFERENCE ADDRESS="000044b4" OPERAND_INDEX="0xffff" NAME="0x3C" VALUE="0x3c" />
+        <EQUATE_REFERENCE ADDRESS="000044c0" OPERAND_INDEX="0xffff" NAME="0x1E" VALUE="0x1e" />
     </MARKUP>
     <EXT_LIBRARY_TABLE />
 </PROGRAM>

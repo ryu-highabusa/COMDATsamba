@@ -19,7 +19,7 @@ undefined1 FUN_000252e0(uint param_1)
     if (((byte)(uVar1 >> 1) & 1) != 1) {
       fp = unaff_pfp;
       return g_attack_metadata_table_by_character[(&g_player1)[uVar4].character_id]
-             [(uint)(byte)(&DAT_00557f82)[uVar4] * 0x14 + 0x12];
+             [(uint)(byte)g_active_attack_property_index[uVar4] * 0x14 + 0x12];
     }
   }
   else {
@@ -54,7 +54,7 @@ undefined1 FUN_000252e0(uint param_1)
     }
   }
   fp = unaff_pfp;
-  return g_character_combat_record_table_candidate[(&g_player1)[uVar4].character_id]
-         [(uint)(byte)(&DAT_00557f82)[uVar4] * 0x14 + 2];
+  return g_attack_property_tables_by_character[(&g_player1)[uVar4].character_id]
+         [(uint)(byte)g_active_attack_property_index[uVar4] * 0x14 + 2];
 }
 
