@@ -12,7 +12,7 @@ void Battle_ResetBothPlayersForRound(void)
   undefined4 unaff_pfp;
   
   uVar1 = ac;
-  if (((g_player1.character_id == name_raidou) && (DAT_005555dd == '\0')) &&
+  if (((g_player1.character_id == CHAR_RAIDOU) && (g_total_round_results_candidate == 0)) &&
      ((g_player1.controller_type == COM || (g_player2._0_2_ != 0xb00)))) {
     g_player1.x_position = -0.74;
   }
@@ -72,12 +72,13 @@ void Battle_ResetBothPlayersForRound(void)
   g_player1.combo_count = g14._0_1_;
   g_player1.combo_start = g14._0_1_;
   g_player1.cancel_use = g14._0_1_;
-  ac = ac & 0xfffffff8 | (uint)(name_raidou < g_player2.character_id) << 2 |
-       (uint)(g_player2.character_id == name_raidou) << 1 |
-       (uint)(g_player2.character_id < name_raidou);
-  if ((((byte)ac & 1 | name_raidou < g_player2.character_id) == 1) ||
-     (ac = uVar1 & 0xfffffff8 | (uint)(DAT_005555dd != '\0') << 2 |
-           (uint)(DAT_005555dd == '\0') << 1, DAT_005555dd != '\0')) {
+  ac = ac & 0xfffffff8 | (uint)(CHAR_RAIDOU < g_player2.character_id) << 2 |
+       (uint)(g_player2.character_id == CHAR_RAIDOU) << 1 |
+       (uint)(g_player2.character_id < CHAR_RAIDOU);
+  if ((((byte)ac & 1 | CHAR_RAIDOU < g_player2.character_id) == 1) ||
+     (ac = uVar1 & 0xfffffff8 | (uint)(g_total_round_results_candidate != 0) << 2 |
+           (uint)(g_total_round_results_candidate == 0) << 1, g_total_round_results_candidate != 0))
+  {
 LAB_00018c64:
     g_player2.x_position = SUB104((float10)'\x01',0);
   }
