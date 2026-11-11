@@ -3,8 +3,9 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_0001ff50(undefined4 param_1,undefined4 param_2,undefined4 param_3,uint param_4,
-                 undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8)
+void Battle_ProcessPlayerActionRequests
+               (undefined4 param_1,undefined4 param_2,undefined4 param_3,uint param_4,
+               undefined4 param_5,undefined4 param_6,undefined4 param_7,undefined4 param_8)
 
 {
   uint uVar1;
@@ -91,7 +92,7 @@ switchD_0001ff80_caseD_5:
         auVar5._0_4_ = (iVar24 + 0x3fU & 0xffffffc0) + 0x40;
         auVar5._60_4_ = 0;
         auVar5 = auVar5 << 0x20;
-        FUN_00020040(uVar26);
+        Player_ProcessNeutralActionRequest(uVar26);
         auVar25 = auVar5._4_60_;
         param_2 = extraout_g1;
         fp = iVar24 + 0x3fU & 0xffffffc0;
@@ -120,7 +121,7 @@ switchD_0001ff80_caseD_5:
         auVar7._0_4_ = (iVar24 + 0x3fU & 0xffffffc0) + 0x40;
         auVar7._60_4_ = 0;
         auVar7 = auVar7 << 0x20;
-        FUN_00020750(uVar26);
+        Player_ProcessAttackActionRequest(uVar26);
         auVar25 = auVar7._4_60_;
         param_2 = extraout_g1_00;
         fp = iVar24 + 0x3fU & 0xffffffc0;
@@ -151,7 +152,7 @@ switchD_0001ff80_caseD_5:
         auVar9._0_4_ = (iVar24 + 0x3fU & 0xffffffc0) + 0x40;
         auVar9._60_4_ = 0;
         auVar9 = auVar9 << 0x20;
-        FUN_00020b40(uVar26);
+        Player_ProcessBlockStunState(uVar26);
         auVar25 = auVar9._4_60_;
         param_2 = extraout_g1_01;
         fp = iVar24 + 0x3fU & 0xffffffc0;
@@ -166,7 +167,7 @@ switchD_0001ff80_caseD_5:
         auVar11._0_4_ = (iVar24 + 0x3fU & 0xffffffc0) + 0x40;
         auVar11._60_4_ = 0;
         auVar11 = auVar11 << 0x20;
-        FUN_00020cb0(uVar26);
+        Player_ProcessCriticalOrHitStunState(uVar26);
         auVar25 = auVar11._4_60_;
         param_2 = extraout_g1_02;
         fp = iVar24 + 0x3fU & 0xffffffc0;
