@@ -1,6 +1,7 @@
 
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
+/* Decides when to align a player toward the opponent */
 
 void Battle_UpdatePlayerDirectionAdjustments_candidate(void)
 
