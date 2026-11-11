@@ -66,7 +66,7 @@ void Game_InitializeAndRunMainLoop(void)
   iVar42 = DAT_0054fadc;
   DWORD_0054f3b4 = g14;
   DWORD_0054f3bc = g14;
-  DWORD_0054f3b8 = DAT_0054fbf8;
+  uint32_t_0054f3b8 = uint32_t_0054fbf8;
   DWORD_0054f3d0 = g14;
   DWORD_0054f3c0 = g14;
   DWORD_0054f3c8 = g14;
@@ -180,7 +180,7 @@ void Game_InitializeAndRunMainLoop(void)
   auVar4._20_4_ = iVar42;
   auVar4._24_40_ = in_register_00000018;
   *pauVar44 = auVar4;
-  FUN_00004320();
+  GameConfig_InitializeRuntime_candidate();
   fp = pauVar44 + 2;
   auVar5._4_4_ = pauVar43;
   auVar5._0_4_ = pauVar44;
@@ -192,12 +192,11 @@ void Game_InitializeAndRunMainLoop(void)
   pauVar44[1] = auVar5;
   Task_RegisterOrReplace(&LAB_00005560,1);
   uVar48 = ac;
-  ac = ac & 0xfffffff8 | (uint)(EXPORT < SettingsGameMode_Nation) << 2 |
-       (uint)(SettingsGameMode_Nation == EXPORT) << 1 | (uint)(SettingsGameMode_Nation < EXPORT);
-  if (((byte)ac & 1 | EXPORT < SettingsGameMode_Nation) == 1) {
-    uVar48 = uVar48 & 0xfffffff8 | (uint)(USA < SettingsGameMode_Nation) << 2;
-    ac = uVar48 | (uint)(SettingsGameMode_Nation == USA) << 1 |
-         (uint)(SettingsGameMode_Nation == JAPAN);
+  ac = ac & 0xfffffff8 | (uint)(EXPORT < g_effective_nation) << 2 |
+       (uint)(g_effective_nation == EXPORT) << 1 | (uint)(g_effective_nation < EXPORT);
+  if (((byte)ac & 1 | EXPORT < g_effective_nation) == 1) {
+    uVar48 = uVar48 & 0xfffffff8 | (uint)(USA < g_effective_nation) << 2;
+    ac = uVar48 | (uint)(g_effective_nation == USA) << 1 | (uint)(g_effective_nation == JAPAN);
     SplashScreen = WarningNotForExport;
     pauVar47 = pauVar44 + 3;
     if (((byte)ac & 1 | (byte)(uVar48 >> 2) & 1) != 1) {
@@ -317,10 +316,10 @@ void Game_InitializeAndRunMainLoop(void)
     pauVar47 = pauVar47 + 2;
     fp = pauVar45;
   }
-  ac = uVar49 & 0xfffffff8 | (uint)(EXPORT < SettingsGameMode_Nation) << 2 |
-       (uint)(SettingsGameMode_Nation == EXPORT) << 1 | (uint)(SettingsGameMode_Nation < EXPORT);
+  ac = uVar49 & 0xfffffff8 | (uint)(EXPORT < g_effective_nation) << 2 |
+       (uint)(g_effective_nation == EXPORT) << 1 | (uint)(g_effective_nation < EXPORT);
   pauVar45 = pauVar47;
-  if (((byte)ac & 1 | EXPORT < SettingsGameMode_Nation) != 1) {
+  if (((byte)ac & 1 | EXPORT < g_effective_nation) != 1) {
     auVar15._4_4_ = pauVar47;
     auVar15._0_4_ = pauVar43;
     auVar15._8_4_ = 0x2e44;
