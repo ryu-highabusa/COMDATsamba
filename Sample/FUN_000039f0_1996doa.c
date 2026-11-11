@@ -510,7 +510,7 @@ LAB_00003d40:
     *(undefined1 (*) [64])((uint)fp & 0xffffffc0) = auVar18;
     auVar17._8_56_ = auVar18._8_56_;
     auVar17._0_8_ = CONCAT44(uVar1,fp) & 0xffffffc0ffffffff;
-    FUN_00008320(3);
+    Task_DisableSlot(3);
     auVar19._12_52_ = auVar17._12_52_;
     auVar19._0_8_ = auVar17._0_8_;
     auVar19._8_4_ = 0x3b24;
@@ -518,7 +518,7 @@ LAB_00003d40:
     auVar6._8_56_ = auVar19._8_56_;
     auVar6._4_4_ = (undefined1 *)0x0;
     auVar6._0_4_ = uVar1 & 0xffffffc0;
-    FUN_00008320(0xd);
+    Task_DisableSlot(0xd);
     BYTE_0054fcfe = (DOA_MANCOM)g14;
     DWORD_0054f3c0 = g14;
     DWORD_0054f3c8 = g14;
