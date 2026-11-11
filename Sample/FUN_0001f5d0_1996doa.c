@@ -36,8 +36,8 @@ void FUN_0001f5d0(void)
       ((byte)ac & 1 | 0xD_SPECIALMOVE < g_player1.action_state) != 1)) &&
      (ac = uVar5 & 0xfffffff8 | (uint)(g_player1.mount_state == '\0'), uVar1 = ac,
      ((byte)ac & 1 | 1 < g_player1.mount_state) != 1)) {
-    BYTE_0054fd13 = 1;
-    g_roundEndTriggered = 1;
+    g_selectedPlayerSide_candidate = 1;
+    BYTE_005555e3 = 1;
     uVar1 = uVar5 & 0xfffffff8 | (uint)(GameMode < MODE_CHARSEL) << 2 |
             (uint)(GameMode == MODE_CHARSEL) << 1;
     ac = uVar1 | MODE_CHARSEL < GameMode;
@@ -54,8 +54,8 @@ void FUN_0001f5d0(void)
       fp = (undefined1 *)register0x00000004;
     }
     auVar7._16_4_ = 0;
-    g_greatestEligibleP1 = g14;
-    g_greatestEligibleP2 = g14;
+    BYTE_00557ee8 = g14;
+    BYTE_00557ee9 = g14;
     uVar1 = ac;
   }
   ac = uVar1;
@@ -64,8 +64,8 @@ void FUN_0001f5d0(void)
   if ((((byte)(g_player2.action_code - 0x34) < 0xc) &&
       (uVar1 = ac & 0xfffffff8, g_player2.action_state == 0xD_SPECIALMOVE)) &&
      (uVar1 = ac & 0xfffffff8, g_player2.mount_state == '\x01')) {
-    g_roundEndTriggered = 1;
-    BYTE_0054fd13 = g14;
+    BYTE_005555e3 = 1;
+    g_selectedPlayerSide_candidate = g14;
     uVar1 = ac & 0xfffffff8 | (uint)(GameMode < MODE_CHARSEL) << 2 |
             (uint)(GameMode == MODE_CHARSEL) << 1;
     ac = uVar1 | MODE_CHARSEL < GameMode;
@@ -83,20 +83,20 @@ void FUN_0001f5d0(void)
       fp = puVar4;
     }
     if (iVar12 == 0) {
-      BYTE_0054fd13 = 2;
+      g_selectedPlayerSide_candidate = 2;
     }
     else {
       auVar7._16_4_ = 1;
     }
-    g_greatestEligibleP1 = g14;
-    g_greatestEligibleP2 = g14;
+    BYTE_00557ee8 = g14;
+    BYTE_00557ee9 = g14;
     uVar1 = ac & 0xfffffff8;
   }
   ac = uVar1;
   iVar12 = auVar7._16_4_;
   if ((float10)(int)g_player1.y_position <= (float10)'\0') {
-    BYTE_0054fd13 = 1;
-    g_roundEndTriggered = 1;
+    g_selectedPlayerSide_candidate = 1;
+    BYTE_005555e3 = 1;
     uVar1 = ac | (uint)(GameMode < MODE_CHARSEL) << 2 | (uint)(GameMode == MODE_CHARSEL) << 1;
     ac = uVar1 | MODE_CHARSEL < GameMode;
     SPRT_DAT = ringout;
@@ -114,13 +114,13 @@ void FUN_0001f5d0(void)
     }
     ac = ac & 0xfffffff8;
     if (iVar12 == 1) {
-      BYTE_0054fd13 = 2;
+      g_selectedPlayerSide_candidate = 2;
     }
     else {
       auVar7._16_4_ = 0;
     }
-    g_greatestEligibleP1 = g14;
-    g_greatestEligibleP2 = g14;
+    BYTE_00557ee8 = g14;
+    BYTE_00557ee9 = g14;
   }
   iVar12 = auVar7._16_4_;
   fVar2 = (float10)(int)g_player2.y_position;
@@ -131,8 +131,8 @@ void FUN_0001f5d0(void)
     ac = ac | fVar2 < fVar3;
   }
   if (((byte)(ac >> 2) & 1) != 1) {
-    g_roundEndTriggered = 1;
-    BYTE_0054fd13 = g14;
+    BYTE_005555e3 = 1;
+    g_selectedPlayerSide_candidate = g14;
     uVar1 = ac & 0xfffffff8 | (uint)(GameMode < MODE_CHARSEL) << 2 |
             (uint)(GameMode == MODE_CHARSEL) << 1;
     ac = uVar1 | MODE_CHARSEL < GameMode;
@@ -149,10 +149,10 @@ void FUN_0001f5d0(void)
     }
     ac = ac & 0xfffffff8 | (uint)(0 < iVar12) << 2 | (uint)(iVar12 == 0) << 1 | (uint)(iVar12 < 0);
     if (((byte)ac & 1 | 0 < iVar12) != 1) {
-      BYTE_0054fd13 = 2;
+      g_selectedPlayerSide_candidate = 2;
     }
-    g_greatestEligibleP1 = g14;
-    g_greatestEligibleP2 = g14;
+    BYTE_00557ee8 = g14;
+    BYTE_00557ee9 = g14;
   }
   fp = (undefined1 *)auVar7._0_4_;
   return;
