@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_000214d0(void)
+void Battle_ResolvePlayerHitInteractions_candidate(void)
 
 {
   undefined8 uVar1;
