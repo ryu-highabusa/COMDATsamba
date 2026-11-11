@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-void FUN_000207f0(uint param_1)
+void Player_ProcessGrappleActionState_candidate(uint param_1)
 
 {
   bool bVar1;
@@ -88,7 +88,7 @@ void FUN_000207f0(uint param_1)
         ac = uVar7 & 0xfffffff8 |
              (uint)((&g_player1)[auVar11._28_4_].action_state < 0xA_THROWCAUGHT);
         if ((((byte)ac & 1 | 0xA_THROWCAUGHT < (&g_player1)[auVar11._28_4_].action_state) != 1) &&
-           (ac = uVar7 & 0xfffffff8 | (uint)((&g_player1)[auVar11._28_4_].grapple_slip == Uknown0),
+           (ac = uVar7 & 0xfffffff8 | (uint)((&g_player1)[auVar11._28_4_].grapple_slip == Unknown0),
            ((byte)ac & 1 | Unknown1 < (&g_player1)[auVar11._28_4_].grapple_slip) != 1)) {
           DVar5 = (&g_player1)[auVar11._28_4_].action_code;
           ac = uVar7 & 0xfffffff8 | (uint)(DVar5 < 0x4e) << 2 | (uint)(DVar5 == 0x4e) << 1 |
@@ -115,7 +115,7 @@ void FUN_000207f0(uint param_1)
         if (cVar31 == '\x04') {
           DVar4 = (&g_player1)[auVar11._28_4_].grapple_slip;
           ac = ac & 0xfffffff8 | (uint)(Unknown1 < DVar4) << 2 | (uint)(DVar4 == Unknown1) << 1 |
-               (uint)(DVar4 == Uknown0);
+               (uint)(DVar4 == Unknown0);
           if (((byte)ac & 1 | Unknown1 < DVar4) == 1) {
             fp = &auStack_40;
             auVar15._8_4_ = 0x20888;
@@ -158,7 +158,7 @@ LAB_000208c0:
             else {
               DVar4 = (&g_player1)[auVar11._28_4_].grapple_slip;
               ac = uVar7 & 0xfffffff8 | (uint)(Unknown1 < DVar4) << 2 |
-                   (uint)(DVar4 == Unknown1) << 1 | (uint)(DVar4 == Uknown0);
+                   (uint)(DVar4 == Unknown1) << 1 | (uint)(DVar4 == Unknown0);
               if (((byte)ac & 1 | Unknown1 < DVar4) == 1) goto LAB_000208c0;
               (&g_player1)[auVar11._28_4_].grapple_slip = g14;
               (&g_player1)[auVar11._28_4_].action_request =
