@@ -2,7 +2,7 @@
 /* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
 /* WARNING: Restarted to delay deadcode elimination for space: register */
 
-undefined1 FUN_00021bc0(uint param_1)
+undefined1 Battle_ResolveHitForPlayer_candidate(uint param_1)
 
 {
   uint uVar1;
@@ -312,8 +312,8 @@ undefined1 FUN_00021bc0(uint param_1)
   auVar32._28_36_ = auVar31._28_36_;
   auVar32._0_24_ = auVar31._0_24_;
   auVar32._24_4_ = uVar129;
-  (&DAT_00557f82)[auVar19._40_4_] = (char)uVar129;
-  (&DAT_00557f24)[auVar19._40_4_] = (&g_player1)[auVar19._40_4_].action_code;
+  g_active_attack_property_index[auVar19._40_4_] = (char)uVar129;
+  (&g_attack_actcode_at_contact)[auVar19._40_4_] = (&g_player1)[auVar19._40_4_].action_code;
   auVar33._56_8_ = auVar31._56_8_;
   auVar33._0_52_ = auVar32._0_52_;
   auVar33._52_4_ = 3;
